@@ -79,11 +79,14 @@ pip install -r requirements.txt
 If you use this code in your research, please cite our paper:
 
 ```
-@article{bayer2024activellm,
-  title={ActiveLLM: Large Language Model-based Active Learning for Textual Few-Shot Scenarios},
-  author={Markus Bayer and Christian Reuter},
-  journal={arXiv preprint arXiv:XXXX.XXXX},
-  year={2024}
+@misc{bayer2024activellmlargelanguagemodelbased,
+      title={ActiveLLM: Large Language Model-based Active Learning for Textual Few-Shot Scenarios}, 
+      author={Markus Bayer and Christian Reuter},
+      year={2024},
+      eprint={2405.10808},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.10808}, 
 }
 ```
 
