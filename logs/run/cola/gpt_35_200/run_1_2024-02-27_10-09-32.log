@@ -1,0 +1,20 @@
+10:09:36,719 filelock INFO Lock 1583435762128 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_cola_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:09:36,720 filelock INFO Lock 1583435762128 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_cola_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:09:36,722 filelock INFO Lock 1583435805600 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/cola/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:09:36,723 filelock INFO Lock 1583435805600 released on C:/Users/marku/.cache/huggingface/datasets/glue/cola/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:09:40,372 root INFO Training results:
+10:09:40,845 root INFO {'eval_loss': 1.113651990890503, 'eval_Accuracy: ': 0.6903163950143816, 'eval_F1: ': 0.8167895632444696, 'eval_Precision_1: ': 0.9986130374479889, 'eval_Recall_1: ': 0.690978886756238, 'eval_Precision_0: ': 0.0, 'eval_Recall_0: ': 0.0, 'eval_Correlation: ': -0.020702674026557004, 'eval_runtime': 0.4578, 'eval_samples_per_second': 2278.528, 'eval_steps_per_second': 6.554, 'epoch': 25.0}
+10:09:43,535 root INFO Training results:
+10:09:44,15 root INFO {'eval_loss': 1.0255368947982788, 'eval_Accuracy: ': 0.6903163950143816, 'eval_F1: ': 0.8165814877910278, 'eval_Precision_1: ': 0.9972260748959778, 'eval_Recall_1: ': 0.6913461538461538, 'eval_Precision_0: ': 0.003105590062111801, 'eval_Recall_0: ': 0.3333333333333333, 'eval_Correlation: ': 0.00286100001416597, 'eval_runtime': 0.4527, 'eval_samples_per_second': 2304.087, 'eval_steps_per_second': 6.627, 'epoch': 25.0}
+10:09:47,149 root INFO Training results:
+10:09:47,626 root INFO {'eval_loss': 1.1571118831634521, 'eval_Accuracy: ': 0.6692233940556088, 'eval_F1: ': 0.7962197282929709, 'eval_Precision_1: ': 0.9348127600554785, 'eval_Recall_1: ': 0.6934156378600823, 'eval_Precision_0: ': 0.07453416149068323, 'eval_Recall_0: ': 0.3380281690140845, 'eval_Correlation: ': 0.01714359343794346, 'eval_runtime': 0.4518, 'eval_samples_per_second': 2308.341, 'eval_steps_per_second': 6.64, 'epoch': 25.0}
+10:09:50,297 root INFO Training results:
+10:09:50,769 root INFO {'eval_loss': 1.0240966081619263, 'eval_Accuracy: ': 0.6538830297219559, 'eval_F1: ': 0.7852468768590125, 'eval_Precision_1: ': 0.9153952843273232, 'eval_Recall_1: ': 0.6875, 'eval_Precision_0: ': 0.06832298136645963, 'eval_Recall_0: ': 0.26506024096385544, 'eval_Correlation: ': -0.027792113129042076, 'eval_runtime': 0.4717, 'eval_samples_per_second': 2211.107, 'eval_steps_per_second': 6.36, 'epoch': 25.0}
+10:09:53,985 root INFO Training results:
+10:09:54,459 root INFO {'eval_loss': 1.0038371086120605, 'eval_Accuracy: ': 0.6615532118887824, 'eval_F1: ': 0.7910005920663116, 'eval_Precision_1: ': 0.926490984743412, 'eval_Recall_1: ': 0.6900826446280992, 'eval_Precision_0: ': 0.06832298136645963, 'eval_Recall_0: ': 0.29333333333333333, 'eval_Correlation: ': -0.009273904265553318, 'eval_runtime': 0.4522, 'eval_samples_per_second': 2306.414, 'eval_steps_per_second': 6.634, 'epoch': 25.0}
+10:09:54,462 root INFO Corr:[-0.020702674026557004, 0.00286100001416597, 0.01714359343794346, -0.027792113129042076, -0.009273904265553318]
+10:09:54,462 root INFO Corr:-0.007552819593808593
+10:09:54,462 root INFO Acc:[0.6903163950143816, 0.6903163950143816, 0.6692233940556088, 0.6538830297219559, 0.6615532118887824]
+10:09:54,463 root INFO Acc:0.6730584851390221
+10:09:54,463 root INFO F1:[0.8167895632444696, 0.8165814877910278, 0.7962197282929709, 0.7852468768590125, 0.7910005920663116]
+10:09:54,463 root INFO F1:0.8011676496507585

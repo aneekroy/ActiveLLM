@@ -1,0 +1,18 @@
+09:52:37,37 filelock INFO Lock 1355511521536 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\2dc3c8fc5270cf3f0c44735f3095515caac0228a89f17581342285eef475855b.ffc98fdc9c33c728159e92dfe2a9d0a214ef0326f7fe44c552c1e167e15f7135.lock
+09:52:37,183 filelock INFO Lock 1355511521536 released on C:\Users\marku\.cache\huggingface\datasets\downloads\2dc3c8fc5270cf3f0c44735f3095515caac0228a89f17581342285eef475855b.ffc98fdc9c33c728159e92dfe2a9d0a214ef0326f7fe44c552c1e167e15f7135.lock
+09:52:38,414 filelock INFO Lock 1356218000048 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___sst5_default_0.0.0_e51bdcd8cd3a30da231967c1a249ba59361279a3.lock
+09:52:38,415 filelock INFO Lock 1356218000048 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___sst5_default_0.0.0_e51bdcd8cd3a30da231967c1a249ba59361279a3.lock
+09:52:38,417 filelock INFO Lock 1356218000048 acquired on C:/Users/marku/.cache/huggingface/datasets/SetFit___sst5/default/0.0.0/e51bdcd8cd3a30da231967c1a249ba59361279a3_builder.lock
+09:52:38,744 filelock INFO Lock 1355514123360 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\5c6316f65dd79e39f6c88c4dd85f855ad2ae70e0ca7e2e2bdb019560e09775c8.lock
+09:52:39,471 filelock INFO Lock 1355514123360 released on C:\Users\marku\.cache\huggingface\datasets\downloads\5c6316f65dd79e39f6c88c4dd85f855ad2ae70e0ca7e2e2bdb019560e09775c8.lock
+09:52:39,905 filelock INFO Lock 1355514155120 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\3260b4a357a338a9e4a15230d0ce8ab36d62cf4d00991920c45e7240aca920c7.lock
+09:52:40,256 filelock INFO Lock 1355514155120 released on C:\Users\marku\.cache\huggingface\datasets\downloads\3260b4a357a338a9e4a15230d0ce8ab36d62cf4d00991920c45e7240aca920c7.lock
+09:52:40,394 filelock INFO Lock 1355514158576 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\bd33ebcd9f3146b1eba05bb17ad0e3982ac8340c7e576c931d9737b0df7c904f.lock
+09:52:40,894 filelock INFO Lock 1355514158576 released on C:\Users\marku\.cache\huggingface\datasets\downloads\bd33ebcd9f3146b1eba05bb17ad0e3982ac8340c7e576c931d9737b0df7c904f.lock
+09:52:40,936 filelock INFO Lock 1355514123792 acquired on C:/Users/marku/.cache/huggingface/datasets/SetFit___sst5/default/0.0.0/e51bdcd8cd3a30da231967c1a249ba59361279a3.incomplete_info.lock
+09:52:40,936 filelock INFO Lock 1355514123792 released on C:/Users/marku/.cache/huggingface/datasets/SetFit___sst5/default/0.0.0/e51bdcd8cd3a30da231967c1a249ba59361279a3.incomplete_info.lock
+09:52:40,937 filelock INFO Lock 1356218000048 released on C:/Users/marku/.cache/huggingface/datasets/SetFit___sst5/default/0.0.0/e51bdcd8cd3a30da231967c1a249ba59361279a3_builder.lock
+09:52:41,87 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:52:41,735 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:53:12,967 root INFO Training results:
+09:53:14,122 root INFO {'eval_Corr: ': 0.6820300256773658}

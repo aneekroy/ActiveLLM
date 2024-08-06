@@ -1,0 +1,404 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Stocks Open Lower; Intel, Oil Stocks Down  NEW YORK (Reuters) - U.S. stocks opened slightly lower on  Monday as chip maker Intel Corp. &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=INTC.O target=/stocks/quickinfo/fullquote"&gt;INTC.O&lt;/A&gt; fell after a broker  downgrade, weakening technology shares, while a drop in crude  prices hurt energy companies such as Exxon Mobil Corp &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=XOM.N target=/stocks/quickinfo/fullquote"&gt;XOM.N&lt;/A&gt;. [ID: 91171]
+ ##### 
+1. Cisco Expects to Hit Estimate for Revenue Cisco Systems, the maker of Internet networking equipment, said that it was on track to meet Wall Street's estimates for 13 percent growth in revenue for fiscal 2005. [ID: 109595]
+ ##### 
+2. Sins of Commissions State insurance commissioners and the Securities and Exchange Commission joined an ever-widening probe of the insurance industry. Much of the focus remains on Marsh  amp; McLennan , the world #39;s largest insurance  [ID: 70066]
+ ##### 
+3. Moderate Earthquake Shakes Eastern Taiwan (AP) AP - A moderate earthquake jolted eastern Taiwan on Thursday, the Central Weather Bureau said, but no damage or injuries were reported. [ID: 117264]
+ ##### 
+4. Black Plans to Sue Hollinger for Libel Conrad M. Black, the former head of Hollinger International, said yesterday that he planned to file a libel lawsuit against members of a company committee who accused him of taking more than \$380 million in improper payments. [ID: 47246]
+ ##### 
+5. 12 Palestinians killed in Gaza military operation As many as 12 Palestinians died in four separate incidents on Saturday in Gaza, another day of escalating violence between Israeli forces and Palestinian militants. [ID: 47689]
+ ##### 
+6. Suspect vote lets Belarus leader keep power, opposition cries foul (AFP) AFP - Voters in Belarus agreed to change the constitution to allow autocratic President Alexander Lukashenko to retain power indefinitely in a referendum denounced by foreign observers as biased and distorted. [ID: 63968]
+ ##### 
+7. Hit by Protests, Mexico's Fox Urges a Truce  MEXICO CITY (Reuters) - Mexican President Vicente Fox  called for a truce on Wednesday to ease mounting political  tensions, as hundreds of thousands of workers went on strike  and some deputies literally turned their backs on him. [ID: 16779]
+ ##### 
+8. Bruins take a step back A week removed from its most dominant performance of the season, the UCLA football team regressed to old habits, a lapse that might have cost it a chance at bowl eligibility and a winning season. [ID: 83671]
+ ##### 
+9. Gel may 'replace pills and jabs' It may soon be possible to take medication in a gel form rather than having to swallow a tablet. [ID: 33083]
+ ##### 
+10. Fix EU executive  #39;crisis #39; urges Chirac ROME, Oct 29 (AFP) - French President Jacques Chirac urged the head of the incoming European Commission Friday to take  quot;the appropriate decisions quot; to resolve a row over his EU executive team which has left the EU in limbo. [ID: 77149]
+ ##### 
+11. Morientes interested in Anfield switch MADRID, Dec 17 (SW) - Real Madrid striker Fernando Morientes has expressed his desire to join English Premier League side Liverpool during the winter transfer window after limited playing time with the Galacticos this season. [ID: 119431]
+ ##### 
+12. Gas Tops \$2/Gallon, 2.9 Cents from Record  WASHINGTON (Reuters) - The average weekly retail price for  U.S. gasoline topped \$2 a gallon to reach the third-highest  level ever recorded by the government, the Energy Department  said on Monday. [ID: 64132]
+ ##### 
+13. Tech industry split in its political donations Tech industry political action committees and employees from computer and Internet companies have contributed just over \$1.6 million to President George Bush, and almost the same amount to Democratic challenger Sen. John Kerry. [ID: 5338]
+ ##### 
+14. Chilean police, students clash in run-up to Asia-Pacific summit SANTIAGO (AFP) - Chilean anti-riot forces fired tear gas and water cannon at student protesters, three days before President George W. Bush #39;s arrival for a weekend Asia-Pacific summit. [ID: 94008]
+ ##### 
+15. Big Blue Absorbs Venetica in Move To Strengthen Information &lt;b&gt;...&lt;/b&gt; CHARLOTTE - In a move it says will strengthen its bid to dominate information integration markets, IBM announced Thursday that it was acquiring Venetica, a Charlotte-based developer of database integration tools. [ID: 11734]
+ ##### 
+16. EchoStar Posts Profit, Adds Subscribers EchoStar Communications Corp. (DISH.O: Quote, Profile, Research) on Tuesday said third-quarter profit rose on an aggressive campaign to add more new subscribers. [ID: 85609]
+ ##### 
+17. Dell Plans North Carolina Plant  NEW YORK (Reuters) - Dell Inc. &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=DELL.O target=/stocks/quickinfo/fullquote"&gt;DELL.O&lt;/A&gt; on Tuesday said it  will open a third U.S. manufacturing plant, a plant in North  Carolina employing 1,500 workers, marking a rare example of a  U.S. high-tech company expanding domestic production. [ID: 85840]
+ ##### 
+18. Tar Heels Suffer Upset Santa Clara surprises No. 4 North Carolina, 77-66, in the Tar Heels' season opener at the Pete Newell Challenge on Friday night. [ID: 96866]
+ ##### 
+19. Pieces of space capsule picked up Scientists with tweezers picked through the twisted wreckage of a space capsule that crash-landed on Earth, hoping that microscopic clues to the evolution of the solar system weren #39;t completely lost in Utah #39;s salt flats. [ID: 23289]
+ ##### 
+20. Sony to support MP3 in future players Sony #39;s apparently gotten the message: Some of its new MP3 player models will feature direct support for MP3 in addition to its proprietary ATRAC format. [ID: 37563]
+ ##### 
+21. Body clocks 'hinder' space travel Researchers think our body clock could mean humans find it difficult to adapt to life in space. [ID: 31806]
+ ##### 
+22. New numbering system planned for internet calls Cheap telephone calls made using broadband internet connections came a step closer yesterday when Ofcom, the industry regulator, laid out its plans to help the take-up of the new technology. [ID: 20159]
+ ##### 
+23. Martian explorer marks first year US space agency Nasa celebrates the first year on Mars of its Spirit robot rover vehicle. [ID: 97022]
+ ##### 
+24. Father bets son against Aussies WELFARE authorities in the Solomon Islands have reacted with outrage after a local soccer fan reportedly offered his eight-year-old son as bait for a bet on the Solomons #39; clash with Australia. [ID: 51386]
+ ##### 
+25. Apec pushes for free trade boost Leaders of 21 Asia-Pacific states pledge to bolster anti-terrorism measures and efforts to lower trade barriers. [ID: 98002]
+ ##### 
+26. eBay to drop Support for Microsoft's Passport eBay will soon drop support for Microsoft's Passport service, which was originally intended to make the world's biggest software maker the gatekeeper of Web identities. [ID: 103175]
+ ##### 
+27. In Tussle With Murdoch, Malone Seeks Leverage Last week, the chairman of Liberty Media, John C. Malone, said he might increase Liberty's voting interest in the News Corporation. [ID: 85306]
+ ##### 
+28. Southwest Mulls Ending Unique Seating Southwest Airlines, the discount carrier that has long stuck to its policy of seating passengers on a first-come, first-served basis, is seriously considering assigning seats, officials said. [ID: 78004]
+ ##### 
+29. 63 Killed Since Saturday in India Strife GAUHATI, India Oct. 4, 2004 - Sleeping villagers heard men outside their huts, calling them to come out. They stumbled into the early morning darkness Monday and the intruders began firing automatic weapons, killing six people and wounding seven. [ID: 49620]
+ ##### 
+30. Extinct humans left louse legacy Some of the head lice infesting people today were spread to us thousands of years ago by an extinct species of humans like &lt;i&gt;Homo erectus&lt;/i&gt;. [ID: 51556]
+ ##### 
+31. Keane to Rooney: Beware the hangers-on and back-stabbers MANCHESTER - As Wayne Rooney steps closer to his Manchester United debut, club captain has Roy Keane warned the England striker not to trust anyone as he revealed a world of hangers-on and back-stabbers at Old Trafford. [ID: 36373]
+ ##### 
+32. Bush Set to Open Oil Reserve Spigot  WASHINGTON (Reuters) - With oil prices close to \$50 a  barrel, the Bush administration is set to allow oil refineries  to borrow crude from the government's emergency petroleum  stockpile to make up for supplies disrupted by Hurricane Ivan,  a congressional source briefed on the pending decision told  Reuters on Thursday. [ID: 37312]
+ ##### 
+33. Spitzer widens insurance probe New York's attorney general files a lawsuit alleging market rigging against a second US insurance broker, Universal Life Resources. [ID: 89404]
+ ##### 
+34. Beijing set to impose own tariffs on textiles HONG KONG The Commerce Ministry in China plans to impose tariffs on some textile exports, a step that could avert a trade war with the United States and the European Union over a new influx of low-cost Chinese garments that had appeared likely to flood  [ID: 114240]
+ ##### 
+35. Sharon government in jeopardy Last Sunday, tens of thousands of Israeli citizens filled the streets of Jerusalem in protest of the long awaited, long overdue Israeli withdrawal of approximately 8,000 Jewish settlers from Gaza. [ID: 29232]
+ ##### 
+36. Vital polls for Palestinian party Top Palestinian political faction Fatah is to hold its first internal elections for 16 years next August. [ID: 102042]
+ ##### 
+37. Free Online Legal Service Launched (AP) AP - A nonprofit that helps the poor with legal services launched a free Web site Friday to help people navigate the state and federal courts in California. [ID: 12208]
+ ##### 
+38. In a Land Torn by Violence, Too Many Troubling Deaths Colombia's Indian tribes are confronting a sudden rise in the suicide rate of their young members. [ID: 100128]
+ ##### 
+39. DaimlerChrysler Sued Over Car Seat Injury  DETROIT (Reuters) - DaimlerChrysler AG &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=DCX.N target=/stocks/quickinfo/fullquote"&gt;DCX.N&lt;/A&gt; &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=DCXGn.DE target=/stocks/quickinfo/fullquote"&gt;DCXGn.DE&lt;/A&gt;  has been hit with a multimillion-dollar lawsuit filed by a  paraplegic who says the automaker's heated car seats caused him  a severe burn injury. [ID: 119570]
+ ##### 
+40. Nextel Communications Purchases 5.6 Million Nextel Partners Shares KIRKLAND, Wash. --(Business Wire)-- Sept. 27, 2004 -- Nextel Communications, Inc. today announced that it has entered into an agreement with Motorola, Inc. [ID: 43446]
+ ##### 
+41. October retail sales reassuring Retailers around the country reported October sales Thursday that were better than Wall Street analysts were expecting, but industry experts said the results didn #39;t raise their expectations for the holiday season. [ID: 81730]
+ ##### 
+42. US experts to examine filtering Web songs: Court Sydney, December 4: US technical experts will fly to Australia to examine whether song files swapped by users of Kazaa, the world #39;s most popular Internet file-swapping system, can be filtered, a judge hearing a copyright case has ruled. [ID: 97759]
+ ##### 
+43. Woods breaks through pain DEFENDING champion Tiger Woods won a remarkable battle with pain by posting a four-under-par 68 in the first round of the American Express World Championship at Mount Juliet in County Kilkenny yesterday. [ID: 45799]
+ ##### 
+44. Existing home sales decline The National Association of Realtors reports sales of previously owned US homes fell 2.9 percent in July. The Realtors said resales in July fell to 6.72 million single-family  [ID: 8991]
+ ##### 
+45. On 38th Floor, a \$9 Million Sample Sale Pierre Berg's 38th-floor apartment in the Pierre hotel is a sumptuously furnished pied--terre in the sky. But, after 26 years, he is selling the five-room apartment. [ID: 94271]
+ ##### 
+46. Drug Firm Shares in Slump  NEW YORK, Nov. 11 -- The 40 percent share price slide in Merck  #38; Co. in the five weeks after it pulled the painkiller Vioxx off the market highlighted larger problems in the pharmaceutical industry that may depress performance for years, according to academics and stock analysts who follow the sector. [ID: 88590]
+ ##### 
+47. Arafat #39;s nephew arrives in Paris for Arafat #39;s medical records Nasser al-Qidwa, nephew of the deceased Palestinian leader Yasser Arafat, arrived Sunday in Parisfrom Cairo to pick up Arafat #39;s medical records, French TF1 television reported. [ID: 97797]
+ ##### 
+48. Four key steps in Murdoch #39;s US march RUPERT Murdoch has to win four key votes to shift The News Corporation Ltd to New York and into the S amp;P 500 share index. The votes of the Australian institutions - where the greatest opposition to the move resides - are critical in only one of the four. [ID: 30937]
+ ##### 
+49. Has Apollo Landed? Apollo Group is hoping that it can continue to earn the grade in a sector that was once hot for teacher. [ID: 49146]
+ ##### 
+50. Ricky's world Ricky Davis wants a do-over. With his Cleveland Cavaliers near the end of a 17-win season and enjoying a rare blowout victory over visiting Utah on March 16, 2003, Davis did the unthinkable for basketball purists. He deliberately missed a shot at his own basket to pad his rebounding statistics in an attempt to record his  #64257; rst career triple-double. [ID: 25057]
+ ##### 
+51. Pountney holds the fort after divided Saints sack Solomons Northampton, faced with the prospect of ending the first half of the Zurich Premiership programme at the bottom of the table, will trawl the world for a head coach after yesterday #39;s sacking of Alan Solomons. [ID: 99352]
+ ##### 
+52. Pool Queen Celebrates with a Beach Party  ATHENS (Reuters) - Her tumble-turn mightn't be as fast as  it once was but when it comes to turning heads, Inge de Bruijn  is still queen of the pool. [ID: 8820]
+ ##### 
+53. Italian Leaders Condemn Kidnapping of Aid Workers in Iraq Italy is again under shock over the kidnapping of two of its aid workers in Iraq, this time young women who were in Baghdad to assist with reconstruction efforts. [ID: 21611]
+ ##### 
+54. Jets place Mickens on IR, sign Buckley East Rutherford, NJ (Sports Network) - The New York Jets placed veteran cornerback Ray Mickens on injured reserve Wednesday and signed defensive back Terrell Buckley. [ID: 21685]
+ ##### 
+55. 16 candles for first Internet worm In 1988, a student unleashed a self-replicating worm that halted thousands of computers--and lit a fire under online security. [ID: 82196]
+ ##### 
+56. Sunni leaders urge delay in Iraqi elections BAGHDAD, Iraq -- Leading Sunni Muslim politicians yesterday urged postponement of the Jan. 30 national elections, and a senior official said the government had agreed to meet outside the country with Saddam  [ID: 101876]
+ ##### 
+57. EU Threatens to Go It Alone on Nuclear Fusion (Reuters) Reuters - The European Union warned on\Tuesday it may go ahead and build the world's first nuclear\fusion reactor with whatever partners it can find if there is\no global deal to put the project in France at talks in Vienna. [ID: 85599]
+ ##### 
+58. Weld plays waiting game The Melbourne Cup is known as  #39;the race that stops a nation #39;, owing to its standing as Australia #39;s most popular horse race. [ID: 78474]
+ ##### 
+59. Hopkins rich in his own way Bernard Hopkins has been called the best pound-for-pound fighter in the world. He is boxing #39;s first undisputed middleweight champion since  quot;Marvelous quot; Marvin Hagler in 1987 and has won an unprecedented 18 consecutive title defenses. [ID: 26722]
+ ##### 
+60. Toe-to-Toe Over Peer-to-Peer Although recording industry folks predict success for 'sanctioned' P2P services, no one is sure consumers will be willing to pay, or even if such a setup can be agreed upon. Michael Grebb reports from Washington. [ID: 67144]
+ ##### 
+61. Fire of London Anyone seeking the secret of Chelsea #39;s success this season need have witnessed only one moment in training yesterday, a second #39;s play that exemplified the spirit, individual  [ID: 112869]
+ ##### 
+62. Manufacturing accelerates Manufacturing in the nation accelerated in August and September, supporting Federal Reserve chairman Alan Greenspan's view that the economy  quot;regained some traction. quot; [ID: 29350]
+ ##### 
+63. MLB: Houston 15, Chicago Cubs 7 Carlos Beltran hit a pair of homers and drove in four to lead Houston to an easy 15-7 win over the Chicago Cubs in a slugfest Friday. [ID: 12665]
+ ##### 
+64. Two US Soldiers Killed in Iraq, One by Enemy Fire (Update1) Two US 1st Infantry Division soldiers were killed in separate incidents today near Balad, Iraq, the US military said, and three Iraqi soldiers were killed by a suicide bomber near the insurgent-held city of Fallujah. [ID: 41372]
+ ##### 
+65. Property Fund Says to Hold YUKOS Auction (Reuters) Reuters - Russia's Federal Property Fund said on\Friday it intended to go ahead with an auction of oil major\YUKOS' main unit Yuganskneftegaz despite a U.S. court decision\to freeze the state-imposed sale. [ID: 118717]
+ ##### 
+66. Fresh Wave of Violence in Baghdad Explosions damaged churches and hit a hospital and hotel in Baghdad on Saturday in fresh challenges to Iraq's U.S.-backed interim government. [ID: 62178]
+ ##### 
+67. Modern mice use optical sensors, go wireless Buying a new mouse is kind of like buying a new toothbrush: you don #39;t realize you needed a new one until you actually make the switch and realize how bad the old one really was. [ID: 100958]
+ ##### 
+68. Thousands protest Iraq war, Powell visit In the first major public demonstration since the start of the Olympics, thousands of protesters clashed with police who stopped them from marching  [ID: 12900]
+ ##### 
+69. UN adopts resulotion threatening oil industry sanctions on Sudan Chinese Ambassador to the United Nations Wang Guangya gestures during the UN Security Council vote at the United Nations in New York, Sept. [ID: 32330]
+ ##### 
+70. NL playoffs: Astros vs. Braves Astros: Houston got rolling under manager Phil Garner, who replaced Jimy Williams at the All-Star break, and an amazing late-season surge carried the Astros to the wild card. [ID: 50688]
+ ##### 
+71. Singh, Els among stars at Duhill ST. ANDREWS, Scotland (Ticker) -- The world #39;s top golfers team up with famous faces from the worlds of film and sport on Thursday for the start of the 2004 Dunhill Links championship. [ID: 53341]
+ ##### 
+72. Nigeria handover of Bakassi peninsula delayed-UN The planned handover of the potentially oil-rich Bakassi peninsula from Nigeria to Cameroon is unlikely to take place by a Sept. 15 deadline, the United Nations said on Monday. [ID: 26191]
+ ##### 
+73. Barcelona, Milan lead Group F with first round victories Scottish champions Celtic saw their three-year unbeaten home record in Europe broken Tuesday as they lost 3-1 to Barcelona in the Champions League Group F opener. [ID: 27889]
+ ##### 
+74. Goldman Sachs Quarterly Profit Up 23 Pct.  NEW YORK (Reuters) - Goldman Sachs Group Inc. &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=GS.N target=/stocks/quickinfo/fullquote"&gt;GS.N&lt;/A&gt; on  Thursday said fourth-quarter profit rose 23 percent as its  fixed-income, currency and commodities business soared while a  rebounding stock market boosted investment banking. [ID: 117967]
+ ##### 
+75. IMF Predicts Faster Growth In Global Economy This Year Oil prices may have just hit record levels, but the International Monetary Fund is even more bullish about global economic growth in 2004 than it was six months ago. [ID: 45886]
+ ##### 
+76. British court orders release of files in Britain-Indonesia probe (AFP) AFP - A British court has ordered the release of files disclosing payments by a leading British arms company to the daughter of former Indonesian president Suharto, the Guardian newspaper reports. [ID: 110870]
+ ##### 
+77. Bobcats Sign Veteran Guard Smith (Reuters) Reuters - The Charlotte\Bobcats signed free agent shooting guard Steve Smith on\Thursday. [ID: 30121]
+ ##### 
+78. Two Issues Stalling Intel Overhaul Bill (AP) AP - Two issues have House Republicans tied in a knot on the intelligence bill President Bush says he wants: military control of spy satellites and provisions that, some lawmakers say, let terrorists shield themselves with claims of political asylum. [ID: 107462]
+ ##### 
+79. Intel evaluating India as manufacturing destination Dr Craig Barrett, CEO, Intel Corporation, with a young learner from Kerala during the launch of the Intel Learn Programme in the Capital on Thursday. [ID: 95345]
+ ##### 
+80. Hotspot operators strike international roaming deal Five international wireless operators, including BT, have signed a series of roaming agreements to provide Wi-Fi access at 20,000 hotspots across eleven countries. [ID: 89859]
+ ##### 
+81. Big Drops In The Indexes, But Slip In Trading Volumes The five people trading shares Monday mostly sold. For example, a mere 62 million shares of the Nasdaq-100 tracking stock were traded. [ID: 15499]
+ ##### 
+82. Group of Cities, Counties Sues Microsoft A group of California cities and counties on Friday filed a class action lawsuit against Microsoft Corp. , saying the world #39;s largest software maker overcharged them for software. [ID: 12898]
+ ##### 
+83. Lenovo to carve up IBM PC empire Healthy or unhealthy, this national dependence on the web has happened in the 10 short years since IBM targeted the domestic consumer with PCs powerful enough to connect with the web. [ID: 13072]
+ ##### 
+84. Free radio seeks a new format  PRAGUE -- Ronald Reagan used it to reach out to the Soviets during the Cold War. Lech Walesa, the leader of Poland's Solidarity movement, likened it to the sun lighting the earth. Rock band R.E.M. immortalized it in a cynical hit song. [ID: 101906]
+ ##### 
+85. UPDATE 1-South Africa crush sorry Bangladesh Graeme Smith led South Africa to a thumping nine-wicket victory over Bangladesh in their ICC Champions Trophy Group B match in Birmingham on Sunday. [ID: 25155]
+ ##### 
+86. Stanley Cup Vanishes The Stanley Cup must start to watch its weight. Due to restrictions on weight of luggage, the championship trophy went missing in baggage claim in Vancouver for a while on Sunday. [ID: 8278]
+ ##### 
+87. Japan's production fails to grow Japanese industrial production fails to expand for a second month in a row, official figures show. [ID: 15287]
+ ##### 
+88. ND adrift after sudden decision As night fell last Sunday, the drowsy effects of a long holiday weekend spread across the University of Notre Dame campus like a yawn. [ID: 74339]
+ ##### 
+89. Mani, Kasuri revive pipeline dream NEW DELHI: Petroleum minister Mani Shankar Aiyar and Pakistani foreign minister Khurshid M Kasuri began a new chapter on co-operation in the energy sector. [ID: 19935]
+ ##### 
+90. Cardinals Ride Rolen Scott Rolen homered twice to become the first NL player to reach 100 RBIs this season as the St. Louis Cardinals downed the Atlanta Braves, 10-4, on Sunday night. [ID: 715]
+ ##### 
+91. Matrix's 3D memory chips target game devices Mattel and a Japanese manufacturer have adopted these high-rise chips. Will Nintendo be next?&lt;br /&gt; Photos: Matrix's high-rise chips [ID: 84241]
+ ##### 
+92. Baghdad car bomb kills seven accused of sheltering fighters led by Abu Musab al-Zarqawi, Washington #39;s main foe in Iraq. which involved US air strikes on targets in the city. [ID: 62984]
+ ##### 
+93. State Street says it will cut 425 jobs State Street Corp. said it will eliminate 425 jobs as a cost-cutting move after the financial firm yesterday reported a weak third quarter in which earnings fell 13 percent because of a sharp drop-off in lending and trading activities in securities markets. [ID: 59065]
+ ##### 
+94. For coffee drinkers, grind of rising prices Java lovers, hold onto your nickels and dimes. Months after retail coffee-shop chains such as Starbucks raised the cost of their caffeine concoctions, the price of coffee is still on the rise. [ID: 112188]
+ ##### 
+95. Computer Associates settles charges; ex-CEO indicted NEW YORK, September 23 (newratings.com) - The former Chairman and CEO of Computer Associates International (CA.NYS), Sanjay Kumar, has been charged with securities fraud in a multi-billion dollar accounting scandal. [ID: 36810]
+ ##### 
+96. Bristol-Myers Squibb seeks to sell cholesterol medicine over &lt;b&gt;...&lt;/b&gt; Bristol-Myers Squibb plans to ask US regulators to allow it to sell Pravachol over the counter, in a move that could shake up the growing, lucrative market for cholesterol-reducing drugs. [ID: 112854]
+ ##### 
+97. Stocks sink on profit taking The Dow Jones industrial average fell 106 points to 10,440. Decliners on the New York Stock Exchange outnumbered advancers by a three-to-one margin. [ID: 110097]
+ ##### 
+98. Second doping test on Irish winner Waterford Crystal positive &lt;b&gt;...&lt;/b&gt; A backup doping sample from the horse that won the show jumping gold medal at the Athens Olympics also was positive for a banned substance, the Irish rider #39;s lawyer said Tuesday. [ID: 85897]
+ ##### 
+99. Genetically altered grass spreads like wildfire New York -- A new study shows that genes from genetically engineered grass can spread much farther than previously known, a finding that raises questions about the straying of other plants altered through biotechnology. [ID: 34937]
+ ##### 
+100. Millions Must Work Longer to Pay for Pensions Blackhole Millions must work longer or save harder to pay for the pensions blackhole detailed in an official study published tomorrow. At 57 billion the annual savings  [ID: 56546]
+ ##### 
+101. Automakers Sue to Block Emissions Law in California Toyota, General Motors and seven other automakers filed suit to block California's new greenhouse gas regulation, which was approved by the state in September. [ID: 109445]
+ ##### 
+102. Giant-Killers Claim Bundesliga Scalps The German League Cup traditionally pits minnows against giants from the very first round. This season #39;s opening games showed once again that league status can mean nothing in knock-out competition. [ID: 7626]
+ ##### 
+103. Redskins 27, Falcons 0 Mark Brunell opened the game with a touchdown drive and was done for the night. Michael Vick opened with an interception and never did produce a play for positive yardage. [ID: 18166]
+ ##### 
+104. UN Report On African Economies Calls for Boost to Manufacturing &lt;b&gt;...&lt;/b&gt; Africa is starting to enjoy economic growth again after years of dismal statistics, but to cut poverty and be more competitive its countries must invest more in manufacturing and improve their export performance, a major United Nations report on the  [ID: 45093]
+ ##### 
+105. US consumer confidence dips US consumers are still worried about their jobs and income, the University of Michigan's index of consumer confidence indicates. [ID: 31027]
+ ##### 
+106. UK Gives Open Source The OK (TechWeb) TechWeb - A UK government report encourages public agencies to consider using Linux and other open-source alternatives to commercial software. [ID: 76776]
+ ##### 
+107. Tribute to pioneer scientist Maurice Wilkins Scientist Professor David Parry has paid tribute to Nobel Prize winner and New Zealand born scientist Maurice Wilkins who has died at the age of 88. [ID: 52531]
+ ##### 
+108. CO KNOWS IT WON #39;T BE EASY AZ Alkmaar coach Co Adriaanse knows his team have their work cut out to stay among the Eredivisie pace-setters ahead of Sunday #39;s visit of champions Ajax. [ID: 47631]
+ ##### 
+109. Early Christmas present for Ronaldo Cristiano Ronaldo had plundered a double against Russia and the Portuguese teenager grinned like he had just received an early Christmas present. [ID: 60551]
+ ##### 
+110. West Antarctic glaciers speed up Many glaciers in West Antarctica have substantially increased their rate of shrinkage compared with the 1990s. [ID: 38263]
+ ##### 
+111. Nike sprints to quarterly growth Nike, the US sports footwear and clothing firm, unveils a 26 rise in first quarter income, thanks to the Olympics raising its profile. [ID: 33554]
+ ##### 
+112. Partial solar eclipse occurs next week A partial solar eclipse will occur on Thursday, and will be visible in northeast China, north of the Pacific Ocean, northwest of North America and part of the Arctic Ocean. [ID: 55010]
+ ##### 
+113. CME Profit Up on Trading Volume Growth  CHICAGO (Reuters) - Chicago Mercantile Exchange Holdings  Inc. &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=CME.N target=/stocks/quickinfo/fullquote"&gt;CME.N&lt;/A&gt; on Tuesday said quarterly profit rose 89 percent  on strong derivatives volumes, especially for electronic  trading, and increased third-party processing revenues. [ID: 72829]
+ ##### 
+114. Guinea-Bissau standoff ends as soldiers sign deal Soldiers who staged a mutiny last week in Guinea-Bissau have agreed to return to their barracks after striking a deal with the government to end a five-day standoff in the West African country. [ID: 56549]
+ ##### 
+115. X-43A Scramjet Primed for Mach 10 NASA -- Riding like the tip of a spear on its modified Pegasus booster rocket, NASA's third X-43A hypersonic scramjet research vehicle took to the skies today for a captive-carry flight, remaining attached to its B-52B mothership aircraft.     Serving as a final in-flight check-out of the research vehicle and booster rocket combination prior to the actual launch and free-flight, the successful mission paves the way for launch day, tentatively scheduled for later this Fall... [ID: 43691]
+ ##### 
+116. Cazenove set to unveil tie-up with JP Morgan Cazenove is planning to end 181 years of independence by announcing today it is creating a joint venture with the Wall Street investment bank JP Morgan Chase. [ID: 81630]
+ ##### 
+117. arnings dip at Archipelago NEW YORK Chicago-based stock-exchange operator Archipelago Holdings Incorporated says earnings per share fell, though revenue rose slightly. [ID: 72035]
+ ##### 
+118. Dollar trades stronger THE Australian dollar continued to trade only slightly stronger today as investors wait for local data due out next week to provide some short term direction. [ID: 36560]
+ ##### 
+119. Tories to sign up online recruits The Tories are to recruit members online rather than making people join the party through local associations. [ID: 28431]
+ ##### 
+120. Lecavalier lifts Canada Its too bad a lockout is days away in the NHL. Hockey like Saturdays dramatic 4-3 Canadian victory over the Czech Republic displays the sport at its best. [ID: 24915]
+ ##### 
+121. Tomkins in focus in quiet start to London trading An agreed bid for aiports operator TBI was the most notable feature for investors in a flat open to trading in London on Wednesday. [ID: 100205]
+ ##### 
+122. Video Said to Show British Hostage Killed BAGHDAD, Iraq - British hostage Kenneth Bigley, who pleaded tearfully last month for Prime Minister Tony Blair to meet his kidnappers' demands, was beheaded by his captors, a witness who saw the videotaped killing said Friday.    The witness, who asked not to be identified by name, said the tape - sent to Abu Dhabi TV - showed six hooded, armed men standing behind the kneeling Bigley, whom the witness recognized from two previous tapes released by the kidnappers in which he pleaded for his life... [ID: 54622]
+ ##### 
+123. Coke CEO vows to rebuild management ranks ATLANTA: Coca-Cola #39;s new chairman and chief executive, Neville Isdell, says bolstering the soft drink group #39;s depleted management ranks will be a key priority as he embarks on a make-over of the slumping company. [ID: 39754]
+ ##### 
+124. Apple offers fix for spotted PowerBook displays (MacCentral) MacCentral - Apple on Friday posted details of its 15-inch PowerBook G4 Display Repair Extension Program, which offers a fix for certain Titanium and Aluminum 15-inch PowerBook G4's that show faint white spots on the screen. The worldwide program covers replacement of LCD panels that show the spots; Apple will also reimburse PowerBook owners who paid for eligible repairs. In order for your PowerBook to qualify, it must have a serial number ranging from V7334xxxxxx to V7345xxxxxx or QT331xxxxxx to QT339xxxxxx. Such machines were manufactured between July 2003 to November 2003. ... [ID: 38916]
+ ##### 
+125. Oil Sets New \$53 High Supply Concerns  LONDON (Reuters) - Oil prices set a new record at \$53 a  barrel on Thursday on concerns over tight winter heating fuel  supplies and news of an unexpected strike at Nigerian oil  terminals. [ID: 53233]
+ ##### 
+126. Embedded Wi-Fi Market Undergoing Major Shift SCOTTSDALE, Ariz. -- One of the hottest technology markets, Wireless LAN (WLAN), or Wi-Fi, is undergoing a fundamental shift, according to In-Stat/MDR (http://www. [ID: 10700]
+ ##### 
+127. ThyssenKrupp Budd Canada reports Q4 loss grows to \$10.4 million KITCHENER, Ont. (CP) - Shares of auto parts firm ThyssenKrupp Budd Canada jumped 80 per cent Monday even as its fourth-quarter loss increased to \$10.4 million, from \$6.8 million a year ago, and sales fell off sharply. [ID: 99085]
+ ##### 
+128. Wonder Bread Baker Stock Drops 25 Percent  NEW YORK (Reuters) -  Interstate Bakeries Corp. &lt;A HREF="http://www.investor.reuters.com/FullQuote.aspx?ticker=IBC.N target=/stocks/quickinfo/fullquote"&gt;IBC.N&lt;/A&gt;,  maker of Wonder bread and Hostess Twinkies, on Monday said it  hired a turnaround firm, delayed filing its annual report and  outlined possible credit concerns, sending its shares tumbling  more than 25 percent. [ID: 14768]
+ ##### 
+129. Bluetooth Version 2.0 Enhanced Data Rate Announced The Bluetooth Special Interest Group (SIG) today announced the adoption of Bluetooth Core Specification Version 2.0  EDR (Enhanced Data Rate). [ID: 85407]
+ ##### 
+130. Noguchi looks back  quot;I really feel its weight, quot; Noguchi said.  quot;Every time I look at it, my eyes well up in tears. I want to show it to all the people who made it possible. [ID: 9169]
+ ##### 
+131. Snow Denies 5th Florida Trip Is for Bush Campaign Treasury Secretary John Snow, in Florida for the fifth time this year, rebuffed suggestions on Wednesday he was using taxpayer dollars to fund trips to hotly contested electoral states. [ID: 66409]
+ ##### 
+132. Colgate-Palmolive to Cut 4,000 Jobs Description: Colgate-Palmolive says it will cut more than 4,000 jobs and close a third of its factories worldwide. The company plans to use the savings for advertising and new product development. [ID: 110125]
+ ##### 
+133. US Economy: Manufacturing Index Falls, Incomes Lag (Update2) Manufacturing expanded at the slowest pace in more than a year in October, Americans spent more than they earned in September and home construction declined in the final economic reports before tomorrow #39;s presidential election. [ID: 79261]
+ ##### 
+134. Titan #39;s complex and strange world revealed Two days after Cassini #39;s close encounter with Titan captured the first ever close-up images, it is becoming clear that Saturn #39;s giant moon is a complex and strange world. [ID: 78295]
+ ##### 
+135. New browser wins over net surfers The proportion of surfers using Microsoft #39;s Internet Explorer (IE) has dropped to below 90, say web analysts. Net traffic monitor, OneStat. [ID: 100337]
+ ##### 
+136. Russians Complain About Gymnastics Scoring (AP) AP - The Russian Olympic delegation joined the growing list of Olympic malcontents Tuesday, arguing that its two biggest stars got cheated in the gymnastics competition. [ID: 9027]
+ ##### 
+137. Kerry: Americans' Safety at Stake in Election (Reuters) Reuters - Democratic challenger John Kerry said on\Friday the safety of Americans was at stake in next week's\election and refused to let a new Osama bin Laden videotape\overshadow his race with President Bush. [ID: 77740]
+ ##### 
+138. Mac OS X Tip of the Week: A Clutter-free Application In the last tip you learned how to instantly clean up your desktop using Expos #233;. Did you know that you can use this nifty feature of Mac OS X to clean up the windows within an application? This week #146;s tip shows you how. Dec 01 [ID: 106931]
+ ##### 
+139. Activists: Afghan women no better off (Chicago Tribune) Chicago Tribune - Human-rights organizations criticized the Bush administration Wednesday, saying in the three years since the Taliban was ousted from most of Afghanistan, the U.S. has not fulfilled promises of safety, freedom, education and health care for Afghan women. [ID: 37162]
+ ##### 
+140. Journey Nears an End Fletcher's Cove -- one of the best fishing holes in the country -- has been in the Fletcher family since the Civil War, but will soon be handed over to the National Park Service. [ID: 82034]
+ ##### 
+141. Analysis: Jiang Zemin #39;s departure His philosophy has underpinned China #39;s opaque and secretive political system and, for this reason, Jiang Zemin #39;s decision to stand down as army chief three years ahead of schedule marks the real handover of authority. [ID: 32543]
+ ##### 
+142. First Look: MusicMatch Jukebox's Impressive Version 10 Free software helps organize large music collections. [ID: 109099]
+ ##### 
+143. Thai Tsunami Survivors Pray for Dead, Look Ahead (Reuters) Reuters - A week after a deadly tsunami\swept away thousands of lives along Thailand's tropical\coastline, people prayed for the victims in special church\services Sunday and spoke of putting the tragedy behind them. [ID: 118668]
+ ##### 
+144. Portable playstation a hit in Japan The new PlayStation Portable (PSP) portable game console reportedly sold out at Tokyo electronic retailers within hours of its debut on Sunday. [ID: 115602]
+ ##### 
+145. At White House, harder line with Putin considered WASHINGTON -- A debate is brewing at the highest levels of the Bush administration over whether to adopt a tougher stance toward Russia and its president, Vladimir Putin, who has systematically rolled back democratic freedoms and tried to snuff out democracy in weak neighboring states with little American opposition, according to US officials and policy analysts. [ID: 113497]
+ ##### 
+146. Enterprise Unix Roundup -- Selling Wall Street on Sun Three years ago, we attended Sun #39;s quarterly network computing day. It was the heart of the Bust, and we were treated to pot shots directed at IBM and Microsoft and were told that Sun was the true  quot;open standards quot; vendor. [ID: 37903]
+ ##### 
+147. Turkish police probe concert blast that injures at least 13 A grenade may have caused a blast under a police car that injured more than a dozen people in southern Turkey, officials said Monday. [ID: 33258]
+ ##### 
+148. Russia Introduces Terror Resolution (AP) AP - Russia introduced a draft resolution Monday calling for a new list of suspects who would be subject to extradition in a stepped-up global campaign against terrorism. China welcomed it but Pakistan and other Security Council members eyed the proposal with caution. [ID: 41288]
+ ##### 
+149. Third-ranked Lady Tigers will face Arizona State No. 3 LSU will take on Arizona State in the championship of the Women #39;s Sports Foundation Classic Friday after the Lady Tigers beat Maine 81-50 on Thursday night to give LSU head coach Pokey Chapman her first career victory. [ID: 88527]
+ ##### 
+150. Bush, Kerry Camps Battle Over War on Terror (Reuters) Reuters - President Bush and Democrat\John Kerry battled over who can best make the United States\safer on Sunday, the Bush camp accusing Kerry of wanting to\treat terrorists like gamblers and the Kerry side saying his\Republican opponent was soft on homeland security. [ID: 56335]
+ ##### 
+151. Trash Begins to Clutter International Space Station By MARCIA DUNN    CAPE CANAVERAL, Fla. (AP) -- There's no space in the space station... [ID: 49178]
+ ##### 
+152. The Tufts Daily - Inside the NLCS: Astros storm back to take &lt;b&gt;...&lt;/b&gt; Inside the NLCS: Astros storm back to take series lead while St. Louis teeters on edge of elimination. By Jesse Gerner. Move over New York Yankees, there #39;s a new Daddy in town. [ID: 66460]
+ ##### 
+153. Oil Prices Tumble to a Three-Month Low  NEW YORK (Reuters) - Oil prices fell 3.5 percent to a  three-month low on Tuesday as mild winter weather sapped demand  in the U.S. Northeast, the world's largest heating oil market. [ID: 109235]
+ ##### 
+154. US goes distance in softball ATHENS, Greece -- He told them to play for themselves and for their country, and they did. But the US softball team was playing for coach Mike Candrea, too. [ID: 8734]
+ ##### 
+155. 76ers: Williamson helps OBrien capture first home win PHILADELPHIA -- From all indications, this is going to be the year of living dangerously for the 76ers. As they have in their four previous games this season, the Sixers allowed the New Jersey Nets to build a big lead in the first half. [ID: 87667]
+ ##### 
+156. Genentech receives subpoena on Rituxan SOUTH SAN FRANCISCO, Calif. -- Biotechnology company Genentech Inc. received a subpoena from the US Attorney #39;s Office for the Eastern District of Pennsylvania requesting documents related to the promotion  [ID: 50064]
+ ##### 
+157. Water once present on Mars Evidence from the Mars exploration rovers Spirit and Opportunity has led scientists to suggest that water was once present in large quantities on the red planet. [ID: 108052]
+ ##### 
+158. Near-bankrupt Alitalia approves relaunch plan ROME: After winning union backing for job cuts, Alitalia has given formal approval to a four-year business plan aimed at saving the near-bankrupt Italian carrier from collapse. [ID: 35077]
+ ##### 
+159. Stoddart warns new team AUSTRALIAN Paul Stoddart has warned the owners of a potential new Formula One team to be prepared for a long, tough haul in the sport. [ID: 55160]
+ ##### 
+160. YUKOS Denies Plans to Sell Refinery  MOSCOW (Reuters) - Russian oil major YUKOS denied on  Wednesday reports it planned to sell its Lithuanian refinery  Mazeikiu Nafta to help cover its huge back tax bill. [ID: 21241]
+ ##### 
+161. Group: Israel Violating International Law (AP) AP - Israel has violated international law by systematically destroying Palestinian homes in the Gaza Strip town of Rafah in a bid to create a buffer zone along the border with Egypt, according to a human rights report released Monday. [ID: 65236]
+ ##### 
+162. Chancellor takes aim at Brussels for bigger budget demands GORDON Brown yesterday fired off yet another political salvo at Brussels, as he dismissed a call from the European Commission to increase its spending limit by 35 per cent. [ID: 93093]
+ ##### 
+163. Boston hospital mends its finances Beth Israel Deaconess Medical Center this week plans to announce its first annual operating profit since the 1996 merger that brought one of the city's premier medical institutions to the brink of bankruptcy. [ID: 86199]
+ ##### 
+164. Amcor cleans out top management ranks Amcor has today revealed a thorough trashing and a top level clean out at the packaging giant over possible breaches of the Trade Practices Act after the company said certain officers and  [ID: 20435]
+ ##### 
+165. Musharrafs new floater leaks, badly PAKISTANI PRESIDENT Pervez Musharraf #39;s Kashmir trial balloon has too many holes to float let alone fly, say observers in New Delhi. [ID: 73521]
+ ##### 
+166. Science ; Nasa to resume shuttle missions Three of the four hurricanes to come ashore in the state swept over or near the Kennedy Space Center on Florida #39;s eastern coast. [ID: 78049]
+ ##### 
+167. AOL Formalizes Cellular Phone IM Program AOL today announced its Mobile Developer Program designed to formalize the company #39;s three year-old push into the cellular phone instant messaging business. [ID: 41623]
+ ##### 
+168. Crude oil prices rise on concern about less OPEC output Crude oil prices rose for the second day Thursday as traders worries that the Organization of Petroleum Exporting Countries (OPEC) might trim excess oil output. [ID: 111553]
+ ##### 
+169. Polar people 'will need to adapt' The indigenous peoples of the Arctic are told their culture will be threatened by climate warming. [ID: 85572]
+ ##### 
+170. Vodafone, Nokia Team Up to Simplify Mobile Software  AMSTERDAM (Reuters) - Mobile phone giants Vodafone and  Nokia teamed up on Thursday to simplify software for cell  phones written with the Java computer language that promises to  bring cheaper, smarter handsets. [ID: 10740]
+ ##### 
+171. Inflation fears, oil swings to keep sentiment low MUMBAI: The market is expected to remain volatile ahead of the expiry of futures contract on Thursday. The mood will remain subdued amid worries over a fresh rise in global crude oil prices and inflation in the country, say brokers. [ID: 97995]
+ ##### 
+172. Twins would be better off with best-of-one If every postseason game were an opener, the Metrodome would be filled with World Series banners. Eight times in a row, Minnesota has won the first game of a playoff. [ID: 52580]
+ ##### 
+173. Japan's Nikkei Hits a One-Month Low  TOKYO (Reuters) - Japan's Nikkei hit a one-month low on  Wednesday as investors sold a broad range of shares, extending  losses from the day before when poor Japanese industrial output  data put a damper on the economy's outlook. [ID: 105981]
+ ##### 
+174. NASA's Genesis Spacecraft Adjusts Course (AP) AP - NASA's Genesis spacecraft successfully adjusted its course this week as it heads back toward Earth with a sample of solar wind particles, the space agency said Wednesday. [ID: 116]
+ ##### 
+175. Olympics Wrap: Another Doping Controversy Surfaces  ATHENS (Reuters) - Olympic chiefs ordered Hungarian hammer  gold medallist Adrian Annus Friday to submit another doping  sample or risk losing his medal, while another of his  compatriots was stripped of a medal for failing a test. [ID: 12120]
+ ##### 
+176. Fire in Ohio Apartment Building Kills 8 COLUMBUS, Ohio - A suspected arson fire engulfed an apartment complex in suburban Columbus Sunday, killing eight people and forcing others to jump from third-story windows to escape, firefighters said.    The fire in Prairie Township came just six weeks after three fires were set in the same building in an empty apartment and hallway, said Fire Chief Steve Feustel... [ID: 25211]
+ ##### 
+177. ATA Airlines enters receivership ATA Airlines parent ATA Holdings Corp. filed for protection from creditors under Chapter 11 of federal bankruptcy law late Tuesday, and two other airlines immediately showed interest in ATA assets. [ID: 73946]
+ ##### 
+178. IBM  #39;Stinger #39; Database Coming in Mid-September IBM #39;s next version of the DB2 Universal Database, code-named  quot;Stinger, quot; will be generally available on Sept. 17, the company said Thursday. [ID: 22881]
+ ##### 
+179. Freescale Wins 200 Mln Euro Siemens Supply Deal (Reuters) Reuters - Freescale Semiconductor Inc. has won\a long-term contract worth more than 200 million euros ( #36;246\million) to supply car components to Siemens, the companies\said on Monday. [ID: 41086]
+ ##### 
+180. Reds #39; bullpen struggles after lefty #39;s strong start The result, however, was all too familiar as the Reds fell to the Cardinals, 7-2, in the middle tilt of a three-game series at Busch Stadium on Tuesday evening.  [ID: 2315]
+ ##### 
+181. Japan pares forecast amid signs of slowdown TOKYO The Japanese government on Friday unexpectedly lowered its estimate for second-quarter economic growth to an annual rate of 1.3 percent from an initial estimate of 1.7 percent, quelling hopes that the robust expansion seen earlier in the year might  [ID: 24214]
+ ##### 
+182. Roundup: Purdue dubs Orton doubtful vs. Iowa Purdue quarterback Kyle Orton is questionable for Saturday #39;s game against Iowa with an injured left hip. Orton was injured in last week #39;s 13-10 loss at Northwestern. [ID: 80121]
+ ##### 
+183. Department of Homeland Security Prevents Terrorist from Entering the U.S. As we all know, since September 11, 2001 the U.S. has been much more vigilant in defending itself against terrorist attacks.  nbsp;In addition to bombing the shit out of the Middle East, we have also established the Department of Homeland Security whose responsibility it is to defend us from terrorists. They have so far done a stellar job, as the U.S. has yet to be hit by another terrorist attack.  nbsp;But the ever-vigilant Department of Homeland Security is not resting on its laurels. Recently, they prevented the terrorist supporter Yusef Islam from entering the United States. [ID: 39316]
+ ##### 
+184. Swiss-based Phonak cycling team appeals UCI licence refusal The Swiss-based Phonak team said Wednesday it is contesting the International Cycling Union #39;s decision to refuse it a racing licence amid a doping scandal. [ID: 116805]
+ ##### 
+185. Knicks Are Ready, Even if Houston Isn #39;t Opening night is on the horizon, but Allan Houston is still more curiosity than fixture in any discussion of the Knicks #39; rotation, and the remodeled lineup appears ready to take its first steps without him. [ID: 70905]
+ ##### 
+186. Jobless Claims Up, Import Prices Gain US jobless claims unexpectedly rose again last week in more worrying news for the labor market while prices for imported goods grew in November, government data showed on Thursday. [ID: 111271]
+ ##### 
+187. Calif. Salutes Global Warming Fighters (AP) AP - California has become the first state to reward landowners for leaving forests standing to help control global warming, under a program adopted this week by the California Climate Action Registry. [ID: 69573]
+ ##### 
+188. Paris showcase for Apple #39;s vision Some 70,000 Mac fans gathered at Apple Expo 2004 in Paris earlier this week for the largest exhibition of its kind in Europe. The event provided a showcase for just what kind of stylish technology  [ID: 18806]
+ ##### 
+189. Owen hoping for Depor lift to ensure England place England coach Sven-Goran Eriksson says striker Michael Owen must prove in training next week that he deserves to face Wales in a World Cup qualifier - or risk losing his place. [ID: 46900]
+ ##### 
+190. US Airways, Pilots Union to Resume Concession Talks (Update3) US Airways Group Inc. and its pilots union plan to resume talks on \$295 million in pay and benefit cuts the carrier needs to help avoid a second bankruptcy filing, after each side made a proposal over the weekend. [ID: 15031]
+ ##### 
+191. Fannie Mae to Defend Action to Congress (Reuters) Reuters - Managers of mortgage finance giant\Fannie Mae will defend themselves before Congress on Wednesday\against government findings that they broke accounting rules to\deliver steady earnings growth quarter after quarter. [ID: 51411]
+ ##### 
+192. Deutsche Bank hit again by phishing attack Deutsche Bank AG was the target of a renewed phishing attack late Tuesday extending into Wednesday, after facing its first-ever reported assault last week, according to a bank spokesman. [ID: 9807]
+ ##### 
+193. Egypt's ruling party set to confirm rise of Mubarak's son (AFP) AFP - Egypt's ruling National Democratic Party (NDP) is expected to confirm at its annual convention this week the rise of Gamal Mubarak as the political heir apparent of his father, President Hosni Mubarak. [ID: 32444]
+ ##### 
+194. Burns Making Progress in Cancer Fight (AP) AP - New Jersey Devils coach Pat Burns says he's making good progress in his fight against colon cancer after finishing chemotherapy treatments this week. [ID: 75180]
+ ##### 
+195. Bills sign Matthews to replace injured backup QB Shane Matthews signed with the Buffalo Bills on Monday, bolstering the team #39;s banged-up quarterback corps. Matthews, an 11-year veteran, is expected to immediately take over as Drew Bledsoe #39;s backup, filling  [ID: 15204]
+ ##### 
+196. Beltre #39;s slam helps Dodgers open three-game lead The Los Angeles Dodgers are closing in on their first playoff berth in eight years, and they #39;re not about to leave their chances to fate. [ID: 42060]
+ ##### 
+197. PM Koizumi creates cabinet post, taps former FSA head TOKYO (CBS.MW) - Japanese Prime Minister Junichiro Koizumi Monday reshuffled his Cabinet with the hope of drastically reforming Japan #39;s massive postal savings system the way some credit his administration with turning around banks #39; bad loan problem. [ID: 41801]
+ ##### 
+198. Half-Life 2 Released November 16, 2004 - Yes, we #39;d barely believe it either if we hadn #39;t seen it ourselves: Half-Life 2 is here. More than six years in development, more than a year dramatically in the public eye, weathering delays  [ID: 92610]
+ ##### 
+199. Mourning plays for first time since kidney transplant Playing in an NBA game for the first time since a kidney transplant was like riding a bike for Alonzo Mourning. Once he was on the court, the veteran center looked like he had never left. [ID: 77890]
+ ##### 
+200. U2 Whining Like A Small Child:  quot;Pay Attention To Meeee quot; Just in case your powers been out for, oh, about eight months now, heres some exciting news for you: U2 have a new record coming out. [ID: 65511]

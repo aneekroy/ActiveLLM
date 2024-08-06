@@ -1,0 +1,26 @@
+10:07:00,408 filelock INFO Lock 2381801433216 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_mrpc_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:07:00,408 filelock INFO Lock 2381801433216 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_mrpc_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:07:00,408 filelock INFO Lock 2381801522032 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:07:00,711 filelock INFO Lock 2381801474512 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\24166ebd1bccab90a45c5926ee2fc643d87daf27874140c87155d008dc3d2145.lock
+10:07:01,95 filelock INFO Lock 2381801474512 released on C:\Users\marku\.cache\huggingface\datasets\downloads\24166ebd1bccab90a45c5926ee2fc643d87daf27874140c87155d008dc3d2145.lock
+10:07:01,223 filelock INFO Lock 2381801431152 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\161cbda86bd80a1f172476cb94331a5b3c8f99921a888dd4071eaca5c390be1f.lock
+10:07:01,473 filelock INFO Lock 2381801431152 released on C:\Users\marku\.cache\huggingface\datasets\downloads\161cbda86bd80a1f172476cb94331a5b3c8f99921a888dd4071eaca5c390be1f.lock
+10:07:01,597 filelock INFO Lock 2381801665632 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\3fadd177c8e5bcd48c8774b1921023805a7a5413f66dde18a1f7c7692e502ff5.lock
+10:07:01,907 filelock INFO Lock 2381801665632 released on C:\Users\marku\.cache\huggingface\datasets\downloads\3fadd177c8e5bcd48c8774b1921023805a7a5413f66dde18a1f7c7692e502ff5.lock
+10:07:01,935 filelock INFO Lock 2381801434608 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+10:07:01,935 filelock INFO Lock 2381801434608 released on C:/Users/marku/.cache/huggingface/datasets/glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+10:07:01,935 filelock INFO Lock 2381801522032 released on C:/Users/marku/.cache/huggingface/datasets/glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:07:06,954 root INFO Training results:
+10:07:07,406 root INFO {'eval_loss': 0.6681686043739319, 'eval_Accuracy: ': 0.7058823529411765, 'eval_F1: ': 0.8148148148148149, 'eval_Precision_1: ': 0.946236559139785, 'eval_Recall_1: ': 0.7154471544715447, 'eval_Precision_0: ': 0.18604651162790697, 'eval_Recall_0: ': 0.6153846153846154, 'eval_Correlation: ': 0.20919713770528311, 'eval_runtime': 0.4363, 'eval_samples_per_second': 935.058, 'eval_steps_per_second': 2.292, 'epoch': 25.0}
+10:07:11,898 root INFO Training results:
+10:07:12,328 root INFO {'eval_loss': 0.6425633430480957, 'eval_Accuracy: ': 0.6985294117647058, 'eval_F1: ': 0.8025682182985553, 'eval_Precision_1: ': 0.8960573476702509, 'eval_Recall_1: ': 0.7267441860465116, 'eval_Precision_0: ': 0.2713178294573643, 'eval_Recall_0: ': 0.546875, 'eval_Correlation: ': 0.21400247599046324, 'eval_runtime': 0.4172, 'eval_samples_per_second': 977.9, 'eval_steps_per_second': 2.397, 'epoch': 25.0}
+10:07:16,377 root INFO Training results:
+10:07:16,804 root INFO {'eval_loss': 0.6215341687202454, 'eval_Accuracy: ': 0.6936274509803921, 'eval_F1: ': 0.816446402349486, 'eval_Precision_1: ': 0.996415770609319, 'eval_Recall_1: ': 0.6915422885572139, 'eval_Precision_0: ': 0.03875968992248062, 'eval_Recall_0: ': 0.8333333333333334, 'eval_Correlation: ': 0.13587767190349828, 'eval_runtime': 0.4074, 'eval_samples_per_second': 1001.438, 'eval_steps_per_second': 2.455, 'epoch': 25.0}
+10:07:21,328 root INFO Training results:
+10:07:21,750 root INFO {'eval_loss': 0.6420869827270508, 'eval_Accuracy: ': 0.6936274509803921, 'eval_F1: ': 0.8159057437407953, 'eval_Precision_1: ': 0.992831541218638, 'eval_Recall_1: ': 0.6925, 'eval_Precision_0: ': 0.046511627906976744, 'eval_Recall_0: ': 0.75, 'eval_Correlation: ': 0.13194450476652872, 'eval_runtime': 0.4059, 'eval_samples_per_second': 1005.294, 'eval_steps_per_second': 2.464, 'epoch': 25.0}
+10:07:25,848 root INFO Training results:
+10:07:26,269 root INFO {'eval_loss': 0.6679892539978027, 'eval_Accuracy: ': 0.7058823529411765, 'eval_F1: ': 0.8219584569732937, 'eval_Precision_1: ': 0.992831541218638, 'eval_Recall_1: ': 0.7012658227848101, 'eval_Precision_0: ': 0.08527131782945736, 'eval_Recall_0: ': 0.8461538461538461, 'eval_Correlation: ': 0.20677292192951885, 'eval_runtime': 0.4175, 'eval_samples_per_second': 977.351, 'eval_steps_per_second': 2.395, 'epoch': 25.0}
+10:07:26,269 root INFO Acc:[0.7058823529411765, 0.6985294117647058, 0.6936274509803921, 0.6936274509803921, 0.7058823529411765]
+10:07:26,269 root INFO Acc:0.6995098039215686
+10:07:26,269 root INFO F1:[0.8148148148148149, 0.8025682182985553, 0.816446402349486, 0.8159057437407953, 0.8219584569732937]
+10:07:26,269 root INFO F1:0.8143387272353889

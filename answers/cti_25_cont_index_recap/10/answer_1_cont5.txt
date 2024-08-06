@@ -1,0 +1,15 @@
+To select instances for labeling from the provided dataset using an active learning approach, I'll use the following steps:
+
+1. **Review the Current Label Distribution**: Understand the topics and contents of instances already labeled to identify any underrepresented themes or important issues that may not have been adequately covered.
+
+2. **Identify Diverse Content**: Since labeled instances include many on Microsoft Exchange vulnerabilities, it would be wise to select instances that provide varied perspectives or additional details not covered by already labeled instances. This would involve picking texts discussing other aspects of cyber security, impacts on different industries, recommendations, advanced persistent threats (APTs), etc.
+
+3. **Select Content with Unique Information**: Instances that contain unique, actionable information or insights, such as new mitigation strategies, updates on vulnerabilities, or significant impacts on specific sectors, are crucial. These should be prioritized to ensure a well-rounded understanding of the issue.
+
+4. **Choose Instances that Cover Different Narratives**: It is important to select instances that might offer contrasting viewpoints or solutions to the problem to ensure the model learns to understand and differentiate between diverse opinions and technical descriptions.
+
+Based on this approach, here are the instances I would choose to label:
+
+72, 73, 75, 79, 80, 81, 84, 88, 99, 112, 113, 114, 115, 118, 119, 121, 122, 123, 126, 127, 128, 129, 133, 134, 138.
+
+These selections aim to include a mix of technical discussions, impact assessments, mitigation strategies, and updates on Microsoft Exchange vulnerabilities from a variety of sources and perspectives.

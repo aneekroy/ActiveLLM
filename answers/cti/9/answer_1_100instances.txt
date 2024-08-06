@@ -1,0 +1,17 @@
+To select the most informative instances for labeling by a human annotator in the context of active learning, the following steps would be considered:
+
+1. **Diversity of Content**: Prioritize instances that cover a range of different aspects related to the Microsoft Exchange Server issue. This ensures a broad coverage of the topic.
+
+2. **Relevance and Uniqueness**: Choose instances that contain unique information not repeated in other instances. This increases the value of each labeled instance.
+
+3. **Potential for Insightful Information**: Favor instances that seem to offer deeper insights or technical details, as they could be more informative for understanding the broader issue.
+
+4. **Balance of Sources**: Ensure that the instances selected come from a variety of sources to avoid bias and provide a well-rounded view of the issue.
+
+5. **Recency and Update on the Situation**: Include instances that provide the most recent updates or summaries of the situation, as this will help in understanding the current state of affairs.
+
+Given these criteria, the following instances would be selected for labeling:
+
+1, 4, 5, 6, 8, 10, 11, 12, 14, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40.
+
+This selection aims to provide a diverse and comprehensive view of the Microsoft Exchange Server issue, covering different aspects like updates on vulnerabilities, attacks, security advice, and responses from various organizations and experts.

@@ -1,0 +1,656 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. every now and again , a movie comes along to remind us of how very bad a motion picture can truly be .  [ID: 66321]
+ ##### 
+1. bogs down in insignificance  [ID: 21377]
+ ##### 
+2. nothing special  [ID: 2297]
+ ##### 
+3. and mainly unfunny  [ID: 62556]
+ ##### 
+4. has fun with the quirks of family life  [ID: 9549]
+ ##### 
+5. sustains the level of exaggerated , stylized humor throughout by taking your expectations and twisting them just a bit .  [ID: 17997]
+ ##### 
+6. real-life happening  [ID: 28021]
+ ##### 
+7. tremendous , offbeat sense  [ID: 53257]
+ ##### 
+8. normally good actors , even kingsley , are made to look bad  [ID: 52931]
+ ##### 
+9. visual virtues  [ID: 6007]
+ ##### 
+10. it 's a big idea , but the film itself is small and shriveled  [ID: 4873]
+ ##### 
+11. fondness  [ID: 40984]
+ ##### 
+12. twenty the worst of the brosnan bunch  [ID: 64564]
+ ##### 
+13. it seems impossible that an epic four-hour indian musical about a cricket game could be this good , but  [ID: 28821]
+ ##### 
+14. fixating  [ID: 16760]
+ ##### 
+15. getting together before a single frame had been shot and collectively vowing , ` this is going to be something really good  [ID: 56368]
+ ##### 
+16. the saturday morning cartoons  [ID: 57466]
+ ##### 
+17. gets a lot of flavor and spice into his charade remake  [ID: 41022]
+ ##### 
+18. so different from the apple and so striking  [ID: 24437]
+ ##### 
+19. prove that ` zany ' does n't necessarily mean ` funny  [ID: 43538]
+ ##### 
+20. baaaaaaaaad movie  [ID: 30102]
+ ##### 
+21. whatever complaints i might have , i 'd take ( its ) earnest errors and hard-won rewards over the bombastic self-glorification of other feel-good fiascos like antwone fisher or the emperor 's club any time .  [ID: 65116]
+ ##### 
+22. with remarkable skill  [ID: 29320]
+ ##### 
+23. thoughtful and unflinching examination  [ID: 45817]
+ ##### 
+24. cheapo animation ( like saturday morning tv in the '60s ) , a complex sword-and-sorcery plot and characters who all have big round eyes and japanese names  [ID: 1009]
+ ##### 
+25. stronger  [ID: 10490]
+ ##### 
+26. the biggest husband-and-wife disaster since john  [ID: 22314]
+ ##### 
+27. injects just enough freshness into the proceedings to provide an enjoyable 100 minutes in a movie theater .  [ID: 16234]
+ ##### 
+28. 's that painful .  [ID: 720]
+ ##### 
+29. subconscious  [ID: 57887]
+ ##### 
+30. long workout  [ID: 43617]
+ ##### 
+31. who desperately want to be quentin tarantino when they grow up  [ID: 17880]
+ ##### 
+32. good performances and a realistic , non-exploitive approach make paid in full worth seeing .  [ID: 47349]
+ ##### 
+33. sheridan has settled for a lugubrious romance  [ID: 5696]
+ ##### 
+34. lack of a pyschological center knocks it flat  [ID: 12416]
+ ##### 
+35. fun and funny in the middle ,  [ID: 36632]
+ ##### 
+36. the movie is without intent .  [ID: 4917]
+ ##### 
+37. sadly are at hostile odds with one another through recklessness and retaliation  [ID: 20415]
+ ##### 
+38. equally spoofs and celebrates the more outre aspects of ` black culture ' and the dorkier aspects of ` white culture , ' even as it points out how inseparable the two are .  [ID: 66768]
+ ##### 
+39. , the film is just a corny examination of a young actress trying to find her way .  [ID: 65082]
+ ##### 
+40. is plenty of room for editing  [ID: 49651]
+ ##### 
+41. might actually want to watch  [ID: 46784]
+ ##### 
+42. 's a long way from orwell 's dark , intelligent warning cry ( 1984 )  [ID: 564]
+ ##### 
+43. when a movie has stuck around for this long , you know there 's something there .  [ID: 42059]
+ ##### 
+44. singing , and unforgettable characters  [ID: 11009]
+ ##### 
+45. a classy , sprightly spin on film .  [ID: 4444]
+ ##### 
+46. jumble that 's not scary , not smart and not engaging  [ID: 65763]
+ ##### 
+47. a remarkably cohesive whole , both visually and thematically ,  [ID: 30099]
+ ##### 
+48. the film has the thrown-together feel of a summer-camp talent show : hastily written , underrehearsed , arbitrarily plotted and filled with crude humor and vulgar innuendo .  [ID: 22676]
+ ##### 
+49. on a board  [ID: 51018]
+ ##### 
+50. disappointingly generic nature  [ID: 65327]
+ ##### 
+51. spreads itself too thin , leaving these actors , as well as the members of the commune  [ID: 60690]
+ ##### 
+52. shoddy male hip hop fantasy  [ID: 1201]
+ ##### 
+53. wise  [ID: 37982]
+ ##### 
+54. reflect  [ID: 64238]
+ ##### 
+55. the story line may be 127 years old , but el crimen del padre amaro ... could n't be more timely in its despairing vision of corruption within the catholic establishment  [ID: 58856]
+ ##### 
+56. sorority boys , which is as bad at it is cruel , takes every potential laugh and stiletto-stomps the life out of it .  [ID: 51740]
+ ##### 
+57. dark areas  [ID: 45504]
+ ##### 
+58. characteristically startling visual style  [ID: 32108]
+ ##### 
+59. in a contest to see who can out-bad-act the other  [ID: 35540]
+ ##### 
+60. more entertaining , too  [ID: 55864]
+ ##### 
+61. in his latest effort , storytelling , solondz has finally made a movie that is n't just offensive -- it also happens to be good .  [ID: 17461]
+ ##### 
+62. far-flung , illogical  [ID: 14850]
+ ##### 
+63. any rock pile will do for a set .  [ID: 36021]
+ ##### 
+64. unsuccessful  [ID: 40952]
+ ##### 
+65. ballistic :  [ID: 62108]
+ ##### 
+66. far superior  [ID: 46231]
+ ##### 
+67. steven soderbergh 's digital video experiment is a clever and cutting , quick and dirty look at modern living and movie life .  [ID: 37672]
+ ##### 
+68. new best friend does not have , beginning with the minor omission of a screenplay  [ID: 45312]
+ ##### 
+69. , the visuals and enveloping sounds of blue crush make this surprisingly decent flick worth a summertime look-see .  [ID: 3414]
+ ##### 
+70. a matter of plumbing arrangements and mind games  [ID: 11336]
+ ##### 
+71. helpful  [ID: 3919]
+ ##### 
+72. can easily imagine benigni 's pinocchio becoming a christmas perennial  [ID: 8319]
+ ##### 
+73. the humor , characterization , poignancy , and intelligence  [ID: 7430]
+ ##### 
+74. time to congratulate himself for having the guts to confront it  [ID: 15430]
+ ##### 
+75. an unsettling sight  [ID: 64478]
+ ##### 
+76. its characterization of hitler and the contrived nature of its provocative conclusion  [ID: 32343]
+ ##### 
+77. emerges with yet another remarkable yet shockingly little-known perspective  [ID: 16398]
+ ##### 
+78. find their humor-seeking dollars best spent elsewhere  [ID: 51347]
+ ##### 
+79. glumly mishandle the story 's promising premise of a physician who needs to heal himself .  [ID: 33839]
+ ##### 
+80. a tendency to slip into hokum  [ID: 17439]
+ ##### 
+81. is like a year late for tapping into our reality tv obsession , and even tardier for exploiting the novelty of the `` webcast  [ID: 7624]
+ ##### 
+82. into a gentle waking coma  [ID: 14467]
+ ##### 
+83. enormously good  [ID: 57182]
+ ##### 
+84. , nothing good can happen  [ID: 7478]
+ ##### 
+85. problem is , we have no idea what in creation is going on .  [ID: 66285]
+ ##### 
+86. twohy 's a good yarn-spinner ,  [ID: 45207]
+ ##### 
+87. the opera 's drama and lyricism  [ID: 50085]
+ ##### 
+88. 's technically sumptuous but also almost wildly alive .  [ID: 6931]
+ ##### 
+89. the ingenious construction ( adapted by david hare from michael cunningham 's novel ) constantly flows forwards and back , weaving themes among three strands which allow us to view events as if through a prism  [ID: 44851]
+ ##### 
+90. i like all four of the lead actors a lot and they manage to squeeze a few laughs out of the material , but they 're treading water at best in this forgettable effort .  [ID: 66083]
+ ##### 
+91. such a dependable concept was botched in execution  [ID: 44308]
+ ##### 
+92. that they are actually releasing it into theaters  [ID: 13454]
+ ##### 
+93. though this rude and crude film does deliver a few gut-busting laughs , its digs at modern society are all things we 've seen before .  [ID: 12434]
+ ##### 
+94. also a -- dare i say it twice -- delightfully charming -- and totally american  [ID: 59982]
+ ##### 
+95. deception  [ID: 55016]
+ ##### 
+96. the determination of pinochet 's victims to seek justice , and their often heartbreaking testimony , spoken directly into director patricio guzman 's camera , pack a powerful emotional wallop  [ID: 63162]
+ ##### 
+97. the feelings evoked in the film are lukewarm and quick to pass .  [ID: 8580]
+ ##### 
+98. high-minded  [ID: 5976]
+ ##### 
+99. fine effort  [ID: 8109]
+ ##### 
+100. offer some modest amusements  [ID: 15307]
+ ##### 
+101. is such a blip on the year 's radar screen  [ID: 29078]
+ ##### 
+102. to cover up the fact that the picture is constructed around a core of flimsy -- or , worse yet , nonexistent -- ideas  [ID: 38404]
+ ##### 
+103. all the complexity and realistic human behavior of an episode of general hospital  [ID: 12803]
+ ##### 
+104. of riveting power and sadness  [ID: 22189]
+ ##### 
+105. yeah , baby  [ID: 54840]
+ ##### 
+106. ... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920  [ID: 35162]
+ ##### 
+107. until its final minutes this is a perceptive study of two families in crisis -- and of two girls whose friendship is severely tested by bad luck and their own immaturity .  [ID: 31617]
+ ##### 
+108. screams  [ID: 54483]
+ ##### 
+109. about one in three gags in white 's intermittently wise script hits its mark ;  [ID: 36605]
+ ##### 
+110. too erotic nor very thrilling  [ID: 58455]
+ ##### 
+111. exploiting molestation for laughs  [ID: 30823]
+ ##### 
+112. is n't one true ` chan moment '  [ID: 22999]
+ ##### 
+113. a triumph of emotionally and narratively complex filmmaking  [ID: 8579]
+ ##### 
+114. is a non-stop funny feast of warmth , color and cringe  [ID: 38332]
+ ##### 
+115. , manipulative and as bland as wonder bread dipped in milk , but it also does the absolute last thing we need hollywood doing to us : it preaches .  [ID: 18558]
+ ##### 
+116. every visual joke is milked  [ID: 37124]
+ ##### 
+117. unfunny and lacking any sense of commitment to or affection for its characters  [ID: 51635]
+ ##### 
+118. although it lacks the detail of the book , the film does pack some serious suspense .  [ID: 17839]
+ ##### 
+119. the scariest guy  [ID: 19507]
+ ##### 
+120. despite a fairly slow paced , almost humdrum approach to character development  [ID: 64500]
+ ##### 
+121. satisfying summer blockbuster  [ID: 12839]
+ ##### 
+122. a lighthearted glow  [ID: 14558]
+ ##### 
+123. dare i say , entertaining !  [ID: 58797]
+ ##### 
+124. remarkably  [ID: 34207]
+ ##### 
+125. , vulgar is , truly and thankfully , a one-of-a-kind work .  [ID: 46803]
+ ##### 
+126. an uncomfortable experience , but one as brave and challenging as you could possibly expect these days from american cinema .  [ID: 34188]
+ ##### 
+127. inventiveness  [ID: 3227]
+ ##### 
+128. disapproval  [ID: 26200]
+ ##### 
+129. encounters a substantial arc of change that does n't produce any real transformation  [ID: 65492]
+ ##### 
+130. it remains brightly optimistic , coming through in the end  [ID: 28508]
+ ##### 
+131. in the kind of low-key way that allows us to forget that they are actually movie folk  [ID: 25804]
+ ##### 
+132. real emotional impact  [ID: 48000]
+ ##### 
+133. dark humor , gorgeous exterior photography , and  [ID: 10718]
+ ##### 
+134. where tom green stages his gags as assaults on america 's knee-jerk moral sanctimony , jackass lacks aspirations of social upheaval .  [ID: 56579]
+ ##### 
+135. the light comedic work  [ID: 10311]
+ ##### 
+136. the middle and lurches between not-very-funny comedy , unconvincing dramatics and some last-minute action strongly reminiscent of run lola run  [ID: 27563]
+ ##### 
+137. motivated by something more than franchise possibilities  [ID: 53397]
+ ##### 
+138. is its unforced comedy-drama and its relaxed , natural-seeming actors .  [ID: 56305]
+ ##### 
+139. plays like one of those conversations that comic book guy on `` the simpsons '' has .  [ID: 28607]
+ ##### 
+140. disease-of-the-week small-screen melodramas  [ID: 40055]
+ ##### 
+141. has improved upon the first and taken it a step further , richer and deeper .  [ID: 29418]
+ ##### 
+142. spider-man is better than any summer blockbuster we had to endure last summer , and hopefully , sets the tone for a summer of good stuff .  [ID: 10847]
+ ##### 
+143. capability to soothe and break your heart with a single stroke  [ID: 54638]
+ ##### 
+144. a canny crowd pleaser , and the last kiss  [ID: 51871]
+ ##### 
+145. broomfield 's style of journalism is hardly journalism at all , and  [ID: 36867]
+ ##### 
+146. fails to arrive at any satisfying destination  [ID: 38126]
+ ##### 
+147. ( sci-fi ) rehash  [ID: 58644]
+ ##### 
+148. classy , sprightly spin  [ID: 26293]
+ ##### 
+149. shocking in its eroticized gore  [ID: 59252]
+ ##### 
+150. , the satire is weak .  [ID: 40109]
+ ##### 
+151. maintains a cool distance  [ID: 45338]
+ ##### 
+152. supposedly funny movie  [ID: 27955]
+ ##### 
+153. immaculately  [ID: 52996]
+ ##### 
+154. a fast paced and suspenseful argentinian thriller about the shadow side of play  [ID: 8390]
+ ##### 
+155. gay s/m fantasy  [ID: 18057]
+ ##### 
+156. a renowned indian film culture that allows americans to finally revel in its splendor  [ID: 60773]
+ ##### 
+157. as sand , who brings to the role her pale , dark beauty and characteristic warmth  [ID: 43851]
+ ##### 
+158. it 's clotted with heavy-handed symbolism , dime-store psychology and endless scenic shots that make 105 minutes seem twice as long .  [ID: 25773]
+ ##### 
+159. is a tribute not only to his craft , but to his legend  [ID: 12926]
+ ##### 
+160. of thoughtful , subjective filmmaking  [ID: 33997]
+ ##### 
+161. can tolerate leon barlow  [ID: 16783]
+ ##### 
+162. can tell you that there 's no other reason why anyone should bother remembering it  [ID: 17195]
+ ##### 
+163. too deep or substantial .  [ID: 58957]
+ ##### 
+164. 's impossible to claim that it is `` based on a true story '' with a straight face .  [ID: 5767]
+ ##### 
+165. releasing a film with the word ` dog ' in its title in january lends itself to easy jokes and insults , and snow dogs deserves every single one of them .  [ID: 64213]
+ ##### 
+166. destroy is also a creative urge  [ID: 56858]
+ ##### 
+167. elling and kjell bjarne become symbolic characters whose actions are supposed to relate something about the naïf 's encounter with the world .  [ID: 53404]
+ ##### 
+168. received such a sophisticated and unsentimental treatment on the big screen  [ID: 8779]
+ ##### 
+169. with regret and , ultimately , finding redemption  [ID: 36371]
+ ##### 
+170. schneidermeister ... makin ' a fool of himself ... losin ' his fan base  [ID: 43399]
+ ##### 
+171. eventually the content is n't nearly as captivating as the rowdy participants think it is .  [ID: 30017]
+ ##### 
+172. uses the last act to reel in the audience since its poignancy hooks us completely  [ID: 34771]
+ ##### 
+173. too weak a recipe  [ID: 29956]
+ ##### 
+174. ( the kid 's ) just too bratty for sympathy , and  [ID: 32437]
+ ##### 
+175. avoid seeing this trite , predictable rehash  [ID: 66038]
+ ##### 
+176. the hardy spirit of cuban music  [ID: 59108]
+ ##### 
+177. the incomprehensible anne rice novel  [ID: 62711]
+ ##### 
+178. weighty and ponderous but every bit as filling as the treat of the title  [ID: 28193]
+ ##### 
+179. than into the script , which has a handful of smart jokes  [ID: 59847]
+ ##### 
+180. most alive  [ID: 33059]
+ ##### 
+181. has claws enough to get inside you and stay there for a couple of hours  [ID: 24707]
+ ##### 
+182. the cute frissons of discovery and humor between chaplin and kidman that keep this nicely wound clock not just ticking , but humming  [ID: 37214]
+ ##### 
+183. scratching your head  [ID: 27915]
+ ##### 
+184. nudity  [ID: 41200]
+ ##### 
+185. excellent performances  [ID: 56366]
+ ##### 
+186. is a particularly vexing handicap  [ID: 12722]
+ ##### 
+187. more relevant than 9 1/2 weeks  [ID: 29630]
+ ##### 
+188. bittersweet film  [ID: 52038]
+ ##### 
+189. wonder of wonders --  [ID: 33653]
+ ##### 
+190. 's touching and tender and  [ID: 55825]
+ ##### 
+191. brutally honest  [ID: 40040]
+ ##### 
+192. another useless recycling  [ID: 37442]
+ ##### 
+193. feel like a chump  [ID: 30261]
+ ##### 
+194. 's compelling  [ID: 26402]
+ ##### 
+195. rare quality  [ID: 25117]
+ ##### 
+196. punch-drunk love is so convinced of its own brilliance that , if it were a person , you 'd want to smash its face in . '  [ID: 54711]
+ ##### 
+197. a fascinating , bombshell documentary that should shame americans , regardless of whether or not ultimate blame  [ID: 50047]
+ ##### 
+198. is a tale worth catching .  [ID: 25644]
+ ##### 
+199. once again that a man in drag is not in and of himself funny  [ID: 38578]
+ ##### 
+200. undone  [ID: 25396]
+ ##### 
+201. 'm not sure which will take longer to heal : the welt on johnny knoxville 's stomach from a riot-control projectile or my own tortured psyche .  [ID: 3738]
+ ##### 
+202. a tasty performance  [ID: 13609]
+ ##### 
+203. ' the play more has partly closed it down .  [ID: 36845]
+ ##### 
+204. drag an audience  [ID: 9279]
+ ##### 
+205. of destruction  [ID: 66933]
+ ##### 
+206. tenderness  [ID: 61139]
+ ##### 
+207. wanderers and a bronx tale  [ID: 59608]
+ ##### 
+208. a woozy quality  [ID: 16798]
+ ##### 
+209. as rude and profane as ever , always hilarious and  [ID: 34307]
+ ##### 
+210. lee 's achievement extends to his supple understanding of the role that brown played in american culture as an athlete , a movie star , and an image of black indomitability .  [ID: 5101]
+ ##### 
+211. as timely as tomorrow  [ID: 29482]
+ ##### 
+212. skillfully assembled , highly polished and professional  [ID: 16645]
+ ##### 
+213. a well-crafted letdown .  [ID: 18670]
+ ##### 
+214. immensely ambitious , different than anything that 's been done before and amazingly successful in terms of what it 's trying to do  [ID: 50902]
+ ##### 
+215. crushing disappointment  [ID: 58526]
+ ##### 
+216. , the film has an odd purity that does n't bring you into the characters so much as it has you study them .  [ID: 22871]
+ ##### 
+217. influenced by some of the filmmakers who have directed him , especially the coen brothers and steven soderbergh  [ID: 24564]
+ ##### 
+218. complex , politically charged tapestry  [ID: 44896]
+ ##### 
+219. become a spielberg trademark  [ID: 61647]
+ ##### 
+220. a deliciously nonsensical comedy about a city coming apart at its seams .  [ID: 18726]
+ ##### 
+221. it 's all the stronger because of it  [ID: 25939]
+ ##### 
+222. the numerous scenes of gory mayhem are worth the price of admission ... if `` gory mayhem '' is your idea of a good time  [ID: 4315]
+ ##### 
+223. leavened by a charm that 's conspicuously missing from the girls ' big-screen blowout  [ID: 31261]
+ ##### 
+224. provide insight  [ID: 4189]
+ ##### 
+225. largely unfulfilling  [ID: 66729]
+ ##### 
+226. ever had the inclination to make the most sincere and artful movie in which adam sandler will probably ever appear  [ID: 40137]
+ ##### 
+227. for words , for its eccentric , accident-prone characters , and for the crazy things that keep people going in this crazy life  [ID: 38845]
+ ##### 
+228. combined with the misconceived final 5  [ID: 56770]
+ ##### 
+229. hollywood frightfest  [ID: 48785]
+ ##### 
+230. the best kind of documentary , one that makes a depleted yesterday feel very much like a brand-new tomorrow  [ID: 4671]
+ ##### 
+231. a well-deserved reputation as one  [ID: 14575]
+ ##### 
+232. that deftly , gradually reveals a real human soul buried beneath a spellbinding serpent 's smirk .  [ID: 31096]
+ ##### 
+233. the most practiced curmudgeon  [ID: 65482]
+ ##### 
+234. in welcome perspective  [ID: 3302]
+ ##### 
+235. compromising that complexity  [ID: 30274]
+ ##### 
+236. at a tough-man contest  [ID: 56879]
+ ##### 
+237. frei assembles a fascinating profile of a deeply humanistic artist who , in spite of all that he 's witnessed , remains surprisingly idealistic , and retains an extraordinary faith in the ability of images to communicate the truth of the world around him .  [ID: 51651]
+ ##### 
+238. the movie 's downfall is to substitute plot for personality .  [ID: 47870]
+ ##### 
+239. of film entertainment  [ID: 21679]
+ ##### 
+240. the evening to end  [ID: 44193]
+ ##### 
+241. extant stardom  [ID: 7207]
+ ##### 
+242. a pointed , often tender , examination of the pros and cons of unconditional love and familial duties .  [ID: 57006]
+ ##### 
+243. to compensate for the paper-thin characterizations and facile situations  [ID: 28294]
+ ##### 
+244. about sex gags and prom dates  [ID: 29001]
+ ##### 
+245. no-surprise  [ID: 21728]
+ ##### 
+246. gussied up  [ID: 42769]
+ ##### 
+247. mr. wollter and ms. seldhal give strong and convincing performances  [ID: 39390]
+ ##### 
+248. remarkable film  [ID: 41729]
+ ##### 
+249. savor the pleasure of his sounds and images  [ID: 35834]
+ ##### 
+250. when you 've got the wildly popular vin diesel in the equation  [ID: 25163]
+ ##### 
+251. created a beautiful canvas  [ID: 12367]
+ ##### 
+252. unfolds in a series of achronological vignettes whose cumulative effect is chilling .  [ID: 24538]
+ ##### 
+253. a dentist 's waiting room  [ID: 33990]
+ ##### 
+254. would do better elsewhere .  [ID: 41522]
+ ##### 
+255. it is a failure .  [ID: 37459]
+ ##### 
+256. in world cinema  [ID: 27]
+ ##### 
+257. most fascinating stories  [ID: 15813]
+ ##### 
+258. for what we can get on television for free  [ID: 58373]
+ ##### 
+259. has the stuff to stand tall with pryor , carlin and murphy  [ID: 13753]
+ ##### 
+260. , director chris columbus takes a hat-in-hand approach to rowling that stifles creativity and allows the film to drag on for nearly three hours .  [ID: 1470]
+ ##### 
+261. philosophically , intellectually and logistically a mess .  [ID: 47753]
+ ##### 
+262. radical action  [ID: 31417]
+ ##### 
+263. warped logic by writer-director kurt wimmer at the screenplay level  [ID: 33219]
+ ##### 
+264. to inspire anything more than a visit to mcdonald 's , let alone some savvy street activism  [ID: 47063]
+ ##### 
+265. good ear  [ID: 2382]
+ ##### 
+266. whether or not  [ID: 61601]
+ ##### 
+267. worthy predecessors  [ID: 4067]
+ ##### 
+268. 's so bad  [ID: 7924]
+ ##### 
+269. accepting this in the right frame of mind can only provide it with so much leniency .  [ID: 10334]
+ ##### 
+270. want to see it  [ID: 24810]
+ ##### 
+271. in too many conflicts  [ID: 21220]
+ ##### 
+272. dramatically lackluster  [ID: 7168]
+ ##### 
+273. photographed with color and depth , and rather a good time .  [ID: 26050]
+ ##### 
+274. mention `` solaris '' five years from now and  [ID: 47535]
+ ##### 
+275. as the man who bilked unsuspecting moviegoers  [ID: 33061]
+ ##### 
+276. if the video is n't back at blockbuster before midnight , you 're going to face frightening late fees  [ID: 55497]
+ ##### 
+277. this is a visually stunning rumination on love , memory , history and the war between art and commerce .  [ID: 2247]
+ ##### 
+278. the values of knowledge , education , and the  [ID: 48495]
+ ##### 
+279. did no one on the set have a sense of humor ,  [ID: 6069]
+ ##### 
+280. its heart  [ID: 33024]
+ ##### 
+281. a war tribute is disgusting to begin with  [ID: 65934]
+ ##### 
+282. uncompromising , difficult and  [ID: 53934]
+ ##### 
+283. all this visual trickery stops being clever and devolves into flashy , vaguely silly overkill .  [ID: 3245]
+ ##### 
+284. pure  [ID: 55898]
+ ##### 
+285. amidst the action , the script carries arnold ( and the viewers ) into the forbidden zone of sympathizing with terrorist motivations by presenting the `` other side of the story . ''  [ID: 8286]
+ ##### 
+286. a high-spirited buddy movie about the reunion of berlin  [ID: 58202]
+ ##### 
+287. modern masculine journey  [ID: 43196]
+ ##### 
+288. probes in a light-hearted way the romantic problems of individuals for whom the yearning for passion spells discontent .  [ID: 49267]
+ ##### 
+289. an honesty and dignity that breaks your heart  [ID: 55450]
+ ##### 
+290. it 's kinda dumb .  [ID: 36860]
+ ##### 
+291. is a rare treat that shows the promise of digital filmmaking .  [ID: 45855]
+ ##### 
+292. will wish there had been more of the `` queen '' and less of the `` damned  [ID: 19508]
+ ##### 
+293. a tired , talky feel  [ID: 63970]
+ ##### 
+294. an overwhelming pleasure  [ID: 42890]
+ ##### 
+295. there 's back-stabbing , inter-racial desire and , most importantly , singing and dancing .  [ID: 53420]
+ ##### 
+296. every turn of elizabeth berkley 's flopping dolphin-gasm  [ID: 63690]
+ ##### 
+297. , this is the first film in a long time that made me want to bolt the theater in the first 10 minutes .  [ID: 20547]
+ ##### 
+298. is a strength of a documentary to disregard available bias , especially  [ID: 63439]
+ ##### 
+299. the nicest thing i can say is that i ca n't remember a single name responsible for it  [ID: 34089]
+ ##### 
+300. affectingly  [ID: 5215]
+ ##### 
+301. a breathtaking adventure for all ages , spirit  [ID: 26034]
+ ##### 
+302. artistry  [ID: 56471]
+ ##### 
+303. the kind of movie that leaves vague impressions and a nasty aftertaste but little clear memory of its operational mechanics  [ID: 11682]
+ ##### 
+304. made a remarkable film that explores the monster 's psychology not in order to excuse him but rather to demonstrate that his pathology evolved from human impulses that grew hideously twisted  [ID: 45398]
+ ##### 
+305. you might think he was running for office -- or trying to win over a probation officer  [ID: 60774]
+ ##### 
+306. carries you  [ID: 29284]
+ ##### 
+307. comes along only occasionally , one so unconventional , gutsy and perfectly  [ID: 6362]
+ ##### 
+308. capture the minds and hearts of many  [ID: 13211]
+ ##### 
+309. very well-written and very well-acted .  [ID: 120]
+ ##### 
+310. lovingly  [ID: 10004]
+ ##### 
+311. patience , respect and affection  [ID: 3593]
+ ##### 
+312. ca n't go wrong .  [ID: 8290]
+ ##### 
+313. its generic villains lack any intrigue ( other than their funny accents ) and the action scenes are poorly delivered .  [ID: 27102]
+ ##### 
+314. a hallmark hall of fame  [ID: 61399]
+ ##### 
+315. a lovely film  [ID: 8131]
+ ##### 
+316. of those reputedly `` unfilmable '' novels that has bucked the odds to emerge as an exquisite motion picture in its own right  [ID: 2060]
+ ##### 
+317. prefabricated  [ID: 12484]
+ ##### 
+318. headed down the toilet with the ferocity of a frozen burrito after an all-night tequila bender  [ID: 21283]
+ ##### 
+319. mcwilliams 's melancholy music , are charged with metaphor ,  [ID: 30048]
+ ##### 
+320. a ravishing , baroque beauty  [ID: 64655]
+ ##### 
+321. humorous observations  [ID: 13068]
+ ##### 
+322. the film a celluloid litmus test for the intellectual and emotional pedigree of your date and a giant step backward for a director i admire  [ID: 685]
+ ##### 
+323. does a solid job of slowly , steadily building up to the climactic burst of violence  [ID: 67211]
+ ##### 
+324. is so clumsily sentimental and ineptly directed it may leave you speaking in tongues .  [ID: 14570]
+ ##### 
+325. b movies  [ID: 1349]
+ ##### 
+326. but it was n't horrible either  [ID: 42118]

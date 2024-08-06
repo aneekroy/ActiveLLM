@@ -1,0 +1,17 @@
+To select the instances for labeling, I would aim for diversity in terms of sentiment, length, and topics covered to provide a representative sample of the dataset. Here's how I would go about selecting the instances:
+
+1. **Exclude redundant instances**: Look for instances that convey similar sentiments or cover the same topic. These can be excluded to ensure diversity.
+
+2. **Prioritize ambiguous instances**: Choose instances where the sentiment or meaning is not immediately clear. These instances are crucial for annotation to capture the variability in interpretation.
+
+3. **Include extremes**: Select instances that exhibit extremely positive or negative sentiment to capture the full spectrum of opinions.
+
+4. **Cover various topics**: Ensure that the selected instances cover a range of topics or themes present in the dataset.
+
+5. **Consider length**: Include instances of varying lengths, from short phrases to longer sentences, to assess annotator capability across different text lengths.
+
+Based on these criteria, I would select the following instances for labeling:
+
+1, 4, 5, 6, 8, 9, 11, 13, 17, 19, 22, 24, 29, 34, 35, 38, 41, 44, 47, 51, 53, 56, 59, 61, 64, 67, 69, 74, 77, 79, 82, 88
+
+These instances cover a variety of sentiments, lengths, and topics, providing a comprehensive sample for annotation.

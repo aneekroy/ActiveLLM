@@ -1,0 +1,19 @@
+To select the instances to label, I would follow these steps:
+
+Diversity: Ensure the selected instances cover a wide range of topics. This will help the model learn from various contexts and improve its overall performance.
+
+Uncertainty: Choose instances that seem ambiguous or complex. Labeling these instances can help the model understand and handle similar cases in the future.
+
+Representativeness: Select instances that seem to represent a larger group of instances. This will help the model learn patterns that can be applied to multiple instances.
+
+Based on these criteria, here are the instances I would choose:
+
+2, 5, 7, 12, 16, 18, 22, 24, 27, 29, 32, 34, 37, 39, 44, 48, 51, 54, 59, 63, 68, 70, 73, 78, 82, 85, 88, 92, 95, 98, 100
+
+These instances cover a wide range of topics, include some complex and ambiguous cases, and seem to represent larger groups of instances.
+
+Can you give me one more instance?
+
+Sure, based on the same criteria, I would choose instance number 46. This instance seems to cover a topic that's different from the ones already selected and could potentially provide new information for the model to learn from. So, the updated list of instances would be:
+
+2, 5, 7, 12, 16, 18, 22, 24, 27, 29, 32, 34, 37, 39, 44, 46, 48, 51, 54, 59, 63, 68, 70, 73, 78, 82, 85, 88, 92, 95, 98, 100

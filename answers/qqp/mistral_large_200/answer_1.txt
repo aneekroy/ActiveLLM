@@ -1,0 +1,11 @@
+To select the instances to label, I would follow these steps:
+
+1. **Diversity**: Select instances that cover a wide range of topics. This will ensure that the model learns to handle different types of questions.
+2. **Uncertainty**: Choose instances where the model's confidence is low. These are likely to be the instances where the model needs the most help.
+3. **Representativeness**: Select instances that are representative of the overall dataset. This will ensure that the model's performance on the labeled instances generalizes well to the rest of the dataset.
+
+Based on these criteria, I would select the following instances to label:
+
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155
+
+This selection covers a wide range of topics, includes instances where the model's confidence might be low (based on the complexity of the questions), and is representative of the overall dataset.

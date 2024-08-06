@@ -1,0 +1,14 @@
+11:14:20,145 root INFO Training results:
+11:14:22,63 root INFO {'eval_loss': 1.9073569774627686, 'eval_Accuracy: ': 0.6622296173044925, 'eval_F1: ': 0.6011787819253439, 'eval_Precision_1: ': 0.4919614147909968, 'eval_Recall_1: ': 0.7727272727272727, 'eval_Precision_0: ': 0.8448275862068966, 'eval_Recall_0: ': 0.607940446650124, 'eval_runtime': 1.918, 'eval_samples_per_second': 313.348, 'eval_steps_per_second': 9.906, 'epoch': 100.0}
+11:14:59,827 root INFO Training results:
+11:15:01,766 root INFO {'eval_loss': 1.690727710723877, 'eval_Accuracy: ': 0.6821963394342762, 'eval_F1: ': 0.62475442043222, 'eval_Precision_1: ': 0.5112540192926045, 'eval_Recall_1: ': 0.803030303030303, 'eval_Precision_0: ': 0.8655172413793103, 'eval_Recall_0: ': 0.6228287841191067, 'eval_runtime': 1.9278, 'eval_samples_per_second': 311.762, 'eval_steps_per_second': 9.856, 'epoch': 100.0}
+11:15:38,763 root INFO Training results:
+11:15:40,810 root INFO {'eval_loss': 1.8960033655166626, 'eval_Accuracy: ': 0.6955074875207987, 'eval_F1: ': 0.6839378238341969, 'eval_Precision_1: ': 0.6366559485530546, 'eval_Recall_1: ': 0.7388059701492538, 'eval_Precision_0: ': 0.7586206896551724, 'eval_Recall_0: ': 0.6606606606606606, 'eval_runtime': 1.9227, 'eval_samples_per_second': 312.584, 'eval_steps_per_second': 9.882, 'epoch': 100.0}
+11:16:18,238 root INFO Training results:
+11:16:20,389 root INFO {'eval_loss': 2.7744336128234863, 'eval_Accuracy: ': 0.6039933444259568, 'eval_F1: ': 0.5405405405405405, 'eval_Precision_1: ': 0.45016077170418006, 'eval_Recall_1: ': 0.6763285024154589, 'eval_Precision_0: ': 0.7689655172413793, 'eval_Recall_0: ': 0.565989847715736, 'eval_runtime': 1.9168, 'eval_samples_per_second': 313.539, 'eval_steps_per_second': 9.912, 'epoch': 100.0}
+11:16:57,748 root INFO Training results:
+11:16:59,686 root INFO {'eval_loss': 1.958248257637024, 'eval_Accuracy: ': 0.7237936772046589, 'eval_F1: ': 0.7260726072607261, 'eval_Precision_1: ': 0.707395498392283, 'eval_Recall_1: ': 0.7457627118644068, 'eval_Precision_0: ': 0.7413793103448276, 'eval_Recall_0: ': 0.7026143790849673, 'eval_runtime': 1.9309, 'eval_samples_per_second': 311.256, 'eval_steps_per_second': 9.84, 'epoch': 100.0}
+11:16:59,686 root INFO Acc:[0.6622296173044925, 0.6821963394342762, 0.6955074875207987, 0.6039933444259568, 0.7237936772046589]
+11:16:59,686 root INFO Acc:0.6735440931780365
+11:16:59,686 root INFO F1:[0.6011787819253439, 0.62475442043222, 0.6839378238341969, 0.5405405405405405, 0.7260726072607261]
+11:16:59,686 root INFO F1:0.6352968347986054

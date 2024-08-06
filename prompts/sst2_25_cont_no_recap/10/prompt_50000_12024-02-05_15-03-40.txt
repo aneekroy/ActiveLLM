@@ -1,0 +1,404 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 25 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+1452. 's kind of insulting , both to men and women  [ID: 39718]
+ ##### 
+1453. brings together some of the biggest names in japanese anime , with impressive results .  [ID: 52329]
+ ##### 
+1454. reasonably intelligent  [ID: 31616]
+ ##### 
+1455. can take the grandkids or the grandparents and never worry about anyone being bored  [ID: 8021]
+ ##### 
+1456. monumental achievement  [ID: 17030]
+ ##### 
+1457. satisfying entertainment  [ID: 52090]
+ ##### 
+1458. transporting is that it 's also one of the smartest  [ID: 1320]
+ ##### 
+1459. how it washed out despite all of that  [ID: 3090]
+ ##### 
+1460. is the one thing that holds interest in the midst of a mushy , existential exploration of why men leave their families  [ID: 66505]
+ ##### 
+1461. is kinda wrong in places  [ID: 5591]
+ ##### 
+1462. uninspired scripts , acting and direction  [ID: 30682]
+ ##### 
+1463. still has enough moments to keep it entertaining .  [ID: 27933]
+ ##### 
+1464. as kooky and overeager as it is spooky and subtly in love with myth  [ID: 52220]
+ ##### 
+1465. 's a treat watching shaw , a british stage icon , melting under the heat of phocion 's attentions .  [ID: 23688]
+ ##### 
+1466. motivated by something more than franchise possibilities  [ID: 53397]
+ ##### 
+1467. turntablism  [ID: 1852]
+ ##### 
+1468. surprises you with unexpected comedy  [ID: 38104]
+ ##### 
+1469. point and purpose  [ID: 46834]
+ ##### 
+1470. that this film 's cast is uniformly superb  [ID: 67035]
+ ##### 
+1471. something creepy about this movie  [ID: 49385]
+ ##### 
+1472. 's updating works surprisingly well .  [ID: 58112]
+ ##### 
+1473. warning you  [ID: 39078]
+ ##### 
+1474. an intimate feeling ,  [ID: 64382]
+ ##### 
+1475. the worst elements of all of them  [ID: 26946]
+ ##### 
+1476. uninspiring  [ID: 17323]
+ ##### 
+1477. ( jeff 's ) gorgeous , fluid compositions  [ID: 56585]
+ ##### 
+1478. like a high-end john hughes comedy , a kind of elder bueller 's time out  [ID: 2399]
+ ##### 
+1479. a happy ending  [ID: 45223]
+ ##### 
+1480. 'm guessing the director is a magician .  [ID: 61848]
+ ##### 
+1481. nervous  [ID: 2797]
+ ##### 
+1482. will be lulled into a coma .  [ID: 15592]
+ ##### 
+1483. by way of a valentine sealed with a kiss  [ID: 58080]
+ ##### 
+1484. moronic  [ID: 43928]
+ ##### 
+1485. undeniable energy  [ID: 44061]
+ ##### 
+1486. visually dazzling  [ID: 2697]
+ ##### 
+1487. 's gone to manhattan and hell  [ID: 15248]
+ ##### 
+1488. imaginatively mixed cast  [ID: 10469]
+ ##### 
+1489. the pleasures of a well-made pizza  [ID: 3257]
+ ##### 
+1490. has much to recommend it , even if the top-billed willis is not the most impressive player  [ID: 66977]
+ ##### 
+1491. , virulent and foul-natured  [ID: 17619]
+ ##### 
+1492. is the stuff that disney movies are made of  [ID: 36044]
+ ##### 
+1493. come to love  [ID: 2840]
+ ##### 
+1494. of all those famous moments  [ID: 63547]
+ ##### 
+1495. implies in its wake the intractable , irreversible flow of history  [ID: 3719]
+ ##### 
+1496. does n't get the job done , running off the limited chemistry created by ralph fiennes and jennifer lopez .  [ID: 18462]
+ ##### 
+1497. wonderfully warm  [ID: 4797]
+ ##### 
+1498. stopped challenging himself  [ID: 56609]
+ ##### 
+1499. sordid universe  [ID: 8918]
+ ##### 
+1500. the jokes are telegraphed so far in advance they must have been lost in the mail .  [ID: 55230]
+ ##### 
+1501. 's a shame that the storyline and its underlying themes ... finally seem so impersonal or even shallow  [ID: 4287]
+ ##### 
+1502. strained caper movies that 's hardly any fun to watch and begins to vaporize from your memory minutes after it ends .  [ID: 6219]
+ ##### 
+1503. a disappointingly thin slice of lower-class london life ; despite the title ... amounts to surprisingly little  [ID: 34662]
+ ##### 
+1504. asian neo-realist treasure .  [ID: 62638]
+ ##### 
+1505. likable , but just as often it 's meandering , low on energy , and too eager to be quirky at moments when a little old-fashioned storytelling would come in handy .  [ID: 63582]
+ ##### 
+1506. deviously adopts the guise of a modern motion picture  [ID: 57335]
+ ##### 
+1507. to look as if it were being shown on the projection television screen of a sports bar  [ID: 7345]
+ ##### 
+1508. no new friends  [ID: 19166]
+ ##### 
+1509. most incoherent  [ID: 38510]
+ ##### 
+1510. seems content to dog-paddle in the mediocre end of the pool , and it 's a sad , sick sight  [ID: 30895]
+ ##### 
+1511. ( green is ) the comedy equivalent of saddam hussein , and i 'm just about ready to go to the u.n. and ask permission for a preemptive strike .  [ID: 3576]
+ ##### 
+1512. a plethora of engaging diatribes on the meaning of ` home , ' delivered in grand passion by the members of the various households .  [ID: 36214]
+ ##### 
+1513. there are deeply religious and spiritual people in this world who would argue that entering a church , synagogue or temple does n't mean you have to check your brain at the door .  [ID: 47121]
+ ##### 
+1514. witty and often surprising  [ID: 38474]
+ ##### 
+1515. smart and dark  [ID: 52915]
+ ##### 
+1516. a halfwit plot  [ID: 60578]
+ ##### 
+1517. asylum material  [ID: 40974]
+ ##### 
+1518. its share of laughs -- sometimes a chuckle , sometimes a guffaw and , to my great pleasure , the occasional belly laugh  [ID: 11474]
+ ##### 
+1519. and resourceful hero  [ID: 5616]
+ ##### 
+1520. is just too clichéd and too often strains credulity  [ID: 29621]
+ ##### 
+1521. its leaden acting , dull exposition and telegraphed ` surprises  [ID: 42529]
+ ##### 
+1522. likely to induce sleep than fright  [ID: 21026]
+ ##### 
+1523. be a somewhat backhanded compliment to say that the film makes the viewer feel like the movie 's various victimized audience members after a while , but it also happens to be the movie 's most admirable quality  [ID: 48954]
+ ##### 
+1524. a gently funny , sweetly adventurous film that makes you feel genuinely good , that is to say , entirely unconned by false sentiment or sharp , overmanipulative hollywood practices .  [ID: 14237]
+ ##### 
+1525. sadistic bike flick  [ID: 63734]
+ ##### 
+1526. better to do with 94 minutes  [ID: 66642]
+ ##### 
+1527. you to watch people doing unpleasant things to each other and themselves  [ID: 46141]
+ ##### 
+1528. insufficiently  [ID: 62402]
+ ##### 
+1529. do n't work in concert  [ID: 107]
+ ##### 
+1530. maybe it is formula filmmaking , but there 's nothing wrong with that if the film is well-crafted and this one is  [ID: 32505]
+ ##### 
+1531. a better film  [ID: 21084]
+ ##### 
+1532. faithful  [ID: 62500]
+ ##### 
+1533. ` punch-drunk love is so convinced of its own brilliance that , if it were a person , you 'd want to smash its face in . '  [ID: 11643]
+ ##### 
+1534. amid the new populist comedies that underscore the importance of family tradition and familial community , one would be hard-pressed to find a movie with a bigger , fatter heart than barbershop .  [ID: 2439]
+ ##### 
+1535. ultimate imax trip  [ID: 24900]
+ ##### 
+1536. no . .  [ID: 3577]
+ ##### 
+1537. is consistently amusing and engrossing  [ID: 61552]
+ ##### 
+1538. for instance , good things happen to bad people  [ID: 57700]
+ ##### 
+1539. jaw-dropping  [ID: 27301]
+ ##### 
+1540. a few laughs  [ID: 3294]
+ ##### 
+1541. his work transcends the boy-meets-girl posturing of typical love stories .  [ID: 28833]
+ ##### 
+1542. with bloody beauty as vivid  [ID: 51739]
+ ##### 
+1543. 'll probably run out screaming .  [ID: 56429]
+ ##### 
+1544. numb experience  [ID: 58929]
+ ##### 
+1545. b-movie category  [ID: 9133]
+ ##### 
+1546. overlong and not well-acted , but credit writer-producer-director  [ID: 14042]
+ ##### 
+1547. falls apart  [ID: 47393]
+ ##### 
+1548. also a -- dare i say it twice -- delightfully charming -- and totally american  [ID: 59982]
+ ##### 
+1549. porno flick  [ID: 20841]
+ ##### 
+1550. wannabe  [ID: 8676]
+ ##### 
+1551. takes a potentially trite and overused concept ( aliens come to earth ) and infuses it into a rustic , realistic , and altogether creepy tale of hidden invasion  [ID: 37226]
+ ##### 
+1552. reminds you of why animation is such a perfect medium for children , because of the way it allows the mind to enter and accept another world .  [ID: 23782]
+ ##### 
+1553. director robert j. siegel allows the characters to inhabit their world without cleaving to a narrative arc .  [ID: 48148]
+ ##### 
+1554. satire lucky break  [ID: 25215]
+ ##### 
+1555. misogyny and unprovoked violence  [ID: 57635]
+ ##### 
+1556. a sharp movie about otherwise dull subjects  [ID: 22828]
+ ##### 
+1557. to occasionally break up the live-action scenes with animated sequences  [ID: 52367]
+ ##### 
+1558. elevated by michael caine 's performance  [ID: 53192]
+ ##### 
+1559. i am highly amused by the idea that we have come to a point in society where it has been deemed important enough to make a film in which someone has to be hired to portray richard dawson .  [ID: 26547]
+ ##### 
+1560. arguably the best script that besson has written in years .  [ID: 1837]
+ ##### 
+1561. keep you interested without coming close to bowling you over  [ID: 66571]
+ ##### 
+1562. this is lightweight filmmaking , to be sure , but it 's pleasant enough -- and oozing with attractive men .  [ID: 30695]
+ ##### 
+1563. for cryin '  [ID: 65722]
+ ##### 
+1564. strikes a defiantly retro chord , and outpaces its contemporaries with daring and verve  [ID: 15097]
+ ##### 
+1565. wannabe comedy  [ID: 2401]
+ ##### 
+1566. relaxed in its perfect quiet pace and proud in its message .  [ID: 35332]
+ ##### 
+1567. a comic book with soul  [ID: 41462]
+ ##### 
+1568. keeps things going at a rapid pace , occasionally using an omniscient voice-over narrator in the manner of french new wave films  [ID: 28522]
+ ##### 
+1569. be most in the mind of the killer  [ID: 49131]
+ ##### 
+1570. funny and touching  [ID: 6195]
+ ##### 
+1571. wallowing in its characters ' frustrations  [ID: 3549]
+ ##### 
+1572. emotionally satisfying  [ID: 32866]
+ ##### 
+1573. meditative and  [ID: 26787]
+ ##### 
+1574. prejudice  [ID: 11378]
+ ##### 
+1575. low-budget and tired  [ID: 63803]
+ ##### 
+1576. from a xerox machine rather than ( writer-director ) franc  [ID: 45966]
+ ##### 
+1577. of the smarter offerings the horror genre  [ID: 2394]
+ ##### 
+1578. the very simple story seems too simple and the working out of the plot almost arbitrary .  [ID: 49852]
+ ##### 
+1579. it also represents glossy hollywood at its laziest .  [ID: 38697]
+ ##### 
+1580. more quick-witted than any english lit  [ID: 58728]
+ ##### 
+1581. utterly ridiculous shaggy dog story  [ID: 8501]
+ ##### 
+1582. worked wonders  [ID: 54144]
+ ##### 
+1583. contrived , unmotivated ,  [ID: 61518]
+ ##### 
+1584. failed  [ID: 3516]
+ ##### 
+1585. his slop  [ID: 52958]
+ ##### 
+1586. plus  [ID: 16712]
+ ##### 
+1587. very amusing  [ID: 56554]
+ ##### 
+1588. completely satisfying  [ID: 19714]
+ ##### 
+1589. a serious debt to the road warrior  [ID: 50011]
+ ##### 
+1590. this loud and thoroughly obnoxious comedy about a pair of squabbling working-class spouses is a deeply unpleasant experience .  [ID: 14430]
+ ##### 
+1591. 's so downbeat and nearly humorless  [ID: 27869]
+ ##### 
+1592. 've seen a movie instead of an endless trailer  [ID: 23772]
+ ##### 
+1593. shimmering cinematography  [ID: 26819]
+ ##### 
+1594. it is an uneven film for the most part  [ID: 43720]
+ ##### 
+1595. no way original  [ID: 32649]
+ ##### 
+1596. is more interesting than the screenplay , which lags badly in the middle and lurches between not-very-funny comedy , unconvincing dramatics and some last-minute action strongly reminiscent of run lola run  [ID: 9140]
+ ##### 
+1597. actorly existential despair than for its boundary-hopping formal innovations and glimpse into another kind of chinese  [ID: 58458]
+ ##### 
+1598. an enjoyably frothy ` date movie ' ...  [ID: 24028]
+ ##### 
+1599. intense and engrossing  [ID: 65081]
+ ##### 
+1600. lack depth or complexity  [ID: 10983]
+ ##### 
+1601. if it is generally amusing from time to time  [ID: 6295]
+ ##### 
+1602. by kevin bray , whose crisp framing , edgy camera work , and wholesale ineptitude with acting , tone and pace very obviously mark him as a video helmer making his feature debut  [ID: 27622]
+ ##### 
+1603. festival  [ID: 1093]
+ ##### 
+1604. is to be viewed and treasured for its extraordinary intelligence and originality as well as its lyrical variations on the game of love .  [ID: 22112]
+ ##### 
+1605. made the first one charming  [ID: 5054]
+ ##### 
+1606. , the movie is busy contriving false , sitcom-worthy solutions to their problems .  [ID: 25330]
+ ##### 
+1607. 's unfortunate  [ID: 8466]
+ ##### 
+1608. 's rare to see a movie that takes such a speedy swan dive from `` promising '' to `` interesting '' to `` familiar '' before landing squarely on `` stupid ''  [ID: 59696]
+ ##### 
+1609. bisset  [ID: 27190]
+ ##### 
+1610. the kids in the audience at the preview screening seemed bored , cheering the pratfalls but little else ; their parents , wise folks that they are , read books .  [ID: 10475]
+ ##### 
+1611. a slice of counterculture  [ID: 11152]
+ ##### 
+1612. the film has an infectious enthusiasm and  [ID: 16678]
+ ##### 
+1613. lacks the skill or presence to regain any ground  [ID: 36025]
+ ##### 
+1614. insightfully written , delicately performed  [ID: 15610]
+ ##### 
+1615. remains uniquely itself  [ID: 44597]
+ ##### 
+1616. does not have , beginning with the minor omission of a screenplay  [ID: 7011]
+ ##### 
+1617. super - violent ,  [ID: 30948]
+ ##### 
+1618. worst excesses  [ID: 15176]
+ ##### 
+1619. that satisfies , as comfort food often can  [ID: 35072]
+ ##### 
+1620. felt and vividly detailed story about newcomers in a strange new world  [ID: 66357]
+ ##### 
+1621. damon/bourne or  [ID: 37582]
+ ##### 
+1622. , relaxed in its perfect quiet pace and proud in its message .  [ID: 54544]
+ ##### 
+1623. both heartbreaking  [ID: 44993]
+ ##### 
+1624. viewers will wish there had been more of the `` queen '' and less of the `` damned . ''  [ID: 42599]
+ ##### 
+1625. could have written a more credible script , though with the same number of continuity errors .  [ID: 51097]
+ ##### 
+1626. 's a dull girl , that 's all .  [ID: 12245]
+ ##### 
+1627. the filmmakers ' paws , sad to say  [ID: 59540]
+ ##### 
+1628. sure to make a clear point -- even if it seeks to rely on an ambiguous presentation  [ID: 37332]
+ ##### 
+1629. goose things up  [ID: 27302]
+ ##### 
+1630. the discomfort and embarrassment of being a bumbling american in europe  [ID: 67018]
+ ##### 
+1631. two things drag it down to mediocrity -- director clare peploe 's misunderstanding of marivaux 's rhythms , and mira sorvino 's limitations as a classical actress  [ID: 23970]
+ ##### 
+1632. , it 's an adventure story and history lesson all in one .  [ID: 28814]
+ ##### 
+1633. a film with contemporary political resonance  [ID: 45515]
+ ##### 
+1634. convince almost everyone that it was put on the screen , just for them  [ID: 50543]
+ ##### 
+1635. adaptation is simply brilliant .  [ID: 13801]
+ ##### 
+1636. for both the scenic splendor of the mountains and for legendary actor michel serrault , the film  [ID: 29134]
+ ##### 
+1637. , there is a really cool bit -- the movie 's conception of a future-world holographic librarian ( orlando jones ) who knows everything and answers all questions , is visually smart , cleverly written , and nicely realized .  [ID: 34135]
+ ##### 
+1638. inertia to arrest development in a dead-end existence  [ID: 17057]
+ ##### 
+1639. fancy  [ID: 42109]
+ ##### 
+1640. exceedingly rare films  [ID: 18202]
+ ##### 
+1641. a tired , unnecessary retread ...  [ID: 18599]
+ ##### 
+1642. contemptible  [ID: 65220]
+ ##### 
+1643. unifying  [ID: 29152]
+ ##### 
+1644. is so insanely dysfunctional  [ID: 58192]
+ ##### 
+1645. as the synergistic impulse that created it  [ID: 48850]
+ ##### 
+1646. best possible  [ID: 38204]
+ ##### 
+1647. real women have curves truly is life affirming  [ID: 24323]
+ ##### 
+1648. seems interested in kicking around a raison d'etre that 's as fresh-faced as its young-guns cast  [ID: 40756]
+ ##### 
+1649. to creep the living hell out of you  [ID: 11656]
+ ##### 
+1650. and game phenomenon  [ID: 42052]
+ ##### 
+1651. bring fresh good looks and an ease in front of the camera  [ID: 38229]
+ ##### 
+1652. virtuoso throat-singing  [ID: 3057]

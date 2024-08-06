@@ -1,0 +1,19 @@
+What a great task!
+
+To select the 32 instances to label, I'll follow a step-by-step approach:
+
+Step 1: Remove duplicates After a quick scan, I didn't find any duplicate instances. So, I'll move on to the next step.
+
+Step 2: Identify instances with ambiguous coreference I'll look for instances where the pronoun's antecedent is not immediately clear or where there are multiple plausible antecedents. This will help me select instances that are more challenging and require more attention from the annotator.
+
+Step 3: Select instances with varying sentence structures and lengths To ensure a diverse set of instances, I'll choose sentences with different structures (e.g., simple, compound, complex) and lengths (e.g., short, medium, long). This will help the annotator encounter various scenarios and improve the model's robustness.
+
+Step 4: Cover a range of pronoun types and positions I'll select instances that feature different types of pronouns (e.g., personal, possessive, reflexive) and positions within the sentence (e.g., subject, object, indirect object).
+
+After applying these criteria, I've selected the following 32 instances:
+
+1, 4, 9, 13, 16, 20, 24, 28, 33, 37, 41, 43, 46, 49, 52, 55, 58, 61, 64, 67, 72, 74, 77, 80, 82, 85, 87, 90, 92, 94, 96, 99
+
+Here are the selected instances, separated by commas:
+
+1, 4, 9, 13, 16, 20, 24, 28, 33, 37, 41, 43, 46, 49, 52, 55, 58, 61, 64, 67, 72, 74, 77, 80, 82, 85, 87, 90, 92, 94, 96, 99

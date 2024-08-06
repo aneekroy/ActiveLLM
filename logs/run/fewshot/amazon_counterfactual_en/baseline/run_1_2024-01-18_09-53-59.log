@@ -1,0 +1,36 @@
+09:54:00,548 filelock INFO Lock 2348298037712 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\448b84fb6dd3d128fbd57392d67531c691398f1379f11332a67a93a5e8f87136.cffc6082a00c25d0ea353446cef97cffed97a2c161c2a3259668d42bbd48f8af.lock
+09:54:00,713 filelock INFO Lock 2348298037712 released on C:\Users\marku\.cache\huggingface\datasets\downloads\448b84fb6dd3d128fbd57392d67531c691398f1379f11332a67a93a5e8f87136.cffc6082a00c25d0ea353446cef97cffed97a2c161c2a3259668d42bbd48f8af.lock
+09:54:01,960 filelock INFO Lock 2349004907184 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___amazon_counterfactual_en_default_0.0.0_bb7e3bd207c48e2c4046f0c16107beda80c91342.lock
+09:54:01,961 filelock INFO Lock 2349004907184 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___amazon_counterfactual_en_default_0.0.0_bb7e3bd207c48e2c4046f0c16107beda80c91342.lock
+09:54:01,963 filelock INFO Lock 2349004907184 acquired on C:/Users/marku/.cache/huggingface/datasets/SetFit___amazon_counterfactual_en/default/0.0.0/bb7e3bd207c48e2c4046f0c16107beda80c91342_builder.lock
+09:54:02,941 filelock INFO Lock 2348299873488 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\5ac1ec410317b4c049df3fde9342687dcb63ab7afe193aa41b54f764b26a96bd.lock
+09:54:04,679 filelock INFO Lock 2348299873488 released on C:\Users\marku\.cache\huggingface\datasets\downloads\5ac1ec410317b4c049df3fde9342687dcb63ab7afe193aa41b54f764b26a96bd.lock
+09:54:04,881 filelock INFO Lock 2348300045616 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\30787ca6491098897ef66bfd7eeb84ac0a5fd8d7b5e66287fa56df421e853c04.lock
+09:54:06,119 filelock INFO Lock 2348300045616 released on C:\Users\marku\.cache\huggingface\datasets\downloads\30787ca6491098897ef66bfd7eeb84ac0a5fd8d7b5e66287fa56df421e853c04.lock
+09:54:06,151 filelock INFO Lock 2348300044176 acquired on C:/Users/marku/.cache/huggingface/datasets/SetFit___amazon_counterfactual_en/default/0.0.0/bb7e3bd207c48e2c4046f0c16107beda80c91342.incomplete_info.lock
+09:54:06,152 filelock INFO Lock 2348300044176 released on C:/Users/marku/.cache/huggingface/datasets/SetFit___amazon_counterfactual_en/default/0.0.0/bb7e3bd207c48e2c4046f0c16107beda80c91342.incomplete_info.lock
+09:54:06,153 filelock INFO Lock 2349004907184 released on C:/Users/marku/.cache/huggingface/datasets/SetFit___amazon_counterfactual_en/default/0.0.0/bb7e3bd207c48e2c4046f0c16107beda80c91342_builder.lock
+09:54:06,307 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:54:06,961 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:54:39,642 root INFO Training results:
+09:54:42,577 root INFO {'eval_Accuracy: ': 0.8994, 'eval_F1: ': 0.0, 'Precision_1: ': 0.0, 'Recall_1: ': 0.0, 'Precision_0: ': 1.0, 'Recall_0: ': 0.8994, 'eval_Corr: ': 0.0}
+09:54:42,690 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:54:43,262 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:55:14,494 root INFO Training results:
+09:55:17,262 root INFO {'eval_Accuracy: ': 0.8994, 'eval_F1: ': 0.0, 'Precision_1: ': 0.0, 'Recall_1: ': 0.0, 'Precision_0: ': 1.0, 'Recall_0: ': 0.8994, 'eval_Corr: ': 0.0}
+09:55:17,378 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:55:17,963 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:55:49,537 root INFO Training results:
+09:55:52,322 root INFO {'eval_Accuracy: ': 0.8994, 'eval_F1: ': 0.0, 'Precision_1: ': 0.0, 'Recall_1: ': 0.0, 'Precision_0: ': 1.0, 'Recall_0: ': 0.8994, 'eval_Corr: ': 0.0}
+09:55:52,437 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:55:53,31 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:56:24,402 root INFO Training results:
+09:56:27,194 root INFO {'eval_Accuracy: ': 0.8994, 'eval_F1: ': 0.0, 'Precision_1: ': 0.0, 'Recall_1: ': 0.0, 'Precision_0: ': 1.0, 'Recall_0: ': 0.8994, 'eval_Corr: ': 0.0}
+09:56:27,307 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:56:27,987 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:56:59,836 root INFO Training results:
+09:57:02,636 root INFO {'eval_Accuracy: ': 0.8994, 'eval_F1: ': 0.0, 'Precision_1: ': 0.0, 'Recall_1: ': 0.0, 'Precision_0: ': 1.0, 'Recall_0: ': 0.8994, 'eval_Corr: ': 0.0}
+09:57:02,636 root INFO Acc:[0.8994, 0.8994, 0.8994, 0.8994, 0.8994]
+09:57:02,636 root INFO Acc:0.8994
+09:57:02,636 root INFO F1:[0.0, 0.0, 0.0, 0.0, 0.0]
+09:57:02,636 root INFO F1:0.0

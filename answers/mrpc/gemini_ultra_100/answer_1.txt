@@ -1,0 +1,37 @@
+I'd be glad to help you select instances for a human annotator! Here's a breakdown of my strategy, followed by the selected instances with explanations:
+
+**Strategy:**
+
+The goal is to choose instances that will provide maximum improvement for the model by focusing on areas where it's likely to struggle or underperform. Consider these factors:
+
+* **Diversity:** Examples should cover a wide range of language features (sentence length, complexity, vocabulary, etc.), topics, and structures.
+* **Uncertainty:** Target instances where the model is likely to be uncertain in its predictions (e.g., close confidence scores), as these examples are most informative for retraining.
+* **Ambiguity:** Instances with possible multiple interpretations help refine the model's understanding of nuanced language.
+* **Rare Cases:** Unusual or infrequent patterns reveal potential gaps in the model's knowledge.
+* **Representativeness:** Choose instances that closely represent the real-world data the model will encounter.
+
+**Explanation of Choices:**
+
+Here's my shortlist of 32 instances along with reasons why they would be informative for the annotator:
+
+1. **2, 5, 6, 12**  - Potential ambiguity in interpreting intent behind phrases like "Crossing Jordan will be back..." or "avoided any perception of wrongdoing". 
+2. **4, 15, 19** - Less common topics (book publishing, medical research, TV production) and niche vocabulary requiring domain knowledge.
+3. **0, 3, 8** - Varying sentence structures and complex phrasing that might challenge the model.
+4. **18, 27, 34** - Real-world situations with conversational aspects ("He died doing...") and proper nouns.
+5. **33, 44, 59** - Sentences with numerical data that must be extracted and understood correctly.
+6. **32, 40, 64** - References to companies and indices, testing the model's ability to identify entities.
+7. **1, 9, 11, 14** - Instances with time references to test temporal reasoning.
+8. **25, 29, 31** - Statements involving quotes and reported speech, which can be tricky for models.
+9. **7, 45, 52** - Statements about intentions/beliefs ("make sure", "strong forward momentum") with subtle implications.
+10. **43, 69, 72** - Statements about government actions and policies, where factual accuracy is crucial. 
+11. **39, 61, 68** - Examples focusing on the legal domain with potential issues surrounding interpretation.
+12. **86, 87, 95** - Instances mentioning people or events ("BET Awards"), where world knowledge is needed.
+
+**List of selected instances (separated by commas):**
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 14, 15, 18, 19, 25, 27, 29, 31, 32, 33, 34, 39, 40, 43, 44, 45, 52, 59, 61, 64, 68, 69, 72, 86, 87, 95
+
+**Important Note:** 
+
+The best instances to label will depend on the specific weaknesses of the model you're training. Use performance metrics and error analysis to focus on the aspects where your model needs the most improvement.
+
+Let me know if you have any other questions or want me to provide further insights for specific instances! 

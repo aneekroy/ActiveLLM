@@ -1,0 +1,17 @@
+To select the most informative instances for labeling, an active learning component should follow a strategic approach. Here's a step-by-step method to make these selections:
+
+1. **Relevance**: Focus on instances most relevant to the task. For example, if the task is to differentiate between types of engineering, questions related to engineering should be prioritized.
+
+2. **Ambiguity**: Choose instances where the answers are not clear-cut, as these are likely to provide more information once labeled.
+
+3. **Diversity**: Ensure a wide range of topics and question types are included to avoid bias in the model.
+
+4. **Question Similarity**: Prefer instances where questions are similar but not identical, as this can help in understanding nuances in language.
+
+5. **Avoid Redundancy**: Avoid selecting instances that are too similar to each other, as they add little new information.
+
+Based on this methodology, I would select instances that cover a range of topics, have some level of ambiguity or complexity in their questions, and show variation in question types. The chosen instances are:
+
+0, 2, 3, 4, 6, 7, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 24, 25, 26, 27, 28, 29, 32, 33, 34, 35, 36, 37, 38, 40, 41
+
+These instances were chosen because they represent a diverse set of questions, have varying levels of complexity and ambiguity, and are likely to provide informative feedback once annotated.

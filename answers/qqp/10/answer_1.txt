@@ -1,0 +1,13 @@
+To select the most informative instances for labeling, I would consider the following criteria:
+
+1. **Variability and Representativeness**: Choose instances that cover a wide range of topics and difficulty levels. This ensures a diverse and representative sample of the dataset.
+2. **Ambiguity and Uncertainty**: Prioritize instances where the relationship or similarity between questions is not immediately clear, as these would benefit most from human annotation.
+3. **Potential for Learning**: Instances that are likely to provide new information or challenge existing patterns in the dataset should be prioritized.
+4. **Avoid Redundancy**: Avoid selecting instances that are very similar to each other to ensure that each instance adds unique value.
+5. **Balanced Coverage**: Ensure that all major themes or categories in the dataset are represented in the selected instances.
+
+Based on these criteria, I would select the following instances, considering their diversity in topics, ambiguity in their question pairings, and potential to add unique insights:
+
+0, 1, 4, 5, 8, 9, 12, 15, 17, 21, 23, 26, 30, 33, 36, 37, 42, 45, 48, 53, 57, 61, 65, 69, 73, 77, 82, 86, 90, 95, 100, 104
+
+This selection covers a range of topics, including technology, culture, personal advice, science, and current events. It also includes pairs of questions where the relationship is not immediately clear, requiring careful consideration to determine if they are similar or different. This approach should provide a robust and informative set of instances for annotation.

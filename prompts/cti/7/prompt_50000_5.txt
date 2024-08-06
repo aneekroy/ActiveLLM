@@ -1,0 +1,1142 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given the guidelines for the task and a set of instances of the dataset. You can only choose 32 instances. 
+
+Label Guidelines for the human annotator:
+'''Put yourself in the role of a cybersecurity expert who has received initial information about a Microsoft Exchange incident. Since the information is relatively new, you want to gain further insight by looking at some Twitter posts. You search Twitter with some keywords regarding Microsoft Exchange. As you notice that many posts are not insightful you start to annotate the posts in terms of their relevance to you.
+
+#### Do not only consider the text but also the referenced websites.
+
+- - -
+
+What is labeled as **Relevant**?
+
+* Information that might be good to know for cybersecurity experts
+* Specific information about the vulnerabilites, how to perform them, how to mitigate them, what an attacker can do with exploiting the vulnarability ..
+* Expliticly mentioned numbers, methods, proof of concepts, code, fixes
+* Tweets that include IOCs (IPs, Hashwerte, usw.), vulnerabilies (ProxyLogon), malware names, exploits (DearCry), or CVE IDs can be very quickly flagged as relevant
+* Relevant information is more valuable than irrelevant information - if a post contains both relevant and irrelevant information, it is to be labeled as relevant
+    * For example "As of March 8, over 30K servers in the US have been hit by the recent Exchange #zero-day attack, which leaves behind a web shell that allows hackers to access the server to steal data & install malware" --> Relevant
+
+--
+
+What is labeled as **Not Relevant**?
+
+* Information that is too general
+* Information regarding the scope (which authorities, business branches and how many)
+    * This then includes posts about how many servers have not been patched yet, for example, or the following: „Microsoft Exchange Server attacks: 'They're being hacked faster than we can count', says security company“
+    * Likewise this refers to posts like „The European Banking Authority said it had been a victim of a cyberattack targeting its Microsoft Exchange Servers” --> Not relevant
+    * But on the other hand, a post like "RT Researchers have acquired a list of 86,000 IP addresses of MS Exchange servers infected worldwide by the mass compromises" is still relevant, as the IP list would be of interest.
+* If a post only links to a page without really providing information, it should be marked as not relevant, even if the linked page contains important information. Above all, a post should be marked as not relevant if it is not exactly clear what to expect on the page. Otherwise, when, for example, the text says that it is IOC info or a security advisory, you can consider it relevant (or check the page again). Please still consider the following examples:
+    * “GovInfoSecurity \| Analysis: Microsoft Exchange Server Hacks https://bit\.ly/2QgZb9P” --> not relevant \(too inaccurate\)
+    * “Chile's bank regulator shares IOCs after Microsoft Exchange hack https://ift.tt/3lrnfm3” --> Relevant (IOCs are very interesting for security experts)
+    * “Here's what we know so far about the massive Microsoft Exchange hack https://www.wxii12.com/article/here-s-what-we-know-so-far-about-the-massive-microsoft-exchange-hack/35793771?utm\_campaign=snd-autopilot” --> not Relevant (really no information in the text; too vague what to expect on the page)
+    * "RT How the Microsoft Exchange hack could impact your organization https://tek.io/2Oieqi5(https://t.co/un4YdQkbA3)" --> Not Relevant (too inaccurate)
+    * “CISA Updates Microsoft Exchange Advisory to Include China Chopper https://dlvr.it/RvhdjL” --> Relevant (You know what to expect on the site; besides, CISA is a major player)
+    * “At Least 10 Hacking Groups Are Exploiting Microsoft Exchange Server Flaws [PCMag] https://best.photography/articles/543893/at-least-10-hacking-groups-are-exploiting-microsoft-exchange-server-flaws/” --> Not Relevant (sounds relevant at first, because possibly the 10 hacking groups are mentioned and they are possibly known. However, the link is not trustworthy and also not callable) – relevant would have been fine here too, especially if the link was not strange.
+    * „It really was only a matter of time https://www.bleepingcomputer.com/news/security/new-dearcry-ransomware-is-targeting-microsoft-exchange-servers/” –-> Not Relevant (looks like an exciting link, but in the post there is no information about the link - you don't know what to expect) – relevant would also have been fine
+* Information that seems to be spam
+* Information that is highly politicly motivated
+* Information for general public (non experts)
+* Information that is speculative
+* "Casual news" for the general public
+* General cybersecurity advises (for the general public)
+* Podcasts, Interviews or personal opinions are to be marked as not relevant
+* Smaller service companies that report that their systems are updated and safe
+* News aggregations with several other news are not relevant
+    * "RT Read this week's digest to find out the latest updates in the #Microsoft Exchange vulnerabilities as well as how #hackers were able to breach 150,000 surveillance cameras from inside hospitals, jails and Tesla."
+
+**When in doubt --> Not Relevant** 
+
+'''
+
+Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. RT Security updates released by the Microsoft Security team for Microsoft Exchange Server to address vulnerabilities under limited, targeted attacks. See how to apply updates: https://msft.it/6015VDJcV(https://t.co/c9wlLQbcFe) #MSExchange [ID: 112]
+ ##### 
+1. RT Microsoft Exchange Zero Days Actively Exploited - Update ASAP - ThreatWire https://youtu.be/NzmvkeEbp6I(https://t.co/Ds5q9C6L7r) [ID: 329]
+ ##### 
+2. RT * WHITE HOUSE SAYS NATIONAL SECURITY COUNCIL CONVENED MEETING ON MONDAY OF TASK FORCE ON MICROSOFT EXCHANGE VULNERABILITIES
+
+@Reuters $MSFT [ID: 641]
+ ##### 
+3. RT In case you’ve missed the news - here is what you need to know about the Microsoft Exchange Server mega-hack. https://hotforsecurity.bitdefender.com/blog/the-microsoft-exchange-server-mega-hack-what-you-need-to-know-25442.html?cid=soc%7Cc%7ctw%7CH4S(https://t.co/pFZdZSAtiQ) [ID: 546]
+ ##### 
+4. RT #BreakingNews
+Microsoft's #GitHub under fire after disappearing #POC #exploit for #critical @Microsoft Exchange #vulnerabilities
+
+#cybersecurity #Python #womenintech #DataScience #Linux #Coding #100DaysOfCode #cobadisec #privacy #Fireworks
+#blockchain #innovation #BigData https://twitter.com/cobadisec/status/1370240908642426881/photo/1(https://t.co/kModpiymhW) [ID: 1391]
+ ##### 
+5. New ransomware is being used to target unpatched Microsoft Exchange servers...   #technews #techlife #microsoft #geekwire https://bit.ly/2OtnLUl(https://t.co/ocffSnVcSB) [ID: 867]
+ ##### 
+6. RT Out of the 231084 exchange servers we just scanned, 62018 were vulnerable to ProxyLogon/CVE-2021-26855. Once again this list has been loaded into Telltale (https://t.co/caXU7rqHaI). Please patch and run Microsoft's  MSERT tool to clean up any webshells https://twitter.com/kryptoslogic/status/1371248212640731139/photo/1(https://t.co/FKOpTnd5jA) [ID: 1314]
+ ##### 
+7. There's a new vulnerability for Microsoft Exchange Servers. Learn more: https://loom.ly/l67MNtg(https://t.co/KRSNb6P3PN) #Cybersecurity #CdnBusiness #AlbertaBusiness #YYC #YEG [ID: 1758]
+ ##### 
+8. RT How to use Microsoft Safety Scanner to investigate Microsoft Exchange Server threats
+
+https://www.youtube.com/watch?v=BClIOXku5UM&list=PL3ZTgFEc7Lytavbz30fR2J8qQYVGW83me&index=6(https://t.co/1SVZiiHNeN) [ID: 998]
+ ##### 
+9. Citrix WAF protects against Microsoft Exchange vulnerability CVE-2021-26855 https://bit.ly/30GsTXC(https://t.co/Sl4AgCKnhr) [ID: 787]
+ ##### 
+10. CISA Offers IT Admins Guidelines to Mitigate Recent MS Exchange Vulnerabilities https://hotforsecurity.bitdefender.com/blog/cisa-offers-it-admins-guidelines-to-mitigate-recent-ms-exchange-vulnerabilities-25435.html?utm_source=dlvr.it&utm_medium=twitter(https://t.co/EPEpATXVrn) https://twitter.com/CyberSecurityPr/status/1369063264965947396/photo/1(https://t.co/zwHLN1AydY) [ID: 1309]
+ ##### 
+11. RT Microsoft Exchange Server Attack Escalation Prompts Patching Panic https://bit.ly/3rw1qUq(https://t.co/75CYmNygWE) by @kellymsheridan #Microsoft #ExchangeServer #cyberattack #threatintel [ID: 1495]
+ ##### 
+12. RT #Microsoft Exchange Server #Hack https://bit.ly/3rv8Rvl(https://t.co/8uXYRurNn6) by @IT_SecGuru [ID: 1220]
+ ##### 
+13. RT European Banking Authority restores email service in wake of Microsoft Exchange hack https://ift.tt/3kZEBGb(https://t.co/5W1QpUuttq) #cybersecurity [ID: 1366]
+ ##### 
+14. RT The National Cyber Security Center (NCSC) is encouraging all UK organizations to install the latest Microsoft Exchange Server updates as a matter of urgency &gt;&gt; https://bit.ly/2OoyOhP(https://t.co/3u3ZvSeN8y) [ID: 839]
+ ##### 
+15. RT Impact of the Microsoft Exchange hack still being felt and #cybersecurity #security  KnowBe4 CEO Stu Sjouwerman says the security issue has had a massive impact with far-reaching consequences: “Once a hacker gets into the system an…https://lnkd.in/gAZpCav(https://t.co/szEcraU2Hp) https://lnkd.in/g-akrCy(https://t.co/KQXZsCPDA1) [ID: 1067]
+ ##### 
+16. RT Researcher and former VB conference speaker @jfslowik charts the possible connections of Microsoft Exchange exploitation activity  https://twitter.com/jfslowik/status/1372289120794386433(https://t.co/HRHKaBwhzp) [ID: 1275]
+ ##### 
+17. RT After The POC deleted, I re-uploaded it again.
+( The first version Of POC was in Chinese). 
+
+PoC exploit code for CVE-2021-26855 in English
+https://github.com/h4x0r-dz/CVE-2021-26855(https://t.co/ZSHno3F64H) [ID: 1143]
+ ##### 
+18. RT Dear RedTeam &amp; BlueTeam,
+
+If you missed out on CVE-2021-26855 due to GitHub removing it you can download a copy of it here: 
+
+https://vxug.fakedoma.in/archive/tmp/(https://t.co/GvlDQuzdNI)
+
+Have a nice day. https://twitter.com/vxunderground/status/1371144676099645442/photo/1(https://t.co/egnyYuMwcB) [ID: 1100]
+ ##### 
+19. RT Microsoft has released a new, one-click mitigation tool, the Microsoft Exchange On-Premises Mitigation Tool, to help customers who do not have dedicated security or IT teams to apply security updates for Microsoft Exchange Server. Learn more: https://msft.it/6015VKNpL(https://t.co/IfChAqpcEH) https://twitter.com/MsftSecIntel/status/1371603371182981122/photo/1(https://t.co/xD94M8Czg5) [ID: 394]
+ ##### 
+20. RT Tens of thousands of organizations may have been impacted by the Microsoft Exchange server vulnerabilities. 
+
+Find out if it impacts yours and what you can do right away to assess your environment: https://feye.io/2OiWRic(https://t.co/5OdYQk93Fn) https://twitter.com/Mandiant/status/1371551934851735559/photo/1(https://t.co/vdOr3nNn1V) [ID: 1369]
+ ##### 
+21. Great article in @Protocol about #disasterrecovery today, covering the Microsoft #exchange hack and the #OVH #datacenter fire. #DR is not an option, and only the #cloud combines the required security and agility to recover. 
+
+https://www.protocol.com/newsletters/protocol-enterprise/disaster-recovery-backup-microsoft-cloud(https://t.co/EWQ3Q1iJlV) [ID: 680]
+ ##### 
+22. RT READ: "Hack everybody you can" — An explosive second wave of hacks in the Microsoft Exchange breach has left response teams working round the clock, cyber experts scratching their heads and Microsoft launching an internal investigation. More from @CBSNews👇https://www.cbsnews.com/news/microsoft-exchange-server-hack-what-to-know/(https://t.co/a5GQjZ6bCa) [ID: 1327]
+ ##### 
+23. RT The Microsoft Exchange &amp; SolarWinds hacks are a resounding demonstration that our adversaries don't fear the consequences of crossing our red lines. 
+
+For too long, we have had no coherent, comprehensive strategy to defend our cyber security. [ID: 214]
+ ##### 
+24. RT “With the latest security intelligence update, Microsoft Defender Antivirus and System Center Endpoint Protection will automatically mitigate CVE-2021-26855 on any vulnerable Exchange Server on which it is deployed.” &lt;- built into OS &amp; applying mitigation on Exchange servers now. https://twitter.com/msftsecintel/status/1372671655856717836(https://t.co/Syr0LTdQFF) [ID: 1129]
+ ##### 
+25. RT FBI and CISA release advisory on #CyberSecurity compromise of Microsoft Exchange Server https://www.securitymagazine.com/articles/94802-fbi-and-cisa-release-advisory-on-cybersecurity-compromise-of-microsoft-exchange-server(https://t.co/P7kdMYsD27) 
+
+@TheDXEngineer @dInnovaTrain @sectest9 @andrewmorrisuk @CIOConnection @IEEEXplore @NSAGov @moixsec @aglongo @a_anonymous94 
+#BigData #Analytics #RemoteWork #NewNormal https://twitter.com/stratorob/status/1370815172768632833/photo/1(https://t.co/NKcXtxwYOj) [ID: 1127]
+ ##### 
+26. Norway's Stortinget struck by #Microsoft Exchange #malware: https://www.theregister.com/2021/03/11/stortinget_attack/(https://t.co/SdTzZcnTdY) [ID: 560]
+ ##### 
+27. RT Microsoft Exchange servers are under attack once again https://www.techradar.com/news/microsoft-exchange-servers-are-under-attack-once-again(https://t.co/76q9ZSPpo4) 
+cc: @DrJDrooghaag @Victoryabro @Nicochan33 @kuriharan @ShiCooks @robmay70 @nigelj08223325 @BillMew @smaksked @MargaretSiegien @baski_LA #Microsoft #MicrosoftExchange [ID: 1713]
+ ##### 
+28. RT 😎First possible crimeware group exploiting MS exchange servers ... for ransomware.
+
+It is notable they use "C:\Users\john\Documents\Visual Studio 2008\Projects\EncryptFile -svcV2\Release\EncryptFile.exe.pdb"
+
+Compiled on March 9, 2021 02:08:39 (UTC).
+
+Stay safe! https://twitter.com/BleepinComputer/status/1370178475412307968(https://t.co/VRMHL2LkDv) [ID: 303]
+ ##### 
+29. Microsoft Exchange breach a wake-up call to ditch the server  https://zpr.io/RTjAg(https://t.co/p9ik2GhXts) [ID: 332]
+ ##### 
+30. [TOOL] Hafnium vulnerability &amp; infection scanner
+Initially made this for internal use in our company when we had to mitigate #Hafnium for 3000+ customers. Scans for #CVE-2021-26855 and over 90 webshell variants (remote). https://youtu.be/4n2TzIbTnec(https://t.co/2qgB93eWR4) &lt;= DL in descr.! #Exchange #ITsec [ID: 1027]
+ ##### 
+31. RT As a surge of breaches against #Microsoft Exchange Servers appear to roll out in phases, @SecShoggoth shares his concerns with @SCMagazine.
+ 
+https://hubs.la/H0J0g-Z0(https://t.co/eSNrPGLuoW) [ID: 1676]
+ ##### 
+32. White House warns organizations have 'hours, not days' to fix vulnerabilities as Microsoft Exchange attacks increase
+https://www.cnn.com/2021/03/12/politics/microsoft-solarwinds-biden-administration/index.html(https://t.co/2Zu5ie99Nu) [ID: 1059]
+ ##### 
+33. RT At least 10 nation-state-backed groups are using the ProxyLogon exploit chain to compromise email servers, as compromises mount. Microsoft Exchange Servers Face APT Attack Tsunami... via @threatpost #infosec #cybersecurity #itsecurity #ThursdayThoughts https://threatpost.com/microsoft-exchange-servers-apt-attack/164695/(https://t.co/n0hulGDUHO) [ID: 1176]
+ ##### 
+34. Microsoft Exchange Server Exploit Code Posted to GitHub https://ow.ly/i51Y102Bd3l(https://t.co/QHFcaP10qq) https://twitter.com/memocobos/status/1370095210617839619/photo/1(https://t.co/PCYiniLINL) [ID: 876]
+ ##### 
+35. White House warns organizations have 'hours, not days' to fix vulnerabilities as Microsoft Exchange attacks increase
+
+https://www.cnn.com/2021/03/12/politics/microsoft-solarwinds-biden-administration/index.html(https://t.co/oyjbWoBLxC)
+
+#technology #tech #science #news https://twitter.com/DankLeftScum/status/1370646304708300803/photo/1(https://t.co/mk6FxWDgvY) [ID: 738]
+ ##### 
+36. Ransomware is targeting vulnerable Microsoft Exchange servers https://buff.ly/30DwIwW(https://t.co/bA5VvYEvYU) #Malwarebytes #Malware [ID: 1149]
+ ##### 
+37. RT Microsoft issues "one click mitigation tool" to help Exchange customers who don't have dedicated security or IT teams to apply security patches and mitigations. A previous tweet that incorrectly said "migration tool" has been deleted https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/(https://t.co/YJ153Dgmuu) [ID: 652]
+ ##### 
+38. RT 🚨 If you use Microsoft Exchange on-premises and recently patched 🚨 
+
+I strongly recommend you run the following 👉🏽 free tool 👈🏽 on each server to 🕵️‍♀️ find and 🚮 remove planted webshells (backdoor access 🥷) which can persist even after patching. 
+
+https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/safety-scanner-download(https://t.co/eBvBYvb4Lo) [ID: 472]
+ ##### 
+39. RT The number of vulnerable Microsoft Exchange servers fell by 45% last week &amp; now sits at less than 10,000 orgs, an NSC spokesperson told Politico.
+
+Microsoft's one-click patch tool, which WH's Anne Neuberger asked the company to create, has &gt;25k downloads.
+
+https://www.politico.com/newsletters/weekly-cybersecurity/2021/03/22/the-latest-microsoft-exchange-numbers-794134(https://t.co/rFcS8pmAr0) https://twitter.com/ericgeller/status/1374036678780854275/photo/1(https://t.co/4UFRCHWQoL) [ID: 429]
+ ##### 
+40. RT “One very clear message to the Kremlin has to be that [SolarWinds] went beyond traditional espionage. This was targeting and undermining trust in the internet itself,” says Chris Krebs. 
+https://buff.ly/3l3RGhI(https://t.co/zrzqMguzO9) [ID: 634]
+ ##### 
+41. RT Don't miss this week's top news in Cyber Security! Marc Capobianco, Thrive’s EVP of FinTech, joins Dave Sampson to discuss the latest in the #Microsoft Exchange Server attack. Watch the video here 📺 https://lnkd.in/dRpjrnu(https://t.co/ckkSHmLpFw)
+#thrive​ #thrivemarketing​ #whoisaccessingyourdata [ID: 1213]
+ ##### 
+42. RT Another Special Report just sent, using Internet-wide scan data to detect vulnerable MS Exchange servers from @kryptoslogic (hat tip!). Blog provides a comparison of coverage between that and our previous Special Report:
+https://www.shadowserver.org/news/shadowserver-special-reports-exchange-scanning-4/(https://t.co/ViaZmmsihC)
+Report:
+https://www.shadowserver.org/what-we-do/network-reporting/vulnerable-exchange-servers-special-report-4/(https://t.co/dqDqxVQShJ) https://twitter.com/Shadowserver/status/1371273402158288896/photo/1(https://t.co/QiMvMcplnQ) [ID: 1709]
+ ##### 
+43. RT Joint Cybersecurity Advisory from @CISAgov and @FBI details tactics and techniques observed in ongoing exploitation of Microsoft Exchange Server vulnerabilities. Read all about it at https://t.co/j8TPNcT2fp. #Cyber #Cybersecurity #InfoSec [ID: 1168]
+ ##### 
+44. Microsoft's GitHub under fire after disappearing proof-of-concept exploit for critical Microsoft Exchange vuln https://buff.ly/3eta9Dn(https://t.co/88eiAt7SRR) https://twitter.com/LeDecodeur_CH/status/1371049726288748544/photo/1(https://t.co/MWl8h3VdW8) [ID: 13]
+ ##### 
+45. Pay Attention to the Microsoft Exchange Servers Compromise | Linn Freedman, Data Privacy + Cybersecurity Insider https://bit.ly/3togkgc(https://t.co/BasYNjZBlQ) #patches [ID: 975]
+ ##### 
+46. Black Kingdom ransomware is targeting Microsoft Exchange servers https://dlvr.it/RwH7MJ(https://t.co/ndNFnqY6GL) https://twitter.com/AcooEdi/status/1374718406805446658/photo/1(https://t.co/3dPlYz8uJ0) [ID: 1420]
+ ##### 
+47. RT Attackers are actively exploiting four vulnerabilities in #Microsoft Exchange Server. We highly recommend you install the available patches ASAP.
+
+What you need to know about CVE-2021-26855, CVE-2021-26857, CVE-2021-26858 and CVE-2021-27065 ➡️ https://kas.pr/468f(https://t.co/ce8KYpGcuh) https://twitter.com/kaspersky/status/1369687041894711296/photo/1(https://t.co/irLh50npbi) [ID: 39]
+ ##### 
+48. The Check Point Research report reveals that 32 firms in India were targeted by cybercriminals exploiting Microsoft Exchange vulnerabilities.
+https://www.firstpost.com/tech/news-analysis/microsoft-exchange-vulnerabilities-affected-banking-finance-sectors-the-most-report-9475841.html(https://t.co/1rS1LjpS16) [ID: 80]
+ ##### 
+49. RT 💻Top officials at @CISagov told House lawmakers no federal agencies are known to be compromised by vulnerabilities found in @Microsoft Exchange, but warned it is "an evolving campaign with new information coming in by the hour." https://fcw.com/articles/2021/03/10/cisa-approps-exchange-hack.aspx(https://t.co/ZOMe53Uozc)
+#Cybersecurity #InfoSec https://twitter.com/klnash77/status/1370160105770078217/photo/1(https://t.co/qTsEeP664b) [ID: 597]
+ ##### 
+50. RT With many un-patched MS #Exchange Servers still being rapidly compromised, we have partnered with @kryptoslogic to provide another Special Report covering 6720 exposed webshells that could be used to deploy ransomware, etc. Please remediate urgently!  
+https://www.shadowserver.org/news/shadowserver-special-reports-exchange-scanning-2/(https://t.co/Ya6AqhEljY) https://twitter.com/Shadowserver/status/1370528404219572224/photo/1(https://t.co/2FMUSU8fOF) [ID: 1771]
+ ##### 
+51. RT Here's what we know so far about the massive Microsoft Exchange hack https://dlvr.it/RvLVD6(https://t.co/p9ZROPX6rt) [ID: 1551]
+ ##### 
+52. Who was behind the largest-ever cyberattack on the United States—and how can the next one be prevented? https://foreignpolicy.com/2021/03/10/chris-krebs-microsoft-exchange-hack-largest-cyberattack/(https://t.co/Zq9DLaIO2w) [ID: 962]
+ ##### 
+53. Microsoft Exchange Server Flaw Causes Spike in Attacks https://www.govinfosecurity.com/microsoft-exchange-server-flaw-causes-spike-in-attacks-a-16236?utm_source=dlvr.it&utm_medium=twitter(https://t.co/hB7MqR3zyW) https://twitter.com/RigneySec/status/1373269609617362963/photo/1(https://t.co/IUUgNFfIF3) [ID: 519]
+ ##### 
+54. RT Thousands of US companies have been hacked by Chinese hackers using This RCE.
+
+Microsoft Exchange Server Remote Code Execution CVE-2021-26855 Exploit.
+https://github.com/GreyOrder/CVE-2021-26855(https://t.co/4UNlGK3ewf)
+
+#BugBounty #RCE #infosec https://twitter.com/h4x0r_dz/status/1369254600612708362/photo/1(https://t.co/YKWOCIKjXk) [ID: 1490]
+ ##### 
+55. Targeted in Microsoft Exchange Server hack: The European Banking Authority, which oversees firms in Europe's financial sector, disabled its email systems after a cyberattack on its Microsoft Exchange Servers. https://ow.ly/B6QW50DUrPT(https://t.co/dINC2T2Jmt) [ID: 1586]
+ ##### 
+56. Hackers Are Targeting Microsoft Exchange Servers With Ransomware https://lifeboat.com/blog/2021/03/hackers-are-targeting-microsoft-exchange-servers-with-ransomware(https://t.co/xvD1u3thfV) [ID: 1109]
+ ##### 
+57. RT White House warns organizations have "hours, not days" to fix vulnerabilities as Microsoft Exchange attacks increase https://cnn.it/38zwU4J(https://t.co/dHzh1pF64S) https://twitter.com/CNNPolitics/status/1370652376185602048/photo/1(https://t.co/aqJG2BGSa7) [ID: 1524]
+ ##### 
+58. RT #OWASP #Nettacker - free and open-source tool (aka 
+@iotscan) now has a module to scan your networks and detect Critical MS Exchange CVE-2021-26855 vulnerability. Read about it in my blog post here:
+
+https://securestep9.medium.com/detecting-ms-exchange-cve-2021-26855-vulnerability-using-owasp-nettacker-bac3d75f80d5(https://t.co/CbrrpDC2M8)
+
+#Hafnium 
+#ProxyLogon 
+#CyberSecurity
+#opensource [ID: 1292]
+ ##### 
+59. RT #DFRWSEU2021 keynote announcement! Steven Adair of @Volexity will be presenting "An Investigation of the Microsoft Exchange Vulnerability Used by Hafnium". #DFIR
+
+Keynote info: https://bit.ly/30t1skh(https://t.co/bh1RKg8SZs)
+Full program: https://bit.ly/2MOocb4(https://t.co/Tz6tLuM6lx)
+Register here: https://bit.ly/3c6AOTw(https://t.co/4UsN87s0SD) https://twitter.com/DFRWS/status/1370011627702128646/photo/1(https://t.co/cykoA3m4A8) [ID: 1384]
+ ##### 
+60. RT Will this latest breach tip the scales and get cloud holdouts to finally make a change? https://ow.ly/8Hez50E2xiR(https://t.co/CwVn1vEm3I) #MicrosoftExchange #Office365 #cloudsecurity [ID: 582]
+ ##### 
+61. RT Opportunistic scanning activity detected from the following hosts checking for Microsoft Exchange servers vulnerable to CVE-2021-26855 (https://t.co/43dx3Ck08E).
+23.236.222.0 (🇺🇸)
+193.23.253.203 (🇷🇺)
+185.95.157.243 (🇧🇬)
+45.86.15.46 (🇨🇭)
+#threatintel [ID: 644]
+ ##### 
+62. U.S. Sees Progress in Closing Microsoft Exchange Vulnerabilities https://a.msn.com/00/en-us/BB1ePvPx?ocid=st(https://t.co/mBZQiKE8xw) [ID: 735]
+ ##### 
+63. Microsoft Defender can now protect servers against ProxyLogon attacks https://securityaffairs.co/wordpress/115801/hacking/microsoft-defender-microsoft-exchange.html?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-defender-microsoft-exchange(https://t.co/wuyT2HsyCi) https://twitter.com/thedpsadvisors/status/1373590350728589312/photo/1(https://t.co/uG0ySzakR0) [ID: 1728]
+ ##### 
+64. At least 10 APT hacking groups have exploited Exchange Server bugs, ESET warns
+ https://www.cyberscoop.com/microsoft-exchange-china-exploitation-eset/(https://t.co/uEOLeqt2Nk) by @snlyngaas [ID: 1508]
+ ##### 
+65. RT Microsoft Exchange servers now targeted by BlackKingdom ransomware - @LawrenceAbrams
+https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-now-targeted-by-blackkingdom-ransomware/(https://t.co/1ZTZnjXbuG) [ID: 1660]
+ ##### 
+66. Multiple Attack Groups Exploited Microsoft Exchange Flaws Prior to the Patches
+https://www.darkreading.com/threat-intelligence/multiple-attack-groups-exploited-microsoft-exchange-flaws-prior-to-the-patches/d/d-id/1340368(https://t.co/QkFOTnZMfA)
+
+#Infosec #Security #Ceptbiro #Cybersecurity #MicrosoftExchange [ID: 684]
+ ##### 
+67. Microsoft Exchange attacks: Watch out for this new #ransomware threat to unpatched servers https://zd.net/30ECIFL(https://t.co/OlzSklGTm3) via @ZDNet &amp; @LiamT [ID: 1340]
+ ##### 
+68. Thousands of Exchange servers breached prior to patching, CISA boss says https://www.cyberscoop.com/brandon-wales-exchange-server-patch-dhs/(https://t.co/TfV3JK9Fsd) #CyberSecurity #Microsoft #Exchange https://twitter.com/cybersecboardrm/status/1375799524103483393/photo/1(https://t.co/zcHTPN0tOs) [ID: 194]
+ ##### 
+69. RT @campuscodi According to @shodanhq today, there is a little over 71,000 vulnerable to CVE-2021-27065. The largest numbers are in the US and Germany. [ID: 1271]
+ ##### 
+70. RT The patching level for #Microsoft Exchange Servers that are vulnerable to the ProxyLogon group of #security bugs has reached 92 percent.
+https://threatpost.com/microsoft-exchange-servers-proxylogon-patching/165001/(https://t.co/BlgAkeK6JM) [ID: 831]
+ ##### 
+71. #DearCry (also known as #DoejoCrypt) is a new #ransomware family that targets unpatched #Microsoft Exchange servers. Hurry up and download our latest #YARA rule at #YARARules https://hubs.ly/H0J91-H0(https://t.co/IZMoDiGMPV) [ID: 946]
+ ##### 
+72. RT More on the recent Microsoft breach and how it compares to the Solarwinds hack
+
+#microsoft #solarwinds #datacenterknowledge #datacenters #cybersecurity #hacking 
+
+https://www.datacenterknowledge.com/security/microsoft-exchange-hack-could-be-worse-solarwinds(https://t.co/iegYIxvqko) [ID: 1757]
+ ##### 
+73. RT Well, I'll say that the ProxyLogon Exchange CVE-2021-26855 Exploit is completely out of the bag by now.
+https://f5.pm/go-62102.html(https://t.co/ubsysTeFOj)
+I'm not so sure about the "Failed to write to shell" error message.  But I can confirm that it did indeed drop a shell on my test Exchange 2016 box. https://twitter.com/wdormann/status/1370800181143351296/photo/1(https://t.co/ijOGx3BIif) [ID: 62]
+ ##### 
+74. RT New DEARCRY Ransomware is targeting Microsoft Exchange Servers - @LawrenceAbrams
+https://www.bleepingcomputer.com/news/security/new-dearcry-ransomware-is-targeting-microsoft-exchange-servers/(https://t.co/KncMAEWQkc) [ID: 183]
+ ##### 
+75. RT Microsoft Exchange server hack: Banking agency on 'heightened alert' after cyberattack #CyberAttack #banking  https://www.zdnet.com/article/microsoft-exchange-server-hack-european-banking-authority-on-heightened-alert-after-being-hit-by-cyber-attackers/?ftag=COS-05-10aaa0g&taid=6047de5bd52b5600013a45be&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter(https://t.co/ZWV7zT2YfK) [ID: 987]
+ ##### 
+76. RT Leaders at all organizations must immediately address vulnerabilities in Microsoft Exchange on-premises products. Use our resources to mitigate your risk: https://cisa.gov/ed2102(https://t.co/I0MLDGjw61) https://twitter.com/CISAgov/status/1369755457062060033/photo/1(https://t.co/vkaOYNXMnM) [ID: 1345]
+ ##### 
+77. Hackers Are Targeting Microsoft Exchange Servers With Ransomware https://feedproxy.google.com/~r/TheHackersNews/~3/YNZgPucSGkw/icrosoft-exchange-ransomware.html(https://t.co/oWBLjfeMoL) #TheHackerNews #MSExpertTalk #Security [ID: 1797]
+ ##### 
+78. RT Threat actors are installing new #ransomware “DearCry” after compromising Microsoft Exchange servers...https://bit.ly/38RYwSH(https://t.co/RSfAjaYBsC)
+#cyberalerts #cybersecurity #newsalert https://twitter.com/CISOMAG/status/1372409690555047942/photo/1(https://t.co/FQ2obVg25H) [ID: 1446]
+ ##### 
+79. Microsoft Exchange servers now targeted by BlackKingdom ransomware https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-now-targeted-by-blackkingdom-ransomware/(https://t.co/VSlYJ0efUI) @BleepinComputer @LawrenceAbrams #BlackKingdom #ransomware https://twitter.com/DMBisson/status/1374030777445457925/photo/1(https://t.co/tfPM2Zeaas) [ID: 25]
+ ##### 
+80. RT The @FBI and @CISAgov released a joint #CyberSecurity Advisory regarding the #Microsoft Exchange Server hack.
+
+@Microsoft said that the operation was carried out by a #CCP “state-sponsored” group nicknamed “Hafnium,” running outside of #China. https://www.theepochtimes.com/federal-agencies-release-advisory-to-microsoft-exchange-server-hack_3728971.html?utm_medium=social&utm_source=twitter&utm_campaign=digitalsub(https://t.co/nvIoXPAtlY) [ID: 1286]
+ ##### 
+81. RT ❗ NEWLY ISSUED GUIDANCE is available on @CISAgov’s Microsoft Exchange Vulnerabilities web page. Visit https://go.usa.gov/xsyVk(https://t.co/d5btbri8vw) to review the latest guidance and resources from Microsoft for remediating the exploitation of Exchange vulnerabilities.
+#Cybersecurity #InfoSec #IT [ID: 1557]
+ ##### 
+82. RT Cool update from @BleepinComputer https://www.bleepingcomputer.com/news/security/norway-parliament-data-stolen-in-microsoft-exchange-attack/(https://t.co/yw5A2IxXzB) https://twitter.com/flackboxtv/status/1369752740910530576/photo/1(https://t.co/GcnYPNOOme) [ID: 717]
+ ##### 
+83. #DarkReadingD #CyberSecurity #Automated | Microsoft Exchange Server Attacks: 9 Lessons for Defenders https://app.reg.techweb.com/e/er?elq_mid=102709&elq_cid=22023705&s=2150&lid=208176&elqTrackId=3421b20c883b449daa43f04355a5af33&elq=aeca811fb02647d6b29cafcc1b1fa791&elqaid=102709&elqat=1(https://t.co/bQWvJTSUdg) [ID: 1174]
+ ##### 
+84. As of March 8,  over 30K servers in the US have been hit by the recent Exchange #zero-day attack, which leaves behind a web shell that allows hackers to access the server to steal data &amp; install malware.  Local governments have specifically been targeted.  https://ow.ly/FHAV50DT9if(https://t.co/g9MFTs1YKK) https://twitter.com/Integ_Systems/status/1370042181302550528/photo/1(https://t.co/K03IEJdyuz) [ID: 1264]
+ ##### 
+85. PoC released for Microsoft Exchange ProxyLogon vulnerabilities | The Record by Recorded Future https://therecord.media/poc-released-for-microsoft-exchange-proxylogon-vulnerabilities/(https://t.co/rjPxHgWVXw) [ID: 209]
+ ##### 
+86. Chinese Hacking Spree Hit an ‘Astronomical’ Number of Victims https://upflow.co/l/jDps(https://t.co/9ATpax8X3o) https://twitter.com/MilfForensics/status/1369056156988112904/photo/1(https://t.co/PU4m2JcFbm) [ID: 1281]
+ ##### 
+87. RT Successful exploitation of Microsoft Exchange on-premises vulnerabilities can affect thousands of networks. Some of these networks have access to valuable research, technology, personally identifiable information, &amp; more. Read our joint advisory with @FBI: https://go.usa.gov/xspY9(https://t.co/HBWbH4HuxB) https://twitter.com/CISAgov/status/1370108277674086405/photo/1(https://t.co/YtOOctztMG) [ID: 1307]
+ ##### 
+88. RT Microsoft Honeypot 101 : MSExchange CVE-2021-26855 ProxyLogon
+
+#MSExchange 
+#Python #HTTP #Server #JSshell
+#threatIntel #microsoft #solarwinds #office365 #metasploit #DefCon #hacking #infosec #malware #linux #zerodays #cybersecurity  #fireeye #termux
+
+https://youtu.be/Kk5o7ACiFnQ(https://t.co/mHRjd3JNxq) [ID: 67]
+ ##### 
+89. Was your business a victim of the Microsoft Exchange hack? Here’s everything we know so far and how to plug any security holes
+
+#microsoft #CyberSecurity #EmailHack
+
+https://www.zdnet.com/article/everything-you-need-to-know-about-microsoft-exchange-server-hack/(https://t.co/S3pOE3ShdK) [ID: 602]
+ ##### 
+90. RT Wow, I am completely speechless here. 
+
+Microsoft really did remove the PoC code from Github.
+
+ This is huge, removing a security researchers code from GitHub against their own product and which has already been patched.
+
+This is not good. 
+
+https://vice.com/en/article/n7vpaz/researcher-publishes-code-to-exploit-microsoft-exchange-vulnerabilities-on-github(https://t.co/yqO7sebCSU) [ID: 264]
+ ##### 
+91. RT Is your organization using Microsoft Exchange on-Premises products? Make sure to immediately apply the recent Microsoft patches.
+
+Follow this page for more guidance: https://cisa.gov/ed2102(https://t.co/I0MLDGjw61) https://twitter.com/CISAgov/status/1368949771919122432/photo/1(https://t.co/fV69kzGDUp) [ID: 780]
+ ##### 
+92. The Microsoft Exchange Server mega-hack – what you need to know – HOTforSecurity https://hotforsecurity.bitdefender.com/blog/the-microsoft-exchange-server-mega-hack-what-you-need-to-know-25442.html(https://t.co/05MvnZ08VC) [ID: 683]
+ ##### 
+93. SMBs need to take immediate action on #microsoft #exchange #vulnerabilities 
+
+https://malwaredevil.com/2021/03/08/smbs-need-to-take-immediate-action-on-microsoft-exchange-vulnerabilities/?utm_campaign=twitter&utm_medium=twitter&utm_source=twitter(https://t.co/c3udMKW8kU)
+
+#attack #compromise #compromised #exchange #microsoft #security #state #unitedstates #usa #vuln #malwaredevil [ID: 656]
+ ##### 
+94. News Update: Microsoft Exchange Exploits Pave a Ransomware Path https://threatpost.com/microsoft-exchange-exploits-ransomware/164719/(https://t.co/3vMwAeY4Oi) #InceptusSecure #UnderOurProtection https://twitter.com/Inceptus3/status/1370425201213734915/photo/1(https://t.co/XgrxWWzFQX) [ID: 745]
+ ##### 
+95. RT OhWAA, A functional exploit of CVE-2021-26855 to download emails from mailboxes on OWA instances.
+
+https://gitlab.com/gvillegas/ohwaa/(https://t.co/WKKCMb0hqu)
+
+By Gonzalo Villegas a.k.a Cl34r 💪
+
+#Exploit #CVE_2021_26855 #Exchange https://twitter.com/1ZRR4H/status/1370630982521528320/photo/1(https://t.co/grso3u4XEz) [ID: 456]
+ ##### 
+96. RT Norway parliament data stolen in Microsoft Exchange attack
+#cybersecurity #informationsecurity #networksecurity #informationtechnology #hacking #security #vulnerability #vaultinfosec #wevowyoursecurity #cyberattack #malware #websecurity #Microsoft 
+https://securityaffairs.co/wordpress/115503/cyber-warfare-2/norway-parliament-hack.html(https://t.co/hRvTQXWW24) [ID: 932]
+ ##### 
+97. RT Thanks to ⁦@BBCr4today⁩ for having me on to talk about the Microsoft Exchange hack (at about 1hr40 in)  https://www.bbc.co.uk/sounds/play/m000t4sw(https://t.co/6Nq6UnSbKZ) [ID: 1453]
+ ##### 
+98. The Recent Microsoft Exchange Attack Underscores the Vulnerability of Organizational Data | #microsoft | #microsoftsecurity https://nationalcybersecuritynews.today/the-recent-microsoft-exchange-attack-underscores-the-vulnerability-of-organizational-data-microsoft-microsoftsecurity/(https://t.co/cHFArPDSmQ) [ID: 1028]
+ ##### 
+99. URGENT: Specific short- and long-term steps to protect your data in the wake of the #Hafnium/@Microsoft Exchange hack. https://bit.ly/3vglVH3(https://t.co/ObVWdYYPC4) https://twitter.com/1amazingcook/status/1370414878926671876/photo/1(https://t.co/k3xgFYxP3a) [ID: 984]
+ ##### 
+100. EU Banking Authority Hacked As Microsoft Exchange Attacks Continue https://buff.ly/30rQ7AU(https://t.co/cKPvCRVC0L) | @happygeek for @Forbes https://twitter.com/mi_jim/status/1369258630810378243/photo/1(https://t.co/MYLTxEyWOM) [ID: 1123]
+ ##### 
+101. RT 3️⃣ months after the vulnerability was identified..
+
+7️⃣ days after Microsoft publicly revealed it...
+
+And on the very same day the media reports on their inaction...
+
+We finally have a statement from a member of the Morrison govt about the Hafnium campaign
+https://www.minister.defence.gov.au/minister/andrew-hastie/media-releases/microsoft-exchange-vulnerabilities(https://t.co/eHoKi9IYrZ) [ID: 530]
+ ##### 
+102. #CyberDigest | As firms race to patch Microsoft Exchange flaws, security pros brace for ransomware outbreak | @shanvav | https://buff.ly/2PQQjrb(https://t.co/lxP1eFn1Ku) [ID: 437]
+ ##### 
+103. RT 🔵 Ransomware now attacks Microsoft Exchange servers with ProxyLogon exploits
+
+#ransomware #cybersecurity #microsoft #exchange
+⁦@archonsec⁩ ⁦@BillMew⁩ ⁦@robmay70⁩ ⁦@digitalcloudgal⁩  https://www.bleepingcomputer.com/news/security/ransomware-now-attacks-microsoft-exchange-servers-with-proxylogon-exploits/(https://t.co/uULXCjqdRo) [ID: 632]
+ ##### 
+104. RT Exploit for the CVE-2021-26855 MS Exchange https://github.com/jsdryan/CVE-2021-26855(https://t.co/5VrmEfpx0H) [ID: 1338]
+ ##### 
+105. Ransomware is targeting vulnerable Microsoft Exchange servers https://techvida.com.ng/2021/03/21/ransomware-is-targeting-vulnerable-microsoft-exchange-servers/(https://t.co/WDMMd64sJT) [ID: 1583]
+ ##### 
+106. Microsoft Exchange Server hacks ‘doubling’ every two hours
+https://ow.ly/ab2050DZask(https://t.co/IImjSKlejd) [ID: 1032]
+ ##### 
+107. RT At WH briefing, national security adviser Jake Sullivan says the U.S. is "still gathering information" about the "scope and scale" of the Microsoft Exchange hacking campaign. [ID: 1088]
+ ##### 
+108. Pay Attention to the Microsoft Exchange Servers Compromise https://buff.ly/38zzOGx(https://t.co/QKOxDleft1) via @RobinsonCole https://twitter.com/DataPrivacyPlan/status/1370491297841217540/photo/1(https://t.co/tEnXvAhYal) [ID: 928]
+ ##### 
+109. RT ACSC running scans to find vulnerable Microsoft Exchange servers in Australia  https://www.zdnet.com/article/acsc-running-scans-to-find-vulnerable-microsoft-exchange-servers-in-australia/?ftag=COS-05-10aaa0g&taid=60613f2fe25ade0001609261&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter(https://t.co/NkolAJfumY) [ID: 1083]
+ ##### 
+110. RT CVE-2021-26855 [SSRF] + CVE-2021-27065 [Arbitrary File Write] =&gt;&gt; Exchange Unauth GetWebShell
+
+https://paper.seebug.org/1501/(https://t.co/p2cwg9NNxM)
+
+https://testbnull.medium.com/ph%C3%A2n-t%C3%ADch-l%E1%BB%97-h%E1%BB%95ng-proxylogon-mail-exchange-rce-s%E1%BB%B1-k%E1%BA%BFt-h%E1%BB%A3p-ho%C3%A0n-h%E1%BA%A3o-cve-2021-26855-37f4b6e06265(https://t.co/ziex5fvKbx) https://twitter.com/jas502n/status/1369969798994558982/photo/1(https://t.co/KSNdp5B3af) [ID: 818]
+ ##### 
+111. RT #HAFNIUM is just the first link in a cyber attack kill chain coming after your data, apps and industrial controls.
+
+Forensic investigations must be conducted (sooner the better) if you've been running MS Exchange on-prem OWA for the past few months.
+
+#InfoSec #DFIR https://twitter.com/valb00/status/1368711694885609473/photo/1(https://t.co/19CS5JoxeZ) https://twitter.com/anthomsec/status/1368277575655714817(https://t.co/BSBkYELJ3o) [ID: 911]
+ ##### 
+112. RT Microsoft Exchange #Attacks Are Declared An #Emergency By Homeland Security via @forbes. https://qoo.ly/3b632q(https://t.co/Q2KfAxkSdT) 
+ #cybersecurity #security #DataBreach [ID: 1329]
+ ##### 
+113. RT ThreatsHub Cybersecurity News | Everything you need to know about the Microsoft Exchange Server hack - https://www.threatshub.org/blog/everything-you-need-to-know-about-the-microsoft-exchange-server-hack/(https://t.co/QGTMLrVnPi) #CyberSecurity  #Coudsecurity #ThreatIntelligent #Databreach #Deeplearning #OSINT #CyberCrime #Infosec #Blog #News https://twitter.com/threatshub/status/1369219221608038401/photo/1(https://t.co/XsTgc4Zb8p) [ID: 681]
+ ##### 
+114. RT Organizations have 'hours, not days' to fix vulnerabilities in Microsoft Exchange 
+#news #tech #cybersecurity #infosec #hacker #cyberattack #cybercrime #malware #ransomware #datasecurity #data #security #internet #software #network #cloudcomputing
+
+https://edition.cnn.com/2021/03/12/politics/microsoft-solarwinds-biden-administration/index.html(https://t.co/sMvIf6RJFf) [ID: 1444]
+ ##### 
+115. "Act now before it is too late! Live Webinar on March 16th regarding the current Microsoft Exchange Security issues !"
+
+Act now? March 16th? Exactly my kind of humor. [ID: 1324]
+ ##### 
+116. Reproducing the Microsoft Exchange Proxylogon Exploit Chain
+
+https://ift.tt/38uz4Cx(https://t.co/uTGIpVeCVM) [ID: 1181]
+ ##### 
+117. CISA Updates Microsoft Exchange Advisory to Include China Chopper https://dlvr.it/RvhdjL(https://t.co/dvl6jlrGVA) [ID: 10]
+ ##### 
+118. RT A fast tool to mass scan for a vulnerability on Microsoft Exchange Server that allows an attacker bypassing the authentication and impersonating as the admin (CVE-2021-26855).
+https://github.com/dwisiswant0/proxylogscan(https://t.co/lpjVQ1nF8a)
+
+#proxylogon [ID: 1624]
+ ##### 
+119. RT Microsoft Exchange attacks: Watch out for this new ransomware threat to unpatched servers | #malware | #ransomware | #hacking https://nationalcybersecuritynews.today/microsoft-exchange-attacks-watch-out-for-this-new-ransomware-threat-to-unpatched-servers-malware-ransomware-hacking/(https://t.co/dOBmGn8dNH) [ID: 956]
+ ##### 
+120. @adanielhill Compromise of Microsoft Exchange Server This Joint #Cybersecurity Advisory uses the https://wp.me/pcOoK5-6p5?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost(https://t.co/C7HsovPC1c) #blog #rssfeed [ID: 965]
+ ##### 
+121. @empressbat @SimonStahn @DrCassCross @geekgalgroks @JTCulverhouse @CyberWytch @Q8Thunders @_Mike_Holm_ From earlier this week, we got a shout out on LinkedIn from team Sophos for the work we'd done for members re the MS Exchange #ProxyLogon vulns 🙌 #AusCERT https://twitter.com/AusCERT/status/1375627284392996866/photo/1(https://t.co/KLpXvjcvx2) [ID: 803]
+ ##### 
+122. RT As the cat is out of the hat anyways, here are my views on Microsoft Exchange #Proxylogon so far:
+
+The super SSRF (controlling almost the full http message including verb/path/most headers/body) is the most important piece IMHO. https://twitter.com/irsdl/status/1369811265707778052/photo/1(https://t.co/i1eVltvNBD) [ID: 808]
+ ##### 
+123. RT European Banking Authority restores email service in wake of Microsoft Exchange hack https://j.mp/3rA3afp(https://t.co/RZxcbHtqSY) [ID: 973]
+ ##### 
+124. RT The recent #Microsoft Exchange Server hack is putting a spotlight on the urgent need for enhanced email #dataprotection solutions to safeguard sensitive information. See how data could have been more effectively protected in our new blog post. https://bit.ly/3vc9nQZ(https://t.co/yMt300Lrlr) #0Day #CISO [ID: 75]
+ ##### 
+125. Email Still Trumps Slack—That’s Why Hackers Are Targeting Microsoft Exchange Servers https://dlvr.it/RvHjdP(https://t.co/HmvRi4zi4L) https://twitter.com/tcomer4418/status/1369335462423195648/photo/1(https://t.co/fjhDaLlGP0) [ID: 416]
+ ##### 
+126. Unpatched Exchange Servers hit with ransomware Microsoft Exchange Servers that have not been upgraded with the latest security patches are getting hit with "DearCry" ransomware, Microsoft warned. https://bit.ly/3ls4wH2(https://t.co/kwr22gg2L3) https://twitter.com/InfoSecHotSpot/status/1371577395841490947/photo/1(https://t.co/DAlkrpmpEM) [ID: 835]
+ ##### 
+127. Microsoft Exchange Server zero-day attacks: Malicious software found on 2,300 machines in the UK https://zd.net/2OSO9XG(https://t.co/8UgLqrNdTW) via @ZDNet [ID: 1018]
+ ##### 
+128. RT “ProxyLogon” Security Now #810 Show Notes:  https://bit.ly/38PY4Eq(https://t.co/7vMtKkSxyr)
+A big bunch of interesting news (free Open Source software code signing!) and the required update, another week downstream, of the still-unfolding Microsoft Exchange Server disaster. [ID: 46]
+ ##### 
+129. RT NEW: A working RCE PoC was released today for the Microsoft Exchange ProxyLogon vulnerabilities
+
+https://therecord.media/poc-released-for-microsoft-exchange-proxylogon-vulnerabilities/(https://t.co/UmOT5tnIhV) https://twitter.com/campuscodi/status/1369751346254086152/photo/1(https://t.co/H9PQ02Cl8G) [ID: 843]
+ ##### 
+130. RT Black Kingdom #ransomware is hunting unpatched #Microsoft Exchange servers affected by #ProxyLogon vulnerabilities.
+
+Read: https://thehackernews.com/2021/03/black-kingdom-ransomware-hunting.html(https://t.co/jmITJWXYcq)
+
+#infosec #cybersecurity [ID: 1570]
+ ##### 
+131. Trend Micro takes a look at what happened, how you might be affected and how you can leverage additional detection and protection: https://bit.ly/3l0cdEc(https://t.co/vtiLNMnSSi) [ID: 705]
+ ##### 
+132. @CSSII_Strategy @PGRotondo @mrtlgu @_odisseus Another earthquake in cybersecurity: an in-depth look at the #Microsoft #Exchange #ProxyLogon zero-day flaws
+https://cybernews.com/security/an-in-depth-look-at-the-microsoft-exchange-proxylogon-zero-day-flaws/(https://t.co/ljj7HVePHm)
+#securityaffairs #hacking [ID: 1246]
+ ##### 
+133. #cyberattacks are increasing many more now in March 2021 than Oct 2020
+
+$MSFT at forefront of the news on it
+https://www.google.com/amp/s/www.bleepingcomputer.com/news/security/microsoft-exchange-attacks-increase-while-wannacry-gets-a-restart/amp/(https://t.co/TEJtEE6AUk) [ID: 1120]
+ ##### 
+134. RT The Microsoft Exchange hack was another wake-up call that our digital way of life is under attack. CEO Nikesh Arora recommends proactive measures to set yourself up right for the next threat. Read the blog now. https://bit.ly/3t5izEM(https://t.co/j7r4S33FCJ) #SecuredByPANW https://twitter.com/PaloAltoNtwks/status/1370117057812033540/photo/1(https://t.co/T1t4Wk5Jeu) [ID: 1637]
+ ##### 
+135. RT Minutes matter when it comes to patching. @cthallen warns that the minute a patch is released, bad actors get to work decompiling it to find what's vulnerable, especially alarming with the recent Microsoft Exchange compromise https://bit.ly/2OGWBJU(https://t.co/y78E5QaNFC) @SamanthaSchann @CyberSecDive [ID: 1766]
+ ##### 
+136. RT So we're almost a week-out from the last major "revelation" on CVE-2021-26855 and linked activity - who else is actively exploiting this where there's available public evidence orat least statements? https://twitter.com/jfslowik/status/1372289120794386433/photo/1(https://t.co/yWjiJu2XRF) [ID: 897]
+ ##### 
+137. RT @Mordor_Project @OTR_Community @sigma_hq @ProjectJupyter @jack_halon @Flangvik @mvelazco This post by Microsoft #MSTIC #M365Security 
+
+blog: https://www.microsoft.com/security/blog/2021/03/02/hafnium-targeting-exchange-servers/(https://t.co/rOCzs6qg15)
+
+shared PS commands to look for potential CVE-2021-27065 exploitation. In Test-ProxyLogon script now : https://github.com/microsoft/CSS-Exchange/blob/main/Security/src/Test-ProxyLogon.ps1#L176-L187(https://t.co/RsPoQD9152)
+
+You can also find evidence of that in Log Channel 'MSExchange Management' https://twitter.com/Cyb3rWard0g/status/1371146619815624711/photo/1(https://t.co/fgsgFt8Tf4) [ID: 1563]
+ ##### 
+138. RT The Microsoft Exchange hacks: How they started and where we are 
+
+https://www.bleepingcomputer.com/news/security/the-microsoft-exchange-hacks-how-they-started-and-where-we-are/#.YFH6UXesVGI.twitter(https://t.co/0AC4gjCivF) 
+
+#MicrosoftHack #Cyberattack #Hackers [ID: 1497]
+ ##### 
+139. RT @ralucasaceanu live on european news this evening from our #Cork Security Operations Centre, discussing the recent #microsoft vulnerabilities in MS Exchange and the orchestrated attack on the supply chain by #Hafnium #cybersecurity https://twitter.com/Smarttech01/status/1369697000917188624/photo/1(https://t.co/4cGaz5BYKp) [ID: 210]
+ ##### 
+140. RT this Microsoft Exchange hack just keeps going from bad to worse. I think the message to businesses should be stop trying to host your own Exchange server that’s difficult to patch rapidly https://twitter.com/joetidy/status/1370434703103307776(https://t.co/FIMUw3f5bo) [ID: 1467]
+ ##### 
+141. RT 20% of exposed Microsoft #Exchange Servers remain vulnerable. 4% still have backdoors. Want to learn which sectors are most vulnerable? Check out our latest blog post:
+
+#backdoorattack #cybersecurity #databreach
+https://bitsig.ht/30WujgQ(https://t.co/9UKTWielMM) [ID: 1071]
+ ##### 
+142. RT Exchange Cyberattacks Escalate as Microsoft Rolls One-Click Fix #Cybersecurity #cyberattack #security via https://twinybots.ch/(https://t.co/KDUhFaFE1M) https://threatpost.com/microsoft-exchange-cyberattacks-one-click-fix/164817/(https://t.co/qTOxZdhwLC) [ID: 1121]
+ ##### 
+143. RT For all of you Microsoft Exchange warriors out there with limited resources, MS has issued a new mitigation tool aimed at "customers who do not have dedicated security or IT teams to apply security patches and mitigations."  https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/(https://t.co/QUxqkkFHvQ) [ID: 1069]
+ ##### 
+144. Good info on how to deal with the CVE-2021-26855 / HAFNIUM firedrill from our good friend @JGamblin https://twitter.com/KennaSecurity/status/1369069313533956096(https://t.co/zDVm50pwlL) [ID: 1022]
+ ##### 
+145. New vulnerability: Microsoft Exchange Server File Write (CVE-2021-27065)
+
+More Vulnerabilities, https://github.com/gobysec/GobyVuls(https://t.co/wkYqnKfdCJ)
+Provide Feedback, https://github.com/Gobysec/Goby/issues(https://t.co/A9JYTBB3kh)
+Join Telegram, https://t.me/gobies(https://t.co/uI4YmQCarn) https://twitter.com/goby77463399/status/1371776993977503747/photo/1(https://t.co/5bGcioXKIB) [ID: 1533]
+ ##### 
+146. RT .@CISAgov updated its Alert on Microsoft Exchange Server vulnerabilities with newly identified #malware activity plus helpful resources regarding ongoing #ransomware attacks associated with the vulnerabilities. See https://t.co/DVraHC8K2L. #Cybersecurity #InfoSec [ID: 1685]
+ ##### 
+147. RT A Vietnamese security researcher has published today the first functional public proof-of-concept exploit for a group of vulnerabilities in Microsoft Exchange servers known as ProxyLogon, via @campuscodi  https://therecord.media/poc-released-for-microsoft-exchange-proxylogon-vulnerabilities/(https://t.co/q11iZD6NRV) [ID: 959]
+ ##### 
+148. RT One-Click Microsoft Exchange On-Premises Mitigation Tool – March 2021 – Microsoft Security Response Center https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/(https://t.co/ULVQnyV3MJ) [ID: 1712]
+ ##### 
+149. RT Reverse Engineering Microsoft Exchange DearCry Ransomware | Brief Analysis
+https://www.youtube.com/watch?v=s75edLEbPJc(https://t.co/4TGWEgs6Jk) [ID: 639]
+ ##### 
+150. @hansvestberg Who is the #Fool that let his CIO export #American jobs to offshore 3rd world coders of garbage that the Chinese exploit in production? cc: @POTUS @VP https://www.cnbc.com/2021/03/09/microsoft-exchange-hack-explained.html(https://t.co/ZKqVvmcJAr) [ID: 533]
+ ##### 
+151. RT @Cyb3rWard0g @Mordor_Project @OTR_Community @sigma_hq @ProjectJupyter @jack_halon @Flangvik @mvelazco CVE-2021-27065 - @sigma_hq rule to detect adversaries modifying the offline address book (OAB) virtual directory in Exchange and setting the ExternalUrl property to script. #ProxyLogon chain event
+
+PR: https://github.com/SigmaHQ/sigma/pull/1388/commits/f138a2742635b939e28c00ec0dd373a30a6d1f0e(https://t.co/VjHmkF49yp) https://twitter.com/Cyb3rPandaH/status/1371325148729593856/photo/1(https://t.co/x5AoBOUfYI) [ID: 1590]
+ ##### 
+152. Microsoft Patch Tuesday Fixes 82 CVEs, Internet Explorer Zero-Day. The monthly rollout follows last week's emergency Microsoft Exchange Server patch covering seven CVEs, four of which are under attack. #infosec #CyberSecurity [ID: 1336]
+ ##### 
+153. One-Click Microsoft Exchange On-Premises Mitigation Tool – March 2021 https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/(https://t.co/cB1hyr2hEz) [ID: 1681]
+ ##### 
+154. RT CYBER SECURITY:  Microsoft Exchange Server to address vulnerabilities under limited, targeted attacks. See how to apply updates: #EricaXSupaKomando #infosec #cybersecurity #exchange #bugbounty   https://msft.it/6015VDJcV(https://t.co/PNumfoZbY6) #MSExchange https://twitter.com/amebo1news/status/1370724896414765058/photo/1(https://t.co/9SP4p9y8RK) [ID: 1084]
+ ##### 
+155. RT @phillip_misner @MsftSecIntel Hey Phillip. Is this related to the ransomware we outlined here?
+https://www.bleepingcomputer.com/news/security/new-dearcry-ransomware-is-targeting-microsoft-exchange-servers/(https://t.co/JdsemlO4wF) [ID: 836]
+ ##### 
+156. RT We released a joint advisory with the @FBI in response to the recently disclosed vulnerabilities in Microsoft Exchange Server.
+
+Read the advisory: https://go.usa.gov/xspY9(https://t.co/HBWbH4HuxB) https://twitter.com/CISAgov/status/1370459067475443718/photo/1(https://t.co/4HiPNmU4Qt) [ID: 907]
+ ##### 
+157. Chile's bank regulator shares IOCs after Microsoft Exchange hack https://www.bleepingcomputer.com/news/security/chiles-bank-regulator-shares-iocs-after-microsoft-exchange-hack/#.YFNP9rRzyRQ.twitter(https://t.co/H7qiaj8k9T) #CyberSecurity [ID: 1462]
+ ##### 
+158. #Microsoft Releases Patches for Older Versions of #Exchange Server https://www.zdnet.com/article/microsoft-exchange-attacks-now-microsoft-rushes-out-a-patch-for-these-unsupported-exchange-servers-too/(https://t.co/U2jwnLMA9n) [ID: 1350]
+ ##### 
+159. Many businesses still haven’t patched their Microsoft Exchange servers servers https://www.acerbolivio.com/2021/03/25/many-businesses-still-havent-patched-their-microsoft-exchange-servers-servers/(https://t.co/Osw2MGZgve) [ID: 1729]
+ ##### 
+160. RT NEW: Microsoft Exchange servers targeted by DearCry ransomware
+
+-ProxyLogon entry vector confirmed
+-only a few victims so far
+-non-decryptable
+
+https://therecord.media/microsoft-exchange-servers-targeted-by-dearcry-ransomware-abusing-proxylogon-bugs/(https://t.co/hkD4sl0Sl2) https://twitter.com/campuscodi/status/1370286829614870528/photo/1(https://t.co/B931VvlU4Y) [ID: 1539]
+ ##### 
+161. RT The Microsoft Exchange hack shows attackers are working 'smarter, not harder,' experts say.
+
+#becybersmart #cyberattacks #cybersecurity [ID: 1706]
+ ##### 
+162. Organizations Using Microsoft Exchange Mail Server Face Severe Cybersecurity Threat https://www.jdsupra.com/legalnews/organizations-using-microsoft-exchange-2022915/(https://t.co/O07SQU5Kq9) [ID: 1300]
+ ##### 
+163. Would love to be on the security team handling this right now!.. or maybe not lol
+
+#cybersecurity #cybersec #CyberMonday #cybersecurityawareness #cybersecuritynews
+
+https://www.zdnet.com/article/microsoft-exchange-server-attacks-theyre-being-hacked-faster-than-we-can-count-says-security-company/(https://t.co/ExUJk1wr5n) [ID: 1621]
+ ##### 
+164. RT New PoC for Microsoft Exchange bugs puts attacks in reach of anyone - @LawrenceAbrams
+https://www.bleepingcomputer.com/news/security/new-poc-for-microsoft-exchange-bugs-puts-attacks-in-reach-of-anyone/(https://t.co/IlWicrY6nj) [ID: 362]
+ ##### 
+165. State hackers rush to exploit unpatched Microsoft Exchange servers https://www.bleepingcomputer.com/news/security/state-hackers-rush-to-exploit-unpatched-microsoft-exchange-servers/(https://t.co/OhE3YWaie2) [ID: 304]
+ ##### 
+166. Any of my followers have experience migrating from G-Suite to Microsoft exchange and can tell me how much I'm gonna hate my life for the next month? [ID: 1752]
+ ##### 
+167. Number of countries where we have observed IoCs associated with the targeting of MS Exchange increases to 45 and across multiple sectors: https://www.mcafee.com/enterprise/en-us/lp/insights-preview.html#(https://t.co/3S7zMyPeHN) #malware #cybersecurity #infosec #hafnium https://twitter.com/Raj_Samani/status/1371356912340639744/photo/1(https://t.co/DYFbUAKiYC) [ID: 1378]
+ ##### 
+168. Hackers stole data from Norway parliament exploiting Microsoft Exchange flaws https://securityaffairs.co/wordpress/115503/cyber-warfare-2/norway-parliament-hack.html?utm_source=dlvr.it&utm_medium=twitter&utm_campaign=norway-parliament-hack(https://t.co/zwwn0WKSjp) https://twitter.com/HackerSpyNet1/status/1370071538888667141/photo/1(https://t.co/cXmdYsZM1e) [ID: 213]
+ ##### 
+169. Attacks Leveraging Microsoft Exchange Vulnerabilities 'Have Escalated', Doubling Every Three Hours - Slashdot https://buff.ly/30FCgXV(https://t.co/rCdAu3hFYA) [ID: 979]
+ ##### 
+170. Potentially hundreds of thousands of victims of cyber attacks that exploit newly-discovered Microsoft Exchange Server vulnerabilities have been told to patch their systems immediately. Click on the link to read the @ITPro article:
+
+https://www.itpro.co.uk/security/hacking/358799/hundreds-of-thousands-of-victims-identified-in-microsoft-exchange-server(https://t.co/Ng2EyJg2dW)
+
+#cybersecurity [ID: 1658]
+ ##### 
+171. Microsoft Exchange Attacks Increase While WannaCry Gets a Restart.
+https://www.bleepingcomputer.com/news/security/microsoft-exchange-attacks-increase-while-wannacry-gets-a-restart/(https://t.co/3E6nmvnlPl) https://twitter.com/MalwarePatrol/status/1377063259149373442/photo/1(https://t.co/rmpqEGlRa9) [ID: 243]
+ ##### 
+172. Microsoft Exchange servers now targeted by Black Kingdom ransomware https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-now-targeted-by-black-kingdom-ransomware/(https://t.co/Iuosh9baXZ)
+"Another ransomware operation known as 'Black Kingdom' is exploiting the Microsoft Exchange Server ProxyLogon vulnerabilities to encrypt servers." [ID: 553]
+ ##### 
+173. European Banking Authority (EBA) disclosed it had also been targeted by hackers exploiting #Microsoft Exchange vulnerabilities.
+
+Read details: https://thehackernews.com/2021/03/microsoft-exchange-hackers-also.html?utm_source=social_share(https://t.co/14tDJm9H2l)
+
+The widespread cyberattack forced it to temporarily take its email systems offline as a precautionary measure. [ID: 306]
+ ##### 
+174. RT Spot the signs of network #security compromise on #WorldBackupDay &amp; everyday. 🔐
+
+In this episode of the Juniper Threat Labs Podcast, we discuss the MS Exchange ProxyLogon attack. Listen here: https://juni.pr/3sDRb0R(https://t.co/SuZ9yiodxR) https://twitter.com/JuniperNetworks/status/1377278026103324673/photo/1(https://t.co/9xZg8NaDE3) [ID: 1204]
+ ##### 
+175. RT Fortunately, our #VT #database is always up to date, so this #ZeroDay is detected promptly CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065
+https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/(https://t.co/hqCTEOUjzQ)
+#vulnerability #vulnerabilitymanagement https://twitter.com/GreenboneEN/status/1369929561824169986/photo/1(https://t.co/Q1hPKfCEHQ) [ID: 202]
+ ##### 
+176. Podcast: Microsoft Exchange Server Attack Onslaught Continues https://dlvr.it/RwCxf1(https://t.co/eEU4W6Y4dw) [ID: 945]
+ ##### 
+177. https://ift.tt/IfBjKd(https://t.co/G9hlpmeLoE) EBA restores services after Microsoft Exchange attack https://ift.tt/3cazJds(https://t.co/d4M0ifOW59) [ID: 866]
+ ##### 
+178. U.S. Sees Progress in Closing Microsoft Exchange Vulnerabilities | #governmenthacker| https://nationalcybersecuritynews.today/u-s-sees-progress-in-closing-microsoft-exchange-vulnerabilities-governmenthacker/(https://t.co/Lnrnlhbtib) [ID: 234]
+ ##### 
+179. RT If you cannot apply the Exchange Server patch for some reason, here are Microsoft's mitigations, including a PowerShell script for automation:
+
+https://msrc-blog.microsoft.com/2021/03/05/microsoft-exchange-server-vulnerabilities-mitigations-march-2021/(https://t.co/Fy6Hn20cDV)
+
+#Exchange #InfoSec #CyberSecurity #SEC505 #PowerShell #WindowsServer #ExchangeServer [ID: 1284]
+ ##### 
+180. RT Microsoft Exchange attacks increase while WannaCry gets a restart - @Ionut_Ilascu
+https://www.bleepingcomputer.com/news/security/microsoft-exchange-attacks-increase-while-wannacry-gets-a-restart/(https://t.co/tFTJzrJ8Fo) [ID: 220]
+ ##### 
+181. #Acer Reportedly Hit with $50 Million #Ransomware Demand 
+https://bit.ly/3cX50Ro(https://t.co/Dtp58bawNc) 
+#cybercrime #infosec #digital https://twitter.com/neirajones/status/1373592485910482947/photo/1(https://t.co/kokMgfDF7V) [ID: 877]
+ ##### 
+182. #NewsForTeens
+Foreign attacks on government computer networks are mounting. In recent weeks hackers stole thousands of emails from US government agencies and businesses using Microsoft Exchange. Here’s more: https://wonkedition.com/news/2021/03-08-hackers-steal-government-emails-on-microsoft-exchange.html(https://t.co/D8ySIL720a) #GenerationZ #YAlit [ID: 1362]
+ ##### 
+183. Understand the suggested courses of action to mitigate against the threat of four zero-day vulnerabilities in Microsoft Exchange Server as advised by Researchers from @Unit42_Intel  https://unit42.paloaltonetworks.com/microsoft-exchange-server-vulnerabilities?utm_source=bambu&medium=social&campaign=advocacy&blaid=1275131(https://t.co/S2SRtOIFXo) [ID: 319]
+ ##### 
+184. New DEARCRY Ransomware is targeting Microsoft Exchange Servers
+
+#infosec #cybersecurity #wartapotan https://www.bleepingcomputer.com/news/security/new-dearcry-ransomware-is-targeting-microsoft-exchange-servers/#.YEq_0YbqZrg.twitter(https://t.co/iJifnH5ORb) [ID: 950]
+ ##### 
+185. RT TAU Threat Advisory: Learn how to detect and respond to the four zero-day vulnerabilities targeting Microsoft Exchange servers: https://ow.ly/ywW950DVrYp(https://t.co/JDLB95ADxr) https://twitter.com/vmw_carbonblack/status/1369724823363018767/photo/1(https://t.co/6wJXF5xxaf) [ID: 1618]
+ ##### 
+186. Microsoft Exchange Server attacks: 'They're being hacked faster than we can count', says security company https://www.zdnet.com/article/microsoft-exchange-server-attacks-theyre-being-hacked-faster-than-we-can-count-says-security-company/?utm_source=dlvr.it&utm_medium=twitter#ftag=RSSbaffb68(https://t.co/eyI1r6agd8) https://twitter.com/AI__TECH/status/1374059437887873025/photo/1(https://t.co/fT8guD15pb) [ID: 667]
+ ##### 
+187. No, I Did Not Hack Your MS Exchange Server | #malware | #ransomware | #hacking https://nationalcybersecuritynews.today/no-i-did-not-hack-your-ms-exchange-server-malware-ransomware-hacking/(https://t.co/pYbkOocdmS) [ID: 1173]
+ ##### 
+188. RT Latest: Researchers warn of a surge in cyber attacks against Microsoft Exchange https://www.hackademicus.nl/researchers-warn-of-a-surge-in-cyber-attacks-against-microsoft-exchange/(https://t.co/JdIzP4ZIz4) #blog #infosec #netsec #news
+#netsec #cybersecurity #infosecurity #infosec [ID: 1383]
+ ##### 
+189. Up To 125,000 Servers Remain Vulnerable To Devastating Microsoft Exchange Attacks https://hubs.ly/H0J1K8g0(https://t.co/lOi9EJCJhv) [ID: 372]
+ ##### 
+190. What Experts Say When To Patch Microsoft Exchange Vulnerabilities https://bit.ly/2NkEaKr(https://t.co/E1A4oAJL7D) https://twitter.com/gzunigah/status/1371446610836680705/photo/1(https://t.co/kuS1gDmhnl) [ID: 712]
+ ##### 
+191. Threat actors are now installing new #ransomware called '#DEARCRY' after hacking into #Microsoft Exchange servers using the recently disclosed #ProxyLogon #vulnerabilities .
+For more updates, like and follow my page - https://t.co/SNJ6QIl8Yt. https://twitter.com/CyberWo92088497/status/1375802284781670407/photo/1(https://t.co/Eha1hQV6YU) [ID: 1796]
+ ##### 
+192. It’s Open Season for Microsoft Exchange Hacks https://buff.ly/3qzjbBd(https://t.co/sEq2akgwDD) #CyberSecurity #InfoSec #ITSecurity #DataProtection #CISO #CSO #Technology #SecureTech #InformationSecurity #CyberCrime #CyberAttack [ID: 556]
+ ##### 
+193. Was your business a victim of the Microsoft Exchange hack? Here's everything we know so far and how to plug any security holes #microsoft https://ow.ly/dUcU30rBgUX(https://t.co/5o5HR78tVF) [ID: 63]
+ ##### 
+194. RT The Microsoft Exchange vulnerabilities have the potential to impact tens of thousands of organizations. 
+
+Next week, we'll share what we know about the attack so far and what you can do right now to lower your risk: https://feye.io/2OiWRic(https://t.co/aaLzhxnQHx) https://twitter.com/FireEye/status/1370481989657186304/photo/1(https://t.co/ChnEKIKDKh) [ID: 1425]
+ ##### 
+195. RT https://github.com/ZephrFish/Exch-CVE-2021-26855(https://t.co/sJQD9h4L67) (not a #honeypoc), took the Chinese one and fixed it up so it gets the shell rather than being too quick. [ID: 434]
+ ##### 
+196. RT According to an article in @nytimes, feds recognize they need a new strategy for threat detection in light of the @solarwinds and @Microsoft Exchange hacks.  Time is not on our side. https://www.nytimes.com/2021/03/14/us/politics/us-hacks-china-russia.html?auth=login-google(https://t.co/jN6KdTFdwH) #Cybersecurity #infosec [ID: 1387]
+ ##### 
+197. RT KU_Avalon: In this week's newsletter, our analyst encountered a #Microsoft Exchange #0day  and three newly reported #malware strains. Using Avalon, #investigative analysis could find additional relevant and #actionable information.
+
+Sign up for our #news… https://twitter.com/KU_Avalon/status/1373027504651431943/photo/1(https://t.co/BIK1TZOxYh) [ID: 1096]
+ ##### 
+198. RT Norway’s parliament falls victim to Microsoft Exchange attack #MicrosoftExchange, #0Day https://www.cybersecurity-help.cz/blog/1980.html(https://t.co/8cRX09cIQP) https://twitter.com/Cybershelp/status/1369964842333970432/photo/1(https://t.co/q8q16ilNue) [ID: 1762]
+ ##### 
+199. How cybercrime groups are exploiting the latest Microsoft Exchange flaws https://tek.io/3rFKgDZ(https://t.co/XcFFWBkXls) https://twitter.com/TechRepublic/status/1369902207760470017/photo/1(https://t.co/s0kI4OZneh) [ID: 1765]
+ ##### 
+200. Global surge in ransomware attacks exploiting Microsoft Exchange Server vulnerabilities: Check Point Research | #ransonware | #ransonwareattack https://nationalcybersecuritynews.today/global-surge-in-ransomware-attacks-exploiting-microsoft-exchange-server-vulnerabilities-check-point-research-ransonware-ransonwareattack/(https://t.co/o7cOwrSn9X) [ID: 1464]
+ ##### 
+201. RT Still (why?) not patched your Exchange servers? MS published a one-click mitigation tool to roll out security updates for Exchange 2013-2019 https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/(https://t.co/1gmxFkx4Xp) #MSExchange #Security [ID: 1789]
+ ##### 
+202. ⚠Urgent updates and actions from the National Cyber Security Centre following Microsoft Exchange server vulnerabilities.
+👉 https://www.ncsc.gov.uk/news/advice-following-microsoft-vulnerabilities-exploitation(https://t.co/BhRTFBLU8S) 
+
+#microsoftexchange #exchangeserver #ukgovernment #microsoft #infosec #NCSC [ID: 1154]
+ ##### 
+203. TechRepublic: How the Microsoft Exchange hack could impact your organization https://tek.io/2Oieqi5(https://t.co/DZgw6t3awC) https://twitter.com/TechRepublic/status/1369106944984768514/photo/1(https://t.co/sNdng1fgfJ) [ID: 584]
+ ##### 
+204. RT Mapping MITRE ATT&amp;CK to the Microsoft Exchange Zero-Day Exploits
+https://www.digitalshadows.com/blog-and-research/mapping-mitre-attack-to-microsoft-exchange-zero-day-exploits/(https://t.co/wImEl7A4mH) [ID: 591]
+ ##### 
+205. #Ransomware now attacks #MicrosoftExchange servers with ProxyLogon exploits https://bit.ly/3vi4GFu(https://t.co/zC1vobYxCk) #TechJunkieNews #CyberSecurity https://twitter.com/techjunkiejh/status/1370366532056977409/photo/1(https://t.co/OxS5EcdW6t) [ID: 710]
+ ##### 
+206. RT Cybercriminals are working smarter, not harder.
+
+https://www.businessinsider.com/microsoft-exchange-server-hack-why-cyberattack-matters-2021-3(https://t.co/ApajEww30g) [ID: 725]
+ ##### 
+207. RT Microsoft's GitHub under fire after disappearing proof-of-concept exploit for critical Microsoft Exchange vuln https://go.theregister.com/feed/www.theregister.com/2021/03/12/github_disappears_exploit/(https://t.co/bSvi2AQR7y) [ID: 855]
+ ##### 
+208. Microsoft Exchange exploits now used by cryptomining malware https://dlvr.it/RvXHBN(https://t.co/SVyH7t8KjQ) [ID: 537]
+ ##### 
+209. RT "The Microsoft Exchange Hack and the Great Email Robbery," the latest from @ncweaver: https://tinyurl.com/y9uupzy3(https://t.co/c0JKaEwcWJ) [ID: 1183]
+ ##### 
+210. RT The company has until March 28 to pay the hacker group REvil. https://hypebeast.com/2021/3/acer-microsoft-exchange-revil-50-million-usd-ransomware-attack?utm_term=Autofeed&utm_campaign=twitter_post&utm_medium=social&utm_source=Twitter#Echobox=1616423579(https://t.co/vAC8PIULzt) [ID: 1200]
+ ##### 
+211. RT The Microsoft Exchange hack is a serious breach and demonstrates why we need a new approach to email security. At ProtonMail we use zero-access encryption, which ensures user data stays encrypted, even in the event of a breach. https://protonmail.com/blog/microsoft-exchange-hack-prevention/?utm_campaign=ww-en-2a-generic-coms_soc-social_organic&utm_medium=soc&utm_source=twitter&utm_term=1616005991(https://t.co/cw8JJdwopX) https://twitter.com/ProtonMail/status/1372254705406074882/photo/1(https://t.co/7AiPV7PxXU) [ID: 1006]
+ ##### 
+212. Cyber Alert – Serious Threats to Microsoft Exchange Services
+https://us-cert.cisa.gov/ncas/alerts/aa21-062a(https://t.co/dxUgfK1ueF) [ID: 1651]
+ ##### 
+213. Microsoft releases one-click Exchange On-Premises Mitigation Tool - Help Net Security https://www.helpnetsecurity.com/2021/03/16/microsoft-exchange-mitigation/(https://t.co/idSXb1jSXX) [ID: 951]
+ ##### 
+214. Is It Benefits Of Digitisation?
+
+Government Must Replenish All Damage Caused For The Relative Cyber Attack.
+
+Government Must Ensure Safety And Security Of Customer Data Without Delay. 
+
+BBC News - European Banking Authority hit by Microsoft Exchange hack
+https://www.bbc.co.uk/news/technology-56321567(https://t.co/tzIb7Xa23v) [ID: 1606]
+ ##### 
+215. White House warns organizations have 'hours, not days' to fix vulnerabilities as Microsoft Exchange attacks increase via /r/technology https://ift.tt/3vdsKcm(https://t.co/zamVCkz4wl) [ID: 1787]
+ ##### 
+216. Compromised? Joint FBI and CISA #Cybersecurity Advisory on Microsoft Exchange Server Vulnerabilities - Read the complete advisory at https://t.co/Wct8XzBxl9. @FBI @CISAgov #eDiscovery https://twitter.com/EDRMHub/status/1371430305987502084/photo/1(https://t.co/35FP4XhKT7) [ID: 1754]
+ ##### 
+217. Market News: Once again: the big tiger China-Backed Hackers Hit Microsoft. The Victims Counts in Thousands, but sometimes it's pure marketing, but can be true, who knows?. | Barron's https://ow.ly/Gv2v30rzWfV(https://t.co/699IDTbuKZ) [ID: 1494]
+ ##### 
+218. Information about the Microsoft Exchange Server vulnerabilities and attacks has been emerging rapidly. Refer to this timeline from for an understanding of key events. https://unit42.paloaltonetworks.com/microsoft-exchange-server-attack-timeline?utm_source=bambu&medium=social&campaign=advocacy&blaid=1302759(https://t.co/ujxfIkjZNH) [ID: 508]
+ ##### 
+219. Analyzing The Microsoft Exchange Server Hafnium Email Hack https://youtu.be/Vdc2KxLuyxo(https://t.co/pvsIGf9XyB) 
+#HAFNIUM [ID: 312]
+ ##### 
+220. #News Microsoft launches EOMT tool to help businesses quickly fix Exchange Server security vulnerabilities: In response to high-risk security vulnerabilities in Microsoft Exchange Server, Microsoft is currently thinking of ways to allow all companies...… https://bit.ly/2Ou11DZ(https://t.co/zn4ZLekqKy) https://twitter.com/morodog/status/1371815906947387398/photo/1(https://t.co/Y159cj2gEZ) [ID: 1516]
+ ##### 
+221. CISA Releases Supplemental Guidance on Emergency Directive for Microsoft Exchange Server Vulnerabilities https://us-cert.cisa.gov/ncas/current-activity/2021/03/31/cisa-releases-supplemental-guidance-emergency-directive-microsoft(https://t.co/E0ZPnJ2Anu) [ID: 1091]
+ ##### 
+222. Woah, looks like the Exchange hack may have been leaked info shared by MSFT to its partners. MSFT is checking if exploit code was leaked, according to a Wall Street Journal report.
+
+https://bit.ly/3vCFI3u(https://t.co/ZZs3VsA5mO) [ID: 1536]
+ ##### 
+223. RT Hey Infosec peeps, I need some help regarding the MS Exchange exploit. [ID: 241]
+ ##### 
+224. The Microsoft Exchange hack gives new urgency for enhanced email data protection https://cnto.io/fBIi5ZluW(https://t.co/CqOKs8wVAC) [ID: 1148]
+ ##### 
+225. Microsoft Exchange Server zero-day attacks: Malicious software found on 2,300 machines in the UK  https://www.zdnet.com/article/microsoft-exchange-server-zero-day-attacks-malicious-software-found-on-2300-machines-in-uk/?ftag=COS-05-10aaa0g&taid=604fc045b7d77200018e55f7&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter(https://t.co/4UcLiWlbgP) ZDNet [ID: 1616]
+ ##### 
+226. #Technology #TechNews Microsoft Exchange Hackers Also Breached European Banking Authority #Cybersecurity #AiUpNow #techy via https://www.aiupnow.com/2021/03/microsoft-exchange-hackers-also.html(https://t.co/R5n3KQFKkZ) [ID: 1171]
+ ##### 
+227. RT #REvil #Ransomware Targets @Acer's @Microsoft Exchange Server: @VK_Intel https://buff.ly/3tEes36(https://t.co/6cEHthJRMF)
+
+It’s possible the REvil affiliate that went after Acer also works with other threat actors, so other groups might now also be able to target Exchange servers, @BrettCallow said
+
+@CRN https://twitter.com/MichaelNovinson/status/1373032109862961154/photo/1(https://t.co/ae1BzsuQoC) [ID: 28]
+ ##### 
+228. The recent Microsoft Exchange Server hack has been devastating to many organizations, leaving them and their IT departments or Managed Service Providers scrambling to protect their network. 
+
+Locknet is an expert in network security and offers a 5-point approach to protection. https://twitter.com/LocknetInc/status/1376901246020415491/video/1(https://t.co/PNgD8CAS8u) [ID: 1545]
+ ##### 
+229. “Cyber-attack on the European Banking Authority on its Microsoft Exchange Servers” via @EBA_News
+
+#cybersecurity
+#infosec
+#microsoftexchange
+
+https://bit.ly/3v3RFPF(https://t.co/V38OM0SSfd) [ID: 1595]
+ ##### 
+230. RT We have seen a decrease in the number of servers still vulnerable to attacks against Microsoft Exchange Server—more than 92% of known worldwide Exchange IPs are now patched or mitigated. Read our latest updates: https://msft.it/6014VRaBC(https://t.co/cGMNZj2A0e) [ID: 1641]
+ ##### 
+231. RT #MalwareLabDaily 0x4E
+Video analysis and #reverseengineering of recent #DearCry #ransomware sample by @ladislav_b.
+
+This ransomware targets Microsoft Exchange servers affected by #ProxyLogon 
+
+#IDAFreeware #capa
+
+https://www.youtube.com/watch?v=6lSfxsrs61s(https://t.co/DafQeKNOLP)
+
+@LIFARSLLC @LIFARSTechDiary @HexRaysSA https://twitter.com/malwarelab_eu/status/1372999373307645960/photo/1(https://t.co/BtzyxLUSuY) [ID: 1612]
+ ##### 
+232. RT Don't miss the premiere of The Cohesity View! 🎬
+
+This monthly talk show provides insight on technology hot topics from seasoned technical professionals. Email phishing &amp; the Microsoft Exchange security issue are two of the issues covered in this episode: https://cohesity.co/3cEF8K3(https://t.co/dQVcFgbm7F) https://twitter.com/Cohesity/status/1371906592812236805/video/1(https://t.co/ls0kSeC9Qh) [ID: 881]
+ ##### 
+233. Microsoft Exchange Server Attack Escalation Prompts Patching Panic https://ow.ly/ckJW102AW6C(https://t.co/pIlXRlgTXc) https://twitter.com/memocobos/status/1369063912067526658/photo/1(https://t.co/SAqCJOfDMC) [ID: 515]
+ ##### 
+234. RT Chinese hackers targeting Microsoft Exchange servers were joined by a feeding frenzy of other adversaries. https://bit.ly/3ru9THQ(https://t.co/0tmd2tHs93) [ID: 1232]
+ ##### 
+235. RT ESET: More Than 10 APT Groups Exploiting Recent #Microsoft Exchange Vulnerabilities #cybercrime #cybersecurity https://www.infosecurity-magazine.com/news/apt-groups-microsoft-exchange/#.YEjwFm85saE.twitter(https://t.co/VcQ19cLVxS) [ID: 923]
+ ##### 
+236. Microsoft Exchange mass-hack flaw known since January, around for years (SlashGear) https://www.slashgear.com/microsoft-exchange-mass-hack-flaw-known-since-january-around-for-years-08662658/(https://t.co/ww5dPmsgLd) [ID: 794]
+ ##### 
+237. RT Here’s a step-by-step playbook to respond to the Microsoft Exchange attack. Learn how to use our technology to locate, patch and secure your Exchange Servers. If you’ve been compromised, our Incident Response team is here to help. Read the blog now. https://bit.ly/38KqqjJ(https://t.co/HqeKmdz3IC) https://twitter.com/PaloAltoNtwks/status/1369753808801312772/photo/1(https://t.co/2vyRHF7cIk) [ID: 557]
+ ##### 
+238. @Lehmbah @KinahanDeclan @Minecraft @MinecraftMarket it's a dead game, just after the force migration of 2million java accounts forced to use a Microsoft account thats "safer" https://www.cbsnews.com/news/microsoft-exchange-server-hack-what-to-know/(https://t.co/giUHiS9xn2) untill 100s of companies that uses, hack of Microsoft's Exchange email service besides SolarWinds hack.
+
+remember it's safer [ID: 1029]
+ ##### 
+239. Microsoft Exchange server hack: Banking agency on 'heightened alert' after cyberattack  https://www.zdnet.com/article/microsoft-exchange-server-hack-european-banking-authority-on-heightened-alert-after-being-hit-by-cyber-attackers/?ftag=COS-05-10aaa0g&taid=6047de5bd52b5600013a45be&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter(https://t.co/CHQ3aWCl81) ZDNet [ID: 786]
+ ##### 
+240. RT Reproducing the Microsoft #Exchange Proxylogon #Exploit Chain #APT CVE-2021-26855
+https://www.praetorian.com/blog/reproducing-proxylogon-exploit/(https://t.co/sUHvL1irvW) https://twitter.com/blackorbird/status/1369519088691683328/photo/1(https://t.co/qcjIY3q5p3) [ID: 1719]
+ ##### 
+241. RT CISA says in House hearing that at this time there are no confirmed federal victims of the Microsoft Exchange Server attack, but that the investigation is ongoing and in its early stages. [ID: 982]
+ ##### 
+242. Weeks after the disclosure of the ProxyLogon group of security bugs, exploitation attempts against unpatched Microsoft Exchange servers have skyrocketed. https://cyware.com/news/microsoft-exchange-attacks-wild-tornado-on-loose-e6388051/?&web_view=true(https://t.co/O6zSujIf0r) [ID: 1150]
+ ##### 
+243. Learn best practices for building an active protection solution for data living in Microsoft Exchange Online and Microsoft OneDrive. #M365 https://okt.to/41RFGr(https://t.co/0DhUErZ3dq) [ID: 540]
+ ##### 
+244. RT Defending Against the Zero Day: Analyzing Attacker Behavior Post-Exploitation of Microsoft Exchange. Great info from our @CyberAlliance Affiliate member @rapid7 
+#cybersecurity #infosec #HAFNIUM #MicrosoftExchange https://twitter.com/rapid7/status/1374421200374407182(https://t.co/ADPB2Umpnj) [ID: 29]
+ ##### 
+245. RT The Microsoft Exchange hack shows attackers are working 'smarter, not harder,' experts say https://www.businessinsider.com/microsoft-exchange-server-hack-why-cyberattack-matters-2021-3(https://t.co/t7MlFDGxh2) [ID: 1416]
+ ##### 
+246. RT Up to 125,000 servers remain vulnerable to devastating Microsoft exchange attacks https://trib.al/hc57Apg(https://t.co/Xrp8XPnSOv) https://twitter.com/Forbes/status/1369898409251966976/photo/1(https://t.co/vf2UiYiGAs) [ID: 748]
+ ##### 
+247. Lotem Finkelstein, Manager of Threat Intelligence at Check Point, warned organizations not only to patch the vulnerabilities, but also to scan their ...  #cybernews #thecybernewsfeed
+
+https://thecybernewsfeed.com/threat-intelligence/microsoft-exchange-attacks-doubling-every-two-to-three-hours/(https://t.co/UXcAYY3VR4) [ID: 1186]
+ ##### 
+248. 62,000 #Microsoft #Exchange Servers potentially left unpatched, weeks after software bugs were first uncovered...
+https://securityaffairs.co/wordpress/115965/hacking/microsoft-exchange-servers-unpatched.html(https://t.co/POxOCknaSd)
+#securityaffairs #hacking [ID: 431]
+ ##### 
+249. RT Microsoft Exchange servers now targeted by Black Kingdom ransomware https://bit.ly/2PfPbNC(https://t.co/olzZDPV7uh)
+
+#cybersecurity #riskmanagement #phishing #malware #Infosec
+#cyberthreats #ramsomware #hacking #dataprotection #privacy
+#dataleak #informationsecurity #cloud #cyberattacks #databreach https://twitter.com/Paula_Piccard/status/1374194282102394881/photo/1(https://t.co/LZhsce0CY2) [ID: 73]
+ ##### 
+250. "Russian hackers (accessed) email (of) Chad Wolf and #DHS #CyberSecurity staff"
+ 
+"accessed as part of...#SolarWinds intrusion"
+
+"widespread hack affecting Microsoft Exchange"
+ 
+"Biden admin is considering a “range of options” in response"
+
+#Russia #cyber 
+https://apnews.com/article/solarwinds-hack-email-top-dhs-officials-8bcd4a4eb3be1f8f98244766bae70395(https://t.co/syhwrKUoHg) [ID: 1361]
+ ##### 
+251. RT The Microsoft Exchange attack: what we know and what you can do https://blog.macrium.com/the-microsoft-exchange-attack-what-we-know-and-what-you-can-do-6e44c6812235(https://t.co/6rvgCz5LxI) [ID: 1745]
+ ##### 
+252. RT ICYMI: On the most recent #CyberSecurityBrief, we chat about the biggest story of recent times, the Microsoft Exchange Server vulnerabilities, as well as some new information in the #SolarWinds hack, and the arrest of an alleged #GandCrab gang member: https://symantec-enterprise-podcasts.security.com/podcasts/symantec-cyber-security-brief-podcast(https://t.co/BcnDz6xPZV) https://twitter.com/threatintel/status/1372204829746077706/photo/1(https://t.co/m4FrMWFjZr) [ID: 335]
+ ##### 
+253. RT Hackers are now exploiting vulnerabilities in Microsoft Exchange Server to infiltrate computer systems across the globe. https://www.pcmag.com/news/at-least-10-hacking-groups-are-exploiting-microsoft-exchange-server-flaws?taid=60492585459bb9000128ab75&utm_campaign=trueAnthem%3A+Manual&utm_medium=trueAnthem&utm_source=facebook(https://t.co/M1wjZ94RkG) [ID: 65]
+ ##### 
+254. RT DearCry ransomware impacting Microsoft Exchange servers https://bit.ly/3vjOzal(https://t.co/pivH0jkrg7) https://twitter.com/gzunigah/status/1370515472387477504/photo/1(https://t.co/8J7DOPtA0z) [ID: 201]
+ ##### 
+255. RT We continue to urge our customers to update their systems immediately to protect against the previously disclosed Microsoft Exchange Server on-premises vulnerabilities. Get caught up on our latest security update: https://msft.it/6016VziNm(https://t.co/WhtlABfCiy) https://twitter.com/msftsecurity/status/1371975790238314501/photo/1(https://t.co/mnH75XU7vt) [ID: 16]
+ ##### 
+256. RT Got triaged for report about #CVE-2021-26855
+
+By using @shodanhq #dorks
+
+title:"Outlook Web App" hostname:https://target.com/(https://t.co/xuOSInXVIb)
+
+#bugbountytips  #bugbountytip https://twitter.com/0xmahmoudJo0/status/1369897288961773575/photo/1(https://t.co/WvNh0dOcWf) [ID: 615]
+ ##### 
+257. KnowBe4 - Microsoft Exchange Server hacks ‘doubling’ every two hours | ZDNet https://ift.tt/3t5AcEG(https://t.co/yZwm317i33) [ID: 240]
+ ##### 
+258. RT A new Microsoft tool to contain damage from a massive hack of its email server software has helped to reduce the number of vulnerable entities, the National Security Council says https://trib.al/kX2lMGQ(https://t.co/e01zPWPgAN) [ID: 678]
+ ##### 
+259. RT @cyberdefensemag Publisher @miliefsky Sharing an important story about ProxyLogon Microsoft Exchange exploit #cybersecurity #CYBER #SECURITY in this #CDM #EXCLUSIVE https://www.cyberdefensemagazine.com/proxylogon-microsoft-exchange/(https://t.co/Lqy9gGIDN4) by Pierluigi Paganini @securityaffairs who we hope to see @RSAConference 2021 #CDM https://twitter.com/miliefsky/status/1371913819711225862/photo/1(https://t.co/KDS8gJkEnZ) [ID: 1756]
+ ##### 
+260. RT Attackers Breach 21,000 Microsoft Exchange Servers, Install Malware Implicating Brian Krebs https://bit.ly/2Pg3bqT(https://t.co/qqK5hnrxRj) #TechNews #TechTips [ID: 1156]
+ ##### 
+261. In wake of the recent vulnerabilities and hacks, Microsoft has releaseed a ‘one-click’ Exchange On-Premises Mitigation Tool (EOMT). #Microsoft #Exchange #Hacks [ID: 231]
+ ##### 
+262. RT Visit https://ow.ly/DVDC50DVBej(https://t.co/p9YMMjCIYc) for both executive- and technical-level guidance, including how to check for indicators of compromise. If you have a compromised server, you should immediately contact your local FBI office. https://ow.ly/PJ6u50DSijA(https://t.co/p42Rg5AJ9U) [ID: 1229]
+ ##### 
+263. NSA director says U.S. has a ‘blind spot’ for detecting attacks like SolarWinds, Microsoft Exchange https://bit.ly/3tUcrj9(https://t.co/CDJIX5Mnxm) https://twitter.com/neuropuff/status/1375220182478643202/photo/1(https://t.co/aZyfyzmqi1) [ID: 1158]
+ ##### 
+264. Just in...
+At Least 10 Threat Actors Targeting Recent Microsoft Exchange Vulnerabilities https://ift.tt/30Fyn4V(https://t.co/JwJtzMMROx)
+#Cyber #Knowledge [ID: 359]
+ ##### 
+265. @360Netlab  Hi, i was reading one of your blogs and i came across microsoft exchange vulnerability i.e CVE-2021-26855 and at the last md5 were given and can you pls tell me where i can get those files because there is no record on VT just for analysis purpose.. [ID: 1786]
+ ##### 
+266. RT Thank you to @SCMagazine's @BBB1216BBB (Bradley Barth) for including us in this article.
+
+"Effective sharing enables organizations to identify and remediate attacks and to analyze and fix vulnerabilities,” said Scott Algeier..."
+
+https://www.scmagazine.com/home/security-news/vulnerabilities/the-microsoft-exchange-hack-the-risks-and-rewards-of-sharing-bug-intel/(https://t.co/yaXpUByoQT) [ID: 439]
+ ##### 
+267. It is interesting that this is the second nation state attack on email that abuses the APIs.  
+Top Security and risk management trends this year includes the need for Machine Identity Management /API security. 
+  https://www.zdnet.com/article/microsoft-exchange-zero-day-attacks-30000-servers-hit-already-says-report/(https://t.co/cPRcow6OEZ) [ID: 690]
+ ##### 
+268. Over 62,000 Microsoft Exchange Servers, Still Left unpatched https://1010.team/over-62-000-microsoft-exchange-servers-still-left-unpatched/(https://t.co/cHqYGpGtdO) [ID: 1355]
+ ##### 
+269. Microsoft Exchange servers targeted by 'at least ten hacker groups' | IT PRO https://buff.ly/30Flxnv(https://t.co/uBhOmmdbu5)
+Take the time to build a strong security foundation. Let us help you find the right #cybersecurity solutions at https://firewalls4now.com.au/(https://t.co/cjd2u8Dj9x)  #becybersmart https://twitter.com/firewalls4now/status/1370502375471976451/photo/1(https://t.co/zhuUKkKy38) [ID: 1760]
+ ##### 
+270. RT Microsoft releases one-click mitigation tool for Exchange Server hacks | ZDNet https://www.zdnet.com/article/microsoft-exchange-server-hacks-doubling-every-two-hours/(https://t.co/Ey9TDu18VR) via @ZDNet [ID: 802]
+ ##### 
+271. RT The White House issued a warning that organizations face a massive risk from the Microsoft Exchange vulnerabilities. 
+
+@JohnHultquist shared why #ransomware operators may pose an even bigger concern to orgs than cyber espionage actors. via @CNNPolitics https://feye.io/3eC743X(https://t.co/x9g0LATQZj) [ID: 2]
+ ##### 
+272. Alert: Cyber-attacker &amp;#8216;Hafnium&amp;#8217; targeting businesses using Microsoft Exchange servers, https://www.nkytribune.com/?p=280497(https://t.co/E3NBznS16l) [ID: 1437]
+ ##### 
+273. RT #Ransomware now attacks Microsoft Exchange servers with ProxyLogon exploits https://bit.ly/30BijBl(https://t.co/Vo9Cc6lthG) #CyberSecurity #TechJunkieNews https://twitter.com/techjunkiejh/status/1373290745868791820/photo/1(https://t.co/ER5s8N8V4B) [ID: 1207]
+ ##### 
+274. RT Good morning! In light of the recent Microsoft Exchange Zero Days exploited by #HAFNIUM I thought I'd drop you my thoughts on what could have gone down.
+
+https://youtu.be/TIwkDLJZKbo(https://t.co/8lcxRjSuOp) [ID: 1238]
+ ##### 
+275. Microsoft Exchange Server: These quarterly updates include fixes for security flaws https://techie.buzz/2021/03/18/microsoft-exchange-server-these-quarterly-updates-include-fixes-for-security-flaws/(https://t.co/MAJtczEXlC) [ID: 342]
+ ##### 
+276. RT We added detection for the recent Microsoft Exchange vulnerabilities. If you've configured Shodan Monitor (https://t.co/pVAnB0gecF) then you will automatically get a notification. https://twitter.com/shodanhq/status/1367525621065261062/photo/1(https://t.co/Sbi2VVAFKh) [ID: 1682]
+ ##### 
+277. RT Norway parliament data stolen in Microsoft Exchange attack https://www.bleepingcomputer.com/news/security/norway-parliament-data-stolen-in-microsoft-exchange-attack/(https://t.co/SKc4EdURDl) [ID: 232]
+ ##### 
+278. RT Threat actors are now installing a new #ransomware called 'DEARCRY' after hacking into Microsoft Exchange servers using the recently disclosed ProxyLogon vulnerabilities.
+
+https://www.bleepingcomputer.com/news/security/ransomware-now-attacks-microsoft-exchange-servers-with-proxylogon-exploits/(https://t.co/NcEpW5NMyf)
+
+#MicrosoftHack #Vulnerabilities #Hackers #DEARCRY [ID: 1599]
+ ##### 
+279. White House warns organizations have 'hours, not days' to fix vulnerabilities as Microsoft Exchange attacks increase https://www.cnn.com/2021/03/12/politics/microsoft-solarwinds-biden-administration/index.html(https://t.co/iJutH27wfk) #SmartNews [ID: 766]
+ ##### 
+280. Microsoft Exchange flaws now being used by hackers around the world https://j.mp/30Axivj(https://t.co/q400hG5Cci) [ID: 325]
+ ##### 
+281. Microsoft Exchange Server hacks ‘doubling’ every two hours https://zd.net/3clDFZ6(https://t.co/MC7jVdQa88) via @ZDNet &amp; @SecurityCharlie [ID: 1244]
+ ##### 
+282. #Microsoft  Exchange Server Hack: Is #Krebson Security Head the Reason Behind #Malware  Attack? https://www.techtimes.com/articles/258504/20210328/brian-krebs-microsoft-exchange-server-hack-claims-reason.htm(https://t.co/0MRshIzbbM) [ID: 596]
+ ##### 
+283. RT Many security experts remain alarmed about the large, Chinese-linked hack of Microsoft's Exchange email service a week after the attack was first reported. https://cnn.it/30wMppu(https://t.co/RWd01cEqMD) [ID: 719]
+ ##### 
+284. RT Microsoft: 82,000 vulnerable Microsoft Exchange servers still need to be updated.
+https://www.microsoft.com/security/blog/2021/03/12/protecting-on-premises-exchange-servers-against-recent-attacks/(https://t.co/Yps0bXdSSu) [ID: 1627]
+ ##### 
+285. Public proof-of-concept (PoC) exploits for ProxyLogon could be fanning a feeding frenzy of attacks even as patching makes progress.
+
+https://threatpost.com/microsoft-exchange-cyberattacks-one-click-fix/164817/(https://t.co/bH2M0lhElg) [ID: 626]
+ ##### 
+286. Was your business a victim of the Microsoft Exchange hack? Here’s everything we know so far and how to plug any security holes #microsoft https://www.zdnet.com/article/everything-you-need-to-know-about-microsoft-exchange-server-hack/(https://t.co/QgXAT6RZ9j) [ID: 893]
+ ##### 
+287. What to know about the massive Microsoft Exchange breach But the mass hacking #darkweb @CryptoCSinc https://xplosiveweb.com/xplosive/?p=13114&utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost(https://t.co/TjtQiYU2of) #cybercrime [ID: 1677]
+ ##### 
+288. If you have an Microsoft Exchange Server and have not remediated the most recently announced vulnerability  - THIS IS THE RESOURCE:  - PLEASE CHECK IT OUT NOW, if you have not already. #security #msexchange https://lnkd.in/eKcBi94(https://t.co/ennyE5BZ0D) [ID: 938]
+ ##### 
+289. 7 seconds after I started an HTTP server only listening on localhost I got a check for a Microsoft Exchange exploit on that service. What is happening?
+It was like this: https://isc.sans.edu/forums/diary/Scanning+for+Outlook+Web+Access+OWA+Microsoft+Exchange+Control+Panel+ECP/26132/(https://t.co/vz6Zbu3Kix) [ID: 1073]
+ ##### 
+290. RT Ransomware now attacks Microsoft Exchange servers with ProxyLogon exploits https://www.bleepingcomputer.com/news/security/ransomware-now-attacks-microsoft-exchange-servers-with-proxylogon-exploits/(https://t.co/h1Jv9pt710) [ID: 1353]
+ ##### 
+291. Ransomware Gangs Are Starting to Hack Vulnerable Microsoft Exchange Servers - VICE https://apple.news/A1Qu9kH8XSs2b5V-8n9l1RA(https://t.co/n3OmTckhif) [ID: 1746]
+ ##### 
+292. RT Microsoft Exchange servers now targeted by BlackKingdom ransomware #OSINT #CyberSec #infosec #Security #cybercrime #ThreatIntel  #darkweb #cybersecurity #dataprotection #privacy #cyberthreats #dataleaks #cyberattacks #cyberintelligence #microsoft https://www.bleepingcomputer.com/news/security/microsoft-exchange-servers-now-targeted-by-blackkingdom-ransomware/(https://t.co/daoJrQexEx) [ID: 905]
+ ##### 
+293. Use This One-Click Mitigation Tool from Microsoft to Prevent Exchange Attacks https://feedproxy.google.com/~r/TheHackersNews/~3/p8LpbYfeMfQ/use-this-one-click-mitigation-tool-from.html(https://t.co/9JmqwsyVsd) #microsoft #exchange [ID: 1653]
+ ##### 
+294. RT The latest in the ongoing saga of @Microsoft Exchange Server breaches, which appear to be evolving yet again.  https://www.scmagazine.com/home/security-news/as-hafnium-timeline-crystalizes-signs-of-new-microsoft-exchange-server-attacks-emerge/(https://t.co/ctvvhCDsjh) [ID: 630]
+ ##### 
+295. Microsoft Exchange servers attacked by BlackKingdom ransomware: The ransomware campaign, BlackKingdom, has been attacking Microsoft Exchange Server by exploiting ProxyLogon vulnerabilities in order to deploy ransomware on vulnerable servers. The attacks… https://www.itsecurityguru.org/2021/03/23/microsoft-exchange-servers-attacked-by-blackkingdom-ransomware/?utm_source=dlvr.it&utm_medium=twitter&utm_campaign=microsoft-exchange-servers-attacked-by-blackkingdom-ransomware(https://t.co/LkbL4hObbz) https://twitter.com/cipherstorm/status/1374307574514737155/photo/1(https://t.co/ECxQbD55tB) [ID: 837]
+ ##### 
+296. Microsoft Exchange Server attacks: 'They're being hacked faster than we can count', says security company https://j.mp/3vQH2zR(https://t.co/mETvqp71Uw) #infosec #hacking https://twitter.com/zaibatsu/status/1374407858159161353/photo/1(https://t.co/XfXHDPo7Jz) [ID: 239]
+ ##### 
+297. RT Microsoft Exchange Server attacks: 'They're being hacked faster than we can count', says security company https://zd.net/2Ql2Pzs(https://t.co/iD7FWxhy4S) [ID: 1742]
+ ##### 
+298. RT [ALERT] Microsoft Exchange Proxylogon (CVE-2021-26855) multiple #exploits &amp; mass scanning tool being used massively in the wild !!!
+
+We have captured many vulnerability intelligence indicators.
+
+Get alerted in time  &gt;&gt; https://vfeed.io/(https://t.co/753EwAUQeO)
+#FixNow #DevOps #CISO https://twitter.com/vFeed_IO/status/1369938495213539328/photo/1(https://t.co/SJbNmTK0P4) [ID: 579]
+ ##### 
+299. RT If you're a company using on-prem Microsoft Exchange Server and haven't taken the vulnerabilities seriously then consider this an official warning...
+
+it's serious. https://twitter.com/MsftSecIntel/status/1370236539427459076(https://t.co/WE1BoVvn5m) [ID: 1730]
+ ##### 
+300. At Least 10 Threat Actors Targeting Recent Microsoft Exchange Vulnerabilities https://www.securityweek.com/least-10-threat-actors-targeting-recent-microsoft-exchange-vulnerabilities(https://t.co/OTtw5QDhTm) [ID: 890]
+ ##### 
+301. Huge Fallout from Microsoft Incompetence: Let’s Exchange Exchange: Countless organizations using Microsoft Exchange are scrambling to undo the damage caused by hackers. And it’s all Microsoft’s fault. The post Huge Fallout from Microsoft Incompetence:… https://securityboulevard.com/2021/03/huge-fallout-from-microsoft-incompetence-lets-exchange-exchange/?utm_source=dlvr.it&utm_medium=twitter(https://t.co/5WHkcBsdax) https://twitter.com/cipherstorm/status/1369349281102979072/photo/1(https://t.co/BSvL7gDg2k) [ID: 942]
+ ##### 
+302. RT Everything you need to know about the Microsoft Exchange Server hack #Cybersecurity #security  https://www.zdnet.com/article/everything-you-need-to-know-about-microsoft-exchange-server-hack/(https://t.co/FAHFk4EOK2) [ID: 643]
+ ##### 
+303. Hackers Are Targeting Microsoft Exchange Servers With Ransomware https://thehackernews.com/2021/03/icrosoft-exchange-ransomware.html(https://t.co/Q5Ei4JFoci) via @TheHackersNews 
+#securityneversleeps #Microsoft #Exchange #ransomware [ID: 1215]
+ ##### 
+304. Operation Exchange Marauder: Active Exploitation of Multiple Zero-Day Microsoft Exchange Vulnerabilities https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/(https://t.co/k06pV3M5nb) #volexity via @Volexity [ID: 727]
+ ##### 
+305. RT White House warns organizations have 'hours, not days' to fix vulnerabilities as Microsoft Exchange attacks increase https://www.foxcarolina.com/white-house-warns-organizations-have-hours-not-days-to-fix-vulnerabilities-as-microsoft-exchange-attacks/article_94fd99ed-64ab-518c-845f-177ca7e0b95d.html?utm_campaign=snd-autopilot(https://t.co/aKot7EGFsC) [ID: 1145]
+ ##### 
+306. RT @Acer reportedly hit with $50 million ransomware demand. The attack looks to be the work of the #REvil group that hit @Travelex last year.
+
+#Ransomware #QuantumCyber #DigitalFortress #USA 
+@Dragonchain 🇺🇸 @CloudFaceUSA 🇺🇸 #Impenetrable 
+https://theverge.com/platform/amp/2021/3/20/22341642/acer-ransomware-microsoft-exchange-revil-security(https://t.co/robg1JyMBq) https://twitter.com/treyrutledge3/status/1373305102434508804/photo/1(https://t.co/rCNzSSqXvg) [ID: 1436]
+ ##### 
+307. RT And they still refuse to ban Huawei:
+
+European Banking Authority has taken all email systems offline after being hit by cyberattack targetting its Microsoft Exchange Servers-
+🔽
+All these attacks happened while Bill Gates was busy virtue sigling. 
+ https://www.finextra.com/newsarticle/37618/european-banking-authority-hit-by-cyber-attack(https://t.co/84xfgvZZWf) [ID: 1201]
+ ##### 
+308. An attack is imminent, but you can prevent any future vulnerabilities. Learn how to keep your Microsoft Exchange server safe. https://bit.ly/3vfX7Pt(https://t.co/3RNKgkUUtR) https://twitter.com/MessageOps/status/1370131771510173702/photo/1(https://t.co/EXv9kOUxeX) [ID: 1339]
+ ##### 
+309. Another earthquake in cybersecurity: an in-depth look at the #Microsoft #Exchange #ProxyLogon zero-day flaws
+https://cybernews.com/security/an-in-depth-look-at-the-microsoft-exchange-proxylogon-zero-day-flaws/(https://t.co/ljj7HVePHm)
+#securityaffairs #hacking ... [ID: 545]
+ ##### 
+310. RT RT Tanguy_lrx: How's your company managing the #Microsoft #Exchange hack?
+
+#hclswlobp #nocode #lowcode #javascript #github #nodejs #cybers… Translated using #MicrosoftFlow [ID: 1622]
+ ##### 
+311. Microsoft Exchange servers now targeted by BlackKingdom ransomware https://tinyurl.com/yzvbrzbx(https://t.co/VHqoaIR7JH) [@BleepinComputer] [ID: 747]
+ ##### 
+312. RT Exchange
+
+1. get /ecp/main.css  X-FEServer 
+2. Cookie: X-BEResource=xxx/EWS/Exchange.asmx?a=~1
+
+https://raw.githubusercontent.com/microsoft/CSS-Exchange/main/Security/http-vuln-cve2021-26855.nse(https://t.co/bqjeA3FX1r)
+https://github.com/projectdiscovery/nuclei-templates/blob/master/cves/2021/CVE-2021-26855.yaml(https://t.co/CknY7iZb82)
+https://gist.github.com/testanull/324546bffab2fe4916d0f9d1f03ffa09(https://t.co/bEnkuhvuMc)
+https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/(https://t.co/3A007UqWE0) https://twitter.com/jas502n/status/1368164120936116226/photo/1(https://t.co/CRFopBBMT1) [ID: 1566]
+ ##### 
+313. 62,000 #Microsoft #Exchange Servers potentially left unpatched, weeks after software bugs were first uncovered....
+https://securityaffairs.co/wordpress/115965/hacking/microsoft-exchange-servers-unpatched.html(https://t.co/POxOCknaSd)
+#securityaffairs #hacking [ID: 1562]
+ ##### 
+314. Watchdog ‘almost certain’ Microsoft Exchange security gap has Canadian victims https://dlvr.it/RvtkyD(https://t.co/hDixfJPOi3) [ID: 565]
+ ##### 
+315. No signs yet of Exchange Server compromises at federal agencies, CISA says https://www.cyberscoop.com/microsoft-exchange-server-china-dhs-cyber/(https://t.co/iQR2AdwWNW) [ID: 1443]
+ ##### 
+316. Published a new blog entry Microsoft Exchange Server Vulnerabilities. https://www.pileustech.com/blog/microsoft-exchange-server-vulnerabilities(https://t.co/wZvj5hKhxb) https://twitter.com/PileusTech/status/1371612278878044160/photo/1(https://t.co/oJ8IM01mav) [ID: 1212]
+ ##### 
+317. RT To answer a data question: logarithmic scale graph of the relative population sizes of exposed Microsoft Exchange Server versions from @DIVDnl 2021-03-09 scan (for clusters of &gt; 10 IP addresses) added to our recent blog:
+https://www.shadowserver.org/news/shadowserver-special-reports-exchange-scanning/(https://t.co/eBk4vIs9FK) https://twitter.com/Shadowserver/status/1370471138745327617/photo/1(https://t.co/beczjfpOUK) https://twitter.com/Shadowserver/status/1370201190445805577(https://t.co/TPHpzYfLji) [ID: 1445]
+ ##### 
+318. Microsoft Exchange zero-day vulnerabilities exploited in attacks against US local governments https://dlvr.it/RvFVHd(https://t.co/r1XoDCLOKB) https://twitter.com/TonyBeeTweets/status/1369151724636626950/photo/1(https://t.co/bQCsrjRfqL) [ID: 1348]
+ ##### 
+319. RT Timeline of Microsoft Exchange Server attacks raises questions https://bit.ly/3vx0iCw(https://t.co/phwC0IUaXV) [ID: 1603]
+ ##### 
+320. https://cybersecurityresource.com/(https://t.co/NSnWbBl9ke) Check Point Research Tracks Tenfold Increase in 5 DaysFrom Thursday through Monday, Check Point Research tracked a tenfold increase in the number of global attempts to exploit vulnerable on-premises Microsoft Exchange servers as organizations race to i ... https://twitter.com/InfoSecResource/status/1372147018735484928/photo/1(https://t.co/wuy4DKHa72) [ID: 1023]
+ ##### 
+321. How much damage are they able to do ?
+
+https://www.zdnet.com/article/microsoft-exchange-server-attacks-theyre-being-hacked-faster-than-we-can-count-says-security-company/(https://t.co/4rCl2j5Ks9) [ID: 1791]
+ ##### 
+322. RT Everything you need to know about the Microsoft Exchange Server hack
+
+#cybersecurity #cloudcomputing #phishing #malware #Infosec
+#cyberthreats #ransomware #cloud #hacked #dataprotection
+#privacy #dataleak #riskmanagement #cyberattacks #databreach
+
+https://zd.net/2PDcvVG(https://t.co/6jOxuVlVf1) https://twitter.com/Paula_Piccard/status/1369347383478386688/photo/1(https://t.co/iT7HPrLkJ8) [ID: 420]
+ ##### 
+323. RT CISA Updates Microsoft Exchange Advisory to Include China Chopper https://qoo.ly/3b94qk(https://t.co/OmXYHattBW) #security #incidentresponse #cybersecurity via @DarkReading [ID: 599]
+ ##### 
+324. Chile's Comisión para el Mercado Financiero (CMF) has disclosed that their Microsoft Exchange server was compromised through the recently disclosed ProxyLogon vulnerabilities. [...] Chi... via @BleepinComputer #security #tech #WednesdayWisdom https://www.bleepingcomputer.com/news/security/chiles-bank-regulator-shares-iocs-after-microsoft-exchange-hack/(https://t.co/ncVIu66Wmg) [ID: 368]
+ ##### 
+325. RT @NCSC: In this week's Threat Report: Urgent patches released following MS Exchange vulnerabilities exploitation https://www.ncsc.gov.uk/report/weekly-threat-report-5th-march-2021(https://t.co/TcBwZttp2o) https://twitter.com/NCSC/status/1369940412803190786/photo/1(https://t.co/cga9aPX02T) [ID: 896]
+ ##### 
+326. RT Threat actors are installing a ransomware called DearCry after exploiting Microsoft Exchange servers with recently disclosed vulnerabilities https://www.bleepingcomputer.com/news/security/ransomware-now-attacks-microsoft-exchange-servers-with-proxylogon-exploits/(https://t.co/G7Y2nz7utw) https://twitter.com/virusbtn/status/1370402964133838849/photo/1(https://t.co/F51yAYKsWI) [ID: 1799]
+ ##### 
+327. RT Cyber Security Week in Review
+
+#news #tech #cybersecurity #data #hacker #malware #databreach #cyberattack #network  #cyber #phishing #cybercrime #infosec #ransomware #cloudcomputing #datasecurity #internet #software #apple
+#Microsoft #exchange 
+
+https://www.webroot.com/blog/2021/03/12/cyber-news-rundown-phishing-targets-nhs-regulatory-commission/(https://t.co/1O3eD4aO9s) [ID: 1492]
+ ##### 
+328. Leverage Secureworks® Taegis™ Security Analytics Platform to Protect Against Attacks on Microsoft Exchange Servers https://buff.ly/3rL7ZCH(https://t.co/cvRd6SVqTC) #SCWX via @Secureworks [ID: 1106]
+ ##### 
+329. How to use Exchange On-Premises Mitigation Tool to investigate Microsoft Exchange Server threats https://lnkd.in/d76ZpzP(https://t.co/oAghfose6d) [ID: 204]
+ ##### 
+330. #DarkReadingW #CyberSecurity #Automated | CISA Updates Microsoft Exchange Advisory to Include China Chopper https://app.reg.techweb.com/e/er?elq_mid=102739&elq_cid=22023705&s=2150&lid=208339&elqTrackId=83b4d89d320f45a2a0ade6688be000de&elq=ac06fda216f14b47949f247c693bce0a&elqaid=102739&elqat=1(https://t.co/HiJD07iU6P) [ID: 1431]
+ ##### 
+331. Today, we have taken an additional step to further support our customers who are still vulnerable and have not yet implemented the complete security update. MDAV will auto mitigate CVE-2021-26855 on any vulnerable Exchange Server on which it is deployed. 
+
+https://www.microsoft.com/security/blog/2021/03/18/automatic-on-premises-exchange-server-mitigation-now-in-microsoft-defender-antivirus/(https://t.co/8JwDDXJpje) [ID: 371]
+ ##### 
+332. Cynet Publishes Review of HAFNIUM APT Attack on Microsoft Exchange https://gbhackers.com/cynet-publishes-review-of-hafnium-apt-attack-on-microsoft-exchange/(https://t.co/lZLsNg7rgR) [ID: 1790]
+ ##### 
+333. RT Exchange Server security patch warning: Apply now before more hackers exploit the vulnerabilities  https://www.zdnet.com/article/microsoft-exchange-server-cybersecurity-warning-apply-patches-now-because-more-hacking-groups-are-trying-to-exploit-the-vulnerabilities/?ftag=COS-05-10aaa0g&taid=604afc60eaf59800011ce2e1&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter(https://t.co/g35J5sjSfx) [ID: 523]
+ ##### 
+334. RT EU Banking Reg. Hit By MS Exchange Attack– Experts Reaction: The European Banking Authority, a key EU financial regulator, confirmed it has fallen victim to a hack of its Microsoft email system which the US company blames on a Chinese… The ISBuzz Post:… https://informationsecuritybuzz.com/expert-comments/eu-banking-reg-hit-by-ms-exchange-attack-experts-reaction/?utm_source=dlvr.it&utm_medium=twitter(https://t.co/AyMO6wX8Qq) https://twitter.com/shah_sheikh/status/1369574384839499779/photo/1(https://t.co/mz07Ra06EL) [ID: 1749]
+ ##### 
+335. RT Microsoft have the money and the resources to put this right? #cybersecurity https://www.cbsnews.com/news/microsoft-exchange-server-hack-what-to-know/#cybersecurity(https://t.co/5hLlIVkiJI) [ID: 564]
+ ##### 
+336. RT It’s Open Season for @Microsoft Exchange Server Hacks &gt; https://buff.ly/3t5XN86(https://t.co/GFzWBrmji5) on @WIRED 
+
+#tech #cybersecurity #security #infosec #emailsecurity #cyberthreats #cyberattacks #databreaches #business #leaders #leadership #management #CISO #CIO #CTO #CEO https://twitter.com/Corix_JC/status/1370496080266297353/photo/1(https://t.co/JIWSAPG34x) [ID: 338]
+ ##### 
+337. @x0rz Mayyyybe ... although this timeline suggests that HAFNIUM exploitation began as early as November, while DEVCORE says it found CVE-2021-26855 on Dec. 10.
+
+Of course maybe timeline is wrong.
+https://www.domaintools.com/resources/blog/examining-exchange-exploitation-and-its-lessons-for-defenders(https://t.co/ql5R1fYzuA) https://twitter.com/razhael/status/1370396508621836292/photo/1(https://t.co/O7PENF6rJ0) [ID: 696]
+ ##### 
+338. RT Microsoft says state-sponsored Chinese #hackers exploited 4 Microsoft Exchange mail server #zeroday vulnerabilities to gain persistence on client networks. #cybersecurity #respectdata https://www.cpomagazine.com/cyber-security/cisa-and-microsoft-warn-of-chinese-hackers-exploiting-several-microsoft-exchange-mail-server-zero-day-vulnerabilities/?utm_campaign=coschedule&utm_source=twitter&utm_medium=cpomagazine&utm_content=CISA%20and%20Microsoft%20Warn%20of%20Chinese%20Hackers%20Exploiting%20Several%20Microsoft%20Exchange%20Mail%20Server%20Zero-Day%20Vulnerabilities(https://t.co/Fw54HZaQfz) [ID: 601]
+ ##### 
+339. #SolarWinds # Hafnium Though the strategic goals of the two operations might be similar, the execution of these two attacks could not be more different—and when it comes to the United States’s response, these differences matter. I https://www.lawfareblog.com/how-should-us-respond-solarwinds-and-microsoft-exchange-hacks(https://t.co/RdO0wdHFXj) [ID: 1782]
+ ##### 
+340. RT Got Exchange? 🥛 @Microsoft released the One-Click Exchange On-Premises Mitigation Tool to help small businesses deal with the rash of attacks 📧 #CyberSpiracy #Cybersecurity #InfoSec #Cybercrime #Hacking
+
+https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/(https://t.co/2wGwTaNlnm) https://twitter.com/AnnyAllerton/status/1372682739401494529/photo/1(https://t.co/ipozTn86Tw) [ID: 620]
+ ##### 
+341. RT “There is no actual technical, practical ability for NSA-level surveillance to have detected either the SolarWinds or the Microsoft Exchange attacks” -⁦@k8em0⁩  https://zetter.substack.com/p/would-government-monitoring-have(https://t.co/lvHhYM08lQ) [ID: 971]
+ ##### 
+342. All organizations with on premise MS Exchange email server should prioritize updating. Microsoft has pushed security updates which prevents the ongoing hacks. Inbox me if you are not sure and I will be happy to assist. As per my earlier retweet, lots of money lost to hackers [ID: 902]
+ ##### 
+343. https://www.inforisktoday.com/microsoft-exchange-server-flaw-causes-spike-in-attacks-a-16236(https://t.co/FFnyFDmuQE) Microsoft Exchange Server Flaw Causes Spike in Attacks #cybersecurity [ID: 841]
+ ##### 
+344. Norway’s Stortingnet becomes newest victim of Microsoft Exchange malware https://dlvr.it/RvQp9p(https://t.co/jYj6NMXDzm) #CyberBites #Uncategorized via @IT_SecGuru https://twitter.com/AcooEdi/status/1370029891249266690/photo/1(https://t.co/98xe2obMtM) [ID: 1438]
+ ##### 
+345. Microsoft Exchange Server hack: What happened and how to protect your network from attacks https://zd.net/396lIwB(https://t.co/eG8j8LhGgk) by @KarenRoby6 [ID: 788]
+ ##### 
+346. Executing rapid response to deploy all available patches to impacted customers. 
+How the Microsoft Exchange hack could impact your organization https://tek.io/2O6SYNc(https://t.co/zfWkVZ683F) via @techrepublic [ID: 1364]
+ ##### 
+347. RT "I'm not in a position standing here today to provide attribution," replies @JakeSullivan46 when asked if #China is responsible for @Microsoft Exchange attack. [ID: 192]
+ ##### 
+348. Ransomware Is On The Increase. 
+
+https://www.crn.com/news/security/dearcry-ransomware-unleashed-in-microsoft-exchange-hack(https://t.co/Tlqmqjm916) [ID: 1357]
+ ##### 
+349. Microsoft Exchange attacks: Now Microsoft rushes out a patch for older versions of Exchange | ZDNet https://www.zdnet.com/article/microsoft-exchange-attacks-now-microsoft-rushes-out-a-patch-for-these-unsupported-exchange-servers-too/(https://t.co/kRQzejcbFo) #infosec #cybersecurity [ID: 1041]
+ ##### 
+350. RT Remediation Steps for the Microsoft #ExchangeServer #Vulnerabilities | #CyberSecurity https://unit42.paloaltonetworks.com/remediation-steps-for-the-microsoft-exchange-server-vulnerabilities/(https://t.co/UNRiFsKuLe) [ID: 1671]
+ ##### 
+351. Is there a link between Microsoft Exchange exploits and PoC code the company shared with partner security firms? https://securityaffairs.co/wordpress/115640/hacking/microsoft-exchange-poc-leak.html?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-exchange-poc-leak(https://t.co/x66htDQLpC) [ID: 563]

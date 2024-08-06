@@ -1,0 +1,19 @@
+To select the most informative and diverse instances for labeling, I will follow a systematic approach:
+
+Representativeness: I will first assess the overall content of the instances to ensure that the selection reflects the diversity of the dataset. Given that these instances are related to Microsoft Exchange vulnerabilities and cyber threats, it’s crucial to have a range of instances covering different aspects of this topic.
+
+Diversity: I will look for instances that cover different angles of the Microsoft Exchange issue - varying attack methods, different types of vulnerabilities, diverse sources of information, and varied impacts.
+
+Difficulty or Uncertainty: Instances that seem to contain complex or ambiguous information will be chosen as they are likely to challenge the model and improve its performance in complex scenarios.
+
+Stratified Sampling: I will ensure that instances from different subcategories (like technical details, mitigation strategies, impact assessment) are included.
+
+Balancing Classes: If there are instances indicating different classifications (like types of attacks, vulnerabilities), I will ensure to balance these classes in the selection.
+
+Temporal or Spatial Relevance: I will select instances from different time frames and, if applicable, different geographical locations or sources to capture temporal and spatial variations in the data.
+
+Avoid Bias: I will avoid instances that might introduce bias, like those focusing excessively on a specific aspect while neglecting others.
+
+Given these criteria, I will now select the instances:
+
+Selected instances: 0, 5, 10, 14, 19, 24, 30, 35, 40, 45, 51, 56, 61, 67, 72, 77, 82, 87, 92, 97, 102, 107, 112, 117, 122, 127, 132, 137, 142, 147, 152, 157.

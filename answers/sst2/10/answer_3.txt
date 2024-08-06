@@ -1,0 +1,17 @@
+To select the most informative instances for labeling by a human annotator in an active learning scenario, the following steps should be considered:
+
+1. **Diversity in Content**: Choose instances that cover a wide range of topics, styles, or sentiments. This ensures that the labeled data encompasses a broad spectrum of the dataset.
+
+2. **Ambiguity or Difficulty**: Prioritize instances that seem ambiguous or difficult to classify. These instances often provide the most information when labeled because they help to refine the decision boundaries of the model.
+
+3. **Representativeness**: Select instances that are representative of the entire dataset. This helps in building a model that generalizes well.
+
+4. **Balance**: Ensure that there is a balance in terms of the types of instances chosen. For example, if the dataset is about movie reviews, there should be a mix of positive, negative, and neutral reviews.
+
+5. **Uniqueness**: Choose instances that add new information or perspectives not already covered by other instances in the training set.
+
+Based on these principles, I would select the following instances from the provided dataset:
+
+0, 5, 7, 10, 13, 17, 21, 23, 27, 32, 34, 38, 41, 44, 47, 50, 55, 61, 67, 69, 73, 77, 83, 89, 96, 104, 113, 121, 126, 132, 138, 142
+
+These instances were chosen to provide a diverse and balanced representation of different sentiments and styles within the dataset, including both clear and ambiguous cases.

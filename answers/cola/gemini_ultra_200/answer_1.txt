@@ -1,0 +1,69 @@
+
+To select instances for an active learning annotator, I'd focus on a diverse mix with these strategies:
+
+Understanding the Task:
+
+What is the annotation goal? (e.g., part-of-speech tagging, entity recognition, sentiment analysis) Understanding this guides the focus.
+Are there instructions or guidelines? These would determine which instances are particularly "good" or "bad" examples.
+Diversity of Instances:
+
+Cover different sentence structures: Simple, complex, compound, interrogative, declarative, etc.
+Include variations in word order and syntax: This tests the model's adaptability.
+Range of vocabulary and word usage: Common and uncommon words, synonyms, antonyms, polysemy (words with multiple meanings)
+Different levels of ambiguity: Include both clear-cut and potentially confusing examples.
+Targeting Challenging Areas:
+
+Edge cases: Instances that might lie on the boundary of different labels or are open to interpretation.
+Rare phenomena: Syntactic constructs or words that appear infrequently in the data.
+Potential ambiguity sources: Homophones, negations, sarcasm, idioms, etc.
+Active Learning Considerations:
+
+Model Uncertainty: Prioritize instances where the current model is likely to be wrong or unsure.
+Informativeness: Choose instances that will significantly improve the model's understanding.
+Here's a possible selection strategy with examples, assuming I have a general purpose annotation task:
+
+Base Cases: Begin with basic sentence structures.  10-15 instances to cover the fundamentals:
+
+"Mary expected John to fix the computer." (11)
+"Did you eat?" (Modified version of 81- More basic)
+"Who did you give pictures of?" (23 – Wh-movement )
+Variations: Introduce minor changes to test understanding of core concepts **(~5 instances):
+
+"The lions ate the meat quickly." (32: change in word order from earlier basic example)
+"Mary has more friends than Peter." (40: Comparison structures)
+"Is Mary eating tuna?" (82: Variation on previous "Did you eat" example)
+Uncertainty: Hypothetical model "weaknesses" to focus on (~5 instances):
+
+"John inquired which book he should read." (31: Potential ambiguity with indirect questions)
+"Did John eat or did Mary?" (Modified: adds disjunction, more complicated structure)
+"I didn't give Jack a picture of himself." (147: Negation & reflexives)
+Edge Cases and Rarities:  Target challenging scenarios. (~5 instances):
+
+"I doubt that Dana believes I think Rosie loves magazine ads." (36)
+"Some disgruntled old pigs in those ditches love truffles" (85: Complex noun phrases with modifiers)
+"Syntax is easy to pretend that you can teach. (93: self-embedding)
+Important Notes:
+
+Iteration: This would be part of an iterative process where the model is repeatedly re-trained, and I continually analyze its weaknesses to choose a new "batch" of instances.
+Task Specificity: Specific tasks would strongly influence the choice of instances.
+Given List (with IDs):
+
+I would likely recommend these, but more context on the annotation task is needed for true certainty:
+
+11, 14, 23, 31, 32, 35, 36, 40, 47, 53, 55, 63, 66, 82, 85, 93, 94, 97, 105, 109, 119, 125, 144, 145, 147, 155, 163, 170, 180,  185, 194
+
+Let me know if you have a specific annotation task in mind!
+
+Profilbild
+One more please
+Absolutely! Here's one more instance I'd consider adding to the list, along with my rationale:
+
+Instance:
+*  "It was to the student that the teacher gave the best advice." (41)
+
+Rationale:
+
+Passive voice: Tests the model's understanding of how grammatical roles change in passive constructions.
+Prepositional phrases: Features a prepositional phrase ("to the student") modifying the word it receives its meaning from ("gave").
+Semantic ambiguity: Even though grammatically correct, this sentence might initially cause a human annotator to hesitate due to its less typical word order. This potential for confusion in interpretation makes it a valuable training example.
+Let me know if you'd like more! Or, if you share the specifics of your annotation task, I can tailor suggestions even better.

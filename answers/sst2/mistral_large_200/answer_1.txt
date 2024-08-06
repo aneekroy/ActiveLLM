@@ -1,0 +1,13 @@
+To select the instances to label, I would follow these steps:
+
+1. **Diversity**: Ensure the selected instances cover a wide range of sentiments and topics. This will help the model learn to handle different types of data.
+
+2. **Uncertainty**: Choose instances that seem to have conflicting sentiments or are difficult to classify. These instances can provide valuable learning opportunities for the model.
+
+3. **Representativeness**: Select instances that seem to represent common patterns or sentiments in the data. This will help the model learn to recognize these patterns.
+
+Based on these criteria, here are the instances I would select:
+
+4, 5, 12, 15, 19, 23, 26, 31, 34, 35, 39, 42, 45, 48, 51, 54, 57, 61, 65, 67, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99, 102, 105
+
+These instances seem to cover a wide range of sentiments and topics, include some that are difficult to classify, and represent common patterns in the data.

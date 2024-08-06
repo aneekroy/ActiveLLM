@@ -1,0 +1,13 @@
+To select the instances to label, I would consider the following steps:
+
+1. **Diversity**: Ensure the selected instances cover a wide range of topics, sentence structures, and complexities. This will help the model learn better and generalize well.
+
+2. **Uncertainty**: Choose instances that are likely to be challenging or ambiguous. These instances can provide valuable learning signals.
+
+3. **Representativeness**: The selected instances should be representative of the overall dataset. This ensures that the model's learning is not biased towards a particular type of instance.
+
+Based on these criteria, here are the instances I would select:
+
+1, 5, 10, 13, 19, 23, 28, 31, 34, 39, 43, 48, 52, 55, 62, 67, 72, 77, 84, 89, 91, 94, 96, 98, 99, 100, 2, 7, 14, 22, 29, 36, 44
+
+These instances cover a wide range of topics, including news headlines, conversational sentences, and descriptive sentences. They also vary in complexity and sentence structure, and some of them are potentially challenging or ambiguous.

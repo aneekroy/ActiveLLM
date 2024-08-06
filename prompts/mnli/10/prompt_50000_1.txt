@@ -1,0 +1,1571 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Premise: late fifties yeah i think i saw that one 
+ Hypothesis: In the late seventies I didn't see that one.  [ID: 93231]
+ ##### 
+1. Premise: A delightful archaeological park has been created on the hillside around these huge, mysterious rocks. 
+ Hypothesis: These rocks are the only of their kind in the world. [ID: 203121]
+ ##### 
+2. Premise: 21 Mr. Inglethorp was in the drawing-room when I came down to supper.  
+ Hypothesis: I cam down to use the bathroom [ID: 156175]
+ ##### 
+3. Premise: They may not be friendly. 
+ Hypothesis: They might be mean. [ID: 109160]
+ ##### 
+4. Premise: i'll try bye 
+ Hypothesis: I wont try, bye. [ID: 109006]
+ ##### 
+5. Premise: oh yeah i never i didn't realize until recently that there was actually a fine they could pretty interesting though 
+ Hypothesis: Until recently, I didn't know there was a fine. [ID: 289018]
+ ##### 
+6. Premise: yeah so so if you like his view and his direction in other words then you'll really like the movie you know so probably if you liked his other two movies uh those are like Wall Street and Platoon then 
+ Hypothesis: I don't think you'll like his other movies. [ID: 86798]
+ ##### 
+7. Premise: a man present i don't think i'm less than a man because of that i but i see that and God's really shown me that and i don't talk to them i don't try and witness to them don't try and convert them i just say you can you can either you can come back when my husband's here 
+ Hypothesis: I feel like a man would better be able to answer your questions. [ID: 350516]
+ ##### 
+8. Premise: In another minute he was laughing at these melodramatic fancies. 
+ Hypothesis: He soon found humor in the fanciful melodrama. [ID: 67970]
+ ##### 
+9. Premise: GAO does not hold press conferences or issue press releases about products, but it does advise the media and the public of the release of GAO products via the World Wide Web and other venues. 
+ Hypothesis: GAO does not hold press conferences because they do not have a marketing department.   [ID: 214034]
+ ##### 
+10. Premise:  They were almost at the main tent when a crow flew down and yelled something in Nema's ear. 
+ Hypothesis: They were nowhere near the main tent. [ID: 369239]
+ ##### 
+11. Premise: yeah and the computer does it all for you 
+ Hypothesis: The computer will do everything for you.  [ID: 92691]
+ ##### 
+12. Premise: Beginning west of Reid's Hotel is the newest hotel zone, known as the Zona Turista (Tourist Zone). 
+ Hypothesis: The newest hotel zone is called the Zona Turista. [ID: 303543]
+ ##### 
+13. Premise: The highlight of Wild Water Wilderness is Bigfoot Rapids, a whitewater river ride. 
+ Hypothesis: Bigfoot Rapids is a dark track ride. [ID: 136245]
+ ##### 
+14. Premise: This work was soon followed by full life cycle tests using other toxicants and fish species. 
+ Hypothesis: A publication from these findings would change the field forever. [ID: 174479]
+ ##### 
+15. Premise: That's Bradley's real casting couch. 
+ Hypothesis: The casting couch was used by Bradley for years [ID: 186149]
+ ##### 
+16. Premise: yeah yeah i started to say what what's the temperature up there now 
+ Hypothesis: I'm not even interested in knowing the temperature there right now. [ID: 38123]
+ ##### 
+17. Premise: The central fountain depicts Cybele, a controversial Greek fertility goddess, serenely settled in a chariot pulled by two lions. 
+ Hypothesis: The central fountain is a single statue of a mounted soldier. [ID: 388603]
+ ##### 
+18. Premise: Patient driving is always a good idea, but timidity is not helpful in the Paris rush hour. 
+ Hypothesis: It is very helpful to be timid when driving in Paris in rush hour.  [ID: 30569]
+ ##### 
+19. Premise: Study, Interim Report III, Case Study Summaries. 
+ Hypothesis: This is information from various studies (3 to be more specific). [ID: 97191]
+ ##### 
+20. Premise: His billboard-size faces are said to hearken back to Rembrandt and classical court artists. 
+ Hypothesis: His faces are supposed to remind us of classic art. [ID: 75759]
+ ##### 
+21. Premise: it's a a Buick Century 
+ Hypothesis: It is a five year old Buick Century. [ID: 146394]
+ ##### 
+22. Premise: i don't i think i think he's going to move i think he'll probably go he now Larry Johnson is definitely going to the pros 
+ Hypothesis: Larry Johnson is definitely going to the professional league  [ID: 117391]
+ ##### 
+23. Premise: In despair, she slashes her wrists and ends up in a hospital, where she attempts to explain her bond with the killer to a psychiatrist (Stephen Rea, with an incongruous New York accent). 
+ Hypothesis: With a broken heart, she tries to commit suicide, and fails. [ID: 358106]
+ ##### 
+24. Premise: Five, quintuplets. 
+ Hypothesis: Five children were born and only four made it out alive because the fifth baby suffocated in the womb before the C-section was completed.  [ID: 141582]
+ ##### 
+25. Premise: The model highlights the kinds of thinking that agencies should apply, as well as some of the steps they can take, to make progress in managing human capital strategically. 
+ Hypothesis: The model highlights the kinds of thinking that agencies should not apply. [ID: 290581]
+ ##### 
+26. Premise: and uh you also get you know when you see it on the Macintosh with you know the one i have that doesn't have any color you can look at it and that's the way it's going to print out 
+ Hypothesis: I do not have a color printer for my computer. [ID: 329463]
+ ##### 
+27. Premise: In general, reliability growth is the result of an iterative design, build, test, analyze, and fix process. 
+ Hypothesis: Reliability growth happens because of good data collectinoo. [ID: 39061]
+ ##### 
+28. Premise: The last one did it. 
+ Hypothesis: The last person was responsible for doing it. [ID: 90442]
+ ##### 
+29. Premise: Mrs. Vandemeyer was expecting a guest to dinner, and Tuppence accordingly laid the beautifully polished table for two. 
+ Hypothesis: Tuppence was not joining Mrs. Vandemeyer and her guest for dinner. [ID: 370646]
+ ##### 
+30. Premise: Mission San Juan Capistrano, founded in 1776, lies inland near Dana Point. 
+ Hypothesis: Mission San Juan Capistrano was founded in 1990. [ID: 269548]
+ ##### 
+31. Premise: that you can serve over rice 
+ Hypothesis: Put it over the rice. [ID: 313930]
+ ##### 
+32. Premise: However, it is important to recognize that strengthening information security requires a multifaceted approach and sometimes involves issues that are beyond the control of individual businesses and agencies. 
+ Hypothesis: Strengthening information security requires many steps. [ID: 353212]
+ ##### 
+33. Premise: The Commission offered the opportunity to comment on the proposed Report and Order to any interested parties, including small entities. 
+ Hypothesis: The Commission prefers to address large entities before offering comments to small entities. [ID: 347390]
+ ##### 
+34. Premise: The imposing church tower is that of St. George's Anglican Cathedral, seat of the Anglican Archbishop of Jerusalem and of a school and seminary. 
+ Hypothesis: The Archbishop of Jerusalem is seated on St. George's Cathedral. [ID: 37307]
+ ##### 
+35. Premise: In fact, while KYC was dying a very public death it was thriving in the shadows. 
+ Hypothesis: KYC was in perfect health, publicly and privately. [ID: 3811]
+ ##### 
+36. Premise: In the rest of The Bounty , Walcott relinquishes such allusive density for the simple, history-erasing realities of life in the Antilles  the mango trees that serenely rust when they are in flower, the firefly that keeps striking matches. 
+ Hypothesis: Walcott frequently changes style in The Bounty. [ID: 258129]
+ ##### 
+37. Premise: Your best chance to see it is at the Ampang reserve near Kuala Lumpur or at Taman Negara. 
+ Hypothesis: The best places to see it will be New York. [ID: 155887]
+ ##### 
+38. Premise: But the Founding Fathers? Everyone pre-Millennium? They'd been dead for ages. 
+ Hypothesis: The Founding Fathers were great men. [ID: 182688]
+ ##### 
+39. Premise: It was destroyed by fire in a.d. 404 and rebuilt by Theodosius II, then burnt down again in 532. 
+ Hypothesis: It was destroyed by hurricanes both in A.D. 404 and 532. [ID: 221111]
+ ##### 
+40. Premise: but uh i think they still have a little i think they're still such a a young team i think they still have a little bit to go before they reach the potential that it did when ever Bradshaw was playing 
+ Hypothesis: They will reach their potential. [ID: 268920]
+ ##### 
+41. Premise: Spain was admitted to the United Nations in 1955, opening the gates to an overwhelming tourist invasion, which would have profound effects on both the economy and national mentality. 
+ Hypothesis: United Nations membership had no effect on Spain's tourism industry. [ID: 279758]
+ ##### 
+42. Premise: me i rather go Master Mister Gatti's or there's a Godfather's down in uh Memphis and that was a good pizza i've never tasted a better pizza 
+ Hypothesis: I've never had better pizza than at Godfather's in Memphis. [ID: 32543]
+ ##### 
+43. Premise: It took us twenty years to dig our way out of the mountains and the world we found out here was worse than the hell inside. 
+ Hypothesis: It took us two long decades to escape the mountain, and now we'd rather go back than remain in this prison. [ID: 79182]
+ ##### 
+44. Premise: The Edict of Nantes was signed in 1598 to protect the Prot?­es?­tants, and five years later the Jesuits were allowed back into France. 
+ Hypothesis: The document was drafted shortly after a new leader came into power. [ID: 233205]
+ ##### 
+45. Premise: Here you will discover a commanding view of Kobe, Osaka, Awaji Island, and the Inland Sea. 
+ Hypothesis: You can't see anything other than the Pacific Ocean. [ID: 190878]
+ ##### 
+46. Premise: We let ourselves out. 
+ Hypothesis: We opened the gate and let ourselves out. [ID: 59417]
+ ##### 
+47. Premise: so i was i was a real good piano player but then i got interested in a lot of other things and i got real involved in many things and and now i don't have a piano in my apartment or anything i could sit back down and play a few things but not like i used to be able to it's kind of sad that i've let that slip away 
+ Hypothesis: I used to be a great piano player but I can't play I used to. [ID: 36835]
+ ##### 
+48. Premise: oh really what's his name again Peretti 
+ Hypothesis: Did you say that his name is Peretti? [ID: 77258]
+ ##### 
+49. Premise: They are real and they are coming. 
+ Hypothesis: They exist and are on the way. [ID: 10734]
+ ##### 
+50. Premise: For federal programs with legislative or regulatory eligibility criteria, improper payments indicate that agencies are spending more than necessary to meet program goals. 
+ Hypothesis: Improper payments don't show anything of importance. [ID: 365693]
+ ##### 
+51. Premise: No wonder, then, that right-wingers think of PBS as liberal and lefties regard it as a corporate/conservative tool. 
+ Hypothesis: Reality has a known liberal bias and that's why PBS appears so. [ID: 77041]
+ ##### 
+52. Premise: Whittington seemed to be doing all the talking, and the nurse just listened. 
+ Hypothesis: It seemed the nurse was only listening while Whittington spoke [ID: 10793]
+ ##### 
+53. Premise: because because we're so we love our freedom and our freedom of choice 
+ Hypothesis: I'm not sure freedom of choice is all that important and rarely think about it. [ID: 138458]
+ ##### 
+54. Premise: Yet in the summer months Hokkaido's mountains and lake country are mild enough for good camping and hiking. 
+ Hypothesis: Hokkaido's mountains are always too cold for hiking. [ID: 344632]
+ ##### 
+55. Premise: While legal aid is a worthy cause, Nixon doesn't believe the judge has legal authority to give the money to that cause, she said. 
+ Hypothesis: Nixon did consider legal aid to be a good cause. [ID: 337902]
+ ##### 
+56. Premise: Which tradition does John Kennedy belong to? 
+ Hypothesis: I don't believe that John Kennedy belongs to any traditions [ID: 69641]
+ ##### 
+57. Premise: The official climbing season is 1 July to 31 August, although mountain huts at each of the ten stations on the various routes of ascent are open from April to mid-November. 
+ Hypothesis: Climbing during January is not permitted and could lead to a climber receiving a fine.  [ID: 246057]
+ ##### 
+58. Premise: Overgeneralization, compared to actual basis for site selection, number of sites studied, and requirements for inference in the design; inadequate interpretation, unintegrated narrative, results not adequately related to user questions; inadequate attention to threats to impartiality and the extent to which these have been avoided 
+ Hypothesis: There are many ways that the asking of questions and investigation can be flawed. [ID: 364614]
+ ##### 
+59. Premise: The more important concessions, however, were 1) Liggett's admission that the industry had consciously marketed tobacco to minors (which will increase congressional support for stiff regulation of the industry) and 2) its release--temporarily blocked by a North Carolina court--of documents from strategy meetings among lawyers for the five biggest tobacco companies, which industry critics believe will prove a conspiracy of deceit. 
+ Hypothesis: Liggett admitted that tobacco had purposely been marketed to minors. [ID: 27238]
+ ##### 
+60. Premise: or maybe more than that as i've learned  yeah when i bought my RX7 i uh best offer i got for my other car was twenty five hundred well i turned around and sold it myself for forty two hundred so 
+ Hypothesis: I've learned that you can get more for your used car if you sell it yourself. [ID: 173899]
+ ##### 
+61. Premise: Postal Service would experience under a domestic postage-based system, as expected (  table 1, Column 3, Line 7). 
+ Hypothesis: They will experience a domestic postage based system. [ID: 224751]
+ ##### 
+62. Premise: It is not in your possession?  
+ Hypothesis: So you do have it? [ID: 388013]
+ ##### 
+63. Premise: You were? asked Ca'daan. 
+ Hypothesis: Ca'daan asked a question. [ID: 228583]
+ ##### 
+64. Premise: Impeachment is twisting the presidential race, too. 
+ Hypothesis: The presidential race has 4 candidates.  [ID: 273544]
+ ##### 
+65. Premise: Renamed Northwest Texas Legal Aid, its headquarters will be in Arlington. 
+ Hypothesis: The headquarters of Northwest Texas Legal Aid will be in Arlington. [ID: 285221]
+ ##### 
+66. Premise: All the same, I'm not too easy in my mind about him." 
+ Hypothesis: I'm completely at ease about him. [ID: 214212]
+ ##### 
+67. Premise: yeah i because i always hate to see it end in January i'd like to see it go on for a couple of months but football to me uh in real real hot weather it just doesn't uh doesn't click now i enjoy going to baseball games but i don't enjoy watching them on television and i don't enjoy watching basketball on television they're they're both well baseball's so slow 
+ Hypothesis: I hate to see it end in January because I love football so much. [ID: 105368]
+ ##### 
+68. Premise: Take a look around the incongruous pink Taj Mahal shopping mall or Soni's in the center of town. 
+ Hypothesis: Take a look around the congruous pink Taj Mahal shopping mall or Soni's on the edge of town. [ID: 190499]
+ ##### 
+69. Premise: so uh uh it it it is a program that requires uh dads and just and it started out with with fathers and sons 
+ Hypothesis: The program does not need any dads. [ID: 305569]
+ ##### 
+70. Premise: Head for the port and the large waterfront Plaza del Ayuntamiento. 
+ Hypothesis: The grand waterfront is called the Plaza del Ayuntamiento. [ID: 236230]
+ ##### 
+71. Premise: Jon glanced at Adrin and saw his pale face. 
+ Hypothesis: Adrin was in perfectly good health, was tanned by the sun, and was not afraid, so he was not pale. [ID: 93513]
+ ##### 
+72. Premise: that's true or the ones that are are generated by a computer it's just a computer voice that comes on the line those are the ones that i really really hate too 
+ Hypothesis: I really like how some of them are computer generated. [ID: 307633]
+ ##### 
+73. Premise: I didn't go, she replied abruptly.  
+ Hypothesis: She didn't go to the place [ID: 344191]
+ ##### 
+74. Premise: The taste for the grandiose musical spectacle has spread all acrosethe Western world, but the greatest stars and divas need a triumph at La Scala for true consecration. 
+ Hypothesis: Opera is more popular today around the world than ever before in history. [ID: 243037]
+ ##### 
+75. Premise: Decide what you want to see and head for it first, even if it demands that you rush past obvious masterworks. 
+ Hypothesis: You should not rush to see any of the art. [ID: 67473]
+ ##### 
+76. Premise: The NYTBR isn't just agnostic on such questions--it doesn't even like to consider them. 
+ Hypothesis: The NYTBR isn't skeptical about issues like that. [ID: 391941]
+ ##### 
+77. Premise: According to the comment from Representative Berman provided to the Commission, Congress was aware of the presence requirement and intended that the requirement be consistent with the provision of meaningful representation to the H-2A workers under  
+ Hypothesis: Representative Berman is determined to get to the bottom of this. [ID: 132979]
+ ##### 
+78. Premise: I like Julius, essayed Tuppence again. 
+ Hypothesis: "I despise Julius," uttered Tuppence again. [ID: 196580]
+ ##### 
+79. Premise: The Palais des Papes is the resulting combination of feudal fortress and opulent palace. 
+ Hypothesis: Those living in the Palais were afraid of invaders. [ID: 66984]
+ ##### 
+80. Premise: In addition to the great shrines of haute cuisine in and around the city, you should seek out the little bars and cafe and the old-fashioned bistrosehat the Lyonnais call bouchons (after the bunches of straw or foliage that served as a sign for the restaurant). 
+ Hypothesis: There are many little bars in Lyon.  [ID: 354879]
+ ##### 
+81. Premise: Yes. Sir Ernest fairly shot the next question at him.  
+ Hypothesis: Sir Ernest asked him to repeat the question. [ID: 256311]
+ ##### 
+82. Premise: Too many ways it could go wrong.' 
+ Hypothesis: Too many ways our plan to rob the bank will go wrong. [ID: 277800]
+ ##### 
+83. Premise: Information  Computer Hacker Information Available on the Internet (GAO/T-AIMD-96-108, June 5, 1996) 
+ Hypothesis: The internet has computer hacker information. [ID: 350214]
+ ##### 
+84. Premise: i guess uh uh there's a song by that name i guess but it's not new 
+ Hypothesis: There's a song with that title, but it's not new. [ID: 3975]
+ ##### 
+85. Premise: yeah yeah yeah oh really they are not hard are they are they a hard worm 
+ Hypothesis: The worms are hard. [ID: 159095]
+ ##### 
+86. Premise: The walls were mouldy, the furniture cheap. 
+ Hypothesis: The furniture was expensive and well-made. [ID: 227580]
+ ##### 
+87. Premise: Reports IA and IB, Case Studies. 
+ Hypothesis: The two reports IA and IB represent case studies. [ID: 126797]
+ ##### 
+88. Premise: The left wall is allegorical, devoted to the bankers' widely acknowledged virtues, Prudence, Justice, Fortitude, and Temperance, while religious themes invoke their piety on the other walls. 
+ Hypothesis: The bankers' virtues are on the right wall. [ID: 87294]
+ ##### 
+89. Premise: I ignored the mysterious whisperings. 
+ Hypothesis: I listened closely to what they were saying. [ID: 125682]
+ ##### 
+90. Premise: Tuppence went back to her pantry thoughtfully. 
+ Hypothesis: Tueppence was absorbed in thought when she returned the pantry.  [ID: 275565]
+ ##### 
+91. Premise: (Scalia offered a different textualist reading of the Equal Protection Clause, grounding his arch dissent firmly in majoritarianism--The Court has mistaken a Kulturkampf for a fit of spite. 
+ Hypothesis: Scalia drew his conclusion from studying majoritarianism extensively during his college years.  [ID: 118605]
+ ##### 
+92. Premise: yeah well i think Russia is getting to the point where they're they're about to do something to get out of communism i guess i'd would like to see somebody like Yeltsin to get more power i think Gorbachev has about had his day 
+ Hypothesis: This will be good for the world. [ID: 285945]
+ ##### 
+93. Premise: yeah it it obviously is not a DC you know 
+ Hypothesis: It is clearly not a place like DC. [ID: 138409]
+ ##### 
+94. Premise: The information presented should be sufficient to convince the report users to recognize the validity of the findings, the reasonableness of the conclusions, and the benefit of implementing the recommendations. 
+ Hypothesis: The information presented is not enough to convince the report users to see the validity of the findings. [ID: 201828]
+ ##### 
+95. Premise: This monitoring activity provides information on the effectiveness of the control activities implemented and helps oversight and top-level management officials identify areas needing further attention or a shift in focus. 
+ Hypothesis: The monitoring activity offers insights into how effective the implemented control activities are. [ID: 349467]
+ ##### 
+96. Premise: and i just kept that thing on constantly because i was going English language this is wonderful and and they at least i kind of knew what was going on on the other side of the world and trying to keep up with 
+ Hypothesis: I did not concern myself with events on the other side of the world [ID: 41502]
+ ##### 
+97. Premise: The town in turn has honored him with a small museum. 
+ Hypothesis: The town chose to honour him with an enormous museum.  [ID: 229756]
+ ##### 
+98. Premise: His hold had slipped a little. 
+ Hypothesis: His hold tightened. [ID: 151716]
+ ##### 
+99. Premise: The most striking feature of Santo da Serra is its flatness; it may not be in the league of Pa??l da Serra, but it is still large enough to accommodate a 27-hole golf course . 
+ Hypothesis: The many highs and peaks of Santo da Serra are its most striking characteristic. [ID: 12354]
+ ##### 
+100. Premise: The courtyard around the Temple was expanded to accommodate hundreds of thousands of pilgrims, and the Temple Mount was shored up by retaining walls made with great stone blocks. 
+ Hypothesis: The courtyard was expanded to accommodate pilgrims and a fountain was added. [ID: 355853]
+ ##### 
+101. Premise: That is, the Challenger inquiry could be seen as similar to a case study in some ways. 
+ Hypothesis: This inquiry looks similar to a case study for certain aspects, but with a more accurate analysis we can see it's not. [ID: 169787]
+ ##### 
+102. Premise: I met Susan six months ago. 
+ Hypothesis: I have known Susan for a little while. [ID: 376976]
+ ##### 
+103. Premise: You notice the absence of windows, and the thickness of the close-fitting door. 
+ Hypothesis: You see, there are no windows, only a very thick door. [ID: 170458]
+ ##### 
+104. Premise: The doors clicked shut. 
+ Hypothesis: The door closed. [ID: 218864]
+ ##### 
+105. Premise: Looking out of a window onto the panorama of high mountains and wave upon wave of rolling hills, one can imagine the young prince saying to himself This must be my kingdom.  
+ Hypothesis: That window is the only vantage point in the area that offers such a stunning view. [ID: 22324]
+ ##### 
+106. Premise: These examples largely stem from the nature of the public sector in which federal CIOs operate. 
+ Hypothesis: These examples are from the nature of the public sector where CIOs are. [ID: 376233]
+ ##### 
+107. Premise: He/she could strike them broadly from behind, and the moment they turned around to retaliate... It was a slaughter. 
+ Hypothesis: They were hitting people from behind, the moment people retaliated it was carnage.  [ID: 324714]
+ ##### 
+108. Premise: Most often the title is usedAuthority (SSA) when the selection process is formal and the official is other than the Contracting Officer. 
+ Hypothesis: Sometimes the selection is formal and the official is the Contracting Officer. [ID: 346402]
+ ##### 
+109. Premise: America has always had a spiritual self-help literature that reconciles redemption with resume-building. 
+ Hypothesis: Americans read self-help literature. [ID: 201526]
+ ##### 
+110. Premise: The cover story asserts that Dan Quayle is a seasoned, ideologically consistent, genuinely religious candidate who could restitch the Reagan coalition of economic and social conservatives. 
+ Hypothesis: The impact of Dan Quayle's candidature inspired the people. [ID: 82893]
+ ##### 
+111. Premise: and of course we were involved with an attorney and were able to stop that before it got off the ground and so the some of the homes on that side of the street are a little bit smaller but they were 
+ Hypothesis: We couldn't afford an attorney at the time so we were affected by that. [ID: 279273]
+ ##### 
+112. Premise: Above all, the story of the co-op tells you that economic slumps are not punishments for our sins, pains that we are fated to suffer. 
+ Hypothesis: Economic slumps have happened more frequently over the years. [ID: 275862]
+ ##### 
+113. Premise: The pagoda-like structure, built in 1885, is 251.2 m (84 ft) tall and was once used for water storage. 
+ Hypothesis: This structure was used for water storage and looks like a pagoda. [ID: 123774]
+ ##### 
+114. Premise: One of the boys, the smallest, smiled at Susan. 
+ Hypothesis: A boy thought that Susan was pretty. [ID: 261327]
+ ##### 
+115. Premise: What could have caused Cassidy to suspend his critical faculties? 
+ Hypothesis: Why do you think Cassidy suspended her husband's critical faculties?  [ID: 281440]
+ ##### 
+116. Premise: While court officials are concerned about the findings, their assistance can only go so far, said Winnie Comfort, a spokeswoman for the Administrative Office of the Courts. 
+ Hypothesis: Court officials are able to decide if a law stands but cannot always be sure they are right. [ID: 44687]
+ ##### 
+117. Premise: As his ideas grew familiar and then stale, he found no way to complicate them, develop them, or move on to something else. 
+ Hypothesis: He didn't know how to do anything with his idea.s [ID: 23264]
+ ##### 
+118. Premise: Where's she off to?" Almost unconsciously, he held out his hand for the letter, but Julius folded it up and placed it in his pocket. 
+ Hypothesis: He wasn't interested in where she went and Julius gave him the letter when he asked. [ID: 58362]
+ ##### 
+119. Premise: , prefabrication and jacking up components). 
+ Hypothesis: "Jacking up components", is a slang reference used among sentient robots when speaking of violence. [ID: 152689]
+ ##### 
+120. Premise: Among the stops to consider are Bourges, Limoges, and Uzerche. 
+ Hypothesis: Bourges, Limoges, and Uzerche have attractions that are popular with many tourists. [ID: 358758]
+ ##### 
+121. Premise: Sole practitioner Carolyn Elefant, frustrated that 
+ Hypothesis: There are no practitioners besides Carolyn Elefant. [ID: 261322]
+ ##### 
+122. Premise: Psychoactive substance use disorders among seriously injured trauma center patients. 
+ Hypothesis: Patients avoid using psychoactive medications.  [ID: 240747]
+ ##### 
+123. Premise: At Waterloo." 
+ Hypothesis: Arrived half dead at Waterloo. [ID: 196268]
+ ##### 
+124. Premise: Revaluation of capitalized property, plant, and equipment. 
+ Hypothesis: Capitalized property can be revaluated every month. [ID: 196198]
+ ##### 
+125. Premise: ( avoid playing a double-zero wheel and search for those with only one zero. ) 
+ Hypothesis: Don't play a wheel with double zero. [ID: 288797]
+ ##### 
+126. Premise: As it happens, there's no evidence at all that Fieldcrest Cannon is contemplating moving manufacturing abroad, or outsourcing. 
+ Hypothesis: Fieldcrest has discussed outsourcing, but only in secret. [ID: 356960]
+ ##### 
+127. Premise: Jamaica thereafter became an island of strategic importance for the British, who based a large naval fleet at Fort Charles in Port Royal. 
+ Hypothesis: Jamaica was important to the British because the British held a big naval fleet at Port Royal. [ID: 364607]
+ ##### 
+128. Premise: is his office in Plano 
+ Hypothesis: His office is in Plano. [ID: 354598]
+ ##### 
+129. Premise: Inevitably the mayors of Nashville and St. Louis will wager well-known local products on the big game. 
+ Hypothesis: The mayor's for Nashville and St. Louis will wager products from other countries and money on the big game. [ID: 65158]
+ ##### 
+130. Premise: Recognizing this trap, Clinton instructed his aides not to gloat. 
+ Hypothesis: Clinton saw what they were trying to do and prepared his staff. [ID: 289591]
+ ##### 
+131. Premise: Chief Financial Officers (CFO) Act of 1990 (Public Law 101-576) provides a framework for improving federal government financial systems. 
+ Hypothesis: The legal framework provided by the CFO Act 1990 is the first of its kind concerning federal government financial systems. [ID: 16150]
+ ##### 
+132. Premise: After touring the dusty hot archaeological sites of the Nile Valley, or tramping the noisy streets of Cairo, the Red Sea coast makes a welcome contrast. 
+ Hypothesis: The Nile Valley doesn't contain any archaeological sites. [ID: 19443]
+ ##### 
+133. Premise: and now we're looking at serious i i mean i'm a technician when they start getting rid of technicians 
+ Hypothesis: It was very serious when they were laying off technicians.   [ID: 25722]
+ ##### 
+134. Premise: Ramses II did not build it from stone but had it hewn into the cliffs of the Nile valley at a spot that stands only 7 km (4 miles) from the Sudan border, in the ancient land of Nubia. 
+ Hypothesis: It was hewn into the cliff-side of the Nile valley rather than being built from stone. [ID: 101110]
+ ##### 
+135. Premise: The process iterates, bringing more and more investors aboard, until someone gets spooked about finding a speculating skeptic or an idiotic optimist who will continue the game. 
+ Hypothesis: It would involve having more foreign capital. [ID: 188048]
+ ##### 
+136. Premise: LOS ANGELES - As an undergraduate at Cornell University, Laurie D. Zelon monitored campus demonstrations. 
+ Hypothesis: Laurie D. Zelon was a student at Cornell University.  [ID: 58066]
+ ##### 
+137. Premise: Didn't I take the hide off your back twice already? 
+ Hypothesis: Did I not give you a back massage already? [ID: 289961]
+ ##### 
+138. Premise: that's probably the safer way because i notice in aerobics um lot of the women that that don't look like they shouldn't be doing certain things 
+ Hypothesis: in aerobics, many women who look like they're perfectly capable of doing certain things [ID: 383261]
+ ##### 
+139. Premise: In 122 a.d. the Emperor Hadrian visited Britain and ordered that a defensive wall be built from coast to coast acrosethis territory. 
+ Hypothesis: The defensive wall of Britain was built because the Emperor decided it. [ID: 295802]
+ ##### 
+140. Premise: Opposite, in the City de la Musique are the Musee de la Musique and a giant concert hall, the Z??nith. 
+ Hypothesis: The City is opposite the giant concert hall. [ID: 357503]
+ ##### 
+141. Premise: This is the home of fine Edinburgh crystal, one of the most recognizable and beautiful souvenirs of a stay in the city. 
+ Hypothesis: The Edinburgh crystal is a jade traded from the East thousands of years ago. [ID: 310212]
+ ##### 
+142. Premise: the only gripe i have is performance i i probably uh a few girls that i've gone out with i've had uh like Mazda RX seven's and stuff and they're they're pretty fun to drive so 
+ Hypothesis: The Mazda RX 7 is pretty fun to drive. [ID: 246224]
+ ##### 
+143. Premise: This old pineapple plantation had fallen into decline before being transformed into the first (and many still say the best) resort hotel on the island. 
+ Hypothesis: The pineapple plantation was transformed into a resort hotel.  [ID: 142914]
+ ##### 
+144. Premise: The villager cried out and lunged but the small man twisted out of the way. 
+ Hypothesis: The guy yelled. [ID: 141895]
+ ##### 
+145. Premise: The terms financial reports and consolidated financial reports are used to refer to a document which would include the financial statements but which would also include items such  a management discussion and analysis section, a statement of program performance measures, required supplemental information or required supplementary stewardship information not included in the financial statements or other supplemental financial and management information. 
+ Hypothesis: Financial and consolidated reports contain only tax information. [ID: 11443]
+ ##### 
+146. Premise: Should we be boycotting multimedia sites that make even my fractional T3 connection choke? 
+ Hypothesis: Boycotting multimedia sites that choke our T3 connections will benefit the community. [ID: 4433]
+ ##### 
+147. Premise: Each floor is supported on columns diminishing from 84 at ground-level to four on the roof. 
+ Hypothesis: The columns were an integral part of the floors. [ID: 26340]
+ ##### 
+148. Premise: Many carvings of Hatshepsut at the temple have been defaced. 
+ Hypothesis: The temple contains many carvings of Hatshepsut. [ID: 302564]
+ ##### 
+149. Premise: Although many passenger lines have gone out of use as the railroad declined in importance, one line in particular has been kept in operation, primarily because it travels through some of the most beautiful countryside in Britain. 
+ Hypothesis: The railroad suffered because the car industry advanced and took its place. [ID: 17638]
+ ##### 
+150. Premise: They could feel that the cost of the worksharing is small and that they receive an improvement in service. 
+ Hypothesis: They feel the cost is high. [ID: 373860]
+ ##### 
+151. Premise: Car rental is quite expensive, and, with congested traffic and parking problems, is not a good choice within the city, though you may wish to use a car to explore places in the environs (see Day Trips from Dublin on pages 66 78). 
+ Hypothesis: Ample parking and lack of traffic make car rentals a great choice. [ID: 208712]
+ ##### 
+152. Premise: Enter broadband cable, at least under the architecture initially proposed by ATandT. 
+ Hypothesis: AT&T did not ever produce broadband cable. [ID: 58361]
+ ##### 
+153. Premise: The finds are mainly tomb artifacts found at sites across the country and you can view the exact re-creation of a funerary chamber found at Dahshur to familiarize yourself with what you will see later in your vacation along the Nile Valley in Upper Egypt. 
+ Hypothesis: This exact re-creation is one of the most famed displays of its kind among enthusiasts of the subject. [ID: 363080]
+ ##### 
+154. Premise: He was in that sinister house in Soho. 
+ Hypothesis: He was the only person in that haunted house in Soho. [ID: 185937]
+ ##### 
+155. Premise: There seemed to be a never-ending set of obstacles, said Patrick Pleas, an attorney with Northwest Justice Project.  
+ Hypothesis: There was a never-ending set of obstacles. [ID: 108511]
+ ##### 
+156. Premise: In retrospect, Clinton appears to have shrewdly pitted the Ickes group against Morris as an exercise in the management style FDR called creative tension. 
+ Hypothesis: Franklin Roosevelt never used the term 'creative tension'. [ID: 69770]
+ ##### 
+157. Premise: By then you'll be more than ready to sample some heady Arbois wine ' try the vin jaune with a chunk of Comt?? cheese. 
+ Hypothesis: You should be ready to sample some Arbois wine and try Comte cheese. [ID: 19594]
+ ##### 
+158. Premise: I think this is her greatest achievement--Petronius meets Marcus Aurelius in mid-century New York--but it is best appreciated after some immersion in her life and work. 
+ Hypothesis: You will appreciate her greatest achievement after studying her life and work. [ID: 3148]
+ ##### 
+159. Premise: no i've got a i've got a Texan wife and three Texan children 
+ Hypothesis: My family includes three children and my wife, who are all Texan. [ID: 233710]
+ ##### 
+160. Premise: The disposition of property to an entity outside the Federal Government is also accounted for. 
+ Hypothesis: The entity that the property is being disposed to must be a state or local government. [ID: 304964]
+ ##### 
+161. Premise: The 20th century saw a stupendous release of energies that had been pent up for the 250 years of Tokugawa isolation. 
+ Hypothesis: The Tokugawa isolation lasted for more than two centuries. [ID: 212619]
+ ##### 
+162. Premise: Wolf did. 
+ Hypothesis: Wolf did tell us everything. [ID: 186719]
+ ##### 
+163. Premise: Johnny Shannon just rode in to report. 
+ Hypothesis: Johnny Shannon came to tell everyone about it. [ID: 19927]
+ ##### 
+164. Premise: i don't yeah i well i see i think some people wanting to stay home more and take care of the children uh and even those who may not do it seem to be 
+ Hypothesis: Some people do want to stay home and care for the children.  [ID: 282967]
+ ##### 
+165. Premise: Others may prefer to stay ashore in the cafe, shops, and galleries around the Place de la Com??die, a main center of city life. 
+ Hypothesis: The best shops are the ones that serve native foods. [ID: 325104]
+ ##### 
+166. Premise: Through comprehensive revisions to its charter, processes, organization and systems, Pfizer has reduced the cost associated with transaction processing activities by up to 50 percent in certain functions and shifted its focus to activities that directly support Pfizer's business objectives. 
+ Hypothesis: They were not able to reduce their costs. [ID: 379665]
+ ##### 
+167. Premise: I invite you to compare Reich's account with reality by clicking . 
+ Hypothesis: Reich owns an account of some kind of form.  [ID: 263559]
+ ##### 
+168. Premise: These protocols are not applicable to the work GAO conducts in support of its legal opinions and decisions. 
+ Hypothesis: GAO is often wrong in the legal opinions it supports. [ID: 370574]
+ ##### 
+169. Premise: but uh i guess that's about it you know as far as what goes on that i know about 
+ Hypothesis: I guess that's all there is. [ID: 159812]
+ ##### 
+170. Premise: well my husband has to have a has to drive a pick up so that's so he has his he has a pickup 
+ Hypothesis: My husband has no need for a pickup. [ID: 203918]
+ ##### 
+171. Premise: Yet just because we've failed to think clearly about what character involves doesn't mean we should cease to think about it. 
+ Hypothesis: Not knowing clearly what character involves does not mean we should stop thinking about it. [ID: 236108]
+ ##### 
+172. Premise: For the tourist, the olive, fig, and almond trees are objects of beauty and colour; for the farmer, they're cash crops. 
+ Hypothesis: Tourists find fig, almond, and olive trees a eyesore. [ID: 3262]
+ ##### 
+173. Premise: He seemed to fluctuate between bitter sureness of doom and a stupidly optimistic belief that something could be done to avert that doom. 
+ Hypothesis: He was not sure about their ultimate fate. [ID: 124927]
+ ##### 
+174. Premise: An average restaurant, offering a variety of typically Turkish food and drink, freshly prepared, is called a lokanta or restoran, and may or may not be licensed. 
+ Hypothesis: Most traditional Turkish restaurants serve freshly prepared foods with no preservatives. [ID: 60091]
+ ##### 
+175. Premise: yes i do i think it's uh something that unfortunately uh at this stage of the game i would hope that at some point we would become you know civilized enough where we could do away with it but as of right now and the way things are i think it's uh something we just have to have 
+ Hypothesis: If the situation changed then we could get rid of it [ID: 205221]
+ ##### 
+176. Premise:  In each of the six partnerships that we reviewed, the agency built the expertise to engage in the partnership and make it successful. 
+ Hypothesis: The agency wanted to engage the partnership and make it successful. [ID: 99093]
+ ##### 
+177. Premise: Koontz uh his last name ends in a Z i know that 
+ Hypothesis: The last letter of Koontz's name is Z. [ID: 131113]
+ ##### 
+178. Premise: Los Angeles has many different sides, which means you're in for the ideal vacation whether you're a tranquil beach-loving type, a city slicker, a born shopper, a celebrity chaser, or simply a pleasure-seeker who goes with the flow. 
+ Hypothesis: Los Angeles is unsuitable for beach-lovers. [ID: 309304]
+ ##### 
+179. Premise: You will notice beside each shrine an area of open ground on which the new shrine is to be erected in 2013 in identical form. 
+ Hypothesis: Placing new shrines there is an annual event. [ID: 332963]
+ ##### 
+180. Premise: but uh that gets old too in a very short order i'm i'm hoping that this uh solo flex will uh 
+ Hypothesis: That never gets old. [ID: 339550]
+ ##### 
+181. Premise: Ask about such discounts when booking. 
+ Hypothesis: These discounts are sometimes only offered to customers that ask. [ID: 242710]
+ ##### 
+182. Premise: I ain't got th' authority to hire, Kirby. 
+ Hypothesis: I am not able to make hiring decisions. [ID: 262474]
+ ##### 
+183. Premise: Major Management Challenges and Program Risks (GAO/OCG-99-SET, January 1999). 
+ Hypothesis: There are no major management challenges to speak of. [ID: 391421]
+ ##### 
+184. Premise: Pending implementation of the State Planning Evaluation Instrument, LSC responded to and engaged state justice communities around the self-evaluations reports they sent in pursuant to Program Letter 2000-07. 
+ Hypothesis: The State Planning Evaluation Instrument is a pending implementation. [ID: 290662]
+ ##### 
+185. Premise: anyway uh being in Rochester you probably like the Mets 
+ Hypothesis: You must like the Mets since you love in Rochester. [ID: 261658]
+ ##### 
+186. Premise: As a party cry for Labour it would be irresistible, and a Labour Government at this juncture would, in my opinion, be a grave disability for British trade, but that is a mere nothing to the REAL danger." He paused, and then said quietly: "You may perhaps have heard or read that there is Bolshevist influence at work behind the present Labour unrest?" Tuppence nodded. 
+ Hypothesis: Tuppence has heard that Bolsheviks may be influencing the Labour unrest. [ID: 266874]
+ ##### 
+187. Premise: A tough-talk piece by Madeleine Albright in Newsweek makes the case for expanding the budget for international affairs. 
+ Hypothesis: Alrbright said the budget should shrink. [ID: 75097]
+ ##### 
+188. Premise: Carved out of the western sixth of the Iberian peninsula, the country is quite easy to get around. 
+ Hypothesis: It is nearly impossible to navigate around the country. [ID: 152725]
+ ##### 
+189. Premise: Her cry brought the others. 
+ Hypothesis: The others ran into the room.  [ID: 267838]
+ ##### 
+190. Premise: large as a grown man's thigh 
+ Hypothesis: A grown man's thigh is as large as this. [ID: 143554]
+ ##### 
+191. Premise: We did it with the help of the Board and the other staff at LSC. 
+ Hypothesis: The Board did not assist us in any way. [ID: 350989]
+ ##### 
+192. Premise: Were they simply tombs for pharaohs, or astronomical markers to aid the quantifying of time; were they built to concentrate a natural energy source, or were they not built by humans at all, a sign that an alien intelligence visited the earth many thousands of years ago? 
+ Hypothesis: The pyramids are not real, the imaginary constructions can be seen only in movies. [ID: 253149]
+ ##### 
+193. Premise: Why Tommy? 
+ Hypothesis: Why did this happen to Tommy? [ID: 222962]
+ ##### 
+194. Premise: What if he strikes first?' 
+ Hypothesis: What if he hits me before I hit him? [ID: 57947]
+ ##### 
+195. Premise: and at that point i try at least try to get through most most the front section and maybe you know one or two other sections 
+ Hypothesis: I try to get through at least a section of the book. [ID: 287086]
+ ##### 
+196. Premise: They would put leeches on her that they fed off of strange mushrooms to control what is left of her mind. 
+ Hypothesis: They would use leeches to control what is left of her mind. [ID: 376834]
+ ##### 
+197. Premise: Scores of tiny islands dot the bay, their white sandstone shaped by the elements into arches, caves, and pyramids and covered with lovely, wispy sea pines. 
+ Hypothesis: Scattered around the bay lie many tiny islands of white sandstone. [ID: 153047]
+ ##### 
+198. Premise: well me too i uh i think we both agree there's some problems there but 
+ Hypothesis: The problems have to do with money. [ID: 164706]
+ ##### 
+199. Premise: New Zealand and the United Kingdom held their program managers accountable for efficiently providing specific goods and services. 
+ Hypothesis: New Zealand were the ones to firstly initiate their program managers accountability program. [ID: 248766]
+ ##### 
+200. Premise: Like all revisionist historians, Lucas cheats like mad. 
+ Hypothesis: Traditional historians are honest. [ID: 272059]
+ ##### 
+201. Premise: They also gained control of most of their manufacturing processes and demonstrated that the products were reliable before entering production. 
+ Hypothesis: The manufacturing was controlled and demonstrated to be reliable before entering production. [ID: 237465]
+ ##### 
+202. Premise: Tax Systems  Actions Underway But IRS Has Not Yet Corrected Management and Technical Weaknesses (GAO/AIMD-96-106, June 7, 1996) 
+ Hypothesis: The IRS is working to correct issues. [ID: 293223]
+ ##### 
+203. Premise: I'd like to see how much Pa pushed into m' thick head. 
+ Hypothesis: I want to know how much Pa has put into my head. [ID: 10042]
+ ##### 
+204. Premise: Republican strategists will make Democrats carry that burden into the elections. 
+ Hypothesis: The Democrats will be pushing that burden onto the Republicans. [ID: 230398]
+ ##### 
+205. Premise: The Sercial grape, used to produce the driest style of Madeira, is named for this pretty coastal village that is the center of a wine-growing district. 
+ Hypothesis: The Sercial grape is too bitter to be used in any kind of Madeira. [ID: 189076]
+ ##### 
+206. Premise: yes and that's to me there's something wrong there you know 
+ Hypothesis: There's something wrong with that.  [ID: 82963]
+ ##### 
+207. Premise: Prosperity is in the air; the roar of the  Celtic Tiger  can clearly be heard. 
+ Hypothesis: The roar of the Celtic Tiger is loud. [ID: 360233]
+ ##### 
+208. Premise: The next minute Number 14's hands, horribly dexterous, were winding the cord round his limbs, while Conrad held him down. 
+ Hypothesis: Number 14 was held down without effort. [ID: 44450]
+ ##### 
+209. Premise: but you couldn't tell there was a problem 
+ Hypothesis: The problem was on the inside. [ID: 42453]
+ ##### 
+210. Premise: There was a short pause. 
+ Hypothesis: They paused breifly. [ID: 286964]
+ ##### 
+211. Premise: workout as much but jazzercise is what it's it's so much fun that you forget you're exercising you know aerobics you don't forget 
+ Hypothesis: Aerobics and other workouts don't let you forget you are working out! [ID: 336584]
+ ##### 
+212. Premise: but they're easy to use 
+ Hypothesis: They're difficult to use. [ID: 80764]
+ ##### 
+213. Premise: wow does she like to sit on top of whatever you're reading and things like that 
+ Hypothesis: Does she sit on other things you are doing too. I guess she is looking for attention. [ID: 171859]
+ ##### 
+214. Premise: The two regions were united at the time of the 19th-century Risorgimento, with Emilia following the Apennines from Bologna to Piacenza, while Romagna covers the eastern area of Ravenna and the Adriatic resorts around Rimini down to Cattolica. 
+ Hypothesis: Emilia is much smaller in size than Romagna. [ID: 362992]
+ ##### 
+215. Premise: Christian Coalition head Pat Robertson described himself in resumes and a published autobiography as a Marine officer assigned to combat duty during the Korean War. 
+ Hypothesis: Pat Robertson has never published an autobiography. [ID: 367009]
+ ##### 
+216. Premise: I will put aside Cohen's bizarre dreams of violence for a moment to address the idea that the memory of Jewish gangsters has been suppressed, which, of course, is not the case. 
+ Hypothesis: Jewish gangsters have not been suppressed through Cohen's dreams.  [ID: 333380]
+ ##### 
+217. Premise: The choir and chancel do not stand on the island's granite core but on a platform formed by three crypts, with the massive columns of the Crypte des Groseiliers doing most of the work. 
+ Hypothesis: There are three crypts that form a platform, upon which the choir and chancel are set. [ID: 36929]
+ ##### 
+218. Premise: The specific key conditions and strategies described in this guide can be used as suggestions for federal CIOs to apply or adapt to their environments, as appropriate. 
+ Hypothesis: The specific key conditions the guide describes are good for federal CIOs because they are very flexible. [ID: 252308]
+ ##### 
+219. Premise: Courts have rules that clients don't always understand. 
+ Hypothesis: Courts have rules that can be hard to understand. [ID: 19734]
+ ##### 
+220. Premise: Since Hong Kong is a duty-free port and charges no sales tax, goods are cheaper here than in the country where they were made. 
+ Hypothesis: Goods in Hong Kong are less expensive than in their country of production, and this is because of the tax situation there. [ID: 66487]
+ ##### 
+221. Premise: In the old Synod Hall just across the road from the cathedral (linked to it by a bridge) you will find Dublinia, a rather touristy sight-and-sound re-creation (in five languages) of Dublin in medieval times; tableaux of medieval craftsmen and characters cover events in the city from the Anglo-Norman invasion (1170) to the dissolution of the monasteries (1540). 
+ Hypothesis: Dublinia is a recreation of Dublin from medieval times. [ID: 123159]
+ ##### 
+222. Premise: To them, the women represent the danger and disorder that must be expunged if the town is to survive. 
+ Hypothesis: They believe that the women will be harmful to the town. [ID: 362645]
+ ##### 
+223. Premise: really so is it just women that go there 
+ Hypothesis: Men are the only ones who go there. [ID: 62751]
+ ##### 
+224. Premise: Researchers from fieldwork traditions would have argued that they could provide the most useful information by spending some time at the site of the training program, trying to understand what the program meant to those who were involved in it, and reporting on what was happening from the perspective of those who were making it happen. 
+ Hypothesis: They could provide the most useful information, researchers from fieldwork traditions would have argued. [ID: 39989]
+ ##### 
+225. Premise: Stark drew his golden short sword and impaled San'doro on it. 
+ Hypothesis: San'doro was merely nicked by the long sword. [ID: 250583]
+ ##### 
+226. Premise: Had him an outpost right on th' edge o' th' Range. 
+ Hypothesis: There was an outpost on the right side of the Range. [ID: 230884]
+ ##### 
+227. Premise: In doing so, they partly absolved slavery. 
+ Hypothesis: They helped enslave even more peoples' lives thanks to their actions. [ID: 322912]
+ ##### 
+228. Premise: During the 51-week period between June 2000 and May 2001, 250 individuals came through intake in Fort Collins. 
+ Hypothesis: From June 2000 to May 2001, there were no individuals coming through intake.  [ID: 293196]
+ ##### 
+229. Premise: uh it's fairly sheltered waters right there and uh you don't need any fancy navigation equipment because you can see all your destinations from one spot 
+ Hypothesis: There is no need for navigation equipment as you can see all destinations from one spot. [ID: 366952]
+ ##### 
+230. Premise: Rivera pointed out that helping clients, many of whom are not native English speakers, becomes problematic as demands increase and funding to the Legal Services Corp. remains stagnant. 
+ Hypothesis: Rivera thinks there needs to be an increase in funding. [ID: 64599]
+ ##### 
+231. Premise: What do you want?  
+ Hypothesis: Is there anything you wanted? [ID: 236835]
+ ##### 
+232. Premise: After the dive, Greenspan was universally lauded for putting a happy face on the market in congressional testimony. 
+ Hypothesis: Greenspan gave pessimistic comments. [ID: 378342]
+ ##### 
+233. Premise: Gross domestic product is not a measure of the nation's economic well-being--so declares the textbook as soon as it introduces the concept. 
+ Hypothesis: The book goes not to give reasons why GDP is a misleading economic term. [ID: 355559]
+ ##### 
+234. Premise: i just couldn't watch that much TV 
+ Hypothesis: I could watch TV all day if I wanted to [ID: 178956]
+ ##### 
+235. Premise: If there is a good reason, it has to do with our final question. 
+ Hypothesis: They wanted to know the truth. [ID: 156195]
+ ##### 
+236. Premise: I shall tell them to pick out their brightest and best." But the course of events was not to follow the plan Julius had laid down. 
+ Hypothesis: Things did not go according to Julius's plan.   [ID: 344114]
+ ##### 
+237. Premise: okay i'm a meat and potato man  yeah 
+ Hypothesis: I am a vegetarian. [ID: 75054]
+ ##### 
+238. Premise: The Merchant struggled violently and, of course, quite futilely. 
+ Hypothesis: The Merchant had no hope of winning. [ID: 10555]
+ ##### 
+239. Premise: Ca'daan waited until the rest of the afternoon for the man to come back out. 
+ Hypothesis: He waited for the other man to return. [ID: 160335]
+ ##### 
+240. Premise: The gardens were opened to the public in 1991. 
+ Hypothesis: The year that the gardens opened for the public was 1991.  [ID: 206893]
+ ##### 
+241. Premise: Such access generally includes the ability to make and retain copies of the evidence. 
+ Hypothesis: Copies of evidence should never be removed from the archives. [ID: 223079]
+ ##### 
+242. Premise: [L]ike Beckett written for soap opera, says Lyons; its sometimes poetic, sometimes pseudo-poetic, and intermittently flat prose seems a pale imitation of, alternately, Eugene O'Neill, James Joyce, Hugh Leonard, Brian Friel, and Shakespeare, says Simon. 
+ Hypothesis: It is like Beckett written for soap operas according to Lyons. [ID: 153502]
+ ##### 
+243. Premise: The Nazi flag of the opening scene has become a Tibetan one, which they place on the summit. 
+ Hypothesis: The opening scene features a Nazi flag that is turned into a Tibetan one. [ID: 352776]
+ ##### 
+244. Premise: huh well that's pretty neat 
+ Hypothesis: That is horrible. [ID: 162166]
+ ##### 
+245. Premise: the knife was very sharp and Ca'daan's skin crawled at the sound of it shaving the man's head. 
+ Hypothesis: The sound of the knife made Ca'daan very comfortable.  [ID: 319553]
+ ##### 
+246. Premise: But he talks about it reluctantly. 
+ Hypothesis: He does like to talk about it because he has good memories connected to it. [ID: 351445]
+ ##### 
+247. Premise: Reliability improves over time with design changes or manufacturing process improvements. 
+ Hypothesis: With the help of design changes or manufacturing process improvements, reliability improves over time. [ID: 152374]
+ ##### 
+248. Premise: Southeast of Puerta del Sol is Plaza Santa Ana and the Huertas district, both of which are chock full of restaurants, tascas and tapas bars, theaters, and live music and flamenco clubs. 
+ Hypothesis: Both the Plaza Santa Ana and the Huertas district are full of culture. [ID: 368104]
+ ##### 
+249. Premise: oh that's too bad see how one one place one person can make a big difference on whether you go back to the place again 
+ Hypothesis: That's great, good thing one person doesn't decide whether you go back or not.  [ID: 226780]
+ ##### 
+250. Premise: It is not our society. 
+ Hypothesis: The foreign lands which dictate their own way of living is not our society. [ID: 205383]
+ ##### 
+251. Premise:  "Saw that one, too. 
+ Hypothesis: Saw that one also. [ID: 251186]
+ ##### 
+252. Premise: all right Ron we'll see you later all right bye-bye 
+ Hypothesis: I hope we never see you again Ron. [ID: 241822]
+ ##### 
+253. Premise: With poverty and unemployment rising along with foreign debt, and Islamic fundamentalists spurning negotiation and resorting to violence, Hosny Mubarak, the nation's president since 1980, has enormous problems to solve. 
+ Hypothesis: Everything is perfect for the nation's president. [ID: 113476]
+ ##### 
+254. Premise: Also in attendance were representatives from the Puerto Rico, Guam and Virgin Islands programs. 
+ Hypothesis: Representatives from the Puerto Rico, Guam, and Virgin Islands programs attended. [ID: 356180]
+ ##### 
+255. Premise: His is exactly the approach of every celebrity journalist to his subject. 
+ Hypothesis: His style and approach varies often compared to his colleagues. [ID: 110155]
+ ##### 
+256. Premise: Although many factors contribute to these weaknesses, audits by GAO and Inspectors General have found that an underlying cause is poor security program management. 
+ Hypothesis: Poor security and program management are the biggest factors in the weaknesses. [ID: 106947]
+ ##### 
+257. Premise: The Kal's performance in the fight seemed to change Adrin's impression of Fena Kef's pit fights. 
+ Hypothesis: Adrin thought the Kal's were much tougher after seeing them fight. [ID: 239790]
+ ##### 
+258. Premise: A high priority of the CIO Council is to ensure the implementation of security practices within the Federal government that gain public confidence and protect government services, privacy, and sensitive and national security information. 
+ Hypothesis: The CIO Council is unconcerned with national security information. [ID: 240357]
+ ##### 
+259. Premise: i'm getting a Master's in computer science and computer engineering 
+ Hypothesis: My Master's is going to be in computer engineering and computer science. [ID: 79046]
+ ##### 
+260. Premise: The Citigroup deal, from beginning to end, took less than five weeks. 
+ Hypothesis: The Citigroup deal involved millions of dollars, [ID: 197656]
+ ##### 
+261. Premise: There are lots of things I want to ask you, Annette. 
+ Hypothesis: I have questions for you, Anette. [ID: 209254]
+ ##### 
+262. Premise: Whichever way you decide, good luck to you. 
+ Hypothesis: I wish you bad look.  [ID: 204477]
+ ##### 
+263. Premise: No matter how well designed and operated, internal control cannot provide absolute assurance that all agency objectives will be met. 
+ Hypothesis: Internal controls can guarantee that an agency will meet all their objectives. [ID: 110359]
+ ##### 
+264. Premise: Fancy you a menial. 
+ Hypothesis: You seem to not like to work hard.  [ID: 112269]
+ ##### 
+265. Premise: The disposition of the revenue from forfeiture is determined by law. 
+ Hypothesis: There are laws that describe the proper disposition of revenue from forfeitures. [ID: 69200]
+ ##### 
+266. Premise: His forces made a series of attacks from their bases in the Dodecanese islands, including sinking a Greek naval vessel in the harbor of Tinos Town, but they only succeeded in strengthening the resolve of the population against them. 
+ Hypothesis: They attacked from their bases in the Greek Islands. [ID: 165186]
+ ##### 
+267. Premise: The place was almost deserted. 
+ Hypothesis: That place was bustling with people. [ID: 121698]
+ ##### 
+268. Premise: yeah a couple of generations of you know being around people and boy there's nothing left of them as far as wildness goes 
+ Hypothesis: The generations didn't want to be remembered in the present time. [ID: 188482]
+ ##### 
+269. Premise: Th' stinkin' polecat of a Reb was gonna draw on you! 
+ Hypothesis: Reb is going to draw him soon. [ID: 270071]
+ ##### 
+270. Premise: 'You didn't give me long to work, J,' She said, scratching her head. 
+ Hypothesis: She said she needed another week to finish. [ID: 75681]
+ ##### 
+271. Premise: he'd be lucky if he can get an assistant uh job someplace 
+ Hypothesis: He'd be lucky to get a job as an assistant principal.  [ID: 303723]
+ ##### 
+272. Premise: If it is closed, you can still sample the wine in either of the village's two restaurant-bars. 
+ Hypothesis: The restaurants are very busy and it's hard to get a table. [ID: 331261]
+ ##### 
+273. Premise: Logically, if emissions continue at the same level, or increase, pollution problems will mirror that trend. 
+ Hypothesis: Pollution problems will mirror that trend if emissions increase.  [ID: 222646]
+ ##### 
+274. Premise: I will not let you die here because of those people, said San'doro. 
+ Hypothesis: Those people have their swords out to kill you. [ID: 309705]
+ ##### 
+275. Premise: Nonetheless, swimming after dusk is not advisable. 
+ Hypothesis: However, many people have drowned while swimming after dark. [ID: 87669]
+ ##### 
+276. Premise: Although Israel is only now 50 years old, the roots of its three prime religious faiths (Juda?­ism, Islam, and Christianity) stretch back over many millennia, and some of its ancient settlements are amongst the oldest on earth. 
+ Hypothesis: Israel is a relatively new country. [ID: 158331]
+ ##### 
+277. Premise: We identified candidate organizations for our study based on awards and recognition from professional organizations and publications over the past several years. 
+ Hypothesis: This was an effective way to find candidates. [ID: 184062]
+ ##### 
+278. Premise: Innovations in staff assignments and approaches have brought about more focused state planning efforts throughout the country and program support that emphasizes strengthening quality at individual organizations and within the state legal services delivery structure. 
+ Hypothesis: Focused state planning efforts can emphasize increased quality of services. [ID: 243495]
+ ##### 
+279. Premise: Oh, Julius, isn't he just a duck? 
+ Hypothesis: Isn't he just a fish? [ID: 200325]
+ ##### 
+280. Premise: oh okay because i grew up in North Hollywood California i went to UCLA and all that 
+ Hypothesis: I grew up on the east coast and went to school there. [ID: 22408]
+ ##### 
+281. Premise: They kept asking about the noise I heard. 
+ Hypothesis: They didn't ask me anything. [ID: 330842]
+ ##### 
+282. Premise: yeah she's yeah she's got it wired now she jumps up on the counter and stands up reaches up for the door and pulls on it till it opens and then jumps up in there 
+ Hypothesis: She doesn't know how to work the door. [ID: 102916]
+ ##### 
+283. Premise: i guess they were doing it Eastern Standard Time i was like well i don't know how long it takes whether it takes five minutes or twenty minutes so i 
+ Hypothesis: The time zone was actually central time. [ID: 341122]
+ ##### 
+284. Premise: The stubborn aristocracy and high clergy were anxious to protect their ancient privileges; a burgeoning bourgeoisie longed for reforms that would give them greater opportunity; the peasantry was no longer prepared to bear the burden of feudal extortion; and a growing urban populace of artisans groaned under intolerable hardships. 
+ Hypothesis: The peasants later overthrew the aristocracy. [ID: 191757]
+ ##### 
+285. Premise: that kind of a situation to come up 
+ Hypothesis: This kind of stuff going on right now [ID: 180741]
+ ##### 
+286. Premise: Give them something to watch and remember and they will forget what you don't want them to see," said Jon. 
+ Hypothesis: Even if you give them something great to watch, they will always miss the fact that they cannot see what you are trying to have them avoid. [ID: 319663]
+ ##### 
+287. Premise: There are lots of enormous rocks, anyway, which in my experience tends to mean lots of enormous snakes. 
+ Hypothesis: In my experience, the bigger the rocks, the less snakes there are. [ID: 202357]
+ ##### 
+288. Premise: The perfect woman (51 seconds) : 
+ Hypothesis: This is a short video adaptation summary of the original play. [ID: 90068]
+ ##### 
+289. Premise: Power generation accounts for a significant percentage of these emissions, and our analysis shows that there are significant reductions available at lower cost than from other sources. 
+ Hypothesis: Reductions can be found in wind power generation at a much lower cost. [ID: 132432]
+ ##### 
+290. Premise: and then i have a green salad that i put around the outside of that and you know you have all the different seasonings and stuff and then i just fix little individual cups for them and they have the garlic bread and it makes it a real nice looking 
+ Hypothesis: I include a small green salad on the outside with different seasonings, and also include garlic bread.  [ID: 28802]
+ ##### 
+291. Premise: and you want to use one of your good sauce pans that dissipate the heat because it it ends up burning i mean no matter how careful you are you still might get a film on the bottom of the pot i don't let that worry me and i get the milk lukewarm and then i pour about a half a cup of cornstarch in it and i have this thing it's called the slender blender 
+ Hypothesis: Use a wider sauce pan to avoid burning as much as possible. [ID: 383922]
+ ##### 
+292. Premise: Yes, my friend.  
+ Hypothesis: Affirmative, my friend. [ID: 80234]
+ ##### 
+293. Premise: In 2002, recommendations and requirements issued in the wake of our visits led several programs to substantially modify their intake procedures. 
+ Hypothesis: In 2012, recommendations and requirements were issued in the wake of the visits. [ID: 267618]
+ ##### 
+294. Premise: Like many another would-be prophet of sexual glamour (D.H. 
+ Hypothesis: He is well-known as a sexual prophet. [ID: 334227]
+ ##### 
+295. Premise: I shouldn't like the colonies and I'm perfectly certain they wouldn't like me! 
+ Hypothesis: I would not enjoy being in the colonies.  [ID: 42102]
+ ##### 
+296. Premise: Montignac is the departure point for visits to the world-famous cave paintings of Lascaux. 
+ Hypothesis: The cave paintings in Lascaux can be reached via Montignac. [ID: 352478]
+ ##### 
+297. Premise: An association between air pollution and mortality in six U.S. cities. 
+ Hypothesis: The mortality rates from air pollution have reached staggering levels. [ID: 89882]
+ ##### 
+298. Premise: How do you know if you really love her?Jon looked at the man a long time. 
+ Hypothesis: He wanted to know if he was true about his feelings. [ID: 104243]
+ ##### 
+299. Premise: yeah spelled as you would expect 
+ Hypothesis: It is always spelled the same way. [ID: 285872]
+ ##### 
+300. Premise: Room 1: The 14th-century Coronation of the Madonna of Paolo Veneziano, first of the city's great masters, glowing with characteristic Venetian color and texture. 
+ Hypothesis: The piece was painted over a large sheet of scrapped rawhide, instead of the usual vellum. [ID: 56560]
+ ##### 
+301. Premise: General Accounting Office, High-Risk  An Update, GAO-01-263 (Washington, D.C.: January 2001). 
+ Hypothesis: The GAO stands for High-Risk An Update. [ID: 58905]
+ ##### 
+302. Premise: Although we identified no organizations that had made significant progress in applying such measures, we found that more precisely measuring the positive and negative effects of security on business operations is an area of developing interest among many information security experts. 
+ Hypothesis: Measuring positive and negative effects of security on business operations is of interest to C-level executives. [ID: 267693]
+ ##### 
+303. Premise: we also managed to land in a school that uh they decided to build one big rectangular building and then not have any walls for the classroom and so it gets a little noisy it's a little hard to keep the kids that quiet from one class to the next and they can't really 
+ Hypothesis: We landed in a school that was very noisy. [ID: 295769]
+ ##### 
+304. Premise: Nearly a year after Sept. 11, the Legal Aid Society-the lawyers for New York's poor and homeless-remains, well, homeless. 
+ Hypothesis: The Legal Aid Society has a brand new office location in New York City. [ID: 373070]
+ ##### 
+305. Premise: As noted above, the REMSAD modeling estimates regional and national visibility improvements associated with Clear Skies. 
+ Hypothesis: Remsad estimates all visibility improvements with the clear skies act.  [ID: 378073]
+ ##### 
+306. Premise: i don't know i grew up uh in the the sixties and at that time uh it was is a changing time for the whole music scene i guess and i grew up with the Beatles and the Rolling Stones and the whole pot culture during that time and went through that phase and kind of stayed with it i guess for several years after i graduated from college and and thereafter but have since uh i grew up in a small town in in southern Oklahoma i have kind of gone back to uh more of a county uh flavor in music um i'm not quite sure why that is and it seems like almost a opposite but i guess i got away from what i consider to be the pot uh sounding music it didn't have what you know guess what i was looking for at the time country tells more of a a story it kind of reminds me of my roots of growing up and i've i've become i guess more of a country fan over the years 
+ Hypothesis: in college i smoked pot and listened to the beatles [ID: 70958]
+ ##### 
+307. Premise: Why couldn't he just be 'Kam Fong'? 
+ Hypothesis: What are the reasons he can't be Kam Fong?  [ID: 56974]
+ ##### 
+308. Premise: Knowing I couldn't afford another such mistake, I started slowly and subtly unplugging myself from the machines; gently pulling electrodes off my head. 
+ Hypothesis: I could afford to mess up like that. [ID: 272340]
+ ##### 
+309. Premise: In the one before that, he described John McCain's anger as a terrible thing. 
+ Hypothesis: John McCain would frequently yell at his subordinates during meetings.  [ID: 199146]
+ ##### 
+310. Premise: The study states that the potential savings resulting from conducting effective design reviews range from a minimum of 3 percent to as much as 20 percent of TPC, and even higher when indirect savings are taken into account. 
+ Hypothesis: The study states that the potential savings from conducting effective design range from 3 to 20 percent of TPC, and higher when indirect savings are taken into account. [ID: 61825]
+ ##### 
+311. Premise: : The Northern Trail 
+ Hypothesis: The northern trail goes up the mountain. [ID: 300573]
+ ##### 
+312. Premise: But Lukas never fully clarified why Steunenberg's murder and its aftermath were as pivotal as his subtitle implies they were. 
+ Hypothesis: The murder of Steunenberg had a very strong impact on Lukas.  [ID: 384905]
+ ##### 
+313. Premise: The only Madrid museum devoted to a single painter, this mansion was the hom e and studio of Joaquin Sorolla (1863 1923). 
+ Hypothesis: Joaquin Sorolla lived in the only Madrid museum devoted to a single painter. [ID: 289097]
+ ##### 
+314. Premise: The Great Buddha's right hand is bestowing spiritual tranquillity, while the left symbolizes the granting of wishes. 
+ Hypothesis: The smile of the Buddha symbolizes compassion and benevolence.  [ID: 154386]
+ ##### 
+315. Premise: There are still pleasant walks to be had, however, in Cubbon Park and in the terraced greenery of the botanical gardens of Lal Bagh. 
+ Hypothesis: Cubbon Park and Lal Bagh are overgrown cesspools in which one should not walk. [ID: 229304]
+ ##### 
+316. Premise: hope they're telling you 
+ Hypothesis: They are informing you about everything, I hope. [ID: 104483]
+ ##### 
+317. Premise: uh but but the Muslims are not as liberal in their interpretation of of the Kuran as we are in our interpretation of the Bible 
+ Hypothesis: Muslims interpret the Koran more liberally than Jews interpret the Torah.  [ID: 354051]
+ ##### 
+318. Premise: His heart was beating violently. 
+ Hypothesis: His heart was as calm as ever. [ID: 229274]
+ ##### 
+319. Premise: No, not too well, he admitted. 
+ Hypothesis: He knew that this had to change if they were to come out victorious. [ID: 391898]
+ ##### 
+320. Premise: Traditionally a poor island, the native population has happily embraced the new seasonal lifestyle that has brought them proserity, and the old ways have almost completely disappeared. 
+ Hypothesis: The island still holds on to its old ways as the natives have not embraced the new lifestyle. [ID: 27910]
+ ##### 
+321. Premise: Inside, Andrea Pozzo (himself a Jesuit priest and designer of the saint's tomb at the Gese) has painted a superb trompe l'oeil ceiling fresco (1685) depicting St. Ignatius' entry into paradise. 
+ Hypothesis: Andrea Pozzo painted the ceiling fresco in the 15th century. [ID: 337715]
+ ##### 
+322. Premise: The earliest name associated with the city, Ur usalim, perhaps meant  city of Shalim  or  founded by Shalim.   
+ Hypothesis: The name Ur usalim changed many times over the years until finally reaching its final form. [ID: 104846]
+ ##### 
+323. Premise: Anti-abortion Congressman Tony Hall (D-Ohio) points to the deep cuts in international family planning and the angry battle going on around him and reflects, In our effort to legislate around here, sometimes we become purists, and we hurt the people we are trying to help. 
+ Hypothesis: Congressman Tony Hall believes that deep cuts in family planning sometimes hurts the people we are trying to help.   [ID: 209707]
+ ##### 
+324. Premise: The first place in Japan to call itself a bar opened in Asakusa in 1880 (and is still doing business); the first movie theater opened here in 1903. 
+ Hypothesis: It is in Okinawa where the first bar in Japan opened its doors.  [ID: 110274]
+ ##### 
+325. Premise: But in turn the pope had to kneel in allegiance, and this exchange of spiritual blessing for military protection laid the seeds of future conflict between the papacy and secular rulers, compounded in 962 when Otto I was crowned Emperor of the newly formed Holy Roman Empire. 
+ Hypothesis: The pope did not need to bribe any military leaders for his protection. [ID: 213020]
+ ##### 
+326. Premise: I wanted to vomit. 
+ Hypothesis: I felt great! [ID: 364023]
+ ##### 
+327. Premise: Columbus named the island after St. Martin on that saint's feast day in 1493, or did he? 
+ Hypothesis: St Martin Island was named by Columbus in 1493. [ID: 92254]
+ ##### 
+328. Premise: The chambers stand on the site of St. Mary's Close, an old tenement abandoned in the mid-17th century after the entire population had been wiped out by bubonic plague. 
+ Hypothesis: Nothing from the 17th century has been abandoned. [ID: 250994]
+ ##### 
+329. Premise: The name Minangkabau itself means roughly  buffalo horns  and is reflected in the distinctive upward curving roof in museums and government offices built in the traditional Minangkabau style. 
+ Hypothesis: Minangkabau is translated to buffalo horns, and it's unique style can be seen used in museums and government offices. [ID: 64712]
+ ##### 
+330. Premise: But the independent parliament was short-lived against Grattan's opposition, and through bribery and corruption, it voted to dissolve itself in 1800. 
+ Hypothesis: The parliament was around for 100 years prior.  [ID: 28731]
+ ##### 
+331. Premise: These managers are chided for lacking experience, competence, and the desire to adapt their companies to the market. 
+ Hypothesis: Usually, it is only first time managers who don't understand the importance of adapting to the market. [ID: 337717]
+ ##### 
+332. Premise: Southern India remained independent, but Ashoka had his hands full with a large empire that now extended as far north as Kashmir and east to Bengal. 
+ Hypothesis: Ashoka's forces retreated under attacks from all sides as his empire shrunk. [ID: 124268]
+ ##### 
+333. Premise: The people of Sikkim are mostly made up of Nepalese and Lepchas the country's original settlers known also as Rongpan, the people of the ravines and Bhutias from Tibet. 
+ Hypothesis: There are no Nepalese people in the Sikkim area.   [ID: 65467]
+ ##### 
+334. Premise: I make that to be about 11 percent. 
+ Hypothesis: 11 percent of each human being is made up on fats. [ID: 13991]
+ ##### 
+335. Premise: Also on this square is the Bhairavnath Temple. 
+ Hypothesis: On this square are many other temples to visit. [ID: 136235]
+ ##### 
+336. Premise: i wondered if it would help you sometimes fill-in the gaps or recognize discrepancies that other people people like myself might not pick up on 
+ Hypothesis: I thought about whether or not it helps people like myself shore up their knowledge and identify discrepancies. [ID: 70560]
+ ##### 
+337. Premise: In January 2000, we issued our first progress report to the LSC Board of Directors describing our efforts to help build premier justice communities throughout our country. 
+ Hypothesis: We wrote a report in the law journal. [ID: 369358]
+ ##### 
+338. Premise: He certainly struck a rather alien note.  
+ Hypothesis: He hit a normal note.   [ID: 133012]
+ ##### 
+339. Premise: uh with my daughter and with my son they both have different interests in books but um they they uh they do read them um i have some books on on health that i read all the time one's on vitamins that are good for you and that kind of thing but yeah i i'm 
+ Hypothesis: My children read different genres of books.  [ID: 289546]
+ ##### 
+340. Premise: A good case study identifies the 
+ Hypothesis: Some case studies are good [ID: 293688]
+ ##### 
+341. Premise: While such island societies might seem less than Edenic, the early Hawaiians led a pleasurable life, singing their own histories to the beat of gourds, riding the waves on long wooden surfboards, and developing an elaborate, graceful form of story-dance, the hula. 
+ Hypothesis: The early Hawaiians led a pleasurable life until disease wiped them out. [ID: 198730]
+ ##### 
+342. Premise: Locals of all ages, from senior citizens to high-school kids donning Metallica T-shirts, crowd into 18th-century taverns to sip sherry or vino tinto drawn from old wooden barrels, and to munch on morsels of tortilla espa??ola. 
+ Hypothesis: Only older generations frequent the tavern, viewing it as a gateway back to a simpler time.  [ID: 231397]
+ ##### 
+343. Premise: The Spanish settled the land and grew crops here in the 17th century, but the fine  great house  was built by English colonists in the 18th century. 
+ Hypothesis: The English colonists arrived shortly after the Spanish settlers. [ID: 91641]
+ ##### 
+344. Premise: yeah that's right so that's where i've done most of that actually 
+ Hypothesis: We were falling behind because none of it got done. [ID: 37101]
+ ##### 
+345. Premise: a the monetary impact of employment and benefits cases, a the effect on quality of life of health and housing cases, a the impact on minor children of assistance in family cases, and a the financial stability afforded in consumer/finance cases. 
+ Hypothesis: There can be a monetary impact on employment and benefits cases [ID: 217965]
+ ##### 
+346. Premise: well maybe not graduating but at least they'll be entering the the pro draft 
+ Hypothesis: They will graduate and they'll never become pros [ID: 360664]
+ ##### 
+347. Premise: Although NIPA measurement has evolved, the nation's human capital and knowledge-also forms of intangible capital-are not part of the NIPA definitions of investment and saving. 
+ Hypothesis: NIPA measuremen has evolved so human capital is part of investment and saving. [ID: 322197]
+ ##### 
+348. Premise: Anyone who attempts to enter after we have done so will be arrested immediately. 
+ Hypothesis: If they enter after us, they will go to jail. [ID: 43662]
+ ##### 
+349. Premise: what did you like to do most 
+ Hypothesis: What did you hate to eat most? [ID: 234155]
+ ##### 
+350. Premise: oh since the beginning i guess it's been two or three weeks 
+ Hypothesis: It's been about a year or so since the beginning. [ID: 161219]
+ ##### 
+351. Premise: It covers most but not all close Senate and gubernatorial races.) 
+ Hypothesis: It doesn't cover any Senate races.  [ID: 48962]
+ ##### 
+352. Premise: what year model is it 
+ Hypothesis: When was it made? [ID: 249400]
+ ##### 
+353. Premise: Each room concentrates on a separate skill revealing excellent examples of carved wood, ivory, ceramics, and manuscripts. 
+ Hypothesis: There are four rooms focusing on four expertise.  [ID: 389298]
+ ##### 
+354. Premise: And quantified standards have the added advantage of flexibility--they can be adjusted to different levels for different crimes. 
+ Hypothesis: The one size fits all drug laws are easy to scale to the severity of the crime. [ID: 278619]
+ ##### 
+355. Premise: I'll give him th' sign to rattle th' pans. 
+ Hypothesis: I'll let him know when to bang the pans. [ID: 271774]
+ ##### 
+356. Premise: yeah and so i think it's kind of important that i that i you know nurture the relationship i have with my children now and i'm doing my best to keep that up 
+ Hypothesis: I'm doing my best. [ID: 159795]
+ ##### 
+357. Premise: An additional reporting standard for financial audits conducted in accordance with GAGAS . 
+ Hypothesis: GAGAS is a super intelligent baby-run organization. [ID: 154525]
+ ##### 
+358. Premise: but there the majority really haven't done anything with their yards this neighborhood is is four years old 
+ Hypothesis: Most of them haven't done anything to their yards because of high prices [ID: 347753]
+ ##### 
+359. Premise: She had birthed three of Adrin's five brill and, if this blockage didn't kill her, would be ready to market at the next caravan north. 
+ Hypothesis: Adrin had five brill. [ID: 256363]
+ ##### 
+360. Premise: and what line does he write under what title does he 
+ Hypothesis: He has many titles, which one does he write under? [ID: 115048]
+ ##### 
+361. Premise: The Franciscan Grotto of Gethsemane, entered by turning right before reaching the Crusader arch, is a less somber place. 
+ Hypothesis: The Crusade arch is a less somber place. [ID: 312469]
+ ##### 
+362. Premise: no it's um uh it's an older home and uh so it already has the the yard's already been established um but there have like big oak trees in the front and so the grass is not growing out underneath the oak trees so i'm have to get out there and do something about that you know spread some seed and fertilizer and stuff 
+ Hypothesis: There is a huge tuft of grass under the oak trees that needs mowing. [ID: 294964]
+ ##### 
+363. Premise: Either your opponent dies, you die, or you both die. 
+ Hypothesis: It is certain that both of you will live. [ID: 276913]
+ ##### 
+364. Premise: yeah i thought they had some sort of i mean i thought they were just poor people like us i guess not that's great 
+ Hypothesis: I am glad that they are not poor at all.   [ID: 183187]
+ ##### 
+365. Premise: The Germans are faceless with one  a captured pillbox Nazi who babbles and cajoles for his life, sings American anthems, extols Betty Grable's gams, and screams Fuck Hitler! 
+ Hypothesis: One of the people who was captured appeared to love America and have an unflattering opinion of Hitler. [ID: 34781]
+ ##### 
+366. Premise: sounds like fun well it was really good to talk to you 
+ Hypothesis: That sounds boring; I didn't enjoy our conversation. [ID: 167777]
+ ##### 
+367. Premise: yeah you know Road and Track had a had some articles on and particularly with with backseat uh with some where kids were were sitting in the backseat with seat belts on and they were thrown forward into the front seat and there was enough stretching the combination of stretching the spine to uh paralyze i mean to serious injury even though they were they were still locked in the the forced to go so really if your sitting in the backseat 
+ Hypothesis: Even sitting in the backseat with seat belts has some risk of injury. [ID: 387459]
+ ##### 
+368. Premise: punishment uh-huh no that's okay 
+ Hypothesis: Judgment, no that's alright. [ID: 308625]
+ ##### 
+369. Premise: 5 events, we use the distributed lag model for PM10 reported in Schwartz (2000) to develop an adjustment factor which we then apply to the 
+ Hypothesis: We will not be using the distributed lag model. [ID: 382400]
+ ##### 
+370. Premise: The practices were (1) demonstrating top leadership commitment; (2) engaging employee unions in making changes; (3) training employees to enhance their knowledge, skills, and abilities; (4) using employee teams to help accomplish agency missions; (5) involving employees in planning, and sharing performance information; and (6) delegating authorities to frontline employees. 
+ Hypothesis: The practice was demonstrating leadership. [ID: 312265]
+ ##### 
+371. Premise: The friezes on the northern side, depicting battle scenes, weaponry, and naval equipment, celebrate Julius Caesar's victories over the Gallic tribes of the region and the merchant fleet of the Greek colony in Marseilles. 
+ Hypothesis: The Gallic tribes defeated Julius Caesar's army. [ID: 250334]
+ ##### 
+372. Premise: Crosethe Ponte Vecchio to the sprawling Pitti Palace (Palazzo Pitti), its dauntingly heavy and graceless facade belying the ornate and colorful interior. 
+ Hypothesis: The designers intentionally made the interior more beautiful than the exterior to impress visitors. [ID: 84430]
+ ##### 
+373. Premise: oh our payments are like two twenty 
+ Hypothesis: That's right, we only pay $220 per 6-month period. [ID: 170931]
+ ##### 
+374. Premise: The largest mosque in the city, it has earned the name alabaster mosque for its grand interior faced with the smooth pale stone. 
+ Hypothesis: The mosque is know for having a stone-faced interior. [ID: 118896]
+ ##### 
+375. Premise: or or if you can't dramatize it and put it on Unsolved Mysteries then they're not going to you know they're not going to want to hear it 
+ Hypothesis: People are willing to hear about things that can't be dramatized. [ID: 379715]
+ ##### 
+376. Premise: Bankruptcy rates are higher than ever. 
+ Hypothesis: Almost no one has declared bankruptcy this year. [ID: 234280]
+ ##### 
+377. Premise: if i had a car uh the a bus 
+ Hypothesis: If I owned a car. [ID: 368411]
+ ##### 
+378. Premise: But don't look for bargains here 
+ Hypothesis: If you are looking for a great deal, you should look here next week instead.  [ID: 58822]
+ ##### 
+379. Premise: I don't believe in group thinking--pitting one group of people against another. 
+ Hypothesis: Group thinking is something I'm a huge believer in. [ID: 387093]
+ ##### 
+380. Premise: i don't know but um it would be great and and if only i mean health is probably the one thing that people should be most concerned with you know especially that makes a good society when people are healthy and they're not you know they're not stealing for money to pay for their doctors' bills 
+ Hypothesis: You need to be careful that people won't steal from you for money [ID: 119029]
+ ##### 
+381. Premise: Come, he said, "we must go at once." 
+ Hypothesis: Come, he said, "we must leave immediately."" [ID: 240417]
+ ##### 
+382. Premise: How do we know what is at the bottom of his sudden interest in you?  
+ Hypothesis: We are sure of why he has taken an interest in you. [ID: 353896]
+ ##### 
+383. Premise: To see some of the town's past glories, head for the semi-circular Place de la Lib??ration (formerly the Place Royale), designed by Jules Hardouin-Mansart, architect of the Ceteau de Versailles. 
+ Hypothesis: Place de la Liberation was designed by Hardouin-Mansart. [ID: 296095]
+ ##### 
+384. Premise: yeah yeah a lot of their their civil problems where they've got their uh Baltic states rising against the the uh the leadership in in the Russian state 
+ Hypothesis: Baltic states are now fighting for freedom against the Russian state. [ID: 367857]
+ ##### 
+385. Premise: the number of solo mothers that that i encounter in the work place and that that is a little troublesome 
+ Hypothesis: The amount of single mothers that I meet at work is somewhat troubling. [ID: 164554]
+ ##### 
+386. Premise: okay um i've got another call coming in 
+ Hypothesis: I need to take another call right now [ID: 91222]
+ ##### 
+387. Premise: Presently I was able to pull it away. 
+ Hypothesis: I pulled it away. [ID: 217036]
+ ##### 
+388. Premise: hum hum hum well they're elected as well so 
+ Hypothesis: They are elected so it doesn't matter. [ID: 207849]
+ ##### 
+389. Premise: and entrenched bureaucrats that don't want to loose their jobs 
+ Hypothesis: Bureaucrats don't care if they lose their jobs because they can just become lobbyists. [ID: 234455]
+ ##### 
+390. Premise: I watched when we got on the open road. 
+ Hypothesis: I watched intently when we were safely on the open road. [ID: 302412]
+ ##### 
+391. Premise: also enumerated the issues and criteria that state planning 
+ Hypothesis: Also stated individually the issues and criteria that state planning... [ID: 116864]
+ ##### 
+392. Premise: Safire's journalistic cheating undermines their professional work. 
+ Hypothesis: Safire uses journalistic cheating. [ID: 242239]
+ ##### 
+393. Premise: yeah yeah i haven't watched it since the war started i CNN though was it was a life saver for me back in October 
+ Hypothesis: I hate CNN, FoxNews only for me. [ID: 58090]
+ ##### 
+394. Premise: The Diwan-i-Khas (the Private Audience Chamber), known as the Shish Mahal (Palace of Mirrors), features the Rajputs' flamboyant taste for covering walls with green, orange, and purple glass, and the vaulted ceilings with thousands of little convex mirrors. 
+ Hypothesis: The Shish Mahal was very costly to build, and many generations of royalty lived there. [ID: 355088]
+ ##### 
+395. Premise: An English professor who has openly admitted to instructing undergraduates in pagan rituals is no longer a candidate for a deanship at State University of New York's New Paltz campus. 
+ Hypothesis: Before the admissions, the English professor was a favorite for the deanship. [ID: 78655]
+ ##### 
+396. Premise: but it's got lots of good recipes so i was thinking about trying to sell that on the side just  for fun 
+ Hypothesis: It doesn't have any good recipes.  [ID: 243120]
+ ##### 
+397. Premise: um i don't know i just ah they're just so outrageously priced it's just incredible i try to uh always catch the sales 
+ Hypothesis: It's really cheap anyone can afford it. [ID: 166817]
+ ##### 
+398. Premise: (He appears on this week's Meet the Press .) Conservatives describe his article as not an honest piece of work and more than sloppiness and Brill himself as a slime artist, who on fire ... 
+ Hypothesis: Conservatives say his article was not honest, but everyone denies thar. [ID: 90042]
+ ##### 
+399. Premise: House Majority Leader Dick Armey, R-Texas, has compared Barr to former Rep. 
+ Hypothesis: Dick Armey doesn't like Barr. [ID: 155393]
+ ##### 
+400. Premise: The congregation had written to congratulate him about something or other (unspecified by the notes), and Washington  
+ Hypothesis: The congregation had written a letter of sympathy. [ID: 154309]
+ ##### 
+401. Premise: It was the most awful hour of my life.  
+ Hypothesis: The intense steam made it an absolutely terrible hour. [ID: 125455]
+ ##### 
+402. Premise: According to tradition, Herod was buried here. 
+ Hypothesis: Herod is believed to be buried here. [ID: 349663]
+ ##### 
+403. Premise: I couldn't do any of those things, because I was now living in the confined quarters of the Salmon Corporation. 
+ Hypothesis: the quarters of the Salmon Corporation were smaller than those of other companies. [ID: 184743]
+ ##### 
+404. Premise: This kind of glorification might be justified if economics were actually like physics, with a clear ability to predict the behavior of our subject matter so that we could objectively decide which economists were better than others. 
+ Hypothesis: Everyone agrees that economics is predictable and that the merits of economists are therefore easy to judge. [ID: 100706]
+ ##### 
+405. Premise: yeah sounds like you you've already got the makings for being a general contractor 
+ Hypothesis: Based on the skills that you've listed you're going to be a great general contractor. [ID: 327288]
+ ##### 
+406. Premise: Many representatives told us that due to members' own resource and time constraints, members would not participate in information-sharing organizations unless they received benefits. 
+ Hypothesis: Members will receive benefits contingent on them participating in information sharing organizations. [ID: 203640]
+ ##### 
+407. Premise: well me neither but but it just seems like that's what it would be like 
+ Hypothesis: It seems like it would be hard. [ID: 321471]
+ ##### 
+408. Premise: Shoppers will want to visit the lively Rue de la R??publique and the streets around the Place des Jacobins. 
+ Hypothesis: Shoppers will have no need to visit the Rue de la Republique. [ID: 255782]
+ ##### 
+409. Premise: Shall I?  
+ Hypothesis: I shall not.  [ID: 80974]
+ ##### 
+410. Premise: For him to survive a denial, Monica must be ruined. 
+ Hypothesis: Monica would have to work with him for him to survive. [ID: 88702]
+ ##### 
+411. Premise: All of these actions shared a common focus of improving the internal control systems over the problem area. 
+ Hypothesis: The common action properly addressed the problem areas with the internal control systems. [ID: 330094]
+ ##### 
+412. Premise: News ' best colleges rankings. 
+ Hypothesis: The news ranked the best colleges. [ID: 86393]
+ ##### 
+413. Premise: It all had something to do with some kind of mumbo-jumbo, and.... 
+ Hypothesis: It was all about the barber. [ID: 178928]
+ ##### 
+414. Premise: How did this happen? Bozena asked reproachfully. 
+ Hypothesis: Bozena wanted to know how it happened? [ID: 173037]
+ ##### 
+415. Premise: During this meeting, GAO will also (1) discuss GAO's ability to respond within the desired time frame, (2) provide a verbal estimate of the level of GAO resources required, and (3) advise the requester that, as the original requester, only he or she can approve co-requesters. 
+ Hypothesis: At this meeting GAO will give a spoken estimate of the level of resources they require. [ID: 49499]
+ ##### 
+416. Premise: The country's top business schools are discovering new targets for their venture capital  their own alumni. 
+ Hypothesis: They are utilizing their alumni to go into projects. [ID: 90908]
+ ##### 
+417. Premise: The new religion soon cemented national solidarity in the face of more barbarian invasions, this time by the Franks. 
+ Hypothesis: National solidarity has been cemented soon by the new food. [ID: 11664]
+ ##### 
+418. Premise: Several trials of variations of the NIAAA approach are warranted. 
+ Hypothesis: They did not get any variation approved. [ID: 149216]
+ ##### 
+419. Premise: But how much more emotional the Carnegie Hall climax would have been if instead of suddenly seeing these East Harlem kids on stage with Perlman, Stern, Joshua Bell, etc., we'd seen them rehearsing first and struggling to keep up. 
+ Hypothesis: East Harlem kids could never perform at Carnegie Hall.  [ID: 185941]
+ ##### 
+420. Premise: On one side of him was the German, on the other the villainous-faced doorkeeper who had let him in. 
+ Hypothesis: Despite having the face of a villain, the doorkeeper had a heart of gold. [ID: 254690]
+ ##### 
+421. Premise: If you want to buy pottery or alabaster, compare prices and quality with goods on sale at the artisan villages on the west bank (see page tk) before making a final decision. 
+ Hypothesis: The goods on the east bank are known to be low-quality and priced high to take advantage of the tourists. [ID: 341007]
+ ##### 
+422. Premise: Be heroic.' 
+ Hypothesis: Save the child and become a hero.  [ID: 151244]
+ ##### 
+423. Premise: Before that, she worked for Cambridge and Somerville Legal Services, based in Cambridge, and for Southeastern Massachusetts Legal Servces in New Bedford. 
+ Hypothesis: She used to work in Cambridge and New Bedford. [ID: 238253]
+ ##### 
+424. Premise: Finally, the methodological fallacy at the heart of this  If you want to see what's happening in the stream called our society, says one of Faludi's patriots, go to the edges and look at what's happening there ... 
+ Hypothesis: Faludi's comrades claimed they could predict future societal trends by examining what was happening in radical circles. [ID: 378659]
+ ##### 
+425. Premise: te morituri salutant,'   
+ Hypothesis: Morituti [ID: 302923]
+ ##### 
+426. Premise: Other European powers began to put pressure on the defending forces, and British naval power in the area was badly stretched. 
+ Hypothesis: Europeans didn't help the British. [ID: 380278]
+ ##### 
+427. Premise: oh they the the building process was a lot of fun but puts a lot of strain on things 
+ Hypothesis: I enjoy doing the work.  [ID: 277825]
+ ##### 
+428. Premise: In his book about the 1988 campaign, Pledging Allegiance , Blumenthal quotes an anonymous member of the Bush campaign team as saying, Willie Horton has star quality. 
+ Hypothesis: Bush told Blumenthal that he thinks Willie is a hack.  [ID: 291283]
+ ##### 
+429. Premise: My husband works in health care, and we often discuss related issues. 
+ Hypothesis: My husband works in telecommunications and dislikes health care discussions. [ID: 174889]
+ ##### 
+430. Premise: yeah so that's and that's what ours is our house the house we had before was over we live on the east side of Richardson now and the other one was over on the west side and it was uh a pier and beam house 
+ Hypothesis: We live in Utah right now, and we love it. [ID: 229754]
+ ##### 
+431. Premise: and uh  well i guess there's still the possibility that uh hostilities with uh US troops could still break out 
+ Hypothesis: The US troops will likely still break out.  [ID: 319908]
+ ##### 
+432. Premise: go go  i said go ahead 
+ Hypothesis: You may go ahead. [ID: 96201]
+ ##### 
+433. Premise: Ha! said Sir William, eyeing her. 
+ Hypothesis: Sir William could barely see her because he forgot his glasses. [ID: 318942]
+ ##### 
+434. Premise: The real reason, said the Pioneer , was that they had failed to arrange for the Lithuanian orchestra to come. 
+ Hypothesis: They didn't arrange for the Lithuanian orchestra to play. [ID: 272148]
+ ##### 
+435. Premise: like one night and the next night they'll stay at the motel you know or something like that and they enjoy it 
+ Hypothesis: There are nights where they are housed in the motel. [ID: 310327]
+ ##### 
+436. Premise: He had saved my life before. 
+ Hypothesis: He saved me from a certain death in battle. [ID: 377488]
+ ##### 
+437. Premise: They are considered useful for divining the future, prescribing remedies for problems, and perhaps putting a spell on an enemy. 
+ Hypothesis: They are good for a chat, acupuncture, and makeovers. [ID: 256162]
+ ##### 
+438. Premise: Local tailors are experts when it comes to producing custom-tailored garments for both men and women, and are also adept at copying patterns. 
+ Hypothesis: Local tailors are the least adept at producing custom garments. [ID: 11196]
+ ##### 
+439. Premise: In addition to the jobs that are directly created by this activity, jobs will be created indirectly as a result of the economic activity that is stimulated by additional discretionary income workers will have. 
+ Hypothesis: Workers will not receive more money. [ID: 48226]
+ ##### 
+440. Premise: Tell is essentially about the past--Clinton's economic success vs. 
+ Hypothesis: Tell doesn't necessarily paint an accurate picture of the past. [ID: 139805]
+ ##### 
+441. Premise: so you know there's not that much time left on the loan and 
+ Hypothesis: There isn't much time left on the loan, so we are paying it.  [ID: 305852]
+ ##### 
+442. Premise: that's about as tough as nope that's just keep us off a rock and we'll just let the let the stream take us down river and all that 
+ Hypothesis: Having those paddles keeps us off the rocks so the current can take us down river. [ID: 170731]
+ ##### 
+443. Premise: no i don't care for those 
+ Hypothesis: i'm undecided about those. [ID: 314163]
+ ##### 
+444. Premise: There are 10 km (6 miles) of wild, rocky beaches with a dramatic mountain backdrop. 
+ Hypothesis: There are no rocks on any of the beaches. [ID: 315536]
+ ##### 
+445. Premise: This means a housing strategy that shifts more decisively in the direction it has been inching under Clinton. 
+ Hypothesis: Clinton hasn't addressed his housing strategy yet. [ID: 111173]
+ ##### 
+446. Premise: uh-huh what what what bothers the heck out of me is uh one of these so-called American made cars where part of it's put together in Japan and what you've got is you've got standard and metric 
+ Hypothesis: Some cars are in both standard and metric. [ID: 162328]
+ ##### 
+447. Premise: Yes, they can. 
+ Hypothesis: Yes, they are able to change this corrupted system into something better. [ID: 195242]
+ ##### 
+448. Premise: In addition to seeking clarification of various operational issues, some agencies raised questions concerning the statements of our audit and access authorities cited in the protocols. 
+ Hypothesis: A few of the agencies were concerned about the mentions in the protocols concerning access authority. [ID: 10399]
+ ##### 
+449. Premise: "Yeah, always supposin' that," Nye agreed. 
+ Hypothesis: The idea was a bit of a stretch. [ID: 93085]
+ ##### 
+450. Premise: The pottery and stone work is worth studying, however the chief artifacts are the script fragments of Linear A type scribed on thin clay plates and not yet deciphered. 
+ Hypothesis: Scholars believe that Linear A will never be deciphered. [ID: 261301]
+ ##### 
+451. Premise: if a person has done a crime so bad that the jury gives them the death penalty now the Supreme Court says we've got to give them one appeal okay i agree give them one appeal when that appeal fails within thirty days execution of sentence 
+ Hypothesis: If an appeal fails they should be given another chance to appeal. [ID: 20728]
+ ##### 
+452. Premise: The bottom line is, I need a job, Clinton allegedly fondled her breasts and placed her hand against his erect penis. 
+ Hypothesis: She alleges that Clinton fondled her breasts. [ID: 132239]
+ ##### 
+453. Premise: it's that's the way they just brought up well uh where're you from by the way 
+ Hypothesis: I don't have any questions to ask you. [ID: 340253]
+ ##### 
+454. Premise: As previously reported to Congress, though, a number of grantees did voluntarily submit corrections to their 1997 CSR data during 1998. 
+ Hypothesis: Congress always reports on grantees who submit corrections.  [ID: 62224]
+ ##### 
+455. Premise: that it could happen um-hum 
+ Hypothesis: It could happen. [ID: 218317]
+ ##### 
+456. Premise: He walked the whole way with a smile. 
+ Hypothesis: He ran the entire distance. [ID: 201328]
+ ##### 
+457. Premise: This could lead to a spiral of rate increases and further volume losses. 
+ Hypothesis: There is no chance of a spiral of rate increase. [ID: 216627]
+ ##### 
+458. Premise: oh that's pretty nice i did mine i built my own home in nineteen sixty one 
+ Hypothesis: I have been renting since 1970. [ID: 36380]
+ ##### 
+459. Premise: yeah Ninja Turtles got to have those 
+ Hypothesis: Need to have the Ninja Turtles. [ID: 79166]
+ ##### 
+460. Premise: Welldeveloped techniques exist to provide monetary estimates of these benefits to agricultural producers and consumers. 
+ Hypothesis: There are no accurate techniques to give monetary estimates of these benefits to consumers and producers. [ID: 229745]
+ ##### 
+461. Premise: Threatened with submersion during the building of the Aswan high dam, this 25-century-old Egyptian temple was dismantled and shipped to Madrid, stone by stone, as a gift to the Spanish government. 
+ Hypothesis: The 25 century old temple was dismantled and lost. [ID: 100985]
+ ##### 
+462. Premise: i guess we're um uh we're we're experiencing uh what to me i guess is a surprisingly mild uh winter uh  we've had a lot more warm weather than usual and we haven't had any ice storms uh usually we have at least one um course i've only lived here three years but uh but that in still in that three years you could always count on at least one ice storm 
+ Hypothesis: So far, it's gotten up to 17 degrees Celsius this winter.  [ID: 46288]
+ ##### 
+463. Premise: The casinos, open nightly from 9pm until at least 3am, offer roulette, American blackjack, baccarat, and sometimes craps, and, in Martinique, French boule. 
+ Hypothesis: The casinos are open late but some even stay open all night. [ID: 332000]
+ ##### 
+464. Premise: case that involved oh a couple thousand dollars i think it was 
+ Hypothesis: It was a case that included a couple thousand dollars I think. [ID: 182417]
+ ##### 
+465. Premise: First and foremost, the inhouse staff should be able to identify facility requirements in the context of their impact on the agency's mission success and, in so doing, to act as a smart buyer. 
+ Hypothesis: Being a smart buyer is not important for the in-house staff. [ID: 93674]
+ ##### 
+466. Premise: Nearby, you'll find several impeccable colonial-era houses with brilliantly colored faaades. 
+ Hypothesis: Nearby, you'll find several impeccable colonial-era houses with brilliantly colored faaades breaking the normal architecture rules.  [ID: 234318]
+ ##### 
+467. Premise: Reason is objective --discovered in the outside world. 
+ Hypothesis: Objective is found nowhere but in your mind. [ID: 154414]
+ ##### 
+468. Premise: Nobody was asking Gary Bauer such questions that day (except perhaps for pointed contrast), because the obvious hook for these questions is Bush's alleged hypocrisy. 
+ Hypothesis: No one cared about what Bush did. [ID: 283045]
+ ##### 
+469. Premise: a lot of our friends go through divorces uh you know we've been married thirty five years and so that's how old our friends are 
+ Hypothesis: None of our friends have ever gone through a divorce.  [ID: 58649]
+ ##### 
+470. Premise: The banging and beating on the door was terrific. 
+ Hypothesis: There was a wonderful banging and beating on the door. [ID: 83358]
+ ##### 
+471. Premise: Your memory must be unusually short! 
+ Hypothesis: You already forgot about our meeting this morning? You have such a short memory! [ID: 10244]
+ ##### 
+472. Premise: The non-stop lift takes 55 seconds from ground to the observatory, but offers spectacular views of the city and beyond! 
+ Hypothesis: The lift was designed to offer the spectacular views. [ID: 392672]
+ ##### 
+473. Premise: loves that's right loves the little dog loves to travel of course she's dead asleep before we get to the end of the block and she never you know she sleeps the whole time but she loves to travel 
+ Hypothesis: The dog enjoys travelling and falls asleeps on trips. [ID: 339027]
+ ##### 
+474. Premise: 6The concept of forensic auditing was recently suggested by the Panel on Audit Effectiveness to improve the likelihood that auditors will detect fraudulent financial reporting (see The Panel on Audit Effectiveness Report and Recommendations, Aug. 31, 2000). 
+ Hypothesis: The Panel felt that forensic auditing was going to revolutionize the detection of fraudulent financial reporting. [ID: 326801]
+ ##### 
+475. Premise: There are separate sections of the prayer area facing the Wall reserved for male and female worshippers. 
+ Hypothesis: Female and male worshipers are separated by a wall. [ID: 114309]
+ ##### 
+476. Premise: and it was just you know twenty twenty miles from me 
+ Hypothesis: And it was just twenty miles from me. [ID: 202242]
+ ##### 
+477. Premise: oh oh boy  and he's five shoot i guess so gee 
+ Hypothesis: He's five, about to turn six. [ID: 238232]
+ ##### 
+478. Premise: Hideyoshi moved many of Kyoto's temples to this long narrow road during his reorganization of the city in 1591 following its near-total destruction by clan warfare. 
+ Hypothesis: Hideyoshi left the temples alone.  [ID: 287491]
+ ##### 
+479. Premise: how about the utilities for the uh for the house that you're in now 
+ Hypothesis: How about utilities for your business? [ID: 180837]
+ ##### 
+480. Premise: The shift in focus and resources has allowed Pfizer's finance organization to become a  growth enabler on behalf of the company  
+ Hypothesis: Pfizer's finance organization has led the company in growth. [ID: 166109]
+ ##### 
+481. Premise: Even if you're a linguistic dud, try to learn a handful of Italian words or expressions. 
+ Hypothesis: Knowing some Italian expressions will be extremely helpful.  [ID: 296959]
+ ##### 
+482. Premise: The rocs had better range and altitude than any planes of equal hauling power. 
+ Hypothesis: The range and altitude of the rocs were far beyond those of the other planes. [ID: 266828]
+ ##### 
+483. Premise: Take a taxi or bus (from Kagoshima Station) for a closer look at the lava and a fine view of the whole Kagoshima Bay area. 
+ Hypothesis: Taking a helicopter is the best way to get a closer look at the lava and Kagoshima Bay. [ID: 191668]
+ ##### 
+484. Premise: i don't know Frisco there always seemed to be a lot of drugs in Frisco for as small a town as it was there were a lot of drugs 
+ Hypothesis: Frisco is very popular for its heroin usage. [ID: 128654]
+ ##### 
+485. Premise: These and other suggested flexibilities for DHS should be viewed in the context of how similar flexibilities have been exercised by other agencies with similar missions, such as the Transportation Security Administration (TSA), the DOD, the FBI, and the CIA. 
+ Hypothesis: The other suggested flexibilities for DHS shouldn't be viewed in the context. [ID: 172881]
+ ##### 
+486. Premise: Tommy deeply regretted that it was he who had entered first. 
+ Hypothesis: Tommy was happy to have been the one to enter first. [ID: 384670]
+ ##### 
+487. Premise: As for Liggett's motive, industry and financial analysts speculated that Liggett's CEO hoped to make the marginally profitable company a more attractive merger partner by eliminating its exposure to possibly huge jury awards. 
+ Hypothesis: Liggett took a rain check on the merger because its profits were up and exposure to jury awards was non-existent.  [ID: 258343]
+ ##### 
+488. Premise: A candidate's best strategy, therefore, is to show the media and the voters his most manageable flaw in the hope that they will focus on that flaw and stop looking for others. 
+ Hypothesis: Candidates think they can trick voters into ignoring most of their flaws. [ID: 36718]
+ ##### 
+489. Premise: The interlacing Arab-Norman arches of the 13th-century cloister, Chiostro del Paradiso, make a handsome setting for the summer recitals of chamber music. 
+ Hypothesis: Italy enjoys many classical outdoor concerts.  [ID: 361141]
+ ##### 
+490. Premise: Just as advocates of bombing use the word impunity to shift the burden of the aggression argument to their opponents, they likewise use the word credibility to shift the burden of the commitment argument. 
+ Hypothesis: Impunity is a word that's often used by bombing advocates to shift the burden of aggression. [ID: 85983]
+ ##### 
+491. Premise: For revolving funds and trust revolving funds, as explained elsewhere, the interest is normally but not always an exchange revenue. 
+ Hypothesis: For revolving funds and trusts revolving funds, interest is usually exchange revenue.  [ID: 270665]
+ ##### 
+492. Premise: A drama in which I clubbed out Greuze, hard as I could, and found somewhere quick to hide the body. 
+ Hypothesis: A drama where I marry Greuze and we live happily ever after.  [ID: 315652]
+ ##### 
+493. Premise: These alternatives were rejected because the burden of compliance was not that great for small entities or because of the need for investor protection. 
+ Hypothesis: These alternatives required the need for protection for its investors. [ID: 266131]
+ ##### 
+494. Premise: Did you see anything of what was written above her signature? asked Poirot sharply.  
+ Hypothesis: Poirot ignored whatever he saw over her signature. [ID: 155426]
+ ##### 
+495. Premise: Second, we held that the LSCA did not explicitly authorize a private right of action against the LSC. 
+ Hypothesis: The LCSA's private right of action against the LSC wasn't explicitly authorized. [ID: 378333]
+ ##### 
+496. Premise: It's a little known perk available to anyone 60 or  21 states, Washington D.C., and Puerto Rico operate legal-assistance hot lines for older adults and most take calls from younger caregivers as well. 
+ Hypothesis: Only 500,000 dollars are funded into these legal-assistance hot lines annually. [ID: 201718]
+ ##### 
+497. Premise: and uh its working just fine i don't have any problems at all so i'm going to keep it uh i get offers  every now and then from 
+ Hypothesis: I will keep getting offers now and again from them. [ID: 217162]
+ ##### 
+498. Premise: up to a point i i'm getting now to the age where i don't like the new stuff that's coming and much of the new stuff that's coming out  husband says i'm getting old 
+ Hypothesis: I still love everything new I see. [ID: 17008]
+ ##### 
+499. Premise: so i do things like that you know if i had more time i'd probably do it and sell the stuff but you know i don't have enough time to do it to really you know take orders on it and 
+ Hypothesis: I would make a lot of money selling the stuff.   [ID: 95152]
+ ##### 
+500. Premise: well actually it's probably closer to Fort Worth but it's it's in the same area he bought uh bought a big horse farm out in a little town called Roanoke Texas 
+ Hypothesis: He hates farms and horses, so he bought an apartment in New York. [ID: 367797]
+ ##### 
+501. Premise: Just 17 miles (27 km) from Kauai, the 73-sq mile (189-sq km) island of Niihau (nee-ee-how) is called  The Forbidden Island  because it is privately owned and cannot be visited without an invitation from one of the 225 inhabitants. 
+ Hypothesis: You must take a boat between Niihau and Kauai. [ID: 227751]
+ ##### 
+502. Premise: are they good to eat 
+ Hypothesis: Do they taste good? [ID: 382599]
+ ##### 
+503. Premise: there was another uh angle that i i started seeing as uh the Polish situation and some of the Soviet uh countries as it were uh they started coming into the news and you started hearing about some of their troubles and the like and some of their their crime problems it made me wonder just how the uh outlook of the future affects people's decisions to either commit  crimes or how they live or whatever uh it seems like they the poorer the situation or the poorer the outlook the more likely they are to commit a crime 
+ Hypothesis: The news had material about the Polish and Soviet situations. [ID: 373601]
+ ##### 
+504. Premise: Look northwest from here and you will see a much more impressive sight in the distance. 
+ Hypothesis: The sight is located very close and is just to the south of you. [ID: 236551]
+ ##### 
+505. Premise: real fast 
+ Hypothesis: Really quick [ID: 99806]
+ ##### 
+506. Premise: In the Savings Are Vital for Everyone's Retirement Act of 1997 (SAVER Act), the Congress found that a leading obstacle to expanding retirement saving is that many Americans do not know how to save for retirement, let alone how much. 
+ Hypothesis: The FLAVOR Act helped Americans learns about retirement. [ID: 341011]
+ ##### 
+507. Premise: No one has suggested that Reno has a financial or personal stake in the latest scandal. 
+ Hypothesis: It was suggested in previous scandals that Reno had a personal stake. [ID: 167676]
+ ##### 
+508. Premise: I'm sure that if you asked the same questions, but divided all the amounts by a million, your answers would be very different. 
+ Hypothesis: You answers would be very different, I'm sure, if you asked the same questions but with smaller amounts. [ID: 8289]
+ ##### 
+509. Premise: Adequately warned, why do people persist in sucking cancer-causing tars into their lungs? 
+ Hypothesis: People believe that the warnings related to smoking are overblown. [ID: 122786]
+ ##### 
+510. Premise: It might possibly bring about another war not with Germany this time!  
+ Hypothesis: There is a probability that this could bring about another war.   [ID: 53850]
+ ##### 
+511. Premise: American Movie suggests that there's no such thing as the little people in the hinterlands anymore. 
+ Hypothesis: American Movie suggests there isn't any thing like little people in the hinterlands anymore because it was too controversial. [ID: 133326]
+ ##### 
+512. Premise: i haven't done it in quite awhile since i moved down here But i used to do it 
+ Hypothesis: I do it all the time since I've moved down there. [ID: 225675]
+ ##### 
+513. Premise: Set against the solipsistic identity politics of the rest of the show, Kentridge's old-school agitprop is nearly refreshing. 
+ Hypothesis: If you don't think about the identity politics, Kentridge had a good show [ID: 367730]
+ ##### 
+514. Premise: French painters represented include Delacroix and Francois Clouet, as well as Gricault, who was born in Rouen. 
+ Hypothesis: Gricault is a painter who was born in Rouen. [ID: 298536]
+ ##### 
+515. Premise: The Winding Stair on Ormond Quay is an interesting, labyrinthine secondhand bookshop with a caf??. 
+ Hypothesis: The Winding Stair is a used bookstore with a cafe. [ID: 5326]
+ ##### 
+516. Premise: That private firm will base its rates on the costs that it incurs, given that it both receives and delivers the mail in Cleveland-it will not charge a 1,000-mile rate. 
+ Hypothesis: A flat rate charge applies to all items. [ID: 101482]
+ ##### 
+517. Premise: There are many variations offered, from the standard 7-card stud to Texas Hold Em. 
+ Hypothesis: There are a dozen different variations of poker available. [ID: 175876]
+ ##### 
+518. Premise: Five miles south of Jerusalem is Bethlehem, birthplace of Jesus and, about a thousand years earlier, of David. 
+ Hypothesis: Bethlehem has a much smaller population than Jerusalem. [ID: 326222]
+ ##### 
+519. Premise: At Porto Torres, visit the important 11th-century Pisan Romanesque church of San Gavino. 
+ Hypothesis: The church is from the 17th century. [ID: 18790]
+ ##### 
+520. Premise: uh for this little uh this little uh kid's a a basketball camp that's what it is these little kids would come here and uh Coca-Cola had sponsored the uh sodas you know just give them to him told him to give them to the boys well he sold them for something like fifty seventy five cents to these boys when he's supposed to given them to them 
+ Hypothesis: The kid who sold the sodas instead of simply giving them out for free was a budding entrepreneur.  [ID: 144520]
+ ##### 
+521. Premise: He decided that Tuppence, in the throes of anxiety, had gone to the police, and that his disappearance having been made public the gang had not been slow to put two and two together. 
+ Hypothesis: Tuppence was content and lacked worry and didn't leave the house.  [ID: 97987]
+ ##### 
+522. Premise: and some of the stuff you know the classics they were fine but some of it was just too heavy even then 
+ Hypothesis: All the classics back then were too heavy. [ID: 62634]

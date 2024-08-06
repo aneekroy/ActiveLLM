@@ -1,0 +1,1367 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Question: What specifics were recorded in his experiments? 
+ Sentence: In these cases the amount of pull and the corresponding pain was found to be significant. [ID: 12107]
+ ##### 
+1. Question: How far back in time do people in 'Terra Nova' travel? 
+ Sentence: Terra Nova begins in the year 2149 when all life on the planet Earth is threatened with extinction resulting in scientists opening a door that allows people to travel back 85 million years to prehistoric times. [ID: 39321]
+ ##### 
+2. Question: Where is the radiation patterns in the vertical plane shown? 
+ Sentence: These plots of the radiation pattern correspond to a distance between the antenna and its image of 2.5λ. [ID: 20797]
+ ##### 
+3. Question: How did the invading British army do at St. Malo? 
+ Sentence: The army landed on 5 June 1758 at Cancalle Bay, proceeded to St. Malo, and, finding that it would take prolonged siege to capture it, instead attacked the nearby port of St. Servan. [ID: 59731]
+ ##### 
+4. Question: What bodies govern Greater London? 
+ Sentence: London i/ˈlʌndən/ is the capital and most populous city of England and the United Kingdom. [ID: 99820]
+ ##### 
+5. Question: René Descartes lived from what year to what year? 
+ Sentence: John "Walking" Stewart (1747-1822), whose insistence in seeing matter as endowed with a moral dimension had a major impact on the philosophical poetry of William Wordsworth (1770-1850). [ID: 41254]
+ ##### 
+6. Question: At the 1945 general election, The Times adopted a stance that was referred to by what name? 
+ Sentence: However, the newspaper reverted to the Tories for the next election five years later. [ID: 22328]
+ ##### 
+7. Question: Who was Eduard Lasker? 
+ Sentence: The Congress of Vienna was essentially conservative, assuring that little would change in Europe and preventing Germany from uniting. [ID: 31349]
+ ##### 
+8. Question: When did Stalin pass away? 
+ Sentence: Fears decreased when Stalin died in 1953 and Nikita Khruschev emerged as the Soviet Union's new leader. [ID: 55865]
+ ##### 
+9. Question: What had happened to Frank Bruno to spur the publishing of a story about him? 
+ Sentence: On 22 September 2003 the newspaper appeared to misjudge the public mood surrounding mental health, as well as its affection for former world heavyweight champion boxer Frank Bruno, who had been admitted to hospital, when the headline "Bonkers Bruno Locked Up" appeared on the front page of early editions. [ID: 46313]
+ ##### 
+10. Question: What step of the DVD production process causes contrast banding? 
+ Sentence: By the end of LaserDisc's run, DVDs were living up to their potential as a superior format. [ID: 50244]
+ ##### 
+11. Question: What year did Schwarzenegger's interview with Talk magazine take place? 
+ Sentence: Following his initial comments, Schwarzenegger said, "I'm in show business – [ID: 94654]
+ ##### 
+12. Question: In what decade did the LEAA conduct their investigation of crime and DST? 
+ Sentence: However, the LEAA did not filter out other factors, and it examined only two cities and found crime reductions only in one and only in some crime categories; the DOT decided it was "impossible to conclude with any confidence that comparable benefits would be found nationwide". [ID: 40280]
+ ##### 
+13. Question: What Arabic term did the Umayyad caliphs use to refer to themselves? 
+ Sentence: In this respect it is notable that the Umayyad caliphs referred to themselves not as khalifat rasul Allah ("successor of the messenger of God", the title preferred by the tradition), but rather as khalifat Allah ("deputy of God"). [ID: 17633]
+ ##### 
+14. Question: What are primary sex characteristics? 
+ Sentence: Boys are generally fertile before they have an adult appearance. [ID: 63806]
+ ##### 
+15. Question: How many campus buildings are candidates for LEED design and certification? 
+ Sentence: As part of this commitment, the university allocates renewable energy credits to offset some of the energy used by residential colleges. [ID: 3293]
+ ##### 
+16. Question: When was Mexico City officially founded by the Spanish? 
+ Sentence: Mexico’s capital is both the oldest capital city in the Americas and one of two founded by Amerindians (Native Americans), the other being Quito. [ID: 102704]
+ ##### 
+17. Question: When did the Cincinnati Red Stockings come to be? 
+ Sentence: The Cincinnati Red Stockings are the oldest professional baseball team, dating back to 1869. [ID: 60811]
+ ##### 
+18. Question: What do most wrestlers do, as far as how they act? 
+ Sentence: In Latin America and English-speaking countries, most wrestlers (and other on-stage performers) portray character roles, sometimes with personalities wildly different from their own. [ID: 5722]
+ ##### 
+19. Question: A mammal's brain is how many times larger than a reptiles relative to body size? 
+ Sentence: On average, a mammal has a brain roughly twice as large as that of a bird of the same body size, and ten times as large as that of a reptile of the same body size. [ID: 4303]
+ ##### 
+20. Question: When did the Suntrust Indy Challenge stop being run at RIR? 
+ Sentence: RIR also hosted IndyCar's Suntrust Indy Challenge from 2001 − 2009. [ID: 101866]
+ ##### 
+21. Question: How much of a royalty was Gray able to negotiate with a New York publisher for On the Origin of Species? 
+ Sentence: In the United States, botanist Asa Gray an American colleague of Darwin negotiated with a Boston publisher for publication of an authorised American version, but learnt that two New York publishing firms were already planning to exploit the absence of international copyright to print Origin. [ID: 42237]
+ ##### 
+22. Question: In what year did Dominic order his followers into an institutional life? 
+ Sentence: The Rule of St. Augustine was an obvious choice for the Dominican Order, according to Dominic's successor, Jordan of Saxony, because it lent itself to the "salvation of souls through preaching". [ID: 62433]
+ ##### 
+23. Question: What was the first battle of the Mexican Independence war called? 
+ Sentence: The Battle of Guanajuato, the first major engagement of the insurgency, occurred four days later. [ID: 47763]
+ ##### 
+24. Question: Who was Queen Puabi accompanied in death by? 
+ Sentence: It was believed that when people died, they would be confined to a gloomy world of Ereshkigal, whose realm was guarded by gateways with various monsters designed to prevent people entering or leaving. [ID: 86189]
+ ##### 
+25. Question: In what month and year did a European first arrive at the Marshall Islands? 
+ Sentence: Islands in the archipelago were first explored by Europeans in the 1520s, with Spanish explorer Alonso de Salazar sighting an atoll in August 1526. [ID: 81184]
+ ##### 
+26. Question: Which two fleets returned to Kronstadt? 
+ Sentence: Thus, shelling of the Russian batteries was limited to two attempts in the summers of 1854 and 1855, and initially, the attacking fleets limited their actions to blockading Russian trade in the Gulf of Finland. [ID: 4867]
+ ##### 
+27. Question: Who is customarily divided along geographical lines into tree major subgroups? 
+ Sentence: Apart from prehistorical archaeological cultures, the subgroups have had notable cultural contact with non-Slavic Bronze- and Iron Age civilisations. [ID: 26970]
+ ##### 
+28. Question: In Dowling v. United States, what did bootleg records NOT constitute? 
+ Sentence: Instead, "interference with copyright does not easily equate with theft, conversion, or fraud. [ID: 58202]
+ ##### 
+29. Question: According to the 2000 United States Census, what was the population density? 
+ Sentence: The population density was 3,569.8 people per square mile (1,378.3/km2). [ID: 34920]
+ ##### 
+30. Question: What is the other superphylum besides protostomes? 
+ Sentence: Bryzoa may be the most basal phylum (the one that first became distinctive) within the Lophotrochozoa, and the relationships between the other members are not yet known. [ID: 98419]
+ ##### 
+31. Question: In what year was epinephrine discovered? 
+ Sentence: Injected epinephrine proved to be especially efficacious for the acute treatment of asthma attacks, and an inhaled version was sold in the United States until 2011 (Primatene Mist). [ID: 31369]
+ ##### 
+32. Question: What forms of entertainment does the Digimon franchise include? 
+ Sentence: The franchise focuses on Digimon creatures, which are monsters living in a "Digital World", a parallel universe that originated from Earth's various communication networks. [ID: 27106]
+ ##### 
+33. Question: Apis and Osiris combined to make which god? 
+ Sentence: Ptolemy I even created a new god, Serapis, who was combination of two Egyptian gods: Apis and Osiris, with attributes of Greek gods. [ID: 83261]
+ ##### 
+34. Question: What does the French constitution state for the language in Aslace? 
+ Sentence: A 1999 INSEE survey counted 548,000 adult speakers of Alsatian in France, making it the second most-spoken regional language in the country (after Occitan). [ID: 12087]
+ ##### 
+35. Question: In what century did the Xeer system begin? 
+ Sentence: The Xeer legal system is assumed to have developed exclusively in the Horn of Africa since approximately the 7th century. [ID: 103214]
+ ##### 
+36. Question: Where did British forces and Egyptian police clash? 
+ Sentence: Afterwards, Nasser published a simple six-point program in Rose al-Yūsuf to dismantle feudalism and British influence in Egypt. [ID: 61903]
+ ##### 
+37. Question: What is NYC's largest park? 
+ Sentence: It includes New York City's largest park: Pelham Bay Park along the Westchester-Bronx border. [ID: 37212]
+ ##### 
+38. Question: What material is useful in glassmaking because of its slow evaporation? 
+ Sentence: Evaporation losses during glass melting should be considered during the selection of the raw materials, e.g., sodium selenite may be preferred over easily evaporating SeO2. [ID: 3879]
+ ##### 
+39. Question: How many number one Billboard singles were released by American Idol contestants in the shows first decade? 
+ Sentence: Various American Idol alumni had success on various record charts around the world; in the U.S. they had achieved 345 number ones on the Billboard charts in its first ten years. [ID: 76758]
+ ##### 
+40. Question: What did the war in 1714 mandate as the proper language in documentation? 
+ Sentence: The Catalan defeat in the War of Spanish Succession (1714) initiated a series of measures imposing the use of Spanish in legal documentation. [ID: 27517]
+ ##### 
+41. Question: When did Chopin die? 
+ Sentence: Frédéric François Chopin (/ˈʃoʊpæn/; French pronunciation: ​[fʁe.de.ʁik fʁɑ̃.swa ʃɔ.pɛ̃]; 22 February or 1 March 1810 – 17 October 1849), born Fryderyk Franciszek Chopin,[n 1] was a Polish and French (by citizenship and birth of father) composer and a virtuoso pianist of the Romantic era, who wrote primarily for the solo piano. [ID: 13453]
+ ##### 
+42. Question: In what century had mills such as gristmills and sawmills dominate the Islamic world? 
+ Sentence: The industrial uses of watermills in the Islamic world date back to the 7th century, while horizontal-wheeled and vertical-wheeled water mills were both in widespread use since at least the 9th century. [ID: 89994]
+ ##### 
+43. Question: What are the origins of the word madrasa? 
+ Sentence: Madrasa (Arabic: مدرسة‎, madrasah, pl. مدارس, madāris, Turkish: Medrese) is the Arabic word for any type of educational institution, whether secular or religious (of any religion). [ID: 35818]
+ ##### 
+44. Question: The rituals for the correct way to enjoy Mass is listed in what text ? 
+ Sentence: You are the glory of Jerusalem, you are the joy of Israel, you give honour to our people. [ID: 66527]
+ ##### 
+45. Question: After the constitutional changes made in what year did Tito reduce his role in the day-to-day running of the state. 
+ Sentence: After the constitutional changes of 1974, Tito began reducing his role in the day-to-day running of the state. [ID: 52309]
+ ##### 
+46. Question: What is one type of capacitor that has a specified rating value for maximum ripple current? 
+ Sentence: The equivalent series resistance (ESR) is the amount of internal series resistance one would add to a perfect capacitor to model this. [ID: 90463]
+ ##### 
+47. Question: Prominent Iranian writers during this time of the Islamic Golden Age contributed to what area of writing? 
+ Sentence: After the 10th century, Persian language, alongside Arabic, was used for the scientific, philosophical, historical, musical, and medical works, whereas the important Iranian writers, such as Tusi, Avicenna, Qotb od Din Shirazi, and Biruni, had major contributions in the scientific writing. [ID: 83684]
+ ##### 
+48. Question: What is the last step in the stemmatic method? 
+ Sentence: " But in fact, the critic employs conjecture at every step of the process. [ID: 93841]
+ ##### 
+49. Question: What radical MP did Victoria object to being appointed to the cabinet by Gladstone? 
+ Sentence: His government was weak, and the following year Lord Salisbury replaced him. [ID: 16338]
+ ##### 
+50. Question: How many users were affected by the increase in malware? 
+ Sentence: Initially, Apple support staff were instructed not to assist in the removal of the malware or admit the existence of the malware issue, but as the malware spread, a support document was issued. [ID: 70532]
+ ##### 
+51. Question: The MGM/UA-Turner deal concerned MGM films released prior to what date? 
+ Sentence: After the library was acquired, MGM/UA signed a deal with Turner to continue distributing the pre-May 1986 MGM and to begin distributing the pre-1950 Warner Bros. film libraries for video release (the rest of the library went to Turner Home Entertainment). [ID: 49565]
+ ##### 
+52. Question: What happened after the injunction was successful? 
+ Sentence: In September 2006, German officials seized MP3 players from SanDisk's booth at the IFA show in Berlin after an Italian patents firm won an injunction on behalf of Sisvel against SanDisk in a dispute over licensing rights. [ID: 73783]
+ ##### 
+53. Question: What grain is a staple for residents in the interior of Guinea-Bissau? 
+ Sentence: Black-eyed peas are also part of the diet. [ID: 81586]
+ ##### 
+54. Question: In which year was the study published that found biodiversity and genetic diversity are codependent? 
+ Sentence: " At present, the most threatened ecosystems are found in fresh water, according to the Millennium Ecosystem Assessment 2005, which was confirmed by the "Freshwater Animal Diversity Assessment", organised by the biodiversity platform, and the French Institut de recherche pour le développement (MNHNP). [ID: 40552]
+ ##### 
+55. Question: How do first order neurons enter the spinal cord? 
+ Sentence: The pain signal travels from the periphery to the spinal cord along an A-delta or C fiber. [ID: 64531]
+ ##### 
+56. Question: By what dentury did Buddhism disappear form much of India? 
+ Sentence: Although Buddhism did not disappear from India for several centuries after the eighth, royal proclivities for the cults of Vishnu and Shiva weakened Buddhism's position within the sociopolitical context and helped make possible its decline. [ID: 98142]
+ ##### 
+57. Question: The mercenary leaders became infamous in England for what? 
+ Sentence: These men included soldiers who would become infamous in England for their uncivilised behaviour, including Falkes de Breauté, Geard d'Athies, Engelard de Cigongé and Philip Marc. [ID: 57553]
+ ##### 
+58. Question: When did the Chinese government ban the purchase of Windows 8 products? 
+ Sentence: The Xinhua News Agency claimed that Windows 8 was being banned in protest of Microsoft's support lifecycle policy and the end of support for Windows XP (which, as of January 2014, had a market share of 49% in China), as the government "obviously cannot ignore the risks of running OS [sic] without guaranteed technical support." [ID: 94539]
+ ##### 
+59. Question: Who got emails asking him to boycott the torch relay? 
+ Sentence: Of the 80 torch-bearers in London, Sir Steve Redgrave, who started the relay, mentioned to the media that he had received e-mailed pleas to boycott the event and could "see why they would like to make an issue" of it. [ID: 57969]
+ ##### 
+60. Question: In what form is copper extracted? 
+ Sentence: Copper can also be recovered through the in-situ leach process. [ID: 50122]
+ ##### 
+61. Question: When was Mick Cornett first elected? 
+ Sentence: City Manager Jim Couch was appointed in late 2000. [ID: 41571]
+ ##### 
+62. Question: In what year did Jaun de Bermudez first reach Bermuda? 
+ Sentence: In 1609, the English Virginia Company, which had established Jamestown in Virginia (a term originally applied to all of the North American continent) two years earlier, permanently settled Bermuda in the aftermath of a hurricane, when the crew and passengers of the Sea Venture steered the ship onto the surrounding reef to prevent its sinking, then landed ashore. [ID: 29155]
+ ##### 
+63. Question: What is Kinect? 
+ Sentence: Five years after the Xbox 360's original debut, the well-received Kinect motion capture camera was released, which became the fastest selling consumer electronic device in history, and extended the life of the console. [ID: 78378]
+ ##### 
+64. Question: Where can you obtain information about the Sunshine Act? 
+ Sentence: In the US, starting in 2013, under the Physician Financial Transparency Reports (part of the Sunshine Act), the Centers for Medicare & Medicaid Services has to collect information from applicable manufacturers and group purchasing organizations in order to report information about their financial relationships with physicians and hospitals. [ID: 37973]
+ ##### 
+65. Question: When did Captain Damian de Esplana arrive? 
+ Sentence: After his arrival in 1674, Captain Damian de Esplana ordered the arrest of rebels who attacked the population of certain towns. [ID: 61284]
+ ##### 
+66. Question: What did Elizabeth's mother later say that Philip was? 
+ Sentence: In later life, however, she told biographer Tim Heald that Philip was "an English gentleman". [ID: 71038]
+ ##### 
+67. Question: What influences water evaporation on leaves? 
+ Sentence: Particularly since the mid-1960s there have been advances in understanding of the physics of plant physiological processes such as transpiration (the transport of water within plant tissues), the temperature dependence of rates of water evaporation from the leaf surface and the molecular diffusion of water vapour and carbon dioxide through stomatal apertures. [ID: 24620]
+ ##### 
+68. Question: Whitehead rejected the Cartesian idea in favor of what? 
+ Sentence: In this, he went against Descartes' separation of two different kinds of real existence, either exclusively material or else exclusively mental. [ID: 72357]
+ ##### 
+69. Question: Whose paleontology work in the 1790s established the reality of extinction? 
+ Sentence: His palæontological work in the 1790s had established the reality of extinction, which he explained by local catastrophes, followed by repopulation of the affected areas by other species. [ID: 46935]
+ ##### 
+70. Question: How are passenger cabs separated from the lift? 
+ Sentence: The passenger cabs, which are automated guided vehicles or AGVs, move into the vertical motion shaft and lock themselves in before the elevator starts moving vertically. [ID: 14814]
+ ##### 
+71. Question: What group lived in the area that were known for their red-on-brown pottery? 
+ Sentence: Tucson was probably first visited by Paleo-Indians, known to have been in southern Arizona about 12,000 years ago. [ID: 74476]
+ ##### 
+72. Question: How did the new Iranian government handle the rebellions and uprisings following their rise to power? 
+ Sentence: The immediate nationwide uprisings against the new government began by the 1979 Kurdish rebellion with the Khuzestan uprisings, along with the uprisings in Sistan and Baluchestan Province and other areas. [ID: 79056]
+ ##### 
+73. Question: Some of the kites remain at what National Historic Site? 
+ Sentence: The tetrahedral wings were named Cygnet I, II and III, and were flown both unmanned and manned (Cygnet I crashed during a flight carrying Selfridge) in the period from 1907–1912. [ID: 41452]
+ ##### 
+74. Question: What was the three Han Bannermen position called? 
+ Sentence: governed southern China autonomously as viceroys for the Qing after their conquests. [ID: 97640]
+ ##### 
+75. Question: In what year was this genome sequenced? 
+ Sentence: The genome or hereditary information contained in the genes of this species is encoded by about 135 million base pairs of DNA, forming one of the smallest genomes among flowering plants. [ID: 46838]
+ ##### 
+76. Question: States may grant their citizens border rights as long as they do not infringe on what? 
+ Sentence: Thus, most U.S. law (especially the actual "living law" of contract, tort, property, criminal, and family law experienced by the majority of citizens on a day-to-day basis) consists primarily of state law, which can and does vary greatly from one state to the next. [ID: 8026]
+ ##### 
+77. Question: Who were  the chief arbiters of the new world order? 
+ Sentence: The conclusion of the Great War and the resulting treaties of Versailles, St-Germain, Neuilly, Trianon and Sèvres witnessed the United Kingdom, France, Italy, Japan and the United States as the chief arbiters of the new world order. [ID: 37253]
+ ##### 
+78. Question: What was the specialty of great Pietho and what is famous for ? 
+ Sentence: That new notion of nationhood engendered a deep interest in the classical past culminating in the ideas of the Neoplatonist philosopher Gemistus Pletho, who abandoned Christianity. [ID: 3097]
+ ##### 
+79. Question: When was the Third Great Awakening? 
+ Sentence: The Third Great Awakening refers to a hypothetical historical period that was marked by religious activism in American history and spans the late 1850s to the early 20th century. [ID: 42328]
+ ##### 
+80. Question: Where is the National Museum of Visual Arts located? 
+ Sentence: In back of the museum is a beautiful Japanese Garden with a pond where there are over a hundred carp. [ID: 38808]
+ ##### 
+81. Question: How many times did Sumerian farmers plow, harrow and rake the ground? 
+ Sentence: Next they made oxen stomp the ground and kill weeds. [ID: 38070]
+ ##### 
+82. Question: Who was thought to have founded Cork? 
+ Sentence: Cork was originally a monastic settlement, reputedly founded by Saint Finbarr in the 6th century. [ID: 84921]
+ ##### 
+83. Question: Along with uniting the lekhitic tribes what did poland succeed in? 
+ Sentence: Mieszko I of Poland (c. 935 – 25 May 992) established an elite knightly retinue from within his army, which he depended upon for success in uniting the Lekhitic tribes and preserving the unity of his state. [ID: 83101]
+ ##### 
+84. Question: How much more money did Spectre make during its first weekend in China than Skyfall? 
+ Sentence: In its second weekend, it added $12.1 million falling precipitously by 75% which is the second worst second weekend drop for any major Hollywood release in China of 2015. [ID: 35057]
+ ##### 
+85. Question: How could a merchant prevent having to register as one? 
+ Sentence: Unlike slaves, retainers could come and go from their master's home as they pleased. [ID: 41478]
+ ##### 
+86. Question: The more pressure applied to the handle caused what? 
+ Sentence: Pushing the handle forward would cause the cab to rise; backwards would make it sink. [ID: 21773]
+ ##### 
+87. Question: What happened in 1878 that played a role in San Diego's economic growth? 
+ Sentence: In the late 1860s, Alonzo Horton promoted a move to the bayside area, which he called "New Town" and which became Downtown San Diego. [ID: 25391]
+ ##### 
+88. Question: Napoleon's decision to reinstate what practice in France's overseas colonies has caused controversy regarding his reputation? 
+ Sentence: His critics charge that he was not significantly troubled when faced with the prospect of war and death for thousands, turned his search for undisputed rule into a series of conflicts throughout Europe and ignored treaties and conventions alike. [ID: 59767]
+ ##### 
+89. Question: What verse in the quran expresses the necessity to the appointment of the prophets? 
+ Sentence: That is Allah Must assign someone similar to prophet in his attributes and Ismah as his successor to guide the people without any deviation in religion. [ID: 24239]
+ ##### 
+90. Question: What are two main groups prokaryotes can be divided into? 
+ Sentence: These evolutionary domains are called Bacteria and Archaea. [ID: 58633]
+ ##### 
+91. Question: What date does Japan consider the end of the Pacific War? 
+ Sentence: However, as Imperial Japan actually surrendered on 15 August, this day became known in the English-speaking countries as "V-J Day" (Victory in Japan). [ID: 104175]
+ ##### 
+92. Question: There is high percentage of interracial marriage between what two groups? 
+ Sentence: Numerous immigrants have come as merchants and become a major part of the business community, including Lebanese, Indians, and other West African nationals. [ID: 14933]
+ ##### 
+93. Question: Who did the Bronx vote against for mayor in 2005? 
+ Sentence: The Bronx was thus the only borough not carried by the successful Republican re-election campaigns of Mayors Rudolph Giuliani in 1997 and Michael Bloomberg in 2005. [ID: 40827]
+ ##### 
+94. Question: How do the other gospels describe Jesus' last words? 
+ Sentence: Raymond Brown likewise comments that he finds 'no persuasive argument against attributing to the Jesus of Mark/Matt the literal sentiment of feeling forsaken expressed in the Psalm quote'. [ID: 76426]
+ ##### 
+95. Question: What was the fate of the other partners of the Universal Film Manufacturing Company? 
+ Sentence: Eventually all would be bought out by Laemmle. [ID: 100213]
+ ##### 
+96. Question: What percentage of New Haven's economy is based in services grounded in health care and education? 
+ Sentence: Yale and Yale-New Haven are also among the largest employers in the state, and provide more $100,000+-salaried positions than any other employer in Connecticut.[citation needed] [ID: 18108]
+ ##### 
+97. Question: What did the court rule outlawing polygamy was? 
+ Sentence: Considering this, the court ruled that outlawing polygamy was constitutional. [ID: 22856]
+ ##### 
+98. Question: Where is Nigeria's second satellite's ground receiving station? 
+ Sentence: NigeriaSat-2, Nigeria's second satellite, was built as a high-resolution earth satellite by Surrey Space Technology Limited, a United Kingdom-based satellite technology company. [ID: 96761]
+ ##### 
+99. Question: Who directed 'Batman'? 
+ Sentence: The film earned generally positive reviews and was another box office success, becoming the highest grossing film worldwide that year; its total box office receipts even topped those of Tim Burton's much-anticipated film Batman, which had been the bigger hit domestically. [ID: 61744]
+ ##### 
+100. Question: What artist performed the song "Forget You"? 
+ Sentence: A popular trend in this era was remixing dance music hits into adult contemporary ballads, especially in the US, (for example, the "Candlelight Mix" versions of "Heaven" by DJ Sammy, "Listen To Your Heart" by D.H.T., and "Everytime We Touch" by Cascada). [ID: 66502]
+ ##### 
+101. Question: What can be made from plant matter composed primarily of inedible celllose fibers thta form the stems and branches of most plants? 
+ Sentence: Cellulosic ethanol can be made from plant matter composed primarily of inedible cellulose fibers that form the stems and branches of most plants. [ID: 89166]
+ ##### 
+102. Question: For best fidelity to the source, the transmitted field ratio, lines, and frame rate should match what? 
+ Sentence: The optimum format for a broadcast depends upon the type of videographic recording medium used and the image's characteristics. [ID: 40631]
+ ##### 
+103. Question: What is the observed continuum for sexual orientation? 
+ Sentence: There is no substantive evidence which suggests parenting or early childhood experiences play a role when it comes to sexual orientation. [ID: 64725]
+ ##### 
+104. Question: Who provided the majority of funds for his concert tour in London? 
+ Sentence: This tour was suggested to him by his Scottish pupil Jane Stirling and her elder sister. [ID: 2001]
+ ##### 
+105. Question: What was the first microbrewery to set up shop in Richmond? 
+ Sentence: Richmond is also fast-becoming known for its food scene, with several restaurants in the Fan, Church Hill, Jackson Ward and elsewhere around the city generating regional and national attention for their fare. [ID: 83519]
+ ##### 
+106. Question: What type of software is stored in a BIOS chip? 
+ Sentence: Firmware is the technology which has the combination of both hardware and software such as BIOS chip inside a computer. [ID: 32150]
+ ##### 
+107. Question: What city is Dell's Minnesota facility in? 
+ Sentence: Dell facilities in the United States are located in Austin, Texas; Plano, Texas; Nashua, New Hampshire; Nashville, Tennessee; Oklahoma City, Oklahoma; Peoria, Illinois; Hillsboro, Oregon (Portland area); Winston-Salem, North Carolina; Eden Prairie, Minnesota (Dell Compellent); Bowling Green, Kentucky; Lincoln, Nebraska; and Miami, Florida. [ID: 56962]
+ ##### 
+108. Question: High-rise buildings may be restricted to prevent obstruction of what views? 
+ Sentence: High-rise development is restricted at certain sites if it would obstruct protected views of St Paul's Cathedral and other historic buildings. [ID: 57262]
+ ##### 
+109. Question: What is the name of the lighthouse that is located on the Atlantic City coast? 
+ Sentence: In Boardwalk Empire: The Birth, High Times, and Corruption of Atlantic City, "Atlantic City's Godfather" Nelson Johnson describes the inspiration of Dr. Jonathan Pitney (the "Father of Atlantic City") to develop Atlantic City as a health resort, his efforts to convince the municipal authorities that a railroad to the beach would be beneficial, his successful alliance with Samuel Richards (entrepreneur and member of the most influential family in southern New Jersey at the time) to achieve that goal, the actual building of the railroad, and the experience of the first 600 riders, who "were chosen carefully by Samuel Richards and Jonathan Pitney": [ID: 34786]
+ ##### 
+110. Question: Who did Schwarzenegger finally endorse in the 2008 Republican primary? 
+ Sentence: Schwarzenegger's endorsement in the Republican primary of the 2008 U.S. presidential election was highly sought; despite being good friends with candidates Rudy Giuliani and Senator John McCain, Schwarzenegger remained neutral throughout 2007 and early 2008. [ID: 79906]
+ ##### 
+111. Question: Who created an office to study these effects? 
+ Sentence: On 5 February 1987, the Minister of National Defence created an office to study the impact of employing men and women in combat units. [ID: 77583]
+ ##### 
+112. Question: WHo established an elite knightly retinue? 
+ Sentence: Documented proof exists of Mieszko I's successors utilizing such a retinue, as well. [ID: 22675]
+ ##### 
+113. Question: What was the last 78 released in the UK by RCA? 
+ Sentence: The last Presley single released on 78 in the United States was RCA Victor 20-7410 [ID: 32682]
+ ##### 
+114. Question: What happened to Bishop leaders who did not agree with the doctrine? 
+ Sentence: Mild measures were agreed on for those heretic bishops who repented, but severe penance was decreed for the chief leaders of the major heresies. [ID: 52401]
+ ##### 
+115. Question: During 1979-2015, Legislative Assembly terms lasted no longer than how many years? 
+ Sentence: From 1979 to 2015, a Legislative Assembly was elected by popular vote for terms of not more than three years, although legislation passed by the Australian Parliament could extend its laws to the territory at will, including the power to override any laws made by the assembly. [ID: 78612]
+ ##### 
+116. Question: How many race options were there? 
+ Sentence: These include "Bi Racial, Combination, Everything, Many, Mixed, Multi National, Multiple, Several and Various". [ID: 41343]
+ ##### 
+117. Question: The local communities have accepted equinut because it is similar to what native recipe? 
+ Sentence: For example, the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) and the Aga Khan Foundation, trained women's groups to make equinut, a healthy and nutritional version of the traditional recipe di-dèguè (comprising peanut paste, honey and millet or rice flour). [ID: 38743]
+ ##### 
+118. Question: What compass point of Mesopotamia did the Hebrew Shinar refer to? 
+ Sentence: Hebrew Shinar, Egyptian Sngr, and Hittite Šanhar(a), all referring to southern Mesopotamia, could be western variants of Shumer. [ID: 68393]
+ ##### 
+119. Question: In what year would the original churches evolve into the Presbyterian Church in the United States of America? 
+ Sentence: In time, the presbytery would be joined by two more to form a synod (1717) and would eventually evolve into the Presbyterian Church in the United States of America in 1789. [ID: 7744]
+ ##### 
+120. Question: Where are glucose and galactose absorbed? 
+ Sentence: Lactase is an enzyme that breaks down the disaccharide lactose to its component parts, glucose and galactose. [ID: 83055]
+ ##### 
+121. Question: When might an individual experience shortness of breath? 
+ Sentence: These symptoms are likely induced by a massive surge of catecholamines from the sympathetic nervous system, which occurs in response to pain and the blood flow abnormalities that result from dysfunction of the heart muscle. [ID: 24117]
+ ##### 
+122. Question: Which verse in Luke states that Mary had "no relations with man" before Jesus' birth? 
+ Sentence: The authors of the Gospels of Matthew and Luke consider Jesus' conception not the result of intercourse and assert that Mary had "no relations with man" before Jesus' birth.[Mt 1:18] [ID: 15239]
+ ##### 
+123. Question: How did Henry the Young King die? 
+ Sentence: Henry the Young King fought a short war with his brother Richard in 1183 over the status of England, Normandy and Aquitaine. [ID: 95484]
+ ##### 
+124. Question: In modern times, from which year have children attended school in Galician? 
+ Sentence: The period since the re-establishment of democracy in Spain—in particular since the Lei de Normalización Lingüística ("Law of Linguistic Normalization", Ley 3/1983, 15 June 1983)—represents the first time since the introduction of mass education that a generation has attended school in Galician (Spanish is also still taught in Galician schools). [ID: 39445]
+ ##### 
+125. Question: Which is the tallest mountain in Sicily? 
+ Sentence: The tallest peak of the range is La Pizzuta, about 1,333 m (4,373 ft.) high. [ID: 13388]
+ ##### 
+126. Question: What label for the Greek market were artists on under the Sony umbrella? 
+ Sentence: In July 2013, Sony Music withdrew from the Greek market due to an economic crisis. [ID: 12102]
+ ##### 
+127. Question: What position is the gymnast when in the air? 
+ Sentence: The gymnast is allowed to choose where they start on the runway. [ID: 47024]
+ ##### 
+128. Question: what year did Dell stop selling products through physical retailers? 
+ Sentence: In 2007, Dell started shipping its products to major retailers in the U.S. once again, starting with Sam's Club and Wal-Mart. [ID: 44783]
+ ##### 
+129. Question: Are there any other areas of America Venezuelans settled in? 
+ Sentence: In the 2000s, more Venezuelans opposing the economic and political policies of president Hugo Chávez migrated to the United States (mostly to Florida, but New York City and Houston are other destinations). [ID: 12952]
+ ##### 
+130. Question: Did the bishops consider themselves Arians? 
+ Sentence: Moreover, many labelled "Arian" did not consider themselves followers of Arius. [ID: 34097]
+ ##### 
+131. Question: What is the head of each Municipio called? 
+ Sentence: As of 2010[update], the city of Montevideo has been divided into 8 political municipalities (Municipios), referred to with the letters from A to G, including CH, each presided over by a mayor elected by the citizens registered in the constituency. [ID: 98919]
+ ##### 
+132. Question: Did all the people want him as Patriarch? 
+ Sentence: In consequence of his recommendation, the bishops of all Egypt assembled at Alexandria, and finding the people and clergy unanimous in their choice of Athanasius for patriarch, they confirmed the election about the middle of year 326. [ID: 89502]
+ ##### 
+133. Question: In what internal publication was Comcast's union stance formally enumerated? 
+ Sentence: In 2011, Comcast received criticism from Writers Guild of America for its policies in regards to unions. [ID: 48644]
+ ##### 
+134. Question: How many buildings located in NYC are at least 330 feet in height? 
+ Sentence: As of 2011, New York City had 5,937 high-rise buildings, of which 550 completed structures were at least 330 feet (100 m) high, both second in the world after Hong Kong, with over 50 completed skyscrapers taller than 656 feet (200 m). [ID: 71561]
+ ##### 
+135. Question: For how long after Arsenal's first trophy win the team do poorly competitions? 
+ Sentence: This marked a premature high point of the decade; the Double-winning side was soon broken up and the following decade was characterised by a series of near misses, starting with Arsenal finishing as FA Cup runners up in 1972, and First Division runners-up in 1972–73. [ID: 8211]
+ ##### 
+136. Question: What type of pavement techniques had already been tried by a competitor of Claridge? 
+ Sentence: Indeed, mastic pavements had been previously employed at Vauxhall by a competitor of Claridge, but without success. [ID: 25266]
+ ##### 
+137. Question: What subdivision was associated with the province? 
+ Sentence: Two larger subdivisions appeared: the province (Estonian: kihelkond) and the land (Estonian: maakond). [ID: 100]
+ ##### 
+138. Question: What is the typical ethnicity of artists played on quiet storm stations? 
+ Sentence: A format called quiet storm is often included in urban adult contemporary, and is often played during the evening, blending the urban AC and soft AC styles of music. [ID: 36914]
+ ##### 
+139. Question: How many copper tokens were Issued in 1821? 
+ Sentence: In 1821, Saul Solomon issued a 70,560 copper tokens worth a halfpenny each Payable at St Helena by Solomon, Dickson and Taylor – presumably London partners – that circulated alongside the East India Company's local coinage until the Crown took over the island in 1836. [ID: 68387]
+ ##### 
+140. Question: What did a study done by Elizabeth Loftus and John palmer show? 
+ Sentence: The findings of this experiment were replicated around the world, and researchers consistently demonstrated that when people were provided with misleading information they tended to misremember, a phenomenon known as the misinformation effect. [ID: 85294]
+ ##### 
+141. Question: Who were the primary inhabitants of Sepphoris in the 3rd through 7th centuries? 
+ Sentence: In the center of the floor the zodiac wheel was depicted. [ID: 42317]
+ ##### 
+142. Question: What is the biggest school in Thuringia? 
+ Sentence: The University of Jena is the biggest amongst Thuringia's four universities and offers nearly every discipline. [ID: 53320]
+ ##### 
+143. Question: What does Olympic Air hold a silver ERA award for? 
+ Sentence: Between 1975 and 2009, Olympic Airways (known after 2003 as Olympic Airlines) was the country’s state-owned flag carrier, but financial problems led to its privatization and relaunch as Olympic Air in 2009. [ID: 49168]
+ ##### 
+144. Question: What is the most commonly practiced religion in the Congo? 
+ Sentence: Followers of Islam make up 1.6%, and this is primarily due to an influx of foreign workers into the urban centers. [ID: 50737]
+ ##### 
+145. Question: What is the 2000-watt society initiative designed to cut by more than half by 2050? 
+ Sentence: The agency is supporting the 2000-watt society initiative to cut the nation's energy use by more than half by the year 2050. [ID: 94362]
+ ##### 
+146. Question: When was the Republic of China founded? 
+ Sentence: The Xinhai Revolution led to the founding of the Republic of China in January 1912 with Sun Yat-sen as the first provisional president and Nanking was selected as its new capital. [ID: 92807]
+ ##### 
+147. Question: What is one example of how students can benefit from videoconferencing? 
+ Sentence: Videoconferencing provides students with the opportunity to learn by participating in two-way communication forums. [ID: 65671]
+ ##### 
+148. Question: Who built the COMPASS receiver? 
+ Sentence: The investigation of the transmitted signals started immediately after the launch of Compass -M1 on 14 April 2007. [ID: 102940]
+ ##### 
+149. Question: What name literally means "far-shooting?" 
+ Sentence: Apollo was called Ismenius (/ɪzˈmiːniəs/ iz-MEE-nee-əs; Ἰσμηνιός, Ismēnios, literally "of Ismenus") after Ismenus, the son of Amphion and Niobe, whom he struck with an arrow. [ID: 8458]
+ ##### 
+150. Question: What do Jonathon Israel claim caused the change that eventually led to the revolutions of the latter half of the 18th centure and early 19th century? 
+ Sentence: He instead focuses on the history of ideas in the period from 1650 to the end of the 18th century, and claims that it was the ideas themselves that caused the change that eventually led to the revolutions of the latter half of the 18th century and the early 19th century. [ID: 54347]
+ ##### 
+151. Question: When was a ruling handed down on the Mount Soledad cross controversy? 
+ Sentence: On December 20, 2005, the United States Court of Appeals for the Sixth Circuit ruled in the case of ACLU v. Mercer County that the continued display of the Ten Commandments as part of a larger display on American legal traditions in a Kentucky courthouse was allowed, because the purpose of the display (educating the public on American legal traditions) was secular in nature. [ID: 68130]
+ ##### 
+152. Question: What percentage range of uranium oxide is usually contained in low-grade uranium ore? 
+ Sentence: High-grade ores found in Athabasca Basin deposits in Saskatchewan, Canada can contain up to 23% uranium oxides on average. [ID: 75067]
+ ##### 
+153. Question: What do latinos consider a light skinned mulatto to be? 
+ Sentence: Multiracial Latinos have limited media appearance; critics have accused the U.S. Hispanic media of overlooking the brown-skinned indigenous and multiracial Hispanic and black Hispanic populations by over-representation of blond and blue/green-eyed white Hispanic and Latino Americans (who resemble Scandinavians and other Northern Europeans rather than they look like white Hispanic and Latino Americans mostly of typical Southern European features), and also light-skinned mulatto and mestizo Hispanic and Latino Americans (often deemed as white persons in U.S. Hispanic and Latino populations if achieving the middle class or higher social status), especially some of the actors on the telenovelas. [ID: 68936]
+ ##### 
+154. Question: What nation did the Land of Put have a close relationship with? 
+ Sentence: The ancient Puntites were a nation of people that had close relations with Pharaonic Egypt during the times of Pharaoh Sahure and Queen Hatshepsut. [ID: 72286]
+ ##### 
+155. Question: What does not include characters in the Chinese family? 
+ Sentence: Characters formed by Chinese principles in other languages include the roughly 1,500 Japanese-made kokuji given in the Kokuji no Jiten, the Korean-made gukja, the over 10,000 Sawndip characters still in use in Guangxi, and the almost 20,000 Nôm characters formerly used in Vietnam.[citation needed] [ID: 21156]
+ ##### 
+156. Question: Many deaths occurred before World War II due to what? 
+ Sentence: Nonetheless, the dramatic decrease in deaths from infectious diseases that occurred prior to World War II was primarily the result of improved public health measures such as clean water and less crowded housing, and the impact of anti-infective drugs and vaccines was significant mainly after World War II. [ID: 36468]
+ ##### 
+157. Question: What convent was close to the area where troops lived? 
+ Sentence: With the abolition of the charters of Valencia and most of its institutions, and the conformation of the kingdom and its capital to the laws and customs of Castile, top civil officials were no longer elected, but instead were appointed directly from Madrid, the king's court city, [ID: 72114]
+ ##### 
+158. Question: Where did Igor get warriors from after returning to Kiev after being drivin out by the Byzatines? 
+ Sentence: In 944 the Rus' force advanced again on the Greeks, by land and sea, and a Byzantine force from Cherson responded. [ID: 34665]
+ ##### 
+159. Question: What year did the Art institute of Charleston open? 
+ Sentence: Charleston is also the location for the only college in the country that offers bachelor's degrees in the building arts, The American College of the Building Arts. [ID: 60712]
+ ##### 
+160. Question: What Catholic group was Father Erdland a part of? 
+ Sentence: He published a small work in 1912 about the Catholic mission activities and the people of the Marshall Islands. [ID: 48351]
+ ##### 
+161. Question: When did a rescue team depart? 
+ Sentence: A rescue team from the Red Cross in Taiwan was also scheduled to depart Taipei on a Mandarin Airlines direct chartered flight to Chengdu at 15:00 CST on May 16. [ID: 6517]
+ ##### 
+162. Question: How does Alberta handle NPOs filing for incorporation? 
+ Sentence: Canada allows nonprofits to be incorporated or unincorporated. [ID: 54175]
+ ##### 
+163. Question: What counted for more of the population change? 
+ Sentence: Bern has a population of 140,634 people and 34% of the population are resident foreign nationals. [ID: 12901]
+ ##### 
+164. Question: If passengers don't want to take a train to the airport, what other transport is available? 
+ Sentence: Southampton Airport is a regional airport located in the town of Eastleigh, just north of the city. [ID: 11934]
+ ##### 
+165. Question: What was the focus of the Gucci Chime for Change campaign? 
+ Sentence: Beyoncé became an ambassador for the 2012 World Humanitarian Day campaign donating her song "I Was Here" and its music video, shot in the UN, to the campaign. [ID: 10290]
+ ##### 
+166. Question: The precise way this temporal structure helps code for pitch at higher levels is based on what? 
+ Sentence: The precise way this temporal structure helps code for pitch at higher levels is still debated, but the processing seems to be based on an autocorrelation of action potentials in the auditory nerve. [ID: 66583]
+ ##### 
+167. Question: What US officer led the troops who were destroyed at Little Big Horn? 
+ Sentence: The main role of the Army was to keep indigenous peoples on reservations and to end their wars against settlers and each other, William Tecumseh Sherman and Philip Sheridan were in charge. [ID: 26343]
+ ##### 
+168. Question: How much ad revenue goes to the original uploader of the youtube video if they're in the partner program? 
+ Sentence: In May 2007, YouTube launched its Partner Program, a system based on AdSense which allows the uploader of the video to share the revenue produced by advertising on the site. [ID: 16413]
+ ##### 
+169. Question: For modern solid wood doors, what wood is often used in addition to small-knotted pine or poplar? 
+ Sentence: In Medieval Europe oak was the wood of choice for all wood construction, including beams, walls, doors, and floors. [ID: 48831]
+ ##### 
+170. Question: In 1829 on a trip back to Berlin Chopin was a guest of who? 
+ Sentence: In September 1828 Chopin, while still a student, visited Berlin with a family friend, zoologist Feliks Jarocki, enjoying operas directed by Gaspare Spontini and attending concerts by Carl Friedrich Zelter, Felix Mendelssohn and other celebrities. [ID: 8968]
+ ##### 
+171. Question: What did Reagan wrongly believe Libya to be? 
+ Sentence: In 1981, the new US President Ronald Reagan pursued a hard line approach to Libya, erroneously considering it a puppet regime of the Soviet Union. [ID: 80502]
+ ##### 
+172. Question: What is Antarctica topographically ? 
+ Sentence: Antarctica is a frozen desert with little precipitation; the South Pole itself receives less than 10 cm (4 in) per year, on average. [ID: 73000]
+ ##### 
+173. Question: When did Beyoncé receive the Legend Award? 
+ Sentence: She has also received the Legend Award at the 2008 World Music Awards and the Billboard Millennium Award at the 2011 Billboard Music Awards. [ID: 15192]
+ ##### 
+174. Question: How much of the population left after 1950? 
+ Sentence: This has slowed the city's 40-year population decline after it lost nearly one-quarter of its population. [ID: 12754]
+ ##### 
+175. Question: Gautama invented a new kind of human without what? 
+ Sentence: While he searched for enlightenment, Gautama combined the yoga practice of his teacher Kalama with what later became known as "the immeasurables".[dubious – discuss] [ID: 31745]
+ ##### 
+176. Question: When did America establish the Environmental Protection Agency? 
+ Sentence: A study of USA pesticide use trends through 1997 was published in 2003 by the National Science Foundation's Center for Integrated Pest Management. [ID: 66524]
+ ##### 
+177. Question: What game development company completely disagreed with Kotick's statements in The Times interview? 
+ Sentence: Kotick received heavy criticism for the statement, notably from developer Bioware who questioned the wisdom of the threatened move, and referred to the statement as "silly." [ID: 17381]
+ ##### 
+178. Question: What year did Mali gain independence as the Mali Federation? 
+ Sentence: French Sudan (then known as the Sudanese Republic) joined with Senegal in 1959, achieving independence in 1960 as the Mali Federation. [ID: 84086]
+ ##### 
+179. Question: What station first introduced the tagline "everyone at work can agree on"? 
+ Sentence: The format can be seen as a more contemporary successor to and combination of the middle of the road (MOR), beautiful music, easy listening and soft rock formats. [ID: 35821]
+ ##### 
+180. Question: Why did the CTRC send out a bulletin to broadcasters? 
+ Sentence: On December 16, 2010, some months after the CRTC issued a bulletin reminding broadcasters that analog transmitters had to be shut off by the deadline in mandatory markets, the CBC revised the documents accompanying its August 6, 2010 news release to state that it had the money for and is striving to transition all 27 transmitters by August 31, 2011. [ID: 19577]
+ ##### 
+181. Question: In 1884 about how many bison remained? 
+ Sentence: Some estimates say there were over 13 million bison in Montana in 1870. [ID: 2404]
+ ##### 
+182. Question: Who was Dell's main business rival? 
+ Sentence: It avoided many of the acquisition writedowns and management turnover that plagued its chief rival Hewlett Packard. [ID: 18391]
+ ##### 
+183. Question: What does schlachtan mean in german? 
+ Sentence: Early Polish historians thought the term may have derived from the name of the legendary proto-Polish chief, Lech, mentioned in Polish and Czech writings. [ID: 62811]
+ ##### 
+184. Question: What was the German-Soviet dividing line in regards to annexing Poland? 
+ Sentence: That night, Stalin replied that the Soviets were willing to sign the pact and that he would receive Ribbentrop on 23 August. [ID: 97589]
+ ##### 
+185. Question: How many basic emotions did Ekman recognize? 
+ Sentence: His research findings led him to classify six emotions as basic: anger, disgust, fear, happiness, sadness and surprise. [ID: 2215]
+ ##### 
+186. Question: How many commercial airports did the British Airports Authority originally operate? 
+ Sentence: Most of the world's airports are owned by local, regional, or national government bodies who then lease the airport to private corporations who oversee the airport's operation. [ID: 7871]
+ ##### 
+187. Question: Excess zinc has what effect on plants? 
+ Sentence: Zinc-deficient soil is cultivated in the cropland of about half of Turkey and India, a third of China, and most of Western Australia, and substantial responses to zinc fertilization have been reported in these areas. [ID: 26043]
+ ##### 
+188. Question: What was the goal of England's colony in Guiana? 
+ Sentence: An attempt to establish a colony in Guiana in 1604 lasted only two years, and failed in its main objective to find gold deposits. [ID: 71956]
+ ##### 
+189. Question: What could the sun's energy do to help limit climate change? 
+ Sentence: In 2011, a report by the International Energy Agency found that solar energy technologies such as photovoltaics, solar hot water and concentrated solar power could provide a third of the world’s energy by 2060 if politicians commit to limiting climate change. [ID: 6715]
+ ##### 
+190. Question: What is the fertility rate among orthodox Jewish families? 
+ Sentence: Among Orthodox Jews, the fertility rate stands at about 4.1 children per family, as compared to 1.9 children per family among non-Orthodox Jews, and intermarriage among Orthodox Jews is practically non-existent, standing at about 2%, in contrast to a 71% intermarriage rate among non-Orthodox Jews. [ID: 33671]
+ ##### 
+191. Question: When was the first documented translation efforts by foreign Buddhist monks in China? 
+ Sentence: The Silk Road transmission of Buddhism to China is most commonly thought to have started in the late 2nd or the 1st century CE, though the literary sources are all open to question.[note 41] [ID: 24503]
+ ##### 
+192. Question: When were the Anglo-Maratha Wars fought? 
+ Sentence: The Company soon expanded its territories around its bases in Bombay and Madras; the Anglo-Mysore Wars (1766–1799) and later the Anglo-Maratha Wars (1772–1818) led to control of the vast regions of India. [ID: 57259]
+ ##### 
+193. Question: Where does Oklahoma rank by population? 
+ Sentence: Its residents are known as Oklahomans, or informally "Okies", and its capital and largest city is Oklahoma City. [ID: 51759]
+ ##### 
+194. Question: In what library can the book New York, culture capital of the world, 1940–1965 be found? 
+ Sentence: In describing New York, author Tom Wolfe said, "Culture just seems to be in the air, like part of the weather." [ID: 93515]
+ ##### 
+195. Question: Instead of being allowed to set numerical targets, what did the Court rule that universities are allowed to do? 
+ Sentence: In 1978, the Supreme Court ruled in Bakke v. Regents that public universities (and other government institutions) could not set specific numerical targets based on race for admissions or employment. [ID: 11712]
+ ##### 
+196. Question: Was the third volume of the first edition deemed sufficient? 
+ Sentence: Thus was born the FARMS Critical Text Project which published the first volume of the 3-volume Book of Mormon Critical Text in 1984. [ID: 73108]
+ ##### 
+197. Question: There was disagreement between universities and scientists over schools focusing on science, and the idea of what? 
+ Sentence: The divergence between those focused on science and those still entrenched in the idea of a general scholar exacerbated the epistemological tensions that were already beginning to emerge. [ID: 55836]
+ ##### 
+198. Question: Where did anti-semitic attitude spread primarily? 
+ Sentence: Anti-Semitic attitudes became widespread, particularly in London. [ID: 58958]
+ ##### 
+199. Question: What is zinc coated with to influence the look of pennies? 
+ Sentence: The zinc core is coated with a thin layer of copper to give the impression of a copper coin. [ID: 65281]
+ ##### 
+200. Question: What is an issue of reporting pain specific to Asians? 
+ Sentence: Many Asians do not want to lose respect in society by admitting they are in pain and need help, believing the pain should be borne in silence, while other cultures feel they should report pain right away and get immediate relief. [ID: 1049]
+ ##### 
+201. Question: What was one adverse condition that characterized early versions of the console? 
+ Sentence: The earliest versions of the console suffered from a high failure rate, indicated by the so-called "Red Ring of Death", necessitating an extension of the device's warranty period. [ID: 20466]
+ ##### 
+202. Question: What year was the Banská Akadémia founded? 
+ Sentence: University has launched the first book of electrotechnics in the world. [ID: 84307]
+ ##### 
+203. Question: How many cancer patients has Daisy detected? 
+ Sentence: A Labrador Retriever called Daisy has detected 551 cancer patients with an accuracy of 93 percent and received the Blue Cross (for pets) [ID: 77849]
+ ##### 
+204. Question: What is the natural cycle of hydrogen production and consumption by organisms called? 
+ Sentence: The natural cycle of hydrogen production and consumption by organisms is called the hydrogen cycle. [ID: 59130]
+ ##### 
+205. Question: According to Nicholas Kaldor, what had Hayek's book created? 
+ Sentence: Others who responded negatively to Hayek's work on the business cycle included John Hicks, Frank Knight, and Gunnar Myrdal. [ID: 14560]
+ ##### 
+206. Question: What is the earliest English usage of the term Brytish Illes? 
+ Sentence: Owing to political and national associations with the word British, the Government of Ireland does not use the term British Isles and in documents drawn up jointly between the British and Irish governments, the archipelago is referred to simply as "these islands". [ID: 50445]
+ ##### 
+207. Question: What other modern material has joined composites, carbon fiber, titanium, and aluminum to replace wood in the manufacture of sporting equipment? 
+ Sentence: Many other types of sports and recreation equipment, such as skis, ice hockey sticks, lacrosse sticks and archery bows, were commonly made of wood in the past, but have since been replaced with more modern materials such as aluminium, fiberglass, carbon fiber, titanium, and composite materials. [ID: 15417]
+ ##### 
+208. Question: Where does wood come from? 
+ Sentence: Where there are clear seasons, growth can occur in a discrete annual or seasonal pattern, leading to growth rings; these can usually be most clearly seen on the end of a log, but are also visible on the other surfaces. [ID: 87045]
+ ##### 
+209. Question: From what mystical lineage does this name benefactor ascend from ? 
+ Sentence: In Greek mythology, Hellen, the patriarch of Hellenes, was son of Pyrrha and Deucalion, who ruled around Phthia, the only survivors after the great deluge. [ID: 56547]
+ ##### 
+210. Question: How many units of the Famicom were sold in Japan by the beginning of 1985? 
+ Sentence: The American video game press was skeptical that the console could have any success in the region, with the March 1985 issue of Electronic Games magazine stating that "the videogame market in America has virtually disappeared" and that "this could be a miscalculation on Nintendo's part." [ID: 99709]
+ ##### 
+211. Question: Why does an ISP need to pay an upstream ISP? 
+ Sentence: An upstream ISP usually has a larger network than the contracting ISP or is able to provide the contracting ISP with access to parts of the Internet the contracting ISP by itself has no access to. [ID: 2666]
+ ##### 
+212. Question: The Crete ecoregion is known as what? 
+ Sentence: Phytogeographically, Greece belongs to the Boreal Kingdom and is shared between the East Mediterranean province of the Mediterranean Region and the Illyrian province of the Circumboreal Region. [ID: 36211]
+ ##### 
+213. Question: On what date did the peace conference on Staten Island occur? 
+ Sentence: The only attempt at a peaceful solution to the war took place at the Conference House on Staten Island between American delegates, including Benjamin Franklin, and British general Lord Howe on September 11, 1776. [ID: 92967]
+ ##### 
+214. Question: What item did Lee give the actor Gregory Peck after portraying Atticus Finch? 
+ Sentence: Lee's father died before the film's release, and Lee was so impressed with Peck's performance that she gave him her father's pocketwatch, which he had with him the evening he was awarded the Oscar for best actor. [ID: 23813]
+ ##### 
+215. Question: What suburb is located on the southwest? 
+ Sentence: Major suburbs include Midlothian to the southwest, Glen Allen to the north and west, Short Pump to the west and Mechanicsville to the northeast. [ID: 46501]
+ ##### 
+216. Question: What is the current international unit of time? 
+ Sentence: Currently, the international unit of time, the second, is defined by measuring the electronic transition frequency of caesium atoms (see below). [ID: 89471]
+ ##### 
+217. Question: How did sarmatism effect szlachta culture? 
+ Sentence: Sarmatism served to integrate the multi-ethnic nobility as it created an almost nationalistic sense of unity and pride in the szlachta's "Golden Liberty" (złota wolność). [ID: 35029]
+ ##### 
+218. Question: What does a passive infrared sensor react to? 
+ Sentence: Passive infrared sensors react to changes in heat, such as the pattern created by a moving person. [ID: 91297]
+ ##### 
+219. Question: What kind of movement interfaced with the sword in Twilight Princess? 
+ Sentence: When the third-person view was restored, Aonuma thought it felt strange to swing the Wii Remote with the right hand to control the sword in Link's left hand, so the entire Wii version map was mirrored.[p] [ID: 81203]
+ ##### 
+220. Question: How does nucleoid look? 
+ Sentence: The phylum Planctomycetes and candidate phylum Poribacteria may be exceptions to the general absence of internal membranes in bacteria, because they appear to have a double membrane around their nucleoids and contain other membrane-bound cellular structures. [ID: 94346]
+ ##### 
+221. Question: What did Bell rework to send music? 
+ Sentence: After setting up his workshop, Bell continued experiments based on Helmholtz's work with electricity and sound. [ID: 19833]
+ ##### 
+222. Question: Who is the only person to ever become a cardinal king? 
+ Sentence: Cardinal Richelieu's power was so great that he was for many years effectively the ruler of France. [ID: 14626]
+ ##### 
+223. Question: Who assisted CAR in avoiding war? 
+ Sentence: On 12 June 2008, the Central African Republic requested assistance from the UN Peacebuilding Commission, which was set up in 2005 to help countries emerging from conflict avoid devolving back into war or chaos. [ID: 99911]
+ ##### 
+224. Question: What research university is located in Midtown? 
+ Sentence: The University of Detroit Mercy School of Law is located Downtown across from the Renaissance Center. [ID: 43764]
+ ##### 
+225. Question: When did One Thousand and One Nights first get translated in the West? 
+ Sentence: All Arabian fantasy tales tend to be called Arabian Nights stories when translated into English, regardless of whether they appear in The Book of One Thousand and One Nights or not. [ID: 56502]
+ ##### 
+226. Question: What was the name of the state founded in Libya on March 2, 1977? 
+ Sentence: On 2 March 1977 the General People's Congress adopted the "Declaration of the Establishment of the People's Authority" at Gaddafi's behest. [ID: 94557]
+ ##### 
+227. Question: Where in Eritrea can puff adder and red spitting cobra be found? 
+ Sentence: Puff adder and red spitting cobra are widespread and can be found even in the highlands. [ID: 60661]
+ ##### 
+228. Question: Not only are most residents of the island members of the Anglican communion, but what else? 
+ Sentence: The 150th anniversary of the diocese was celebrated in June 2009. [ID: 74496]
+ ##### 
+229. Question: What did the new constitution require for voter registration? 
+ Sentence: Exclusion from voting had wide effects: it meant that black Americans could not serve on juries or in any local office. [ID: 85262]
+ ##### 
+230. Question: In what decade did movie theaters become popular? 
+ Sentence: Big multiplex movie theaters have been built since the 1990s. [ID: 9106]
+ ##### 
+231. Question: How much faster do Red knots and dunlins fly in a flock? 
+ Sentence: Geese in a V-formation may conserve 12–20% of the energy they would need to fly alone. [ID: 24581]
+ ##### 
+232. Question: In what New Haven landmark was the 2009 Robert De Niro movie, Everybody's Fine, filmed? 
+ Sentence: In Everybody's Fine (2009), Robert De Niro has a close encounter in what is supposed to be the Denver train station; the scene was filmed in New Haven's Union Station. [ID: 30175]
+ ##### 
+233. Question: What fares do most pubs offer? 
+ Sentence: Most pubs offer a range of beers, wines, spirits, and soft drinks and snacks. [ID: 69915]
+ ##### 
+234. Question: What sports complex was shuttered in New Haven by the DeStefano administration in 2002? 
+ Sentence: When John DeStefano, Jr., became mayor of New Haven in 1995, he outlined a plan to transform the city into a major cultural and arts center in the Northeast, which involved investments in programs and projects other than sports franchises. [ID: 75841]
+ ##### 
+235. Question: What kind of property is copyright used for? 
+ Sentence: However, copyright is a type of intellectual property, an area of law distinct from that which covers robbery or theft, offenses related only to tangible property. [ID: 4683]
+ ##### 
+236. Question: Which street is the northernmost of the streets mapped in the Commissioner's Plan of 1811? 
+ Sentence: 155th Street is a major crosstown street considered to form the boundary between Harlem and Washington Heights. [ID: 75887]
+ ##### 
+237. Question: What was the name of the company that held the patents from Edison's research? 
+ Sentence: During 1889, Thomas Edison had business interests in many electricity-related companies: Edison Lamp Company, a lamp manufacturer in East Newark, New Jersey; Edison Machine Works, a manufacturer of dynamos and large electric motors in Schenectady, New York; Bergmann & Company, a manufacturer of electric lighting fixtures, sockets, and other electric lighting devices; and Edison Electric Light Company, the patent-holding company and the financial arm backed by J.P. Morgan and the Vanderbilt family for Edison's lighting experiments. [ID: 2031]
+ ##### 
+238. Question: What device is used to transform infrared radiation into an electric current? 
+ Sentence: The receiver uses a silicon photodiode to convert the infrared radiation to an electric current. [ID: 53337]
+ ##### 
+239. Question: What term is used for the act of using Church of Scientology techniques in contrast to what Hubbard envisioned? 
+ Sentence: The Religious Technology Center has prosecuted breakaway groups that have practiced Scientology outside the official Church without authorization. [ID: 89295]
+ ##### 
+240. Question: Who led the German expansion? 
+ Sentence: After Christianization, the Roman Catholic Church and local rulers led German expansion and settlement in areas inhabited by Slavs and Balts, known as Ostsiedlung. [ID: 41788]
+ ##### 
+241. Question: What have a and e done in eastern dialects? 
+ Sentence: There are a few other differences in pronunciation, verbal morphology, and vocabulary. [ID: 75578]
+ ##### 
+242. Question: What level of finality do mathematicians try to reach with math concepts? 
+ Sentence: Mathematicians often strive for a complete classification (or list) of a mathematical notion. [ID: 56702]
+ ##### 
+243. Question: Assuming iSuppli got the numbers right, how much of a loss did Sony take for every 20 GB PS3 sold in the U.S.? 
+ Sentence: PlayStation 3's initial production cost is estimated by iSuppli to have been US$805.85 for the 20 GB model and US$840.35 for the 60 GB model. [ID: 86115]
+ ##### 
+244. Question: What drug does Nigeria ship from Asia to Europe and America? 
+ Sentence: Nigeria is home to a substantial network of organised crime, active especially in drug trafficking. [ID: 54819]
+ ##### 
+245. Question: How many wells has Tucson stopped using since 2001? 
+ Sentence: To prevent further loss of groundwater, Tucson has been involved in water conservation and groundwater preservation efforts, shifting away from its reliance on a series of Tucson area wells in favor of conservation, consumption-based pricing for residential and commercial water use, and new wells in the more sustainable Avra Valley aquifer, northwest of the city. [ID: 63345]
+ ##### 
+246. Question: What other areas has wrestling garnered interest from? 
+ Sentence: With its growing popularity, professional wrestling has attracted attention as a subject of serious academic study and journalistic criticism. [ID: 95974]
+ ##### 
+247. Question: How are the words bitumen and asphalt frequently used? 
+ Sentence: Common usage often refers to various forms of asphalt/bitumen as "tar", such as at the La Brea Tar Pits. [ID: 58932]
+ ##### 
+248. Question: The value quoted here for the Planck constant is based on a measurement in what year? 
+ Sentence: The CODATA value quoted here is based on three watt-balance measurements of KJ2RK and one inter-laboratory determination of the molar volume of silicon, but is mostly determined by a 2007 watt-balance measurement made at the U.S. National Institute of Standards and Technology (NIST). [ID: 15710]
+ ##### 
+249. Question: What is added to to increase ability for reception? 
+ Sentence: Most AM broadcast radios (except for car radios) take advantage of this principle by including a small loop antenna for reception which has an extremely poor efficiency. [ID: 50144]
+ ##### 
+250. Question: To ensure a minimum density of signal transitions  remains in the bitsream, what does USB use? 
+ Sentence: To ensure a minimum density of signal transitions remains in the bitstream, USB uses bit stuffing; an extra 0 bit is inserted into the data stream after any appearance of six consecutive 1 bits. [ID: 74744]
+ ##### 
+251. Question: What was the result of the fury of Europe? 
+ Sentence: The only significant Austrian success was the partial occupation of Silesia. [ID: 86852]
+ ##### 
+252. Question: The Sustainable Development Goals are intended to change the world over what time period? 
+ Sentence: These goals are designed to eliminate poverty, discrimination, abuse and preventable deaths, address environmental destruction, and usher in an era of development for all people, everywhere. [ID: 78851]
+ ##### 
+253. Question: Which film beat 'Saving Private Ryan' worldwide? 
+ Sentence: The film was a huge box office success, grossing over $481 million worldwide and was the biggest film of the year at the North American box office (worldwide it made second place after Michael Bay's Armageddon). [ID: 84104]
+ ##### 
+254. Question: Who proposed the idea of the Latin: vis viva? 
+ Sentence: The modern analog of this property, kinetic energy, differs from vis viva only by a factor of two. [ID: 92094]
+ ##### 
+255. Question: The Two highest advertising agencies in the world located in NYC are called what? 
+ Sentence: The city's fashion industry provides approximately 180,000 employees with $11 billion in annual wages. [ID: 71194]
+ ##### 
+256. Question: What did the Federal Aviation Agency change it's name to? 
+ Sentence: The FAA administrator would no longer report directly to the president but would instead report to the Secretary of Transportation. [ID: 60732]
+ ##### 
+257. Question: How many houses was the Swiss national assembly divided into? 
+ Sentence: Thus, while the rest of Europe saw revolutionary uprisings, the Swiss drew up a constitution which provided for a federal layout, much of it inspired by the American example. [ID: 89894]
+ ##### 
+258. Question: What caused the Qing armies to lose many battles? 
+ Sentence: Zeng Guofan's strategy was to rely on local gentry to raise a new type of military organization from those provinces that the Taiping rebels directly threatened. [ID: 53932]
+ ##### 
+259. Question: When did this revival period begin? 
+ Sentence: In parallel, however, the 19th century saw a Catalan literary revival (Renaixença), which has continued up to the present day. [ID: 17944]
+ ##### 
+260. Question: How is the ECB held accountable for it's actions? 
+ Sentence: To offer some accountability, the ECB is bound to publish reports on its activities and has to address its annual report to the European Parliament, the European Commission, the Council of the European Union and the European Council. [ID: 79975]
+ ##### 
+261. Question: How many millimeters of rain fall on Miami annually? 
+ Sentence: Much of the year's 55.9 inches (1,420 mm) of rainfall occurs during this period. [ID: 10679]
+ ##### 
+262. Question: What water sport is popular in the city? 
+ Sentence: Boathouse Row is a symbol of Philadelphia's rich rowing history, and each Big Five member has its own boathouse. [ID: 104417]
+ ##### 
+263. Question: When was the People's Republic of China founded? 
+ Sentence: Nevertheless, a Zhejiang accent is detectable in almost everyone from the area communicating in Mandarin, and the home dialect remains an important part of the everyday lives and cultural identities of most Zhejiang residents. [ID: 32356]
+ ##### 
+264. Question: Besides ring-porous, what's the other class hardwoods are often divided into? 
+ Sentence: In discussing such woods it is customary to divide them into two large classes, ring-porous and diffuse-porous. [ID: 79158]
+ ##### 
+265. Question: What was the largest brewing company in the world in 2015? 
+ Sentence: In 2004 the Belgian Interbrew was the third largest brewery by volume and the Brazilian AmBev was the fifth largest. [ID: 12857]
+ ##### 
+266. Question: What's the common name of polytetrafluoroethylene? 
+ Sentence: There are quite a few different dielectrics that can be chosen to provide different insulating values depending on the requirements of the circuit. [ID: 47543]
+ ##### 
+267. Question: What determines the properties of speed and torque? 
+ Sentence: The shape of the rotor bars determines the speed-torque characteristics. [ID: 11466]
+ ##### 
+268. Question: Where do bar-tailed godwits migrate to? 
+ Sentence: Some bar-tailed godwits Limosa lapponica have the longest known non-stop flight of any migrant, flying 11,000 km from Alaska to their New Zealand non-breeding areas. [ID: 52875]
+ ##### 
+269. Question: Which original judge was a choreographer? 
+ Sentence: American Idol employs a panel of judges who critique the contestants' performances. [ID: 76076]
+ ##### 
+270. Question: What is the earliest known angiosperm? 
+ Sentence: The earliest known macrofossil confidently identified as an angiosperm, Archaefructus liaoningensis, is dated to about 125 million years BP (the Cretaceous period), whereas pollen considered to be of angiosperm origin takes the fossil record back to about 130 million years BP. [ID: 62577]
+ ##### 
+271. Question: What company did Hilleman later work for? 
+ Sentence: Early progress toward the development of vaccines occurred throughout this period, primarily in the form of academic and government-funded basic research directed toward the identification of the pathogens responsible for common communicable diseases. [ID: 102802]
+ ##### 
+272. Question: What city in the east of Entre Rios province is considered the most important one for the Carnival? 
+ Sentence: In Argentina, the most representative Carnival performed is the so-called Murga, although other famous Carnivals, more like Brazil's, are held in Argentine Mesopotamia and the North-East. [ID: 50344]
+ ##### 
+273. Question: What was the name of the other company that SME merged with? 
+ Sentence: Out of the "Big Three" record companies, with Universal Music Group being the largest and Warner Music Group, SME is middle-sized. [ID: 26867]
+ ##### 
+274. Question: What is the oldest law school in Chicago? 
+ Sentence: In the 1870s and 1880s, Northwestern affiliated itself with already existing schools of law, medicine, and dentistry in Chicago. [ID: 74773]
+ ##### 
+275. Question: How did slave states react to Lincoln's election? 
+ Sentence: After the election of Abraham Lincoln in 1860 (who southerners thought would work to end slavery) states in the South seceded from the United States, beginning with South Carolina in late 1860. [ID: 96879]
+ ##### 
+276. Question: What was the lead single for the Dreamgirls soundtrack? 
+ Sentence: To promote the film, Beyoncé released "Listen" as the lead single from the soundtrack album. [ID: 88959]
+ ##### 
+277. Question: Along with romantic and sexual relationships, family and work, what do soft adult contemporary songs sometimes discuss? 
+ Sentence: It often deals with modern romantic and sexual relationships (and sometimes other adult themes such as work, raising children, and family) in a thoughtful and complex way. [ID: 19390]
+ ##### 
+278. Question: How many square miles is Oklahoma City? 
+ Sentence: The total area is 3.09 percent water. [ID: 96168]
+ ##### 
+279. Question: What are some of the authorized head dresses for the CAF? 
+ Sentence: The beret is probably the most widely worn headgear and is worn with almost all orders of dress (with the exception of the more formal orders of Navy and Air Force dress), and the colour of which is determined by the wearer's environment, branch, or mission. [ID: 10464]
+ ##### 
+280. Question: Where was John buried? 
+ Sentence: His body was escorted south by a company of mercenaries and he was buried in Worcester Cathedral in front of the altar of St Wulfstan. [ID: 3140]
+ ##### 
+281. Question: In the film Evita, who did Madonna play? 
+ Sentence: For a long time, Madonna had desired to play Perón and wrote to director Alan Parker to explain why she would be perfect for the part. [ID: 85334]
+ ##### 
+282. Question: What did the Pangaean supercontinent consisted of what during the Paleozoic Era? 
+ Sentence: In the Paleozoic Era the Pangaean supercontinent consisted of a single tectonic plate; it broke into separate plates during the Mesozoic Era and the Tethys sea developed between Laurasia and Gondwana during the Jurassic Period. [ID: 78465]
+ ##### 
+283. Question: IBM sold its personal computer business to what company? 
+ Sentence: A year later IBM launched Secure Blue, a low-cost hardware design for data encryption that can be built into a microprocessor. [ID: 90556]
+ ##### 
+284. Question: What aspect does Alister McGrath argue is important in Christianity? 
+ Sentence: Christian theologian Alister McGrath writes that there are good reasons to suggest that a "personal god" is integral to the Christian outlook, but that one has to understand it is an analogy. [ID: 1226]
+ ##### 
+285. Question: Who is in charge of the day to day operation of the CIA? 
+ Sentence: The Executive Director is in charge of the day to day operation of the CIA, and each branch of the service has its own Director. [ID: 72524]
+ ##### 
+286. Question: What areas does the Brown School Library have represented scholars? 
+ Sentence: Many of the faculty have training in both social work and public health. [ID: 64334]
+ ##### 
+287. Question: Which philosopher argued that without belief in a God who punishes evil, the moral order of society was undermined? 
+ Sentence: Many others like Voltaire held that without belief in a God who punishes evil, the moral order of society was undermined. [ID: 32476]
+ ##### 
+288. Question: A score-centric approach strictly emphasizes what? 
+ Sentence: Some of this controversy relates to the fact that this score-centric approach has led to performances that emphasize metrically strict block-rhythms (just as the music is notated in the score). [ID: 91874]
+ ##### 
+289. Question: What was the main thing the contracts were had to do with? 
+ Sentence: The role of architect was usually one with that of master mason, or Magister lathomorum as they are sometimes described in contemporary documents. [ID: 45718]
+ ##### 
+290. Question: Who sets database access? 
+ Sentence: Database access control deals with controlling who (a person or a certain computer program) is allowed to access what information in the database. [ID: 77411]
+ ##### 
+291. Question: What responsibilities so Presbyterians have? 
+ Sentence: Above the sessions exist presbyteries, which have area responsibilities. [ID: 53658]
+ ##### 
+292. Question: Who created the astrolabe? 
+ Sentence: In astronomy, Muḥammad ibn Jābir al-Ḥarrānī al-Battānī improved the precision of the measurement of the precession of the Earth's axis. [ID: 98265]
+ ##### 
+293. Question: What term refers to another way in which dialects are distinguished from languages? 
+ Sentence: Another occasionally used criterion for discriminating dialects from languages is that of linguistic authority, a more sociolinguistic notion. [ID: 59325]
+ ##### 
+294. Question: Who wrote the screenplay for the 1962 film? 
+ Sentence: It was adapted into an Oscar-winning film in 1962 by director Robert Mulligan, with a screenplay by Horton Foote. [ID: 14517]
+ ##### 
+295. Question: What does the AR in Marvel AR stand for? 
+ Sentence: Marvel discontinued its Marvel Adventures imprint in March 2012, and replaced them with a line of two titles connected to the Marvel Universe TV block. [ID: 34990]
+ ##### 
+296. Question: Why did Kim's war plan need revising? 
+ Sentence: Kim was concerned that South Korean agents had learned about the plans and South Korean forces were strengthening their defenses. [ID: 79803]
+ ##### 
+297. Question: How do the senses affect causal efficacy? 
+ Sentence: " It is, in other words, the sense of causal relations between entities, a feeling of being influenced and affected by the surrounding environment, unmediated by the senses. [ID: 104018]
+ ##### 
+298. Question: In Iran's western Zagros Basin, temperatures do not exceed what level during the summer? 
+ Sentence: To the west, settlements in the Zagros basin experience lower temperatures, severe winters with below zero average daily temperatures and heavy snowfall. [ID: 60400]
+ ##### 
+299. Question: An EEG of the brain stands for what? 
+ Sentence: EEG recordings, along with recordings made from electrodes implanted inside the brains of animals such as rats, show that the brain of a living animal is constantly active, even during sleep. [ID: 60133]
+ ##### 
+300. Question: Where does the CCIRC post regular cyber security bulletins? 
+ Sentence: Public Safety Canada’s Canadian Cyber Incident Response Centre (CCIRC) is responsible for mitigating and responding to threats to Canada’s critical infrastructure and cyber systems. [ID: 55065]
+ ##### 
+301. Question: Tito had cordial relations with the United States and what other Western area? 
+ Sentence: Relations with the United States and Western European nations were generally cordial. [ID: 64747]
+ ##### 
+302. Question: How many million people died from the Black Death? 
+ Sentence: The death toll was probably about 35 million people in Europe, about one-third of the population. [ID: 16748]
+ ##### 
+303. Question: What was Marwan II's name before he became caliph? 
+ Sentence: In 739 a major Berber Revolt broke out in North Africa, which was subdued only with difficulty, but it was followed by the collapse of Umayyad authority in al-Andalus. [ID: 98626]
+ ##### 
+304. Question: Who wrote the Catholic Church's Condemnation of 1277? 
+ Sentence: However, many scholars agree with Duhem's view that the Middle Ages were a period of important scientific developments. [ID: 76453]
+ ##### 
+305. Question: What type of work did Paul Vi finish that had been started by two previous popes? 
+ Sentence: He took on himself the unfinished reform work of these two popes, bringing them diligently with great humility and common sense and without much fanfare to conclusion. [ID: 27386]
+ ##### 
+306. Question: In agreement with NATO members, the US Air Force and which country has created tactics for air defence suppression? 
+ Sentence: It is an arms race; as better jamming, countermeasures and anti-radiation weapons are developed, so are better SAM systems with ECCM capabilities and the ability to shoot down anti-radiation missiles and other munitions aimed at them or the targets they are defending. [ID: 102610]
+ ##### 
+307. Question: When did Turkey begin to use the Gregorian calendar for fiscal means? 
+ Sentence: From 1 March 1917 the fiscal year became Gregorian, rather than Julian. [ID: 66346]
+ ##### 
+308. Question: Where was the formation of the Liberal party officially announced? 
+ Sentence: The formation of the party was formally announced at Sydney Town Hall on 31 August 1945. [ID: 33391]
+ ##### 
+309. Question: Name the 3 public radio stations? 
+ Sentence: The first commercial broadcasting radio stations appeared in 1922: first WIP, then owned by Gimbel's department store, on March 17, followed the same year by WFIL, WOO, WCAU and WDAS. [ID: 19473]
+ ##### 
+310. Question: What is the name of the Residential College that houses students with an interest in science and engineering? 
+ Sentence: Among the residential colleges are the Residential College of Cultural and Community Studies (CCS), Ayers College of Commerce and Industry, Jones Residential College (Arts), and Slivka Residential College (Science and Engineering). [ID: 18766]
+ ##### 
+311. Question: Procopius said Sclaveni and Antae were both called what? 
+ Sentence: Procopius wrote in 545 that "the Sclaveni and the Antae actually had a single name in the remote past; for they were both called Spori in olden times." [ID: 45201]
+ ##### 
+312. Question: Who expanded into the territory of hunter-gathers? 
+ Sentence: As the number and size of agricultural societies increased, they expanded into lands traditionally used by hunter-gatherers. [ID: 43163]
+ ##### 
+313. Question: What is the goal of Smart Bodies? 
+ Sentence: An example of a state initiative to promote nutrition literacy is Smart Bodies, a public-private partnership between the state’s largest university system and largest health insurer, Louisiana State Agricultural Center and Blue Cross and Blue Shield of Louisiana Foundation. [ID: 33112]
+ ##### 
+314. Question: During what period were artists like Anne Murray and Barbra Streisand featured on Top 40 radio? 
+ Sentence: By the early 1970s, softer songs by artists like The Carpenters, Anne Murray, John Denver, Barry Manilow, and even Streisand, began to be played more often on "Top 40" radio and others were added to the mix on many AC stations. [ID: 17648]
+ ##### 
+315. Question: When was the first Indian appointed as a Councillor? 
+ Sentence: The first step toward Indian self-rule was the appointment of councillors to advise the British viceroy in 1861 and the first Indian was appointed in 1909. [ID: 101044]
+ ##### 
+316. Question: What extra features do Xbox Live Gold members get? 
+ Sentence: Microsoft has allowed previous Xbox Live subscribers to maintain their profile information, friends list, and games history when they make the transition to Xbox Live Gold. [ID: 34194]
+ ##### 
+317. Question: What is the island under jurisdiction of? 
+ Sentence: The island is under the jurisdiction of the Territorial Clause of the U.S. Constitution, which has led to doubts about the finality of the Commonwealth status for Puerto Rico. [ID: 17493]
+ ##### 
+318. Question: What is it called if you mistake a reflection in a mirror for the real thing? 
+ Sentence: Presentational immediacy, on the other hand, is what is usually referred to as "pure sense perception", unmediated by any causal or symbolic interpretation, even unconscious interpretation. [ID: 83875]
+ ##### 
+319. Question: What was included in religious humanism that was similiar to other religion? 
+ Sentence: Religious humanism is an integration of humanist ethical philosophy with religious rituals and beliefs that centre on human needs, interests, and abilities. [ID: 38629]
+ ##### 
+320. Question: Who specifically leveled the allegations against The Sun? 
+ Sentence: In 2003 the paper was accused of racism by the Government over its criticisms of what it perceived as the "open door" policy on immigration. [ID: 96613]
+ ##### 
+321. Question: How many wildcards were chosen by the judges in season eight? 
+ Sentence: In season thirteen, there were thirty semifinalists, but only twenty semifinalists (ten for each gender) were chosen by the judges to perform on the live shows, with five in each gender and three wildcards chosen by the judges composing the final 13. [ID: 94946]
+ ##### 
+322. Question: What has demonstrated a history of sign use in the Yellow River valley? 
+ Sentence: However, because these marks occur singly, without any implied context, and are made crudely and simply, Qiu Xigui concluded that "we do not have any basis for stating that these constituted writing nor is there reason to conclude that they were ancestral to Shang dynasty Chinese characters. [ID: 17078]
+ ##### 
+323. Question: Who issued the Plan de Guadalupe? 
+ Sentence: In March 1914 Carranza traveled to Ciudad Juárez, which served as rebellion's capital for the remainder of the struggle with Huerta. [ID: 51695]
+ ##### 
+324. Question: Which society was Feynman elected to? 
+ Sentence: After three years devoted to the task, he produced a series of lectures that eventually became The Feynman Lectures on Physics. [ID: 89004]
+ ##### 
+325. Question: Why did Russia move towards the warmer ports of the Black Sea? 
+ Sentence: The goal was to promote year-round trade and a year-round navy.:11 Pursuit of this goal brought the emerging Russian state into conflict with the Ukrainian Cossacks and then with the Tatars of the Crimean Khanate and Circassians. [ID: 4797]
+ ##### 
+326. Question: Where in England were scenes shot that represented a location in Rome? 
+ Sentence: Filming temporarily returned to England to shoot scenes at Blenheim Palace in Oxfordshire, which stood in for a location in Rome, before moving on to the city itself for a five-week shoot across the city, with locations including the Ponte Sisto bridge and the Roman Forum. [ID: 57967]
+ ##### 
+327. Question: What song off of Kanye's fifth album was a hit internationally? 
+ Sentence: The record included the international hit "All of the Lights", and Billboard hits "Power", "Monster", and "Runaway", the latter of which accompanied a 35-minute film of the same name. [ID: 63713]
+ ##### 
+328. Question: On what OS was the YouTube Kids app available? 
+ Sentence: In February 2015, YouTube announced the launch of a new app specifically for use by children visiting the site, called YouTube Kids. [ID: 69560]
+ ##### 
+329. Question: Who commented on the nature of time in Book 11 of his confessions? 
+ Sentence: In Book 11 of his Confessions, St. Augustine of Hippo ruminates on the nature of time, asking, "What then is time? [ID: 63981]
+ ##### 
+330. Question: What remained popular in diplomatic, trade and journalistic circles? 
+ Sentence: "Near East" remained popular in diplomatic, trade and journalistic circles, but a variation soon developed among the scholars and the men of the cloth and their associates: "the Nearer East," reverting to the classical and then more scholarly distinction of "nearer" and "farther. [ID: 64270]
+ ##### 
+331. Question: What is the only barrier to withdrawal contained in many treaties? 
+ Sentence: As obligations in international law are traditionally viewed as arising only from the consent of states, many treaties expressly allow a state to withdraw as long as it follows certain procedures of notification. [ID: 21233]
+ ##### 
+332. Question: What fraction of land was under cultivate using the three-field system? 
+ Sentence: The development of a three-field rotation system for planting crops[AA] increased the usage of land from one half in use each year under the old two-field system to two-thirds under the new system, with a consequent increase in production. [ID: 44136]
+ ##### 
+333. Question: What new Portugese Africa's coastal towns were developed during the Scramble for Africa? 
+ Sentence: New coastal towns like Beira, Moçâmedes, Lobito, João Belo, Nacala and Porto Amélia were also founded. [ID: 23540]
+ ##### 
+334. Question: The immigration was in accordance to what? 
+ Sentence: The immigration was in accordance with the One Million Plan. [ID: 76676]
+ ##### 
+335. Question: When did same-sex marriages become legal in Spain? 
+ Sentence: I of Belgium, who had refused to sign the Belgian law legalising abortion. [ID: 94878]
+ ##### 
+336. Question: Besides improved tactics and training, what did Wenger add to the Arsenal team? 
+ Sentence: In addition, the club reached the final of the 1999–2000 UEFA Cup (losing on penalties to Galatasaray), were victorious in the 2003 and 2005 FA Cups, and won the Premier League in 2003–04 without losing a single match, an achievement which earned the side the nickname "The Invincibles". [ID: 54561]
+ ##### 
+337. Question: What are three characteristics that can be employed to characterize southern Europe? 
+ Sentence: Different methods can be used to define southern Europe, including its political, economic, and cultural attributes. [ID: 99008]
+ ##### 
+338. Question: What former presidential candidate teaches a seminar at Yale? 
+ Sentence: As of 2009, former Mexican President Ernesto Zedillo is the director of the Yale Center for the Study of Globalization and teaches an undergraduate seminar, "Debating Globalization". [ID: 87946]
+ ##### 
+339. Question: Where did the first relay runner disappear to with the torch?? 
+ Sentence: The relay descended into confusion as the first runner in the elaborately planned relay disappeared into a warehouse on a waterfront pier where it stayed for a half-an-hour. [ID: 15928]
+ ##### 
+340. Question: What major war stimulated the New Haven economy by way of industrial goods purchased through the New Haven Arms Company? 
+ Sentence: (Winchester would continue to produce arms in New Haven until 2006, and many of the buildings that were a part of the Winchester plant are now a part of the Winchester Repeating Arms Company Historic District.) [ID: 26714]
+ ##### 
+341. Question: What was the speed difference with new ENIAC? 
+ Sentence: Complicated programs could be developed and debugged in days rather than the weeks required for plugboarding the old ENIAC. [ID: 29224]
+ ##### 
+342. Question: Is the name more ancient than other group names in the area ? 
+ Sentence: It seems that the myth was invented when the Greek tribes started to separate from each other in certain areas of Greece and it indicates their common origin. [ID: 41031]
+ ##### 
+343. Question: What state is represented by the UO2+ 2 ion? 
+ Sentence: A few solid and semi-metallic compounds such as UO and US exist for the formal oxidation state uranium(II), but no simple ions are known to exist in solution for that state. [ID: 80007]
+ ##### 
+344. Question: What term is used for the act of using Church of Scientology techniques in contrast to what Hubbard envisioned? 
+ Sentence: The act of using Church of Scientology techniques in a form different than originally described by Hubbard is referred to within Scientology as "squirreling" and is said by Scientologists to be high treason. [ID: 99515]
+ ##### 
+345. Question: How large is the Alvorada? 
+ Sentence: The building has an area of 7,000 m2 with three floors consisting of the basement, landing, and second floor. [ID: 24126]
+ ##### 
+346. Question: What is Apple's prefered video standard? 
+ Sentence: This required YouTube's content to be transcoded into Apple's preferred video standard, H.264, a process that took several months. [ID: 11391]
+ ##### 
+347. Question: What did the mysteries seem to threaten that made the Romans occasionally attempt to ban them? 
+ Sentence: Imported mystery religions, which offered initiates salvation in the afterlife, were a matter of personal choice for an individual, practiced in addition to carrying on one's family rites and participating in public religion. [ID: 71206]
+ ##### 
+348. Question: What do comtemporary scholars think that post-punk actually did for music? 
+ Sentence: Contemporary scholars have argued to the contrary, asserting that the period produced significant innovations and music on its own. [ID: 37834]
+ ##### 
+349. Question: What is the essential difference in radio waves transmitted by an antenna? 
+ Sentence: The physical size of an antenna is often a practical issue, particularly at lower frequencies (longer wavelengths). [ID: 75475]
+ ##### 
+350. Question: How many people were employed by the Andhra Pradesh government in 2006? 
+ Sentence: As of 2006[update], the largest employers in the city were the governments of Andhra Pradesh (113,098 employees) and India (85,155). [ID: 100848]
+ ##### 
+351. Question: What are the first datings of Bronze artifacts from the Vinca culture? 
+ Sentence: This term has gradually fallen out of favor because in some parts of the world the Chalcolithic and Neolithic are coterminous at both ends. [ID: 60177]
+ ##### 
+352. Question: What type of literature does Tusiata Avia write? 
+ Sentence: Her first book of poetry Wild Dogs [ID: 66672]
+ ##### 
+353. Question: How fast did Sturgeon and Davenport's motors run? 
+ Sentence: The motors ran at up to 600 revolutions per minute, and powered machine tools and a printing press. [ID: 89818]
+ ##### 
+354. Question: Who composed GE's slogan "Imagination at work?"? 
+ Sentence: The changes included a new corporate color palette, small modifications to the GE logo, a new customized font (GE Inspira) and a new slogan, "Imagination at work", composed by David Lucas, to replace the slogan "We Bring Good Things to Life" used since 1979. [ID: 15552]
+ ##### 
+355. Question: Who raised the United States Volunteers? 
+ Sentence: In the first one hundred years of its existence, the United States Army was maintained as a small peacetime force to man permanent forts and perform other non-wartime duties such as engineering and construction works. [ID: 4307]
+ ##### 
+356. Question: How long before the quake did Cyclone Nargis strike Burma? 
+ Sentence: The Economist noted that China reacted to the disaster "rapidly and with uncharacteristic openness", contrasting it with Burma's secretive response to Cyclone Nargis, which devastated that country 10 days before the earthquake. [ID: 45444]
+ ##### 
+357. Question: What was the effect of the Rotavirus vaccine? 
+ Sentence: Similarly, a Cholera vaccine showed a strong reduction in morbidity and mortality, though the overall impact of vaccination was minimal as Cholera is not one of the major causative pathogens of diarrheal disease. [ID: 19507]
+ ##### 
+358. Question: The Germans recorded how many causualties in the battle? 
+ Sentence: The German Official History recorded 15,780 casualties and French casualties of 13,761 men. [ID: 49648]
+ ##### 
+359. Question: What business development did the British use to establish a hold on the global cotton market? 
+ Sentence: However, to produce a bale of cotton required over 600 hours of human labor, making large-scale production uneconomical in the United States, even with the use of humans as slave labor. [ID: 3066]
+ ##### 
+360. Question: How many MP did they get in the election in 1924? 
+ Sentence: The 1923 general election was fought on the Conservatives' protectionist proposals but, although they got the most votes and remained the largest party, they lost their majority in parliament, necessitating the formation of a government supporting free trade. [ID: 93011]
+ ##### 
+361. Question: When was Shen Kuo alive? 
+ Sentence: If not for Shen Kuo's writing, the architectural works of Yu Hao would be little known, along with the inventor of movable type printing, Bi Sheng (990-1051). [ID: 72090]
+ ##### 
+362. Question: How many aircraft did Britain produce in 1940? 
+ Sentence: The British produced 10,000 aircraft in 1940, in comparison to Germany's 8,000. [ID: 72433]
+ ##### 
+363. Question: When did they migrate to Israel? 
+ Sentence: In addition, Israel is home to over 5,000 members of the African Hebrew Israelites of Jerusalem movement that are descendants of African Americans who emigrated to Israel in the 20th century, and who reside mainly in a distinct neighborhood in the Negev town of Dimona. [ID: 92862]
+ ##### 
+364. Question: What is the ASCII based on? 
+ Sentence: ASCII includes definitions for 128 characters: 33 are non-printing control characters (many now obsolete) that affect how text and space are processed and 95 printable characters, including the space (which is considered an invisible graphic:223). [ID: 87160]
+ ##### 
+365. Question: Who was the CEO in 1914? 
+ Sentence: In 1924 the Quarter Century Club, which recognizes employees with 25 years of service, was organized and the first issue of Business Machines, IBM's internal publication, was published. [ID: 71432]
+ ##### 
+366. Question: Where are the major settlements in the ceremonial county located? 
+ Sentence: The north of the county is predominantly rural and sparsely populated, except for the towns of Lancaster and Morecambe which form a large conurbation of almost 100,000 people. [ID: 4023]
+ ##### 
+367. Question: Chinese Australian students were told to defend what against scum and separatists? 
+ Sentence: Foreign Minister Stephen Smith said Chinese officials were urging supporters to "turn up and put a point of view", but that he had no objection to it as long as they remained peaceful. [ID: 30441]
+ ##### 
+368. Question: What happens if the soverign doesn't sign the bill within the six-month time frame? 
+ Sentence: If the monarch fails to act within six months of the bill being presented to him, it becomes law without his signature. [ID: 78671]
+ ##### 
+369. Question: Which organization oversees several K-8 Parochial Schools? 
+ Sentence: Bishop England, Porter-Gaud School, and Ashley Hall are the city's oldest and most prominent private schools, and are a significant part of Charleston history, dating back some 150 years. [ID: 20615]
+ ##### 
+370. Question: What was reportedly the high value of of loot that the Ganj-i-Sawai had? 
+ Sentence: Ganj-i-Sawai carried enormous wealth and, according to contemporary East India Company sources, was carrying a relative of the Grand Mughal, though there is no evidence to suggest that it was his daughter and her retinue. [ID: 52407]
+ ##### 
+371. Question: What did women commonly have less of? 
+ Sentence: Women, although usually having fewer rights by custom, were allowed to level civil and criminal charges against men. [ID: 18174]
+ ##### 
+372. Question: Where did Braque and Gris stay until the end of the World War I? 
+ Sentence: Prior to 1914, Picasso, Braque, Gris and Léger (to a lesser extent) gained the support of a single committed art dealer in Paris, Daniel-Henry Kahnweiler, who guaranteed them an annual income for the exclusive right to buy their works. [ID: 87553]
+ ##### 
+373. Question: What were the alphabets of Southeast Asia? 
+ Sentence: The alphabets of Southeast Asia tended to be abugidas, until the arrival of the Europeans, who used words that also ended in consonants, not just vowels. [ID: 93034]
+ ##### 
+374. Question: Other than the ID3v1, which similar standard format for tag exists? 
+ Sentence: However, several de facto standards for tag formats exist. [ID: 80641]
+ ##### 
+375. Question: What other country has reduced its pesticide usage? 
+ Sentence: For example, Sweden has halved its use of pesticides with hardly any reduction in crops.[unreliable source?] [ID: 103153]
+ ##### 
+376. Question: Who partnered with Universal in the creation of Cinema International Corporation? 
+ Sentence: In the early 1970s, Universal teamed up with Paramount Pictures to form Cinema International Corporation, which distributed films by Paramount and Universal worldwide. [ID: 10449]
+ ##### 
+377. Question: Along with the Renaissance, what era occurred at the end of the Middle Ages? 
+ Sentence: It began with the collapse of the Western Roman Empire and merged into the Renaissance and the Age of Discovery. [ID: 79613]
+ ##### 
+378. Question: What was a full chest armor called? 
+ Sentence: A series of strips of kozane were then laced together with silk or leather lace and formed into a complete chest armor (dou or dō). [ID: 12462]
+ ##### 
+379. Question: When did Arsenal become based in Highbury? 
+ Sentence: In 2006, they moved to the Emirates Stadium in nearby Holloway. [ID: 100715]
+ ##### 
+380. Question: When was the Renaissance era? 
+ Sentence: Social dancing became more widespread, so musical forms appropriate to accompanying dance began to standardize. [ID: 45219]
+ ##### 
+381. Question: Where is the mined bitumen taken for refining? 
+ Sentence: After extraction from the sand, the bitumen is fed into a bitumen upgrader which converts it into a light crude oil equivalent. [ID: 34897]
+ ##### 
+382. Question: What year did IBM hire its first black salesman? 
+ Sentence: Also that year, IBM held its first training class for female systems service professionals. [ID: 50611]
+ ##### 
+383. Question: What happened after they decided agasint shifting? 
+ Sentence: The standards committee decided against shifting, and so ASCII required at least a seven-bit code.:215, 236 § 4 [ID: 9389]
+ ##### 
+384. Question: When did the Australian government end their review on Norfolk Island? 
+ Sentence: Disagreements over the island's relationship with Australia were put in sharper relief by a 2006 review undertaken by the Australian government. [ID: 63057]
+ ##### 
+385. Question: What are Florida's Mean temperatures in  late July 
+ Sentence: The climate of Florida is tempered somewhat by the fact that no part of the state is distant from the ocean. [ID: 28852]
+ ##### 
+386. Question: What model type do all of the lossy formats roughly depend on? 
+ Sentence: Among these, mp3PRO, AAC, and MP2 are all members of the same technological family as MP3 and depend on roughly similar psychoacoustic models. [ID: 75464]
+ ##### 
+387. Question: When was Nanking captured? 
+ Sentence: but then the city of Xuzhou was taken by Japanese in May. [ID: 93436]
+ ##### 
+388. Question: What are some examples of Armenian folk music instruments? 
+ Sentence: Instruments like the duduk, the dhol, the zurna, and the kanun are commonly found in Armenian folk music. [ID: 89500]
+ ##### 
+389. Question: What culture was well established by the 6th Century BC? 
+ Sentence: By the 6th century BC, the Celtic La Tène culture was well established. [ID: 43507]
+ ##### 
+390. Question: What do hydrides that are bridging ligands link up? 
+ Sentence: This function is particularly common in group 13 elements, especially in boranes (boron hydrides) and aluminium complexes, as well as in clustered carboranes. [ID: 87319]
+ ##### 
+391. Question: What band recorded "Keep On Loving You"? 
+ Sentence: Among the first were ZZ Top, who mixed hard blues rock with new wave music to produce a series of highly successful singles, beginning with "Gimme [ID: 19074]
+ ##### 
+392. Question: How many Jews lived in the Bronx in 1937? 
+ Sentence: Many synagogues still stand in the Bronx, but most have been converted to other uses. [ID: 65426]
+ ##### 
+393. Question: What is Neptune's atmosphere primarily composed of? 
+ Sentence: Like Jupiter and Saturn, Neptune's atmosphere is composed primarily of hydrogen and helium, along with traces of hydrocarbons and possibly nitrogen, but contains a higher proportion of "ices" such as water, ammonia, and methane. [ID: 82705]
+ ##### 
+394. Question: What states that energy tends to become more evenly spread out across the universe? 
+ Sentence: It would appear that living organisms are remarkably inefficient (in the physical sense) in their use of the energy they receive (chemical energy or radiation), and it is true that most real machines manage higher efficiencies. [ID: 37758]
+ ##### 
+395. Question: Why does a mass spectrometer need to be used with gauge to be accurate at high vacuum gas measurement? 
+ Sentence: The composition of gases at high vacuums will usually be unpredictable, so a mass spectrometer must be used in conjunction with the ionization gauge for accurate measurement. [ID: 35892]
+ ##### 
+396. Question: When was the autonomy of the municipalities eliminated? 
+ Sentence: While the Federal District was ruled by the federal government through an appointed governor, the municipalities within it were autonomous, and this duality of powers created tension between the municipalities and the federal government for more than a century. [ID: 44387]
+ ##### 
+397. Question: What party rose to power after 2011 resignation of Egypt leader? 
+ Sentence: Modern Egypt is considered to be a regional and middle power, with significant cultural, political, and military influence in North Africa, the Middle East and the Muslim world. [ID: 47432]
+ ##### 
+398. Question: A possible rebuttal to Gray's argument appears in Popper's reply to which philosopher? 
+ Sentence: Indeed, Popper wrote, several decades before Gray's criticism, in reply to a critical essay by Imre Lakatos: [ID: 28675]
+ ##### 
+399. Question: What were the people who used maps, blackboards, and mental calculation to ensure the safe separation of aircraft traveling between cities called? 
+ Sentence: As commercial flying increased, the Bureau encouraged a group of airlines to establish the first three centers for providing air traffic control (ATC) along the airways. [ID: 42859]
+ ##### 
+400. Question: When is the term 'German dialects' used in regard to the German language? 
+ Sentence: That allows them to be distinguished from the regional varieties of modern standard German. [ID: 20376]
+ ##### 
+401. Question: In what city did Montini finish his doctoral studies? 
+ Sentence: In 1925 he helped found the publishing house Morcelliana in Brescia, focused on promoting a 'Christian inspired culture'. [ID: 7082]
+ ##### 
+402. Question: When did the conquest of Tibet reach its peak? 
+ Sentence: He adds that the Ming court's lack of concern for Tibet was one of the reasons why the Mongols pounced on the chance to reclaim their old vassal of Tibet and "fill once more the political vacuum in that country. [ID: 75550]
+ ##### 
+403. Question: Who used Gothic details in construction of Tom Tower, Oxford? 
+ Sentence: In 1663 at the Archbishop of Canterbury's residence, Lambeth Palace, a Gothic hammerbeam roof was built to replace that destroyed when the building was sacked during the English Civil War. [ID: 52953]
+ ##### 
+404. Question: What were the perceived problems with the new Windows 8 user interface? 
+ Sentence: Despite these shortcomings, 60 million Windows 8 licenses have been sold through January 2013, a number which included both upgrades and sales to OEMs for new PCs. [ID: 57046]
+ ##### 
+405. Question: What was a common theme to post-punk music? 
+ Sentence: British music publications such as the NME and Sounds developed an influential part in this nascent post-punk culture, with writers like Jon Savage, Paul Morley and Ian Penman developing a dense (and often playful) style of criticism that drew on critical theory, radical politics and an eclectic variety of other sources. [ID: 46248]
+ ##### 
+406. Question: After his successful coup against the Directory, what political office did Napoleon assume? 
+ Sentence: Napoleon became "first consul" for ten years, with two consuls appointed by him who had consultative voices only. [ID: 52435]
+ ##### 
+407. Question: In what year was the seismometer first invented? 
+ Sentence: Zhang also invented a seismometer (Houfeng didong yi 候风地动仪) in 132 AD to detect the exact cardinal or ordinal direction of earthquakes from hundreds of kilometers away. [ID: 101648]
+ ##### 
+408. Question: Where were Monastic communities allowed to celebrate Mass in private? 
+ Sentence: Monastic communities were allowed to celebrate Mass in private from 1209 onwards, and late in 1212 the Holy Viaticum for the dying was authorised. [ID: 10840]
+ ##### 
+409. Question: "There's an app for that!",  what have been different technologies been created to do? 
+ Sentence: Today's hunters come from a broad range of economic, social, and cultural backgrounds. [ID: 28794]
+ ##### 
+410. Question: What order is the breakdown field strength for air dielectric capacitors of? 
+ Sentence: The dielectric is used in very thin layers and so absolute breakdown voltage of capacitors is limited. [ID: 7003]
+ ##### 
+411. Question: Who created the population factor e-E/kT? 
+ Sentence: A reaction is said to be exergonic if the final state is lower on the energy scale than the initial state; in the case of endergonic reactions the situation is the reverse. [ID: 14786]
+ ##### 
+412. Question: What was the first type of government that Libya had? 
+ Sentence: From childhood, Gaddafi was aware of the involvement of European colonialists in Libya; his nation was occupied by Italy, and during the North African Campaign of World War II it witnessed conflict between Italian and British troops. [ID: 75134]
+ ##### 
+413. Question: In what dance do the participants lob more than 75 tons of hard candy at each other? 
+ Sentence: On Dijous Gras, Vilanovin children are excused from school to participate in the Merengada, a day-long scene of eating and fighting with sticky, sweet meringue. [ID: 45095]
+ ##### 
+414. Question: When is the double indirect method of mosaic useful? 
+ Sentence: The double indirect method can be used when it is important to see the work during the creation process as it will appear when completed. [ID: 89518]
+ ##### 
+415. Question: What is a USB packet's end called? 
+ Sentence: This extra bit can also result in a "bit stuff violation" if the six bits before it in the CRC are 1s. [ID: 85729]
+ ##### 
+416. Question: What was the historic length of the boardwalk before the Great Atlantic Hurricane? 
+ Sentence: The historic length of the boardwalk, before the destructive 1944 Great Atlantic Hurricane, was about 7 miles (11 km) and it extended from Atlantic City to Longport, through Ventnor and Margate. [ID: 81373]
+ ##### 
+417. Question: What does the pain usually stem from with MI? 
+ Sentence: Pain radiates most often to the left arm, but may also radiate to the lower jaw, neck, right arm, back, and upper abdomen, where it may mimic heartburn. [ID: 859]
+ ##### 
+418. Question: What nation lies to the west of the Marshall Islands? 
+ Sentence: The islands are located about halfway between Hawaii and Australia, north of Nauru and Kiribati, east of the Federated States of Micronesia, and south of the U.S. territory of Wake Island, to which it lays claim. [ID: 101904]
+ ##### 
+419. Question: What is theavoidance of unwholesome actions and the cultivation of positive actions called? 
+ Sentence: actions produce "seeds" in the mind that come to fruition either in this life or in a subsequent rebirth. [ID: 89206]
+ ##### 
+420. Question: Who were the two National Assembly vice-presidents in Egypt? 
+ Sentence: Nasser gave each of the provinces two vice-presidents: Boghdadi and Amer in Egypt, and Sabri al-Asali and Akram al-Hawrani in Syria. [ID: 79555]
+ ##### 
+421. Question: A lamp with more energy in the yellow and red spectrum are known to be? 
+ Sentence: Lower color temperature lamps have relatively more energy in the yellow and red part of the visible spectrum, while high color temperatures correspond to lamps with more of a blue-white appearance. [ID: 45936]
+ ##### 
+422. Question: What type of policy is considered by some to be responsible for Rome's many military conflicts? 
+ Sentence: While they can be seen as motivated by outright aggression and imperialism, historians typically take a much more nuanced view. [ID: 94218]
+ ##### 
+423. Question: Until what century was Catalan used as the official language in Sardinia? 
+ Sentence: During this period, the language was what Costa Carreras terms "one of the 'great languages' of medieval Europe". [ID: 33126]
+ ##### 
+424. Question: An otherwise valid and agreed upon treaty may be rejected as what for several reasons most of which involve problems created at the formation of a treaty? 
+ Sentence: There are several reasons an otherwise valid and agreed upon treaty may be rejected as a binding international agreement, most of which involve problems created at the formation of the treaty.[citation needed] [ID: 20106]
+ ##### 
+425. Question: What is used a main source of light for a building during the day? 
+ Sentence: This can save energy in place of using artificial lighting, which represents a major component of energy consumption in buildings. [ID: 48780]
+ ##### 
+426. Question: In what year was IBM's first equal opportunity policy letter published? 
+ Sentence: The following year, IBM hosted its first Invention Award Dinner honoring 34 outstanding IBM inventors; and in 1963, the company named the first eight IBM Fellows in a new Fellowship Program that recognizes senior IBM scientists, engineers and other professionals for outstanding technical achievements. [ID: 65290]
+ ##### 
+427. Question: How many lumens per watt does a typical train light produce? 
+ Sentence: A lamp with the same rated lifetime but designed for 230 V would produce only around 12.8 lumens per watt, and a similar lamp designed for 30 volts (train lighting) would produce as much as 19.8 lumens per watt. [ID: 8118]
+ ##### 
+428. Question: On what date was ArenaBowl XXI played? 
+ Sentence: New Orleans Arena, home of the New Orleans VooDoo, served as the site of ArenaBowl XXI on July 29, 2007. [ID: 100157]
+ ##### 
+429. Question: Why was that? 
+ Sentence: The only seasons in recent times when this pattern was not followed were 1999–2000, when most rounds were played a few weeks earlier than normal as an experiment, and 2010–11 and 2012–13 when the FA Cup Final was played before the Premier League season had finished, to allow Wembley Stadium to be ready for the UEFA Champions League final, as well as in 2011–12 to allow England time to prepare for that summer's European Championships. [ID: 51292]
+ ##### 
+430. Question: What was the new sytle of mandolins inspired from? 
+ Sentence: At the very end of the 19th century, a new style, with a carved top and back construction inspired by violin family instruments began to supplant the European-style bowl-back instruments in the United States. [ID: 17561]
+ ##### 
+431. Question: How long is the Greek railway system? 
+ Sentence: A modern intercity rail connection between Athens and Thessaloniki has also been established, while an upgrade to double lines in many parts of the 2,500 km (1,600 mi) network is underway. [ID: 3859]
+ ##### 
+432. Question: In what year did Mahbub ul Haq devise and launch the HDI? 
+ Sentence: These were devised and launched by Pakistani economist Mahbub ul Haq in 1990 and had the explicit purpose "to shift the focus of development economics from national income accounting to people-centered policies". [ID: 27501]
+ ##### 
+433. Question: In which year did England win the FIFA World Cup for the first and only time? 
+ Sentence: England first appeared at the 1950 FIFA World Cup and have appeared in 14 FIFA World Cups, they are tied for sixth-best in terms of number of wins alongside France and Spain. [ID: 60824]
+ ##### 
+434. Question: What happened in June 1859? 
+ Sentence: On 14 January 1858, an Italian refugee from Britain called Orsini attempted to assassinate Napoleon III with a bomb made in England. [ID: 65660]
+ ##### 
+435. Question: Was Russia or Belarus first in their declaration? 
+ Sentence: The plan generated widespread complaints due to the dark of wintertime morning, and thus was abandoned in 2014. [ID: 83015]
+ ##### 
+436. Question: When was the Economic Society of Friends created? 
+ Sentence: (Societat Econòmica d'Amics del País) was founded in 1776; it introduced numerous improvements in agriculture and industry and promoted various cultural, civic, and economic institutions in Valencia. [ID: 96369]
+ ##### 
+437. Question: Who is credited with discovering Bermuda? 
+ Sentence: Bermuda was discovered in 1503 by Spanish explorer Juan de Bermúdez. [ID: 102484]
+ ##### 
+438. Question: What is the Gash Group? 
+ Sentence: Excavations in and near Agordat in central Eritrea yielded the remains of an ancient pre-Aksumite civilization known as the Gash Group. [ID: 100234]
+ ##### 
+439. Question: Who was the ruler at the begining of Kievan? 
+ Sentence: Vladimir the Great (980–1015) introduced Christianity with his own baptism and, by decree, that of all the inhabitants of Kiev and beyond. [ID: 91829]
+ ##### 
+440. Question: What were the names of the border territories assigned to the United Provinces? 
+ Sentence: They were Staats-Brabant (present North Brabant), Staats-Vlaanderen (present Zeeuws-Vlaanderen), Staats-Limburg (around Maastricht) and Staats-Oppergelre (around Venlo, after 1715). [ID: 40946]
+ ##### 
+441. Question: What wars took place during the late 18th century and early 19th century? 
+ Sentence: During the Napoleonic Wars in the late 18th century and early 19th century, Napoleon annexed territory formerly controlled by the Habsburgs and Savoys. [ID: 87389]
+ ##### 
+442. Question: Which stelae is considered the largest in the world, standing at 90 feet? 
+ Sentence: One of these granite columns, the obelisk of Aksum, is the largest such structure in the world, standing at 90 feet. [ID: 81147]
+ ##### 
+443. Question: Did Mexico play a part in the war? 
+ Sentence: Mexico, Free France and many other countries also took part, especially forces from other British colonies. [ID: 96537]
+ ##### 
+444. Question: From what did Chinese characters derive? 
+ Sentence: Cantonese is still the most commonly used language in Hong Kong, Macau and among some overseas Chinese communities, whereas Southern Min has been accepted in Taiwan as an important local language along with Mandarin. [ID: 25225]
+ ##### 
+445. Question: Who stated that this argument was in fact support of Humanism? 
+ Sentence: Nevertheless, philosopher Kate Soper notes that by faulting humanism for falling short of its own benevolent ideals, anti-humanism thus frequently "secretes a humanist rhetoric". [ID: 42314]
+ ##### 
+446. Question: What republic did the Karakalpak Autonomous Socialist Soviet Republic become a part of? 
+ Sentence: The Kazakh ASSR and Kirghiz ASSR were transformed into the Kazakh and Kirghiz Soviet Socialist Republics. [ID: 51931]
+ ##### 
+447. Question: Where did the last battle for Plymouth during the English Civil War end? 
+ Sentence: During the English Civil War Plymouth sided with the Parliamentarians and was besieged for almost four years by the Royalists. [ID: 78525]
+ ##### 
+448. Question: In 1947, what company did Universal buy a stake in? 
+ Sentence: Broadening its scope further, Universal-International branched out into the lucrative non-theatrical field, buying a majority stake in home-movie dealer Castle Films in 1947, and taking the company over entirely in 1951. [ID: 17775]
+ ##### 
+449. Question: What makes it difficult for clouds to form? 
+ Sentence: The area is located in the horse latitudes under the subtropical ridge, a significant belt of semi-permanent subtropical warm-core high pressure where the air from upper levels of the troposphere tends to sink towards the ground. [ID: 97233]
+ ##### 
+450. Question: When was the first Queen Bluray released? 
+ Sentence: In 2007, a Blu-ray edition of Queen's previously released concerts, Queen Rock Montreal & Live Aid, was released, marking their first project in 1080p HD. [ID: 19551]
+ ##### 
+451. Question: What was the name of the native people that lived in the southern parts of the British Isles during the Roman Empire occupation? 
+ Sentence: The Romans expanded their civilisation to control southern Great Britain but were impeded in advancing any further, building Hadrian's Wall to mark the northern frontier of their empire in 122 AD. [ID: 71813]
+ ##### 
+452. Question: What happened on BBC's Newsnight in 1998? 
+ Sentence: In exchange for Rupert Murdoch's support, Blair agreed not to join the European Exchange Rate Mechanism – which John Major had withdrawn the country from in September 1992 after barely two years. [ID: 62909]
+ ##### 
+453. Question: What do the Chinese say is the total number of shocks after the quake? 
+ Sentence: Between 64 and 104 major aftershocks, ranging in magnitude from 4.0 to 6.1, were recorded within 72 hours of the main quake. [ID: 36988]
+ ##### 
+454. Question: Which writing detailed Jesus' appearance before ascension? 
+ Sentence: According to the First Epistle to the Corinthians (1 Cor. 15:4), Jesus was raised from the dead ("on the third day" counting the day of crucifixion as the first) and according to the canonical Gospels, appeared to his disciples on different occasions before ascending to heaven. [ID: 95854]

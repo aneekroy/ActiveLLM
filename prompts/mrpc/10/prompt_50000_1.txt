@@ -1,0 +1,1199 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Sentence 1: Companies that fall under that definition are subject to much less stringent regulation . 
+ Sentence 2: Phone companies , which have argued that DSL should be subject to less regulation , had mixed reaction . [ID: 2681]
+ ##### 
+1. Sentence 1: After he was led into the execution chamber and strapped to a gurney , Swisher raised his head and appeared to smile as his spiritual adviser spoke to him . 
+ Sentence 2: After he was led into the execution chamber and strapped to a gurney , Swisher raised his head and appeared to smile as the prison chaplain spoke in his ear . [ID: 1587]
+ ##### 
+2. Sentence 1: Crossing Jordan will be back in January after star Jill Hennessy gives birth . 
+ Sentence 2: NBC also plans to shelve Crossing Jordan until January as star Jill Hennessy has her first child . [ID: 552]
+ ##### 
+3. Sentence 1: But it said that the Danish ban had been effective in reducing the spread among food animals . 
+ Sentence 2: But , in a 58-page report , WHO said the Danish ban had been effective in reducing the spread among food animals . [ID: 1453]
+ ##### 
+4. Sentence 1: The book , called " Lies and the Lying Liars Who Tell Them : A Fair and Balanced Look at the Right , " hits stores this weekend . 
+ Sentence 2: Fox was seeking an injunction to halt distribution of " Lies and the Lying Liars Who Tell Them : A Fair and Balanced Look at the Right . " [ID: 873]
+ ##### 
+5. Sentence 1: Disney has repeatedly said the " safety and enjoyment " of its guests were the reasons the company wanted the no-fly zones , and wants them maintained . 
+ Sentence 2: Disney spokeswoman Rena Callahan said the " safety and enjoyment " of its guests were the only reasons the company wanted the no-fly zones , and wants them kept in place . [ID: 1979]
+ ##### 
+6. Sentence 1: Two area lawmakers said Democrats might entice some Republicans to support a tax hike . 
+ Sentence 2: Two Inland Valley lawmakers revealed it might be possible for Democrats to entice some Republicans to support a tax hike . [ID: 3259]
+ ##### 
+7. Sentence 1: " To make sure that we avoided any perception of wrongdoing , we are not co-mingling appropriated and non-appropriated funds ( from Congress ) , " said Faletti . 
+ Sentence 2: " To make sure that we avoided any perception of wrongdoing , we are not comingling appropriated and nonappropriated funds [ from Congress ] , " said Faletti . [ID: 786]
+ ##### 
+8. Sentence 1: Yesterday , Taiwan reported 35 new infections , bringing the total number of cases to 418 . 
+ Sentence 2: The island reported another 35 probable cases yesterday , taking its total to 418 . [ID: 3133]
+ ##### 
+9. Sentence 1: Authorities in Alabama said the passage of time , and the transfer or retirement of some investigators , has not hurt their case . 
+ Sentence 2: Meantime , federal authorities in Alabama said the passage of time has not hurt their case against Rudolph . [ID: 3002]
+ ##### 
+10. Sentence 1: Aquila is short of cash , and Avon bondholders at one point feared it may default on interest payments . 
+ Sentence 2: Avon bondholders have no recourse to Midlands 's assets and at one point feared Aquila would default on interest payments . [ID: 3081]
+ ##### 
+11. Sentence 1: US troops encountered fire from rocket-propelled grenades , mortars , and small arms coming from bunkers and buildings . 
+ Sentence 2: The U.S. troops encountered fire from rocket propelled grenades , mortars and small arms originating from bunkers as well as within and atop surrounding buildings . [ID: 3378]
+ ##### 
+12. Sentence 1: " I think it should have been released years ago , " said Brian Rohrbough , whose son , Daniel , was killed at Columbine . 
+ Sentence 2: Brian Rohrbough , whose son , Daniel , was killed at Columbine , said the tape raises disturbing issues . [ID: 1237]
+ ##### 
+13. Sentence 1: Carlow and his group peddled drugs by forging paperwork showing the shipments ' prior owners . 
+ Sentence 2: The network peddled drugs by forging paperwork showing prior owners of the shipments . [ID: 1240]
+ ##### 
+14. Sentence 1: At 11 p.m. , Henri was centered about 70 miles southwest of St. Petersburg and was becoming disorganized as it drifted south at about 3 mph , forecasters said . 
+ Sentence 2: Henri was centered about 75 miles southwest of Cedar Key and was moving east-northeast at 5 mph , forecasters said . [ID: 2239]
+ ##### 
+15. Sentence 1: Details of the research appear in the Nov. 5 issue of the Journal of the American Medical Association . 
+ Sentence 2: The results , published in the Journal of the American Medical Association , involved just 47 heart attack patients . [ID: 570]
+ ##### 
+16. Sentence 1: Frank Quattrone , the former Credit Suisse First Boston technology investment-banking guru , reportedly pleaded not guilty Tuesday to charges of obstruction of justice and witness tampering . 
+ Sentence 2: NEW YORK - ( Dow Jones ) - Former star investment banker Frank Quattrone pleaded not guilty Tuesday to criminal charges of obstruction of justice and witness tampering . [ID: 775]
+ ##### 
+17. Sentence 1: " I can say I am being forced into exile by the world superpower , " he said . 
+ Sentence 2: " I am being forced into exile by the world 's superpower , " Taylor said in an address videotaped at his home . [ID: 1332]
+ ##### 
+18. Sentence 1: The federal and local governments remained largely shut down in the aftermath of Hurricane Isabel , as were schools , and much of the region 's transportation network was slowed . 
+ Sentence 2: In the aftermath of Hurricane Isabel , federal and local governments remained shut down , as did schools and many businesses . [ID: 892]
+ ##### 
+19. Sentence 1: He acted as an international executive producer on Who Wants to be a Millionaire and The Weakest Link . 
+ Sentence 2: A Melbourne TV producer who worked on shows including Who Wants To Be a Millionaire ? [ID: 611]
+ ##### 
+20. Sentence 1: The Senate 's proposal will need the support of the Democrat-led Assembly and Pataki to become law . 
+ Sentence 2: Even if the Senate approves the proposals , they would require the support of the Democrat-led Assembly and Gov. George Pataki to become law . [ID: 1287]
+ ##### 
+21. Sentence 1: First , it 's found in most versions of Windows , including the new Windows Server 2003 . 
+ Sentence 2: It is the first " critical " flaw discovered and fixed in the new Windows Server 2003 . [ID: 1608]
+ ##### 
+22. Sentence 1: " He died doing something he loved , " William Dusenbery , Sr. , who lives in Fairview Heights , just outside St. Louis , Mo . 
+ Sentence 2: " He died doing something he loved , which was flying his helicopters , " said the father , who lives in Fairview Heights , just outside St. Louis , Mo . [ID: 1600]
+ ##### 
+23. Sentence 1: They said the child was taken to Nassau County Medical Center for observation . 
+ Sentence 2: The boy was taken to Nassau University Medical Center , where staff said he was " doing okay . " [ID: 2812]
+ ##### 
+24. Sentence 1: Mr Hadley , who has a new partner and child , said : " I am absolutely delighted . 
+ Sentence 2: In a statement issued by his solicitors , Mr Hadley said : " I am absolutely delighted with the outcome of proceedings . [ID: 977]
+ ##### 
+25. Sentence 1: A Stage One alert is declared when ozone readings exceed 0.20 parts per million during a one-hour period . 
+ Sentence 2: A Stage 1 episode is declared when ozone levels reach 0.20 parts per million . [ID: 1907]
+ ##### 
+26. Sentence 1: " There are some who feel that if they attack us , we may decide to leave prematurely , " Mr Bush said at the White House . 
+ Sentence 2: " There are some who feel like conditions are such that they can attack us there , " Bush told reporters at the White House on Wednesday . [ID: 2839]
+ ##### 
+27. Sentence 1: Lord of the Rings director Peter Jackson and companion Fran Walsh arrive at the 74th Annual Academy Awards . 
+ Sentence 2: Lord of the Rings director Peter Jackson and longtime companion Fran Walsh . [ID: 361]
+ ##### 
+28. Sentence 1: Ten , two mobile homes and numerous outbuildings were destroyed by the now-smoldering fire northwest of Boulder . 
+ Sentence 2: He said eight or nine homes had been destroyed by the now-smoldering fire northwest of Boulder . [ID: 3559]
+ ##### 
+29. Sentence 1: He wants to kill him , but then I suppose I 'd be that angry too if somebody tried to kill my old man , " he said . 
+ Sentence 2: " He 's wild , he wants to kill him , but then I suppose I 'd be that angry too if somebody tried to kill my old man . " [ID: 2377]
+ ##### 
+30. Sentence 1: Zulifquar Ali , a worshiper slightly wounded by shrapnel , said the attackers first targeted the mosque 's guards . 
+ Sentence 2: Witness Zulfiqar Ali , who was slightly wounded by shrapnel , said the attackers had focused on the mosque 's guards . [ID: 911]
+ ##### 
+31. Sentence 1: Moffitt said the results need to be replicated in another study before testing of individuals for presence of the long or short versions of the gene will be pursued . 
+ Sentence 2: Professor Moffitt said the results needed to be replicated before pursuing testing of individuals for the presence of the long or short versions of the gene . [ID: 1636]
+ ##### 
+32. Sentence 1: Hewlett-Packard Co . HPQ.N , the No. 2 computer maker , rose 41 cents , or 2.4 percent , to $ 17.29 . 
+ Sentence 2: Hewlett-Packard Co . ( nyse : HPQ - news - people ) , the No. 2 computer maker , rose 41 cents , or 2.4 percent , to $ 17.29 . [ID: 1366]
+ ##### 
+33. Sentence 1: Matthew Lovett , 18 , who just graduated from Collingswood High School , was among those arrested . 
+ Sentence 2: Matthew Lovett , 18 , of Oaklyn , N.J. , was among those arrested . [ID: 2011]
+ ##### 
+34. Sentence 1: Milwaukee prosecutors charged a church minister with physical abuse in the death of an 8-year-old autistic boy who died during a healing service . 
+ Sentence 2: A church minister was charged yesterday in the death of an 8-year-old autistic boy who suffocated as church leaders tried to heal him at a storefront church . [ID: 278]
+ ##### 
+35. Sentence 1: But price declines have remained below 30 percent , year over year , for the last two quarters , said IDC analyst John McArthur . 
+ Sentence 2: McArthur told internetnews.com price declines have moderated and remained below 30 percent from the previous year for the last two quarters . [ID: 2594]
+ ##### 
+36. Sentence 1: Daniel said it takes about two hours and 15 minutes to drive from his home to Nashville . 
+ Sentence 2: Daniel said D 'Antonio left between 7 : 15 p.m. and 8 p.m and it takes about two hours to drive from his home to Nashville . [ID: 2520]
+ ##### 
+37. Sentence 1: United already has paid the city $ 34 million in penalties for missing the first round of employment targets . 
+ Sentence 2: United has paid $ 34 million in penalties for failing to meet employment targets . [ID: 2357]
+ ##### 
+38. Sentence 1: " I believe it is my duty to not only represent Australia but the people of the world as one as a stance against terrorism , " he replied . 
+ Sentence 2: " I believe it is my duty to not only represent Australia but the people of the world as one to take a stance against terrorism . " [ID: 2914]
+ ##### 
+39. Sentence 1: John Logsdon , a board member , said that " human spaceflight had become a place where dissent was not welcome . " 
+ Sentence 2: In fact , said John Logsdon , a board member and George Washington University expert on space policy , " human spaceflight had become a place where dissent was not welcome . " [ID: 1169]
+ ##### 
+40. Sentence 1: The broader Standard & Poor 's 500 Index .SPX advanced 2 points , or 0.24 percent , to 977 . 
+ Sentence 2: The Nasdaq Composite Index .IXIC was off 6.52 points , or 0.39 percent , at 1,645.66 . [ID: 3362]
+ ##### 
+41. Sentence 1: Less than a month after departing her anchor 's chair at " Dateline NBC , " Jane Pauley has signed a new deal with NBC to host a syndicated daytime talk show . 
+ Sentence 2: Less than a month after leaving as host of " Dateline NBC , " Pauley agreed Thursday to launch a daytime talk show for NBC Enterprises . [ID: 740]
+ ##### 
+42. Sentence 1: A monthlong grace period in New York City ended May 1 , and now bars and restaurants that allow people to puff can face hefty fines . 
+ Sentence 2: In New York City , bars and restaurants that allow people to smoke can face hefty fines . [ID: 1607]
+ ##### 
+43. Sentence 1: " The lives of American warfighters can be placed at direct risk through illegal transfer of military components , " said Defense Department Inspector General Joseph Schmitz . 
+ Sentence 2: " The lives of American war-fighters can be placed at direct risk through illegal transfer of military components , " Joseph Schmitz , Defence Department inspector general , said . [ID: 2292]
+ ##### 
+44. Sentence 1: Consolidated volume was heavy , with 2.17 billion shares traded , compared with 1.92 billion on Tuesday . 
+ Sentence 2: Consolidated volume was moderate , with 1.91 billion shares traded on the New York Stock Exchange , compared to 1.5 billion Monday . [ID: 1337]
+ ##### 
+45. Sentence 1: A spokesman said : " Further testing is under way but at this stage , given the early detection , the outlook is positive . " 
+ Sentence 2: " Further testing is still under way , but at this stage , given the early detection , the outlook in such instances would be positive , " the specialist said yesterday . [ID: 801]
+ ##### 
+46. Sentence 1: Baer said he had concluded that lawyers for the two victims " have shown , albeit barely . . . that Iraq provided material support to bin Laden and al-Qaida . " 
+ Sentence 2: Judge Harold Baer concluded Wednesday that lawyers for two victims " have shown , albeit barely ... that Iraq provided material support to bin Laden and al-Qaida . " [ID: 2949]
+ ##### 
+47. Sentence 1: The children were last seen July 4 at a fireworks display in Concord with their father , Manuel Gehring . 
+ Sentence 2: Authorities believe the children , who were last seen with their father at a fireworks display in Concord on July 4 , are dead . [ID: 1222]
+ ##### 
+48. Sentence 1: In New York , $ 7,646 is spent annually on each Medicaid recipient , almost double the national average of $ 3,936 . 
+ Sentence 2: New York has by far the country ’ s most expensive Medicaid program , costing taxpayers $ 7,646 per recipient , almost double the national average of $ 3,936 . [ID: 2512]
+ ##### 
+49. Sentence 1: Long lines formed outside gas stations and people rushed to get money from cash machines Sunday as Israelis prepared to weather a strike that threatened to paralyze the country . 
+ Sentence 2: Long lines formed Sunday outside gas stations and people rushed to get money from cash machines as Israelis braced for the strike 's effects . [ID: 2365]
+ ##### 
+50. Sentence 1: The high Saturday is expected to be about 92 degrees , and it will likely drop to 90 degrees Sunday and Monday . 
+ Sentence 2: The high today will be about 92 degrees and will drop to 90 degrees Sunday and Monday . [ID: 3061]
+ ##### 
+51. Sentence 1: Sony Ericsson also said it would shut down its GSM / UMTS R & D center in Munich , Germany , to increase profitability . 
+ Sentence 2: Sony Ericsson also said it plans to close its R & D site in Munich , Germany , for GSM and UMTS handsets . [ID: 905]
+ ##### 
+52. Sentence 1: " The actions reflect our strong forward momentum as we intensify our business focus and work to achieve profitability . " 
+ Sentence 2: The actions reflect our strong forward momentum as we intensify our business focus and work to achieve profitability , " said Katsumi Ihara , president of Sony Ericsson . [ID: 3367]
+ ##### 
+53. Sentence 1: Holders of paper bonds will be able , though not required , to convert to electronic accounts . 
+ Sentence 2: Beginning sometime next year , holders of existing paper bonds will be encouraged to exchange them for electronic versions . [ID: 3619]
+ ##### 
+54. Sentence 1: ECUSA is the U.S. branch of the 70 million-member Anglican Communion . 
+ Sentence 2: The Episcopal Church is the American branch of the Anglican Communion . [ID: 385]
+ ##### 
+55. Sentence 1: More than 130 people and $ 17 million have been seized nationwide in operations by the FBI and other agencies to stop cybercrime . 
+ Sentence 2: More than 130 people have been arrested and $ 17 million worth of property seized in an Internet fraud sweep announced Friday by three U.S. government agencies . [ID: 746]
+ ##### 
+56. Sentence 1: A Connecticut judge Tuesday sentenced a man to 30 years in prison in the death of a teenage girl he met on the Internet . 
+ Sentence 2: A restaurant worker was sentenced to 30 years in prison Tuesday for the sexual assault and strangling of a sixth-grade girl he met in an Internet chat room . [ID: 3058]
+ ##### 
+57. Sentence 1: Also Tuesday , a soldier drowned in an aqueduct in northern Iraq . 
+ Sentence 2: Another soldier drowned after diving into an aqueduct in northern Iraq , the Central Command said . [ID: 339]
+ ##### 
+58. Sentence 1: And the First Amendment doesn 't say that the free exercise of religion is allowed — except in government buildings . 
+ Sentence 2: The amendment deals with the free exercise of religion versus the government establishment of a religion . [ID: 1762]
+ ##### 
+59. Sentence 1: The blue-chip Dow Jones industrial average .DJI jumped 118 points , or 1.36 percent , to 8,829 . 
+ Sentence 2: In morning trading , the Dow Jones industrial average was up 121.51 , or 1.4 percent , at 8,832.69 . [ID: 3586]
+ ##### 
+60. Sentence 1: Even later in life , he was still cashing in : lately , he earned money by calling fans on the telephone with the service www.HollywoodIsCalling.com. 
+ Sentence 2: Lately , he had earned money by calling fans on the telephone , taking part in the service www.HollywoodIsCalling.com. [ID: 267]
+ ##### 
+61. Sentence 1: But the justices ruled that the police supervisor who repeatedly questioned Martinez did not violate his Fifth Amendment rights in doing so . 
+ Sentence 2: But the justices ruled that the police supervisor who repeatedly questioned Mr Martinez as he screamed in pain did not violate his Fifth Amendment rights . [ID: 2041]
+ ##### 
+62. Sentence 1: PDC will also almost certainly fan the flames of speculation about Longhorn 's release . 
+ Sentence 2: PDC will also almost certainly reignite speculation about release dates of Microsoft 's new products . [ID: 73]
+ ##### 
+63. Sentence 1: Amrozi accused his brother , whom he called " the witness " , of deliberately distorting his evidence . 
+ Sentence 2: Referring to him as only " the witness " , Amrozi accused his brother of deliberately distorting his evidence . [ID: 0]
+ ##### 
+64. Sentence 1: His harsh criticism of PLO chairman Yasser Arafat led to his books being banned for a time by the Palestinian Authority . 
+ Sentence 2: His harsh criticism of the PLO 's chairman , Yasser Arafat , saw the Palestinian Authority ban his books for a time . [ID: 2690]
+ ##### 
+65. Sentence 1: Shares of San Diego-based Jack In The Box closed at $ 21.49 , up 78 cents , or 3.8 percent , on the New York Stock Exchange . 
+ Sentence 2: Shares of Tampa-based Outback Steakhouse Inc. closed at $ 44.50 , up $ 1.78 , or 4.2 percent , on the New York Stock Exchange . [ID: 1064]
+ ##### 
+66. Sentence 1: It marked the fourth straight week and the ninth time this year that rates on this benchmark mortgage fell to an all-time weekly low . 
+ Sentence 2: Mortgage rates around the country fell again this week , the ninth time this year rates have hit an all-time low . [ID: 1813]
+ ##### 
+67. Sentence 1: In that same time , the S & P and the Nasdaq have gained about 3.5 percent . 
+ Sentence 2: The Nasdaq composite gained 4.78 to 1,955.80 , having edged up 0.1 percent last week . [ID: 541]
+ ##### 
+68. Sentence 1: On Wednesday , Judge Pollack dismissed another case , this one against Merrill Lynch investors in the firm 's Global Technology Fund . 
+ Sentence 2: On Wednesday , Judge Pollack dismissed a similar class-action lawsuit filed by investors who lost money in Merrill 's Global Technology fund . [ID: 2870]
+ ##### 
+69. Sentence 1: But Secretary of State Colin Powell brushed off this possibility Wednesday . 
+ Sentence 2: Secretary of State Colin Powell last week ruled out a non-aggression treaty . [ID: 65]
+ ##### 
+70. Sentence 1: A senior Malaysian member of JI testified in June that Bashir had approved the church bomb attacks and had called a meeting to plan Megawati 's assassination . 
+ Sentence 2: A senior Malaysian member of Jemaah Islamiah testified on June 26 that Bashir had approved the church bomb attacks and had also called a meeting to plan Megawati 's assassination . [ID: 3035]
+ ##### 
+71. Sentence 1: Sales at Ford fell 0.1 percent while sales at DaimlerChrysler rose 7 percent . 
+ Sentence 2: Truck sales for the world 's No. 2 automaker dropped 4.1 percent , while its car sales dropped 13.7 percent . [ID: 3492]
+ ##### 
+72. Sentence 1: Dr Blix said : " I don 't know exactly how they calculated this figure . 
+ Sentence 2: Mr Blix said : " I don 't know exactly how they calculated this figure of 45 minutes in the dossier . [ID: 2989]
+ ##### 
+73. Sentence 1: Former Secretary of State Bill Jones has also expressed interest in the race but has not yet announced plans . 
+ Sentence 2: Former Secretary of State Bill Jones , another potential major candidate , had not divulged his plans Tuesday . [ID: 2900]
+ ##### 
+74. Sentence 1: The bulk of the funds , some $ 65 billion , will go for military operations in Iraq and Afghanistan . 
+ Sentence 2: The bulk of the bill - $ 64.7 billion - goes for military operations primarily in Iraq and Afghanistan . [ID: 234]
+ ##### 
+75. Sentence 1: Overall , 83 percent of women washed up , compared with 74 percent of men . 
+ Sentence 2: But in San Francisco , 80 percent of men and only 59 percent of women washed their hands . [ID: 948]
+ ##### 
+76. Sentence 1: Stealing identities and credit card numbers with bogus e-mail and websites that appear to come from legitimate companies is an increasing problem on the Internet , federal officials warned Monday . 
+ Sentence 2: Stealing identities and credit-card numbers with bogus e-mail and Web sites that appear to come from legitimate companies is an increasing problem on the Internet , federal officials warned yesterday . [ID: 2751]
+ ##### 
+77. Sentence 1: Meteorologists predicted the storm would become a Category 1 hurricane before landfall . 
+ Sentence 2: It was predicted to become a Category I hurricane overnight . [ID: 575]
+ ##### 
+78. Sentence 1: In next week 's drill , " our objective is to improve the nation 's capacity to save lives in ... a terrorist event , " Ridge said . 
+ Sentence 2: " Our objective is to improve the nation 's capacity to save lives in ... a terrorist event , " including use of weapons of mass destruction , Ridge said . [ID: 1111]
+ ##### 
+79. Sentence 1: In afternoon trading in Europe , France 's CAC-40 rose 1.5 percent , Britain 's FTSE 100 gained 0.3 percent and Germany 's DAX index advanced 1.2 percent . 
+ Sentence 2: In afternoon trading in Europe , France 's CAC-40 advanced and Britain 's FTSE 100 each gained 0.7 percent , while Germany 's DAX index rose 0.6 percent . [ID: 1732]
+ ##### 
+80. Sentence 1: Experts say they think better treatment , including widespread use of the drug tamoxifen , as well as mammogram screening are responsible for the improvement . 
+ Sentence 2: Experts say they think better treatment , including use of the drug tamoxifen and mammogram screening , are responsible . [ID: 3053]
+ ##### 
+81. Sentence 1: General Myers told reporters that " at first blush , it doesn 't look like any rules were broken " . 
+ Sentence 2: " At first blush , it doesn 't look like any rules were broken , " said Gen. Richard Myers , chairman of the Joint Chiefs of Staff . [ID: 2578]
+ ##### 
+82. Sentence 1: Tehran has made clear it will only sign the Additional Protocol introducing such inspections if a ban on the import of civilian Western nuclear technology is lifted . 
+ Sentence 2: Tehran has made it clear it will only sign the protocol if a ban on imports of peaceful Western nuclear technology is lifted . [ID: 3206]
+ ##### 
+83. Sentence 1: Garner said Iraq 's reconstruction was not as difficult as he had expected -- mainly because the war caused less infrastructure damage and fewer refugees than anticipated . 
+ Sentence 2: Garner said reconstruction will not be as difficult as he anticipated because the war caused less damage and created fewer refugees . [ID: 2429]
+ ##### 
+84. Sentence 1: Palm plans to issue about 13.9 million shares of Palm common stock to Handspring 's shareholders , on a fully diluted basis . 
+ Sentence 2: Palm will issue approximately 13.9 million shares of Palm common stock to Handspring 's shareholders . [ID: 695]
+ ##### 
+85. Sentence 1: " I will pass on to him [ Mr. Cheney ] that Canada still remains a safe , secure and reliable supply of energy , " Mr. Klein said Sunday . 
+ Sentence 2: " I will pass on to him that Canada still remains a safe , secure and reliable supply of energy . " [ID: 1785]
+ ##### 
+86. Sentence 1: About $ 250,000 worth of her jewelry was discovered last week at Kennedy International Airport , where it had up and disappeared before a flight to the BET Awards . 
+ Sentence 2: An estimated $ 250,000 worth of jewelry belonging to the hip-hop performer was recovered Friday at Kennedy Airport , where it had disappeared June 20 . [ID: 1576]
+ ##### 
+87. Sentence 1: The girl turned up two days later at a convenience store several cities away , shaken but safe , and helped lead police to her alleged abductor . 
+ Sentence 2: The arrest came hours after the girl turned up at a convenience store several cities away and helped lead police to her alleged abductor . [ID: 2318]
+ ##### 
+88. Sentence 1: " We will clearly modify some features of our plans as well as their administration , " Reed said in a letter to the NYSE 's 1,366 members . 
+ Sentence 2: " We will clearly modify some features of our plans as well as their administration , " Reed said in his letter . [ID: 3143]
+ ##### 
+89. Sentence 1: He characterized the hostile bid as " atrociously bad behavior from a company with a history of atrociously bad behavior . " 
+ Sentence 2: Conway called the move " atrociously bad behaviour from a company with a history of atrociously bad behaviour . " [ID: 1631]
+ ##### 
+90. Sentence 1: They were identified as Abdul Azi Haji Thiming and Muhammad Jalaludin Mading of Thailand , and Esam Mohammed Khidr Ali of Egypt . 
+ Sentence 2: The three men charged with terrorism have been identified as Abdul Azi Haji Thiming and Muhammad Jalaludin Mading of Thailand , and Esam Mohammed Khidr Ali of Egypt . [ID: 3381]
+ ##### 
+91. Sentence 1: Financial terms of the deal , expected to close this month , were not released . 
+ Sentence 2: Financial terms of the sale , which is expected to be completed by the end of August , were not disclosed . [ID: 2526]
+ ##### 
+92. Sentence 1: Inflation-index bonds are carrying an interest rate of 4.66 percent . 
+ Sentence 2: The interest rate on Series EE savings bonds for May through October is 2.66 percent . [ID: 1080]
+ ##### 
+93. Sentence 1: Officials with Rescue California , one of the groups leading the recall campaign , called the lawsuit laughable . 
+ Sentence 2: The director of Rescue California , the group leading the recall campaign , called the lawsuit " laughable . " [ID: 681]
+ ##### 
+94. Sentence 1: The broader Standard & Poor 's 500 Index .SPX fell 3 points , or 0.30 percent , to 995 . 
+ Sentence 2: The technology-laced Nasdaq Composite Index < .IXIC > added 1.92 points , or 0.12 percent , at 1,647.94 . [ID: 2025]
+ ##### 
+95. Sentence 1: At a hearing before U.S. District Judge Miriam Goldman Cedarbaum , she was released without bail until her next court appearance June 19 . 
+ Sentence 2: She was booked out of view of the media , then released without bail until her next court appearance June 19 . [ID: 2153]
+ ##### 
+96. Sentence 1: But while Microsoft 's share of the low-end server software market has increased since the EU 's investigation started five years ago , the firm has denied anti-competitive practices are to blame . 
+ Sentence 2: Microsoft 's share of the low-end server software market has increased since the probe started five years ago , but the firm denied anti-competitive practices were the reason for this . [ID: 1552]
+ ##### 
+97. Sentence 1: Recall backers say they have collected 1,600,000 signatures , approaching twice the 897,158 needed to force an election . 
+ Sentence 2: Recall proponents say they have turned in nearly twice the number of necessary signatures . [ID: 872]
+ ##### 
+98. Sentence 1: The WWF also thinks a further 13,000 animals are being caught every year around the Straits of Gibraltar and in nearby areas . 
+ Sentence 2: According to WWF , a further 13,000 individuals are estimated to be caught around the Straits of Gibraltar and in neighboring zones . [ID: 2035]
+ ##### 
+99. Sentence 1: Fanned by the hot , dry Santa Ana winds and minimal humidity , major fires were raging in at least 10 places , having already burned nearly 80 937 hectares . 
+ Sentence 2: Those hot , dry Santa Ana winds and minimal humidity created optimal conditions for raging fires in at least 10 places that have already burned nearly 200,000 acres . [ID: 1626]
+ ##### 
+100. Sentence 1: The first biotechnology treatment for asthma , the constriction of the airways that affects millions around the world , received approval from the US Food and Drug Administration yesterday . 
+ Sentence 2: The first biotechnology treatment for asthma , the constriction of the airways that affects millions of Americans , received approval from the U.S. Food and Drug Administration on Friday . [ID: 68]
+ ##### 
+101. Sentence 1: Ryland Group ( nyse : RYL - news - people ) , a homebuilder and mortgage-finance company , sank $ 9.65 , or 11.6 percent , to $ 73.40 . 
+ Sentence 2: Swedish telecom equipment maker Ericsson ( nasdaq : QCOM - news - people ) jumped $ 2.88 , or 15.7 percent , to $ 21.28 . [ID: 2332]
+ ##### 
+102. Sentence 1: " Certainly what we know suggests that we should take what they 're saying very seriously , " he added . 
+ Sentence 2: " We don 't know everything [ but ] what we know suggests that we should take what they 're saying seriously , " he said . [ID: 629]
+ ##### 
+103. Sentence 1: It reports a mailing list of 50,000 and support from about 500 congregations and 50 bishops . 
+ Sentence 2: The group has the support of about 215 churches and an estimated 25 bishops . [ID: 806]
+ ##### 
+104. Sentence 1: The dollar rose 0.6 percent to 109.54 yen < JPY = > and climbed more than 1 percent to 1.3315 Swiss francs < CHF = > . 
+ Sentence 2: The dollar rose around 0.6 percent against the Japanese currency to 109.51 yen < JPY = > and climbed 1 percent against the Swiss franc to 1.3302 francs < CHF = > . [ID: 2269]
+ ##### 
+105. Sentence 1: A suburban Chicago man was arrested Wednesday on charges of secretly gathering information on Iraqi opposition figures as an unregistered agent of Saddam Hussein 's intelligence service . 
+ Sentence 2: The FBI arrested a suburban Chicago man Wednesday and charged him with secretly collecting information on individuals in the United States who opposed Saddam Hussein 's Iraqi government . [ID: 1596]
+ ##### 
+106. Sentence 1: Freddie Mac shares were down more than 16 per cent at $ 50.18 at midday yesterday . 
+ Sentence 2: Freddie Mac shares were off $ 7.87 , or 13.2 percent , at $ 52 in midday trading on the New York Stock Exchange . [ID: 2152]
+ ##### 
+107. Sentence 1: Their difference was over whether the court should pay attention to legal opinions of other world courts , such as the European Court of Human Rights . 
+ Sentence 2: Their difference was over whether the court should take into account the legal opinions of other world courts , like the European Court of Human Rights . [ID: 468]
+ ##### 
+108. Sentence 1: The blue-chip Dow Jones industrial average .DJI edged down 28.08 points , or 0.3 percent , at 9,256.49 . 
+ Sentence 2: The Dow Jones industrial average closed down 18.06 , or 0.2 per cent , at 9266.51 . [ID: 1471]
+ ##### 
+109. Sentence 1: Muslim immigrants have used the networks - which rely on wire transfers , couriers and overnight mail - to send cash to their families overseas . 
+ Sentence 2: Muslim immigrants have used the networks _ which rely on wire transfers , couriers and overnight mail _ to send stashes of cash overseas to their families . [ID: 158]
+ ##### 
+110. Sentence 1: French Foreign Minister Dominique de Villepin was scheduled to arrive Sharm el-Sheikh on Wednesday . 
+ Sentence 2: The French Foreign Minister , Dominique de Villepin , is also expected to attend . [ID: 146]
+ ##### 
+111. Sentence 1: CELF said IBM is pursuing membership and plans to be an active participant in the forum . 
+ Sentence 2: IBM is pursuing membership and plans to be an active participant in the CELF , according to various members of CELF . [ID: 1727]
+ ##### 
+112. Sentence 1: Cordiant has been on the block since it lost the key Allied Domecq account in April . 
+ Sentence 2: Cordiant has been a target since it lost a crucial client , Allied Domeq , in April . [ID: 1904]
+ ##### 
+113. Sentence 1: A former teammate , Carlton Dotson , has been charged with the murder . 
+ Sentence 2: His body was found July 25 , and former teammate Carlton Dotson has been charged in his shooting death . [ID: 49]
+ ##### 
+114. Sentence 1: Its keywords are supported by Chinese language Web portals . 
+ Sentence 2: Chinese language Web portals also support 3721 keywords , the Web site said . [ID: 2448]
+ ##### 
+115. Sentence 1: Nterprise Linux Services is expected to be available before then end of this year . 
+ Sentence 2: Beta versions of Nterprise Linux Services are expected to be available on certain HP ProLiant servers in July . [ID: 1469]
+ ##### 
+116. Sentence 1: People who have this disorder absorb excessive amounts of iron which can lead to organ damage . 
+ Sentence 2: Haemochromatosis is a disorder in which people absorb excessive amounts of iron which can lead to organ damage . [ID: 2625]
+ ##### 
+117. Sentence 1: If convicted , they face up to five years in prison and a $ 250,000 fine on each of the 11 counts . 
+ Sentence 2: If convicted , each faces up to five years in prison and a fine of $ 250,000 or more based on the amount of gains involved . [ID: 599]
+ ##### 
+118. Sentence 1: If the subsidies are not repealed , the European Union is threatening trade sanctions against the United States . 
+ Sentence 2: The European Union is threatening trade sanctions unless the subsidies are repealed . [ID: 2093]
+ ##### 
+119. Sentence 1: A divided Supreme Court ruled that Congress can force the nation 's public libraries to equip computers with anti-pornography filters . 
+ Sentence 2: The Supreme Court said Monday the government can require public libraries to equip computers with anti-pornography filters , rejecting librarians ' complaints that the law amounts to censorship . [ID: 979]
+ ##### 
+120. Sentence 1: Four other men who were also charged in June have already pleaded guilty . 
+ Sentence 2: Four of the defendants have pleaded guilty to weapons charges and other counts . [ID: 2652]
+ ##### 
+121. Sentence 1: Radio reports said hundreds of settlers converged on the four outposts overnight , hoping to disrupt their evacuation . 
+ Sentence 2: Army Radio reported early today that hundreds of settlers converged on four outposts overnight , hoping to disrupt their evacuation . [ID: 2979]
+ ##### 
+122. Sentence 1: Excluding the impact of accounting changes , Ford would have earned 13 cents a share . 
+ Sentence 2: Excluding the $ 56 million charge and the accounting change , Ford 's third-quarter earnings amounted to 15 cents a share . [ID: 2941]
+ ##### 
+123. Sentence 1: On Monday , a suicide bomber blew himself up near the United Nations compound here , killing a security guard as well as himself . 
+ Sentence 2: On Monday , a suicide car bomber blew himself up close to the United Nations compound in Baghdad , also killing a security guard . [ID: 3286]
+ ##### 
+124. Sentence 1: About 130,000 U.S. troops remain in Iraq , with others deployed in Afghanistan , South Korea and elsewhere . 
+ Sentence 2: About 130,000 US soldiers remain in Iraq , with others serving in Afghanistan , South Korea , Japan , Germany and elsewhere . [ID: 1518]
+ ##### 
+125. Sentence 1: The 19 face charges including racketeering , conspiracy , organized fraud , grand theft and illegal drug sales , all felonies carrying penalties of five to 30 years in prison . 
+ Sentence 2: The suspects were charged with racketeering , conspiracy , organized fraud , grand theft and illegal drug sales , all felonies carrying penalties of five to 30 years in prison . [ID: 2231]
+ ##### 
+126. Sentence 1: The calculation shows that the number of deaths from pneumonia and influenza have exceeded the usual number for recent weeks . 
+ Sentence 2: One is a statistical calculation based on the number of deaths from pneumonia and influenza in 122 cities . [ID: 260]
+ ##### 
+127. Sentence 1: Mrs Boncyk 's husband , Wayne , had taken the family car to work , so his wife and children had to ride with neighbours . 
+ Sentence 2: Mrs. Boncyk 's husband , Wayne , had taken the family 's only car to work , so she and the children had to catch a ride with neighbors . [ID: 161]
+ ##### 
+128. Sentence 1: Houston fourth-graders also performed similarly to national peers in writing . 
+ Sentence 2: " New York City and Houston fourth-graders were at the national average in writing . [ID: 793]
+ ##### 
+129. Sentence 1: More than 60 suspected cases have been reported in the United States , none of them fatal . 
+ Sentence 2: Sixty-five probable cases of SARS have been identified in the United States , along with 255 suspected cases . [ID: 2226]
+ ##### 
+130. Sentence 1: ImClone Systems Inc. and Genentech Inc. led shares of U.S. biotechnology companies higher after medicines they are developing helped cancer patients in studies . 
+ Sentence 2: ImClone Systems and Genentech led shares of biotechnology companies higher yesterday after studies showed the medicines they are developing helped cancer patients . [ID: 1295]
+ ##### 
+131. Sentence 1: While Mr. Qurei is widely respected and has a long history of negotiating with the Israelis , he cannot expect such a warm welcome . 
+ Sentence 2: While Qureia is respected and has a history of negotiating with the Israelis , a warm welcome is not expected . [ID: 3657]
+ ##### 
+132. Sentence 1: State wildlife officials have concluded that the fluorescent zebra fish from Florida poses no danger , and they have recommended that the state exempt it from the ban . 
+ Sentence 2: State wildlife officials have concluded that the Florida-grown fluorescent zebra fish poses no danger , and they have recommended that it be exempted from the state 's ban . [ID: 3060]
+ ##### 
+133. Sentence 1: SAN Architect and AutoAdvice can be used by themselves or as extensions to the ControlCenter family of storage management applications . 
+ Sentence 2: SAN Architect and AutoAdvice can be used as stand-alone applications or as an extension to EMC 's ControlCenter applications . [ID: 1540]
+ ##### 
+134. Sentence 1: " I think the financial diplomacy here of the sort that we are engaged in is the surest course to get the result we want . " 
+ Sentence 2: " The financial diplomacy we 're engaged in is the surest course to get what we want , " Mr. Snow said . [ID: 2719]
+ ##### 
+135. Sentence 1: Stanford ( 46-15 ) takes on South Carolina today at 11 a.m. in the first game of the College World Series . 
+ Sentence 2: Stanford ( 46-15 ) plays South Carolina ( 44-20 ) on Friday in the opening game of the double-elimination tournament . [ID: 2200]
+ ##### 
+136. Sentence 1: Civil liberties groups protested and a US district judge ruled that the monument was an unconstitutional promotion of religion . 
+ Sentence 2: Civil liberties groups filed suit , and U.S. District Judge Myron Thompson ordered the monument moved last October , calling it an unconstitutional promotion of religion by government . [ID: 1085]
+ ##### 
+137. Sentence 1: In Vienna , the IAEA said ElBaradei would accept the invitation , although no date had yet been set . 
+ Sentence 2: In Vienna , the International Atomic Energy Agency said on Monday ElBaradei had accepted Iran 's invitation , but said no date had yet been set . [ID: 271]
+ ##### 
+138. Sentence 1: But as more people were shot , Moose had to admit that he couldn 't give the public the safety it needed . 
+ Sentence 2: But as time passed and more people were shot , Moose had to admit that he couldn 't give the public what it needed most from the police - safety . [ID: 1387]
+ ##### 
+139. Sentence 1: Cox said state police would still help his office in the investigation , but Sturdivant would not be involved . 
+ Sentence 2: On Friday , authorities had said the state police would head the investigation . [ID: 1800]
+ ##### 
+140. Sentence 1: Tokyo Electric Power Co . , Asia 's largest power company , won approval to restart the first of 17 nuclear reactors it shut down after it admitted falsifying inspection reports . 
+ Sentence 2: Tokyo Electric Power Co . , Asia 's largest power company , restarted the first of 17 nuclear reactors it shut down after admitting it falsified inspection reports . [ID: 86]
+ ##### 
+141. Sentence 1: " This will put a severe crimp in our reserves , " O 'Keefe said Friday during a roundtable discussion with reporters at NASA headquarters . 
+ Sentence 2: " This is going to put a severe crimp in our reserves , " O 'Keefe said during a breakfast with reporters . [ID: 2647]
+ ##### 
+142. Sentence 1: The blue-chip Dow Jones industrial average .DJI climbed 179.97 points , or 2.09 percent , to 8,781.35 , ending at its highest level since mid-January . 
+ Sentence 2: The blue-chip Dow Jones industrial average .DJI tacked on 97 points , or 1.14 percent , to 8,699 . [ID: 1964]
+ ##### 
+143. Sentence 1: Elsewhere in the diary , Truman showed a more familiar side , colorful and outspoken in his disdain for life in the White House . 
+ Sentence 2: History aside , the diary reveals a colorful , witty , introspective and irreverent president outspoken in his disdain for life in the White House . [ID: 3000]
+ ##### 
+144. Sentence 1: The next court session will be when the three-judge tribunal announces its verdict in mid-February . 
+ Sentence 2: The court 's three-judge tribunal was expected to give its verdict next February . [ID: 2648]
+ ##### 
+145. Sentence 1: Atlanta 's Hartsfield International Airport will test a nationwide security system that will collect fingerprints and take photographs of millions of foreign visitors each year . 
+ Sentence 2: Atlanta 's Hartsfield International Airport will be the testing site next month for a nationwide security system that will collect fingerprints and take photographs of millions of foreign visitors each year . [ID: 3299]
+ ##### 
+146. Sentence 1: An international warrant for his arrest was issued both to the Ghanaian authorities and to Interpol . 
+ Sentence 2: A warrant for Taylor 's arrest has been served on the Ghanaian authorities and sent to Interpol . [ID: 2473]
+ ##### 
+147. Sentence 1: Marisa Baldeo stated , however , the authority 's official uniform policy says " they are not supposed to wear anything on their heads but a NYC transit depot logo cap . 
+ Sentence 2: " As of now , they are not supposed to wear anything on their heads but a NYC transit depot logo cap , " Baldeo said . [ID: 287]
+ ##### 
+148. Sentence 1: The survey that found it covered only a narrow slice of the sky . 
+ Sentence 2: The survey which uncovered the star only covered a narrow slice of the sky . [ID: 402]
+ ##### 
+149. Sentence 1: The decision means that Qarase must invite up to eight Labor Party members into cabinet . 
+ Sentence 2: Mr Qarase must now invite up to eight Labour Party members into cabinet . [ID: 2665]
+ ##### 
+150. Sentence 1: Prosecutors said there is no question Waagner was behind the letters , which were sent at the same time of the anthrax attacks . 
+ Sentence 2: Prosecutors said there is no question Waagner was behind the letters , which were sent at the same time that real anthrax attacks were killing people in 2001 . [ID: 116]
+ ##### 
+151. Sentence 1: Investigators have meticulously looked into virtually every aspect of Campbell 's personal and financial affairs , Campbell has acknowledged . 
+ Sentence 2: Investigators continue to probe virtually every aspect of Campbell 's personal and financial affairs , the former mayor has said . [ID: 2753]
+ ##### 
+152. Sentence 1: The United States and Britain are seeking backing at the United Nations for their agenda to hand over power to Iraqis . 
+ Sentence 2: At the United Nations , the United States and Britain are seeking backing for their agenda to hand over power to Iraqis . [ID: 1660]
+ ##### 
+153. Sentence 1: When the manager let him in the apartment , Brianna was in her mother 's bedroom lying in a baby 's bathtub , covered with a towel and watching cartoons . 
+ Sentence 2: When a manager let him into the apartment , the youngster was lying in a baby 's bathtub , covered with a towel and was watching a TV cartoon channel . [ID: 1078]
+ ##### 
+154. Sentence 1: Former U.S. Rep. Frank McCloskey , 64 , died this afternoon in his home after a long battle with bladder cancer . 
+ Sentence 2: McCloskey died Sunday afternoon in his home after a year-long battle with bladder cancer . [ID: 3450]
+ ##### 
+155. Sentence 1: The two Democrats on the five-member FCC held a press conference to sway opinion against Powell and the two other Republicans on the panel . 
+ Sentence 2: The two Democrats on the five-member FCC panel held a news conference to sway opinion against Powell . [ID: 1172]
+ ##### 
+156. Sentence 1: The updated 64-bit operating system , Windows XP 64-Bit Edition for 64-Bit Extended Systems , will run natively on AMD Athlon 64 processor-powered desktops and AMD Opteron processor-powered workstations . 
+ Sentence 2: Windows XP 64-bit Edition for 64-Bit Extended Systems will support AMD64 technology , running natively on AMD Athlon 64 powered desktops and AMD Opteron processor-powered workstations . [ID: 3592]
+ ##### 
+157. Sentence 1: A sign outside the Peachtree Restaurant reads : " Pray for Eric Rudolph . " 
+ Sentence 2: " Rudolph ate here " , joked a sign outside one restaurant . [ID: 269]
+ ##### 
+158. Sentence 1: The MPx200 , which will sell for $ 299.99 , is now available through AT & T Wireless ' mMode service . 
+ Sentence 2: The phone is available for $ 299.99 with any compatible AT & T Wireless service plan . [ID: 1718]
+ ##### 
+159. Sentence 1: Altria shares fell 2.2 percent or 96 cents to $ 42.72 and were the Dow 's biggest percentage loser . 
+ Sentence 2: Its shares fell $ 9.61 to $ 50.26 , ranking as the NYSE 's most-active issue and its biggest percentage loser . [ID: 380]
+ ##### 
+160. Sentence 1: SMILING bomber Amrozi was inspired to launch an attack on Bali after his former Australian boss revealed the tourist island was a haven for sinful behaviour by westerners . 
+ Sentence 2: BALI bomber Amrozi claims he was inspired to launch an attack on the tourist island after his Australian boss revealed Bali was a haven for sinful behaviour of Westerners . [ID: 1929]
+ ##### 
+161. Sentence 1: He adds : " She started beating me with her hands about the head until I ran into the other room . " 
+ Sentence 2: " She started beating me with her hands about the head until I ran into the other room , " Mr Gest says of one incident . [ID: 2850]
+ ##### 
+162. Sentence 1: Thomas and Tauzin say , as do many doctors , that the Bush administration has the power to correct some of those flaws . 
+ Sentence 2: Like many doctors , Mr. Thomas and Mr. Tauzin say the Bush administration has the power to correct some of those flaws . [ID: 66]
+ ##### 
+163. Sentence 1: SCC argued that Lexmark was trying to shield itself from competition by installing a chip on its toner cartridges to make it difficult for third-party manufacturers to make generic cartridges . 
+ Sentence 2: The company also argued that Lexmark was trying to squash competition by installing a microchip on its toner cartridges to make it difficult for third-party manufacturers to make generic cartridges . [ID: 1932]
+ ##### 
+164. Sentence 1: He urged member states that contribute police and soldiers to U.N. peacekeeping operations to provide more women . 
+ Sentence 2: Undersecretary-General for Peacekeeping Jean-Marie Guehenno urged member states contributing police and soldiers to U.N. peacekeeping operations to provide more women . [ID: 543]
+ ##### 
+165. Sentence 1: The charges were dismissed in Franklin County Municipal Court . 
+ Sentence 2: Franklin County Municipal Court Judge Janet Grubb approved dismissal of the charges . [ID: 3113]
+ ##### 
+166. Sentence 1: J.D. Edwards shareholders will receive 0.86 of a share of PeopleSoft for each share of J.D. Edwards . 
+ Sentence 2: Shareholders will get 0.86 PeopleSoft share , or $ 13.11 , for each J.D. Edwards share , based on recent trading prices . [ID: 906]
+ ##### 
+167. Sentence 1: Romanian port authorities said two ships that sank during World War II had resurfaced as water levels fell and could block river traffic . 
+ Sentence 2: Port authorities in Romania said two ships that sank during World War II but resurfaced due to low water levels could block river traffic . [ID: 3231]
+ ##### 
+168. Sentence 1: Mr Li , deputy chairman of Cheung Kong Holdings , is the son of Hong Kong billionaire Li Ka-shing . 
+ Sentence 2: Li is the deputy chairman of Cheung Kong ( Holdings ) Ltd . < 0001.HK > . [ID: 3372]
+ ##### 
+169. Sentence 1: British police arrested 21 people early Tuesday in connection with the suspected ritual murder of an African boy whose torso was found in the Thames River . 
+ Sentence 2: Police have arrested 21 people in connection with the murder of a young Nigerian child whose headless and limbless torso was found floating in the river Thames . [ID: 282]
+ ##### 
+170. Sentence 1: Chaudhry was released 56 days later and the Fiji military installed an all-indigenous government led by Qarase , who won democratic elections in September 2001 . 
+ Sentence 2: The Fijian military installed an all-indigenous government led by Mr Qarase , who won democratic elections in September 2001 . [ID: 3525]
+ ##### 
+171. Sentence 1: PeopleSoft 's board now has 10 business days to evaluate the Oracle offer and make a recommendation to its shareholders . 
+ Sentence 2: Nevertheless , PeopleSoft must review Oracle 's tender offer and make a recommendation to shareholders . [ID: 2333]
+ ##### 
+172. Sentence 1: Metropolitan Ambulance spokesman James Howe said five people were taken to hospital and three were treated at the scene after yesterday 's incident . 
+ Sentence 2: Spokesman James Howe said five children aged between 4 and 17 were taken to hospital with neck and chest injuries , while three others were treated at the scene . [ID: 2117]
+ ##### 
+173. Sentence 1: If the companies won 't , their drugs could be prescribed to Medicaid patients only with the state 's say-so . 
+ Sentence 2: If a company won 't do so , its drugs could be prescribed to Medicaid patients only with the state 's say-so . [ID: 213]
+ ##### 
+174. Sentence 1: Adults , who were shy as toddlers , had stronger brain activity in a part of the brain associated with coyness . 
+ Sentence 2: When shown pictures of unfamiliar faces , adults who were shy toddlers showed a relatively high level of activity in a part of the brain called the amygdala . [ID: 2197]
+ ##### 
+175. Sentence 1: With a wry smile , Mr. Bush replied , " You 're looking pretty young these days . " 
+ Sentence 2: Bush shot back : " You 're looking pretty young these days . " [ID: 1470]
+ ##### 
+176. Sentence 1: This is what Dr. Dean said : " I still want to be the candidate for guys with Confederate flags in their pickup trucks . 
+ Sentence 2: He told the Register : " I still want to be the candidate for guys with Confederate flags in their pickup trucks . " [ID: 2925]
+ ##### 
+177. Sentence 1: AAA spokesman Jerry Cheske said prices may have affected some plans , but cheap hotel deals mitigated the effect . 
+ Sentence 2: AAA spokesman Jerry Cheske said prices might have affected some plans , but cheap hotel deals made up for it . [ID: 2208]
+ ##### 
+178. Sentence 1: Ebert asked Franklin , pointing to a color photo of Linda Franklin on a projection screen . 
+ Sentence 2: A photo of Linda Franklin 's bloodied body was shown on a large screen in the courtroom yesterday . [ID: 2015]
+ ##### 
+179. Sentence 1: Culturecom is confident it will make a significant impact on market share with this new development , " Frank Cheung , chairman of Culturecom , said in a statement . 
+ Sentence 2: He added : " Culturecom is confident it will make a significant impact on market share with this new development . " [ID: 1496]
+ ##### 
+180. Sentence 1: At a news conference on Staten Island , U.S. Attorney Roslynn Mauskopf announced she would be taking over the probe from District Attorney William Murphy . 
+ Sentence 2: On Friday , U.S. Attorney Roslynn Mauskopf said she would take over the probe from District Attorney William Murphy . [ID: 1790]
+ ##### 
+181. Sentence 1: On July 10 , a team of 32 Singaporean police officers was sent to Baghdad . 
+ Sentence 2: In July 32 Singaporean police officers were sent to Baghdad to help train Iraqi police forces and returned home last month . [ID: 2059]
+ ##### 
+182. Sentence 1: Big Blue says the SEC calls the action a fact-finding investigation and has not reached any conclusions related to this matter . 
+ Sentence 2: The SEC specifically advised IBM that this is a fact-finding investigation and that it has not reached any conclusions related to this matter . [ID: 882]
+ ##### 
+183. Sentence 1: Both papers are being published today in the New England Journal of Medicine . 
+ Sentence 2: The study appears today in the New England Journal of Medicine . [ID: 2698]
+ ##### 
+184. Sentence 1: The number of hostnames using BSD is nearing four million , while the number of active sites is nearly two million , Netcraft said . 
+ Sentence 2: The number of host names using BSD is nearing 4 million , whereas the number of active sites is nearly 2 million , Netcraft said . [ID: 2141]
+ ##### 
+185. Sentence 1: " He wasnt like that , except for getting in a couple fights with his dad . 
+ Sentence 2: As far as I know , he wasnt like that , except for getting in a couple fights with his dad . " [ID: 3054]
+ ##### 
+186. Sentence 1: About 24 percent of men who took placebo , or 1,147 men , developed prostate cancer . 
+ Sentence 2: The researchers found that 18 percent of the men who took finasteride , or 803 men , developed prostate cancer . [ID: 1712]
+ ##### 
+187. Sentence 1: HCA Inc . , the largest U.S. hospital chain , dropped $ 2.21 , or 5.8 percent , to $ 36.14 . 
+ Sentence 2: HCA Inc . ( nyse : HCA - news - people ) , the largest U.S. hospital chain , dropped $ 1.21 , or 3.2 percent , to $ 37.14 . [ID: 3379]
+ ##### 
+188. Sentence 1: Smackdown , first organized by WWE , registered more than 400,000 voters for the 2000 presidential election . 
+ Sentence 2: Since the election , the group has registered more than 400,000 voters . [ID: 2969]
+ ##### 
+189. Sentence 1: But Islamic Jihad 's main leadership in the Gaza Strip disowned the bombing , saying the group was still committed to the ceasefire . 
+ Sentence 2: The group 's leadership in Gaza insisted on Tuesday that it was still committed to the ceasefire . [ID: 1799]
+ ##### 
+190. Sentence 1: The discovery was published yesterday in the New England Journal of Medicine . 
+ Sentence 2: They appear in the Oct. 23 issue of The New England Journal of Medicine . [ID: 3021]
+ ##### 
+191. Sentence 1: In March 2002 , 63 percent of home broadband users connected via cable modem ; 34 percent used a DSL service . 
+ Sentence 2: In the earlier survey , 63 percent of home broadband users had cable modems , compared with 34 percent who connected with DSL technology . [ID: 1632]
+ ##### 
+192. Sentence 1: All those infected had recent close contact with prairie dogs . 
+ Sentence 2: One of those infected reported having recent contact with exotic animals there . [ID: 1789]
+ ##### 
+193. Sentence 1: Gartner raised its own worldwide PC shipment forecast in August to 8.9 per cent growth for 2003 , up from expectations of 7.2 per cent . 
+ Sentence 2: Gartner Inc. also raised its worldwide PC shipment forecast in August to 8.9 percent growth for 2003 , up from expectations of 7.2 percent . [ID: 3062]
+ ##### 
+194. Sentence 1: Mr. Rollins made $ 721,154 in salary and $ 243,389 in bonuses in the prior fiscal year . 
+ Sentence 2: Kevin Rollins , Dell 's president , received $ 770,962 in salary and a bonus of just more than $ 2 million in fiscal 2003 . [ID: 2180]
+ ##### 
+195. Sentence 1: Some Wall Street experts believe stocks have rallied too far , too quickly , given the muddled economic reports of recent weeks . 
+ Sentence 2: Some Wall Street analysts believe stocks have rallied too far , too fast , given the muddled picture of the economy provided by recent data . [ID: 2459]
+ ##### 
+196. Sentence 1: Feral 's group was behind a successful tourism boycott about a decade ago that resulted in then-Gov . Walter J. Hickel imposing a moratorium on wolf control in 1992 . 
+ Sentence 2: Friends of Animals , which touts 200,000 members , was behind a successful tourism boycott that resulted in then-Gov . Walter J. Hickel imposing a moratorium on wolf control in 1992 . [ID: 458]
+ ##### 
+197. Sentence 1: Her lawyer , William Zabel , could not be reached . 
+ Sentence 2: Ms. Kennedy Cuomo 's lawyer , William D. Zabel , said she would not comment . [ID: 2369]
+ ##### 
+198. Sentence 1: Aspen Technology 's shares dropped 74 cents , or 23 percent , to close at $ 2.48 on the Nasdaq . 
+ Sentence 2: In afternoon trading , Aspen 's shares were off 89 cents or more than 27 percent at $ 2.33 per share . [ID: 2205]
+ ##### 
+199. Sentence 1: He projected Vanderpool will be available within the next five years . 
+ Sentence 2: Products featuring Vanderpool will be released within five years , he said . [ID: 1020]
+ ##### 
+200. Sentence 1: Dusenbery 's fiancee , Jessica Wheat , said he was considering settling down in Fort Campbell and making the Army his career . 
+ Sentence 2: Jessica Wheat , who said she and Dusenbery were planning to marry , said Dusenbery was considering settling down in Fort Campbell and making the Army his career . [ID: 3499]
+ ##### 
+201. Sentence 1: There was no immediate response from North Korea or the United States . 
+ Sentence 2: North Korea has demanded one-to-one talks with the United States . [ID: 1459]
+ ##### 
+202. Sentence 1: A former candidate for governor of New York , he styled himself an advocate of better corporate governance . 
+ Sentence 2: Mr. McCall , who ran unsuccessfully for governor of New York in 2002 , styled himself an advocate of better corporate governance . [ID: 414]
+ ##### 
+203. Sentence 1: The US Senate judiciary committee overcame a significant hurdle yesterday in the battle to create a trust fund to pay victims of asbestos exposure . 
+ Sentence 2: The Senate judiciary committee on Tuesday overcame a significant hurdle in the battle to create a trust fund to pay victims of asbestos exposure but the most difficult obstacles remain . [ID: 3129]
+ ##### 
+204. Sentence 1: India blamed that and other attacks on Pakistan-based militants fighting Indian rule in Kashmir , its only Muslim-majority state . 
+ Sentence 2: India has also in the past blamed Pakistan-based militants fighting Indian rule in Kashmir , its only Muslim-majority state , for bombs and other attacks . [ID: 3194]
+ ##### 
+205. Sentence 1: The 2001 recession is considered short and shallow relative to the nine others since World War II , which averaged 11 months . 
+ Sentence 2: The most recent recession was short and shallow relative to the nine others , averaging 11 months , that occurred since World War II . [ID: 3289]
+ ##### 
+206. Sentence 1: " We 're confident that the new leadership will take responsibility for the past actions of the Archdiocese of Boston , " Lincoln said . 
+ Sentence 2: " We are confident that the new leadership in Boston will be willing to take responsibility for the past actions of the archdiocese , ' said Lincoln . " [ID: 371]
+ ##### 
+207. Sentence 1: Dolores Mahoy , 68 , of Colorado Springs , Colo . , is someone who might be helped by the legislation pending in Congress . 
+ Sentence 2: Dolores E. Mahoy , 68 , of Colorado Springs is just the type of person who might be helped by the legislation pending in Congress . [ID: 1797]
+ ##### 
+208. Sentence 1: " The discovery that the MAP bug is present in the vast majority of Crohn 's sufferers means it is almost certainly causing the intestinal inflammation , " it said in a statement . 
+ Sentence 2: The researchers say that the fact the MAP bug is present in the vast majority of Crohns sufferers means it is almost certainly causing the intestinal inflammation . [ID: 1274]
+ ##### 
+209. Sentence 1: Sgt. Ernest Bucklew , 33 , was coming home from Iraq to bury his mother in Pennsylvania . 
+ Sentence 2: Ernest Bucklew was headed home for his mother 's funeral in Pennsylvania . [ID: 1654]
+ ##### 
+210. Sentence 1: " The court expects that 25 years from now , the use of racial preferences will no longer be necessary , " O 'Connor wrote . 
+ Sentence 2: O 'Connor wrote , " We expect that 25 years from now , the use of racial preferences will no longer be necessary . " [ID: 1725]
+ ##### 
+211. Sentence 1: But the Russell 2000 index , the barometer of smaller company stocks , had a weekly gain of 3.71 , or 0.9 percent , closing at 418.40 . 
+ Sentence 2: But the Russell 2000 , the barometer of stocks of smaller companies , had a weekly gain of 3.71 , or 0.9 percent , closing at 418.40 . [ID: 1383]
+ ##### 
+212. Sentence 1: Mr Charlton was in the third aisle when a man in a brown suit raced past him with his hands in the air , armed with the stakes . 
+ Sentence 2: He said a man in the seventh row in a " brown suit raced past me with his hands raised in the air " armed with sharp stakes . [ID: 2869]
+ ##### 
+213. Sentence 1: By late Thursday afternoon , Putnam said the U.S. Attorney in the Southern District of New York had subpoenaed its trading documents , raising the possibility of a criminal indictment . 
+ Sentence 2: Earlier this week , Putnam said the Manhattan U.S. Attorney had subpoenaed its trading documents , raising the possibility of a criminal indictment . [ID: 2568]
+ ##### 
+214. Sentence 1: The Borgata Hotel Casino & Spa opened its doors a day early . 
+ Sentence 2: The dice are rolling at Borgata Hotel Casino & Spa . [ID: 2586]
+ ##### 
+215. Sentence 1: Smith found the cigarette tax falls on the tobacco consumer , not the tribe , meaning the tribe is simply an agent for collecting a tax . 
+ Sentence 2: Smith ruled that the state 's tax falls on the tobacco consumer , not the tribe , making the tribe simply an agent for collecting the tax . [ID: 595]
+ ##### 
+216. Sentence 1: The indictment ``strikes at one of the very top targets in the drug trafficking world , ' ' said U.S. Attorney Marcos Jimenez . 
+ Sentence 2: The newly unsealed 32-count indictment alleges money laundering and conspiracy and " strikes at one of the very top targets in the drug-trafficking world , " Jiménez said . [ID: 2892]
+ ##### 
+217. Sentence 1: " The public is understandably losing patience with these unwanted phone calls , unwanted intrusions , " he said at a White House ceremony . 
+ Sentence 2: " While many good people work in the telemarketing industry , the public is understandably losing patience with these unwanted phone calls , unwanted intrusions , " Mr. Bush said . [ID: 3550]
+ ##### 
+218. Sentence 1: A federal judge ruled that the monument violated the law and ordered it removed . 
+ Sentence 2: The federal courts have ruled that the monument violates the constitutional ban against state-established religion . [ID: 1838]
+ ##### 
+219. Sentence 1: The department told airlines " the threat level to UK civil aviation interests in Kenya has increased to imminent . 
+ Sentence 2: Britain 's Department for Transport said ' ' the threat level to UK civil aviation interests in Kenya has increased to imminent , ' ' and suspended flights after 6 p.m. EDT . [ID: 1908]
+ ##### 
+220. Sentence 1: Kansas City drafted outfielder Chris Lubanski , from Kennedy-Kenrick High School in Pennsylvania , with the fifth pick . 
+ Sentence 2: The Royals chose Chris Lubanski , a high school outfielder from Pennsylvania who hit .528 , with the fifth pick . [ID: 2215]
+ ##### 
+221. Sentence 1: In Ventura County , the number of closings and advisories dropped by 73 percent , from 1,540 in 2001 to 416 last year . 
+ Sentence 2: The number of days when Texas beaches had swimming advisories dropped from 317 in 2001 to 182 last year . [ID: 3076]
+ ##### 
+222. Sentence 1: If the deal is approved , EMC will operate Legato as a software division of EMC headquartered in Mountain View , Calif . 
+ Sentence 2: EMC intends to operate Legato as a software division of EMC from Legato 's current base in California . [ID: 2190]
+ ##### 
+223. Sentence 1: The pressure will intensify today , with national coverage of the final round planned by ESPN and words that are even more difficult . 
+ Sentence 2: The pressure may well rise today , with national coverage of the final round planned by ESPN , the cable sports network . [ID: 109]
+ ##### 
+224. Sentence 1: But Advani said Pakistan should prove its sincerity by handing over suspects wanted by New Delhi in connection with previous bombings in India . 
+ Sentence 2: Advani said Pakistan should prove its sincerity by handing over suspects wanted by New Delhi for past bombings . [ID: 2784]
+ ##### 
+225. Sentence 1: The AP quotes a local policeman as saying the British troops were targeted by townspeople angry over civilian deaths during a demonstration yesterday in the town of Majar Al-Kabir . 
+ Sentence 2: Associated Press quotes a local policeman as saying that the British troops were targeted by townspeople angry over civilian deaths during an earlier demonstration in the town of Majar al-Kabir . [ID: 768]
+ ##### 
+226. Sentence 1: " This individual 's lawyers are trying to obtain from the court a free pass to download or upload music online illegally . " 
+ Sentence 2: " Her lawyers are trying to obtain a free pass to download or upload music on-line illegally . [ID: 778]
+ ##### 
+227. Sentence 1: " It should have reported that it was sailing with an atomic bomb cargo , " Anomeritis said , referring to the quantity of explosives on board . 
+ Sentence 2: " It should have declared that it was sailing with a cargo that was like an atomic bomb , " said Anomeritis . [ID: 818]
+ ##### 
+228. Sentence 1: Opposition to the bill has come from environmentalists , the Miccosukee Tribe , some scientists and members of Congress . 
+ Sentence 2: Besides a federal judge , the criticism has mounted from environmentalists , the Miccosukee Tribe , some scientists and some congressional leaders . [ID: 3427]
+ ##### 
+229. Sentence 1: The technology-loaded Nasdaq Composite Index .IXIC added 0.35 of a point , or 0.02 percent , to 1,662 . 
+ Sentence 2: The Nasdaq Composite Index .IXIC rose 17.48 points , or 1.06 percent , to 1,661.51 , based on the latest available figures . [ID: 1995]
+ ##### 
+230. Sentence 1: Under Mexican law , bounty hunting is considered a form of kidnapping . 
+ Sentence 2: Bounty hunting is illegal in Mexico , and the bounty hunter was charged with kidnapping . [ID: 2483]
+ ##### 
+231. Sentence 1: " We will keep fighting within the law ... against this terrorist group and those who support it . " 
+ Sentence 2: We will keep fighting , within the law , against the terrorist band . " [ID: 2252]
+ ##### 
+232. Sentence 1: She concludes that what her husband did was morally wrong but not a betrayal of the public . 
+ Sentence 2: Mrs Clinton said her husband action 's were morally wrong but did not constitute a public betrayal . [ID: 459]
+ ##### 
+233. Sentence 1: Another soldier died and three were wounded when their vehicle hit a land mine or a piece of unexploded ordnance in Baghdad , a military statement said Tuesday . 
+ Sentence 2: Also Monday , one soldier died and three were wounded when their vehicle hit a land mine or a piece of unexploded ordnance in Baghdad . [ID: 2033]
+ ##### 
+234. Sentence 1: None of the Prairie Plant Systems marijuana can be distributed until the document is made available , she said . 
+ Sentence 2: None of Prairie Plant 's marijuana can be distributed until the Health Canada 's user manual is made available , she said . [ID: 963]
+ ##### 
+235. Sentence 1: Jack Ferry , company spokesman , said that a search is in progress but would not comment on its status . 
+ Sentence 2: Company spokesman Jack Ferry said a search is ongoing but declined comment on its status . [ID: 3500]
+ ##### 
+236. Sentence 1: Both bidders agreed to assume about $ 90 million in debt owed on the planes . 
+ Sentence 2: Wexford had agreed to assume about $ 90 million in debt to buy the planes and certificate . [ID: 692]
+ ##### 
+237. Sentence 1: Representatives of its tribal and ethnic groups named a cross section of residents yesterday to run municipal affairs alongside the US military . 
+ Sentence 2: Representatives of its tribal and ethnic groups named a cross-section of residents yesterday to run municipal affairs alongside the U.S. military until elections can be held . [ID: 1703]
+ ##### 
+238. Sentence 1: Gartner analysts said that businesses are not yet feeling confident enough to upgrade corporate PCs . 
+ Sentence 2: What 's more , companies are not feeling confident enough to replace older PCs , the analyst firm said . [ID: 1556]
+ ##### 
+239. Sentence 1: Chapman was not immediately arrested and is expected to appear for arraignment July 3 . 
+ Sentence 2: Mr. Chapman , who hasn 't been arrested , is expected to appear for arraignment next Thursday , prosecutors said . [ID: 1490]
+ ##### 
+240. Sentence 1: Preventing stronger gains , News Corp < NCP.AX > fell 1.3 percent to A $ 12.43 and Brambles < BIL.AX > dropped 1.9 percent to A $ 4.75 after a weak performance overnight . 
+ Sentence 2: Holding the market back , News Corp < NCP.AX > fell two percent to A $ 12.34 and Brambles < BIL.AX > dropped 2.3 percent to A $ 4.73 after a weak performance overnight . [ID: 2362]
+ ##### 
+241. Sentence 1: Derrick Todd Lee is helped from a plane in Baton Rouge , Wednesday . 
+ Sentence 2: Derrick Todd Lee , 34 , is shown in this photo released by the police in Baton Rouge , Monday . [ID: 3420]
+ ##### 
+242. Sentence 1: Two of his cousins members of the Jordanian royal family have been mentioned as possible contenders to the throne . 
+ Sentence 2: In addition , two of his cousins - members of the Jordanian royal family - have been mentioned as possible competition for the throne . [ID: 2039]
+ ##### 
+243. Sentence 1: Officials at Mortazavi 's office and the judiciary declined to respond to Reuters ' requests for comment on the accusations . 
+ Sentence 2: Judiciary officials did not immediately respond to Reuters ' requests for comment on the criticism of Mortazavi 's appointment . [ID: 1013]
+ ##### 
+244. Sentence 1: Meanwhile , the global death toll approached 770 with more than 8,300 people sickened since the severe acute respiratory syndrome virus first appeared in southern China in November . 
+ Sentence 2: The global death toll from SARS was at least 767 , with more than 8,300 people sickened since the virus first appeared in southern China in November . [ID: 51]
+ ##### 
+245. Sentence 1: The $ 250 million expansion will boost Nissan 's total investment at its two Tennessee plants to $ 2.75 billion . 
+ Sentence 2: This will bring Nissan 's total capital investment in Tennessee to $ 2.75 billion . [ID: 3042]
+ ##### 
+246. Sentence 1: Despite such optimism , Taiwan 's SARS crisis threatened to whirl out of control this month . 
+ Sentence 2: Despite such optimism , Taiwan 's SARS crisis threatened to whirl out of control in the last week of May . [ID: 2948]
+ ##### 
+247. Sentence 1: AMD 's chip sales jumped 7 percent year-on-year to $ 402 million . 
+ Sentence 2: Second-quarter sales grew 7 percent , to $ 645 million from $ 600 million in 2002 . [ID: 1695]
+ ##### 
+248. Sentence 1: CS 's other main division , Financial Services , made a 666 million franc net profit , six percent below the prior quarter . 
+ Sentence 2: CS Financial Services made a 666 million franc net profit , six percent less than in the fourth quarter of last year . [ID: 2343]
+ ##### 
+249. Sentence 1: At the Pentagon , the Department of Defense 's Inspector General has separately been asked to investigate how the telecom licences were awarded . 
+ Sentence 2: But a source close to the Pentagon said the Defense Department 's own inspector-general had been asked to investigate how the licences were awarded . [ID: 1641]
+ ##### 
+250. Sentence 1: The Nasdaq composite index fell 2.95 , or 0.2 percent , for the week to 1,912.36 after stumbling 37.78 yesterday . 
+ Sentence 2: The Nasdaq eased 0.15 percent for the week after two consecutive up weeks . [ID: 1436]
+ ##### 
+251. Sentence 1: The Recording Industry Association of America says it plans to sue the song traders next month . 
+ Sentence 2: That is , if the Recording Industry Association of America has anything to say about it . [ID: 1942]
+ ##### 
+252. Sentence 1: In interviews with engineers , most of whom have not spoken publicly until now , the lines of discord between NASA 's engineers and managers are evident . 
+ Sentence 2: In interviews with numerous engineers , most of whom have not spoken publicly until now , the lines of discord between NASA 's engineers and managers stand out in stark relief . [ID: 1595]
+ ##### 
+253. Sentence 1: Analysts had expected 53 cents a share , according to research firm Thomson First Call . 
+ Sentence 2: Home Depot is expected to report earnings per share of 46 cents for the third quarter , according to Thomson First Call . [ID: 949]
+ ##### 
+254. Sentence 1: Peterson 's lawyer , Mark Geragos of Los Angeles , was quick to swipe at the testing procedure . 
+ Sentence 2: Peterson 's lawyer , Mark Geragos , of Los Angeles , has contested the DNA evidence , saying it is unreliable . [ID: 1920]
+ ##### 
+255. Sentence 1: A picture of the doctor 's son holding the guitar appeared in the National Enquirer just two weeks after George died . 
+ Sentence 2: A photograph of the doctor 's son holding the guitar appeared in the National Enquirer two weeks after Harrison 's death . [ID: 2926]
+ ##### 
+256. Sentence 1: They did not nationalize them , " Manouchehr Takin , an analyst at the Center for Global Energy Studies in London , said . 
+ Sentence 2: They did not nationalize them , " said Manouchehr Takin of the Center for Global Energy Studies . [ID: 2584]
+ ##### 
+257. Sentence 1: Nonetheless , the open-source guru insisted , " This attack was wrong , and it was dangerous to our goals . " 
+ Sentence 2: " This attack was wrong , and it was dangerous to our goals , " Raymond said . [ID: 3527]
+ ##### 
+258. Sentence 1: The tendency to feel rejection as an acute pain may have developed in humans as a defensive mechanism for the species , said Eisenberger . 
+ Sentence 2: Feeling rejection as an acute pain may have developed as a defence mechanism for the species , Eisenberger said . [ID: 1406]
+ ##### 
+259. Sentence 1: Jewish and Muslim leaders expressed horror at the proposals , which have not been approved . 
+ Sentence 2: Jewish and Muslim leaders objected to the proposals , which were never approved . [ID: 2517]
+ ##### 
+260. Sentence 1: Steverson said Williams was known as a racist who did not like Blacks . 
+ Sentence 2: Steverson said Williams , who was white , was a racist . [ID: 1871]
+ ##### 
+261. Sentence 1: A number below 50 suggests contraction in the manufacturing sector , while a number above that indicates expansion . 
+ Sentence 2: A reading above 50 suggests growth in the sector , while a number below that level indicates contraction . [ID: 833]
+ ##### 
+262. Sentence 1: The victim , who was also not identified , was taken to Kings County Hospital in " extremely critical " condition , Czartoryski said . 
+ Sentence 2: The shooting victim was taken to Kings County Hospital Center , where he later died , the police said . [ID: 1763]
+ ##### 
+263. Sentence 1: Come tonight , 21-year-old Morgan and as many as 1,200 fellow students at Wheaton College will gather in the gym for the first real dance in the school 's 143-year history . 
+ Sentence 2: As many as 1,200 students at Wheaton College will gather in the gym Friday night for the first real dance in the Christian school 's 143-year history . [ID: 1956]
+ ##### 
+264. Sentence 1: She met Lady Mary at her Double Bay home yesterday to thank her for the donation . 
+ Sentence 2: She met Lady Mary for the first time at her Double Bay home in Sydney yesterday to thank her in person for the donation . [ID: 1329]
+ ##### 
+265. Sentence 1: The virus spreads when unsuspecting computer users open file attachments in emails that contain familiar headings like " Thank You ! " and " Re : Details " . 
+ Sentence 2: Sobig.F spreads when unsuspecting computer users open file attachments in e-mails that contain such familiar headings as " Thank You ! , " " Re : Details " or " Re : That Movie . " [ID: 305]
+ ##### 
+266. Sentence 1: Writing in the journal Geophysical Research Letters , Vincent ’ s team said all of the fresh water poured out of the 20 mile ( 30 km ) long Disraeli Fjord . 
+ Sentence 2: Writing in the journal Geophysical Research Letters , Vincent 's team said all of the fresh water poured out of the 20-mile-long Disraeli Fjord . [ID: 3533]
+ ##### 
+267. Sentence 1: Trading volume was incredibly light at 500.22 million shares , below an already thin 611.45 million exchanged at the same point Thursday . 
+ Sentence 2: Trading volume was extremely light at 1.05 billion shares , below an already thin 1.19 billion on Tuesday . [ID: 2579]
+ ##### 
+268. Sentence 1: Earlier on Monday , Grant Thornton SpA repeated previous statements that it was " a victim of fraudulent action " . 
+ Sentence 2: Grant Thornton claims that it too was the “ victim ” of a fraud . [ID: 901]
+ ##### 
+269. Sentence 1: World economic leaders hailed signs of a global revival on Tuesday but agreed it had to be handled with care to prevent any setback . 
+ Sentence 2: DUBAI , SEPTEMBER 23 : The world economic leaders hailed on Tuesday signs of a global revival but agreed it had to be handled with care to prevent any setback . [ID: 668]
+ ##### 
+270. Sentence 1: Such a letter indicates the government intends to pursue an indictment and believes it has substantial evidence to support an indictment , the company said . 
+ Sentence 2: The Kenilworth-based company said it believes the letter shows that the government plans to pursue a criminal indictment and likely has substantial evidence supporting an indictment . [ID: 2103]
+ ##### 
+271. Sentence 1: U.S. corporate bond yield spreads opened tighter overall on Tuesday , but tobacco company bonds widened significantly after an adverse legal ruling on Philip Morris USA . 
+ Sentence 2: U.S. corporate bond yield spreads ended mostly tighter amid slumping Treasuries on Tuesday , while bonds of tobacco firms widened significantly after an adverse legal ruling on Philip Morris USA . [ID: 1825]
+ ##### 
+272. Sentence 1: Pressed for details , Mr Warner said : " All six of them are dead , we were told by Harold and his group " . 
+ Sentence 2: " All six of them are dead , we were told by Harold and his group , " Warner said . [ID: 2909]
+ ##### 
+273. Sentence 1: Four years ago , Nike was sued in state court by California activist Marc Kasky under a statute designed to protect consumers from false advertising . 
+ Sentence 2: Four years ago , California activist Marc Kasky sued Nike under a statute designed to protect consumers from false advertising . [ID: 2645]
+ ##### 
+274. Sentence 1: Goss said CIA Director George Tenet has provided the committee with 19 volumes of documents on prewar intelligence which has been made available to House members . 
+ Sentence 2: He also noted that Tenet has provided the committee with 19 volumes of documents on prewar intelligence which has been made available to House members . [ID: 1333]
+ ##### 
+275. Sentence 1: Mr. Bloomberg later told reporters that the agreement " will be a compromise , like the real world requires . " 
+ Sentence 2: " It will be a compromise , like the real world requires , " he said . [ID: 836]
+ ##### 
+276. Sentence 1: No team has overcome a 3-1 deficit in the NBA Finals , and the New Jersey Nets don 't want to try their luck at such a daunting task . " 
+ Sentence 2: No team has overcome a 3-1 deficit in the NBA Finals , and the New Jersey Nets don 't want to try their luck at it . [ID: 3239]
+ ##### 
+277. Sentence 1: Smith said simply " Oh , my God , " in the seconds afterward , according to Weinshall . 
+ Sentence 2: In the seconds after the crash , she added , Captain Smith said simply , " Oh my God . " [ID: 3166]
+ ##### 
+278. Sentence 1: Excluding legal fees and other charges it expected a loss of between 1 and 4 cents a share . 
+ Sentence 2: Excluding litigation charges it made a profit of $ 7.8 million , or 10 cents a share . [ID: 1113]
+ ##### 
+279. Sentence 1: The American conservatives are clearly in the minority within the Episcopal Church . 
+ Sentence 2: The letter indicates the Vatican 's interest in bolstering conservatives within the Episcopal Church . [ID: 1700]
+ ##### 
+280. Sentence 1: More than 60 percent of the company 's 1,000 employees were killed in the attack . 
+ Sentence 2: More than 60 per cent of its 1,000 employees at the time were killed . [ID: 1875]
+ ##### 
+281. Sentence 1: In Britain , temperatures threatened to top the 37.1 C ( 98.8 F ) all-time high . 
+ Sentence 2: Western and southwestern Germany were expected to see temperatures hit 38 C ( 100.4 F ) . [ID: 2278]
+ ##### 
+282. Sentence 1: The chipset will operate in the 2.4-GHz band , and features radio signal interference prevention and low power consumption . 
+ Sentence 2: The 2.4 GHz radio frequency chipset features radio interference protection and low power consumption . [ID: 3312]
+ ##### 
+283. Sentence 1: Myanmar 's pro-democracy leader Aung San Suu Kyi will be kept under house arrest following her release from a hospital where she underwent surgery , her personal physician said Friday . 
+ Sentence 2: Burma pro-democracy leader Aung San Suu Kyi will be released from a hospital after recovering from surgery but remain under detention at home , her personal physician said today . [ID: 706]
+ ##### 
+284. Sentence 1: " At that time I didn 't agree , because the people who will be the victims are schoolchildren and security , " he says . 
+ Sentence 2: In a generous gesture of uncharacteristic compassion , Samudra claims : " At that time I didn 't agree because the people who will be the victims are schoolchildren " . [ID: 3022]
+ ##### 
+285. Sentence 1: Against the Canadian dollar , the greenback was trading nearly flat at C $ 1.3252 < CAD = > after the Bank of Canada kept key interest rates unchanged . 
+ Sentence 2: Against the Canadian dollar , the greenback rose 0.15 percent to $ 1.3260 < CAD = > as the Bank of Canada kept key interest rates unchanged . [ID: 2207]
+ ##### 
+286. Sentence 1: " We are pleased with the judge 's decision and pleased that they accepted our arguments , " a Merrill spokesman said Tuesday . 
+ Sentence 2: " We 're pleased with the judge 's decision , " said Mark Herr , spokesman for Merrill Lynch . [ID: 3352]
+ ##### 
+287. Sentence 1: Britz earned $ 3.77 million in salary , bonus and other compensation , and Kinney earned $ 3.76 million . 
+ Sentence 2: Johnston made $ 5.8 million in salary and bonus in 2001 as president , and as a part-time adviser earned $ 1 million in 2002 . [ID: 3529]
+ ##### 
+288. Sentence 1: The two have no diplomatic ties and their already tense relationship has been frayed by the crisis over the North 's nuclear ambitions . 
+ Sentence 2: The two have no diplomatic ties and their already tense relationship has been frayed further by a diplomatic spat over North Korea 's nuclear ambitions . [ID: 2437]
+ ##### 
+289. Sentence 1: Merrill neither admitted to nor denied wrongdoing in the accord . 
+ Sentence 2: Merrill Lynch did not admit to wrongdoing in the accord . [ID: 3430]
+ ##### 
+290. Sentence 1: For the first time starting Thursday , all four pages of the Constitution will be on view instead of just the first and last pages . 
+ Sentence 2: And for the first time , all four pages of the Constitution will be on permanent display . [ID: 3610]
+ ##### 
+291. Sentence 1: Justice Anthony M. Kennedy also dissented from the dismissal . 
+ Sentence 2: Justices Anthony Kennedy , Sandra Day O 'Connor and Stephen Breyer dissented . [ID: 3068]
+ ##### 
+292. Sentence 1: " If the voluntary reliability standards were complied with , we wouldn 't have had a problem . " 
+ Sentence 2: " If the voluntary reliability standards had been complied with , we wouldn 't have had a problem , " Mr. Dhaliwal said . [ID: 789]
+ ##### 
+293. Sentence 1: " Prime Minister Abbas , we are facing a new opportunity today , a better future for both peoples , " Israeli Prime Minister Ariel Sharon said after Tuesday 's meeting . 
+ Sentence 2: " Prime Minister Abbas , we are facing a new opportunity today , a better future for both peoples , " Mr Sharon said . [ID: 3386]
+ ##### 
+294. Sentence 1: The fawn , named after Dr Duane Kraemer , one of the researchers , was born a few months ago . 
+ Sentence 2: The fawn , named for university researcher Duane Kraemer , turns 7 months old today . [ID: 1986]
+ ##### 
+295. Sentence 1: Germans account for more than 40 percent of foreign visitors coming to Italy . 
+ Sentence 2: Germans represent more than a quarter of all foreign visitors to Italy and 40 percent of hotel bookings . [ID: 3642]
+ ##### 
+296. Sentence 1: Nigeria and other African oil producers are increasingly important in U.S. plans to lessen dependence on Middle Eastern suppliers for its energy security . 
+ Sentence 2: Nigeria and other African producers are increasingly important in the former Texas oilman 's plans to lessen dependence on Middle Eastern suppliers for energy security . [ID: 889]
+ ##### 
+297. Sentence 1: Although obesity can increase the risk of health problems , skeptics argue , so do smoking and high cholesterol . 
+ Sentence 2: Although obesity can increase the risk of a host of health problems , skeptics argue , so do smoking and high cholesterol , which are not considered diseases . [ID: 1972]
+ ##### 
+298. Sentence 1: BofA said yesterday it had " policies in place that prohibit late-day trading " . 
+ Sentence 2: Bank of America says its policies prohibit late-day trading , which is illegal . [ID: 3015]
+ ##### 
+299. Sentence 1: They include Ask Jeeves Inc . , Global Crossing , Aether Systems , Clarent , Copper Mountain Networks and VA Linux , now VA Software . 
+ Sentence 2: They included Global Crossing , Akamai Technologies , Ask Jeeves , Copper Mountain Networks , Etoys and VA Linux . [ID: 2508]
+ ##### 
+300. Sentence 1: The technology-laced Nasdaq Composite Index .IXIC inched down 1 point , or 0.11 percent , to 1,650 . 
+ Sentence 2: The broad Standard & Poor 's 500 Index .SPX inched up 3 points , or 0.32 percent , to 970 . [ID: 3055]
+ ##### 
+301. Sentence 1: Manfred Bischoff , EADS co-chairman and also a member of the management board of DaimlerChrysler , said both EPI and Pratt & Whitney had presented " excellent proposals . 
+ Sentence 2: Manfred Bischoff , EADS co-chairman and a member of DaimlerChrysler 's management board , said EPI and P & W had presented " excellent proposals . [ID: 2735]
+ ##### 
+302. Sentence 1: Today , we preserve essential tools to foster voice competition in the local market . 
+ Sentence 2: " We preserve essential tools to foster voice competition , " Copps said . [ID: 1273]
+ ##### 
+303. Sentence 1: " This blackout was largely preventable , " Energy Secretary Spencer Abraham said . 
+ Sentence 2: " Things go wrong , " U.S. Energy Secretary Spencer Abraham said Wednesday at the Department of Energy . [ID: 241]
+ ##### 
+304. Sentence 1: Utah 's median household income also took a hit , falling 1.8 percent , from $ 48,875 to $ 47,978 . 
+ Sentence 2: Georgia 's median household income dropped about 0.9 percent to $ 43,096 -- a $ 408 dip . [ID: 1495]
+ ##### 
+305. Sentence 1: Technology stocks make up 42 percent of the Nasdaq , which fell 49.95 points , or 2.9 percent , to 1,698.02 . 
+ Sentence 2: The Nasdaq fell 49.95 points , or 2.86 percent , to end at 1,698.02 , based on the latest available data . [ID: 232]
+ ##### 
+306. Sentence 1: In Las Vegas , agents entered two clubs — Cheetah 's and Jaguars — along with Galardi Enterprises , an office atop a bar and pool hall in downtown Las Vegas . 
+ Sentence 2: In Las Vegas , federal agents stormed two clubs - Cheetah 's and Jaguars - along with Galardi Enterprises , an office atop a bar in downtown . [ID: 2715]
+ ##### 
+307. Sentence 1: " This is a cloud hanging over their credibility , their word , " said Hagel . 
+ Sentence 2: " This is a cloud hanging over their credibility , their word , " Hagel said on ABC 's " This Week . " [ID: 2107]
+ ##### 
+308. Sentence 1: " His statement is that he possibly hit the gas instead of the brakes , " Mr Butts said . 
+ Sentence 2: " He says he couldn 't stop the vehicle ... his statement is he possibly hit the gas instead of the brake , " Butts said . [ID: 3598]
+ ##### 
+309. Sentence 1: " We think it 's great news , " Enron spokesman Eric Thode said . 
+ Sentence 2: Enron spokesman Eric Thode declined to comment on the mediation order . [ID: 2796]
+ ##### 
+310. Sentence 1: At least 13 of the affected flights were scheduled out of Atlanta . 
+ Sentence 2: At least 13 flights out of Atlanta were listed as canceled . [ID: 3049]
+ ##### 
+311. Sentence 1: The decision could also prove useful in the " war on terrorism " . 
+ Sentence 2: Tuesday 's decision could prove useful to the government in the war on terrorism . [ID: 397]
+ ##### 
+312. Sentence 1: In Canada , Tim Hortons ' same-store sales were up as much as 6.7 per cent . 
+ Sentence 2: Tim Hortons ' same-store sales in Canada rose by 6.7 per cent . [ID: 3029]
+ ##### 
+313. Sentence 1: Others rushed up the aisle to vocally protest the remarks , and one student tossed his cap and gown to the stage before leaving . 
+ Sentence 2: A few tried to rush the podium , and at least one graduate tossed his cap and gown to the stage before leaving . [ID: 1694]
+ ##### 
+314. Sentence 1: Schering-Plough shares fell 72 cents to close at $ 18.34 on the New York Stock Exchange . 
+ Sentence 2: The shares fell 72 cents , or 3.8 percent , to $ 18.34 Monday on the New York Stock Exchange . [ID: 928]
+ ##### 
+315. Sentence 1: " Prospects for the whole Canadian aerospace industry are improving with recent developments contributing to the enhancement of the aircraft financing capability in this country , " Mr. Tellier said . 
+ Sentence 2: " Prospects for the whole Canadian aerospace industry are improving with recent developments contributing to the enhancement of aircraft financing in this country , " said Paul Tellier , Bombardier chief executive . [ID: 2420]
+ ##### 
+316. Sentence 1: Mr. Dewhurst has called for a " cooling period " between special sessions , which could give the Democrats some time at home . 
+ Sentence 2: Mr. Dewhurst has suggested a cooling-off period , which could give the senators time to go home . [ID: 3509]
+ ##### 
+317. Sentence 1: The shooting happened at 5 : 30 a.m. in the living room of the home the extended family shared on the city 's westside . 
+ Sentence 2: The shootings happened at 5 : 30 a.m. in the living room of the home that the extended family shared on Gary 's west side . [ID: 1673]
+ ##### 
+318. Sentence 1: The staged scene , covering several acres , featured smashed cars and buses , ruined buildings , scattered debris and spot fires . 
+ Sentence 2: Smashed cars and buses , ruined buildings , scattered debris and spot fires added to the realism . [ID: 3188]
+ ##### 
+319. Sentence 1: After consulting with experts , he said he was advised a delay will give Luna his best chance of reuniting with " L " Pod , his family . 
+ Sentence 2: Experts say the delay will give Luna his best chance of reuniting with " L " Pod , his family , Thibault said . [ID: 3634]
+ ##### 
+320. Sentence 1: Southwest said it had already inspected its fleet of 385 aircraft and found no additional suspicious items . 
+ Sentence 2: Southwest said it completed inspections of its entire fleet of 385 aircraft and found no additional items . [ID: 2075]
+ ##### 
+321. Sentence 1: The broader Standard & Poor 's 500 Index ended up 1.03 points , or 0.10 percent , at 998.51 , ending at its highest since late June 2002 . 
+ Sentence 2: The broader Standard & Poor 's 500 Index .SPX was off 1.67 points , or 0.17 percent , at 995.81 . [ID: 2393]
+ ##### 
+322. Sentence 1: In Washington , the federal government remained closed for a second day . 
+ Sentence 2: The nation 's capital was quiet today , with the federal government shut down for the second day . [ID: 3080]
+ ##### 
+323. Sentence 1: Media moguls jostled for position as the deadline for bids for Vivendi Universal 's U.S. entertainment empire neared on Monday in an auction of some of Hollywood 's best-known assets . 
+ Sentence 2: Media giant Vivendi Universal has given itself two weeks to sift through offers for its U.S. entertainment empire in a multi-billion dollar auction of some of Hollywood 's best-known assets . [ID: 2078]
+ ##### 
+324. Sentence 1: So far , Georgia has been returned all but $ 70,000 of the money it wired . 
+ Sentence 2: Georgia has received all but $ 70,000 of its money back with the help of the FBI . [ID: 1396]
+ ##### 
+325. Sentence 1: BEA Systems Inc . BEAS.O on Thursday said second-quarter profits rose 28 percent , as revenues grew amid a contracting overall market for business software . 
+ Sentence 2: BEA Systems Inc . BEAS.O said on Thursday second-quarter profits rose 28 percent , as revenues grew slightly more than Wall Street expected amid a contracting overall market for business software . [ID: 1047]
+ ##### 
+326. Sentence 1: " This moves us a lot closer to saying that the foam can do this kind of damage , " said Hubbard , a member of the Columbia Accident Investigation Board . 
+ Sentence 2: " I think this moves us a lot closer toward saying that foam can do this kind of damage , " Hubbard said . [ID: 3532]
+ ##### 
+327. Sentence 1: The Standard & Poor 's 500 stock index ended the quarter up 120 points , a gain of 14 percent , the best performance for that broad market benchmark since 1998 . 
+ Sentence 2: The Standard and Poor 's 500-stock index , a broad collection of equities representing leading companies , finished its best quarter yesterday since the last three months of 1998 . [ID: 2589]
+ ##### 
+328. Sentence 1: Heatley was sixth in the league in goals last season with 41 and ninth in points with 89 . 
+ Sentence 2: Heatley led Atlanta in scoring last season with a team-record 41 goals and 48 assists . [ID: 1998]
+ ##### 
+329. Sentence 1: Lucent 's stock shed 6 cents , or 2.7 percent , to close at $ 2.15 after heavy trading on the New York Stock Exchange on Friday . 
+ Sentence 2: Lucent 's stock was up a penny at $ 2.22 in heavy trading on the New York Stock Exchange on Friday afternoon . [ID: 2991]
+ ##### 
+330. Sentence 1: In after-hours trading , H-P shares rose 62 cents to $ 22.83 after adding 56 cents in the regular session . 
+ Sentence 2: In after-hours trading , Hewlett-Packard shares rose 55 cents , to $ 22.86 , according to Instinet . [ID: 2283]
+ ##### 
+331. Sentence 1: Privately-held GeCAD Software , founded in 1992 , has supplied antivirus and security products since 1994 under the name RAV AntiVirus . 
+ Sentence 2: GeCAD , founded in 1992 and based in Bucharest , provides anti-virus , anti-spam and content-filtering products under the name RAV AntiVirus . [ID: 1298]
+ ##### 
+332. Sentence 1: Shares of Berkeley , California-based Xoma dropped 89 cents , or 16 percent , to $ 4.60 in Instinet trading . 
+ Sentence 2: Shares in Berkeley-based Xoma lost 77 cents , or 14 percent , to close at $ 4.72 each in trading on the Nasdaq Stock Market . [ID: 2641]
+ ##### 
+333. Sentence 1: Symbol 's former chief accounting officer , Robert Korkuc , is expected to plead guilty in a federal court in Long Island later Thursday , according to reports . 
+ Sentence 2: The Securities and Exchange Commission announced that Robert Korkuc was expected to plead guilty Thursday in federal court on Long Island to securities fraud charges . [ID: 1056]
+ ##### 
+334. Sentence 1: The festival kicked off yesterday one day after the Competition Commission delivered its final verdict to the Government on the proposed £ 4.1 billion merger . 
+ Sentence 2: The Competition Commission delivered its verdict yesterday on the proposed merger of the two big ITV players , Carlton and Granada . [ID: 2156]
+ ##### 
+335. Sentence 1: China accounted for about 14 percent of Motorola 's sales last year , and the company has large manufacturing operations there . 
+ Sentence 2: China accounted for 14 % of Motorola 's $ 26.7 billion in sales last year . [ID: 790]
+ ##### 
+336. Sentence 1: PowderJect is roughly 20 percent owned by CEO Drayson , a high-profile UK businessman , and his family . 
+ Sentence 2: PowderJect , roughly 20 percent owned by Chief Executive Paul Drayson and his family , reported surging annual profit early this month . [ID: 2348]
+ ##### 
+337. Sentence 1: " I don 't think my brain is going to go dead this afternoon or next week , " he said . 
+ Sentence 2: In a conference call yesterday , he said , " I don 't think that my brain is going to go dead this afternoon or next week . " [ID: 2500]
+ ##### 
+338. Sentence 1: Mr Eddington described Monday 's talks with union leaders as " sensible " . 
+ Sentence 2: Mr Eddington is to meet union leaders today and tomorrow . [ID: 736]
+ ##### 
+339. Sentence 1: A statement released by DEI said Green would begin driving the car on an interim basis beginning next week in the Winston Open at Lowe 's Motor Speedway . 
+ Sentence 2: It was announced that Green will replace Park in the Dale Earnhardt Inc . No. 1 Chevrolet , beginning with the Winston Open at Lowe 's Motor Speedway next week . [ID: 1975]
+ ##### 
+340. Sentence 1: One question was whether France , which infuriated Washington by leading the charge against U.N. authorization for the war , would vote " Yes " or abstain . 
+ Sentence 2: France , which infuriated Washington by leading the charge against U.N. approval for the war , also sought changes . [ID: 373]
+ ##### 
+341. Sentence 1: Platinum prices soared to 23-year highs earlier this year after President Bush ( news - web sites ) proposed investing $ 1.2 billion for research on fuel cell-powered vehicles . 
+ Sentence 2: Platinum prices soared to 23-year highs earlier this year after U.S. President George W. Bush proposed investing $ 1.2 billion for research on fuel cell-powered vehicles . [ID: 164]
+ ##### 
+342. Sentence 1: The caretaker , identified by church officials as Jorge Manzon , was believed to be among the nine missing - some of them children . 
+ Sentence 2: The caretaker , identified by church officials as Jorge Monzon , was believed to be among the missing , who are presumed dead . [ID: 1980]
+ ##### 
+343. Sentence 1: When you crossed the line , you violated the constitutional right , " said Charles Weisselberg , a UC Berkeley law professor . 
+ Sentence 2: When you crossed the line , you violated the constitutional right , " said Charles Weisselberg , who teaches law at the University of California , Berkeley . [ID: 236]
+ ##### 
+344. Sentence 1: Another was in serious condition at Northwest Medical Center in Springdale . 
+ Sentence 2: At Northwest Medical Center of Washington County in Springdale , one child is in serious condition . [ID: 220]
+ ##### 
+345. Sentence 1: " The accusation that I misappropriated money from Jennifer Lopez is both untrue and offensive , " Medina said in a statement . 
+ Sentence 2: In response , Medina issued the following statement : " The accusation that I misappropriated money from Jennifer Lopez is both untrue and offensive . [ID: 1371]
+ ##### 
+346. Sentence 1: Robbins said he wants to take any network like ESPN that charges more than $ 1 per Cox customer and make those optional choices for consumers to buy . 
+ Sentence 2: Robbins said he wants to take networks such as ESPN that charge more than $ 1 per Cox customer and make them optional choices . [ID: 2639]
+ ##### 
+347. Sentence 1: Artists are worried the plan would harm those who need help most - performers who have a difficult time lining up shows . 
+ Sentence 2: The artists say the plan will harm French culture and punish those who need help most - performers who have a hard time lining up work . [ID: 3512]
+ ##### 
+348. Sentence 1: Mosel was unable to present financial statements in time due to mergers among subsidiaries and a change of accountants , the company said on Monday . 
+ Sentence 2: Mosel had been unable to present financial statements in time because of mergers among subsidiaries and a change of accountants , the company said yesterday . [ID: 1259]
+ ##### 
+349. Sentence 1: The first trial of a suspect in last year 's Bali nightclub bombings that killed more than 200 people opened in Indonesia today , Sky News reported . 
+ Sentence 2: One of the key suspects in the October nightclub bombings that killed more than 200 people in Bali went on trial Monday amid tight security . [ID: 1637]
+ ##### 
+350. Sentence 1: When asked where the weapons were , Rice said : ' ' This is a program that was built for concealment . 
+ Sentence 2: " The fact is , this was a program that was built for concealment . [ID: 1829]
+ ##### 
+351. Sentence 1: The blaze was only 5 percent contained early Monday . 
+ Sentence 2: The blaze , started by lightning June 6 , is considered 95 percent contained . [ID: 3050]
+ ##### 
+352. Sentence 1: Britain has said it will oppose articles calling for closer coordination of tax and economic policy , to uphold the national right of veto . 
+ Sentence 2: Britain has said it wants to haggle over articles of the draft calling for closer coordination of tax and economic policy . [ID: 3271]
+ ##### 
+353. Sentence 1: About 1,000 people attended the ceremony , kicking off two days of observances tied to the March on Washington . 
+ Sentence 2: About 1,000 people came in stifling heat to begin two days of observances tied to the coming 40th anniversary of the March on Washington on Aug. 28 , 1963 . [ID: 564]
+ ##### 
+354. Sentence 1: His wife , who he married in a first ever space wedding by a space phone during his lengthy mission , waited in Moscow . 
+ Sentence 2: His wife Yekaterina Dmitriyeva , whom he married in a first ever space wedding by a space phone during his daunting mission , was waiting for him in Moscow . [ID: 2115]
+ ##### 
+355. Sentence 1: " The flu season has had an earlier onset than we 've seen in many years , " said Julie Gerberding , director of the Centers for Disease Control and Prevention in Atlanta . 
+ Sentence 2: We 're seeing some very high levels of widespread flu infections in some places , " said Dr. Julie Gerberding , director of the federal Centers for Disease Control and Prevention . [ID: 2902]
+ ##### 
+356. Sentence 1: The high profile two-week campaign – which started on September 28 – was designed to show a strong police presence around London . 
+ Sentence 2: The high profile , two-week campaign was designed to show a strong police presence around London and resulted in 42 arrests , which a spokesman said was " pretty impressive " . [ID: 2381]
+ ##### 
+357. Sentence 1: No dates have been set for the criminal or civil cases , but Shanley has pleaded not guilty . 
+ Sentence 2: No dates have been set for either the civil trial or the criminal trial . [ID: 3304]
+ ##### 
+358. Sentence 1: Rumours swirled among market participants that Japan may have intervened overnight when the yen appreciated to 116 per dollar . 
+ Sentence 2: Rumours swirled among market participants that Japan may have stepped in overnight and in Tokyo on Friday . [ID: 2066]
+ ##### 
+359. Sentence 1: " This will be a marathon , not a sprint , " said Jimmy D. Staton , a senior vice president with the utility . 
+ Sentence 2: " This will be a marathon , not a sprint , " said Jimmy D. Staton , senior vice president of operations at Dominion Virginia Power . [ID: 1996]
+ ##### 
+360. Sentence 1: Bush is spending the weekend at his Crawford ranch , where he will play host to Italian Prime Minister Silvio Berlusconi . 
+ Sentence 2: He is to play host to Italian Prime Minister Silvio Berlusconi on Sunday and Monday . [ID: 1524]
+ ##### 
+361. Sentence 1: Fighting has continued sporadically in the west , where it is complicated by the presence of battle-hardened Liberians on both sides . 
+ Sentence 2: Both are in the cocoa-growing west of the world 's top producer in a region where fighting is complicated by the presence of Liberians on both sides . [ID: 1927]
+ ##### 
+362. Sentence 1: Italian Prime Minister Silvio Berlusconi , whose country holds the rotating EU presidency , said he was prepared to call another meeting of leaders next month . 
+ Sentence 2: Italian Prime Minister Silvio Berlusconi , chairing the summit , said he was prepared to call an extra informal meeting of leaders next month on the constitution if necessary . [ID: 1798]
+ ##### 
+363. Sentence 1: Last week , his lawyers asked Warner to grant clemency under conditions that would have lead to a new sentencing hearing . 
+ Sentence 2: Last week , his lawyers asked Gov. Mark R. Warner to grant clemency , but the governor declined to intervene . [ID: 1622]
+ ##### 
+364. Sentence 1: For the third time in the past four years , wildfires are the problem . 
+ Sentence 2: It was the third time in four years that wildfires forced the park to close . [ID: 642]
+ ##### 
+365. Sentence 1: The specific product that is the subject of the petition , 6000 series aluminium alloy rolled plate , is used for general-purpose engineering , tooling and die applications . 
+ Sentence 2: At the center of the petition is a 6000 series aluminum alloy rolled plate that is used for general-purpose engineering , tooling and die applications . [ID: 2251]
+ ##### 
+366. Sentence 1: At 5 p.m. EDT , Grace 's center was near latitude 25.6 north , longitude 93.7 west or about 280 miles east-southeast of Corpus Christi . 
+ Sentence 2: At 11 a.m. EDT , Fabian 's center was near latitude 18.1 north and longitude 53.2 west , or about 550 miles east of the Leewards . [ID: 1384]
+ ##### 
+367. Sentence 1: The Nets and the Spurs are crossing new frontiers of offensive ineptitude while causing their high-scoring American Basketball Association forefathers to cringe . 
+ Sentence 2: The Nets and the San Antonio Spurs are crossing new frontiers of offensive ineptitude while embarrassing their high-scoring ABA forefathers . [ID: 3009]
+ ##### 
+368. Sentence 1: The two countries agreed last week to hold their first diplomatic discussions in two years . 
+ Sentence 2: Last week , India and Pakistan said they would hold their first diplomatic talks in two years . [ID: 1897]
+ ##### 
+369. Sentence 1: Mr. Yandarbiyev resides in Doha , Qatar , and Russian authorities have unsuccessfully tried to have him extradited for nearly two years . 
+ Sentence 2: He resides in Doha , Qatar , from which Russian authorities have been trying to extradite him for nearly two years . [ID: 298]
+ ##### 
+370. Sentence 1: He left the ship after the collision , went to his home , and attempted suicide . 
+ Sentence 2: Captain Smith left the ferry terminal after the crash , went to his home and attempted suicide . [ID: 964]
+ ##### 
+371. Sentence 1: " She was crying and scared , ' said Isa Yasin , the owner of the store . 
+ Sentence 2: " She was crying and she was really scared , " said Yasin . [ID: 2375]
+ ##### 
+372. Sentence 1: Wind River also cut costs , reducing first-quarter operating expenses by 28 percent to $ 47.1 million . 
+ Sentence 2: Operating expenses fell 28 percent to $ 47.1 million in the first quarter from $ 65.8 million a year earlier . [ID: 2783]
+ ##### 
+373. Sentence 1: " What they have done is a thinly veiled attempt to do an end run around the Constitution , " she said . 
+ Sentence 2: The church 's lawyer , Shirley Phelps-Roper , was clear : " What they have done is a thinly veiled attempt to do an end run around the constitution , " she said . [ID: 1352]
+ ##### 
+374. Sentence 1: She countersued for $ 125 million , saying Gruner & Jahr broke its contract with her by cutting her out of key editorial decisions . 
+ Sentence 2: She countersued for $ 125 million , saying G + J broke its contract with her by cutting her out of key editorial decisions and manipulated the magazine 's financial figures . [ID: 3069]
+ ##### 
+375. Sentence 1: Moore of Alabama says he will appeal his case to the nation 's highest court . 
+ Sentence 2: Moore has said he plans to appeal the matter to the U.S. Supreme Court . [ID: 370]
+ ##### 
+376. Sentence 1: The benchmark 10-year note US10YT = RR rose 11 / 32 for a yield of 3.25 percent . 
+ Sentence 2: The benchmark 10-year Bund yield was down 5.2 basis points at 3.60 percent . [ID: 3177]
+ ##### 
+377. Sentence 1: Sovereign , based in Philadelphia , expects to close the acquisition in the first quarter of 2004 . 
+ Sentence 2: Sovereign said it expects the merger to close in the first quarter of 2004 , subject to regulatory and First Essex shareholder approval . [ID: 2378]
+ ##### 
+378. Sentence 1: Hill , 50 , would be the first person executed for killing an abortion doctor . 
+ Sentence 2: On Wednesday , Hill is scheduled to become the first person executed for murdering an abortion doctor . [ID: 1188]
+ ##### 
+379. Sentence 1: Two partners in Grant Thornton 's Italian business were arrested last week and questioned by magistrates investigating the collapse of Parmalat , the Italian dairy company . 
+ Sentence 2: Two partners in Grant Thornton 's Italian business have been arrested and are being questioned by magistrates over the collapse of the giant food group . [ID: 1057]
+ ##### 
+380. Sentence 1: He was voluntarily castrated in 2001 , an operation he contends removed his ability to become sexually aroused . 
+ Sentence 2: DeVries , who was voluntarily castrated in August 2001 , has said the surgery took away his ability to become sexually aroused . [ID: 1279]
+ ##### 
+381. Sentence 1: The two cases concerned the admissions policies of the University of Michigan 's law school and undergraduate college . 
+ Sentence 2: The two cases were from the University of Michigan , one involving undergraduate admissions and the other , law school admissions . [ID: 717]
+ ##### 
+382. Sentence 1: Professor Hermon-Taylor adds , An unexpected finding of the research showed that patients suffering with Irritable Bowel Syndrome ( IBS ) were also infected with the MAP bug . 
+ Sentence 2: Hermon-Taylor said an unexpected finding of the research showed that patients suffering from irritable bowel syndrome ( IBS ) may also be infected with MAP . [ID: 568]
+ ##### 
+383. Sentence 1: The Nasdaq Composite increased by 40.09 points , or 2.5 per cent , to 1666.58 . 
+ Sentence 2: The technology-laced Nasdaq Composite Index was up 5.64 points , or 0.34 percent , at 1,672.22 . [ID: 2396]
+ ##### 
+384. Sentence 1: The Securities and Exchange Commission brought a related civil case on Thursday . 
+ Sentence 2: The Securities and Exchange Commission filed a civil fraud suit against the teen in Boston . [ID: 171]
+ ##### 
+385. Sentence 1: Shadrin said Khodorkovsky 's aircraft was approached by officers identifying themselves as members of the FSB intelligence service , the domestic successor to the Soviet KGB . 
+ Sentence 2: Shadrin said Khodorkovsky 's aircraft was approached by officers identifying themselves as members of the FSB domestic intelligence service . [ID: 144]
+ ##### 
+386. Sentence 1: However , official statistics published this week showed a surprise 0.6 per cent fall in manufacturing output in August . 
+ Sentence 2: The ONS this week reported a surprise 0.6 per cent fall in manufacturing output in August . [ID: 1093]
+ ##### 
+387. Sentence 1: " We have some small opportunities in November and maybe January , " Mr. Parsons said optimistically . 
+ Sentence 2: " I think we have some opportunities -- some small opportunities -- in November and possibly January , " he said . [ID: 733]
+ ##### 
+388. Sentence 1: " The woman was taken to New Charing Cross Hospital by ambulance and her condition is critical . 
+ Sentence 2: She was taken to Charing Cross Hospital , where she remained critically ill last night . [ID: 966]
+ ##### 
+389. Sentence 1: Hoy confirmed the woman 's age Tuesday and said she has left on vacation with her family . 
+ Sentence 2: Hoy confirmed the woman 's age Tuesday and said she was on vacation with her family , but is expected to return this week . [ID: 1489]
+ ##### 
+390. Sentence 1: Daughter Renee Jackson said she often made " huge pots of , like , beans and rice with , like , meat and casseroles " for the whole family . 
+ Sentence 2: Their biological daughter Renee Jackson , 29 , said she made huge pots of beans and rice , and meat and casseroles . [ID: 1507]
+ ##### 
+391. Sentence 1: The best the investigators can do is nitpick about the process and substance of isolated business decisions ... and question his competence as a manager . " 
+ Sentence 2: Ebbers ' lawyer , Reid Weingarten , said despite the thorough investigation , " the best the investigators can do is nitpick about the process and substance of isolated business decisions . " [ID: 3223]
+ ##### 
+392. Sentence 1: " This legislation benefits the entire state of Illinois , every town , every city , every citizen , " Blagojevich told the crowd of political heavyweights at O 'Hare . 
+ Sentence 2: " The legislation I 'm proud to sign today benefits the entire state of Illinois , every town , every city , every citizen . [ID: 3198]
+ ##### 
+393. Sentence 1: At the time federal investigators were looking into how CFSB allocated shares of initial public stock offerings . 
+ Sentence 2: A federal grand jury and the Securities and Exchange Commission were looking into how the company allocated shares of initial public stock offerings . [ID: 167]
+ ##### 
+394. Sentence 1: Billy Hodge , 11 , is engrossed with the Harry Potter series books . 
+ Sentence 2: Indeed , the Harry Potter series stands in a class by itself . [ID: 3503]
+ ##### 
+395. Sentence 1: Before Sunday , 19 firefighters assigned to wildfires had died on duty this year , according to Tracey Powers of the National Interagency Fire Center in Boise . 
+ Sentence 2: Before yesterday , 19 firefighters assigned to wildfires had died on duty this year , said Tracey Powers , spokeswoman for the National Interagency Fire Center in Boise . [ID: 3210]
+ ##### 
+396. Sentence 1: The subjects were next given a squirt up the nose of a rhinovirus , the nasty little germ that causes colds . 
+ Sentence 2: Following their assessment , each volunteer received a squirt in the nose of rhinovirus the germ that causes colds . [ID: 3273]
+ ##### 
+397. Sentence 1: In 2002 , Linksys overtook Cisco Systems as the leading wireless equipment vendor , accounting for 14.1 percent of revenue . 
+ Sentence 2: Rolfe said Linksys overtook Cisco Systems last year as the leading supplier of WLAN equipment . [ID: 3651]
+ ##### 
+398. Sentence 1: A call to Rev. Christopher Coyne , the spokesman for the archdiocese , was not immediately returned . 
+ Sentence 2: The Rev. Christopher J. Coyne , spokesman for the archdiocese , wouldn 't comment Friday . [ID: 2150]

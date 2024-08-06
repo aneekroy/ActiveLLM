@@ -1,0 +1,36 @@
+Based on the provided dataset and the strategies for selecting instances for labeling, here are the chosen instances that provide the most informative and diverse data for the model:
+
+Instance 0: Highlights a specific ransomware threat (DearCry) exploiting Microsoft Exchange vulnerabilities.
+Instance 1: Provides information about the rate of server hack escalation and introduces the Linux Foundation's new software signing service.
+Instance 4: Indicates a geographical impact (Canadian victims) of the Microsoft Exchange security gap.
+Instance 5: Specific mention of a vulnerability (CVE-2021-26855) in Microsoft Exchange.
+Instance 7: Describes the involvement of Chinese hackers and a broader range of adversaries in the Microsoft Exchange server attacks.
+Instance 9: Involvement of a banking agency and its heightened alert status due to the cyberattack.
+Instance 10: Microsoft's response to the threat with a mitigation tool.
+Instance 12: Focus on cybersecurity laws in the context of the Microsoft Exchange server hack.
+Instance 14: Mention of Proof Of Concept exploit shared on a hacker forum.
+Instance 17: Reference to attacks increasing while another ransomware (WannaCry) gets a restart.
+Instance 20: A comprehensive summary of the Microsoft Exchange hack.
+Instance 21: Discussion on email encryption in the context of Microsoft Exchange server attacks.
+Instance 22: Recommended read from CISA about Microsoft Exchange Server vulnerabilities.
+Instance 25: Mention of a new ransomware (DEARCRY) targeting Microsoft Exchange Servers.
+Instance 27: Warning from a threat intelligence manager about the need for organizations to patch vulnerabilities.
+Instance 30: A perspective on enterprise customers in Nigeria moving to Azure/Microsoft 365 due to these vulnerabilities.
+Instance 31: The number of unpatched Microsoft Exchange Servers at a given time.
+Instance 33: The impact of the Microsoft Exchange hack on cybersecurity.
+Instance 38: Discussion on SolarWinds and Hafnium attacks and their strategic goals.
+Instance 40: Reference to BlackKingdom ransomware targeting Microsoft Exchange servers.
+Instance 43: Alert about Hafnium targeting businesses using Microsoft Exchange servers.
+Instance 50: A personal perspective on the Microsoft Exchange Zero Days exploited by HAFNIUM.
+Instance 53: Overview of the mega-hack and advice on what users need to know.
+Instance 57: Reference to the astronomical number of victims affected by Chinese hacking spree.
+Instance 59: Report on more hacking groups joining the Microsoft Exchange attack frenzy.
+Instance 69: Mention of DearCry ransomware installation after compromising Microsoft Exchange servers.
+Instance 75: Progress in closing Microsoft Exchange vulnerabilities reported in the U.S.
+Instance 77: FBI-CISA joint advisory on the compromise of Microsoft Exchange Server.
+Instance 80: Reverse engineering analysis of DearCry Ransomware.
+Instance 84: Public PoC exploit release for Microsoft Exchange ProxyLogon flaw.
+Instance 90: FBI and CISA advisory regarding the Microsoft Exchange Server hack.
+Instance 97: Discussion on exploit code for Microsoft Exchange Server vulnerabilities posted to GitHub.
+
+0,1,4,5,7,9,10,12,14,17,20,21,22,25,27,30,31,33,38,40,43,50,53,57,59,69,75,77,80,84,90,97

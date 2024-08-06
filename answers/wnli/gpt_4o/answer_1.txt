@@ -1,0 +1,10 @@
+To select the 32 instances to label, I would use an active learning strategy that aims to maximize the informativeness and diversity of the selected instances. Here is a step-by-step approach:
+
+1. **Identify Ambiguity and Confusion**: Instances with pronouns or ambiguous references where the antecedent is unclear are likely to be more informative. These instances can help improve the model's understanding of such cases.
+2. **Balance Between Categories**: Ensure a mix of different types of pronoun references (e.g., personal pronouns, possessive pronouns, reflexive pronouns).
+3. **Variety in Context**: Select instances from different contexts and domains to cover a wide range of scenarios.
+4. **Edge Cases**: Include instances that are likely to be edge cases or difficult examples, as these can be crucial for improving the model.
+
+Using these criteria, here is the list of 32 instances selected for labeling:
+
+0, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38

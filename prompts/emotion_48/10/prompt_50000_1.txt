@@ -1,0 +1,404 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 48 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. i didnt feel as obnoxious as before when i didnt feel like doing anything but sulk [ID: 12681]
+ ##### 
+1. i will go to the supermarket and feel up tomatoes and hope life imitates art and some cute guy will ask me out [ID: 14335]
+ ##### 
+2. i feel heartless in saying so though [ID: 3754]
+ ##### 
+3. i feel however that this is my least successful look and one that upon reflection i would change the most [ID: 7801]
+ ##### 
+4. i am excited to be introduced to a new kind of library environment but at the same time i am feeling stressed about it because it means that i am not really getting a holiday [ID: 7326]
+ ##### 
+5. i feel divine and strong [ID: 2568]
+ ##### 
+6. i had the love of my life in nathan been in love and shit and here was travis and i felt hardly anything and im sitting here feeling doomed that i would never again find someone who would give me that spark [ID: 14688]
+ ##### 
+7. im feeling much devastated [ID: 15621]
+ ##### 
+8. i recently learned that there is a very slight difference between empathetic and sympathetic in definition empathetic being able to actually feel the emotion and sympathetic being the ability to understand the emotion and i realized that there is also a fine line between the two in writing [ID: 8709]
+ ##### 
+9. i began to feel unimportant misunderstood the odd one out [ID: 4227]
+ ##### 
+10. im sitting at the spare desk feeling totally disillusioned and frustrated with my working life in general [ID: 7329]
+ ##### 
+11. i don t know why perhaps because other girls in the office had nice short hair or perhaps i was just feeling rebellious [ID: 139]
+ ##### 
+12. i also feel embarrassed because i can consciously look at my life and see all the good things in it that everyone else sees but when the depression cycle hits even knowing those good things exist simply isn t enough [ID: 11156]
+ ##### 
+13. i was feeling very festive i decided to paint my nails for the holiday events [ID: 5730]
+ ##### 
+14. i feel like the cabbage potatoes and venison were components of a rich stew and the pomegranate seeds were meant to cut through the thick oiliness of the rest of the dish [ID: 11618]
+ ##### 
+15. i cant stop talking even though im already feel weird uncomfortable feeling swarming me but still my mouth keeps saying unnecessary word [ID: 9658]
+ ##### 
+16. i feel discouraged or even a little sad cause i havet had a long term relationship [ID: 14244]
+ ##### 
+17. i took a shower and feel a little more relaxed but the pain is coming and going here and there [ID: 13922]
+ ##### 
+18. i feels acceptable even desirable [ID: 2903]
+ ##### 
+19. i got to feel carefree on the ice with the cold air nipping my face [ID: 7970]
+ ##### 
+20. i feel intelligent on the outside in comparison to most people i know though i feel so empty on the inside [ID: 10002]
+ ##### 
+21. i know i probably shouldnt write with that sort of angry passion here on the blog but i never want to feel inhibited on what i can and cannot post [ID: 3790]
+ ##### 
+22. i have these random moments where i feel suddenly very creative and would love to sit down and hear the tick tick tick of the keyboard keys as my thoughts spilled out onto the screen [ID: 1042]
+ ##### 
+23. i only want jayson cause i feel that hes the most supportive person and he is the person that will be able to help me through the delivery [ID: 11201]
+ ##### 
+24. i used to down a large mushroom pizza and a pitcher of beer and feel positively virtuous afterward [ID: 6035]
+ ##### 
+25. im zooming right through the second trimester and i feel fantastic just as i did with trinity [ID: 9478]
+ ##### 
+26. i feel the touch of your sweet hand [ID: 2291]
+ ##### 
+27. i need to feel rich [ID: 10983]
+ ##### 
+28. i set my mind to wanting a specific item needing it for a specific event or at a specific time i find ill end up spending more than i want to because i feel pressured by constraints [ID: 993]
+ ##### 
+29. i feel like i need to cry these past few days and it relieved me that i could cry that much of tears today haha [ID: 1879]
+ ##### 
+30. i admit to feeling bitterly surprised at how rapidly they have thrown in the towel [ID: 7874]
+ ##### 
+31. i am feeling honored grateful and blessed to get to spend each day with these remarkable th graders [ID: 3356]
+ ##### 
+32. ive ever written although im not gonna reproduce it here because it is full of boring academic references and also it specifically analyses several prominent bloggers and their treatment of romantic relationships and id feel weird about putting that on the internet [ID: 5212]
+ ##### 
+33. i feel glad to have mu tou cause only him can tolerate me and give in to me and massage my leg when its cramp up [ID: 4108]
+ ##### 
+34. i feel strong style color black line height [ID: 9785]
+ ##### 
+35. i have tryed different ways for people to notice me but i feel fake doing them because none of it is myself [ID: 3545]
+ ##### 
+36. im not quite sure why and she treated me well but the entire time i was there i got this distinct feeling that she wasnt impressed [ID: 7870]
+ ##### 
+37. i know you feel supporting an inept city manager who has cost the tax payers millions already with his bungling is important [ID: 9751]
+ ##### 
+38. im feeling deeply overwhelmed by these ordinary tasks [ID: 10772]
+ ##### 
+39. i think that on today of all days it is april fools day after all that i have been made to feel very foolish for sharing the results of my extensive research with other people [ID: 10244]
+ ##### 
+40. im feeling pretty hopeful this morning that we are going to get this right [ID: 12803]
+ ##### 
+41. i feel anxious and worry just in case i dont understand the customers problems [ID: 15161]
+ ##### 
+42. i feel like i find this graceful yet sharp peace within myself but then it seems to dissappear so quickly when that peace within the heart that feels like its breaking [ID: 13235]
+ ##### 
+43. im feeling angry i think i strop about ruffling the air and inflating my position and exaggerating the issue [ID: 9062]
+ ##### 
+44. i am feeling better though i still feel like passing out or tossing my cookies if im up for too long but theres definitely a light at the end of this tunnel [ID: 15052]
+ ##### 
+45. i suppose to feel terrified [ID: 10784]
+ ##### 
+46. i believe i manged to tone it down here while retaining just enough flourish to make the suit feel special [ID: 14932]
+ ##### 
+47. i could feel how exhausted my arms and legs were [ID: 5455]
+ ##### 
+48. i really didn t feel like there were any though so i was quite delighted when my brain came up with the amazingly obvious solution of asking the guy who lives in the other half of my duplex if i could just get dsl on his line and set up a wireless network [ID: 6087]
+ ##### 
+49. i don t like feeling that my family damaged me in some way even though they didn t mean it [ID: 12439]
+ ##### 
+50. i feel wonderful im tipping over backwards im so ambitious im looking back im running a race and youre the books i read so feel my fingers as they touch you arms im spinning around and i feel alright the book i read was in your eyes [ID: 1215]
+ ##### 
+51. i feel completely inadequate and unable to express any of it in words [ID: 6497]
+ ##### 
+52. i know but it still feels very unpleasant [ID: 9229]
+ ##### 
+53. i mane is feeling generous and releases his new lp diary of a trap god for free [ID: 3755]
+ ##### 
+54. i know i shouldn t feel offended but i do [ID: 11031]
+ ##### 
+55. i feel like i havent been taking enough risks and im not respected by my teacher because of it [ID: 15002]
+ ##### 
+56. i feel fucked up on the inside [ID: 9504]
+ ##### 
+57. i am feeling insatiably curious and i want to read and learn more about digital media and social marketing [ID: 5159]
+ ##### 
+58. i really hope she shares the same feelings they would be so wonderful together [ID: 9402]
+ ##### 
+59. im not sure why i even bothered to open this website let alone this feature but as expected its left me feeling boring poor and [ID: 6207]
+ ##### 
+60. i felt so deep in my heart that that love was not lost that caresse was my way to be in touch with the rest of universe that love as hate as all the strong feelings are never vain and never lost [ID: 2906]
+ ##### 
+61. i love the way he talks sometimes i feel shy when i was inside him [ID: 13239]
+ ##### 
+62. i feel so honored to have this wonderful man as my husband [ID: 8473]
+ ##### 
+63. i have been in dublin i could not be more grateful for this class as it has allowed me to work with people in need but also allowed me to feel accepted and immersed in the city [ID: 9843]
+ ##### 
+64. i feel like its not worth trusting him [ID: 3255]
+ ##### 
+65. i feel bashful under his teasing scrutiny [ID: 1855]
+ ##### 
+66. i feel the need to be productive [ID: 13151]
+ ##### 
+67. i still feel regretful and wish i could take back every moment from hours ago [ID: 2650]
+ ##### 
+68. i basically wrote this for my future self i m feeling generous and think like i should just give the guy a break and list all the queries [ID: 9913]
+ ##### 
+69. i feel so vulnerable to criticism like if my lunch stinks or if somebody comments on what i eat i have this embarrassed feeling [ID: 3259]
+ ##### 
+70. i feel like special honored guests [ID: 10484]
+ ##### 
+71. im feeling very determined [ID: 14795]
+ ##### 
+72. i feel your suffering reflects just a fraction of my own suffering [ID: 6538]
+ ##### 
+73. i feel suffocated yet charmed my brain pauses logic [ID: 1284]
+ ##### 
+74. i feel like my girls are really starting to get it and i am loving hearing them sing the christmas songs about jesus [ID: 3376]
+ ##### 
+75. i was so honoured that this young woman felt comfortable enough to ask me i had kind of a faux hawk thing going on back then so i must have looked dykey enough for her to feel safe talking to me [ID: 319]
+ ##### 
+76. i cant help but feel that it is somewhat special [ID: 14123]
+ ##### 
+77. i really like in choir the people who i feel are really friends in choir who are sincere to me are not going for the trip and i feel really lost [ID: 3482]
+ ##### 
+78. i must admit to my feelings of positive jealousy at times when i see their success [ID: 9882]
+ ##### 
+79. i have no control over what comes out of the sky but with a busy christmas period and games in january all again weather permitting i feel alex will be a very useful addition to our squad [ID: 15310]
+ ##### 
+80. i personally feel that every rapist should be punished rigorously if not hanged [ID: 5085]
+ ##### 
+81. i normally feel kind of awkward at birthday dinner parties since theres always someone i dont know but not this time [ID: 7261]
+ ##### 
+82. i have to push back the repressed expressions of a child of split marriage and say to myself no you had your chance its too late now to feel enraged by your situation but all i wanna do is yell at the top of my lungs fuck you this aint my fucking problem so dont make it that way [ID: 15280]
+ ##### 
+83. i doubt anyone is if they are entirely honest with themselves and thats ok because for now i may not feel perfect but i do feel happy and thats one hell of an improvement [ID: 7474]
+ ##### 
+84. i feel nostalgic for old books which i often reread [ID: 3326]
+ ##### 
+85. i feel sure a new necklace will come from this afternoon of beach combing [ID: 2372]
+ ##### 
+86. i am so hurt and feel so abused [ID: 15318]
+ ##### 
+87. i feel smart though [ID: 14762]
+ ##### 
+88. i know that car enthusiasts are a bit tribal and youre all starting to feel suspicious about a car journalist whos turned to the dark side but dont worry i still prefer four wheels to two [ID: 11721]
+ ##### 
+89. i think i was addicted to feeling miserable and inadequate especially through the times in college when my teachers drove me to my own breaking point [ID: 8196]
+ ##### 
+90. i liked the feeling of being scared and jumping in my seat grabbing the arm of my preferably male companion [ID: 14328]
+ ##### 
+91. i feel i m doing to my mom what i despised so much when it was done to me [ID: 2314]
+ ##### 
+92. i am currently feeling very aggravated [ID: 4799]
+ ##### 
+93. i don t feel unwelcome there [ID: 3489]
+ ##### 
+94. i am starting to feel a bit disheartened with my progress on my physical tbr there are still boxes of books next to my bed and they are not going away as fast as i want them to [ID: 4328]
+ ##### 
+95. i didnt feel threatened or concerned really but i wasnt entirely happy about the situation either perhaps instinctively because im usually quite prepared even pleased to speak to a passer by [ID: 10356]
+ ##### 
+96. i feel like ive missed the boat [ID: 12322]
+ ##### 
+97. i love being an author and feel that ultimately that will be my one career but all these other jobs are fabulous experiences that bring a lot to my writing [ID: 14746]
+ ##### 
+98. i did manage two short runs and a walk but today im back to feeling just shy of awful [ID: 1145]
+ ##### 
+99. i can look back likely years from now realize the impact of several lessons learned through the course of a season that just had that feel of something special and know that even if nothing in my tenure comes close to this again i will always have [ID: 13682]
+ ##### 
+100. i now use it not just at the end of yoga practice but also at the beginning or ending of a meditation or whenever i feel the need to offer myself an acknowledgment and reminder of my own divine origins [ID: 4503]
+ ##### 
+101. i am a boy i like girls they are pretty and i like it when they smile at me but it makes me feel funny [ID: 14764]
+ ##### 
+102. i feel like falling in love with her is part of being amazed at how she makes our family so much better she tells the advocate [ID: 7717]
+ ##### 
+103. ive decided that whenever i start to feel mad about tod i dig deeper into myself to find the real solution [ID: 13895]
+ ##### 
+104. i rely on certain add ons that are not available to midori that i feel its inadequate [ID: 10690]
+ ##### 
+105. i would save it for the next time im feeling cranky or irritable then spray some lightly behind my ears [ID: 13496]
+ ##### 
+106. i managed km in one go once feeling really exhausted afterwards but i survived [ID: 5967]
+ ##### 
+107. i feel terrible for mrs [ID: 7314]
+ ##### 
+108. i feel like tna missed a trick not keeping the tag team of crimson and amazing red alive [ID: 9148]
+ ##### 
+109. i do think there s a thin line between effectual love and hero worship his actions toward asami don t make me feel especially positive toward him [ID: 9397]
+ ##### 
+110. i live in philadelphia pa and i m pretty sure if he said you were just under and drove you home he was feeling sympathetic and if he was going to ticket you he would have right then and there [ID: 8745]
+ ##### 
+111. i texted haircute rather than haircut but since i feel like i was cute afterwards haircute is justified [ID: 10433]
+ ##### 
+112. i was also feeling unimportant [ID: 1813]
+ ##### 
+113. ive got no brothers in the family i feel incredibly blessed to be gifted with sisters who drive me up the wall and who also happens to be the ones who make me feel most comfortable being myself [ID: 3342]
+ ##### 
+114. i feel so disgusted and ashamed of myself [ID: 8027]
+ ##### 
+115. i feel agitated thinking about his mother and her supposedly hidden msg [ID: 10839]
+ ##### 
+116. i recommend using them when feeling emotionally drained [ID: 3206]
+ ##### 
+117. i was feeling pretty hateful towards my refrigerator as i cleaned it [ID: 6978]
+ ##### 
+118. im just feeling more generous as i get older [ID: 14109]
+ ##### 
+119. i feel kinda worthless and unwanted at times cuz ive always felt that im the ugliest among all my friends cuz they are so freaking pretty oh dayummm like forever feeling inferior and stuff la [ID: 9464]
+ ##### 
+120. i feel all mellow right now but i dont think i have anything on my mind worth writing about [ID: 11953]
+ ##### 
+121. i reply feeling suspicious [ID: 8314]
+ ##### 
+122. i just hate the feeling of being unhappy [ID: 12045]
+ ##### 
+123. i always liked the winter season i feel that im well adapted to cold weather [ID: 5249]
+ ##### 
+124. i feel like its the perfect time to enlist some extra help [ID: 1048]
+ ##### 
+125. i woke up feeling amazed and then i realized that a dream is still a dream [ID: 5224]
+ ##### 
+126. i feel satisfied and happy with my choices today [ID: 1828]
+ ##### 
+127. im feeling so invigorated and ready for whats ahead and very excited to share all that information with all of you [ID: 2499]
+ ##### 
+128. i feel that this was their mistake and they are just being rude [ID: 10430]
+ ##### 
+129. i was trying to determine why i feel so reluctant to actually post what ive written when i finally realized its because i cannot pass something off as a cute idea i had or as a response to something someone could be experiencing [ID: 13458]
+ ##### 
+130. i remember feeling more amused than sensing that i was in any real danger however i must have been experiencing a little bit of shock [ID: 1358]
+ ##### 
+131. i started feeling like myself again but it was a pretty rotten time in between [ID: 12248]
+ ##### 
+132. i feel like a reluctant queen tasked to rule over a nation of miscreants who are exactly like me [ID: 14674]
+ ##### 
+133. i am energetically pursuing my goals or i feel agitated and unable to sit still [ID: 10349]
+ ##### 
+134. i am true to what i feel and have come to understand that i am not being faithful to the girl but rather to myself [ID: 4210]
+ ##### 
+135. i feel very out of place as well [ID: 10958]
+ ##### 
+136. i brush it to the side or tuck it behind my ear only to feel a few rebellious strands escape and tickle my cheeks and my lips i realize im not the one in control [ID: 3468]
+ ##### 
+137. i feel not too terribly fond of the majority at this precise time [ID: 257]
+ ##### 
+138. i feel passionate about and dating is [ID: 7995]
+ ##### 
+139. i got a feel that the actors were very physically talented and skilled at presentational acting but had done little to no research into the backgrounds of their characters or that of wilder [ID: 2634]
+ ##### 
+140. i too feel hopeful for the coming year [ID: 4676]
+ ##### 
+141. having unwanted attention paid to me in my place of work harrassment and sexual harrassment by another worker disgusted by his implications [ID: 10731]
+ ##### 
+142. im feeling very listless [ID: 5169]
+ ##### 
+143. i stayed under the freezing stream maybe a few minutes longer than i would have otherwise enjoying the feeling of water over my abused body [ID: 3688]
+ ##### 
+144. i love doing kim kardashion make up tutorials i always feel so glamorous with all that make up on [ID: 2490]
+ ##### 
+145. i am feeling generous so you can pick any reason you like but make sure you take your wise mothers advice so i dont feel the need to drag all this to court [ID: 1398]
+ ##### 
+146. i know this is supposed to come across as funny but i can t help but feel sorry for the poor guy [ID: 12242]
+ ##### 
+147. i had to have something to give the katy and the danny and of course they stalk my blog and of course i couldnt leave erica feeling unloved [ID: 12030]
+ ##### 
+148. i have been feeling conflicted on whether or not i as a follower of christ should celebrate the ever popular pagan originated modern day holidays [ID: 565]
+ ##### 
+149. im getting is that since i feel that i accepted the mark of the beast when they shot me up and i thought they where going to kill me and i screamed so loud that i didnt want to die [ID: 766]
+ ##### 
+150. i can brandish this article at anyone who makes fun of me for staying in bed too late or whenever i feel tragic for staying up until [ID: 13375]
+ ##### 
+151. i can feel superior on that point [ID: 8235]
+ ##### 
+152. i guess this isnt a very exciting story but it really meant a lot to me and made me feel less crappy about my job and less fearful of the strangers of this world because some can actually turn out to be quite nice and quite funny [ID: 15887]
+ ##### 
+153. i am standing so close to said cow her name is gabriella btw i feel rude calling her a cow [ID: 6748]
+ ##### 
+154. i then asked as i often do in these situations how i could fix this so she wouldnt feel like i hated her because of my lack of postings on her facebook page [ID: 14569]
+ ##### 
+155. i was feeling irritated and slightly upset after this conversation [ID: 3608]
+ ##### 
+156. i get the feeling he has naughty intentions [ID: 10202]
+ ##### 
+157. i feel so heartless right now [ID: 13900]
+ ##### 
+158. i also havent been feeling photo friendly of late as i have three coldsores on my face [ID: 6823]
+ ##### 
+159. im feeling emotionally vulnerable right now and just want to throw up in peace so i can go back up and party hard [ID: 15333]
+ ##### 
+160. i feel you caring even if you will insist you are mean [ID: 6027]
+ ##### 
+161. i feel the eyes on me the hateful eyes on the other side of the glass that belong to the family members of my beautiful victims [ID: 6369]
+ ##### 
+162. i feel as though canadians are coming complacent with the workings of our country because of how well weve fared in the recession [ID: 15328]
+ ##### 
+163. i hate feeling that im so indecisive [ID: 5327]
+ ##### 
+164. i often find my self feeling offended myself when i hear people who i believe to be otherwise brilliant people following what i consider odd superstitions and strange rituals [ID: 15977]
+ ##### 
+165. i have to admit im feeling pretty overwhelmed [ID: 15970]
+ ##### 
+166. i feel so uptight about it because i know you hate it and are constantly trying to catch glimpses of the tv in the window and listen to it [ID: 14506]
+ ##### 
+167. i decided for the first time in about months to try not wearing my ugly pink and black running shoes and at least feel a little bit cute going out [ID: 5314]
+ ##### 
+168. i suppose its only natural to squeeze every half hour out of the last five days to spend the time with family making memories and with friends promising more but it feels like someone elses life in a numb way [ID: 9399]
+ ##### 
+169. i sent her was pretty long and now i feel a little embarrassed looking back at the letter i gave her [ID: 4438]
+ ##### 
+170. im old enough that graduation and yk feels like just yesterday i find myself a bit stunned by this [ID: 2140]
+ ##### 
+171. i think of that image i feel calm amp safe a href http revealthestaryoutrulyare [ID: 8367]
+ ##### 
+172. i feel that my beloved nakahara mai would voice her nicely [ID: 6540]
+ ##### 
+173. i try to hang out with the both of them then i feel like this awkward third wheel [ID: 4662]
+ ##### 
+174. i was feeling pretty wiped out mentally amp physically i was determined to get some oxygen to my brain [ID: 1251]
+ ##### 
+175. i highly recommend not just this song but the band in general i know their sound might seem familiar girl rock sort of but i feel that their performances are very sincere and anyway their stuff is really good [ID: 6905]
+ ##### 
+176. i feel a little less gloomy a little more optimistic or a little better prepared to face what life throws my way [ID: 988]
+ ##### 
+177. i feel a sweet sense of optimism touched with anxiety about the coming days [ID: 14667]
+ ##### 
+178. i feel as if anything less than points is acceptable and that we can forgive the team for losing at old trafford or stamford bridge [ID: 7099]
+ ##### 
+179. i began to feel curious and tried to percieve who i was beneath my pride and why i am who i am [ID: 2232]
+ ##### 
+180. i feel confident that my prayer will be granted [ID: 8167]
+ ##### 
+181. i feel like washing and caring for the lunapads teaches a certain amount of appreciation for our things [ID: 8605]
+ ##### 
+182. i feel whiney winey lush lush i just know everyone thinks im scummy and annoying [ID: 13060]
+ ##### 
+183. i always forgive and am still feeling hurt [ID: 1425]
+ ##### 
+184. i also feel i do not deserve anyones sympathy or help or caring because i do not feel worthy of anything [ID: 12321]
+ ##### 
+185. i always feel intimidated by other people especially when they always compare me to other people ever since i was young [ID: 326]
+ ##### 
+186. i feel quite lucky to have stumbled upon it [ID: 7600]
+ ##### 
+187. im feeling is funny because its totally unnecessary [ID: 8993]
+ ##### 
+188. i was feeling pretty well in mid october [ID: 4702]
+ ##### 
+189. i didnt feel very accepted by most of my family members so my relationship with my church family made up for that [ID: 10119]
+ ##### 
+190. i feel whos work is worthwhile in this world and actually makes me cry [ID: 1516]
+ ##### 
+191. i am feeling fairly uncertain about most things right this moment [ID: 13360]
+ ##### 
+192. i keep feeling pleasantly surprised at his supportiveness and also his ease in new situations [ID: 57]
+ ##### 
+193. i feel embarassed humiliated sad miserable a title permanent link to what if i have already fallen in love [ID: 11583]
+ ##### 
+194. i feel sarcastic poetry coming on [ID: 11107]
+ ##### 
+195. i feel that if you love cute little things and your budget allows you and you buy this you won t regret buying it as it s just too cute [ID: 12093]
+ ##### 
+196. i feel lighter ive got more energy and im loving the rhythm of our days [ID: 7956]
+ ##### 
+197. im seeing on facebook right now make me feel proud and excited for their parents and them but also sad that the babies and little squirts they once were are now gone forever [ID: 4190]
+ ##### 
+198. i could walk at a slow pace browse each booth as long as i wanted and dart in and out of the shops on main street without feeling rushed [ID: 9334]
+ ##### 
+199. i feel like i got resentful and tired and i just wanted to talk to him so badly [ID: 13042]
+ ##### 
+200. i want to feel pain in my chest when something terrible happens and i want to cry happy tears when something good happens [ID: 15384]

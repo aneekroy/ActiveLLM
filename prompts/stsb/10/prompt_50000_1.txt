@@ -1,0 +1,2030 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Sentence 1: An injured woman co-worker also was hospitalized and was listed in good condition. 
+ Sentence 2: A woman was listed in good condition at Memorial's HealthPark campus, he said. [ID: 3289]
+ ##### 
+1. Sentence 1: U.S. retailers agree to Bangladesh plant safety pact 
+ Sentence 2: 70 retailers agree to new Bangladesh factory safety pact [ID: 5065]
+ ##### 
+2. Sentence 1: Three cows are grazing in a grassy field. 
+ Sentence 2: Three cows grazing in a field. [ID: 1355]
+ ##### 
+3. Sentence 1: Jordan Green, the prelate's private lawyer, said he had no comment. 
+ Sentence 2: O'Brien's attorney, Jordan Green, declined to comment. [ID: 2680]
+ ##### 
+4. Sentence 1: An elderly woman is pouring oil into a frying pan. 
+ Sentence 2: A tied man is putting into water. [ID: 317]
+ ##### 
+5. Sentence 1: The ideology was built around violent expansion, so yes - VIOLENT expansion. 
+ Sentence 2: The ideology was built around violent expansion and race superiority. [ID: 2447]
+ ##### 
+6. Sentence 1: Suicide bomber kills policeman in Pakistan 
+ Sentence 2: Suicide Bombers Kill 3 Soldiers in Pakistan [ID: 4602]
+ ##### 
+7. Sentence 1: Dr. Neander's revised version. 
+ Sentence 2: Neander's revised version"? [ID: 2074]
+ ##### 
+8. Sentence 1: No deal on fiscal cliff as Obama goes on holiday 
+ Sentence 2: John Boehner: from humble origin, fiscal cliff may be his undoing [ID: 4796]
+ ##### 
+9. Sentence 1: ICC Champions Trophy: India vs South Africa 
+ Sentence 2: Champions Trophy: India v South AfricaLive [ID: 5264]
+ ##### 
+10. Sentence 1: the attacks are believed to have come from russian administration ip addresses in response to the relocation of a soviet statue in estonia. 
+ Sentence 2: the attacks occurred after a dispute between the governments of russia and estonia over the relocation of a soviet war memorial. [ID: 3714]
+ ##### 
+11. Sentence 1: The man is riding a motorcycle down the road. 
+ Sentence 2: A man is riding a red motorcycle on the road. [ID: 1010]
+ ##### 
+12. Sentence 1: A baby in a red hat sitting in a stroller is holding a doll. 
+ Sentence 2: A man in a gray shirt sitting in a field of flowers. [ID: 1704]
+ ##### 
+13. Sentence 1: U.S factory orders down 0.7 pct in January 
+ Sentence 2: German factory orders rebound in January [ID: 5179]
+ ##### 
+14. Sentence 1: DeVries did make one stop in town Wednesday - registering as a sex offender at the Soledad Police Department. 
+ Sentence 2: Convicted child molester Brian DeVries spoke out in response to community outrage Wednesday afternoon after registering as a sex offender at the Soledad Police Department. [ID: 2908]
+ ##### 
+15. Sentence 1: A couple are walking. 
+ Sentence 2: Some men are sawing. [ID: 390]
+ ##### 
+16. Sentence 1: Two Eagles perched on a branch. 
+ Sentence 2: Two bald eagles perched on a branch. [ID: 1062]
+ ##### 
+17. Sentence 1: The skinny cows are standing on the grass. 
+ Sentence 2: The white ducks are standing on the ground. [ID: 1042]
+ ##### 
+18. Sentence 1: billion . Everyone in the world at Mexico's current prosperity level. 
+ Sentence 2: Everyone in the world at the current "prosperity" level of Northwest Africa. [ID: 2375]
+ ##### 
+19. Sentence 1: The consumer group generated $4.47 billion of profit and $20 billion of revenue from January to June, 53% of Citigroup's profit and revenue. 
+ Sentence 2: It generated $4.47 billion of profit and $20 billion of revenue in the year's first half, 53 percent of Citigroup's totals. [ID: 3212]
+ ##### 
+20. Sentence 1: Dell's OpenManage software includes Dell Update Packages with SMS to help automate the management of server hardware, applications and operating systems patches with a single tool. 
+ Sentence 2: The update packages help "automate the management of server hardware, applications and operating systems patches using one tool," which is unpleasantly vague. [ID: 3432]
+ ##### 
+21. Sentence 1: If so, state that is why they're not true. 
+ Sentence 2: Please, what about them are not true. [ID: 2123]
+ ##### 
+22. Sentence 1: Stripping out the extraordinary items, fourth-quarter earnings were 64 cents a share compared to 25 cents a share in the prior year. 
+ Sentence 2: Earnings were 59 cents a share for the three months ended May 25 compared with 15 cents a share a year earlier. [ID: 3380]
+ ##### 
+23. Sentence 1: US Senate confirms Janet Yellen as US Federal Reserve chief 
+ Sentence 2: Senate confirms Janet Yellen as next Federal Reserve Chair [ID: 4910]
+ ##### 
+24. Sentence 1: An animal is walking. 
+ Sentence 2: A woman is applying eye makeup. [ID: 946]
+ ##### 
+25. Sentence 1: Turkey Raises Alarm Over Syrian Refugees 
+ Sentence 2: Turkey seeks to relocate some Syrian refugees [ID: 3816]
+ ##### 
+26. Sentence 1: Two Aust soldiers wounded in Afghanistan 
+ Sentence 2: 4 foreign soldiers killed in Afghan east [ID: 4266]
+ ##### 
+27. Sentence 1: The women are sitiing down. 
+ Sentence 2: Two women are sitting close to each other and talking. [ID: 938]
+ ##### 
+28. Sentence 1: Someone is cleaning a animal. 
+ Sentence 2: A woman is cleaning a shrimp. [ID: 710]
+ ##### 
+29. Sentence 1: peeve So we agree that it came down essentially in freefall? 
+ Sentence 2: Do we agree that they came down essentially in freefall? [ID: 2352]
+ ##### 
+30. Sentence 1: "What can I say to you?" he told a crowd at a cemetery with a thousand headstones, many of them marking the graves of entire families. 
+ Sentence 2: Mr. Powell told a crowd at a cemetery with a thousand headstones, many of them marking the graves of entire families. [ID: 3259]
+ ##### 
+31. Sentence 1: Eurozone unemployment stays at record 11 percent 
+ Sentence 2: Eurozone unemployment hits record high [ID: 4066]
+ ##### 
+32. Sentence 1: Record-setting Southwest heat wave turns fatal 
+ Sentence 2: At least 1 dead, 40 hospitalized in Southwest heat wave [ID: 5528]
+ ##### 
+33. Sentence 1: Pro-Russians forces enter Ukrainian naval base in Crimea 
+ Sentence 2: Crimean forces storm Ukrainian navy headquarters [ID: 5135]
+ ##### 
+34. Sentence 1: US Military Deaths in Afghanistan at 2,153 
+ Sentence 2: U.S. Military Deaths in Afghanistan [ID: 5190]
+ ##### 
+35. Sentence 1: A man riding a white horse. 
+ Sentence 2: A woman leading a white horse. [ID: 1408]
+ ##### 
+36. Sentence 1: According to law enforcement officials, the person arrested was a known sophisticated hacker. 
+ Sentence 2: According to law enforcement officials, the individual decrypted passwords on the server. [ID: 3224]
+ ##### 
+37. Sentence 1: Lawyers and others familiar with the federal investigation say it remains focused on Campbell, though prosecutors declined to discuss the probe. 
+ Sentence 2: While federal prosecutors refuse to discuss the investigation, lawyers and others familiar with it say it remains focused on Campbell. [ID: 2974]
+ ##### 
+38. Sentence 1: A person in a blue shirt reclines near a coffee table and television. 
+ Sentence 2: A person stands on the motorcycle seat and pops a wheelie. [ID: 1020]
+ ##### 
+39. Sentence 1: France Welcomes US-Russia Deal on Syria 
+ Sentence 2: Arab League welcomes US-Russian deal on Syria [ID: 4579]
+ ##### 
+40. Sentence 1: A man is swinging on a rope above the water. 
+ Sentence 2: A man in warm clothes swinging on monkey bars at night. [ID: 1529]
+ ##### 
+41. Sentence 1: A man is riding a motorcycle on the highway. 
+ Sentence 2: A man is riding a motorcycle. [ID: 624]
+ ##### 
+42. Sentence 1: Morals have absolutely nothing to do with it ! 
+ Sentence 2: and morals and honesty have everything to do with it. [ID: 2102]
+ ##### 
+43. Sentence 1: South Africa's Mandela taken to hospital 
+ Sentence 2: South Africa: Mandela remains in hospital [ID: 4953]
+ ##### 
+44. Sentence 1: zhang stated-- china opposes restricting the peaceful use of nuclear energy by non-nuclear-weapon states on the basis of non-proliferation because the peaceful use of nuclear energy is a crucial objective of the npt. 
+ Sentence 2: zhang yan stated that china opposes using non-proliferation as a pretext for restricting and depriving non-nuclear-weapon states of the right to peaceful use of nuclear energy. [ID: 3561]
+ ##### 
+45. Sentence 1: A man is cutting a rope with a sword. 
+ Sentence 2: The man slced through a thick rope with a sword. [ID: 748]
+ ##### 
+46. Sentence 1: With all precincts reporting, Fletcher — a three-term congressman from Lexington — had an overwhelming 57 percent of the vote. 
+ Sentence 2: With all precincts reporting, Fletcher had 88,747 votes, or 57 percent of the total. [ID: 2947]
+ ##### 
+47. Sentence 1: What's my opinion regarding the series? 
+ Sentence 2: What was my opinion of Firefly in the interim? [ID: 2082]
+ ##### 
+48. Sentence 1: Malaysia's long-ruling coalition hangs on to power 
+ Sentence 2: Malaysia's ruling coalition wins majority [ID: 4668]
+ ##### 
+49. Sentence 1: The measures could be taken up by the full Senate as early as Friday. 
+ Sentence 2: Ratliff said he hopes to bring the two measures to the full Senate by Friday. [ID: 2873]
+ ##### 
+50. Sentence 1: A woman is mincing some garlic. 
+ Sentence 2: A person is cleaning a disk. [ID: 435]
+ ##### 
+51. Sentence 1: indian nationals constitute the largest number of foreign inmates in nepal prisons. 
+ Sentence 2: drug traffickers from foreign countries constitute the largest percentage of foreign inmates in nepal. [ID: 3576]
+ ##### 
+52. Sentence 1: 74 dead in Egypt soccer violence 
+ Sentence 2: At least 73 die in Egyptian soccer pitch invasion [ID: 4342]
+ ##### 
+53. Sentence 1: Stocks to watch at close on Monday 
+ Sentence 2: Stocks to watch at close on Thursday [ID: 4484]
+ ##### 
+54. Sentence 1: The new policy gives greatest weight to grades, test scores and a student's high school curriculum. 
+ Sentence 2: Academic achievement -- including grades, test scores and high school curriculum -- are given the highest priority. [ID: 3215]
+ ##### 
+55. Sentence 1: Assange appeals extradition to UK's top court 
+ Sentence 2: Assange to appeal extradition to UK's top court [ID: 3931]
+ ##### 
+56. Sentence 1: A man removes a couple of toaster scrambles from a plastic packet. 
+ Sentence 2: A man removes food from a bag. [ID: 939]
+ ##### 
+57. Sentence 1: Time of the Season by the Zombies We are all vessels filled with many wonders. 
+ Sentence 2: The theme song to Cheers: We are all vessels filled with many wonders. [ID: 2394]
+ ##### 
+58. Sentence 1: I didn't say we had gotten soft since / Rand. 
+ Sentence 2: I said YOU had gotten soft. [ID: 2207]
+ ##### 
+59. Sentence 1: The man is playing the guitar. 
+ Sentence 2: The man is playing with a skull. [ID: 642]
+ ##### 
+60. Sentence 1: LURD's Ja'neh also called for an interim government and the deployment of a U.S.-led Western peacekeeping force. 
+ Sentence 2: The rebels are also calling for the deployment of a U.S.-led peacekeeping force. [ID: 3434]
+ ##### 
+61. Sentence 1: russia had threatened several times to withdraw from the cfe when it was at odds with the united states over u.s. plans to install a missile defense shield in eastern 
+ Sentence 2: russia has repeatedly threatened withdrawal from the cfe in opposition to plans for the extension of the us missile defense shield to eastern europe. [ID: 3555]
+ ##### 
+62. Sentence 1: "Unlike many early-stage Internet firms, Google is believed to be profitable. 
+ Sentence 2: The privately held Google is believed to be profitable. [ID: 3242]
+ ##### 
+63. Sentence 1: Last week, his lawyers asked Warner to grant clemency under conditions that would have lead to a new sentencing hearing. 
+ Sentence 2: Last week, his lawyers asked Gov. Mark R. Warner to grant clemency, but the governor declined to intervene. [ID: 2529]
+ ##### 
+64. Sentence 1: Toll, Australia's second-largest transport company, last week offered NZ75 a share for Tranz Rail. 
+ Sentence 2: Toll last week offered to buy the company for NZ75c a share, or $NZ158 million. [ID: 2943]
+ ##### 
+65. Sentence 1: Man, 19, quizzed over teen murder 
+ Sentence 2: Man quizzed over Megan-Leigh murder [ID: 3877]
+ ##### 
+66. Sentence 1: A man is playing on his keyboard. 
+ Sentence 2: A man is playing a guitar. [ID: 673]
+ ##### 
+67. Sentence 1: A boy wearing a red shirt runs across the grass with a furry dog. 
+ Sentence 2: A sports fan is wearing face paint in the stands. [ID: 1744]
+ ##### 
+68. Sentence 1: A woman is doing ballet. 
+ Sentence 2: A woman is riding on a horse. [ID: 725]
+ ##### 
+69. Sentence 1: Forex &amp; Gold 25 August 2012 
+ Sentence 2: Forex & Gold 19 July 2012 [ID: 4255]
+ ##### 
+70. Sentence 1: Iran is also a signed of the NPT and the IAEA. 
+ Sentence 2: Gotta love the EK factoid that "Iran is also a signed of the NPT and the IAEA. [ID: 2094]
+ ##### 
+71. Sentence 1: A man lays on the ground and aims a rifle. 
+ Sentence 2: A man is spreading butter on a tortilla. [ID: 439]
+ ##### 
+72. Sentence 1: Israel frees Palestinian prisoners 
+ Sentence 2: Israel releases 26 Palestinian prisoners [ID: 5460]
+ ##### 
+73. Sentence 1: Puerto Rican arrested for production of child pornography 
+ Sentence 2: Indian guru arrested on suspicion of rape [ID: 5333]
+ ##### 
+74. Sentence 1: A black and white cat lying on a blanket. 
+ Sentence 2: A black and white cat laying on a cat bed. [ID: 1441]
+ ##### 
+75. Sentence 1: Glee star Cory Monteith found dead in hotel room in Canada 
+ Sentence 2: 'Glee' star Cory Monteith found dead [ID: 5401]
+ ##### 
+76. Sentence 1: Five more human cases of West Nile virus, were reported by the Mesa County Health Department on Wednesday. 
+ Sentence 2: As of this week, 103 human West Nile cases in 45 counties had been reported to the health department. [ID: 2689]
+ ##### 
+77. Sentence 1: Hi Pro and Corn: How many threads do you plan on making? 
+ Sentence 2: How many threads do you plan on making? [ID: 2275]
+ ##### 
+78. Sentence 1: Ernst & Young admitted no wrongdoing with the settlement. 
+ Sentence 2: Ernst & Young spokesman Kenneth Kerrigan said the firm admits no wrongdoing. [ID: 3343]
+ ##### 
+79. Sentence 1: A skier speeds through the snow. 
+ Sentence 2: A brown dog carrying a Frisbee runs through the snow. [ID: 1581]
+ ##### 
+80. Sentence 1: Two brown dogs are biting each other. 
+ Sentence 2: Two brown dogs biting each other on sand. [ID: 1749]
+ ##### 
+81. Sentence 1: A group of people having a drink. 
+ Sentence 2: A row of locomotives on a siding in a field. [ID: 1219]
+ ##### 
+82. Sentence 1: The man is playing the guitar. 
+ Sentence 2: The cat cleaned his face with his paw. [ID: 958]
+ ##### 
+83. Sentence 1: Meat is dropped into a pan. 
+ Sentence 2: A woman is putting meat in a pan. [ID: 907]
+ ##### 
+84. Sentence 1: Saudi Arabia arrests suspected militants with al-Qaeda links 
+ Sentence 2: Saudi Arabia arrests suspected militants, state media reports [ID: 3862]
+ ##### 
+85. Sentence 1: Do you notice the nonsensical things you are saying? 
+ Sentence 2: And to be fair, do you notice the nonsensical things you are saying? [ID: 2308]
+ ##### 
+86. Sentence 1: A orange and white cat asleep on a leather chair. 
+ Sentence 2: A ginger cat sitting on an office chair. [ID: 1196]
+ ##### 
+87. Sentence 1: 1 person killed in sectarian clashes in Lebanon 
+ Sentence 2: 180 killed in Iran earthquake [ID: 3814]
+ ##### 
+88. Sentence 1: Four other men who were also charged in June have already pleaded guilty. 
+ Sentence 2: Four of the defendants have pleaded guilty to weapons charges and other counts. [ID: 2601]
+ ##### 
+89. Sentence 1: American investigators waiting to question arrested Boston bomber 
+ Sentence 2: Police converge on street in search for Boston bomb suspect [ID: 4828]
+ ##### 
+90. Sentence 1: The Nasdaq had a weekly gain of 17.27, or 1.2 percent, closing at 1,520.15 on Friday. 
+ Sentence 2: The tech-laced Nasdaq Composite .IXIC rallied 30.46 points, or 2.04 percent, to 1,520.15. [ID: 2556]
+ ##### 
+91. Sentence 1: Syria rebels leave besieged Homs 
+ Sentence 2: Syrian rebels retreat from besieged Homs district [ID: 4294]
+ ##### 
+92. Sentence 1: there were no weapons. 
+ Sentence 2: Of course there were no weapons. [ID: 2134]
+ ##### 
+93. Sentence 1: Comcast Class A shares were up 8 cents at $30.50 in morning trading on the Nasdaq Stock Market. 
+ Sentence 2: The stock rose 48 cents to $30 yesterday in Nasdaq Stock Market trading. [ID: 2937]
+ ##### 
+94. Sentence 1: When did I compare homo sexuaity with a developmental disorder? 
+ Sentence 2: I compared homo phobia with a developmental disorder. [ID: 2037]
+ ##### 
+95. Sentence 1: Plastic toys are floating in water. 
+ Sentence 2: The ladies are performing a dance. [ID: 427]
+ ##### 
+96. Sentence 1: Rusch has also allowed five or more earned runs in each of his last three starts. 
+ Sentence 2: Redman has allowed two earned runs or less in six of his nine starts. [ID: 3165]
+ ##### 
+97. Sentence 1: A woman is deveining shrimp. 
+ Sentence 2: A man is dancing in rain. [ID: 261]
+ ##### 
+98. Sentence 1: Top Diplomats Meet in Munich at Critical Time 
+ Sentence 2: Top Diplomats Discuss Iran's Nuclear Program [ID: 4964]
+ ##### 
+99. Sentence 1: Florida counties extend early voting 
+ Sentence 2: Fla. Democrats want extended early voting hours [ID: 3972]
+ ##### 
+100. Sentence 1: A man is adding oil to car. 
+ Sentence 2: A man is putting anti-freeze into a car. [ID: 794]
+ ##### 
+101. Sentence 1: Egypt votes in new constitution 
+ Sentence 2: Egyptians Vote On New Constitution [ID: 4534]
+ ##### 
+102. Sentence 1: A man is dieing in an operating room. 
+ Sentence 2: A man is kissing a woman in stage. [ID: 331]
+ ##### 
+103. Sentence 1: "I feel confident saying that HP is no longer an integration story," Fiorina said. 
+ Sentence 2: "We still have a lot to do, but I feel confident that HP is no longer an integration story." [ID: 2845]
+ ##### 
+104. Sentence 1: 12 killed in Gaza in Israeli airstrikes 
+ Sentence 2: Ictu, Ibec in move on airline strike [ID: 3950]
+ ##### 
+105. Sentence 1: adherence to non-proliferation obligations will enhance mutual trust and foster international cooperation in nuclear energy. 
+ Sentence 2: zhang yan stated that all countries should abide by non-proliferation obligations in order to enhance mutual trust and create a sound environment for international cooperation in nuclear energy. [ID: 3487]
+ ##### 
+106. Sentence 1: Tata Nano and other Indian small cars fail crash tests 
+ Sentence 2: How does world's cheapest car do in crash test? [ID: 5640]
+ ##### 
+107. Sentence 1: In connection with the incident, I have acknowledged that I behaved inappropriately." 
+ Sentence 2: "I have acknowledged that I behaved inappropriately," he said. [ID: 3075]
+ ##### 
+108. Sentence 1: A woman is reading a lifestyle magazine. 
+ Sentence 2: A woman is slicing a meat into pieces. [ID: 854]
+ ##### 
+109. Sentence 1: Egypt's Morsi faces trial for prison break, murder, says prosecution 
+ Sentence 2: Egypt's Morsi faces trial for prison break [ID: 5582]
+ ##### 
+110. Sentence 1: a woman sitting on a sofa holding a baby. 
+ Sentence 2: Bird sitting on a log in a lake. [ID: 1242]
+ ##### 
+111. Sentence 1: The American Stock Exchange biotech index .BTK surged 5 percent. 
+ Sentence 2: The Philadelphia Stock Exchange's semiconductor index .SOXX jumped 6.10 percent. [ID: 3194]
+ ##### 
+112. Sentence 1: Cubs outfielder Sammy Sosa was suspended for eight games by major league baseball Friday for using a corked bat. 
+ Sentence 2: Sammy Sosa was suspended for eight games by major league baseball Friday for using a corked bat, and he immediately appealed the decision. [ID: 2755]
+ ##### 
+113. Sentence 1: A room with several computers and pictures on the wall. 
+ Sentence 2: A home office with three computer monitors and other equipment on a desk. [ID: 1277]
+ ##### 
+114. Sentence 1: An animal run in circles. 
+ Sentence 2: A squirrel runs in circles. [ID: 146]
+ ##### 
+115. Sentence 1: Conmen dressed as women steal cash 
+ Sentence 2: CCTV: York conmen dress as women to trick pensioners [ID: 5299]
+ ##### 
+116. Sentence 1: australian television reporter peter lloyd faces 3 new drug charges in singapore. 
+ Sentence 2: according to court documents -- on 25 july australian television reporter peter lloyd faced 3 new drug charges in singapore. [ID: 3711]
+ ##### 
+117. Sentence 1: Two people paddling in a red canoe with trees in the background. 
+ Sentence 2: Two people padding in a yellow canoe down a river with trees in the background. [ID: 1148]
+ ##### 
+118. Sentence 1: South Korean President Sorry For Ferry Response 
+ Sentence 2: S. Korean president 'sorry' for ferry disaster [ID: 5549]
+ ##### 
+119. Sentence 1: the book states that the drug conveys a completely positive image. 
+ Sentence 2: the official stated that this was a complete technology transfer. [ID: 3726]
+ ##### 
+120. Sentence 1: the opposition japanese communist party was against the new law and feared it would lead to a stronger military. 
+ Sentence 2: the opposition japanese communist party was against the bill proposing the new law. [ID: 3701]
+ ##### 
+121. Sentence 1: Three people sitting at dinner table smiling at camera. 
+ Sentence 2: Two elderly women sit at a dinner table with a man. [ID: 1290]
+ ##### 
+122. Sentence 1: The tan and white dog is running in the field. 
+ Sentence 2: The brown and white dogs run through the field. [ID: 1920]
+ ##### 
+123. Sentence 1: A helicopter is landing on a helipad. 
+ Sentence 2: A helicopter lands. [ID: 295]
+ ##### 
+124. Sentence 1: Two cows crossing a road intersection. 
+ Sentence 2: Two cows cross a paved street. [ID: 1326]
+ ##### 
+125. Sentence 1: FBI audio expert testifies in Zimmerman trial 
+ Sentence 2: Jury selection begins in Zimmerman's trial [ID: 5444]
+ ##### 
+126. Sentence 1: A dog is eating water melon. 
+ Sentence 2: A dog is eating a piece of watermelon. [ID: 81]
+ ##### 
+127. Sentence 1: A man is walking in the rain. 
+ Sentence 2: A man and woman is walking in the grand. [ID: 595]
+ ##### 
+128. Sentence 1: A boy is playing a key-board. 
+ Sentence 2: A boy is sitting in a room playing a piano by lamp light. [ID: 477]
+ ##### 
+129. Sentence 1: Egypt protesters 'to be dispersed' 
+ Sentence 2: Abduction teacher to be sentenced [ID: 4784]
+ ##### 
+130. Sentence 1: A dog is running through a backyard full of leaves. 
+ Sentence 2: Three dogs run through a field. [ID: 1935]
+ ##### 
+131. Sentence 1: A woman is adding oil on fishes. 
+ Sentence 2: A woman is riding a horse. [ID: 708]
+ ##### 
+132. Sentence 1: A girl with a black purse sitting on a wooden bench. 
+ Sentence 2: A young woman with a black purse sits on a wooden bench. [ID: 1863]
+ ##### 
+133. Sentence 1: A person in a red vest is touching the blue ice skates on another person. 
+ Sentence 2: A lady fastens someone's ice skates in the snow. [ID: 1809]
+ ##### 
+134. Sentence 1: A person is rinsing a steak off with water. 
+ Sentence 2: A man is rinsing a large steak. [ID: 840]
+ ##### 
+135. Sentence 1: However, other unions including the powerful CGT remained opposed to the reform and demanded the government begin fresh negotiations with them. 
+ Sentence 2: The powerful CGT and other unions remained opposed to the plans, however, and demanded the government renegotiate the reform with them. [ID: 3441]
+ ##### 
+136. Sentence 1: The venture owns five oil refineries and more than 2,100 filling stations in Russia and Ukraine. 
+ Sentence 2: TNK-BP has six oil producing units, five refineries and 2,100 filling stations. [ID: 2778]
+ ##### 
+137. Sentence 1: This is not your country. 
+ Sentence 2: This is our country. [ID: 2430]
+ ##### 
+138. Sentence 1: Activists say they fear the gathering is an attempt by corporate farming to push bio-engineered crops on starving countries. 
+ Sentence 2: Instead, they fear the conference is an attempt by corporate farming and biotech interests to push into new markets. [ID: 2607]
+ ##### 
+139. Sentence 1: Chinese stocks close higher midday Friday 
+ Sentence 2: Chinese stocks higher at midday Friday [ID: 4263]
+ ##### 
+140. Sentence 1: Syria’s chemical weapons could end up at sea 
+ Sentence 2: US to destroy Syria chemical weapon stockpile at sea [ID: 4814]
+ ##### 
+141. Sentence 1: Hezbollah targets Qaeda gathering along border with Syria 
+ Sentence 2: Belarus tightens security along the border with Ukraine [ID: 5724]
+ ##### 
+142. Sentence 1: Obama and Romney focus on swing-states 
+ Sentence 2: Team Anna yet to decide on contesting state polls [ID: 4087]
+ ##### 
+143. Sentence 1: JetBlue pilot who disrupted flight declared insane, not guilty 
+ Sentence 2: JetBlue pilot who caused disruption on flight not guilty [ID: 4081]
+ ##### 
+144. Sentence 1: Close up of a white sheep with a black head. 
+ Sentence 2: A close-up of a sheep with a black head. [ID: 1449]
+ ##### 
+145. Sentence 1: Two U.S. soldiers killed in "insider" attack in Afghanistan 
+ Sentence 2: 8 soldiers killed in bomb attack in NW Pakistan [ID: 4806]
+ ##### 
+146. Sentence 1: Donna Summer, Queen of Disco, dies at 63 
+ Sentence 2: Donna Summer, the queen of disco [ID: 4145]
+ ##### 
+147. Sentence 1: Heavy rain raises threat of Christmas Day flooding 
+ Sentence 2: Fresh rain brings more flooding [ID: 4571]
+ ##### 
+148. Sentence 1: A man is meditating. 
+ Sentence 2: The man is riding the horse. [ID: 941]
+ ##### 
+149. Sentence 1: Nobel author Doris Lessing dies at 94 
+ Sentence 2: Nobel Prize winning author Doris Lessing dies [ID: 5586]
+ ##### 
+150. Sentence 1: A man is playing the guitar. 
+ Sentence 2: A man is playing the flute. [ID: 503]
+ ##### 
+151. Sentence 1: Pro-Pak Taliban warlord killed in US drone strike 
+ Sentence 2: Taliban commander killed in US drone strike [ID: 4742]
+ ##### 
+152. Sentence 1: Both devices implement the v1.2 standard's eSCO facility to provide the basis for new cordless telephony applications. 
+ Sentence 2: BlueCore3 also implements v1.2's eSCO facility to provide the basis for advanced cordless telephony applications for Bluetooth transmission. [ID: 3155]
+ ##### 
+153. Sentence 1: Afghan parliament approves U.S.-Afghan security pact 
+ Sentence 2: Afghan parliament approves U.S. partnership [ID: 3959]
+ ##### 
+154. Sentence 1: A flat screen TV on the floor. 
+ Sentence 2: A flat-screen TV sits on the floor. [ID: 1184]
+ ##### 
+155. Sentence 1: A kangaroo is eating. 
+ Sentence 2: Kangaroo eating. [ID: 596]
+ ##### 
+156. Sentence 1: Romney picks Ryan as vice presidential running mate: source 
+ Sentence 2: Romney to tap Ryan as vice presidential running mate [ID: 3912]
+ ##### 
+157. Sentence 1: Two surfers on riding a small wave. 
+ Sentence 2: Two surfers perform tricks in the waves. [ID: 1677]
+ ##### 
+158. Sentence 1: A man puts a knife in a vice. 
+ Sentence 2: A man is dancing. [ID: 914]
+ ##### 
+159. Sentence 1: A man is eating a bowl of cereal. 
+ Sentence 2: The man is eating cereal. [ID: 655]
+ ##### 
+160. Sentence 1: A man is rowing a boat. 
+ Sentence 2: A man is slicing a tomato. [ID: 143]
+ ##### 
+161. Sentence 1: Two guys sit on a couch holding beers with a girl lying on their laps. 
+ Sentence 2: Two women watching the street with their bikes to see when they may cross. [ID: 1226]
+ ##### 
+162. Sentence 1: The drop in core wholesale prices in April reflected falling prices for cars, trucks, men's and boy's clothes and cigarettes. 
+ Sentence 2: That was the biggest drop since August 1993 and stemmed from falling prices for cars, trucks, men's and boys' clothes and cigarettes. [ID: 3156]
+ ##### 
+163. Sentence 1: Two women shopping at a clothing store. 
+ Sentence 2: Two women in a clothing store. [ID: 1332]
+ ##### 
+164. Sentence 1: Spokesmen for the FBI, CIA, Canadian Security Intelligence Service and Royal Canadian Mounted Police declined to comment on El Shukrijumah's stay in Canada. 
+ Sentence 2: The FBI, CIA, Canadian Security Intelligence Service and Royal Canadian Mounted Police declined to comment on the Washington Times report. [ID: 3093]
+ ##### 
+165. Sentence 1: China's generous 1MDB bid seen reaping it big returns in Malaysia 
+ Sentence 2: China keeps an eye on visiting tiger freed by Russian President [ID: 5723]
+ ##### 
+166. Sentence 1: A dog emerges form the water with a stick in its mouth. 
+ Sentence 2: A dog runs toward the camera with a stick in its mouth. [ID: 1639]
+ ##### 
+167. Sentence 1: The man in the red shirt is climbing the side of a mountain. 
+ Sentence 2: A man is climbing the side of a mountain. [ID: 1764]
+ ##### 
+168. Sentence 1: Mr. Bankhead said the crime scenes indicated that the killer was "very methodical." 
+ Sentence 2: GBI spokesman John Bankhead said the murder scenes showed that the killer was very methodical. [ID: 2914]
+ ##### 
+169. Sentence 1: A kitchen sink and countertop with bowls on shelves. 
+ Sentence 2: A small kitchen with items stacked on the shelves and on the counter. [ID: 1461]
+ ##### 
+170. Sentence 1: Classical Gas We are all vessels filled with many wonders. 
+ Sentence 2: Time of the Season by the Zombies We are all vessels filled with many wonders. [ID: 2351]
+ ##### 
+171. Sentence 1: Is that how it works? 
+ Sentence 2: Nah, that's not how it works. [ID: 2265]
+ ##### 
+172. Sentence 1: Pro-Russia rebels to hold vote in Ukraine 
+ Sentence 2: Syria rebels: We killed Hezbollah men in Lebanon [ID: 5412]
+ ##### 
+173. Sentence 1: Quartet calls on Israelis, Palestinians to end irritants 
+ Sentence 2: Occupation to confiscate 30 dunums of Palestinian land in Deir Estia [ID: 3772]
+ ##### 
+174. Sentence 1: Fern I think stories like this are stupid. 
+ Sentence 2: - wolf I think stories like this are stupid. [ID: 2104]
+ ##### 
+175. Sentence 1: Rebels kill 21 civilians in Syria Alawite village 
+ Sentence 2: Bomb kills 18 civilians in Afghanistan [ID: 5545]
+ ##### 
+176. Sentence 1: It's the first such drill since the September 11 terrorist attacks on New York and Washington. 
+ Sentence 2: It is the nation's first large-scale counterterrorism exercise since the Sept. 11 terrorist attacks. [ID: 2467]
+ ##### 
+177. Sentence 1: A cat is licking a sucker. 
+ Sentence 2: A woman is slicing cucumber. [ID: 237]
+ ##### 
+178. Sentence 1: The pressure may well rise on Thursday, with national coverage of the final round planned by ESPN, the cable sports network. 
+ Sentence 2: The pressure will intensify today, with national coverage of the final round planned by ESPN and words that are even more difficult. [ID: 3054]
+ ##### 
+179. Sentence 1: A dog lies on his back on a wooden floor. 
+ Sentence 2: A dog is laying on the floor. [ID: 314]
+ ##### 
+180. Sentence 1: Dubbed Project Mad Hatter, the Linux-based desktop is being promoted by Sun as a more secure and less expensive alternative to Windows. 
+ Sentence 2: Designed to compete with Microsoft Corp., Project Mad Hatter is being positioned by Sun as a cheaper, secure alternative desktop operating system to Microsoft's various desktop offerings. [ID: 3330]
+ ##### 
+181. Sentence 1: the international community should modernize and seek a fair, reasonable and effective way to enhance the nuclear non-proliferation regime through extensive consultations. 
+ Sentence 2: the third proposal was that countries should advance with the times and seek a fair, reasonable and effective way to enhance the nuclear non-proliferation regime through broad consultation. [ID: 3620]
+ ##### 
+182. Sentence 1: A person riding a dirt bike in the outdoors. 
+ Sentence 2: A person jumping a motorbike in the air. [ID: 1125]
+ ##### 
+183. Sentence 1: sheik doon salad ilmi said civilian casualties resulting from overnight mortar and rocket attacks happen every day. 
+ Sentence 2: sheik doon salad ilmi stated that civilian casualties resulting from overnight mortar and rocket attacks are admitted to the hospital nearly every day. [ID: 3647]
+ ##### 
+184. Sentence 1: Sony reports record annual loss 
+ Sentence 2: Sony forecasts record annual loss of $6.4bn [ID: 3949]
+ ##### 
+185. Sentence 1: A little girl walks on a boardwalk with blue domes in the background. 
+ Sentence 2: A man going over a jump on his bike with a river in the background [ID: 1554]
+ ##### 
+186. Sentence 1: international atomic energy association is the united nations watchdog. 
+ Sentence 2: the international atomic energy agency is the u.n.'s nuclear watchdog. [ID: 3631]
+ ##### 
+187. Sentence 1: A man is crying. 
+ Sentence 2: A man is screaming. [ID: 534]
+ ##### 
+188. Sentence 1: A woman is washing her hands. 
+ Sentence 2: A woman is straightening her hair. [ID: 653]
+ ##### 
+189. Sentence 1: Both rebels and government forces have been accused of pillaging villages in Liberia's countryside despite the peace agreement. 
+ Sentence 2: Both rebels and government forces, including those loyald to Taylor, have been accused of pillaging villages in Liberia's countryside despite a peace deal. [ID: 2630]
+ ##### 
+190. Sentence 1: "It is safe to assume the Senate is prepared to pass some form of cap," King said. 
+ Sentence 2: Its safe to assume the Senate is prepared to pass some form of a cap....The level of it is to be debated. [ID: 3243]
+ ##### 
+191. Sentence 1: Syrian opposition agree to landmark peace talks 
+ Sentence 2: Syria opposition pressed to attend talks [ID: 5410]
+ ##### 
+192. Sentence 1: Then he is not omnipotent. 
+ Sentence 2: Then he is malevolent. [ID: 2154]
+ ##### 
+193. Sentence 1: Israeli forces arrest 6 Palestinians in overnight West Bank raids 
+ Sentence 2: Israel classifies Jerusalem natives as noncitizens [ID: 5147]
+ ##### 
+194. Sentence 1: Mr. Pingeon is director of litigation for Massachusetts Correctional Legal Services, a prisoners' rights group. 
+ Sentence 2: Pingeon said an attorney for his organization, Massachusetts Correctional Legal Services, interviewed Assan Tuesday. [ID: 3279]
+ ##### 
+195. Sentence 1: The young man is skateboarding at a skate park. 
+ Sentence 2: a boy in a blue T shirt is airborne on a skateboard in a skate park. [ID: 1845]
+ ##### 
+196. Sentence 1: A man in swimming trunks is standing against some rocks. 
+ Sentence 2: A man in a gray shirt climbs a large rock wall. [ID: 1719]
+ ##### 
+197. Sentence 1: Lionel Richie is dancing on the ceiling. 
+ Sentence 2: Lionel Ritchie dances while standing on the ceiling. [ID: 109]
+ ##### 
+198. Sentence 1: Flash floods kill 58 in eastern Afghanistan 
+ Sentence 2: Bomb wounds 16 in eastern Afghanistan [ID: 5116]
+ ##### 
+199. Sentence 1: Suicide bomber kills 3 at US base in Afghanistan 
+ Sentence 2: Suicide bombers attack US base in Afghanistan [ID: 4369]
+ ##### 
+200. Sentence 1: A black dog standing in front of yellow flowers. 
+ Sentence 2: A black dog standing in a field. [ID: 1013]
+ ##### 
+201. Sentence 1: Two horses standing in a pen. 
+ Sentence 2: A group of horses grazing in a field. [ID: 1121]
+ ##### 
+202. Sentence 1: Earlier on Monday, Grant Thornton SpA repeated previous statements that it was "a victim of fraudulent action". 
+ Sentence 2: Grant Thornton claims that it too was the “victim” of a fraud. [ID: 2518]
+ ##### 
+203. Sentence 1: Nadal tumbles into French Open final 
+ Sentence 2: Nadal through to seventh French Open final [ID: 3919]
+ ##### 
+204. Sentence 1: A small cat laying on a wooden beam looking up at the camera. 
+ Sentence 2: The small dog is wearing a sweater and looking up at the camera. [ID: 1494]
+ ##### 
+205. Sentence 1: the lawyer of michael karras named s.s. dhillon could not be reached for comment. 
+ Sentence 2: durban port authorities and police explosives inspectors could not be reached for comment. [ID: 3624]
+ ##### 
+206. Sentence 1: All eyes on Khurshid‚Äôs trip ... 
+ Sentence 2: EU finance ministers‚Äô talks b... [ID: 5069]
+ ##### 
+207. Sentence 1: Pakistan releases top Afghan Taliban prisoner 
+ Sentence 2: Pakistan releases seven Afghan Taliban fighters [ID: 4918]
+ ##### 
+208. Sentence 1: Man killed in French terror raid 
+ Sentence 2: Man dies in French 'anti-terror operation' [ID: 3843]
+ ##### 
+209. Sentence 1: A woman in an red tracksuit squeezing lemons in a press. 
+ Sentence 2: A young woman in a pink hoodie takes a picture. [ID: 1791]
+ ##### 
+210. Sentence 1: One NATO soldier killed in S. Afghanistan 
+ Sentence 2: British soldier killed in southern Afghanistan [ID: 4301]
+ ##### 
+211. Sentence 1: goff stated that this presents a major threat to global security. 
+ Sentence 2: it presents a major threat to global security. [ID: 3527]
+ ##### 
+212. Sentence 1: A person is peeling an onion. 
+ Sentence 2: A person is peeling an eggplant. [ID: 76]
+ ##### 
+213. Sentence 1: In 2002, Linksys overtook Cisco Systems as the leading wireless equipment vendor, accounting for 14.1 percent of revenue. 
+ Sentence 2: Rolfe said Linksys overtook Cisco Systems last year as the leading supplier of WLAN equipment. [ID: 2699]
+ ##### 
+214. Sentence 1: A brown dog jumping into the air to catch a ball. 
+ Sentence 2: three young woman jumping into the air to catch a ball. [ID: 1818]
+ ##### 
+215. Sentence 1: A group of youngsters swim in lake water 
+ Sentence 2: Many children are playing and swimming in the water. [ID: 1617]
+ ##### 
+216. Sentence 1: Royal Hoax DJ Takes Action Against Station 
+ Sentence 2: Taliban bombs US base in Afghanistan [ID: 5246]
+ ##### 
+217. Sentence 1: Someone is peeling a potato. 
+ Sentence 2: Someone is slicing a tomato. [ID: 583]
+ ##### 
+218. Sentence 1: I thought that was mostly just the Dutch. 
+ Sentence 2: It is mostly just the Dutch. [ID: 2214]
+ ##### 
+219. Sentence 1: Freedom of speech has consequences! 
+ Sentence 2: If freedom of speech has consequences then it is not free. [ID: 2121]
+ ##### 
+220. Sentence 1: The Dow Jones industrial average .DJI rose 41.61 points, or 0.44 percent, to 9,415.82. 
+ Sentence 2: The Dow Jones rose 41.61 points Friday, a gain of 0.4% for the day and 0.7% for the week. [ID: 2905]
+ ##### 
+221. Sentence 1: A little girl plays the violin on a beach. 
+ Sentence 2: The girl sat on the couch to crochet. [ID: 990]
+ ##### 
+222. Sentence 1: NATO: 5 Americans killed in southern Afghanistan 
+ Sentence 2: Roadside bomb kills 3 policemen in southern Afghanistan [ID: 5298]
+ ##### 
+223. Sentence 1: and videos Seismic data does not equal duration of collapse. 
+ Sentence 2: Seismic data does not equal duration of collapse. [ID: 2376]
+ ##### 
+224. Sentence 1: So, I am dropping, for now, asking you the question: " Where ' s the Marx " ? 
+ Sentence 2: I am moving on to ask you the question: " Where ' s the beef " ? [ID: 2004]
+ ##### 
+225. Sentence 1: pressing one does not "do" english. 
+ Sentence 2: Pressing one does send a tone. [ID: 2081]
+ ##### 
+226. Sentence 1: Two men in a running contest. 
+ Sentence 2: Dogs in a race. [ID: 1977]
+ ##### 
+227. Sentence 1: An explosion is booming in the desert. 
+ Sentence 2: A nuclear weapon explodes in a desert. [ID: 422]
+ ##### 
+228. Sentence 1: A multi-colored train on a track. 
+ Sentence 2: A mostly black train on a track. [ID: 1291]
+ ##### 
+229. Sentence 1: S.Korea proposes 'final' N.Korea talks over Kaesong 
+ Sentence 2: North Korea proposes high-level talks with US [ID: 4438]
+ ##### 
+230. Sentence 1: During a screaming match in 1999, Carolyn told John she was still sleeping with Bergin. 
+ Sentence 2: She, in turn, occasionally told John that she was still sleeping with an ex-boyfriend, "Baywatch" hunk Michael Bergin. [ID: 3136]
+ ##### 
+231. Sentence 1: Australian PM Gillard set to win leadership challenge 
+ Sentence 2: Australian PM defiant under pressure over leadership [ID: 3760]
+ ##### 
+232. Sentence 1: the agreement aimed to establish a wider cooperation covering national security and the fight against global terrorism. 
+ Sentence 2: in a statement the british ministry of defense stated-- the agreement aims to establish wider cooperation covering national security and the fight against global terrorism. [ID: 3568]
+ ##### 
+233. Sentence 1: A man is catching a ball. 
+ Sentence 2: A cat is rubbing against a baby. [ID: 919]
+ ##### 
+234. Sentence 1: "People are obviously inconvenienced," said Dr. Jim Young, Ontario's commissioner of public safety. 
+ Sentence 2: "We're being hyper-vigilant," said Dr. James Young, Ontario's commissioner of public safety. [ID: 3185]
+ ##### 
+235. Sentence 1: A couple are running towards the ocean. 
+ Sentence 2: A man and and woman are running together, holding hands. [ID: 440]
+ ##### 
+236. Sentence 1: Another big gainer was Rambus Inc. (nasdaq: RMBS - news - people), which shot 32 percent higher. 
+ Sentence 2: Rambus Inc. (nasdaq: RMBS - news - people) shot up 38 percent, making it the biggest percentage gainer on the Nasdaq. [ID: 3245]
+ ##### 
+237. Sentence 1: An airplane moves along a runway. 
+ Sentence 2: A plane is landing on a runway. [ID: 720]
+ ##### 
+238. Sentence 1: Train in a station. 
+ Sentence 2: Trains inside an indoor station. [ID: 1351]
+ ##### 
+239. Sentence 1: A buddha statue sits on a table with a wooden table runner. 
+ Sentence 2: A bird standing on top of a wooden fencepost. [ID: 1168]
+ ##### 
+240. Sentence 1: A man is opening a package containing headphones. 
+ Sentence 2: A woman is riding a horse. [ID: 988]
+ ##### 
+241. Sentence 1: A man is hugging someone. 
+ Sentence 2: A man is taking a picture. [ID: 388]
+ ##### 
+242. Sentence 1: Egyptians vote on divisive constitution 
+ Sentence 2: Egyptians vote on constitution change [ID: 4545]
+ ##### 
+243. Sentence 1: Two of the Britons, Sandy Mitchell from Glasgow and Glasgow-born William Sampson, face the death penalty. 
+ Sentence 2: Sandy Mitchell, 44, from Kirkintilloch, Glasgow, and William Sampson, a British citizen born in Glasgow, face beheading in public. [ID: 2678]
+ ##### 
+244. Sentence 1: The bodies of some of the dead, pulled out from under the train, were laid out beside the tracks while emergency services brought in wooden coffins. 
+ Sentence 2: The bodies of many of the dead, pulled from under the partially derailed train, were laid out by the tracks awaiting identification. [ID: 3309]
+ ##### 
+245. Sentence 1: What makes India vote? Jaipur Lit Fest debates 
+ Sentence 2: What makes India vote? Debate at Jaipur Literature Festival [ID: 5592]
+ ##### 
+246. Sentence 1: They produce nothing I can eat, wear, live in. 
+ Sentence 2: Think about all the things you can't "eat, wear, or live in". [ID: 2024]
+ ##### 
+247. Sentence 1: Can the U.S. trust Syria to hand over chemical weapons? 
+ Sentence 2: US says Syria may have used sarin gas in chemical weapons [ID: 4430]
+ ##### 
+248. Sentence 1: SEC Chairman William Donaldson said there is a "building confidence out there that the cop is on the beat." 
+ Sentence 2: "I think there's a building confidence that the cop is on the beat." [ID: 2451]
+ ##### 
+249. Sentence 1: Obama signs up for Obamacare 
+ Sentence 2: Americans scramble to sign up for Obamacare by deadline [ID: 4615]
+ ##### 
+250. Sentence 1: A man is riding a horse. 
+ Sentence 2: A man is driving a car. [ID: 604]
+ ##### 
+251. Sentence 1: Lance Armstrong confesses all to Oprah 
+ Sentence 2: Lance Armstrong confesses to doping in Oprah interview [ID: 4616]
+ ##### 
+252. Sentence 1: a report issued by security software vendor mcafee inc., said government-affiliated hackers in china are at the forefront of a brewing cyber cold war. 
+ Sentence 2: government-affiliated hackers in china are at the forefront of a burgeoning cyber cold war. [ID: 3607]
+ ##### 
+253. Sentence 1: A black and white photo of a dilapidated wooden fence. 
+ Sentence 2: A black and white photo of an old wooden fence near a dirty street. [ID: 1383]
+ ##### 
+254. Sentence 1: Rimsha Masih released on bail 
+ Sentence 2: Mandela released from hospital [ID: 3813]
+ ##### 
+255. Sentence 1: there is much concern over the drug. 
+ Sentence 2: there is much work to be done. [ID: 3739]
+ ##### 
+256. Sentence 1: A passenger train coming into a station. 
+ Sentence 2: A passenger train sits in the station. [ID: 1204]
+ ##### 
+257. Sentence 1: Chinese president meets Greek PM, calling for stronger partnership 
+ Sentence 2: Chinese president meets Indian vice president [ID: 5507]
+ ##### 
+258. Sentence 1: Standing with reporters and photographers about 150 yards from the prison gates was Brent Newbury, president of the Rockland County Patrolmen's Benevolent Association. 
+ Sentence 2: "The whole thing is a travesty," fumed Brent Newbury, president of the Rockland County Patrolmen's Benevolent Association. [ID: 2662]
+ ##### 
+259. Sentence 1: sheep standing in afield. 
+ Sentence 2: A sheep grazing in a field. [ID: 1016]
+ ##### 
+260. Sentence 1: Five men in tuxedos are walking down steps. 
+ Sentence 2: Five men in tuxedos walk down a set of steps [ID: 1683]
+ ##### 
+261. Sentence 1: A dog is jumping up in the air to catch a toy. 
+ Sentence 2: A black dog jumps in the air to catch a toy. [ID: 1512]
+ ##### 
+262. Sentence 1: He urged Congress to "send me the final bill as soon as possible so that I can sign it into law." 
+ Sentence 2: "I urge Congress to quickly resolve any differences and send me the final bill as soon as possible so that I can sign it into law," he said. [ID: 3278]
+ ##### 
+263. Sentence 1: A man and women sitting on a sofa holding a small baby. 
+ Sentence 2: a woman sitting on a sofa holding a baby. [ID: 1402]
+ ##### 
+264. Sentence 1: Egypt to hold presidential elections before parliamentary polls 
+ Sentence 2: Egypt's interim president swears in new Cabinet [ID: 4841]
+ ##### 
+265. Sentence 1: A woman is slicing a leek. 
+ Sentence 2: A woman is slicing ginger. [ID: 101]
+ ##### 
+266. Sentence 1: VeriSign introduced its Site Finder service on Sept. 15. 
+ Sentence 2: The battle around VeriSign"s three-week-old Site Finder service rages on. [ID: 3023]
+ ##### 
+267. Sentence 1: Earlier, he told France Inter-Radio, "I think we can now qualify what is happening as a genuine epidemic." 
+ Sentence 2: "I think we can now qualify what is happening as a genuine epidemic," Health Minister Jean-Francois Mattei said on France Inter radio. [ID: 2877]
+ ##### 
+268. Sentence 1: A man and a woman laughing. 
+ Sentence 2: A man and a woman kiss. [ID: 1837]
+ ##### 
+269. Sentence 1: You should put scientists on a pedestal. 
+ Sentence 2: Why do people like you put scientist on a pedestal? [ID: 2223]
+ ##### 
+270. Sentence 1: A woman is dancing with other women. 
+ Sentence 2: A woman is shredding chicken. [ID: 343]
+ ##### 
+271. Sentence 1: Egyptians to vote for new president 
+ Sentence 2: Somali MPs to elect new president [ID: 4008]
+ ##### 
+272. Sentence 1: Detroit eligible for bankruptcy protection: U.S. judge 
+ Sentence 2: Detroit eligible for bankruptcy protection [ID: 5529]
+ ##### 
+273. Sentence 1: Landon And So This is Christmas We are all vessels filled with many wonders. 
+ Sentence 2: Play With Fire We are all vessels filled with many wonders. [ID: 2298]
+ ##### 
+274. Sentence 1: A young boy laying on a sofa with a dog. 
+ Sentence 2: A small boy laying on a sofa with a dog. [ID: 1450]
+ ##### 
+275. Sentence 1: People ride and paddle a raft. 
+ Sentence 2: Four people are floating on a raft. [ID: 339]
+ ##### 
+276. Sentence 1: Greek PM to announce new election 
+ Sentence 2: Greek PM calls for May 6 general election [ID: 3982]
+ ##### 
+277. Sentence 1: Death toll in Syria now tops 100,000 
+ Sentence 2: Death toll in Syria over 100,000 so far [ID: 5580]
+ ##### 
+278. Sentence 1: The white and brown dog is shaking its ears. 
+ Sentence 2: The brown dog is running across the sand. [ID: 1959]
+ ##### 
+279. Sentence 1: A girl is playing a guitar. 
+ Sentence 2: A man is playing a guitar. [ID: 510]
+ ##### 
+280. Sentence 1: The redesigned Finder also features search, coloured labels for customized organization of documents and projects and dynamic browsing of the network for Mac, Windows and UNIX file servers. 
+ Sentence 2: It also supports coloured labels to better organise documents, and dynamic browsing of the network for Mac, Windows and Unix file servers. [ID: 2783]
+ ##### 
+281. Sentence 1: A young girl riding a brown horse. 
+ Sentence 2: A woman in riding a brown horse. [ID: 1316]
+ ##### 
+282. Sentence 1: Explosions Near the Iranian Embassy in Beirut 
+ Sentence 2: Two blasts near Iranian embassy in Beirut [ID: 4669]
+ ##### 
+283. Sentence 1: Smith said simply "Oh, my God," in the seconds afterward, according to Weinshall. 
+ Sentence 2: In the seconds after the crash, she added, Captain Smith said simply, "Oh my God." [ID: 2855]
+ ##### 
+284. Sentence 1: Three bottles are on a table. 
+ Sentence 2: Old green bottle sitting on a table. [ID: 1239]
+ ##### 
+285. Sentence 1: Brahimi apologises to Syria over lack of peace progress 
+ Sentence 2: Mediator apologizes to Syrians for lack of peace progress [ID: 5513]
+ ##### 
+286. Sentence 1: A poll showed that the FBI bugging of the mayor had given a boost to his reelection effort against GOP opponent Sam Katz. 
+ Sentence 2: A poll released this week showed that the FBI bugging of the mayor has given a boost to his re-election effort. [ID: 3129]
+ ##### 
+287. Sentence 1: The technology-laced Nasdaq Composite Index dipped 0.08 of a point to 1,646. 
+ Sentence 2: The technology-laced Nasdaq Composite Index <.IXIC> added 1.92 points, or 0.12 percent, at 1,647.94. [ID: 2568]
+ ##### 
+288. Sentence 1: Yeah, I don't think this is that controversial either. 
+ Sentence 2: I don't think what she's saying is that controversial. [ID: 2280]
+ ##### 
+289. Sentence 1: Egypt votes on final day of presidential election 
+ Sentence 2: Polls open in France for presidential election [ID: 3792]
+ ##### 
+290. Sentence 1: A wooden bicycle with an awning. 
+ Sentence 2: A group of elderly people sitting around a dining table. [ID: 1382]
+ ##### 
+291. Sentence 1: Van der Sloot to Marry in Prison 
+ Sentence 2: Joran Van Der Sloots Plans To Get Married In Peru Prison [ID: 4474]
+ ##### 
+292. Sentence 1: Sierra Leone in Ebola lockdown 
+ Sentence 2: Sierra Leone Reaches Final Day of Ebola Lockdown [ID: 5672]
+ ##### 
+293. Sentence 1: Two shirtless young people playing in the water. 
+ Sentence 2: Lots of people play in the water at the beach. [ID: 1698]
+ ##### 
+294. Sentence 1: The two dogs blend in with the stuff animals. 
+ Sentence 2: Two dogs sit on a couch with many stuffed animals. [ID: 1208]
+ ##### 
+295. Sentence 1: Iron Lady Margaret Thatcher dies at 87 
+ Sentence 2: Former British PM Margaret Thatcher dies at 87 [ID: 5040]
+ ##### 
+296. Sentence 1: 'Betrayed' disabled workers protest against Remploy closures 
+ Sentence 2: May Day marked by protests against austerity cuts [ID: 4339]
+ ##### 
+297. Sentence 1: Seven Filipinos slain in Yemen attack 
+ Sentence 2: Syrian soldiers killed in bomb attack [ID: 5047]
+ ##### 
+298. Sentence 1: iran has noticeably increased the number of executions in recent months as officials enforce a campaign aimed at promoting virtue and boosting security in 
+ Sentence 2: iranian officials have increased executions in 2007 as officials enforce a campaign purportedly aimed at promoting virtue and boosting security in society. [ID: 3719]
+ ##### 
+299. Sentence 1: White House, defense contractors discuss harm of automatic spending cuts 
+ Sentence 2: White House, defense firms discuss automatic spending cuts [ID: 4855]
+ ##### 
+300. Sentence 1: a close up of a small cactus in a pot. 
+ Sentence 2: a close up of a woman holding a white puppy. [ID: 1379]
+ ##### 
+301. Sentence 1: the european union and the united states have frozen al-qadi's assets. 
+ Sentence 2: the western governments include the united states and france. [ID: 3690]
+ ##### 
+302. Sentence 1: Three dead, including gunman, in Maryland mall shooting 
+ Sentence 2: 3 dead in Maryland mall shooting [ID: 4819]
+ ##### 
+303. Sentence 1: Obama travels to tornado-ravaged Oklahoma 
+ Sentence 2: Obama visits tornado hit Oklahoma [ID: 4795]
+ ##### 
+304. Sentence 1: Spain jobless rate hits new high 
+ Sentence 2: Spain's jobless claims hit new high [ID: 4302]
+ ##### 
+305. Sentence 1: Two killed in Bahrain car explosion 
+ Sentence 2: Two killed in Bahrain car blast [ID: 5565]
+ ##### 
+306. Sentence 1: A man is paddling a canoe. 
+ Sentence 2: A man is playing a harp. [ID: 155]
+ ##### 
+307. Sentence 1: And I'm your friend Mitt. 
+ Sentence 2: Your good friend Mitt. [ID: 2252]
+ ##### 
+308. Sentence 1: You're "a bunch of cells." 
+ Sentence 2: I'm "a bunch of cells." [ID: 2290]
+ ##### 
+309. Sentence 1: A small red car on top of a semi truck. 
+ Sentence 2: Red sports car on top of white semi truck. [ID: 1458]
+ ##### 
+310. Sentence 1: A man plays the guitar. 
+ Sentence 2: A man is playing the guitar. [ID: 515]
+ ##### 
+311. Sentence 1: A black and white chair sitting in front of a brick wall and a window with a bamboo plant in a vase. 
+ Sentence 2: A black headed sheep covered in thick white wool stands in a pasture with other sheep. [ID: 1392]
+ ##### 
+312. Sentence 1: A woman is slicing an onion with a knife. 
+ Sentence 2: A man is preparing some dish. [ID: 475]
+ ##### 
+313. Sentence 1: Someone is cutting a circle out of a pink sheet of paper. 
+ Sentence 2: Someone is pouring tomato sauce into a pot of meat. [ID: 826]
+ ##### 
+314. Sentence 1: Two officials initially said about 300 workers had been arrested at 61 stores in 21 states. 
+ Sentence 2: But the officials later revised the numbers and said about 250 had been arrested at some 60 stores. [ID: 2686]
+ ##### 
+315. Sentence 1: Shooting, protests mar Thai voting 
+ Sentence 2: Thai protesters disrupt advance voting [ID: 5045]
+ ##### 
+316. Sentence 1: Romney, Paul vie for Maine caucus win 
+ Sentence 2: Romney has narrow Maine caucus win [ID: 4040]
+ ##### 
+317. Sentence 1: Two Palestinians die in attacks on Israelis ahead of Kerry visit 
+ Sentence 2: Palestinian official slams Israel's stone-throwing bill [ID: 5736]
+ ##### 
+318. Sentence 1: Syrians Protest against Erdogan in Paris, Venezuelans Stress Support to Syria 
+ Sentence 2: Turkey's Erdogan in Iran to mend ties after split over Syria [ID: 5289]
+ ##### 
+319. Sentence 1: US Cannot 'Conclusively Determine' Chemical Weapons Use in Syria 
+ Sentence 2: U.S. Sees No Conclusive Evidence of Chemical Arms Use by Syria [ID: 4865]
+ ##### 
+320. Sentence 1: The broad Standard & Poor's 500-stock index was up 4.83 points or 0.49 per cent to 980.76. 
+ Sentence 2: Standard & Poor's 500 stock index futures declined 4.40 points to 983.50, while Nasdaq futures fell 6.5 points to 1,206.50. [ID: 3363]
+ ##### 
+321. Sentence 1: The reading for both August and July is the best seen since the survey began in August 1997. 
+ Sentence 2: It is the highest reading since the index was created in August 1997. [ID: 2487]
+ ##### 
+322. Sentence 1: The man is slicing the tape from the box. 
+ Sentence 2: A man is cutting open a box. [ID: 358]
+ ##### 
+323. Sentence 1: Iran's Rouhani warns of Talibanisation in Syria 
+ Sentence 2: Russia, China Concerned About Israeli Airstrikes in Syria [ID: 4418]
+ ##### 
+324. Sentence 1: This is a rear view of a Chevrolet sports car. 
+ Sentence 2: The rear view of a red Chevrolet concept car. [ID: 1053]
+ ##### 
+325. Sentence 1: A living room with a dining table in the background. 
+ Sentence 2: A boy doing a wheelie on a plank with the beach in the background. [ID: 1073]
+ ##### 
+326. Sentence 1: A swimmer is doing the backstroke in the swimming pool. 
+ Sentence 2: a person doing the back stroke in a swimming pool [ID: 1867]
+ ##### 
+327. Sentence 1: Vinnie Jones reveals cancer battle new 
+ Sentence 2: Vinnie Jones reveals he has skin cancer [ID: 4631]
+ ##### 
+328. Sentence 1: US to Determine Extent of Chemical Weapons Use by Syria 
+ Sentence 2: What we know so far about chemical weapons in Syria's civil war [ID: 5644]
+ ##### 
+329. Sentence 1: Three dead in US marathon bomb 
+ Sentence 2: Taliban denies involvement in Boston marathon bombing [ID: 4933]
+ ##### 
+330. Sentence 1: The confusion capped a tumultuous week for the list, which is intended to block about 80 percent of telemarketing calls. 
+ Sentence 2: The free service was originally intended to block about 80 percent of telemarketer calls. [ID: 3389]
+ ##### 
+331. Sentence 1: A surfer on a wave. 
+ Sentence 2: A surfer is riding a wave. [ID: 1975]
+ ##### 
+332. Sentence 1: A new study, conducted in Europe, found the medicine worked just as well as an earlier disputed study, sponsored by ImClone Systems, said it did. 
+ Sentence 2: Doctors concluded Erbitux, the cancer drug that enmeshed ImClone Systems in an insider trading scandal, worked just as well as an earlier company-sponsored study said it did. [ID: 3270]
+ ##### 
+333. Sentence 1: Putin signs Crimea annexe treaty 
+ Sentence 2: 09:32 Putin signs off Crimea annexation [ID: 5533]
+ ##### 
+334. Sentence 1: Strong new quake hits shattered Pak region 
+ Sentence 2: Powerful new earthquake hits shattered Pakistan region [ID: 5365]
+ ##### 
+335. Sentence 1: @Frank Apisa, What you want to call it is up to you. 
+ Sentence 2: @Cyracuz, What you want to call it is up to you. [ID: 2269]
+ ##### 
+336. Sentence 1: Residents return to Texas blast site 
+ Sentence 2: Residents return to Fallujah [ID: 4879]
+ ##### 
+337. Sentence 1: Deadly Blast Rocks Coal Mine in East Ukraine 
+ Sentence 2: 12 Dead, Despite Cease-fire in East Ukraine [ID: 5696]
+ ##### 
+338. Sentence 1: Page said it's also possible that genes on the Y chromosome may influence gender-specific differences in disease susceptibility. 
+ Sentence 2: He added that genes on the Y might play a role in influencing gender-specific differences in disease susceptibility. [ID: 2456]
+ ##### 
+339. Sentence 1: No Americans were reported among the casualties, according to Capt. Michael Calvert, a spokesman for the regiment. 
+ Sentence 2: None of the casualties was Americans, said Capt. Michael Calvert, regiment spokesman. [ID: 2817]
+ ##### 
+340. Sentence 1: A boy is playing piano and singing. 
+ Sentence 2: A pig is agitating a lion. [ID: 926]
+ ##### 
+341. Sentence 1: Severe Gales As Storm Clodagh Hits Britain 
+ Sentence 2: Merkel pledges NATO solidarity with Latvia [ID: 5744]
+ ##### 
+342. Sentence 1: I hope this is nothing. 
+ Sentence 2: I hope everything is ok! [ID: 2129]
+ ##### 
+343. Sentence 1: Georgians vote for new president 
+ Sentence 2: Ally of Georgia's billionaire PM to be president -exit polls [ID: 5413]
+ ##### 
+344. Sentence 1: russia ratified the updated treaty in 2004 but the united states and other nato members have refused to do so arguing that moscow must first fulfill obligations to withdraw forces from georgia and from moldova's separatist region of trans-dniester. 
+ Sentence 2: russia has ratified the amended version but the united states and other nato members have refused to do so until the russian government withdraws troops from the former soviet republics of moldova and georgia. [ID: 3492]
+ ##### 
+345. Sentence 1: US House Republicans elect Paul Ryan as speaker 
+ Sentence 2: US House Republicans eye reluctant Ryan for speaker [ID: 5658]
+ ##### 
+346. Sentence 1: ArQule, Daiichi stop lung cancer trial, shares tank 
+ Sentence 2: ArQule stock plunges as lung cancer study shelved [ID: 4190]
+ ##### 
+347. Sentence 1: Gusmao consolidates power in East Timor elections 
+ Sentence 2: Gusmao powers on in East Timor [ID: 3879]
+ ##### 
+348. Sentence 1: A man with long hair is looking through a camera. 
+ Sentence 2: A woman stands against a wall near a video camera. [ID: 1773]
+ ##### 
+349. Sentence 1: Also, businesses throughout Utah are volunteering to display Amber alerts on their signs. 
+ Sentence 2: Other businesses are volunteering to put the alerts on their electronic signs and billboards. [ID: 3298]
+ ##### 
+350. Sentence 1: S Korea MPs to visit Kaesong complex 
+ Sentence 2: S. Korea demands talks with N. Korea on closed factory [ID: 5324]
+ ##### 
+351. Sentence 1: The Dow Jones industrials climbed more than 140 points to above the 9,000 mark, the first time since December. 
+ Sentence 2: The Dow Jones industrials briefly surpassed the 9,000 mark for the first time since December." [ID: 2675]
+ ##### 
+352. Sentence 1: A badger is digging in the dirt. 
+ Sentence 2: A man is moving large rocks. [ID: 492]
+ ##### 
+353. Sentence 1: The Note's Must-Reads for Friday May 24, 2013 
+ Sentence 2: The Note's Must-Reads for Tuesday October 29, 2013 [ID: 4997]
+ ##### 
+354. Sentence 1: Romney wins big in Puerto Rico primary 
+ Sentence 2: Romney wins Illinois primary [ID: 4323]
+ ##### 
+355. Sentence 1: A young boy in a white dress shirt is playing on a grassy plain. 
+ Sentence 2: A woman is getting her hair done at a salon. [ID: 1663]
+ ##### 
+356. Sentence 1: A black dog stands next to materials at a construction site. 
+ Sentence 2: A black dog standing in a room being constructed. [ID: 1439]
+ ##### 
+357. Sentence 1: AirTran officials and a Boeing official declined to comment yesterday. 
+ Sentence 2: Trish York, a spokeswoman for Boeing, declined to comment on the deal. [ID: 3273]
+ ##### 
+358. Sentence 1: A man chops down a tree with an axe. 
+ Sentence 2: A man cut a tree with an axe. [ID: 61]
+ ##### 
+359. Sentence 1: A young boy is standing on a gray tiled area. 
+ Sentence 2: A young boy is practicing his karate in a gym. [ID: 1730]
+ ##### 
+360. Sentence 1: Oscar Pistorius sentenced to 5 years in prison 
+ Sentence 2: 'Bookkeeper of Auschwitz' Sentenced to Four Years in Prison [ID: 5711]
+ ##### 
+361. Sentence 1: Two green and white trains sitting on the tracks. 
+ Sentence 2: Two green and white trains on tracks. [ID: 1000]
+ ##### 
+362. Sentence 1: Car bomb kills 20 in northwest Syria 
+ Sentence 2: Car bomb kills 40 in northwest Pakistan [ID: 5468]
+ ##### 
+363. Sentence 1: the meeting was 3 days long. 
+ Sentence 2: the meetings lasted 2 days. [ID: 3707]
+ ##### 
+364. Sentence 1: UN aid chief Amos enters Baba Amr with Red Crescent 
+ Sentence 2: Syria's besieged Baba Amr is deserted, Red Cross says [ID: 4247]
+ ##### 
+365. Sentence 1: Another said its members would continue to call the more than 50 million phone numbers on the Federal Trade Commission's list. 
+ Sentence 2: Meantime, the Direct Marketing Association said its members should not call the nearly 51 million numbers on the list. [ID: 3284]
+ ##### 
+366. Sentence 1: amnesty international is a rights group based in london. 
+ Sentence 2: the international institute for strategic studies is located in london. [ID: 3549]
+ ##### 
+367. Sentence 1: Apple app directs drivers to Alaska airport runway 
+ Sentence 2: Apple app sends drivers to airport [ID: 4684]
+ ##### 
+368. Sentence 1: The film is the second of a trilogy, which will wrap up in November with The Matrix Revolutions. 
+ Sentence 2: "Reloaded" is the second installment of a trilogy; "The Matrix Revolutions" is slated for debut in November. [ID: 3106]
+ ##### 
+369. Sentence 1: Angela Merkel wins third term in German elections 
+ Sentence 2: Merkel Wins Big in Germany Election [ID: 4789]
+ ##### 
+370. Sentence 1: Israeli air strikes kill 16 in Gaza 
+ Sentence 2: Israel air strikes kill 4 in Gaza; death toll now at 38 [ID: 3819]
+ ##### 
+371. Sentence 1: A person is driving a car. 
+ Sentence 2: A man is driving a car. [ID: 530]
+ ##### 
+372. Sentence 1: Tsunami warning issued for southern Alaska 
+ Sentence 2: Tsunami warning after Canada quake [ID: 3829]
+ ##### 
+373. Sentence 1: A man is cutting up a potato. 
+ Sentence 2: A man is cutting up carrots. [ID: 47]
+ ##### 
+374. Sentence 1: Air strikes kills dozens in northern Syria 
+ Sentence 2: Ukraine will not give 'an inch' over Crimea [ID: 5424]
+ ##### 
+375. Sentence 1: 3 Chinese tourists killed in Pakistan 
+ Sentence 2: Seven kidnappers killed in southern Nigeria [ID: 5523]
+ ##### 
+376. Sentence 1: Nelson Mandela's real hero was not Gandhi, but Nehru 
+ Sentence 2: Nelson Mandela's health 'unstable' [ID: 4613]
+ ##### 
+377. Sentence 1: A kangroo is eating something. 
+ Sentence 2: A kangaroo is eating. [ID: 136]
+ ##### 
+378. Sentence 1: Iraqi Bomb Attacks Kill At Least 13 
+ Sentence 2: Iraqi Car Bomb Near Church Kills At Least 14 [ID: 4987]
+ ##### 
+379. Sentence 1: Romanian president declared victory 
+ Sentence 2: Chinese president concludes state visit to Denmark [ID: 4026]
+ ##### 
+380. Sentence 1: A man in a straw hat shades his phone while others walk on a busy sidewalk. 
+ Sentence 2: A man lies on a street with his headand shoulders under a parked car that is jacked up. [ID: 1785]
+ ##### 
+381. Sentence 1: A woman boils eggs. 
+ Sentence 2: A woman places two eggs into a pot of water. [ID: 983]
+ ##### 
+382. Sentence 1: A man in a blue shirt is running in a stadium field. 
+ Sentence 2: A man wearing a blue hat and shirt is riding a white horse. [ID: 1576]
+ ##### 
+383. Sentence 1: A girl is playing the piano. 
+ Sentence 2: A little girl is playing a grand piano on stage. [ID: 789]
+ ##### 
+384. Sentence 1: US military officials say rotor wash from the helicopter might have blown down the banner. 
+ Sentence 2: US officials said downward "rotor wash" generated by the hovering helicopter stripped the flag from the tower. [ID: 3325]
+ ##### 
+385. Sentence 1: Scenario A assumes that the CO growth rate accelerates by .%/yr. 
+ Sentence 2: It assumes that methane growth rate accelerates by .%/yr. [ID: 2161]
+ ##### 
+386. Sentence 1: A boy doing a back flip into a swimming pool. 
+ Sentence 2: A boy wearing red and blue swim trunks jumping head first into a swimming pool. [ID: 1812]
+ ##### 
+387. Sentence 1: In a statement distributed Friday, 28 Chechen non-governmental organizations said they would boycott the vote. 
+ Sentence 2: In a statement distributed today, 28 Chechen non-governmental organisations said they would boycott the vote and warned voters to expect fraud. [ID: 2715]
+ ##### 
+388. Sentence 1: Russia releases Greenpeace doctor 
+ Sentence 2: Russian court releases Greenpeace ship doctor on bail [ID: 5126]
+ ##### 
+389. Sentence 1: the iranian government has dismissed the allegations in the intelligence presented to the international atomic energy agency board as baseless and the intelligence used to support the allegations as fake. 
+ Sentence 2: the international atomic energy agency insists that the iranian government's simple denials of the intelligence presented to the international atomic energy agency board are not good enough to allay western countries suspicions. [ID: 3591]
+ ##### 
+390. Sentence 1: Iran nuke talks begin amid hopes of progress 
+ Sentence 2: Iran nuclear talks start in Geneva [ID: 4574]
+ ##### 
+391. Sentence 1: So answer the question. 
+ Sentence 2: Stop avoiding the question. [ID: 2354]
+ ##### 
+392. Sentence 1: Still, the "somewhat ambiguous ruling" might be a setback for Static Control depending on how it developed its competing product, Merrill Lynch analyst Steven Milunovich said. 
+ Sentence 2: But Merrill Lynch analyst Steven Milunovich said the "somewhat ambiguous ruling" by regulators might be a setback for Static Control depending on how it developed its competing product. [ID: 3117]
+ ##### 
+393. Sentence 1: A dog shaking off water. 
+ Sentence 2: A dog shaking water off. [ID: 1608]
+ ##### 
+394. Sentence 1: Mandela spends third day in hospital 
+ Sentence 2: Mandela in Hospital for 3rd Day [ID: 5632]
+ ##### 
+395. Sentence 1: Pope Benedict XVI Says Goodbye to Cardinals 
+ Sentence 2: Pope Benedict XVI departs Vatican for last time [ID: 4765]
+ ##### 
+396. Sentence 1: illegal arms trafficking increases in kenya due to easy availability and neighboring conflicts. 
+ Sentence 2: illegal arms trafficking has increased in kenya and raised concern about security. [ID: 3627]
+ ##### 
+397. Sentence 1: Two cows standing in a large field. 
+ Sentence 2: The cow is grazing in a field. [ID: 1465]
+ ##### 
+398. Sentence 1: A kitten is playing with a blue rope toy. 
+ Sentence 2: A kitten is playing with a toy. [ID: 526]
+ ##### 
+399. Sentence 1: A cat swings on a ceiling fan. 
+ Sentence 2: A cat is spun around by a ceiling fan. [ID: 647]
+ ##### 
+400. Sentence 1: A white Apple computer sits on the beige carpeting of a bedroom. 
+ Sentence 2: An Apple computer sitting on the floor. [ID: 1101]
+ ##### 
+401. Sentence 1: Two lambs stand on a grassy hill. 
+ Sentence 2: Two dirt bikers riding over dirt hill. [ID: 1372]
+ ##### 
+402. Sentence 1: The Fed's Empire State survey far exceeded expectations by jumping to 26.8 in June, a record high, from 10.6 in May. 
+ Sentence 2: Prices had pulled back from offshore highs when the Empire State survey far exceeded expectations by jumping to 26.8 in June, a record high, from 10.6 in May. [ID: 2773]
+ ##### 
+403. Sentence 1: Norway memorial honours 77 massacre victims 
+ Sentence 2: Norway marks anniversary of massacre [ID: 4273]
+ ##### 
+404. Sentence 1: Three sheep on a dirt road viewed from a passenger vehicle. 
+ Sentence 2: Three sheep in middle of gravel road. [ID: 1221]
+ ##### 
+405. Sentence 1: The man added vegetables to the broth in the pot. 
+ Sentence 2: A man is adding sliced vegetables to a cooking bowl with water. [ID: 835]
+ ##### 
+406. Sentence 1: Red double decker bus on side of street. 
+ Sentence 2: A red double decker bus on a city street. [ID: 1107]
+ ##### 
+407. Sentence 1: Sheriff: Man recovers stolen car 42 years later 
+ Sentence 2: US man recovers car 42 years after theft [ID: 4045]
+ ##### 
+408. Sentence 1: "Three Weeks in October" goes on sale Monday, nearly a year after the Washington, D.C.-area sniper shootings started. 
+ Sentence 2: Moose's book goes on sale Monday, nearly a year after the sniper shootings started in the Washington area. [ID: 2585]
+ ##### 
+409. Sentence 1: Got some Heine and coors light i started it last night xanis. 
+ Sentence 2: i started it last night xanis. [ID: 2093]
+ ##### 
+410. Sentence 1: Someone is seasoning eggs. 
+ Sentence 2: Someone is seasoning two raw eggs in a bowl. [ID: 677]
+ ##### 
+411. Sentence 1: China's new PM rejects US hacking claims 
+ Sentence 2: China Premier Li rejects 'groundless' US hacking accusations [ID: 4836]
+ ##### 
+412. Sentence 1: Japan's opposition party chief criticizes Abe's economic policies 
+ Sentence 2: Zimbabwe‚Äôs opposition MDC party challenges Robert Mugabe‚Äôs election win [ID: 4990]
+ ##### 
+413. Sentence 1: While the Ibrahims had one separation operation, Goodrich and Dr. David Staffenberg plan about three for the Aguirres, with several weeks between each. 
+ Sentence 2: Instead of one long operation to separate the twins, Goodrich and Dr. David Staffenberg plan about three, with several weeks between each. [ID: 2758]
+ ##### 
+414. Sentence 1: On Sunday, a U.S. soldier was killed and another injured in southern Iraq when a munitions dump exploded. 
+ Sentence 2: On Sunday, a U.S. soldier was killed and another injured when a munitions dump they were guarding exploded in southern Iraq. [ID: 3222]
+ ##### 
+415. Sentence 1: Israeli, Palestinian negotiators quietly meet 
+ Sentence 2: Israeli, Palestinian negotiators meet in Jordan [ID: 3961]
+ ##### 
+416. Sentence 1: two found dead in swimming pool at essex hotel 
+ Sentence 2: Man and woman found dead in Essex hotel swimming pool [ID: 4877]
+ ##### 
+417. Sentence 1: Russia 'alone' in blaming Syrian rebels for chemical attack: US 
+ Sentence 2: Russia asks UN to consider its inquiry of Syria chemical arms use [ID: 4736]
+ ##### 
+418. Sentence 1: Queen visits Britain's new prince 
+ Sentence 2: Queen meets Britain's new baby prince [ID: 5344]
+ ##### 
+419. Sentence 1: Yes, it's about dilution. 
+ Sentence 2: Er, that's not how dilution works. [ID: 2279]
+ ##### 
+420. Sentence 1: Morsi's supporters reject plan 
+ Sentence 2: Morsi supporters march in Egypt [ID: 5379]
+ ##### 
+421. Sentence 1: A young men jumps off rocks into a lake. 
+ Sentence 2: A young man in red swimming trunks jumped off a large rock into the water. [ID: 1925]
+ ##### 
+422. Sentence 1: A man is swinging on a rope over water. 
+ Sentence 2: A man in a maroon bathing suit swings on a rope on a lake. [ID: 1998]
+ ##### 
+423. Sentence 1: Tokyo stocks open down 0.24% 
+ Sentence 2: Tokyo stocks open up 0.52% [ID: 5397]
+ ##### 
+424. Sentence 1: Rangers voted into Division Three 
+ Sentence 2: Rangers voted into third division [ID: 4329]
+ ##### 
+425. Sentence 1: Apple Computer's new online music service sold more than 1 million songs during its first week of operation, the company said Monday. 
+ Sentence 2: Apple Computer Inc. said Monday it exceeded record industry expectations by selling more than 1 million songs since the launch of its online music store a week ago. [ID: 3112]
+ ##### 
+426. Sentence 1: A man poses in front of a large fountain with a statue on top. 
+ Sentence 2: Man with blue shirt standing in front of a fountain. [ID: 1182]
+ ##### 
+427. Sentence 1: Soccer-France to host Australia for first time in October 
+ Sentence 2: NRA official to face questions for first time since controversial remarks [ID: 4620]
+ ##### 
+428. Sentence 1: A train sitting on the tracks near a field. 
+ Sentence 2: A train traveling down the tracks. [ID: 1166]
+ ##### 
+429. Sentence 1: A man plays the flute. 
+ Sentence 2: A man is playing a flute. [ID: 149]
+ ##### 
+430. Sentence 1: The broader Standard & Poor's 500 Index .SPX was down 0.04 points, or 0 percent, at 971.52. 
+ Sentence 2: Standard & Poor's 500 stock index futures for June were down 2.60 points at 965.70, while Nasdaq futures were down 7.50 points at 1,183.50. [ID: 3329]
+ ##### 
+431. Sentence 1: go figure You're asking me to prove a negative? 
+ Sentence 2: You're asking me to prove a negative? [ID: 2005]
+ ##### 
+432. Sentence 1: the iranian government denied the accusation and insists the nuclear program is for peaceful purposes only. 
+ Sentence 2: iran insists that its nuclear program is for peaceful purposes [ID: 3618]
+ ##### 
+433. Sentence 1: Children jumping on a trampoline. 
+ Sentence 2: A man is sledding on an orange slide. [ID: 1578]
+ ##### 
+434. Sentence 1: It would be difficult to overestimate the potential dangers of the Remote Procedure Call (RPC) vulnerability. 
+ Sentence 2: The flaw involves the Remote Procedure Call (RPC) protocol, which deals with inter-computer communications. [ID: 2892]
+ ##### 
+435. Sentence 1: Obama pledges to reignite economy 
+ Sentence 2: Obama to press Congress to act on economy [ID: 4945]
+ ##### 
+436. Sentence 1: Young woman in riding gear on top of horse. 
+ Sentence 2: The woman is riding on the brown horse. [ID: 1442]
+ ##### 
+437. Sentence 1: TVT Records sought $360 million in punitive damages and $30 million in compensatory damages, officials said. 
+ Sentence 2: The damages included $24 million in compensatory damages and $52 million in punitive damages for IDJ. [ID: 3407]
+ ##### 
+438. Sentence 1: The girls danced on the stage. 
+ Sentence 2: A girl is putting on makeup. [ID: 975]
+ ##### 
+439. Sentence 1: It's not imposing morals. 
+ Sentence 2: It's imposing a law. [ID: 2052]
+ ##### 
+440. Sentence 1: Canadian freight train blast death toll hits three, to rise 
+ Sentence 2: Canadian government 'monitoring' train blast situation [ID: 5374]
+ ##### 
+441. Sentence 1: A girl is singing on stage. 
+ Sentence 2: A man is singing on stage. [ID: 508]
+ ##### 
+442. Sentence 1: As part of his deal, Mr. Delainey has agreed to cooperate in the continuing investigation. 
+ Sentence 2: Dave Delainey agreed to cooperate with federal prosecutors in exchange for the plea. [ID: 2951]
+ ##### 
+443. Sentence 1: Putin claims victory in Russia's presidential election 
+ Sentence 2: Putin claims victory in presidential vote [ID: 4150]
+ ##### 
+444. Sentence 1: A boy is playing guitar. 
+ Sentence 2: A man is playing a guitar. [ID: 49]
+ ##### 
+445. Sentence 1: Darren Dopp, a Spitzer spokesman, declined to comment late Thursday. 
+ Sentence 2: John Heine, a spokesman for the commission in Washington, declined to comment on Mr. Spitzer's criticism. [ID: 2453]
+ ##### 
+446. Sentence 1: The bill says that a woman who undergoes such an abortion couldn't be prosecuted. 
+ Sentence 2: A woman who underwent such an abortion could not be prosecuted under the bill. [ID: 3006]
+ ##### 
+447. Sentence 1: Indian stocks open flat 
+ Sentence 2: Indian stocks open lower [ID: 4520]
+ ##### 
+448. Sentence 1: china is a nuclear power and member of the u.n. security council. 
+ Sentence 2: china is a permanent member of the un security [ID: 3709]
+ ##### 
+449. Sentence 1: any woman that wants birth control can get it. 
+ Sentence 2: Any woman that wants and abortion can get one. [ID: 2079]
+ ##### 
+450. Sentence 1: A large gray dog is playing in the deep snow. 
+ Sentence 2: Four dogs playing in the snow. [ID: 1946]
+ ##### 
+451. Sentence 1: India Ink: Image of the Day: July 2 
+ Sentence 2: India Ink: Image of the Day: March 4 [ID: 5387]
+ ##### 
+452. Sentence 1: What is a girl douche? 
+ Sentence 2: You are a girl douche. [ID: 2291]
+ ##### 
+453. Sentence 1: South Korea reports seven new MERS cases 
+ Sentence 2: South Korean woman in contact with MERS patient dies [ID: 5725]
+ ##### 
+454. Sentence 1: After 26 hours of surgery and a year of anticipation, the boys were separated Sunday at Children's Medical Center of Dallas. 
+ Sentence 2: Two-year-old Egyptian twin boys, born with their heads conjoined, have been separated after 26 hours of surgery at the Children's Medical Centre in Dallas. [ID: 2523]
+ ##### 
+455. Sentence 1: A kitten is eating its food from a plate. 
+ Sentence 2: A kitten eats some food. [ID: 853]
+ ##### 
+456. Sentence 1: "We had nothing to do with @Stake's internal personnel decision," Microsoft spokesman Sean Sundwell said. 
+ Sentence 2: "Microsoft had absolutely nothing to do with AtStake's internal personnel decision," Sundwall said. [ID: 2916]
+ ##### 
+457. Sentence 1: Unless it's different in different countries? 
+ Sentence 2: So, short form, yes, it probably is different in different countries. [ID: 2210]
+ ##### 
+458. Sentence 1: Hollande defeats Sarkozy in French presidency vote 
+ Sentence 2: Polls open across France in presidential election [ID: 3892]
+ ##### 
+459. Sentence 1: A man drove his car. 
+ Sentence 2: A man is driving a car. [ID: 244]
+ ##### 
+460. Sentence 1: Another rocket hits Eshkol; no injuries 
+ Sentence 2: 2 rockets hit Eshkol; none injured [ID: 3929]
+ ##### 
+461. Sentence 1: "The gloves are off," said UNIFI official Rob O'Neill. 
+ Sentence 2: Unifi official Rob O'Neill said: "The gloves are off. [ID: 2664]
+ ##### 
+462. Sentence 1: Forex &amp; Gold 6 March 2013 
+ Sentence 2: Forex & Gold 12 March 2013 [ID: 4699]
+ ##### 
+463. Sentence 1: A man is mowing a lawn. 
+ Sentence 2: A woman is cutting a lemon. [ID: 209]
+ ##### 
+464. Sentence 1: Obama set to speak on Syria from White House at 1:15 p.m. EDT 
+ Sentence 2: Obama to deliver statement on Syria at White House at 1:15 PM [ID: 4756]
+ ##### 
+465. Sentence 1: Ukraine: Nine people die in Kyiv clashes 
+ Sentence 2: Ukraine pressured over Kiev clashes [ID: 5138]
+ ##### 
+466. Sentence 1: mexican president felipe calderon has sent 2800 special agents and soldiers to sinaloa due to the high degree of organized crime and drug trafficking. 
+ Sentence 2: mexican president felipe calderon has sent 2800 special agents and soldiers to sinaloa to fight drug trafficking. [ID: 3497]
+ ##### 
+467. Sentence 1: Torres moving on after Olympic bid fails 
+ Sentence 2: Torres finishes 4th, misses out on sixth Olympics [ID: 4124]
+ ##### 
+468. Sentence 1: A tan calf with a yellow tag on his left ear looking at the camera. 
+ Sentence 2: A man with glasses and two plastic bottles in the foreground. [ID: 1050]
+ ##### 
+469. Sentence 1: The San Francisco plane crash at a glance 
+ Sentence 2: Two dead, 181 hurt in San Francisco air crash [ID: 4463]
+ ##### 
+470. Sentence 1: the accused will be charged with international drug trafficking. 
+ Sentence 2: some of the accused will also be charged with money laundering, tax evasion and corruption. [ID: 3642]
+ ##### 
+471. Sentence 1: Founders of the group are Matsushita Electric, Sony, Hitachi, NEC, Royal Philips Electronics, Samsung, Sharp and Toshiba. 
+ Sentence 2: CELF's founding members are Hitachi, Matsushita, NEC, Philips, Samsung, Sharp, Sony, and Toshiba. [ID: 3134]
+ ##### 
+472. Sentence 1: Mr. Manuel and his group entered the United States by walking across the bridge linking Matamoros and Brownsville. 
+ Sentence 2: Manuel and his group entered the US the same way thousands of people do every day, by walking across the bridge between Matamoros and Brownsville. [ID: 2690]
+ ##### 
+473. Sentence 1: The man is putting chicken into the container. 
+ Sentence 2: A man is putting foods in a box. [ID: 382]
+ ##### 
+474. Sentence 1: NATO traces path out of Afghanistan 
+ Sentence 2: NATO Leaders Commit to Afghanistan Transition [ID: 3757]
+ ##### 
+475. Sentence 1: physicist danilov was convicted of selling classified information on space technology to china. 
+ Sentence 2: physicist valentin danilov was found guilty of selling classified information on space technology to china. [ID: 3653]
+ ##### 
+476. Sentence 1: "But I do question the motives of a deskbound president who assumes the garb of a warrior for the purposes of a speech." 
+ Sentence 2: Byrd, speaking from the Senate floor, said he questioned "the motives of a deskbound president who assumes the garb of a warrior for purposes of a speech." [ID: 2515]
+ ##### 
+477. Sentence 1: Chinese envoy rebuts Vietnamese, Philippine accusations over South China Sea 
+ Sentence 2: China's Xi tells Vietnam wants peace in South China Sea [ID: 5535]
+ ##### 
+478. Sentence 1: Bangladesh garment factory fire 'kills 8' 
+ Sentence 2: Bangladesh garment factory collapse kills 149 [ID: 5302]
+ ##### 
+479. Sentence 1: Still, he noted Miami must decide whether to seek ACC membership for the next school year by June 30 to adhere to Big East guidelines. 
+ Sentence 2: Still, he noted that Miami must decide whether to seek A.C.C. membership by June 30 to adhere to Big East guidelines. [ID: 3250]
+ ##### 
+480. Sentence 1: orphaned alps massacre girl returns to uk 
+ Sentence 2: Alps attack: Girl returns to UK [ID: 3923]
+ ##### 
+481. Sentence 1: A person wearing a helmet rides a bike near a white structure. 
+ Sentence 2: A person wearing a bike helmet rides a bike on a path through trees. [ID: 1054]
+ ##### 
+482. Sentence 1: ALL of the electrical energy comes from the battery. 
+ Sentence 2: ALL of the electrical energy ultimately comes from the alternator. [ID: 2158]
+ ##### 
+483. Sentence 1: A man is carrying another man over his shoulder. 
+ Sentence 2: A man is carrying someone on his shoulder. [ID: 580]
+ ##### 
+484. Sentence 1: Murder claim over Diana's death New information which has been passed to the police relating to the deaths of Princess Diana and Dodi Fayed is thought to include an allegation that they were murdered 
+ Sentence 2: Diana and Fayed death info received new The deaths of Princess Diana and Dodi Al Fayed are being looked at again by police after they received information. [ID: 4466]
+ ##### 
+485. Sentence 1: A red bird is perched in a tree. 
+ Sentence 2: A small red and grey bird perched in a tree. [ID: 1451]
+ ##### 
+486. Sentence 1: A red truck spins their tires while a black one leaves the frame. 
+ Sentence 2: Red truck spinning tires and emitting smoke from behind. [ID: 1233]
+ ##### 
+487. Sentence 1: A man is standing in water near a waterfall. 
+ Sentence 2: A man wades in the water and watches a water fall. [ID: 1546]
+ ##### 
+488. Sentence 1: Islamists still holding some 30 hostages as Kenya mall standoff continues 
+ Sentence 2: Death toll rises as Kenya mall siege continues [ID: 5231]
+ ##### 
+489. Sentence 1: 2 Indian traders stranded in China sent back home 
+ Sentence 2: 46 Indian nurses stranded in Iraq return home [ID: 5419]
+ ##### 
+490. Sentence 1: Pakistan to release most senior Afghan Taliban prisoner 
+ Sentence 2: Pakistan to release senior Taliban commander on Saturday [ID: 4826]
+ ##### 
+491. Sentence 1: Ukrainian parliament dismisses president 
+ Sentence 2: Ukraine's parliament votes to dismiss president [ID: 5575]
+ ##### 
+492. Sentence 1: Excluding the charges, analysts, on average, expected a loss of 11 cents a share. 
+ Sentence 2: Analysts polled by Thomson Financial First Call had been expected to see a loss of about 11 cents a share from continuing operations. [ID: 2991]
+ ##### 
+493. Sentence 1: A child with his hands on his head. 
+ Sentence 2: A little boy stands with his hands on top of his head [ID: 1737]
+ ##### 
+494. Sentence 1: I don't see Obama as the lesser of two evils. 
+ Sentence 2: I don't see him as evil at all. [ID: 2228]
+ ##### 
+495. Sentence 1: The black and white dog is swimming in the river. 
+ Sentence 2: A black man and his dog on the beach. [ID: 1725]
+ ##### 
+496. Sentence 1: indian and pakistani governments nearly engaged in a fourth conflict in 1999. 
+ Sentence 2: indian and pakistani governments each conducted nuclear tests in may 1998. [ID: 3745]
+ ##### 
+497. Sentence 1: Quotations in the News 
+ Sentence 2: Quotations of the day [ID: 5454]
+ ##### 
+498. Sentence 1: A black dog is running through the snow. 
+ Sentence 2: A black pit bull dog is running through the dirt. [ID: 1755]
+ ##### 
+499. Sentence 1: For Kathy Nicolo (Jennifer Connelly), the house means stability and family. 
+ Sentence 2: Kathy Nicolo (Jennifer Connelly) is desperate that her family not find out that her life has fallen apart. [ID: 2833]
+ ##### 
+500. Sentence 1: Obama mulls limited military action in Syria 
+ Sentence 2: Obama urges military action against Syria, but will seek Congress' OK [ID: 5625]
+ ##### 
+501. Sentence 1: The rapper's lawyer, Mark Gann, didn't return calls for comment. 
+ Sentence 2: The 27-year-old rapper's attorney in the civil matter, Mark Gann, did not return calls for comment. [ID: 3187]
+ ##### 
+502. Sentence 1: Suicide bomber kills eight, wounds 13 in Afghan capital - police 
+ Sentence 2: Suicide bomb kills 4 in Syrian capital's Old City [ID: 5204]
+ ##### 
+503. Sentence 1: A long train is on train tracks. 
+ Sentence 2: A train on the train tracks. [ID: 1275]
+ ##### 
+504. Sentence 1: Myanmar: Opposition claims Suu Kyi win 
+ Sentence 2: Voters in Myanmar hopeful as Suu Kyi's party claims win [ID: 4264]
+ ##### 
+505. Sentence 1: But White House spokesman Ari Fleischer said yesterday: "The steps the Iranians claim to have taken in terms of capturing al-Qa'ida are insufficient." 
+ Sentence 2: "The steps that the Iranians claim to have taken in terms of capturing al-Qaida are insufficient. [ID: 2656]
+ ##### 
+506. Sentence 1: Mr McDevitt has been granted control of three crucial aspects of policing in the Solomons. 
+ Sentence 2: Mr McDevitt has been granted control of three aspects of policing by Commissioner William Morrell. [ID: 2880]
+ ##### 
+507. Sentence 1: UK police say no terrorism link to helicopter crash 
+ Sentence 2: China police seek eight suspects over crash [ID: 4608]
+ ##### 
+508. Sentence 1: D.C. Votes to Decriminalize Marijuana 
+ Sentence 2: DC votes to decriminalize pot [ID: 5436]
+ ##### 
+509. Sentence 1: Gunmen kill 10 foreign tourists in northern Pakistan 
+ Sentence 2: Islamic militants kill 9 foreign tourists, 1 Pakistani [ID: 5525]
+ ##### 
+510. Sentence 1: A black dog is running in the grass. 
+ Sentence 2: A boy running through green grass. [ID: 1589]
+ ##### 
+511. Sentence 1: The network is also dropping its Friday night "Dateline" edition. 
+ Sentence 2: The network will drop one edition of "Dateline," its newsmagazine franchise. [ID: 3162]
+ ##### 
+512. Sentence 1: She countersued for $125 million, saying Gruner & Jahr broke its contract with her by cutting her out of key editorial decisions. 
+ Sentence 2: She countersued for $125 million, saying G+J broke its contract with her by cutting her out of key editorial decisions and manipulated the magazine's financial figures. [ID: 2463]
+ ##### 
+513. Sentence 1: A group of people sitting at a restaurant table. 
+ Sentence 2: Group of people sitting at table of restaurant. [ID: 1333]
+ ##### 
+514. Sentence 1: A woman is frying something in the pan. 
+ Sentence 2: A man is playing his guitar. [ID: 315]
+ ##### 
+515. Sentence 1: Syria welcomes Iran's nuclear deal 
+ Sentence 2: Iran, six world powers clinch breakthrough nuclear deal [ID: 4693]
+ ##### 
+516. Sentence 1: Dozens killed in air strike on bakery in central Syria 
+ Sentence 2: 'Dozens killed' in Syrian air strike on bakery [ID: 4633]
+ ##### 
+517. Sentence 1: The cat shimmied under the bed. 
+ Sentence 2: A cat is crawling upside down under the couch. [ID: 900]
+ ##### 
+518. Sentence 1: Squyres is principal investigator for the Athena payload - a collection of science instruments carted by each rover. 
+ Sentence 2: Steve Squyres, a Cornell University scientist, is principal investigator for the missions' science instruments. [ID: 2970]
+ ##### 
+519. Sentence 1: China's Health Ministry said five more people had died of Sars and a further 159 were infected. 
+ Sentence 2: On Monday, China said nine more people had died from SARS and that 160 more were infected with the virus. [ID: 3340]
+ ##### 
+520. Sentence 1: A woman is using a sewing machine. 
+ Sentence 2: A woman is sewing on a machine. [ID: 115]
+ ##### 
+521. Sentence 1: The rhino grazed on the grass. 
+ Sentence 2: A rhino is grazing in a field. [ID: 444]
+ ##### 
+522. Sentence 1: Boeing's board is also expected to decide at its December meeting whether to offer the airplane for sale to airlines. 
+ Sentence 2: It is widely expected to give Bair formal approval to offer the plane for sale to airlines. [ID: 2644]
+ ##### 
+523. Sentence 1: . What is your definition of "life force"? 
+ Sentence 2: What is your definition of "soul"? [ID: 2445]
+ ##### 
+524. Sentence 1: restraining extremist groups is becoming increasingly difficult because of how the groups are financed. 
+ Sentence 2: bruguiere stated-- restraining extremist groups particularly across europe was becoming increasingly difficult because of how the groups are financed. [ID: 3530]
+ ##### 
+525. Sentence 1: Tony Abbott sworn in as new Australian PM 
+ Sentence 2: Tony Abbott Sworn In As Australia PM [ID: 4598]
+ ##### 
+526. Sentence 1: The 2000 Democratic platform supported "the full inclusion of gay and lesbian families in the life of the nation." 
+ Sentence 2: The Democrat's 2000 platform didn't explicitly support gay marriages but backed "the full inclusion of gay and lesbian families into the life of the nation." [ID: 2746]
+ ##### 
+527. Sentence 1: A girl swings her long, wet hair in a lake. 
+ Sentence 2: A person riding a dirt bike. [ID: 1552]
+ ##### 
+528. Sentence 1: Australia can eclipse England in Windies 
+ Sentence 2: Australian PM defiant under pressure over leadership [ID: 4217]
+ ##### 
+529. Sentence 1: Two women sitting on a bench, their faces obscured, with one woman carrying an inflatable tiger and the other woman in a Disney snow white costume. 
+ Sentence 2: A girl sits on a bench holding an inflatable tiger next to another girl in a colorful outfit. [ID: 1555]
+ ##### 
+530. Sentence 1: You already did that - we have a Muslim in office right now. 
+ Sentence 2: -CryptoLutheran No. We have a Christian in office right now. [ID: 2204]
+ ##### 
+531. Sentence 1: A woman is cutting an onion. 
+ Sentence 2: A woman is chopping onions. [ID: 113]
+ ##### 
+532. Sentence 1: A woman sings into a microphone by a guy playing a guitar. 
+ Sentence 2: A woman sings into a microphone with a guitar player in the background. [ID: 1913]
+ ##### 
+533. Sentence 1: Mandela to spend Christmas in hospital 
+ Sentence 2: Mandela movie to open this month in South Africa [ID: 4679]
+ ##### 
+534. Sentence 1: On Saturday, the International Committee of the Red Cross said it was temporarily closing its offices in Baghdad and Basra. 
+ Sentence 2: The International Committee of the Red Cross, fearful for the safety of its staff operating in Iraq, announced it was temporarily shutting its offices in Baghdad and Basra. [ID: 2725]
+ ##### 
+535. Sentence 1: Other countries and private creditors are owed at least $80 billion in addition. 
+ Sentence 2: Other countries are owed at least $US80 billion ($108.52 billion). [ID: 3304]
+ ##### 
+536. Sentence 1: the matter is delicate. 
+ Sentence 2: the iaea report is restricted. [ID: 3573]
+ ##### 
+537. Sentence 1: China stocks close mixed Friday 
+ Sentence 2: Chinese stocks close higher midday Friday [ID: 4011]
+ ##### 
+538. Sentence 1: A young girl riding a white and grey horse. 
+ Sentence 2: a little girl is riding a white and grey horse. [ID: 1438]
+ ##### 
+539. Sentence 1: a boy swinging on a swing. 
+ Sentence 2: The girl is on a swing. [ID: 1616]
+ ##### 
+540. Sentence 1: A white airplane is parked on the cement. 
+ Sentence 2: A blue motorcycle is parked on the sidewalk. [ID: 1282]
+ ##### 
+541. Sentence 1: A woman is dancing. 
+ Sentence 2: A woman is slicing ginger. [ID: 739]
+ ##### 
+542. Sentence 1: Bienging is unaccptable. 
+ Sentence 2: Being drunk is unacceptable. [ID: 2194]
+ ##### 
+543. Sentence 1: DR Congo rebels kill park rangers 
+ Sentence 2: Rebels kill two park rangers in eastern Congo [ID: 4340]
+ ##### 
+544. Sentence 1: The cat is sitting between two bicycles in front of a door. 
+ Sentence 2: Than horse standing in a field in front of a fence. [ID: 1272]
+ ##### 
+545. Sentence 1: China ‚Äėwill protect interests‚Äô of foreign business 
+ Sentence 2: Obama in ‚Äėdirect‚Äô confrontation with Putin on Ukraine [ID: 5435]
+ ##### 
+546. Sentence 1: To reach John A. Dvorak, who covers Kansas, call (816) 234-7743 or send e-mail to jdvorak@kctar.com. 
+ Sentence 2: To reach Brad Cooper, Johnson County municipal reporter, call (816) 234-7724 or send e-mail to bcooper@kcstar.com. [ID: 2841]
+ ##### 
+547. Sentence 1: A woman is slicing an onion. 
+ Sentence 2: A women slicing lemons. [ID: 754]
+ ##### 
+548. Sentence 1: Teenage girl killed in east London Shereka Marsh was shot in the neck, police say 
+ Sentence 2: Hackney shooting: Teenager Shereka Marsh 'bled to death after being shot in neck' [ID: 5077]
+ ##### 
+549. Sentence 1: Some children are jumping on Trampoline. 
+ Sentence 2: Two boy are playing on a trampoline. [ID: 792]
+ ##### 
+550. Sentence 1: Two arrests made after protest against Nigel Farage 
+ Sentence 2: Kerry vows progress after latest intensive Mideast trip [ID: 5427]
+ ##### 
+551. Sentence 1: president dmitry medvedev's statement was posted on the kremlin website and carried in full by state news agencies. 
+ Sentence 2: the statement was posted on the kremlin web site and carried by state news agencies. [ID: 3545]
+ ##### 
+552. Sentence 1: The two dogs are running through the grass. 
+ Sentence 2: Three dogs run in the snow. [ID: 1515]
+ ##### 
+553. Sentence 1: Tsunami warning: No need for SA to panic 
+ Sentence 2: Tsunami warning after Aceh quake [ID: 4082]
+ ##### 
+554. Sentence 1: Long lines formed outside gas stations and people rushed to get money from cash machines Sunday as Israelis prepared to weather a strike that threatened to paralyze the country. 
+ Sentence 2: Long lines formed Sunday outside gas stations and people rushed to get money from cash machines as Israelis braced for the strike's effects. [ID: 2788]
+ ##### 
+555. Sentence 1: A golden dog is running on the grass. 
+ Sentence 2: The large beige dog is running through the grass. [ID: 1709]
+ ##### 
+556. Sentence 1: Donetsk Region Protesters Detain Trucks Carrying Government Rocket Ammo 
+ Sentence 2: Come and get me, says Thai protest leader as anti-government riots grow [ID: 5028]
+ ##### 
+557. Sentence 1: a breakdown of order in china will lead to significant global turmoil. 
+ Sentence 2: a breakdown of order in china will be worse than in afghanistan or yugoslavia. [ID: 3517]
+ ##### 
+558. Sentence 1: Chicago Shooting Shows Gap in Stepped-up Policing 
+ Sentence 2: Chicago shooting shows gap in stepped-up policing [ID: 4957]
+ ##### 
+559. Sentence 1: A man is cutting a snake to cook. 
+ Sentence 2: A woman is cutting meat. [ID: 759]
+ ##### 
+560. Sentence 1: The benchmark 10-year note US10YT=RR lost 11/32 in price, taking its yield to 3.21 percent from 3.17 percent late on Monday. 
+ Sentence 2: Further out the curve, the benchmark 10-year note US10YT=RR shed 18/32 in price, taking its yield to 3.24 percent from 3.17 percent. [ID: 3254]
+ ##### 
+561. Sentence 1: A brown dog is in the middle of a line of dogs chasing a dirty tennis ball over dirt. 
+ Sentence 2: There are two white dogs and one brown dog chasing a ball. [ID: 1691]
+ ##### 
+562. Sentence 1: Japan PM calls for quicker tsunami waste processing 
+ Sentence 2: Japan marks one year since quake and tsunami disaster [ID: 4195]
+ ##### 
+563. Sentence 1: Two men charged with terrorism offences 
+ Sentence 2: Saudi-born Nigerian charged with terrorism in New York [ID: 4500]
+ ##### 
+564. Sentence 1: U.S. soldier killed in shooting incident in S. Afghanistan 
+ Sentence 2: Five NATO soldiers killed in Afghanistan [ID: 4063]
+ ##### 
+565. Sentence 1: A man is standing on top of a rock or mountain watching the sun set. 
+ Sentence 2: A man standing in the mountains watching a sunset. [ID: 1768]
+ ##### 
+566. Sentence 1: myanmar is a military state. 
+ Sentence 2: myanmar has a military junta. [ID: 3614]
+ ##### 
+567. Sentence 1: The Nasdaq composite index added 30.46 points, or 2 percent, to 1,520.15. 
+ Sentence 2: The Nasdaq had a weekly gain of 17.27, or 1.2 percent, closing at 1,520.15 after gaining 30.46 yesterday. [ID: 3087]
+ ##### 
+568. Sentence 1: Spain Princess Testifies in Historic Fraud Probe 
+ Sentence 2: Spain princess testifies in historic fraud probe [ID: 5553]
+ ##### 
+569. Sentence 1: Doctors have speculated that the body’s own estrogen protects against cell damage and improves blood flow. 
+ Sentence 2: Their belief was based on speculation that estrogen prevents cell damage and improves blood flow. [ID: 3125]
+ ##### 
+570. Sentence 1: putin announced that the cfe treaty does not duly protect russia's security interests. 
+ Sentence 2: the cfe treaty does not duly protect the russian federation's security interests. [ID: 3693]
+ ##### 
+571. Sentence 1: Exit polls suggest Putin ally wins Moscow vote 
+ Sentence 2: Exit polls shows Putin ally wins Moscow vote, Navalny cries foul [ID: 4680]
+ ##### 
+572. Sentence 1: People sitting on the porch. 
+ Sentence 2: People sitting on acouch. [ID: 1120]
+ ##### 
+573. Sentence 1: Shots, Explosions Heard as Thais Continue Protest in Bangkok 
+ Sentence 2: Gunshots, explosions rock Thai protest day ahead of polls [ID: 4412]
+ ##### 
+574. Sentence 1: Spanish train crash driver to be questioned 
+ Sentence 2: Spanish train driver Garzon to be questioned by judge [ID: 4928]
+ ##### 
+575. Sentence 1: Voting canceled in three provinces in tense Thai election 
+ Sentence 2: Cambodian opposition rejects Hun Sen election win [ID: 4892]
+ ##### 
+576. Sentence 1: A dog is looking into swimming pool. 
+ Sentence 2: A dog is walking along the edge of a pool. [ID: 301]
+ ##### 
+577. Sentence 1: 'Trayvon could have been me' 
+ Sentence 2: Trayvon Martin could have been ... [ID: 5285]
+ ##### 
+578. Sentence 1: A girl in riding gear sits atop a brown horse. 
+ Sentence 2: A girl in a red shirt is riding a brown horse. [ID: 1173]
+ ##### 
+579. Sentence 1: Syria car bomb kills at least 12 in rebel-held town 
+ Sentence 2: Sinai car bomb kills at least 10 Egyptian soldiers [ID: 4797]
+ ##### 
+580. Sentence 1: A living room with a dining table in the background. 
+ Sentence 2: A living room with large sofas and a dining table in the background. [ID: 1145]
+ ##### 
+581. Sentence 1: Mailblocks was founded five years after WebTV was acquired by Microsoft for $425 million. 
+ Sentence 2: WebTV was sold to Microsoft in 1997 for $425 million and today is called MSN TV. [ID: 2768]
+ ##### 
+582. Sentence 1: Sony said the PSP would also feature a 4.5-inch LCD screen, Memory Stick expansion slots. 
+ Sentence 2: It also features a 4.5 in back-lit LCD screen and memory expansion facilities. [ID: 2895]
+ ##### 
+583. Sentence 1: The Food and Drug Administration rejected ImClone's 2001 application to sell Erbitux, citing shoddy research. 
+ Sentence 2: The U.S. Food and Drug Administration rejected ImClone's original application in December 2001, saying the trial had been sloppily conducted. [ID: 2984]
+ ##### 
+584. Sentence 1: Armenians vote in parliamentary elections 
+ Sentence 2: Armenia's parliamentary vote a test for president [ID: 4320]
+ ##### 
+585. Sentence 1: A person checks some rice pudding. 
+ Sentence 2: A horse is running. [ID: 451]
+ ##### 
+586. Sentence 1: The festival kicked off yesterday one day after the Competition Commission delivered its final verdict to the Government on the proposed £4.1 billion merger. 
+ Sentence 2: The Competition Commission delivered its verdict yesterday on the proposed merger of the two big ITV players, Carlton and Granada. [ID: 2505]
+ ##### 
+587. Sentence 1: SARS has killed 296 people on China's mainland and infected more than 5,200. 
+ Sentence 2: Throughout China's mainland, the disease has killed 300 people and infected more than 5,270. [ID: 2782]
+ ##### 
+588. Sentence 1: A motorcycle parked next to a car. 
+ Sentence 2: A BMW motorcycle parked between two cars. [ID: 1110]
+ ##### 
+589. Sentence 1: A black dog is running in snow. 
+ Sentence 2: A black dog is swimming with a ball in it's mouth. [ID: 1873]
+ ##### 
+590. Sentence 1: Chinese satellite spots large object in search area 
+ Sentence 2: Malaysia: Chinese satellite found object in ocean [ID: 5594]
+ ##### 
+591. Sentence 1: Two dogs fighting in the snow. 
+ Sentence 2: Two dogs playing in the snow. [ID: 1690]
+ ##### 
+592. Sentence 1: Sudan blames Israel for Khartoum arms fire 
+ Sentence 2: Sudan accuses Israel of airstrike on arms factory [ID: 4126]
+ ##### 
+593. Sentence 1: Cleveland Kidnapper Ariel Castro Found Hanged in Prison Cell 
+ Sentence 2: Cleveland kidnapper Ariel Castro found hanging in his cell [ID: 5300]
+ ##### 
+594. Sentence 1: A woman with a knife is slicing a pepper. 
+ Sentence 2: A women slicing green pepper. [ID: 793]
+ ##### 
+595. Sentence 1: Russia jails Pussy Riot protest punks for two years 
+ Sentence 2: Russian court to rule in Pussy Riot trial [ID: 4108]
+ ##### 
+596. Sentence 1: A man is playing the guitar. 
+ Sentence 2: A man seated in a room is playing the guitar. [ID: 148]
+ ##### 
+597. Sentence 1: Kenyan forces caused mall collapse 
+ Sentence 2: Official says Kenyan forces caused mall collapse [ID: 4948]
+ ##### 
+598. Sentence 1: A woman slices a lemon. 
+ Sentence 2: A man is talking into a microphone. [ID: 423]
+ ##### 
+599. Sentence 1: A man is shooting a pistol. 
+ Sentence 2: A woman is chopping garlic. [ID: 784]
+ ##### 
+600. Sentence 1: Texas Instruments climbed $1.37 to $19.25 yesterday and Novellus Systems Inc. advanced $1.76 to $36.31. 
+ Sentence 2: Texas Instruments climbed $US1.37 to $US19.25 and Novellus Systems advanced $US1.76 to $US36.31, each having been raised to "overweight" by Lehman. [ID: 3101]
+ ##### 
+601. Sentence 1: A tiger trys to climb the wall. 
+ Sentence 2: A lion is trying to climb up over a wall. [ID: 779]
+ ##### 
+602. Sentence 1: Audi to buy motorcycle maker Ducati 
+ Sentence 2: Probe into motor insurance market [ID: 3798]
+ ##### 
+603. Sentence 1: Mob kills man for burning Quran 
+ Sentence 2: Pakistani Mob Kills Man 'for Burning Koran' [ID: 3934]
+ ##### 
+604. Sentence 1: Suspected al-Qaeda financier arrested in France 
+ Sentence 2: Three al Qaeda suspects arrested in Spain [ID: 3817]
+ ##### 
+605. Sentence 1: A boy is playing a key-board. 
+ Sentence 2: A boy is playing the piano. [ID: 217]
+ ##### 
+606. Sentence 1: a brown double decker tour bus on a street with a ferris wheel behind it. 
+ Sentence 2: A double-decker bus driving in front of a ferris wheel. [ID: 1391]
+ ##### 
+607. Sentence 1: Extremists claim responsibility for Niger attacks 
+ Sentence 2: Greek militant group claims responsibility for Golden Dawn killings [ID: 5134]
+ ##### 
+608. Sentence 1: Egypt courts hear cases against Mubarak, Islamists 
+ Sentence 2: Egypt court temporarily releases Mubarak over illicit gains [ID: 5021]
+ ##### 
+609. Sentence 1: A little boy and a little girl playing together outside. 
+ Sentence 2: A young boy and a young girl walking towards each other [ID: 1590]
+ ##### 
+610. Sentence 1: Treasurys long-range plan is to provide retail buyers of all Treasury securities the ability to manage their holdings online in a single account. 
+ Sentence 2: The Treasury said wants to give retail buyers of all Treasury securities the ability eventually to manage holdings online in a single account. [ID: 2918]
+ ##### 
+611. Sentence 1: French retirees will increase from one fifth to a third of the population by 2040. 
+ Sentence 2: By 2040, retirees will account for a third of the population, up from a fifth today. [ID: 2624]
+ ##### 
+612. Sentence 1: While the day's trading was lackluster, the Standard & Poor's 500 index was preparing to close out its best three-month period since the fourth quarter of 1998. 
+ Sentence 2: The Standard & Poor's 500 stock index ended the quarter up 120 points, a gain of 14 percent, the best performance for that broad market benchmark since 1998. [ID: 3315]
+ ##### 
+613. Sentence 1: WORLD No. 2 Lleyton Hewitt has accused the Association of Tennis Professionals of malice, including an alleged attempt last year to dupe him into refusing a drug test. 
+ Sentence 2: World No.2 Lleyton Hewitt has accused his professional peers of long-standing malice, including an attempt last year to dupe him into refusing a drug test. [ID: 3073]
+ ##### 
+614. Sentence 1: New Zealand set to legalise gay marriage 
+ Sentence 2: New Zealand votes to legalise same-sex marriage [ID: 5351]
+ ##### 
+615. Sentence 1: Similar bills passed the House twice but died in the Senate. 
+ Sentence 2: Two years ago, the House passed a similar version that floundered in the Senate. [ID: 2925]
+ ##### 
+616. Sentence 1: Joy to the World We are all vessels filled with many wonders. 
+ Sentence 2: The theme song to Cheers: We are all vessels filled with many wonders. [ID: 2311]
+ ##### 
+617. Sentence 1: A woman holds a dog while another dog stands nearby in a field. 
+ Sentence 2: A lady holding one dog while another dog is playing in the yard. [ID: 1871]
+ ##### 
+618. Sentence 1: A monkey pulls the tail of a dog. 
+ Sentence 2: A monkey is teasing a dog at the zoo. [ID: 313]
+ ##### 
+619. Sentence 1: The man played haki sak in the office. 
+ Sentence 2: The man is seasoning the vegetables. [ID: 905]
+ ##### 
+620. Sentence 1: The man is using a sledghammer to break the concrete block that is on the other man. 
+ Sentence 2: A man breaks a slab of concrete that is lying on a prone man with a sledge hammer. [ID: 973]
+ ##### 
+621. Sentence 1: "For me, the Lewinsky imbroglio seemed like just another vicious scandal manufactured by political opponents," according to extracts released yesterday. 
+ Sentence 2: "For me, the Lewinsky imbroglio seemed like just another vicious scandal manufactured by political opponents," Mrs Clinton writes. [ID: 2477]
+ ##### 
+622. Sentence 1: The differences between Grassley and Thomas on energy and Medicare have become so pointed that other members say their angry personal relationship is embarrassing the party. 
+ Sentence 2: Their differences on energy and Medicare have become so pointed other members say it is embarrassing to the party. [ID: 3345]
+ ##### 
+623. Sentence 1: Hushen 300 Index closes higher -- Oct. 14 
+ Sentence 2: Hushen 300 Index closes lower -- March 12 [ID: 4618]
+ ##### 
+624. Sentence 1: That's what the data available shows. 
+ Sentence 2: That's what the historical record shows. [ID: 2310]
+ ##### 
+625. Sentence 1: Pak: 20 dead in anti-Islam film protests 
+ Sentence 2: 25 injured in anti-Islam film protest in Islamabad, Pakistan [ID: 4240]
+ ##### 
+626. Sentence 1: A little boy is playing a guitar. 
+ Sentence 2: A boy is playing guitar. [ID: 544]
+ ##### 
+627. Sentence 1: NATO US troop detained over shooting of Afghan civilians 
+ Sentence 2: U.S. says saddened by shooting on Afghan civilians [ID: 4111]
+ ##### 
+628. Sentence 1: A boy plays violin on stage. 
+ Sentence 2: A boy is onstage playing the violin. [ID: 915]
+ ##### 
+629. Sentence 1: Syria denies reports of deadly Damascus nerve gas attack 
+ Sentence 2: US allies get help to repel Iranian computer attacks [ID: 4419]
+ ##### 
+630. Sentence 1: Syrian Arab Republic (the): Syrian Arab Republic: Syrian Refugees (as of 28 June 2012) 
+ Sentence 2: Syrian Arab Republic (the): More than 70 killed in Syria ahead of Annan return [ID: 4197]
+ ##### 
+631. Sentence 1: Atlas Shrugged It's also a stellar performer in terms of blithering idiocy. 
+ Sentence 2: It's also a stellar performer in terms of blithering idiocy. [ID: 2239]
+ ##### 
+632. Sentence 1: A man stands in front of a train. 
+ Sentence 2: A man is standing in front of a raised statue,. [ID: 1246]
+ ##### 
+633. Sentence 1: A boy in black waves his arms while other people are behind him on a field. 
+ Sentence 2: a man in a black shirt is roller blading past a bench in the city. [ID: 1659]
+ ##### 
+634. Sentence 1: A brown dog wades in the water. 
+ Sentence 2: A dog splashes in the murky water. [ID: 1876]
+ ##### 
+635. Sentence 1: Mr Levine confirmed that Ms Cohen Alon had tried to sell the story during the World Cup. 
+ Sentence 2: Ms Cohen Alon's lawyer, Donald Levine, confirmed she tried to sell the story in February. [ID: 2913]
+ ##### 
+636. Sentence 1: Four blue and yellow planes flying over four boats. 
+ Sentence 2: Four blue and yellow planes in flight. [ID: 1237]
+ ##### 
+637. Sentence 1: there is conflicting opinion as to the extent of damage suffered by the insurgency. 
+ Sentence 2: violence continues despite conflicting opinion on the extent of damage suffered by the rebel groups. [ID: 3493]
+ ##### 
+638. Sentence 1: Tehelka editor embroiled in sex assault scam 
+ Sentence 2: Tehelka editor steps down after allegations of sexual misconduct [ID: 5039]
+ ##### 
+639. Sentence 1: Suicide bomber kills 14 in Afghanistan 
+ Sentence 2: Suicide blast kills 1 in Afghan capital [ID: 5067]
+ ##### 
+640. Sentence 1: Two children in a field of red flowers. 
+ Sentence 2: Two kids are playing in a field of red flowers. [ID: 1924]
+ ##### 
+641. Sentence 1: The woman is putting makeup on the man. 
+ Sentence 2: A woman is painting the face of a man. [ID: 775]
+ ##### 
+642. Sentence 1: Your confusion doesn't make me a liar. 
+ Sentence 2: Then your confusion doesn't make me a liar either. [ID: 2400]
+ ##### 
+643. Sentence 1: Two U.S. soldiers shot, killed by Afghan soldier 
+ Sentence 2: Two British soldiers killed by Afghan policeman [ID: 3785]
+ ##### 
+644. Sentence 1: A woman is playing an electric guitar. 
+ Sentence 2: A woman is playing a guitar. [ID: 41]
+ ##### 
+645. Sentence 1: Two mountain goats grazing in front of an alpine lake. 
+ Sentence 2: Two animals grazing next to a mountain, and a body of water. [ID: 1080]
+ ##### 
+646. Sentence 1: British Airways' New York-to-London runs will end in October. 
+ Sentence 2: British Airways plans to retire its seven Concordes at the end of October. [ID: 3214]
+ ##### 
+647. Sentence 1: elbaradei is the international atomic energy agency chief. 
+ Sentence 2: mohammed elbarade is the international atomic energy agency's director general. [ID: 3664]
+ ##### 
+648. Sentence 1: chinese authorities were not immediately available for comment. 
+ Sentence 2: godzhayev and godzhayev's lawyers were not immediately available to comment. [ID: 3689]
+ ##### 
+649. Sentence 1: @Lustig Andrei, So Lyndon Johnson and John Kennedy were compatible? 
+ Sentence 2: @edgarblythe, So Lyndon Johnson and John Kennedy were compatible? [ID: 2188]
+ ##### 
+650. Sentence 1: Three dogs running on a racetrack. 
+ Sentence 2: Three dogs round a bend at a racetrack. [ID: 1713]
+ ##### 
+651. Sentence 1: A man is holding a frog. 
+ Sentence 2: A man is emptying a plastic container. [ID: 933]
+ ##### 
+652. Sentence 1: EU receives Nobel Peace Prize 
+ Sentence 2: EU Receives 2012 Nobel Peace Prize [ID: 4501]
+ ##### 
+653. Sentence 1: A silver and blue Amtrak train on the tracks near a small train station. 
+ Sentence 2: A small white car parked at the gas station. [ID: 1019]
+ ##### 
+654. Sentence 1: Operation Chaos is merely people voting. 
+ Sentence 2: Chaos is merely people voting. [ID: 2281]
+ ##### 
+655. Sentence 1: Myanmar's pro-democracy leader Aung San Suu Kyi will return home late Friday but will remain in detention after recovering from surgery at a Yangon hospital, her personal physician said. 
+ Sentence 2: Myanmar's pro-democracy leader Aung San Suu Kyi will be kept under house arrest following her release from a hospital where she underwent surgery, her personal physician said Friday. [ID: 2452]
+ ##### 
+656. Sentence 1: A grey hound is active in a grassy field. 
+ Sentence 2: A bunch of bikes racing on a track. [ID: 1692]
+ ##### 
+657. Sentence 1: A woman is filing her fingernails with an emery board. 
+ Sentence 2: A woman is feeding her baby with a bottle. [ID: 273]
+ ##### 
+658. Sentence 1: Shares of LendingTree rose $6.21, or 42 percent, to $20.90 after hitting $21.36 earlier. 
+ Sentence 2: LendingTree shares rose 43 percent, or $6.31, to $21, more than doubling in the last two months. [ID: 2528]
+ ##### 
+659. Sentence 1: You might not like Obamas views, but he has them. 
+ Sentence 2: You might not like the positions he holds, but atleast he has them. [ID: 2378]
+ ##### 
+660. Sentence 1: The fines are part of failed Republican efforts to force or entice the Democrats to return. 
+ Sentence 2: Perry said he backs the Senate's efforts, including the fines, to force the Democrats to return. [ID: 2954]
+ ##### 
+661. Sentence 1: Two large black dogs are playing in a grassy field. 
+ Sentence 2: Two white dogs are running together. [ID: 1621]
+ ##### 
+662. Sentence 1: Chinese stocks close higher Thursday 
+ Sentence 2: Chinese stocks open mixed Wednesday [ID: 3994]
+ ##### 
+663. Sentence 1: Syria envoy says no peace talks without opposition 
+ Sentence 2: Syria: Cameron and Obama move west closer to intervention [ID: 5059]
+ ##### 
+664. Sentence 1: A girl is flying a kite. 
+ Sentence 2: A girl running is flying a kite. [ID: 29]
+ ##### 
+665. Sentence 1: Two brunette girls sit atop a red an yellow motorcycle with a side car. 
+ Sentence 2: A couple posing on a red and yellow motorcycle. [ID: 1341]
+ ##### 
+666. Sentence 1: non-proliferation expert at the international institute for strategic studies mark fitzpatrick stated that the iaea report -- had an unusually strong tenor. 
+ Sentence 2: senior fellow at the international institute for strategic studies mark fitzpatrick stated that-- the international atomic energy agency plan is superficial. [ID: 3562]
+ ##### 
+667. Sentence 1: The man cut some carpet with a knife. 
+ Sentence 2: A man is cutting carpet with a knife. [ID: 138]
+ ##### 
+668. Sentence 1: The lady sliced a tomatoe. 
+ Sentence 2: Someone is cutting a tomato. [ID: 464]
+ ##### 
+669. Sentence 1: How is this slanted against Bush?? 
+ Sentence 2: Where is the slant against Bush? [ID: 2139]
+ ##### 
+670. Sentence 1: The Ireland Palestine Solidarity Campaign, of which Mr O Muireagáin was a member, welcomed his release. 
+ Sentence 2: The Ireland Palestine Solidarity Campaign, of which he was a member, said he was researching a schools exchange project. [ID: 2726]
+ ##### 
+671. Sentence 1: A child is walking from one picnic table to another. 
+ Sentence 2: The boy hops from one picnic table to the other in the park. [ID: 1819]
+ ##### 
+672. Sentence 1: South Africa police shot dead 30 miners 
+ Sentence 2: South Africa police say they killed 30+ miners [ID: 4133]
+ ##### 
+673. Sentence 1: Two men are dancing. 
+ Sentence 2: Two women are shopping. [ID: 676]
+ ##### 
+674. Sentence 1: Boston bombing suspect charged in hospital bed 
+ Sentence 2: One week later: Boston honors bombing victims; suspect unable to speak [ID: 5205]
+ ##### 
+675. Sentence 1: A man is playing a flute. 
+ Sentence 2: A man is playing a guitar. [ID: 523]

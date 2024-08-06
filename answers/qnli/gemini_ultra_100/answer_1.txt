@@ -1,0 +1,67 @@
+
+Here's a breakdown of how I would select instances for labeling, plus the list of instances I would present to the annotator.
+
+Selection Strategy
+
+Since there is a budget for only 32 instances, I focus on providing a broad representation of the dataset, ensuring sufficient instances of various linguistic and thematic elements:
+
+Question Types: The primary purpose seems to be understanding the relationship between questions and sentences. I'd include instances encompassing:
+Different question words: What, Why, When, Where, How, Who
+Direct Questions: Clearly marked by '?'
+Indirect Questions: Embedded within sentences
+Topic Diversity: A balanced selection across the themes present in the dataset, which I broadly categorize as:
+History: (Wars, political figures, timelines)
+Geography: (Countries, cities, landforms)
+Science: (Biology, physics, chemistry)
+Culture: (Religion, customs, literature)
+Other: (Hypotheticals, miscellaneous)
+Sentence Complexity: Varying the length and structural complexity of sentences aids in identifying the model's limits:
+Short and simple sentences
+Medium-length sentences with some dependent clauses
+Long, complex sentences with multiple embedded phrases
+Prioritization: Representation over Complexity
+
+Within these guidelines, I'll prioritize a representative number of each category before delving into linguistic nuances. Since there are only 32 slots,  it's essential to capture breadth first:
+
+Example: If choosing between one sentence with slightly unusual phrase order and two sentences from underrepresented topics, I'd favor the latter.
+Instance Selection Breakdown
+
+For brevity, I'll only provide 10 example instance IDs to illustrate the variety. The goal would be to select 32 instances following this breakdown:
+
+Question Types
+
+'What' question (4 Instances): 0, 5, 10, 34
+'Why' question (2 instances): 3, 36
+'How' question (2 Instances): 12, 42
+Indirect questions (2 instances): 4, 8
+Topics
+
+History (7 instances): 1, 16, 18, 21, 30, 34, 75
+Geography (6 instances): 42, 54, 55, 58, 73, 82
+Science (5 instances): 2, 12, 36, 39, 90
+Culture (5 Instances): 7, 11, 18, 44, 66
+Other (3 instances): 9, 19, 40
+Sentence Complexity
+
+Even Distribution Across Complexity Levels
+Selected Instance IDs
+
+0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 16, 18, 21, 30, 34, 36, 39, 40, 42, 44, 54, 55, 58, 66, 73, 75, 82, 90
+
+Explanation
+
+This selection ensures adequate samples for the model to learn different relationships between questions and answers.
+
+Let me know if you'd like the rationale behind selecting or rejecting specific instances!
+
+Profilbild
+Can you give me 2 more instances?
+Absolutely! Here are two more instances, keeping with the selection strategy outlined before:
+
+1. Instance ID 24:
+Reason: Falls under the 'culture' topic and represents a different question type (When). It also presents a sentence with medium complexity.
+2. Instance ID 62:
+Reason: Falls under 'history' and uses a different, less common question word (Who), further enhancing variety.
+With these additions, the list of instance IDs would be:
+
+0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 16, 18, 21, 24, 30, 34, 36, 39, 40, 42, 44, 54, 55, 58, 62, 66, 73, 75, 82, 90

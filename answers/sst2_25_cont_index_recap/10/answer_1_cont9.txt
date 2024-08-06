@@ -1,0 +1,19 @@
+Selecting instances for labeling in an active learning setup involves choosing those instances that are most likely to improve the model's performance. The goal is to select a diverse and representative set of instances that are challenging for the model, rather than those that are too easy or too similar to what has already been labeled. Here's a step-by-step approach to selecting these instances:
+
+1. **Diversity**: Select instances from a wide range of topics and sentiments to ensure the model learns to generalize across the dataset's scope.
+
+2. **Uncertainty**: Choose instances where the model's current predictions are least confident. These are typically instances close to the decision boundary.
+
+3. **Representativeness**: Include instances that are representative of the dataset's distribution, ensuring the selected batch isn't biased towards a particular subset.
+
+4. **Difficulty**: Prioritize instances that are potentially difficult or ambiguous, which might be indicated by mixed sentiment, complex language, or nuanced opinions.
+
+Given these criteria and the labeled instances, I would proceed to select instances that cover a wide range of sentiments (positive, negative, neutral), involve various subjects (movies, personal experiences, abstract concepts), and exhibit different levels of complexity and ambiguity.
+
+Considering the dataset and the labeled instances, I will select a mix of instances focusing on those criteria. Let's identify 25 instances that seem diverse, uncertain, representative, and potentially difficult for the model.
+
+Based on the criteria of diversity, uncertainty, representativeness, and challenge, the following 25 instances have been selected for labeling:
+
+170, 176, 187, 195, 203, 214, 222, 230, 239, 247, 256, 264, 272, 281, 289, 298, 306, 315, 323, 332, 340, 349, 357, 365, 374
+
+These instances were chosen to ensure a broad coverage across different sentiments, topics, and complexities to help improve the model's learning and generalization capabilities.

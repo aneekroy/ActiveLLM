@@ -1,0 +1,10 @@
+To select the 32 instances for labeling, I would use the following steps:
+
+1. **Diversity of Sentiment**: Ensure a mix of positive, negative, and neutral sentiments to cover a broad range of instances.
+2. **Representativeness**: Choose instances that are representative of different themes, topics, or types of comments in the dataset.
+3. **Uncertainty**: Select instances that are ambiguous or have unclear sentiment to get the annotator’s judgment.
+4. **Outliers**: Include outlier instances that do not fit common patterns to improve the robustness of the model.
+
+Based on these criteria, I would select the following instances:
+
+0, 2, 5, 6, 10, 11, 12, 16, 17, 19, 20, 23, 24, 25, 26, 27, 29, 31, 33, 34, 35, 37, 39, 40, 41, 45, 48, 49, 52, 55, 57, 61

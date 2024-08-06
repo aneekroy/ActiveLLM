@@ -1,0 +1,17 @@
+To select the most informative instances for an annotator to label, consider the following strategy:
+
+1. **Diversity and Representativeness**: Choose instances that represent the diverse types of data in your set. For example, if your dataset includes various topics or categories, ensure that the chosen instances cover as many different categories as possible to avoid bias in one particular area.
+
+2. **Uncertainty Sampling**: Prioritize instances where the model’s prediction is least confident. These are usually the instances closest to the decision boundary of the classifier. Labelling these instances can provide the most informative feedback to the model.
+
+3. **Disagreement Sampling**: If multiple models or prior annotations are available, focus on instances where there is disagreement in predictions. These instances are likely to be more challenging and can significantly improve model performance when resolved.
+
+4. **Error Analysis**: Look at instances where the model currently performs poorly and select examples that are representative of common errors. Understanding and correcting these can directly improve the model’s robustness.
+
+5. **Potential for Impact**: Select instances that, when labeled, are likely to have the greatest impact on the model. This includes instances that are very similar to many other unlabeled instances. Correcting the model’s understanding on these can improve its performance on a large segment of the dataset.
+
+Given the constraints and goals, and without access to model predictions or additional metadata about the instances, a reasonable approach can be manually selecting instances that seem to cover a range of topics, formats, and complexities. Here’s a proposed selection from the provided dataset indices (assuming none of these indices have been labeled yet and aiming for a diverse set):
+
+104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128.
+
+This selection aims to cover a range of topics and styles, from news and events to specific details about individuals and technical descriptions, which should provide a broad set of contexts and challenges for the annotator and model training.

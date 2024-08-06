@@ -1,0 +1,21 @@
+To select the instances for labeling by an annotator in an active learning scenario, we focus on choosing samples that are likely to be most informative for the learning model. This involves looking for instances that are either diverse, representative, or uncertain based on the model's current understanding.
+
+**Step 1: Exclude Already Labeled Instances**
+First, we will exclude the instances that have already been labeled to avoid redundancy. These indices are: 0, 1, 2, 3, 4, 6, 7, 10, 11, 12, 13, 14, 16, 18, 19, 22, 23, 24, 27, 32, 33, 36, 37, 38, 44.
+
+**Step 2: Identify Uncertainty and Diversity**
+- **Uncertainty**: Select instances where the current model has low confidence in its predictions. These instances would provide valuable information once labeled.
+- **Diversity**: Choose instances that cover a variety of topics, styles, or perspectives not already covered by labeled instances to ensure the model learns from a broad range of data.
+
+**Step 3: Reviewing Remaining Instances**
+We will review the remaining instances for any unique information they might provide, especially looking for:
+- Unique topics or unusual discussion points related to Microsoft Exchange Server vulnerabilities and attacks.
+- Instances with detailed technical descriptions or analysis, as these might provide nuanced insights into the nature of the vulnerabilities or attacks.
+- Instances discussing specific cases, such as mentions of particular organizations, attack methodologies, or impacts, which are distinct from general discussions.
+
+**Selected Instances for Labeling:**
+Given that we need to choose 25 new instances for labeling, and considering the principles of uncertainty and diversity, the following instances are selected:
+
+5, 8, 9, 15, 17, 20, 21, 25, 26, 28, 29, 30, 31, 34, 35, 39, 40, 41, 42, 45, 46, 47, 48, 49, 50
+
+These instances are selected based on the criteria mentioned above, aiming to enrich the training set with diverse and informative data points.

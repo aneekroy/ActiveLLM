@@ -1,0 +1,404 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. I saw the one of physics. [ID: 7390]
+ ##### 
+1. This girl in the red coat but no boys will put a picture of Bill on your desk before tomorrow. [ID: 7159]
+ ##### 
+2. Bill dried at the clothes. [ID: 3265]
+ ##### 
+3. Lee's youngest and Dawn's oldest son ran away. [ID: 8133]
+ ##### 
+4. Bill left when that no one else was awake is certain. [ID: 1638]
+ ##### 
+5. Frank bought something for Jane. [ID: 6684]
+ ##### 
+6. He has not eaten yet today. [ID: 6086]
+ ##### 
+7. It is likely that John has loved Mary. [ID: 810]
+ ##### 
+8. Agamemnon stopped Jason casting the spell [ID: 7744]
+ ##### 
+9. While José won't talk about Mag, he might about Holly. [ID: 929]
+ ##### 
+10. I like Mary and she does too. [ID: 7578]
+ ##### 
+11. Mary expected John to fix the computer. [ID: 4260]
+ ##### 
+12. I hope that Mary wins. [ID: 7262]
+ ##### 
+13. Who is it that Mary likes? [ID: 6545]
+ ##### 
+14. Headway was unmade. [ID: 464]
+ ##### 
+15. He never achieved anything, didn't he? [ID: 4590]
+ ##### 
+16. That the principal would fire some teacher was expected by the reporters. [ID: 1427]
+ ##### 
+17. I hit the ball. [ID: 5670]
+ ##### 
+18. How much harder has it rained, when you see a faster flow in the river? [ID: 129]
+ ##### 
+19. The boat was sunk by the captain with a torpedo. [ID: 6148]
+ ##### 
+20. A magnificent diamond sparkled on his finger. [ID: 3201]
+ ##### 
+21. They ignored the suggestion that Lee lied. [ID: 4991]
+ ##### 
+22. The more contented for us to pretend to be became possible, the more angry we grew at the doctors. [ID: 1756]
+ ##### 
+23. Who did you give pictures of to friends of? [ID: 291]
+ ##### 
+24. Tonight, what Bob cooked yesterday still tastes good, so tonight, what Bob cooked yesterday will be eaten up. [ID: 1995]
+ ##### 
+25. Bill floated into the cave for hours. [ID: 65]
+ ##### 
+26. Miriam tutored her brother. [ID: 2976]
+ ##### 
+27. Have you always hated peanut butter? [ID: 6093]
+ ##### 
+28. Did you notice which difficulties she made. [ID: 1395]
+ ##### 
+29. They paid a lot of attention to the matter. [ID: 4715]
+ ##### 
+30. Who do you think it is that Mary met? [ID: 5148]
+ ##### 
+31. John inquired which book he should read. [ID: 4794]
+ ##### 
+32. The lions ate at the meat raw. [ID: 768]
+ ##### 
+33. Wickham eloped with Lydia. [ID: 6710]
+ ##### 
+34. Fanny loved talking to Mary. [ID: 6796]
+ ##### 
+35. He'll no can do it, can he? [ID: 8107]
+ ##### 
+36. Dana doubts that Drew believes I think Rosie loves magazine ads. [ID: 5597]
+ ##### 
+37. I showed few boys any of the books. [ID: 1006]
+ ##### 
+38. Oil gushed from the well. [ID: 3220]
+ ##### 
+39. Calculus is difficult for me to concentrate on. [ID: 5152]
+ ##### 
+40. Mary has more than Bill has friends enemies. [ID: 5565]
+ ##### 
+41. It was to the student that the teacher gave the best advice. [ID: 5079]
+ ##### 
+42. He's the happiest that I believe that he's ever been. [ID: 1707]
+ ##### 
+43. He had hardly collected the papers on his desk, hadn't he? [ID: 4588]
+ ##### 
+44. I'm sorry that he ever said anything. [ID: 5222]
+ ##### 
+45. Where did he look? [ID: 3627]
+ ##### 
+46. Which attorney will give the closing argument hasn't been decided. [ID: 4670]
+ ##### 
+47. Jack eats more caviar than he eats mush. [ID: 5337]
+ ##### 
+48. They wonder whether Mary will run. [ID: 7308]
+ ##### 
+49. The Gorgon is easy to believe the claim that Perseus slew. [ID: 8130]
+ ##### 
+50. Alison pierced the cloth with a needle. [ID: 2338]
+ ##### 
+51. Handsome though I know several boys who are, I'm still going to marry Herman. [ID: 1748]
+ ##### 
+52. If three relatives of mine die, I will inherit a house. [ID: 1037]
+ ##### 
+53. I might eat deep fried muffins. [ID: 6014]
+ ##### 
+54. Which attorney will give the closing argument hasn't been decided by them. [ID: 4671]
+ ##### 
+55. Amanda drove the package to New York. [ID: 2700]
+ ##### 
+56. Whether Agamemnon had triumphed was unknown. [ID: 8296]
+ ##### 
+57. She doesn't believe much of that story. [ID: 4165]
+ ##### 
+58. Kim alienated cats and beats his dog. [ID: 7027]
+ ##### 
+59. Fred talked about everything before Rusty did. [ID: 950]
+ ##### 
+60. They investigated. [ID: 4867]
+ ##### 
+61. John has been chosen for the position. [ID: 4616]
+ ##### 
+62. Steve tossed the ball into the garden. [ID: 2772]
+ ##### 
+63. John believes Kim not to leave here. [ID: 4478]
+ ##### 
+64. I saw only the student. [ID: 7379]
+ ##### 
+65. I saw the physics student. [ID: 7387]
+ ##### 
+66. Who did you wonder what kissed? [ID: 6192]
+ ##### 
+67. I divulged when Bill promised to call me, but I did so reluctantly. [ID: 1186]
+ ##### 
+68. A good friend is remained to me. [ID: 3759]
+ ##### 
+69. That's something I would have paid twice for. [ID: 4681]
+ ##### 
+70. I consider John the best candidate. [ID: 3711]
+ ##### 
+71. The eggs and the cream mixed together. [ID: 2321]
+ ##### 
+72. They can't do it, can they? [ID: 4525]
+ ##### 
+73. Gilgamesh might have been not reading the cuneiform tablets. [ID: 8250]
+ ##### 
+74. Bill alleged that Roger had eaten the cake. [ID: 1927]
+ ##### 
+75. Kelly buttered the bread with unsalted butter. [ID: 2480]
+ ##### 
+76. Some of the promoters of ostrich meat compare its taste to beef tenderloin. [ID: 4238]
+ ##### 
+77. I mixed the eggs and cream. [ID: 2878]
+ ##### 
+78. Why he knows the answer! [ID: 1624]
+ ##### 
+79. I washed yourself. [ID: 4249]
+ ##### 
+80. John believes Bill to have cooked the rice. [ID: 7680]
+ ##### 
+81. Is John clever? [ID: 4738]
+ ##### 
+82. Is Bill eating his tuna? [ID: 5990]
+ ##### 
+83. I wanted he should leave. [ID: 6041]
+ ##### 
+84. John fed the baby rice up. [ID: 620]
+ ##### 
+85. Some disgruntled old pigs in those ditches love truffles [ID: 8072]
+ ##### 
+86. Which language do you want to hire someone who speaks? [ID: 6307]
+ ##### 
+87. John would be liked to win. [ID: 501]
+ ##### 
+88. I ran an old man down. [ID: 1110]
+ ##### 
+89. Mary thinks that John said that pictures of himself, Susan likes? [ID: 369]
+ ##### 
+90. I don't know the people present. [ID: 3707]
+ ##### 
+91. What Mary did with Bill was sing a song. [ID: 7698]
+ ##### 
+92. The door hinges squeaked. [ID: 3205]
+ ##### 
+93. Syntax is easy to pretend that you can teach. [ID: 8136]
+ ##### 
+94. Who did you say my talking to would bother Hilary? [ID: 7035]
+ ##### 
+95. The persons on whom we kept tabs all proved to be innocent. [ID: 1413]
+ ##### 
+96. Either you or I will incriminate ourselves. [ID: 7069]
+ ##### 
+97. Bruce loved and Kelly hated phonology class. [ID: 5706]
+ ##### 
+98. He coaxed his brother to give him the candy. [ID: 4338]
+ ##### 
+99. Fred had a snake behind the car he was sitting in. [ID: 1904]
+ ##### 
+100. John knows. [ID: 7352]
+ ##### 
+101. Gwen looked at a fire truck. [ID: 5920]
+ ##### 
+102. John persuaded Stephen to be more careful. [ID: 4307]
+ ##### 
+103. John a decidedly taller man than Bill. [ID: 5504]
+ ##### 
+104. Julie maintained that the barman was sober. [ID: 8443]
+ ##### 
+105. How many people do you wonder whether I consider intelligent? [ID: 400]
+ ##### 
+106. This key won't open. [ID: 2233]
+ ##### 
+107. She could not have been working. [ID: 333]
+ ##### 
+108. Mary talked to any student who was angry. [ID: 6435]
+ ##### 
+109. Mary thinks that John said that Susan likes pictures of himself? [ID: 368]
+ ##### 
+110. I saw you there and who ate what? [ID: 1325]
+ ##### 
+111. Carol carved at the stone. [ID: 2860]
+ ##### 
+112. John carefully studies Russian. [ID: 7419]
+ ##### 
+113. The extremely tired students hated syntactic trees with a passion. [ID: 5758]
+ ##### 
+114. The ball lies in the box. [ID: 517]
+ ##### 
+115. Dorothy needs her for her skills. [ID: 3007]
+ ##### 
+116. Tuesday was slept on by George Washington. [ID: 2440]
+ ##### 
+117. Kim has danced, and Sandy has, too. [ID: 4529]
+ ##### 
+118. Bill left when I believe the bomb had just exploded. [ID: 1634]
+ ##### 
+119. What Alison and David did was soak their feet in a bucket [ID: 8500]
+ ##### 
+120. How much of the fresco did the flood damage? [ID: 4167]
+ ##### 
+121. Fifteen dollars in a week are not much. [ID: 4157]
+ ##### 
+122. Beans I don't like. [ID: 1499]
+ ##### 
+123. He was a bully. [ID: 6547]
+ ##### 
+124. It is to be gentle that John promised. [ID: 7218]
+ ##### 
+125. The contestant, who is the judge's brother-in-law, who won the first prize sang dreadfully. [ID: 4948]
+ ##### 
+126. Joe might wish he had, but this isn't a country he has visited. [ID: 942]
+ ##### 
+127. The mixture funnels. [ID: 2563]
+ ##### 
+128. I am afraid of tigers. [ID: 5775]
+ ##### 
+129. Doug removed at the scratches from the tabletop. [ID: 2622]
+ ##### 
+130. I noticed his car in the driveway last night, your friend from Boston. [ID: 1863]
+ ##### 
+131. I sent the devil the salesman. [ID: 2123]
+ ##### 
+132. Every man who said he would buy some salmon did. [ID: 899]
+ ##### 
+133. We proclaimed sincerely to the public John to be a hero. [ID: 749]
+ ##### 
+134. The cup smashed apart against the stone. [ID: 650]
+ ##### 
+135. The inspector analyzed the building for its soundness. [ID: 2373]
+ ##### 
+136. There ran many people. [ID: 7615]
+ ##### 
+137. David constructed the house. [ID: 2947]
+ ##### 
+138. The model resembles Kim in nearly every detail. [ID: 4650]
+ ##### 
+139. He hated himself and his friends. [ID: 7043]
+ ##### 
+140. Jason persuaded Medea to desert her family [ID: 8542]
+ ##### 
+141. The electrode was left by ions. [ID: 515]
+ ##### 
+142. few clues could be found. [ID: 3485]
+ ##### 
+143. Susan whispered the news to Rachel. [ID: 3053]
+ ##### 
+144. John likes not Mary. [ID: 958]
+ ##### 
+145. Did he try to ever be attentive to the needs of students? [ID: 476]
+ ##### 
+146. Which goddess might help us? [ID: 8210]
+ ##### 
+147. I didn't give Jack a picture of anybody. [ID: 1984]
+ ##### 
+148. That Sam didn't pick those packages which are to be mailed tomorrow up is possible. [ID: 1463]
+ ##### 
+149. The only relatives with whom I'd like to do away are my aunts. [ID: 1390]
+ ##### 
+150. I would hate for John to win. [ID: 507]
+ ##### 
+151. They said nobody would pay up, but I know a boy who did pay up. [ID: 1738]
+ ##### 
+152. I read every his book. [ID: 1001]
+ ##### 
+153. The dog caught the cat. [ID: 6943]
+ ##### 
+154. He said he would leave and now he's done it. [ID: 1609]
+ ##### 
+155. Mickey teamed up with the women. [ID: 439]
+ ##### 
+156. The phone company billed $10 as me. [ID: 3419]
+ ##### 
+157. the day when I met her was sunny. [ID: 4875]
+ ##### 
+158. Steve tossed the wall with the ball. [ID: 2779]
+ ##### 
+159. There are more chemical substances involved in nerve transmission. [ID: 4353]
+ ##### 
+160. John danced waltzes across the room. [ID: 30]
+ ##### 
+161. Bill examined a book. [ID: 7495]
+ ##### 
+162. A striped fish swam in the aquarium. [ID: 3316]
+ ##### 
+163. Jason persuaded Medea to desert her family. [ID: 7709]
+ ##### 
+164. Susan wanted to sleep. [ID: 7597]
+ ##### 
+165. I climbed up the tree. [ID: 7980]
+ ##### 
+166. I twirled the dough into a pretzel. [ID: 2953]
+ ##### 
+167. We put. [ID: 7497]
+ ##### 
+168. Celia brushed. [ID: 2204]
+ ##### 
+169. They, they can't stand each other. [ID: 1858]
+ ##### 
+170. Louis hinted Mary stole the purse deftly. [ID: 5757]
+ ##### 
+171. If so, I've lost $500. [ID: 1589]
+ ##### 
+172. John loves pictures of himself. [ID: 6337]
+ ##### 
+173. Carla poured lemonade into the pitcher. [ID: 2135]
+ ##### 
+174. Paula hit the sticks. [ID: 2801]
+ ##### 
+175. Half the doctor that Maxwell's father was sat down. [ID: 1696]
+ ##### 
+176. much information is needed. [ID: 3459]
+ ##### 
+177. We gave him enough opportunity and, sure enough, every senator succumbed to corruption. [ID: 267]
+ ##### 
+178. John knows whose book Mary bought and Tom talked. [ID: 4807]
+ ##### 
+179. Anne and Cathy met. [ID: 2211]
+ ##### 
+180. Which boy's guardian's employer did we elect president?. [ID: 1370]
+ ##### 
+181. John is more than five feet short. [ID: 5562]
+ ##### 
+182. To find a new mate, go to a dating service. [ID: 6254]
+ ##### 
+183. The boy gave the baby the book. [ID: 3921]
+ ##### 
+184. Mary was visited by Bill. [ID: 7679]
+ ##### 
+185. Mary reported his to have loved her. [ID: 808]
+ ##### 
+186. the person stood on my foot is heavy. [ID: 4889]
+ ##### 
+187. I'm more worrying than thinking. [ID: 5540]
+ ##### 
+188. Who are you trying to get hold of? [ID: 1396]
+ ##### 
+189. The more contented the nurses began to believe that we were going to pretend to be, the more angry we grew at the doctors. [ID: 1754]
+ ##### 
+190. Anson thought Julie had fainted [ID: 8302]
+ ##### 
+191. Tom was not more reliable than a grasshopper. [ID: 5449]
+ ##### 
+192. Robin will eat cabbage but she won't ice cream. [ID: 6297]
+ ##### 
+193. Fido is a smarter dog than Spot. [ID: 5472]
+ ##### 
+194. Hardly any of the citizens ever say anything. [ID: 4600]
+ ##### 
+195. The jury seemed ready to leave. [ID: 3942]
+ ##### 
+196. The umpire called off the game. [ID: 3587]
+ ##### 
+197. The man who I gave John Ed's picture of was bald. [ID: 1981]
+ ##### 
+198. Jeeves sauntered into the room. [ID: 6636]
+ ##### 
+199. It really freaks me out that we invaded Iraq. [ID: 5054]
+ ##### 
+200. We believe that he is quite reasonable. [ID: 3694]

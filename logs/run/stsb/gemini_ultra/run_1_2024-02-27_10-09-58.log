@@ -1,0 +1,24 @@
+10:10:02,814 filelock INFO Lock 2253642351040 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_stsb_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:10:02,814 filelock INFO Lock 2253642351040 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_stsb_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:10:02,814 filelock INFO Lock 2253643436672 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/stsb/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:10:04,843 filelock INFO Lock 2253643384672 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\9c5b7a7992256dace88acda8a7a6c747ee10529837716b235e8651f2b2d57251.lock
+10:10:05,261 filelock INFO Lock 2253643384672 released on C:\Users\marku\.cache\huggingface\datasets\downloads\9c5b7a7992256dace88acda8a7a6c747ee10529837716b235e8651f2b2d57251.lock
+10:10:05,769 filelock INFO Lock 2253643350512 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\945eb22887e29a238578a6f7d03d129462a78bb8fa6c1bf5a5431e6960a1e67f.lock
+10:10:06,47 filelock INFO Lock 2253643350512 released on C:\Users\marku\.cache\huggingface\datasets\downloads\945eb22887e29a238578a6f7d03d129462a78bb8fa6c1bf5a5431e6960a1e67f.lock
+10:10:06,952 filelock INFO Lock 2253643576752 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\5a3c40bb2f98e136fe6c21d4f8124f509e264b16bf924755efe0e42cee378d85.lock
+10:10:07,223 filelock INFO Lock 2253643576752 released on C:\Users\marku\.cache\huggingface\datasets\downloads\5a3c40bb2f98e136fe6c21d4f8124f509e264b16bf924755efe0e42cee378d85.lock
+10:10:07,246 filelock INFO Lock 2253643436288 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/stsb/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+10:10:07,246 filelock INFO Lock 2253643436288 released on C:/Users/marku/.cache/huggingface/datasets/glue/stsb/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+10:10:07,247 filelock INFO Lock 2253643436672 released on C:/Users/marku/.cache/huggingface/datasets/glue/stsb/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:10:12,416 root INFO Training results:
+10:10:13,987 root INFO {'eval_loss': 2.111722469329834, 'eval_Correlation: ': nan, 'eval_runtime': 1.5674, 'eval_samples_per_second': 956.993, 'eval_steps_per_second': 1.914, 'epoch': 25.0}
+10:10:18,513 root INFO Training results:
+10:10:20,67 root INFO {'eval_loss': 2.0638256072998047, 'eval_Correlation: ': nan, 'eval_runtime': 1.5387, 'eval_samples_per_second': 974.867, 'eval_steps_per_second': 1.95, 'epoch': 25.0}
+10:10:24,231 root INFO Training results:
+10:10:25,796 root INFO {'eval_loss': 2.0385923385620117, 'eval_Correlation: ': nan, 'eval_runtime': 1.5558, 'eval_samples_per_second': 964.114, 'eval_steps_per_second': 1.928, 'epoch': 25.0}
+10:10:30,328 root INFO Training results:
+10:10:32,142 root INFO {'eval_loss': 2.314077854156494, 'eval_Correlation: ': nan, 'eval_runtime': 1.5641, 'eval_samples_per_second': 959.03, 'eval_steps_per_second': 1.918, 'epoch': 25.0}
+10:10:36,661 root INFO Training results:
+10:10:38,614 root INFO {'eval_loss': 2.4230103492736816, 'eval_Correlation: ': nan, 'eval_runtime': 1.5355, 'eval_samples_per_second': 976.905, 'eval_steps_per_second': 1.954, 'epoch': 25.0}
+10:10:38,614 root INFO Corr:[nan, nan, nan, nan, nan]
+10:10:38,614 root INFO Corr:nan

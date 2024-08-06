@@ -1,0 +1,80 @@
+1
+
+2
+
+1
+
+1
+
+3
+Here's a breakdown of how I would select instances for a human annotator, along with a list of 32 instance IDs that I would choose.
+
+My Goal: Select instances that maximize the potential for the annotator's labeling effort to improve a machine learning model.
+
+Strategies:
+
+Diversity: Choose instances that reflect the widest possible variety of language patterns, topics, and potential ambiguities.
+Difficulty: Prioritize instances that are likely to be challenging for a machine learning model to understand, focusing on those with ambiguity, nuanced language, or complex sentence structures.
+Representativeness: Ensure that the selected instances are representative of real-world data the model is likely to encounter, avoiding overly simplistic or artificial examples.
+Steps:
+
+Quick Scan: Briefly read through all instances. Get an overall feel for language patterns and levels of difficulty.
+
+Initial Classification: Roughly categorize instances into:
+
+Easy: Simple, unambiguous sentences. (e.g., "The man is riding a motorcycle down the road.")
+Moderate: Some complexity or potential for ambiguity. (e.g., "The skinny cows are standing on the grass.")
+Difficult: Complex sentence structure, nuanced language, or reliance on external knowledge. (e.g., "US Senate confirms Janet Yellen as US Federal Reserve chief")
+Prioritization:
+
+Focus on difficult and moderately difficult instances. These offer the most value for the annotator's work.
+Sample from all categories to promote diversity.
+Review: Check the selected list for balance across topics, difficulty levels, and any other relevant criteria for the specific task.
+
+List of 32 Instances:
+
+(I aimed for mostly 'Moderate' and 'Difficult' instances, with a few 'Easy' ones for variety)
+
+0. An injured woman co-worker also was hospitalized and was listed in good condition.
+3. Jordan Green, the prelate's private lawyer, said he had no comment.
+4. An elderly woman is pouring oil into a frying pan.
+5. The ideology was built around violent expansion, so yes - VIOLENT expansion.
+7. Dr. Neander's revised version.
+10. the attacks are believed to have come from russian administration ip addresses in response to the relocation of a soviet statue in estonia.
+14. DeVries did make one stop in town Wednesday - registering as a sex offender at the Soledad Police Department.
+18. billion . Everyone in the world at Mexico's current prosperity level.
+21. If so, state that is why they're not true.
+25. Turkey Raises Alarm Over Syrian Refugees
+29. peeve So we agree that it came down essentially in freefall?
+30. "What can I say to you?" he told a crowd at a cemetery with a thousand headstones, many of them marking the graves of entire families.
+36. According to law enforcement officials, the person arrested was a known sophisticated hacker.
+37. Lawyers and others familiar with the federal investigation say it remains focused on Campbell, though prosecutors declined to discuss the probe.
+42. Morals have absolutely nothing to do with it !
+44. zhang stated-- china opposes restricting the peaceful use of nuclear energy by non-nuclear-weapon states on the basis of non-proliferation because the peaceful use of nuclear energy is a crucial objective of the npt.
+45. A man is cutting a rope with a sword.
+47. What's my opinion regarding the series?
+51. indian nationals constitute the largest number of foreign inmates in nepal prisons.
+55. Assange appeals extradition to UK's top court
+57. Time of the Season by the Zombies We are all vessels filled with many wonders.
+58. I didn't say we had gotten soft since / Rand.
+60. LURD's Ja'neh also called for an interim government and the deployment of a U.S.-led Western peacekeeping force.
+61. russia had threatened several times to withdraw from the cfe when it was at odds with the united states over u.s. plans to install a missile defense shield in eastern
+65. Man, 19, quizzed over teen murder
+70. Iran is also a signed of the NPT and the IAEA.
+75. Glee star Cory Monteith found dead in hotel room in Canada
+84. Saudi Arabia arrests suspected militants with al-Qaeda links
+85. Do you notice the nonsensical things you are saying?
+92. there were no weapons.
+94. When did I compare homo sexuaity with a developmental disorder?
+98. Top Diplomats Meet in Munich at Critical Time
+Let me know if you'd like more explanation about any specific choices!
+
+Quellen
+github.com/dumitrescustefan/RO-STS
+www.preventgenocide.org/prevent/news-monitor/2003sept.htm
+m.kaoyan.com/www/2007/07-19/15253.html
+Profilbild
+Can you give me the comma seperated list?
+Absolutely! Here's the comma-separated list of the 32 instance IDs:
+
+0, 3, 4, 5, 7, 10, 14, 18, 21, 25, 29, 30, 36, 37, 42, 44, 45, 47, 51, 55, 57, 58, 60, 61, 65, 70, 75, 84, 85, 92, 94, 98

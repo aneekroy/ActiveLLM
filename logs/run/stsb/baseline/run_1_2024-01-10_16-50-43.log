@@ -1,0 +1,16 @@
+16:50:47,580 filelock INFO Lock 2065521035296 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_stsb_0.0.0_a3f3ab759b9d7018046ce361f115ef38276d2e1e.lock
+16:50:47,581 filelock INFO Lock 2065521035296 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_stsb_0.0.0_a3f3ab759b9d7018046ce361f115ef38276d2e1e.lock
+16:50:47,591 filelock INFO Lock 2065553267152 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/stsb/0.0.0/a3f3ab759b9d7018046ce361f115ef38276d2e1e_builder.lock
+16:50:47,719 filelock INFO Lock 2065553267152 released on C:/Users/marku/.cache/huggingface/datasets/glue/stsb/0.0.0/a3f3ab759b9d7018046ce361f115ef38276d2e1e_builder.lock
+16:50:52,542 root INFO Training results:
+16:50:54,97 root INFO {'eval_loss': 1.6747386455535889, 'eval_Correlation: ': nan, 'eval_runtime': 1.5409, 'eval_samples_per_second': 973.459, 'eval_steps_per_second': 1.947, 'epoch': 25.0}
+16:50:57,943 root INFO Training results:
+16:50:59,869 root INFO {'eval_loss': 1.6981067657470703, 'eval_Correlation: ': nan, 'eval_runtime': 1.5151, 'eval_samples_per_second': 990.024, 'eval_steps_per_second': 1.98, 'epoch': 25.0}
+16:51:03,808 root INFO Training results:
+16:51:05,508 root INFO {'eval_loss': 1.2104463577270508, 'eval_Correlation: ': nan, 'eval_runtime': 1.5208, 'eval_samples_per_second': 986.313, 'eval_steps_per_second': 1.973, 'epoch': 25.0}
+16:51:09,702 root INFO Training results:
+16:51:11,246 root INFO {'eval_loss': 1.8155605792999268, 'eval_Correlation: ': nan, 'eval_runtime': 1.5299, 'eval_samples_per_second': 980.474, 'eval_steps_per_second': 1.961, 'epoch': 25.0}
+16:51:15,332 root INFO Training results:
+16:51:16,881 root INFO {'eval_loss': 1.4053325653076172, 'eval_Correlation: ': nan, 'eval_runtime': 1.5357, 'eval_samples_per_second': 976.744, 'eval_steps_per_second': 1.953, 'epoch': 25.0}
+16:51:16,886 root INFO Corr:[nan, nan, nan, nan, nan]
+16:51:16,886 root INFO Corr:nan

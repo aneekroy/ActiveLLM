@@ -1,0 +1,15 @@
+To select the 32 instances for labeling, I will consider a few key factors: diversity, relevance, and clarity. The goal is to choose instances that cover a wide range of topics, are representative of the dataset, and are clear enough for effective labeling. I'll look for instances where the question and the provided sentence are closely related, ensuring that the annotator can make a clear decision on the relevance or accuracy of the sentence in relation to the question.
+
+1. **Relevance and Clarity**: Instances where the sentence provided is clearly relevant to the question or has a clear connection will be prioritized. This ensures the annotator can make a definite decision on whether the sentence answers the question or not.
+
+2. **Diversity of Topics**: It's important to cover a broad range of topics. I'll choose instances from different subjects such as history, science, culture, etc., to ensure a diverse dataset.
+
+3. **Avoid Ambiguity**: Instances where the sentence is ambiguous or unrelated to the question will be avoided. These might create confusion for the annotator.
+
+Considering these criteria, I will now select 32 instances from the provided list. 
+
+Here is the selection:
+
+0, 3, 4, 7, 10, 11, 14, 15, 17, 19, 20, 25, 26, 27, 28, 30, 33, 34, 36, 40, 42, 43, 45, 47, 48, 54, 57, 59, 61, 64, 67, 70
+
+These instances cover a range of topics, are clear in their relevance to the questions, and represent a diverse set of data points for the annotator to label.

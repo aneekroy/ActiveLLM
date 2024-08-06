@@ -1,0 +1,405 @@
+17:03:47,281 root INFO torch.version.cuda: 11.7
+17:03:47,281 root INFO torch.cuda.is_available(): True
+17:03:47,281 root INFO torch.cuda.current_device(): 0
+17:03:52,983 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0621(train)	|	Acc: 54.4%(train)
+	Loss: 0.0693(valid)	|	Acc: 50.0%(valid)
+17:03:56,980 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:03
+	Train Set Size: 90
+	Loss: 0.0611(train)	|	Acc: 56.7%(train)
+	Loss: 0.0688(valid)	|	Acc: 50.0%(valid)
+17:04:01,138 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0592(train)	|	Acc: 57.8%(train)
+	Loss: 0.0662(valid)	|	Acc: 50.0%(valid)
+17:04:05,276 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0557(train)	|	Acc: 58.9%(train)
+	Loss: 0.0604(valid)	|	Acc: 60.0%(valid)
+17:04:09,514 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0511(train)	|	Acc: 76.7%(train)
+	Loss: 0.0536(valid)	|	Acc: 80.0%(valid)
+17:04:13,796 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0425(train)	|	Acc: 88.9%(train)
+	Loss: 0.0491(valid)	|	Acc: 80.0%(valid)
+17:04:18,245 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0370(train)	|	Acc: 91.1%(train)
+	Loss: 0.0434(valid)	|	Acc: 90.0%(valid)
+17:04:22,531 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0305(train)	|	Acc: 95.6%(train)
+	Loss: 0.0419(valid)	|	Acc: 80.0%(valid)
+17:04:26,596 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0257(train)	|	Acc: 98.9%(train)
+	Loss: 0.0386(valid)	|	Acc: 90.0%(valid)
+17:04:30,887 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:04
+	Train Set Size: 90
+	Loss: 0.0244(train)	|	Acc: 98.9%(train)
+	Loss: 0.0380(valid)	|	Acc: 90.0%(valid)
+17:04:45,621 root INFO torch.version.cuda: 11.7
+17:04:45,621 root INFO torch.cuda.is_available(): True
+17:04:45,621 root INFO torch.cuda.current_device(): 0
+17:04:50,747 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0613(train)	|	Acc: 51.8%(train)
+	Loss: 0.0888(valid)	|	Acc: 61.5%(valid)
+17:04:55,182 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0563(train)	|	Acc: 67.9%(train)
+	Loss: 0.0735(valid)	|	Acc: 61.5%(valid)
+17:04:59,669 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0472(train)	|	Acc: 83.9%(train)
+	Loss: 0.0668(valid)	|	Acc: 61.5%(valid)
+17:05:04,105 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0403(train)	|	Acc: 91.1%(train)
+	Loss: 0.0573(valid)	|	Acc: 84.6%(valid)
+17:05:08,620 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0324(train)	|	Acc: 99.1%(train)
+	Loss: 0.0509(valid)	|	Acc: 84.6%(valid)
+17:05:13,80 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0247(train)	|	Acc: 99.1%(train)
+	Loss: 0.0450(valid)	|	Acc: 84.6%(valid)
+17:05:17,454 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0197(train)	|	Acc: 100.0%(train)
+	Loss: 0.0413(valid)	|	Acc: 84.6%(valid)
+17:05:21,919 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0166(train)	|	Acc: 100.0%(train)
+	Loss: 0.0405(valid)	|	Acc: 84.6%(valid)
+17:05:26,701 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0141(train)	|	Acc: 100.0%(train)
+	Loss: 0.0396(valid)	|	Acc: 84.6%(valid)
+17:05:31,340 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:04
+	Train Set Size: 112
+	Loss: 0.0132(train)	|	Acc: 100.0%(train)
+	Loss: 0.0386(valid)	|	Acc: 84.6%(valid)
+17:05:45,636 root INFO torch.version.cuda: 11.7
+17:05:45,636 root INFO torch.cuda.is_available(): True
+17:05:45,636 root INFO torch.cuda.current_device(): 0
+17:05:51,183 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:04
+	Train Set Size: 135
+	Loss: 0.0613(train)	|	Acc: 51.9%(train)
+	Loss: 0.0877(valid)	|	Acc: 53.3%(valid)
+17:05:56,164 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:04
+	Train Set Size: 135
+	Loss: 0.0590(train)	|	Acc: 64.4%(train)
+	Loss: 0.0839(valid)	|	Acc: 60.0%(valid)
+17:06:01,153 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:04
+	Train Set Size: 135
+	Loss: 0.0530(train)	|	Acc: 75.6%(train)
+	Loss: 0.0734(valid)	|	Acc: 60.0%(valid)
+17:06:06,184 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:05
+	Train Set Size: 135
+	Loss: 0.0438(train)	|	Acc: 88.9%(train)
+	Loss: 0.0717(valid)	|	Acc: 60.0%(valid)
+17:06:11,167 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:04
+	Train Set Size: 135
+	Loss: 0.0356(train)	|	Acc: 92.6%(train)
+	Loss: 0.0628(valid)	|	Acc: 80.0%(valid)
+17:06:16,183 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:05
+	Train Set Size: 135
+	Loss: 0.0307(train)	|	Acc: 97.8%(train)
+	Loss: 0.0557(valid)	|	Acc: 66.7%(valid)
+17:06:21,153 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:04
+	Train Set Size: 135
+	Loss: 0.0244(train)	|	Acc: 97.8%(train)
+	Loss: 0.0735(valid)	|	Acc: 66.7%(valid)
+17:06:26,153 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:05
+	Train Set Size: 135
+	Loss: 0.0213(train)	|	Acc: 98.5%(train)
+	Loss: 0.0619(valid)	|	Acc: 73.3%(valid)
+17:06:31,404 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:05
+	Train Set Size: 135
+	Loss: 0.0184(train)	|	Acc: 100.0%(train)
+	Loss: 0.0520(valid)	|	Acc: 80.0%(valid)
+17:06:36,499 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:05
+	Train Set Size: 135
+	Loss: 0.0173(train)	|	Acc: 100.0%(train)
+	Loss: 0.0511(valid)	|	Acc: 80.0%(valid)
+17:06:50,905 root INFO torch.version.cuda: 11.7
+17:06:50,905 root INFO torch.cuda.is_available(): True
+17:06:50,905 root INFO torch.cuda.current_device(): 0
+17:06:56,984 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0624(train)	|	Acc: 53.5%(train)
+	Loss: 0.0744(valid)	|	Acc: 72.2%(valid)
+17:07:02,512 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0594(train)	|	Acc: 56.1%(train)
+	Loss: 0.0730(valid)	|	Acc: 61.1%(valid)
+17:07:08,19 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0580(train)	|	Acc: 71.3%(train)
+	Loss: 0.0704(valid)	|	Acc: 77.8%(valid)
+17:07:13,546 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0487(train)	|	Acc: 84.1%(train)
+	Loss: 0.0692(valid)	|	Acc: 77.8%(valid)
+17:07:19,93 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0411(train)	|	Acc: 87.9%(train)
+	Loss: 0.0715(valid)	|	Acc: 72.2%(valid)
+17:07:24,621 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0350(train)	|	Acc: 94.3%(train)
+	Loss: 0.0712(valid)	|	Acc: 72.2%(valid)
+17:07:30,552 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0294(train)	|	Acc: 96.2%(train)
+	Loss: 0.0711(valid)	|	Acc: 66.7%(valid)
+17:07:36,201 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0233(train)	|	Acc: 99.4%(train)
+	Loss: 0.0745(valid)	|	Acc: 77.8%(valid)
+17:07:41,995 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:05
+	Train Set Size: 157
+	Loss: 0.0211(train)	|	Acc: 99.4%(train)
+	Loss: 0.0746(valid)	|	Acc: 61.1%(valid)
+17:07:48,55 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:06
+	Train Set Size: 157
+	Loss: 0.0202(train)	|	Acc: 99.4%(train)
+	Loss: 0.0736(valid)	|	Acc: 66.7%(valid)
+17:08:02,897 root INFO torch.version.cuda: 11.7
+17:08:02,897 root INFO torch.cuda.is_available(): True
+17:08:02,897 root INFO torch.cuda.current_device(): 0
+17:08:09,808 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:05
+	Train Set Size: 180
+	Loss: 0.0588(train)	|	Acc: 50.6%(train)
+	Loss: 0.0683(valid)	|	Acc: 55.0%(valid)
+17:08:16,292 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0554(train)	|	Acc: 63.9%(train)
+	Loss: 0.0658(valid)	|	Acc: 65.0%(valid)
+17:08:22,503 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0481(train)	|	Acc: 78.3%(train)
+	Loss: 0.0601(valid)	|	Acc: 65.0%(valid)
+17:08:28,605 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0379(train)	|	Acc: 89.4%(train)
+	Loss: 0.0567(valid)	|	Acc: 65.0%(valid)
+17:08:34,717 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0266(train)	|	Acc: 93.9%(train)
+	Loss: 0.0560(valid)	|	Acc: 65.0%(valid)
+17:08:40,842 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0173(train)	|	Acc: 97.8%(train)
+	Loss: 0.0655(valid)	|	Acc: 70.0%(valid)
+17:08:46,917 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0130(train)	|	Acc: 97.8%(train)
+	Loss: 0.0690(valid)	|	Acc: 65.0%(valid)
+17:08:53,16 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0090(train)	|	Acc: 99.4%(train)
+	Loss: 0.0790(valid)	|	Acc: 70.0%(valid)
+17:08:59,423 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0062(train)	|	Acc: 100.0%(train)
+	Loss: 0.0771(valid)	|	Acc: 65.0%(valid)
+17:09:05,620 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:06
+	Train Set Size: 180
+	Loss: 0.0053(train)	|	Acc: 99.4%(train)
+	Loss: 0.0818(valid)	|	Acc: 70.0%(valid)
+17:09:19,870 root INFO torch.version.cuda: 11.7
+17:09:19,870 root INFO torch.cuda.is_available(): True
+17:09:19,870 root INFO torch.cuda.current_device(): 0
+17:09:37,370 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0578(train)	|	Acc: 53.5%(train)
+	Loss: 0.0576(valid)	|	Acc: 56.5%(valid)
+17:09:44,264 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0522(train)	|	Acc: 69.8%(train)
+	Loss: 0.0539(valid)	|	Acc: 60.9%(valid)
+17:09:50,917 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0427(train)	|	Acc: 83.7%(train)
+	Loss: 0.0445(valid)	|	Acc: 78.3%(valid)
+17:09:57,516 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0326(train)	|	Acc: 94.1%(train)
+	Loss: 0.0422(valid)	|	Acc: 78.3%(valid)
+17:10:04,105 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0231(train)	|	Acc: 98.5%(train)
+	Loss: 0.0360(valid)	|	Acc: 78.3%(valid)
+17:10:10,849 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0165(train)	|	Acc: 99.5%(train)
+	Loss: 0.0373(valid)	|	Acc: 78.3%(valid)
+17:10:17,890 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:07
+	Train Set Size: 202
+	Loss: 0.0111(train)	|	Acc: 99.5%(train)
+	Loss: 0.0339(valid)	|	Acc: 82.6%(valid)
+17:10:24,653 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0077(train)	|	Acc: 100.0%(train)
+	Loss: 0.0268(valid)	|	Acc: 82.6%(valid)
+17:10:31,570 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:06
+	Train Set Size: 202
+	Loss: 0.0059(train)	|	Acc: 100.0%(train)
+	Loss: 0.0291(valid)	|	Acc: 87.0%(valid)
+17:10:40,324 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:08
+	Train Set Size: 202
+	Loss: 0.0052(train)	|	Acc: 100.0%(train)
+	Loss: 0.0277(valid)	|	Acc: 82.6%(valid)
+17:10:55,295 root INFO torch.version.cuda: 11.7
+17:10:55,295 root INFO torch.cuda.is_available(): True
+17:10:55,295 root INFO torch.cuda.current_device(): 0
+17:11:04,276 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:08
+	Train Set Size: 225
+	Loss: 0.0582(train)	|	Acc: 52.9%(train)
+	Loss: 0.0764(valid)	|	Acc: 56.0%(valid)
+17:11:14,920 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:10
+	Train Set Size: 225
+	Loss: 0.0526(train)	|	Acc: 69.8%(train)
+	Loss: 0.0737(valid)	|	Acc: 64.0%(valid)
+17:11:26,169 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:11
+	Train Set Size: 225
+	Loss: 0.0444(train)	|	Acc: 81.3%(train)
+	Loss: 0.0944(valid)	|	Acc: 60.0%(valid)
+17:11:36,669 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:10
+	Train Set Size: 225
+	Loss: 0.0329(train)	|	Acc: 94.2%(train)
+	Loss: 0.0556(valid)	|	Acc: 72.0%(valid)
+17:11:47,391 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:10
+	Train Set Size: 225
+	Loss: 0.0250(train)	|	Acc: 96.9%(train)
+	Loss: 0.0535(valid)	|	Acc: 72.0%(valid)
+17:11:58,69 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:10
+	Train Set Size: 225
+	Loss: 0.0176(train)	|	Acc: 99.1%(train)
+	Loss: 0.0688(valid)	|	Acc: 68.0%(valid)
+17:12:05,295 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:07
+	Train Set Size: 225
+	Loss: 0.0136(train)	|	Acc: 100.0%(train)
+	Loss: 0.1036(valid)	|	Acc: 60.0%(valid)
+17:12:12,422 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:07
+	Train Set Size: 225
+	Loss: 0.0110(train)	|	Acc: 100.0%(train)
+	Loss: 0.0610(valid)	|	Acc: 60.0%(valid)
+17:12:20,106 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:07
+	Train Set Size: 225
+	Loss: 0.0096(train)	|	Acc: 99.6%(train)
+	Loss: 0.0861(valid)	|	Acc: 60.0%(valid)
+17:12:27,403 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:07
+	Train Set Size: 225
+	Loss: 0.0086(train)	|	Acc: 100.0%(train)
+	Loss: 0.0828(valid)	|	Acc: 60.0%(valid)
+17:12:42,15 root INFO torch.version.cuda: 11.7
+17:12:42,15 root INFO torch.cuda.is_available(): True
+17:12:42,15 root INFO torch.cuda.current_device(): 0
+17:12:50,167 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:07
+	Train Set Size: 247
+	Loss: 0.0581(train)	|	Acc: 55.1%(train)
+	Loss: 0.0711(valid)	|	Acc: 60.7%(valid)
+17:12:57,890 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:07
+	Train Set Size: 247
+	Loss: 0.0542(train)	|	Acc: 64.0%(train)
+	Loss: 0.0570(valid)	|	Acc: 78.6%(valid)
+17:13:05,596 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:07
+	Train Set Size: 247
+	Loss: 0.0411(train)	|	Acc: 83.4%(train)
+	Loss: 0.0493(valid)	|	Acc: 82.1%(valid)
+17:13:29,622 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:24
+	Train Set Size: 247
+	Loss: 0.0290(train)	|	Acc: 92.7%(train)
+	Loss: 0.0426(valid)	|	Acc: 78.6%(valid)
+17:13:37,918 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:08
+	Train Set Size: 247
+	Loss: 0.0184(train)	|	Acc: 97.6%(train)
+	Loss: 0.0457(valid)	|	Acc: 82.1%(valid)
+17:13:46,137 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:08
+	Train Set Size: 247
+	Loss: 0.0107(train)	|	Acc: 100.0%(train)
+	Loss: 0.0554(valid)	|	Acc: 78.6%(valid)
+17:13:53,920 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:07
+	Train Set Size: 247
+	Loss: 0.0072(train)	|	Acc: 99.6%(train)
+	Loss: 0.0639(valid)	|	Acc: 78.6%(valid)
+17:14:01,606 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:07
+	Train Set Size: 247
+	Loss: 0.0043(train)	|	Acc: 100.0%(train)
+	Loss: 0.0708(valid)	|	Acc: 78.6%(valid)
+17:14:09,794 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:08
+	Train Set Size: 247
+	Loss: 0.0030(train)	|	Acc: 100.0%(train)
+	Loss: 0.0736(valid)	|	Acc: 78.6%(valid)
+17:14:17,668 small_text.integrations.transformers.classifiers.classification INFO Epoch: 10 | 00:00:07
+	Train Set Size: 247
+	Loss: 0.0032(train)	|	Acc: 99.2%(train)
+	Loss: 0.0731(valid)	|	Acc: 82.1%(valid)
+17:14:32,122 root INFO torch.version.cuda: 11.7
+17:14:32,122 root INFO torch.cuda.is_available(): True
+17:14:32,122 root INFO torch.cuda.current_device(): 0
+17:14:40,813 small_text.integrations.transformers.classifiers.classification INFO Epoch: 1 | 00:00:07
+	Train Set Size: 270
+	Loss: 0.0586(train)	|	Acc: 54.8%(train)
+	Loss: 0.0656(valid)	|	Acc: 56.7%(valid)
+17:14:49,465 small_text.integrations.transformers.classifiers.classification INFO Epoch: 2 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0529(train)	|	Acc: 67.4%(train)
+	Loss: 0.0607(valid)	|	Acc: 70.0%(valid)
+17:14:58,276 small_text.integrations.transformers.classifiers.classification INFO Epoch: 3 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0423(train)	|	Acc: 79.3%(train)
+	Loss: 0.0505(valid)	|	Acc: 76.7%(valid)
+17:15:06,653 small_text.integrations.transformers.classifiers.classification INFO Epoch: 4 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0316(train)	|	Acc: 88.5%(train)
+	Loss: 0.0522(valid)	|	Acc: 73.3%(valid)
+17:15:14,887 small_text.integrations.transformers.classifiers.classification INFO Epoch: 5 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0190(train)	|	Acc: 97.0%(train)
+	Loss: 0.0584(valid)	|	Acc: 63.3%(valid)
+17:15:23,98 small_text.integrations.transformers.classifiers.classification INFO Epoch: 6 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0130(train)	|	Acc: 97.0%(train)
+	Loss: 0.0648(valid)	|	Acc: 76.7%(valid)
+17:15:31,419 small_text.integrations.transformers.classifiers.classification INFO Epoch: 7 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0065(train)	|	Acc: 99.6%(train)
+	Loss: 0.0820(valid)	|	Acc: 73.3%(valid)
+17:15:39,777 small_text.integrations.transformers.classifiers.classification INFO Epoch: 8 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0039(train)	|	Acc: 99.3%(train)
+	Loss: 0.0887(valid)	|	Acc: 73.3%(valid)
+17:15:48,323 small_text.integrations.transformers.classifiers.classification INFO Epoch: 9 | 00:00:08
+	Train Set Size: 270
+	Loss: 0.0025(train)	|	Acc: 100.0%(train)
+	Loss: 0.0943(valid)	|	Acc: 73.3%(valid)
+17:15:49,733 root INFO Labeled indices: [1395 1114  535  321  104  390  242 1076  139  563  174  133 1650  760
+  520 1535 1167 1376  398  670 1223  346  185  574  587  957 1322  615
+ 1300  823 1299  252 1264 1242 1478 1179  288  853 1536 1161 1543 1120
+ 1622  896  749 1675 1695  451  446  943  320 1245 1027 1497 1493  888
+ 1600  361  226  695 1342 1195  805  985 1358 1160  739 1470 1582 1370
+  734 1409 1108  551 1107 1484 1628  171 1561  351 1287  775 1191  874
+ 1778  378  162  689  579  671 1488  825 1626 1040  217 1416 1401 1178
+  892  394 1349  159  621  828 1683  568  941  301 1255 1663 1236  291
+  789 1184  508  704 1499  439  216  257  135 1148  253 1086 1122 1790
+  165 1619  723 1617 1616  184 1200  683  400 1749 1530 1267  811  129
+  509  889 1367 1731 1555  127  867 1590 1119  261  654 1340 1787 1128
+ 1205 1518  383  950  115  701 1655  782 1738 1016 1017 1705 1460  607
+  956 1237 1573 1218 1565  367  447  965  444  735  443 1029 1674 1585
+  857 1327  918 1736 1742 1280  680  128  126  959 1434  158 1746 1612
+  466 1761  842  758    0    1    2    3    4    6    7   10   11   12
+   13   14   16   18   19   22   23   24   27   32   33   36   37   38
+   44    5    8    9   15   17   20   21   25   26   28   29   30   31
+   34   35   39   40   41   42   45   46   47   48   49   50   51   52
+   53   55   56   57   58   60   62   65   66   67   69   70   71   72
+   75   77   79   81   85   87   90   91   93   43   54   59   61   63
+   64   68   73   74   76   78   80   82   83   84   86   88   89   92
+   94   95   96   97   98   99]

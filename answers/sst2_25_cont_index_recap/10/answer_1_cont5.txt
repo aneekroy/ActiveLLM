@@ -1,0 +1,19 @@
+To select the most informative instances for labeling by a human annotator, I would follow these steps:
+
+1. **Diversity Sampling**: Choose instances that are diverse in terms of their content and sentiment. This ensures a wide range of data is covered.
+
+2. **Stratified Sampling**: If the dataset has categories or themes, ensure instances from each category are selected to maintain balance.
+
+3. **Uncertainty Sampling**: Prefer instances where the model's prediction confidence is low, as these are likely to be more informative.
+
+4. **Representativeness**: Select instances that are representative of the larger dataset. Avoid outliers unless they are of specific interest.
+
+5. **Avoid Redundancy**: Ensure that the chosen instances are not too similar to each other or to already labeled instances.
+
+Based on these principles, and without knowing the specific domain or the model’s current capabilities, I will select a mix of instances that seem to vary in sentiment, subject matter, and complexity. I will avoid instances that are similar to the already labeled ones. 
+
+Given the nature of the dataset, which appears to be film or product reviews, I'll select instances that vary in length, sentiment (positive, negative, neutral), and subject matter. Here are my selections:
+
+53, 58, 59, 63, 66, 71, 75, 83, 86, 89, 93, 99, 103, 107, 112, 118, 121, 126, 130, 134, 138, 143, 147, 151, 157
+
+These instances seem to offer a range of sentiments and topics, which could be beneficial for training a well-rounded and robust model.

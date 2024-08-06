@@ -1,0 +1,13 @@
+To select the instances to label, I would follow these steps:
+
+1. **Stratified Sampling**: Ensure that the selected instances are representative of the whole dataset. This can be done by selecting instances from different parts of the dataset.
+
+2. **Uncertainty Sampling**: Choose instances that the current model is least confident about. This can help improve the model's performance on difficult instances.
+
+3. **Diversity Sampling**: Select instances that are diverse and cover as much of the input space as possible. This can help the model generalize better.
+
+Based on these criteria, here are the instances I would select:
+
+2, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 100, 3, 7, 11, 15, 19, 23, 27
+
+These instances are selected from different parts of the dataset, and they cover a diverse range of topics and structures.

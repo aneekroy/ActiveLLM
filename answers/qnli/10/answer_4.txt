@@ -1,0 +1,12 @@
+To select the most informative instances for labeling, I would follow these steps:
+
+1. **Diversity in Topics:** Ensure a wide range of topics are covered. This helps the model learn from various domains.
+2. **Difficulty of Questions:** Choose questions that seem to require a deeper understanding or inferencing, as they provide more learning value.
+3. **Clarity and Relevance of Sentences:** Select instances where the sentence closely relates to the question, ensuring the model learns from relevant data.
+4. **Variability in Sentence Structures:** Include sentences with different structures to help the model understand various syntactic constructions.
+
+Based on these criteria, I would choose the following instances for labeling:
+
+0, 1, 3, 5, 8, 10, 12, 14, 17, 21, 23, 26, 28, 30, 33, 36, 38, 41, 43, 46, 49, 52, 55, 57, 59, 61, 64, 67, 69, 71, 74, 76
+
+This selection covers a wide range of topics, includes questions that require inferencing and understanding of context, and features a variety of sentence structures.

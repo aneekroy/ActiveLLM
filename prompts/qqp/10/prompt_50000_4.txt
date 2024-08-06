@@ -1,0 +1,785 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Question 1: Both my research proposal and written work are the same project. Is it ok if I submit them to the graduate school? 
+ Question 2: Hi Arun, I saw you comment on a post that you earn $19,000 a month. I am 16 and I aspire to earn that much soon. Can you give me some advice? [ID: 252534]
+ ##### 
+1. Question 1: Pathetic service of TATAbSky? 
+ Question 2: Do people hunt koalas? Why? [ID: 350525]
+ ##### 
+2. Question 1: Why is sampling important in statistics? 
+ Question 2: Why are statistics important in research? [ID: 254486]
+ ##### 
+3. Question 1: Can drinking Harpic kill you? If so, then how much (in ml) can it be consumed? 
+ Question 2: Why as a vegetarian do I eat lots of cheese? How to change this? [ID: 331094]
+ ##### 
+4. Question 1: "Should I use ""a"" or ""an"" with the word ""unicorn""?" 
+ Question 2: Is this a common phrase: “try my hand at something”? [ID: 361222]
+ ##### 
+5. Question 1: What is it to be a lesbian? 
+ Question 2: How does it feel to be a lesbian? [ID: 368]
+ ##### 
+6. Question 1: Which chapters easy must read to get 200 + in jee mains? 
+ Question 2: What are the chapters that I should target which would help me score 200+ in JEE MAINS? [ID: 211410]
+ ##### 
+7. Question 1: Where's the best (kid friendly) dinner place in Atlanta? 
+ Question 2: Why we canot get value of 0/0? [ID: 309349]
+ ##### 
+8. Question 1: Which of these is gramatically correct? 
+ Question 2: "Is ""This is different than that,"" gramatically correct?" [ID: 241646]
+ ##### 
+9. Question 1: Why has Arnab Goswami resigned from Times Now? 
+ Question 2: Why did Arnab Goswami resign as the Editor-in-Chief of Times Now? [ID: 108009]
+ ##### 
+10. Question 1: What is the difference between i3, i5, i7 and 2nd gen, 3rd gen, 4th gen, 5th gen? 
+ Question 2: What's the difference between an i5-6th gen 2.7Ghz processor and i5-4th gen 3.2 Ghz processor? [ID: 218610]
+ ##### 
+11. Question 1: How do I get free 300-135 dumps? VCE dumps and PDF dumps? 
+ Question 2: Where can I download the latest CCNP dumps for free? [ID: 298695]
+ ##### 
+12. Question 1: Why is The Joker insane? 
+ Question 2: Who is the Joker? [ID: 213794]
+ ##### 
+13. Question 1: I just bought Audio Technica M40X headphones, but I am not satisfied by their output. Do they just need some burn-in, or do I have to listen to high quality audio files, or do I need a headphone amplifier to overcome the low volume? 
+ Question 2: I'm new to cars. Do I need to buy amplifiers for my car audio? [ID: 208631]
+ ##### 
+14. Question 1: How was the KVPY 2016 SX stream? 
+ Question 2: How did KVPY SB/SX 2016 go for you? [ID: 29308]
+ ##### 
+15. Question 1: How did The Boss get greenlit? What's the backstory of how the movie got made? 
+ Question 2: How did Warcraft get greenlit? What's the backstory of how the movie got made? [ID: 305206]
+ ##### 
+16. Question 1: Why do Americans often drive slowly in the left lane? 
+ Question 2: Why do people drive slow in the fast lane? [ID: 268592]
+ ##### 
+17. Question 1: What is the difference between a product manager and a product support manager? 
+ Question 2: What is the difference between a product manager and a segment manager? [ID: 116300]
+ ##### 
+18. Question 1: Why do Quora users write answers in comments to other answers? 
+ Question 2: Why do people write their own answers as a comment and not realize it? [ID: 258001]
+ ##### 
+19. Question 1: How do I choose what to do with my life? 
+ Question 2: Is Indian navy a rich life? [ID: 6673]
+ ##### 
+20. Question 1: How do I make money with Google AdSense? 
+ Question 2: How do I make more money on Google AdSense? [ID: 227981]
+ ##### 
+21. Question 1: How could I lose a few pounds quickly? 
+ Question 2: How can I lose weight quickly? [ID: 3442]
+ ##### 
+22. Question 1: "In Python, what does ""if True:"" mean?" 
+ Question 2: What is does // mean in python? [ID: 249593]
+ ##### 
+23. Question 1: What sacraments can a priest perform? What are some examples? 
+ Question 2: How do sacraments make us holy? [ID: 168450]
+ ##### 
+24. Question 1: Why we celebrate Karva Chauth? 
+ Question 2: What is karva chauth? Why is it celebrated? [ID: 345053]
+ ##### 
+25. Question 1: What existed before the universe? 
+ Question 2: "What was there before the ""beginning""?" [ID: 243951]
+ ##### 
+26. Question 1: How powerful are the five families of the NY Mafia today? 
+ Question 2: How dangerous is the Italian mafia? [ID: 187493]
+ ##### 
+27. Question 1: Can you swallow your tongue? 
+ Question 2: What if you swallow a roach? [ID: 335687]
+ ##### 
+28. Question 1: Which is more important: skills or attitude? Why? 
+ Question 2: Why attitude is more important than IQ? [ID: 44181]
+ ##### 
+29. Question 1: Photography: What are some of the saddest photos ever taken? 
+ Question 2: What is the most controversial photo you've ever taken? [ID: 60202]
+ ##### 
+30. Question 1: How do I activate 2G in Lenovo K3 note? 
+ Question 2: How do I activate 3g in lenovo k3 note? [ID: 116064]
+ ##### 
+31. Question 1: "Is the TV show ""Polyamory, Married and Dating"" staged?" 
+ Question 2: In polyamory, how do you deal when your partner is flirting with someone else when he/she is right by your side? [ID: 328551]
+ ##### 
+32. Question 1: Is asthma infectious? 
+ Question 2: What is asthma? [ID: 124203]
+ ##### 
+33. Question 1: How do we know if an atom in a molecule has donated an electron to another atom as in ionic bond or if it is just sharing a valence electron with another atom as in a covalent bond? 
+ Question 2: How does when two atoms approach each other its potential energy decreases in a covalent bond? [ID: 90759]
+ ##### 
+34. Question 1: How do I pull out my molar painlessly? 
+ Question 2: Can an infected tooth be pulled? [ID: 329144]
+ ##### 
+35. Question 1: What daily routine is recommended for law of attraction? 
+ Question 2: How do I manifest everything I want using law of attraction? [ID: 68952]
+ ##### 
+36. Question 1: What's your review on Kahaani 2? 
+ Question 2: What is your review of Kahaani 2: Durga Rani Singh (2016 movie)? [ID: 98882]
+ ##### 
+37. Question 1: What's a good cheap laptop for a student, that can run minecraft for my brother? 
+ Question 2: What is the best laptop for Minecraft? [ID: 93592]
+ ##### 
+38. Question 1: What is the most unusual thing ever to happen with you? 
+ Question 2: What's the most unusual thing you ever did, as far as you can remember? [ID: 188986]
+ ##### 
+39. Question 1: Does coffee or caffeine stunt your growth? If not, why do so many people believe that it does? 
+ Question 2: Exactly how much coffee will stunt your growth? [ID: 210798]
+ ##### 
+40. Question 1: What are the most interesting books that you have read? 
+ Question 2: What are some very interesting books to read? [ID: 285324]
+ ##### 
+41. Question 1: How do I to start a new business? 
+ Question 2: How do we start a business? [ID: 247181]
+ ##### 
+42. Question 1: When will be the second list declared in powergrid for executive trainees 2016? 
+ Question 2: When will be the second list declared in powergrid for executive trainees? [ID: 282649]
+ ##### 
+43. Question 1: What is the name of the TV show that is about an occupational therapist? 
+ Question 2: How do occupational therapists treat cerebral palsy? [ID: 214178]
+ ##### 
+44. Question 1: Will India wage war against Pakistan? 
+ Question 2: Do India wage a war against Pakistan? [ID: 226548]
+ ##### 
+45. Question 1: "What does ""sociodemographic"" mean? How is it used in social sciences?" 
+ Question 2: I have paid the LIC premium through internet baking but I did not get the receipt at the same time? [ID: 180128]
+ ##### 
+46. Question 1: Ecommerce Business Ideas? What should I sell? 
+ Question 2: Can I sell my business idea? [ID: 168417]
+ ##### 
+47. Question 1: Why can we fly in our dreams? 
+ Question 2: Why can you fly in your dreams? [ID: 206710]
+ ##### 
+48. Question 1: How do I burn a video to a DVD? 
+ Question 2: How can I burn a YouTube video to a DVD? [ID: 300905]
+ ##### 
+49. Question 1: What are the best ways to loose fat? 
+ Question 2: How can I lose weight quickly? [ID: 286427]
+ ##### 
+50. Question 1: Which is the best course for learning algorithms and data structure on Coursera , Edx or Udemy? 
+ Question 2: What are the good ways to learn Data Structures? [ID: 178492]
+ ##### 
+51. Question 1: What is the best option to do an international online transaction with less foreign cross currency rate in India? 
+ Question 2: Is there anything you wish you would have had known before you got into a relationship with someone? [ID: 149458]
+ ##### 
+52. Question 1: Do you guys think that a building can boost the economy of country? 
+ Question 2: How do I convert Android mobile into Bluetooth headset? [ID: 286394]
+ ##### 
+53. Question 1: I am in 1st year of engineering how should I start my preparation for CAT? 
+ Question 2: When should I start preparing for mba (CAT, MAT)? I am in B.Tech 1st year, right now. And how should I prepare? [ID: 226383]
+ ##### 
+54. Question 1: Do girls watch sex movies and how do they react? 
+ Question 2: Do girls watch porn and share the thoughts on that to others? [ID: 216502]
+ ##### 
+55. Question 1: Does an IAS officer have bodyguards? 
+ Question 2: What is UPSC and MPSC? [ID: 82344]
+ ##### 
+56. Question 1: How big is the black hole at the center of our galaxy? 
+ Question 2: Is the black hole in the center of our galaxy moving? [ID: 259759]
+ ##### 
+57. Question 1: How can I use USB OTG on a Samsung Grand Prime? 
+ Question 2: How do I block a call in a Samsung Galaxy Grand Prime? [ID: 164553]
+ ##### 
+58. Question 1: What is the fee structure of FIITJEE? 
+ Question 2: What is fee structure of IIA? [ID: 29742]
+ ##### 
+59. Question 1: How do I can whole tomatoes? 
+ Question 2: What are Allegro tomatoes? [ID: 144420]
+ ##### 
+60. Question 1: What are the bearings of harbour H from the boat B? (details inside) 
+ Question 2: What is the proper way to install camshaft bearings in details? [ID: 48326]
+ ##### 
+61. Question 1: How does footballers earns? 
+ Question 2: Tell 100 words in 2 minutes which don't contain letter A in it? [ID: 164694]
+ ##### 
+62. Question 1: What is the most important thing which money can't buy? 
+ Question 2: What is the best thing a teacher taught you? [ID: 83041]
+ ##### 
+63. Question 1: What are chances of another war between India and Pakistan? 
+ Question 2: If war happen between India and Pakistan, then what could be the impact on Indian economy and stock market? [ID: 354468]
+ ##### 
+64. Question 1: Why does quora suck? 
+ Question 2: Why does Quora content suck so much now? [ID: 331334]
+ ##### 
+65. Question 1: Which are the most profitable businesses? 
+ Question 2: What are the most profitable business sectors? [ID: 280852]
+ ##### 
+66. Question 1: What is the best book for learning chess? 
+ Question 2: Which is the best book to learn chess endgames? [ID: 86038]
+ ##### 
+67. Question 1: If you demolish a house will your property taxes go down? 
+ Question 2: Is giving a tax exemption for property taxes to houses of worship a violation of the establishment clause? [ID: 128986]
+ ##### 
+68. Question 1: How can I reduce my tummy fat with minimum of efforts? 
+ Question 2: How can I reduce my hips and tummy in less than a week? [ID: 176388]
+ ##### 
+69. Question 1: What is the correct way to pronounce Steve Jobs's name? 
+ Question 2: What is the correct way to pronounce Volkswagen? [ID: 200222]
+ ##### 
+70. Question 1: What are the primary features of aquatic animals? 
+ Question 2: What are examples of aquatic animals? [ID: 234720]
+ ##### 
+71. Question 1: How can I remove certain questions/answers from my feed? 
+ Question 2: Why am I not able to remove Questions/Answers from my feed? [ID: 234804]
+ ##### 
+72. Question 1: What are some important android phone apps? 
+ Question 2: What are the top 3 important Android phone apps? [ID: 215693]
+ ##### 
+73. Question 1: What are the advantages/disadvantages of using hemp for making plastic? 
+ Question 2: What are the disadvantages of plastic use? What are some advantages? [ID: 36753]
+ ##### 
+74. Question 1: How do I earn money from the Internet? 
+ Question 2: How does one earn money online without an investment from home? [ID: 270448]
+ ##### 
+75. Question 1: What does an official IQ test generally look like? 
+ Question 2: If online IQ tests aren't accurate, then what does a real IQ test look like? [ID: 255771]
+ ##### 
+76. Question 1: "If I book a first class AC ticket from IRCTC, do I get a ""coupe (for 2 people)"" or a ""cabin (for 4 people)""?" 
+ Question 2: I have booked 1ac ticket and I am travelling from first to last stop. Will it increase the chances of getting a coupe? [ID: 97177]
+ ##### 
+77. Question 1: What are the best academic conferences for social network analysis? 
+ Question 2: What are the good journals and conferences about Social Network Analysis? [ID: 193897]
+ ##### 
+78. Question 1: What are some good questions to ask a sociopath? 
+ Question 2: What are good questions to ask a sociopath? [ID: 43418]
+ ##### 
+79. Question 1: How can I boost metabolism? 
+ Question 2: What can I drink to boost metabolism? [ID: 34495]
+ ##### 
+80. Question 1: Who is your dream actor to play Rhaegar Targaryen? 
+ Question 2: If Rhaegar Targaryen was alive, which actor would portray him? [ID: 362216]
+ ##### 
+81. Question 1: Are there any non-Christians that support Donald Trump for President? 
+ Question 2: Would the toxins that come out of my face be dangerous if I didnt wash my face for several days? [ID: 20842]
+ ##### 
+82. Question 1: Find the least number when it divides by 7,8,9 gives remainder as 1,2,3 respectively? 
+ Question 2: What is the number when divided by 7,8,9 the remainder must be 1,2,3 respectively? [ID: 8782]
+ ##### 
+83. Question 1: One of my friend got placed in mind tree now the company shares has fallen. will it effect his job? 
+ Question 2: International shipping question and the legality [ID: 224623]
+ ##### 
+84. Question 1: Is it possible to eat too much celery? 
+ Question 2: Is it possible to eat too much cabbage? How much? [ID: 334968]
+ ##### 
+85. Question 1: What does 鹵水 mean in Chinese? 
+ Question 2: What does “Shifu” mean in Chinese? [ID: 168606]
+ ##### 
+86. Question 1: Is using VPN for using terrarium TV legal in India? 
+ Question 2: Is downloading movies from apps such as Terrarium TV illegal in India? Does using VPN help? Is it safe to use VPN? [ID: 75863]
+ ##### 
+87. Question 1: Is Somaliland even a country? Elaborate if yes or no 
+ Question 2: Is somaliland a country? [ID: 299233]
+ ##### 
+88. Question 1: Why Numpy arrays are not part of Python? 
+ Question 2: Will (and should) numpy be made part of Python? [ID: 91317]
+ ##### 
+89. Question 1: How can I understand machine learning? 
+ Question 2: How should I get started with Machine Learning? [ID: 343120]
+ ##### 
+90. Question 1: A married man and a married woman are having an affair. Should I tell their partners? 
+ Question 2: Can a Muslim marry a Hindu? [ID: 288517]
+ ##### 
+91. Question 1: How long tail keywords can help? 
+ Question 2: What are the benefits of long tail keywords? [ID: 54656]
+ ##### 
+92. Question 1: What are some helpful tips for taking the Coney Island Road Test? 
+ Question 2: How do I pass my road test? [ID: 24799]
+ ##### 
+93. Question 1: Debate: What are some questions you can always ask in cross-examination? 
+ Question 2: Why do we ask why? [ID: 127113]
+ ##### 
+94. Question 1: How many times has flight evolved in non-vertebrates? 
+ Question 2: How many times has flight evolved in vertebrates? [ID: 70493]
+ ##### 
+95. Question 1: Has Donald Trump ever committed a crime? 
+ Question 2: Has Donald Trump ever broken the law? [ID: 11411]
+ ##### 
+96. Question 1: How did living in New York City feel different after 9/11? 
+ Question 2: How was the Skyscraper Museum in New York City affected by the 9/11? [ID: 56832]
+ ##### 
+97. Question 1: Do you still receive the ICICI bank's 'one time password' when you are abroad? 
+ Question 2: How do one change the password for an ICICI bank account? [ID: 79131]
+ ##### 
+98. Question 1: What am I missing if I don't have a boyfriend? 
+ Question 2: What am I missing out on in life if I don't have a boyfriend? [ID: 163896]
+ ##### 
+99. Question 1: If I change my number on whatsapp and had someone blocked will they be able to see my new number if I had chats open with them before? 
+ Question 2: I am not able to see a person's phone number in 'WhatsApp'. Does this mean the person has blocked me? [ID: 323429]
+ ##### 
+100. Question 1: Does toasting or microwaving sourdough bread kill the beneficial bacteria (probiotics)? 
+ Question 2: Why is it so difficult to toast bread while cutting it? [ID: 70079]
+ ##### 
+101. Question 1: How can I get license to sell my handmade Pokemon products? 
+ Question 2: Where do I get a license to sell pokemon products? [ID: 255203]
+ ##### 
+102. Question 1: Is it all right for a 25 year old man to date an 18 year old girl? 
+ Question 2: Is it fine for a 19 year old girl to date an 18 year old guy? [ID: 315200]
+ ##### 
+103. Question 1: What will be Hillary Clinton's foreign policy towards India if she comes into power in 2016? 
+ Question 2: What would be Hillary clinton's policy on India? [ID: 343579]
+ ##### 
+104. Question 1: Why are Tamilian girls so beautiful? 
+ Question 2: Are beautiful girls not intelligent? [ID: 205393]
+ ##### 
+105. Question 1: What should I do to improve my tennis? 
+ Question 2: How do you improve your tennis game? [ID: 195940]
+ ##### 
+106. Question 1: Why are us type 1 diabetics so thin? 
+ Question 2: How do I get rid of my negative mind about my boyfriend who ever lied many times? [ID: 182368]
+ ##### 
+107. Question 1: How do you solve a 3x3 mirror cube? 
+ Question 2: What is the best way to solve a 3x3 MIRROR Cube? How can I learn solving it? [ID: 207626]
+ ##### 
+108. Question 1: What are some TV shows related to people stranded on a island? 
+ Question 2: What are some of the dialects of Hindi which can be considered separate languages? [ID: 316484]
+ ##### 
+109. Question 1: How can I make money online quickly and easily? 
+ Question 2: What is best way to make money online? [ID: 57185]
+ ##### 
+110. Question 1: After demonetization, which could be next step that needs to be taken by Indian Government to prevent black money and corruption? 
+ Question 2: What is going to be the next step of Modi's Government regarding black money? [ID: 224383]
+ ##### 
+111. Question 1: Is the self-employment tax unfair? 
+ Question 2: What is self employment tax? [ID: 207870]
+ ##### 
+112. Question 1: Is there a possibility of a new world religion shaping up in the 21st century? 
+ Question 2: How possible is it for a new world religion to sprout in the future? [ID: 85729]
+ ##### 
+113. Question 1: What are some fasting methods? 
+ Question 2: What are fast I/O methods for C? [ID: 62042]
+ ##### 
+114. Question 1: Communal Violence: What happened during the 2002 Gujarat riots? 
+ Question 2: What actually happened in Gujarat riots? [ID: 31475]
+ ##### 
+115. Question 1: What are the best things to put on a USB flash drive as a Christmas present? 
+ Question 2: What is the best way to erase a USB Flash Drive? [ID: 196668]
+ ##### 
+116. Question 1: What causes emotional sensitivity? 
+ Question 2: What is emotional sensitivity? [ID: 263185]
+ ##### 
+117. Question 1: Are nihilist atheists? 
+ Question 2: Are all nihilist atheists? [ID: 347916]
+ ##### 
+118. Question 1: How would you uninvite someone (in a decent way) to a party who was being racist to your friend? 
+ Question 2: What is the latest technology of processing aluminium dross? [ID: 204050]
+ ##### 
+119. Question 1: Would I be still come under cap exempt if my H1b is revoked on request of the employer (sponsored) on the grounds that I didn't join their company? 
+ Question 2: If once counted in H1B, can it come under cap exemption in the future? [ID: 270688]
+ ##### 
+120. Question 1: Which is a suitable solar panel installation provider in Palmdale, California CA? 
+ Question 2: Which is a suitable solar panel installation provider in Laton, California CA? [ID: 229712]
+ ##### 
+121. Question 1: Does someone born with a hearing loss ‘hear’ the inner voice? 
+ Question 2: "Does someone who was born with a hearing loss ""hear"" an inner voice?" [ID: 112778]
+ ##### 
+122. Question 1: My mobile was stolen. Is it possible for the thief to change its IMEI number by using any software? 
+ Question 2: Can imei number be changed? [ID: 31631]
+ ##### 
+123. Question 1: How do you delete books from Kindle Cloud Reader? 
+ Question 2: How do I delete books from my Kindle? [ID: 358503]
+ ##### 
+124. Question 1: Why was Cyrus Mistry removed from the chairmanship of Tata Sons? 
+ Question 2: Why was Cyrus Mistry sacked by Ratan Tata from Tata Sons? [ID: 132042]
+ ##### 
+125. Question 1: What details did NDTV leak that made the Indian government to ban it? 
+ Question 2: Is the ban on NDTV justified? [ID: 18888]
+ ##### 
+126. Question 1: Where is the best US website to buy single malt Scotch online? 
+ Question 2: I want to buy a luxury watch which is not available in New Delhi. What are the best and trustworthy online websites from where one can buy? [ID: 133018]
+ ##### 
+127. Question 1: How do I learn German? 
+ Question 2: How can I learn German language on my own? [ID: 13801]
+ ##### 
+128. Question 1: Is it possible to join private banking job at age of 29 for M.Sc Electronics 2014 graduate…2 yr of gap…no experience…? 
+ Question 2: I am going to learn android backend development, which one should be best for me firebase, django or any php based ? [ID: 167231]
+ ##### 
+129. Question 1: What are truths about reality shows in India that you don't mind sharing anonymously? 
+ Question 2: What are the ill effects of drinking iced tea everyday? [ID: 27522]
+ ##### 
+130. Question 1: How harmful could it be to have little black bugs in my bed? 
+ Question 2: How harmful could it be to have black little bugs in my bed? [ID: 23441]
+ ##### 
+131. Question 1: What are the world's most popular beers? 
+ Question 2: What beer is the most popular globally? [ID: 43003]
+ ##### 
+132. Question 1: What are the full forms of HDFC & ICICI? 
+ Question 2: What is the full form of ICICI? [ID: 287024]
+ ##### 
+133. Question 1: What is the difference between a business accelerator vs business incubator in layman terms? 
+ Question 2: What is the difference between startup incubators and accelerators? [ID: 227141]
+ ##### 
+134. Question 1: What are the best online deals sites in Europe? 
+ Question 2: What are the best online deal sites? [ID: 95435]
+ ##### 
+135. Question 1: Is it possible to love more than one person at a time? 
+ Question 2: Is it possible for people to love 2 person at the same time? [ID: 238752]
+ ##### 
+136. Question 1: What is Basho? 
+ Question 2: Does Riak support Apache Spark? [ID: 309733]
+ ##### 
+137. Question 1: What's the most frustrating thing in your life? 
+ Question 2: What is the most frustrating thing in your life? [ID: 243841]
+ ##### 
+138. Question 1: Who is the most overrated figure in Bollywood? 
+ Question 2: Who is the most overrated Bollywood actress? [ID: 97934]
+ ##### 
+139. Question 1: What are the best jobs after completing mechanical engineering? 
+ Question 2: What is the best field in mechanical engineering after completing a Bachelor's of Engineering? [ID: 35770]
+ ##### 
+140. Question 1: How improve my english mail writing skills? 
+ Question 2: How can I improve my English vocabulary and writing skills? [ID: 288031]
+ ##### 
+141. Question 1: How much Indian population can speak basic English? 
+ Question 2: What percentage of people in India speak English? [ID: 349823]
+ ##### 
+142. Question 1: How does slab pull occur? 
+ Question 2: Why does a slab pull happen? [ID: 215566]
+ ##### 
+143. Question 1: Which is the best Carrier air conditioner service center in Hyderabad? 
+ Question 2: Where is the best Carrier air conditioner service center in Hyderabad? [ID: 45283]
+ ##### 
+144. Question 1: What is the best ad provider for Windows phone apps in India? 
+ Question 2: What is the best app for a Windows phone to start doing yoga? [ID: 129508]
+ ##### 
+145. Question 1: How much do YouTubers make when each of their videos get 50k, 100k, 500k, 1m, and 1.5m views? 
+ Question 2: If I had 1 million YouTube subscribers and averaged 300,000 views per video with 20k likes and uploaded twice a day, how much money would I make a day? [ID: 155471]
+ ##### 
+146. Question 1: What is the salary of a professor in India? 
+ Question 2: What is the salary of professors in india? [ID: 207600]
+ ##### 
+147. Question 1: Can 2000 rupees notes will be helpful for stop black money market? 
+ Question 2: How will the introduction of new 2000 rupee notes help in curbing the black money? [ID: 318585]
+ ##### 
+148. Question 1: Is sushi cultural appropriation? 
+ Question 2: "Why is Xi Jingping wearing a suit fine, but western fashion models wearing dreadlocks condemned as ""cultural appropriation""?" [ID: 266767]
+ ##### 
+149. Question 1: What do teenage boys think about girls? 
+ Question 2: What do teenage boys think when a girl stares at them? [ID: 271834]
+ ##### 
+150. Question 1: How can I get rid of acne and scars? 
+ Question 2: How do I to get rid of acne scars? [ID: 255468]
+ ##### 
+151. Question 1: What's the difference between gyros, shawarma, döner & kebab? 
+ Question 2: "What's the difference between a kebab ""sandwich"" and a doner kebab?" [ID: 244507]
+ ##### 
+152. Question 1: I how to hack a DNS? 
+ Question 2: Do most superstitions originate from some form of religious belief? What are some examples? [ID: 112207]
+ ##### 
+153. Question 1: What is the best advice you were given when you started your own company? 
+ Question 2: What was some of the best advice you got when starting your own business? [ID: 91055]
+ ##### 
+154. Question 1: What is the best face cream for fairer, smoother and clearer skin for men? 
+ Question 2: What is a good face wash for girls for fairer, smoother skin? [ID: 216836]
+ ##### 
+155. Question 1: How do I make $1 billion in a year? 
+ Question 2: How do I make a billion dollars in a year? [ID: 185061]
+ ##### 
+156. Question 1: How often does Netflix add new titles to their streaming collection? 
+ Question 2: What's the best way to be informed of all new titles that become available on Netflix Instant streaming? [ID: 317540]
+ ##### 
+157. Question 1: What are the ethical issues surrounding surrogate pregnancies? 
+ Question 2: What ethical issues surround drones being used by journalists? [ID: 352128]
+ ##### 
+158. Question 1: My husband has been diagnosed with Stage IV non-small cell lung cancer (NSCLC). Within a week, he underwent CyberKnife treatment. Chemo next, then radiation. Is the speed an indication of life expectancy? 
+ Question 2: What is the prognosis for stage 4 lung cancer? [ID: 104165]
+ ##### 
+159. Question 1: How was Naruto able to achieve Sage of the Six Paths mode? 
+ Question 2: What is the Sage of Six Paths mode in Naruto? [ID: 300216]
+ ##### 
+160. Question 1: What were some of the social consequences of the American Civil War? 
+ Question 2: What were the causes and consequences of the American Civil War? [ID: 71495]
+ ##### 
+161. Question 1: Are Secret Service agents that protect politicians chosen for duty by their political affiliation? 
+ Question 2: Can a Secret Service agent's political views interfere with their duty? [ID: 148440]
+ ##### 
+162. Question 1: How can I improve my psychic abilities? 
+ Question 2: How do I hone my psychic abilities? [ID: 180621]
+ ##### 
+163. Question 1: Where can I find the uncut, uncensored Fifty Shades of Grey movie online? 
+ Question 2: What's the best way to see Fifty Shades of Grey by streaming? [ID: 189825]
+ ##### 
+164. Question 1: Does the Money saved from Salaried Income will be considered as black Money? 
+ Question 2: How is Jatropha genetically modified? [ID: 116304]
+ ##### 
+165. Question 1: What are the advantages of recursion in C++ & for what purpose do we use recursion? 
+ Question 2: How can I find the maximum of a matrix using recursive functions in C? [ID: 45717]
+ ##### 
+166. Question 1: How should I talk to the boy I like? 
+ Question 2: How should I talk to the girl I like? [ID: 290123]
+ ##### 
+167. Question 1: Why does biodiesel produce less amount of CO2? 
+ Question 2: Why does biodiesel do not produce CO2? [ID: 312343]
+ ##### 
+168. Question 1: Using virtual reality technology, is it possible to feel someone touching you without physically being in the same room as that person? 
+ Question 2: What are the advantages of using Zend framework? [ID: 307149]
+ ##### 
+169. Question 1: How do Macbeth and Lady Macbeth compare to each other in Shakespeare's play? 
+ Question 2: How much time is required to prepare for CBSE 12? [ID: 306767]
+ ##### 
+170. Question 1: Are there any Sikhs with Delhi ancestry, and no Punjab relations? 
+ Question 2: Have sikhs failed to create a casteless society in Punjab ? [ID: 130153]
+ ##### 
+171. Question 1: Is it safe to invest in social trade biz? 
+ Question 2: What are the facts about social trade.biz? [ID: 184478]
+ ##### 
+172. Question 1: What are some startups that your venture invested in? 
+ Question 2: What startup should I invest in? [ID: 82761]
+ ##### 
+173. Question 1: Why are American Saltwater Taffy candies imported in Japan? 
+ Question 2: Why is Saltwater Taffy candy imported in Mexico? [ID: 314978]
+ ##### 
+174. Question 1: Which are the best sites for IAS preparation? 
+ Question 2: Which is the best coaching for IAS preparation? [ID: 228566]
+ ##### 
+175. Question 1: Would you like to live in the Philippines? 
+ Question 2: What is it like to live in the Philippines? [ID: 93193]
+ ##### 
+176. Question 1: How can I find the right girl to get married? 
+ Question 2: How do I find the right girl for me? [ID: 304224]
+ ##### 
+177. Question 1: What are the highest paid jobs in India? 
+ Question 2: Which are the highest paid jobs in India? [ID: 289253]
+ ##### 
+178. Question 1: There are no item to show in this view in outlook 2007 inbox? 
+ Question 2: Why is Salesforce for the Outlook sidebar not showing up in Outlook 2007? [ID: 113020]
+ ##### 
+179. Question 1: Which is the best app to download games? 
+ Question 2: What is the best app for downloading games? [ID: 123204]
+ ##### 
+180. Question 1: What is the cost of a balcony of a Office Building in relationship to the inside of the Building? 
+ Question 2: Is it worth to spend 9 lakhs on alpha diesel baleno? [ID: 64291]
+ ##### 
+181. Question 1: Can you pass a urine test for meth in 6 months? 
+ Question 2: Can meth be detected in urine after nine days? [ID: 246759]
+ ##### 
+182. Question 1: Why did globalisation happen when it did? 
+ Question 2: What policies are adopted by Apple for music player and PC? [ID: 146393]
+ ##### 
+183. Question 1: Which according to you is the best movie of all time? Select only one choice. 
+ Question 2: Which are best movie in history? [ID: 179428]
+ ##### 
+184. Question 1: Where can I find kitchen cabinets? 
+ Question 2: What should I consider for kitchen cabinets for remodeling? [ID: 100596]
+ ##### 
+185. Question 1: How do I get more traffic on my website? 
+ Question 2: How do I increase organic traffic to website? [ID: 25019]
+ ##### 
+186. Question 1: How can I slowly lose weight? 
+ Question 2: How can I lose weight safely? [ID: 234242]
+ ##### 
+187. Question 1: How many meters above sea level is New Orleans? How does effect the local weather patterns? 
+ Question 2: How many meters above sea level is New York? How does effect the local weather patterns? [ID: 61810]
+ ##### 
+188. Question 1: "In your opinion, why is our society so obsessed with ""making lots of money?""" 
+ Question 2: Do you think that capitalism assumes that only people who are already abundantly well off or qualified should feel encouraged to start new companies? [ID: 184908]
+ ##### 
+189. Question 1: What does chlorophyll do? 
+ Question 2: What are exactly chlorophyll? [ID: 281053]
+ ##### 
+190. Question 1: If A implies B and B implies A, then is A equivalent to B? 
+ Question 2: Does f(a) - a < 0 < f(b) - b, imply that f(a) < a+b < f(b)? [ID: 50070]
+ ##### 
+191. Question 1: What patents does the Apple appstore have? 
+ Question 2: How can I buy Canadian TV shows on Apple AppStore? I setup a secondary Apple account but it needed a Canadian credit card to buy stuff. [ID: 206134]
+ ##### 
+192. Question 1: What were some of the most important scenes in the history of special effects? 
+ Question 2: What movie is considered to have the most impressive special effects of all time? [ID: 73550]
+ ##### 
+193. Question 1: What is the “nature” of human nature? 
+ Question 2: What is human nature? [ID: 285765]
+ ##### 
+194. Question 1: If our brain treats our future self like a stranger, how can I convince myself to care more about the me-to-be? 
+ Question 2: How can I talk to the girl I like if I have self esteem issues? Is there a way to feel more confident when speaking to her? [ID: 122601]
+ ##### 
+195. Question 1: What are the determinants of market structure? 
+ Question 2: What is the best way to determine market structure? [ID: 238804]
+ ##### 
+196. Question 1: Can people tag you on a photo if you have deactivated your Facebook account? 
+ Question 2: Will reactivating a deactivated Facebook account ensure that all photos, tags, and other content returns? [ID: 228341]
+ ##### 
+197. Question 1: How do endangered species affect the environment? 
+ Question 2: Why is it important to protect endangered species? [ID: 349572]
+ ##### 
+198. Question 1: Will demonetization of Rs. 500 & 1000 currency notes curb/eliminate corruption, black money and terrorism in India? 
+ Question 2: How does banning 500 & 1000 rupee notes solve black money problem? [ID: 298709]
+ ##### 
+199. Question 1: With which countries does Mexico have extradition treaties? 
+ Question 2: Which are the countries that have no extradition treaty with India? [ID: 219746]
+ ##### 
+200. Question 1: How is the life of a air pilot? 
+ Question 2: How is the life of pilot? [ID: 351906]
+ ##### 
+201. Question 1: What are examples of opportunistic infections? 
+ Question 2: What are 5 opportunistic infections and the organs they usually attack? [ID: 239308]
+ ##### 
+202. Question 1: Would Indian men prefer a cute woman or a hot, sexy woman? 
+ Question 2: What are some of the misconceptions you have which you got from watching porn? [ID: 112592]
+ ##### 
+203. Question 1: Why is there a dispute over territory and rights in the South China Sea? 
+ Question 2: What is South China sea conflict all about? [ID: 171041]
+ ##### 
+204. Question 1: What effect does Donald Trump's campaign have on his other business? 
+ Question 2: What effect would Trump's campaign and utterances have on his future or even exiting business dealings? [ID: 33733]
+ ##### 
+205. Question 1: Why is watching someone give a foot massage and giving a foot massage different? 
+ Question 2: Why is giving a foot massage and watching a guy give a girl a foot massage different? [ID: 184880]
+ ##### 
+206. Question 1: What advantage does a lone fighter have over a large enemy force? 
+ Question 2: How does the Chinese J-20 stealth fighter aircraft compare to the U.S. Air Force F-22A Raptor? [ID: 288993]
+ ##### 
+207. Question 1: Can any one authenticate about the gov’t plans on eProperty pass book? 
+ Question 2: Leaving sci-fi aside, how the story in cyclic movies like Interestelar, could have started? [ID: 209502]
+ ##### 
+208. Question 1: What are the health benefits of herbal tea? 
+ Question 2: What are the benefits of drinking natural herbal tea? [ID: 348874]
+ ##### 
+209. Question 1: What is the average shower head flow rate? 
+ Question 2: What is a shower head flow rate? [ID: 162073]
+ ##### 
+210. Question 1: What's the best thing to eat/drink after a long run? 
+ Question 2: What is the best thing to eat after after a long run? [ID: 29735]
+ ##### 
+211. Question 1: What is the best TV show of all time, and why? 
+ Question 2: Which is the best TV series you have ever watched? [ID: 195876]
+ ##### 
+212. Question 1: What is Cisco 3.0? 
+ Question 2: What is Cisco IOS? [ID: 80968]
+ ##### 
+213. Question 1: What's a really good pizza recipe? 
+ Question 2: What are some good pizza recipes? [ID: 214440]
+ ##### 
+214. Question 1: What if India and Pakistan went on war today? 
+ Question 2: What happens if a war between India and Pakistan were to take place? [ID: 138858]
+ ##### 
+215. Question 1: What is Modi's luck called in India? 
+ Question 2: How is India changing under Modi Government? [ID: 307673]
+ ##### 
+216. Question 1: What's the hardest question you've ever asked yourself? 
+ Question 2: What was the hardest question you have ever answered? [ID: 2819]
+ ##### 
+217. Question 1: Can sexual reproduction in algae occur by similar sexual cells? 
+ Question 2: What could be few of Six sigma Deployment challanges? [ID: 129804]
+ ##### 
+218. Question 1: Will the NBA have dominant centers some day? 
+ Question 2: Who is the best center to ever play in the NBA? [ID: 113502]
+ ##### 
+219. Question 1: "What does ""Processed Through Sort Facility"" mean for USPS?" 
+ Question 2: How fast is USPS mail? [ID: 22880]
+ ##### 
+220. Question 1: How can a G+ newbie start using this tool correctly and get small results with G+ for marketing? 
+ Question 2: How can a small startup like Acorn (microfinance app) make money while charging no commissions on transactions and create tie ups with banks for free bank transfers for small amounts (e.g. $5)? [ID: 342619]
+ ##### 
+221. Question 1: Different types of yogas? 
+ Question 2: After withdrawing from antidepressant, I have not felt my reward system light up in a long time. Will I ever feel it again? [ID: 160323]
+ ##### 
+222. Question 1: What vertebrate animals will enter people's homes out of their own will? 
+ Question 2: Which animal walks on two legs as a man? [ID: 114414]
+ ##### 
+223. Question 1: What is #include<conio.h>? 
+ Question 2: Why do we use conio.h? [ID: 232143]
+ ##### 
+224. Question 1: How can I forward received messages from WhatsApp to my PC? 
+ Question 2: What are some ways of forwarding multiple messages from WhatsApp into other applications on my phone? [ID: 119937]
+ ##### 
+225. Question 1: What should a 1st year know of its branch? 
+ Question 2: Which DB DBA course is best for future and has many job opportunities? [ID: 20013]
+ ##### 
+226. Question 1: Should I worry about being 26 and single? 
+ Question 2: Should I be worried that I'm 27 and still single? [ID: 156064]
+ ##### 
+227. Question 1: What social trade business? 
+ Question 2: What is Social trade business? [ID: 341824]
+ ##### 
+228. Question 1: How are ionic bonds formed? 
+ Question 2: What are ionic bonds and how are they formed and by what? [ID: 219095]
+ ##### 
+229. Question 1: What is market risk (beta) in securities market? 
+ Question 2: What is a National Institute of Securities Markets (NISM) certification? [ID: 201829]
+ ##### 
+230. Question 1: What were the major effects of the cambodia earthquake, and how do these effects compare to the Tohoku earthquake in 2011? 
+ Question 2: What were the major effects of the cambodia earthquake, and how do these effects compare to the Banda Sea earthquake in 1938? [ID: 5632]
+ ##### 
+231. Question 1: What is a pacjage in Java? Give example of a context where you would need to breakdown yourr task into a number of packages 
+ Question 2: What is a package in Java? Give example of a context where you would need to breakdown your task into a number of packages. [ID: 146523]
+ ##### 
+232. Question 1: Who was Shirdi's Sai Baba? 
+ Question 2: Was Shirdi Sai Baba of African (Siddi) descent? [ID: 206714]
+ ##### 
+233. Question 1: What is the difference between lorazepam and hydrocodone? 
+ Question 2: What happens when your family dies? [ID: 334937]
+ ##### 
+234. Question 1: Has the sun set on the British Empire? If so, what caused its downfall? 
+ Question 2: What caused the Songhai Empire to fall? [ID: 2172]
+ ##### 
+235. Question 1: Which is the best phone to buy under 12k? 
+ Question 2: Which is best phone to buy under ₹ 15,000? [ID: 17531]
+ ##### 
+236. Question 1: How should one best prepare for IAS examination? 
+ Question 2: How should I prepare myself for civil services examination? [ID: 42527]
+ ##### 
+237. Question 1: How does it feel to get back an ex-gf after waiting for more than 1 year? 
+ Question 2: I love my ex still, how do I get her back after a year? [ID: 169208]
+ ##### 
+238. Question 1: How do you root an Android tablet? 
+ Question 2: How can I root my Android 5.1 device? [ID: 174340]
+ ##### 
+239. Question 1: "What are some sentence examples using ""iniquitous""?" 
+ Question 2: "What are some sentence examples using ""retribution""?" [ID: 155490]
+ ##### 
+240. Question 1: What are some unusual hobbies you have? 
+ Question 2: What are some unusual hobbies that you have? [ID: 157012]
+ ##### 
+241. Question 1: What type of questions given to test at Infosys during training period? 
+ Question 2: What type of questionsgiven to test at Infosys during training period? [ID: 276784]
+ ##### 
+242. Question 1: Product Marketing: How much does it cost to run a full front page ad campaign on a national newspaper like Times of India? 
+ Question 2: What is the name of the best advertising agency in South Delhi? [ID: 218710]
+ ##### 
+243. Question 1: How can I learn screenwriting? 
+ Question 2: What are good ways to learn how to become a screenwriter? [ID: 263129]
+ ##### 
+244. Question 1: Is there a ratio of shoe size to height? 
+ Question 2: Does shoe size correlate with height? [ID: 94027]
+ ##### 
+245. Question 1: What are the symptoms of marijuana Withdrawal? 
+ Question 2: What are some of the withdrawal symptoms of stopping heavy marijuana use? [ID: 351234]
+ ##### 
+246. Question 1: Can a website make someone a millionaire? 
+ Question 2: What is the weirdest way someone has become a millionaire? [ID: 298223]
+ ##### 
+247. Question 1: How long does a woman's orgasm usually last? 
+ Question 2: Can women reach an orgasm from anal sex? [ID: 33681]
+ ##### 
+248. Question 1: What are some good cigars for me? 
+ Question 2: What are some good cigars? [ID: 131070]
+ ##### 
+249. Question 1: How can we expect Hillary Clinton to run the country with 500+ million if she cant control her husband bill? 
+ Question 2: Hillary Clinton stayed with her husband after his affair. Does she really have the guts to be president? [ID: 284955]
+ ##### 
+250. Question 1: What is the best smartphone within 8000? 
+ Question 2: What's the best smartphone within Rs. 8000? [ID: 315975]
+ ##### 
+251. Question 1: Strep b when pregnant? 
+ Question 2: What is our gluteus maximus' antagonist muscle? [ID: 3427]
+ ##### 
+252. Question 1: How does it feel to fall out of love? 
+ Question 2: How do yo fall out of love with someone? [ID: 306555]
+ ##### 
+253. Question 1: How do I contact a real hacker? 
+ Question 2: Where can I find a professional hacker? [ID: 248172]
+ ##### 
+254. Question 1: What is an easy way to commit suicide? 
+ Question 2: What is the most painless way to do a suicide? [ID: 95128]
+ ##### 
+255. Question 1: What's the difference between slang and colloquialisms? 
+ Question 2: "Slang: Colloquially, what does ""going off"" mean?" [ID: 138208]
+ ##### 
+256. Question 1: What are the differences between the Audio Technica ATH-M20X, M30X and M40X? Are there any major differences, or would the M20X do just as well? 
+ Question 2: Does the Audio Technica ATH-M20x supports smartphones? Is there any better alternatives? [ID: 350253]
+ ##### 
+257. Question 1: In Global Pollution India is one of the chief Culprits…? Is it True…? 
+ Question 2: What will be the indias pollution rate in future? Will it kill humans one day? [ID: 50110]
+ ##### 
+258. Question 1: What do you think about Chinese university students? 
+ Question 2: What do you think of the student in Chinese universities? [ID: 214965]
+ ##### 
+259. Question 1: I'm getting 127 marks in the JEE Main 2015 with 91% CBSE, OBC category from the UP state. Can I get admitted in Thapar University? 
+ Question 2: I got a 186 in the JEE Mains and got a 92.4% in the CBSE board. I'm from the OBC category. Will I get IIIT Allahabad? [ID: 344626]
+ ##### 
+260. Question 1: I want to re-architect a monolithic application to microservices. How can I do it? 
+ Question 2: How can I refactor a monolithic application into microservices? [ID: 223926]

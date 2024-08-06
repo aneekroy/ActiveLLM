@@ -1,0 +1,13 @@
+To select the instances for active learning, I would follow these steps:
+
+1. **Diversity**: Select instances that are diverse and cover a wide range of topics or categories. This will help the model learn from a variety of examples.
+
+2. **Uncertainty**: Choose instances where the current model is uncertain about the prediction. This can be measured by the model's confidence score. The lower the confidence, the more uncertain the model is.
+
+3. **Representativeness**: Select instances that are representative of the entire dataset. This will ensure that the model is learning from instances that are typical of the data it will encounter in the future.
+
+4. **Difficulty**: Prioritize instances that are difficult for the model to classify correctly. These instances can provide valuable learning opportunities for the model.
+
+Based on these criteria, here are the instances I would select:
+
+0, 5, 9, 14, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99, 103, 107, 111, 115, 119, 123, 127

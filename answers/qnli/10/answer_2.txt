@@ -1,0 +1,17 @@
+To select the most informative instances for labeling by a human annotator, I would follow these steps:
+
+1. **Diversity**: Ensure a wide range of topics and types of questions are represented. This avoids bias in the dataset towards certain subjects or question formats.
+
+2. **Difficulty**: Prioritize instances that appear challenging or ambiguous, as these will provide more value in training the model. Simple or very clear instances may not contribute as much to the model's learning.
+
+3. **Representation**: Choose instances that represent different styles of questioning and answering. This includes direct questions, inferential questions, and those requiring a deeper understanding of context.
+
+4. **Balance**: Maintain a balance between instances where the answer is clearly contained in the sentence and those where the answer requires external knowledge or inference.
+
+5. **Uniqueness**: Select unique instances that add new information or perspectives to the dataset, avoiding redundant or very similar instances.
+
+Based on these criteria, I would select the following instances:
+
+0, 3, 4, 5, 7, 8, 9, 10, 13, 14, 16, 17, 19, 20, 21, 23, 24, 26, 27, 29, 31, 33, 34, 37, 38, 40, 42, 43, 45, 46, 48, 50
+
+This selection includes a variety of topics (history, music, geography, technology, politics, science), different types of questions (direct, inferential, contextual), and a balance between clear and ambiguous instances.

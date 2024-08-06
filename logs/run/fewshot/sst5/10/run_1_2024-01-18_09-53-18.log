@@ -1,0 +1,8 @@
+09:53:20,670 filelock INFO Lock 1592453194416 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___sst5_default_0.0.0_e51bdcd8cd3a30da231967c1a249ba59361279a3.lock
+09:53:20,675 filelock INFO Lock 1592453194416 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___sst5_default_0.0.0_e51bdcd8cd3a30da231967c1a249ba59361279a3.lock
+09:53:20,676 filelock INFO Lock 1591749248528 acquired on C:/Users/marku/.cache/huggingface/datasets/SetFit___sst5/default/0.0.0/e51bdcd8cd3a30da231967c1a249ba59361279a3_builder.lock
+09:53:20,677 filelock INFO Lock 1591749248528 released on C:/Users/marku/.cache/huggingface/datasets/SetFit___sst5/default/0.0.0/e51bdcd8cd3a30da231967c1a249ba59361279a3_builder.lock
+09:53:20,797 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:53:21,442 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:53:53,695 root INFO Training results:
+09:53:54,841 root INFO {'eval_Corr: ': 0.6600315288947478}

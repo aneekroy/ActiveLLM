@@ -1,0 +1,25 @@
+To select the most informative instances for labeling, I'll employ a strategy that aims to maximize the diversity and representativeness of the sample from the dataset. This approach is particularly effective when working with a limited labeling budget. The steps are as follows:
+
+1. **Diversity in Sentiment**: Ensure a mix of positive, negative, and neutral sentiments. This is crucial for a balanced understanding of the dataset's sentiment distribution.
+
+2. **Variety in Content**: Choose instances that cover a wide range of topics or themes, avoiding redundancy.
+
+3. **Complexity of Sentences**: Include instances with varying levels of linguistic complexity. This helps in understanding different levels of sentence construction and vocabulary usage.
+
+4. **Unusual or Ambiguous Cases**: Include a few instances that are ambiguous or unusual in sentiment or content. These cases often provide valuable insights during model training.
+
+5. **Length of Instances**: A mix of short and long sentences should be chosen to understand the model's performance across different sentence lengths.
+
+Based on these criteria, I'll select 20 instances from the provided list:
+
+1. **Diverse Sentiments**: 1, 2, 4, 6, 11, 16, 17, 22, 25, 27, 34, 35, 55, 61, 69, 70, 88, 95, 99, 110.
+
+2. **Variety in Content**: I've chosen sentences that seem to cover a wide range of content from different types of movies and critiques.
+
+3. **Complexity**: Sentences like 2, 27, 34, 35, and 88 seem more complex in construction compared to others.
+
+4. **Ambiguous Cases**: Instances like 1, 17, and 95 appear to be more ambiguous or nuanced in their sentiment.
+
+5. **Sentence Length**: The chosen instances include a mix of short and long sentences.
+
+Based on this approach, the instances I would label are: 1, 2, 4, 6, 11, 16, 17, 22, 25, 27, 34, 35, 55, 61, 69, 70, 88, 95, 99, 110.

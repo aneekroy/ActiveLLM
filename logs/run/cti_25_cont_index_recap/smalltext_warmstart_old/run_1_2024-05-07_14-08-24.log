@@ -1,0 +1,14 @@
+14:23:24,7 root INFO Training results:
+14:23:38,698 root INFO {'eval_loss': 0.7179672122001648, 'eval_Accuracy: ': 0.8452579034941764, 'eval_F1: ': 0.8521462639109698, 'eval_Precision_1: ': 0.8617363344051447, 'eval_Recall_1: ': 0.8427672955974843, 'eval_Precision_0: ': 0.8275862068965517, 'eval_Recall_0: ': 0.8480565371024735, 'eval_Correlation: ': 0.6900727787331659, 'eval_runtime': 14.6795, 'eval_samples_per_second': 40.942, 'eval_steps_per_second': 0.136, 'epoch': 25.0}
+14:40:40,453 root INFO Training results:
+14:41:10,788 root INFO {'eval_loss': 0.5024319291114807, 'eval_Accuracy: ': 0.8685524126455907, 'eval_F1: ': 0.8681135225375626, 'eval_Precision_1: ': 0.8360128617363344, 'eval_Recall_1: ': 0.9027777777777778, 'eval_Precision_0: ': 0.903448275862069, 'eval_Recall_0: ': 0.8370607028753994, 'eval_Correlation: ': 0.7396497850624123, 'eval_runtime': 30.0935, 'eval_samples_per_second': 19.971, 'eval_steps_per_second': 0.066, 'epoch': 25.0}
+14:58:31,657 root INFO Training results:
+14:59:04,811 root INFO {'eval_loss': 0.8346520662307739, 'eval_Accuracy: ': 0.7770382695507487, 'eval_F1: ': 0.7957317073170732, 'eval_Precision_1: ': 0.8392282958199357, 'eval_Recall_1: ': 0.7565217391304347, 'eval_Precision_0: ': 0.7103448275862069, 'eval_Recall_0: ': 0.8046875, 'eval_Correlation: ': 0.5553607065982412, 'eval_runtime': 33.1395, 'eval_samples_per_second': 18.135, 'eval_steps_per_second': 0.06, 'epoch': 25.0}
+15:15:43,502 root INFO Training results:
+15:16:13,544 root INFO {'eval_loss': 0.7050026655197144, 'eval_Accuracy: ': 0.7903494176372712, 'eval_F1: ': 0.8168604651162792, 'eval_Precision_1: ': 0.9035369774919614, 'eval_Recall_1: ': 0.7453580901856764, 'eval_Precision_0: ': 0.6689655172413793, 'eval_Recall_0: ': 0.8660714285714286, 'eval_Correlation: ': 0.5916459455130649, 'eval_runtime': 30.0258, 'eval_samples_per_second': 20.016, 'eval_steps_per_second': 0.067, 'epoch': 25.0}
+15:33:36,309 root INFO Training results:
+15:34:09,710 root INFO {'eval_loss': 0.5049441456794739, 'eval_Accuracy: ': 0.8635607321131448, 'eval_F1: ': 0.8660130718954249, 'eval_Precision_1: ': 0.8520900321543409, 'eval_Recall_1: ': 0.8803986710963455, 'eval_Precision_0: ': 0.8758620689655172, 'eval_Recall_0: ': 0.8466666666666667, 'eval_Correlation: ': 0.7275085843314868, 'eval_runtime': 32.9888, 'eval_samples_per_second': 18.218, 'eval_steps_per_second': 0.061, 'epoch': 25.0}
+15:34:09,710 root INFO Acc:[0.8452579034941764, 0.8685524126455907, 0.7770382695507487, 0.7903494176372712, 0.8635607321131448]
+15:34:09,710 root INFO Acc:0.8289517470881863
+15:34:09,710 root INFO F1:[0.8521462639109698, 0.8681135225375626, 0.7957317073170732, 0.8168604651162792, 0.8660130718954249]
+15:34:09,710 root INFO F1:0.8397730061554618

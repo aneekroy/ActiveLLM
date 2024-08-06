@@ -1,0 +1,13 @@
+To select the most informative instances for labeling by a human annotator in an active learning context, I would consider several factors:
+
+1. **Relevance and Diversity:** Choose instances that cover a wide range of topics and types of questions, ensuring a diverse and comprehensive dataset.
+2. **Difficulty or Ambiguity:** Select instances where the question and the corresponding sentence seem to have a complex or less straightforward relationship, as these cases might benefit more from human annotation.
+3. **Representation of Different Categories:** If the dataset has underlying categories or themes, ensure representation from each category.
+4. **Avoid Redundancy:** Avoid selecting instances that are very similar to each other.
+5. **Potential for Learning:** Prioritize instances that seem to provide the most informative or challenging scenarios for the model to learn from.
+
+Based on these criteria, the following instances are selected:
+
+0, 2, 5, 6, 8, 10, 14, 16, 19, 21, 23, 26, 30, 33, 36, 38, 42, 46, 49, 51, 53, 56, 60, 63, 67, 70, 73, 76, 80, 85, 90, 95
+
+This selection aims to provide a broad and challenging set of instances for the annotator, facilitating effective learning and improvement of the model.

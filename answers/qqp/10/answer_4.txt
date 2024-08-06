@@ -1,0 +1,17 @@
+To select the most informative instances for a human annotator to label, I would consider a few key strategies:
+
+1. **Diversity of Topics**: Ensure that the selected instances cover a wide range of topics. This helps in creating a balanced and comprehensive dataset.
+
+2. **Complexity and Ambiguity**: Choose questions that are either complex or have some level of ambiguity. These instances are likely to benefit more from human annotation as they might be challenging for automated systems.
+
+3. **Representativeness**: Select instances that are representative of the overall dataset. This includes considering the frequency of certain types of questions.
+
+4. **Variability in Answers**: Instances where answers might vary greatly or where there's a potential for multiple interpretations are valuable for human annotation.
+
+5. **Quality of Questions**: Choose well-structured and clear questions. Poorly formulated questions might lead to inconsistent labeling.
+
+Based on these criteria, I would select the following instances:
+
+0, 2, 4, 6, 9, 10, 12, 16, 17, 19, 21, 23, 25, 28, 32, 33, 35, 39, 41, 43, 46, 49, 53, 56, 62, 65, 69, 73, 77, 80, 89, 91
+
+These instances represent a diversity of topics, contain complex or ambiguous questions, and are likely to benefit significantly from human annotation.

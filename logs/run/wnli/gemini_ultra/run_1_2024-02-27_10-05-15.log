@@ -1,0 +1,26 @@
+10:05:19,600 filelock INFO Lock 2153086868064 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_wnli_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:05:19,600 filelock INFO Lock 2153086868064 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_wnli_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+10:05:19,615 filelock INFO Lock 2152382120288 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/wnli/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:05:20,927 filelock INFO Lock 2152382077056 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\df5a3859e8fea8048ed04dc58f2c23b4f24b335ec5080e324b6009baef977357.lock
+10:05:21,236 filelock INFO Lock 2152382077056 released on C:\Users\marku\.cache\huggingface\datasets\downloads\df5a3859e8fea8048ed04dc58f2c23b4f24b335ec5080e324b6009baef977357.lock
+10:05:21,377 filelock INFO Lock 2152382034848 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\fa40bae462c088168874c051782c2b7d2925ace0f189844e63b07638f3e7b15a.lock
+10:05:21,632 filelock INFO Lock 2152382034848 released on C:\Users\marku\.cache\huggingface\datasets\downloads\fa40bae462c088168874c051782c2b7d2925ace0f189844e63b07638f3e7b15a.lock
+10:05:21,843 filelock INFO Lock 2152382264032 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\69b1c102cfe4b23297e6e96aa8e1f2b9088054dda4d5a234067d0636ea99835e.lock
+10:05:22,103 filelock INFO Lock 2152382264032 released on C:\Users\marku\.cache\huggingface\datasets\downloads\69b1c102cfe4b23297e6e96aa8e1f2b9088054dda4d5a234067d0636ea99835e.lock
+10:05:22,125 filelock INFO Lock 2152382120960 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/wnli/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+10:05:22,125 filelock INFO Lock 2152382120960 released on C:/Users/marku/.cache/huggingface/datasets/glue/wnli/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+10:05:22,126 filelock INFO Lock 2152382120288 released on C:/Users/marku/.cache/huggingface/datasets/glue/wnli/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+10:05:27,736 root INFO Training results:
+10:05:27,843 root INFO {'eval_loss': 1.3719805479049683, 'eval_Accuracy: ': 0.43661971830985913, 'eval_F1: ': 0.48717948717948717, 'eval_Precision_1: ': 0.6129032258064516, 'eval_Recall_1: ': 0.40425531914893614, 'eval_Precision_0: ': 0.3, 'eval_Recall_0: ': 0.5, 'eval_Correlation: ': -0.09131841461785493, 'eval_runtime': 0.0925, 'eval_samples_per_second': 767.671, 'eval_steps_per_second': 10.812, 'epoch': 25.0}
+10:05:32,643 root INFO Training results:
+10:05:32,735 root INFO {'eval_loss': 1.4825048446655273, 'eval_Accuracy: ': 0.4225352112676056, 'eval_F1: ': 0.5591397849462366, 'eval_Precision_1: ': 0.8387096774193549, 'eval_Recall_1: ': 0.41935483870967744, 'eval_Precision_0: ': 0.1, 'eval_Recall_0: ': 0.4444444444444444, 'eval_Correlation: ': -0.09136621843547528, 'eval_runtime': 0.0912, 'eval_samples_per_second': 778.624, 'eval_steps_per_second': 10.967, 'epoch': 25.0}
+10:05:37,64 root INFO Training results:
+10:05:37,156 root INFO {'eval_loss': 0.9392237067222595, 'eval_Accuracy: ': 0.4084507042253521, 'eval_F1: ': 0.5434782608695652, 'eval_Precision_1: ': 0.8064516129032258, 'eval_Recall_1: ': 0.4098360655737705, 'eval_Precision_0: ': 0.1, 'eval_Recall_0: ': 0.4, 'eval_Correlation: ': -0.13337739444729943, 'eval_runtime': 0.0923, 'eval_samples_per_second': 769.529, 'eval_steps_per_second': 10.838, 'epoch': 25.0}
+10:05:41,722 root INFO Training results:
+10:05:41,828 root INFO {'eval_loss': 0.9501962661743164, 'eval_Accuracy: ': 0.43661971830985913, 'eval_F1: ': 0.574468085106383, 'eval_Precision_1: ': 0.8709677419354839, 'eval_Recall_1: ': 0.42857142857142855, 'eval_Precision_0: ': 0.1, 'eval_Recall_0: ': 0.5, 'eval_Correlation: ': -0.04553825555391872, 'eval_runtime': 0.0897, 'eval_samples_per_second': 791.597, 'eval_steps_per_second': 11.149, 'epoch': 25.0}
+10:05:46,257 root INFO Training results:
+10:05:46,363 root INFO {'eval_loss': 1.3831347227096558, 'eval_Accuracy: ': 0.4507042253521127, 'eval_F1: ': 0.5517241379310344, 'eval_Precision_1: ': 0.7741935483870968, 'eval_Recall_1: ': 0.42857142857142855, 'eval_Precision_0: ': 0.2, 'eval_Recall_0: ': 0.5333333333333333, 'eval_Correlation: ': -0.03135447206678482, 'eval_runtime': 0.0865, 'eval_samples_per_second': 820.355, 'eval_steps_per_second': 11.554, 'epoch': 25.0}
+10:05:46,364 root INFO Acc:[0.43661971830985913, 0.4225352112676056, 0.4084507042253521, 0.43661971830985913, 0.4507042253521127]
+10:05:46,364 root INFO Acc:0.4309859154929577
+10:05:46,364 root INFO F1:[0.48717948717948717, 0.5591397849462366, 0.5434782608695652, 0.574468085106383, 0.5517241379310344]
+10:05:46,364 root INFO F1:0.5431979512065412

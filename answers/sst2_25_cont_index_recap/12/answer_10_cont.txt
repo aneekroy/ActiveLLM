@@ -1,0 +1,21 @@
+Selecting instances for labeling in an active learning setting involves choosing the most informative examples that could help improve the model's performance. The goal is to pick instances that are diverse, representative of the dataset, and are likely to be uncertain or challenging for the current model to predict. Here's a step-by-step approach to selecting instances for labeling:
+
+1. **Diversity Sampling**: Choose instances that are diverse across the dataset to ensure a wide variety of examples. This helps the model learn from different contexts and nuances within the data.
+
+2. **Uncertainty Sampling**: Select instances where the model's prediction is uncertain. These examples are valuable because labeling them provides information that can significantly refine the model's decision boundaries.
+
+3. **Representativeness**: Pick instances that are representative of the overall dataset. This includes common cases as well as edge cases to ensure the model performs well across different scenarios.
+
+4. **Error Analysis**: Look for patterns in instances where the model currently makes mistakes, and choose examples similar to these to provide more information about difficult cases.
+
+5. **Stratified Sampling**: Ensure that the selection covers the different classes or categories in the dataset evenly, to avoid introducing bias towards a particular class.
+
+Given the instances listed and the indices of already labeled instances, we would aim to select a set of 25 new instances for labeling by applying the principles mentioned above. Since I can't analyze the content of each instance deeply or predict model uncertainties without specific model feedback, I'll focus on diversity and stratified sampling principles to ensure a broad coverage across different themes and sentiments expressed in the instances.
+
+Let's select a diverse set of instances based on their textual themes, ensuring we cover a range of sentiments, topics, and styles. Given the already labeled instances are spread across different themes, I'll aim to choose instances that add to the diversity of the labeled set, focusing on those not yet selected and ensuring we cover various aspects of the dataset.
+
+Based on the strategy of ensuring diversity and representativeness across the dataset, the following instances have been selected for labeling: 
+
+1, 176, 211, 243, 273, 303, 334, 365, 395, 425, 454, 481, 509, 537, 564, 593, 621, 649, 677, 706, 734, 762, 790, 817, 844.
+
+This selection aims to cover a broad range of sentiments, topics, and styles by evenly distributing the picks across the available instances not yet labeled.

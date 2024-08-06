@@ -1,0 +1,19 @@
+To effectively select the 25 instances for labeling, I'll adopt a strategy that aims to maximize the diversity and representativeness of the samples, enhancing the model's ability to generalize across the dataset. Here's the step-by-step process:
+
+1. **Understand the Domain and Data**: Review all instances to grasp the content, noticing any recurring themes or unique entries.
+
+2. **Diversity Sampling**: Prioritize diversity to ensure a wide variety of topics and sentiments are covered, which could improve the model's robustness.
+
+3. **Uncertainty Sampling**: Identify instances that could be ambiguous or carry nuanced meanings, as labeling these could provide valuable edge cases for model training.
+
+4. **Stratified Sampling**: If applicable, ensure that different subgroups of data (e.g., different types of security threats or technical issues) are equally represented.
+
+5. **Check for Redundancy**: Avoid selecting instances that are very similar to those already labeled, to maximize the new information gained from additional labeling.
+
+6. **Practical Constraints**: Ensure the selection fits within the limit of 25 instances, prioritizing those that seem most beneficial for model improvement based on the above criteria.
+
+Based on the criteria and reviewing the instances you provided, the chosen IDs for labeling, aiming to cover diverse topics about Microsoft Exchange vulnerabilities and responses, are:
+
+**0, 4, 9, 13, 17, 21, 24, 30, 34, 40, 47, 52, 58, 65, 72, 80, 89, 97, 106, 114, 123, 132, 143, 151, 160**
+
+This selection spans a range of topics from specific vulnerabilities and security updates, to broader industry reactions and preventive measures, ensuring a rich dataset for labeling.

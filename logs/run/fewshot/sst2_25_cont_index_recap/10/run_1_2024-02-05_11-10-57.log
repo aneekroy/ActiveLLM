@@ -1,0 +1,16 @@
+11:10:58,220 filelock INFO Lock 1612888011968 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\6315ffc2538e2f7a026f1edf4dc89488a0b1581244f06365a67d29e3f677ae28.2a68834d42622b6a5a53ccfa60ef536828f83a5e011882a000ccbdace73dd8ac.lock
+11:10:58,440 filelock INFO Lock 1612888011968 released on C:\Users\marku\.cache\huggingface\datasets\downloads\6315ffc2538e2f7a026f1edf4dc89488a0b1581244f06365a67d29e3f677ae28.2a68834d42622b6a5a53ccfa60ef536828f83a5e011882a000ccbdace73dd8ac.lock
+11:11:01,837 filelock INFO Lock 1613723850112 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_sst2_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+11:11:01,839 filelock INFO Lock 1613723850112 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_glue_sst2_0.0.0_bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.lock
+11:11:01,841 filelock INFO Lock 1613756277856 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/sst2/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+11:11:02,615 filelock INFO Lock 1613756226720 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\a531a91fec9104efb64466a1b57912233ee243aa1de5cbe6a1c45642333e4899.lock
+11:11:03,502 filelock INFO Lock 1613756226720 released on C:\Users\marku\.cache\huggingface\datasets\downloads\a531a91fec9104efb64466a1b57912233ee243aa1de5cbe6a1c45642333e4899.lock
+11:11:03,631 filelock INFO Lock 1613756036528 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\20be13c6ed68ffad9b6e0535c77967449aa1c61808348eacfc6114b0178639a3.lock
+11:11:03,900 filelock INFO Lock 1613756036528 released on C:\Users\marku\.cache\huggingface\datasets\downloads\20be13c6ed68ffad9b6e0535c77967449aa1c61808348eacfc6114b0178639a3.lock
+11:11:04,21 filelock INFO Lock 1613756416544 acquired on C:\Users\marku\.cache\huggingface\datasets\downloads\215861dee86309fdb9492a68ae4640bf01708f31253b35a9c3449e19aa2f111e.lock
+11:11:04,371 filelock INFO Lock 1613756416544 released on C:\Users\marku\.cache\huggingface\datasets\downloads\215861dee86309fdb9492a68ae4640bf01708f31253b35a9c3449e19aa2f111e.lock
+11:11:04,441 filelock INFO Lock 1613756013728 acquired on C:/Users/marku/.cache/huggingface/datasets/glue/sst2/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+11:11:04,442 filelock INFO Lock 1613756013728 released on C:/Users/marku/.cache/huggingface/datasets/glue/sst2/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c.incomplete_info.lock
+11:11:04,442 filelock INFO Lock 1613756277856 released on C:/Users/marku/.cache/huggingface/datasets/glue/sst2/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c_builder.lock
+11:11:04,600 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+11:11:05,722 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda

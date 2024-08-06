@@ -1,0 +1,28 @@
+09:47:53,195 filelock INFO Lock 1832491573936 acquired on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___cr_default_0.0.0_01e427e689e9d3a9097f85eab7a91ce937cf5f98.lock
+09:47:53,195 filelock INFO Lock 1832491573936 released on C:\Users\marku\.cache\huggingface\datasets\_Users_marku_.cache_huggingface_datasets_SetFit___cr_default_0.0.0_01e427e689e9d3a9097f85eab7a91ce937cf5f98.lock
+09:47:53,195 filelock INFO Lock 1831965489568 acquired on C:/Users/marku/.cache/huggingface/datasets/SetFit___cr/default/0.0.0/01e427e689e9d3a9097f85eab7a91ce937cf5f98_builder.lock
+09:47:53,195 filelock INFO Lock 1831965489568 released on C:/Users/marku/.cache/huggingface/datasets/SetFit___cr/default/0.0.0/01e427e689e9d3a9097f85eab7a91ce937cf5f98_builder.lock
+09:47:53,323 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:47:53,976 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:48:29,116 root INFO Training results:
+09:48:29,330 root INFO {'eval_Accuracy: ': 0.901595744680851, 'eval_F1: ': 0.9193899782135077, 'Precision_1: ': 0.8791666666666667, 'Recall_1: ': 0.9634703196347032, 'Precision_0: ': 0.9411764705882353, 'Recall_0: ': 0.8152866242038217, 'eval_Corr: ': 0.7992796222021021}
+09:48:29,460 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:48:30,39 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:49:04,474 root INFO Training results:
+09:49:04,684 root INFO {'eval_Accuracy: ': 0.901595744680851, 'eval_F1: ': 0.9193899782135077, 'Precision_1: ': 0.8791666666666667, 'Recall_1: ': 0.9634703196347032, 'Precision_0: ': 0.9411764705882353, 'Recall_0: ': 0.8152866242038217, 'eval_Corr: ': 0.7992796222021021}
+09:49:04,789 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:49:05,386 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:49:39,953 root INFO Training results:
+09:49:40,148 root INFO {'eval_Accuracy: ': 0.901595744680851, 'eval_F1: ': 0.9193899782135077, 'Precision_1: ': 0.8791666666666667, 'Recall_1: ': 0.9634703196347032, 'Precision_0: ': 0.9411764705882353, 'Recall_0: ': 0.8152866242038217, 'eval_Corr: ': 0.7992796222021021}
+09:49:40,273 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:49:40,859 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:50:15,389 root INFO Training results:
+09:50:15,587 root INFO {'eval_Accuracy: ': 0.901595744680851, 'eval_F1: ': 0.9193899782135077, 'Precision_1: ': 0.8791666666666667, 'Recall_1: ': 0.9634703196347032, 'Precision_0: ': 0.9411764705882353, 'Recall_0: ': 0.8152866242038217, 'eval_Corr: ': 0.7992796222021021}
+09:50:15,696 sentence_transformers.SentenceTransformer INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-mpnet-base-v2
+09:50:16,291 sentence_transformers.SentenceTransformer INFO Use pytorch device: cuda
+09:50:51,587 root INFO Training results:
+09:50:51,797 root INFO {'eval_Accuracy: ': 0.901595744680851, 'eval_F1: ': 0.9193899782135077, 'Precision_1: ': 0.8791666666666667, 'Recall_1: ': 0.9634703196347032, 'Precision_0: ': 0.9411764705882353, 'Recall_0: ': 0.8152866242038217, 'eval_Corr: ': 0.7992796222021021}
+09:50:51,797 root INFO Acc:[0.901595744680851, 0.901595744680851, 0.901595744680851, 0.901595744680851, 0.901595744680851]
+09:50:51,797 root INFO Acc:0.901595744680851
+09:50:51,797 root INFO F1:[0.9193899782135077, 0.9193899782135077, 0.9193899782135077, 0.9193899782135077, 0.9193899782135077]
+09:50:51,797 root INFO F1:0.9193899782135077

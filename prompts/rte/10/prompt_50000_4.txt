@@ -1,0 +1,989 @@
+Consider yourself in the position of an active learning component to help a human annotator. You have to choose the instances that the annotator has to label. You are given a set of instances of a dataset. You can only choose 32 instances. Please think step by step about what you would do to select the instances to label. After this provide the list of instances that you would label, separated by a comma. For example, if you would label the instances 1, 4, 5 then the output should be: 1, 4, 5 The following instances are given to you (seperated with "\n ##### \n"): 
+
+ ##### 
+0. Sentence 1: Startling new research into mobile phones claims they may reduce a man's sperm count by up to 30%. 
+ Sentence 2: Male fertility may be affected by use of a mobile phones. [ID: 56]
+ ##### 
+1. Sentence 1: With more than 223,000 refugees already in Texas, Perry said officials at relief centers, around the state, say they are running out of room. 
+ Sentence 2: With more than 220,000 refugees in Texas, Perry warned that his state was running out of room. [ID: 660]
+ ##### 
+2. Sentence 1: George Herbert Walker Bush (born June 12, 1924) is the former 41st President of the United States of America. Almost immediately upon his return from the war in December 1944, George Bush married Barbara Pierce. 
+ Sentence 2: The name of George H.W. Bush's wife is Barbara. [ID: 1887]
+ ##### 
+3. Sentence 1: Some large Russian oil companies, including Lukoil, Zarubezhneft, the state-owned oil company, and Alpha Eco, the trader, were implicated by the report. 
+ Sentence 2: Zarubezhneft trades in oil. [ID: 641]
+ ##### 
+4. Sentence 1: Global markets should be "quite strong enough to absorb it without lasting damage", he said . "I would stress that these circumstances are unique to Barings and should not apply to other banks operating in London." Barings faced losses of at least 600m in contracts on three stock exchanges in Singapore , Osaka and Tokyo , he said , but 'further unquantifiable losses' were expected . 
+ Sentence 2: The banking firm Barings collapsed due to speculations made by Nick Leeson. [ID: 1412]
+ ##### 
+5. Sentence 1: Prosecutors in South Africa are set to announce whether they will drop corruption charges against African National Congress leader Jacob Zuma. Mr Zuma is widely expected to become the country's next president after elections later this month. He is accused of graft, racketeering and money-laundering in connection with an arms deal signed with western companies in 1999. The 66-year-old denies the charges and says they are part of a political plot. Mr Zuma was first charged in 2005, but has yet to face trial. 
+ Sentence 2: Jacob Zuma is 66 years old. [ID: 2221]
+ ##### 
+6. Sentence 1: What is certain, however, is that around 120,000 years ago, at least, the modern Homo sapiens first appeared and lived contemporaneously with the Neanderthal for at least 90,000 years, until the Neanderthal disappeared 30,000 years ago. 
+ Sentence 2: Humans existed 10,000 years ago. [ID: 1408]
+ ##### 
+7. Sentence 1: This paper discusses marijuana, crack/cocaine, tranquilizers, hallucinogens, amphetamines, heroin, alcohol, nicotine and caffeine to provide a framework for the author's argument that the legalization of drugs can in no way be deemed as ethical or moral. 
+ Sentence 2: Drug legalization has benefits. [ID: 200]
+ ##### 
+8. Sentence 1: FermiLab's goal is to ensure that if a program runs and is certified on RedHat Enterprise, then it will run on the corresponding Fermi Linux LTS release. They have built Fermi Linux LTS for Fermilab's use, and that is their ultimate goal. 
+ Sentence 2: FermiLab created Linux LTS. [ID: 2425]
+ ##### 
+9. Sentence 1: The news comes as the owners of Kilroot announced plans to install clean-up equipment at the plant near Carrickfergus at a cost of Â£35 million. 
+ Sentence 2: Owners announced plans to sell clean-up equipment. [ID: 2065]
+ ##### 
+10. Sentence 1: These early men learned to make fire. They traveled over land bridges from Africa, and began to populate the world, about 1 million years ago. 
+ Sentence 2: Humans existed 10,000 years ago. [ID: 2385]
+ ##### 
+11. Sentence 1: The eighth Paralympic Winter Games are set to take place in Salt Lake City, Utah. For only the second time the Games are being held outside Europe, following the 1998 Winter Paralympics in Nagano, Japan. And for the first time ever, there is just one combined organising committee for both the Winter Olympic and Paralympic Games. Just 10 days after the Winter Olympics concludes, the Paralympics will begin in the same venue. 
+ Sentence 2: The 2002 Olympic Winter games took place in Salt Lake. [ID: 1865]
+ ##### 
+12. Sentence 1: Jakarta floods easily during the rainy season. 
+ Sentence 2: Jakarta is easily flooded during the rainy season. [ID: 1223]
+ ##### 
+13. Sentence 1: Maximo Rene Mendez in an apparent smuggling scheme died after doctors disconnected life-support equipment. 
+ Sentence 2: A cocaine-imbibing Miami man had life support removed. [ID: 384]
+ ##### 
+14. Sentence 1: The compilers of the OED point out that they merely record the description of how the word is used, rather than prescribe how it should be used. The term, McJob, has been in usage at least 20 years, they say. It was popularised in 1991 in Douglas Coupland's novel Generation X: Tales for an Accelerated Culture as one of the margin definitions. Here it was described as "a low-pay, low-prestige, low-dignity, low benefit, no-future job in the service sector. Frequently considered a satisfying career choice by people who have never held one." 
+ Sentence 2: A "McJob" is a low-paid job. [ID: 1211]
+ ##### 
+15. Sentence 1: A run by Mr. Feinblatt would complicate what is already a three-person race because he most likely would have the support of the powerful mayor, who is running for a third term. Such a move could also irritate the outgoing district attorney, Robert M. Morgenthau, because it could hurt the chances of his preferred candidate, Cyrus R. Vance Jr. The relationship between Mr. Morgenthau and Mr. Bloomberg has been strained, in part because of the district attorney's investigation into the fire at the former Deutsche Bank building, which found that lapses by the city had contributed to the deaths of two firefighters. 
+ Sentence 2: Feinblatt works for Bloomberg. [ID: 783]
+ ##### 
+16. Sentence 1: The Extra Girl (1923) is a story of a small-town girl, Sue Graham (played by Mabel Normand) who comes to Hollywood to be in the pictures. This Mabel Normand vehicle, produced by Mack Sennett, followed earlier films about the film industry and also paved the way for later films about Hollywood, such as King Vidors Show People (1928). 
+ Sentence 2: Mabel Normand starred in The Extra Girl. [ID: 1874]
+ ##### 
+17. Sentence 1: The American television network "CNN" reported that officials at the American Defense Department (The Pentagon) will recommend halting the bombing on Iraq to President Bill Clinton this evening, Saturday. 
+ Sentence 2: CNN reported that officials at the Pentagon said that President Clinton is obligated to stop the shelling on Iraq . [ID: 1154]
+ ##### 
+18. Sentence 1: That theory, a concept first proposed by Albert Einstein and often reiterated by British astrophysicist Stephen Hawking, seeks to find a single set of equations that can explain all the fundamental forces in the universe: gravity, electromagnetism, and the strong and weak interactive forces among subnuclear particles. 
+ Sentence 2: Stephen Hawking is a physicist. [ID: 1907]
+ ##### 
+19. Sentence 1: Also ruled out, for the moment, is any tie-up with a new alliance of Social Democrat dissidents and former communists known as the Left Party, which garnered 8.7%. 
+ Sentence 2: It seems unlikely that there will be a coalition between Gerhard Schroeder's Social Democrats and Angela Merkel's Christian Democratic Union. [ID: 2265]
+ ##### 
+20. Sentence 1: A new strain of Avian Flu or Bird Flu has been discovered in China and has also infected some humans. The virus also "spreads fast" and has covered a "big geographic region" according to Chinese health officials. It is not known how dangerous the new virus is and whether it is stronger or deadlier than the current H5N1 virus. Despite being detected in humans, no evidence has turned up to suggest that the virus can be spread easily from human to human. 
+ Sentence 2: 483Lu suffers from the H5N1 virus. [ID: 2379]
+ ##### 
+21. Sentence 1: Movil Access, a Grupo Salinas company, announced today that Gustavo Guzman will appoint Jose Luis Riera as company CFO of Grupo Iusacell. 
+ Sentence 2: Movil Access appoints Gustavo Guzman as CFO. [ID: 468]
+ ##### 
+22. Sentence 1: GUS on Friday disposed of its remaining home shopping business and last non-UK retail operation with the €390m (£265m) sale of the Dutch home shopping company, Wehkamp, to Industri Kapital, a private equity firm. 
+ Sentence 2: Wehkamp cost €390m. [ID: 2118]
+ ##### 
+23. Sentence 1: According to the director Kim Ki-duk The biggest problem for Americans understanding Korean movies is that all action films have the same plot. For example, the movie 'Speed' with Keanu Reeves. 
+ Sentence 2: The movie 'Speed' was directed by Jan De Bont. [ID: 1184]
+ ##### 
+24. Sentence 1: Stony Brook, NY (1/10/02)- The discovery of paleolithic art in a cave in South Africa is causing researchers to consider an older and less Euro-centric view of the origins of what is considered 'modern behavior'. 
+ Sentence 2: Prehistoric art discovered in South Africa. [ID: 1304]
+ ##### 
+25. Sentence 1: The United States would like to see U.N. weapons inspectors return to Iraq providing the Iraqis take concrete, affirmative and demonstrable actions "to show full co-operation" Clinton said. 
+ Sentence 2: U.N. weapons inspectors could stay in Iraq, Clinton said. [ID: 53]
+ ##### 
+26. Sentence 1: U.S. officials said they hope to install Aristide presidential palace in Port-au-Prince about 10 days after U.S. troops land in Haiti, a schedule that an Aristide aide said is acceptable to the ousted president 
+ Sentence 2: Port-au-Prince is in Haiti. [ID: 2052]
+ ##### 
+27. Sentence 1: The BBC would like to apologise to both the Queen and Annie Leibovitz for any upset this may have caused.    - BBC statement The British Broadcasting Corporation (BBC) has apologised to Queen Elizabeth II and photographer, Annie Leibovitz, after a trailer for a documentary suggested she had walked out of a portrait sitting when the photographer asked her to remove her crown. The trailer shows a clip of the photographer telling the Queen, "I think it will look better without the crown because the garter robe is so..." 
+ Sentence 2: Queen Elizabeth II is the head of the Commonwealth. [ID: 2467]
+ ##### 
+28. Sentence 1: A Yorkshire pub affected by flooding in 2007 has been named CAMRA's National Pub of the Year for 2008. The Kelham Island Tavern in Sheffield's Kelham Island Quarter was in a "semi derelict" state when it was purchased in 2001. After it was re-opened in 2002 by licensee Trevor Wraith and manager Lewis Gonda, business quickly picked up and the pub has been awarded Sheffield CAMRA's local Pub of the Year award for the past four years. The pub won the award despite six weeks of closure a year and a half ago when the pub's cellar and floor were affected by the flooding of the River Don and the nearby Kelham goit. The pub also received Yorkshire CAMRA's Pub of the Year award in 2004 and 2007. 
+ Sentence 2: The Kelham Island Tavern is situated in Sheffield. [ID: 2204]
+ ##### 
+29. Sentence 1: The Norwegian Nobel Committee is responsible for the selection of the candidates and the choice of Prize Winners for the Peace Prize. The Committee is composed of five members appointed by the Storting (Norwegian parliament). The Peace Prize is awarded in Oslo, Norway and not in Stockholm, Sweden like the other Nobel Prizes. 
+ Sentence 2: Nobel Peace Prize candidates have been chosen. [ID: 78]
+ ##### 
+30. Sentence 1: Three plays later, quarterback James Pinkney was sacked by Wake's Goryal Scales on third-and-one, forcing the team to punt. 
+ Sentence 2: James Pinkney was an employee of Goryal Scales. [ID: 322]
+ ##### 
+31. Sentence 1: Unfortunately, a visit from Mrs Hobday, causes Mr Browne to leave for London. 
+ Sentence 2: Mrs Hobday departs London. [ID: 1276]
+ ##### 
+32. Sentence 1: After the 1979 Soviet invasion and occupation, 3 million Afghans fled to Pakistan, which was encouraged by hefty Western aid to take them in. 
+ Sentence 2: Afghanistan was invaded by the Soviet Union in 1979. [ID: 1749]
+ ##### 
+33. Sentence 1: Controversy and discussion erupted on internet forums on 28 February 2007, when publicity was given to Essjay, a prominent Wikipedia administrator and editor, having claimed false credentials which were published in a magazine. Internet encyclopedia Wikipedia co-founder Jimbo Wales was travelling in India, and at 06:42 on March 3 he issued a statement that further information had come to his attention and he had asked the editor to resign his positions of trust within the community. At 03:17 on March 4 Essjay announced on his user talk page that he had retired and was no longer active on Wikipedia. 
+ Sentence 2: Wikipedia was launched by Jimbo Wales. [ID: 1496]
+ ##### 
+34. Sentence 1: In other words, with its 2 million inhabitants, Slovenia has only 5.5 thousand professional soldiers. 
+ Sentence 2: Slovenia has 5.5 million inhabitants. [ID: 1604]
+ ##### 
+35. Sentence 1: He met U.S. President, George W. Bush, in Washington and British Prime Minister, Tony Blair, in London. 
+ Sentence 2: Washington is part of London. [ID: 1095]
+ ##### 
+36. Sentence 1: The Chapin Library's main attraction is its collection of Revolutionary-era documents, including a 1776 printed version of the Declaration of Independence. 
+ Sentence 2: The Declaration of Independence was signed in 1776. [ID: 2431]
+ ##### 
+37. Sentence 1: Published Date:  06 April 2009  Carrie Underwood was named Entertainer Of The Year at the Academy of Country Music Awards in the US.  The former American Idol winner was the first female act to win the honour since the Dixie Chicks in 2000. "I've had a lot of good moments in the past four years. This one takes the cake," the tearful 26-year-old said.   "Thank you God, thank you fans, thank you to ACM for nominating me in the first place. I never thought I'd be nominated and never thought I'd win. I'm shaking. I don't know what to say." 
+ Sentence 2: Carrie Underwood won the second prize at the Academy of Country Music Awards. [ID: 960]
+ ##### 
+38. Sentence 1: Nick Leeson was jailed for fraud following the collapse of Barings Bank in 1995. He had run up losses of 850m on the Far East stock markets. 
+ Sentence 2: Nick Leeson was arrested for collapse of Barings Bank PLC. [ID: 1861]
+ ##### 
+39. Sentence 1: One year on from the Indian Ocean tsunami, the world's grief and compassion returned to the tsunami-battered coastlines of the Indian Ocean, where at least 216,000 people lost their lives. Under a clear sky and before a gentle sea, the world commemorated those who lost their lives, in one of the worst natural disasters that the modern world has experienced. 
+ Sentence 2: Earthquakes have the potential to generate a tsunami. [ID: 933]
+ ##### 
+40. Sentence 1: The Ebro Delta (delta de l'Ebro) is the largest humid zone in Catalonia. It is the second most important natural aquatic habitat in Spain after the Doana National Park. The Delta is of international importance for its plant species and its fauna. 
+ Sentence 2: The Ebro Delta is used for farming. [ID: 1288]
+ ##### 
+41. Sentence 1: A Cuban American who is accused of espionage pleads innocent. 
+ Sentence 2: American accused of espionage [ID: 1945]
+ ##### 
+42. Sentence 1: Exercising the powers referred to in article 15, paragraph 3, of the protocol to suppress and punish trafficking in persons, especially women and children, the government of Ecuador makes a reservation with regard to article 15, paragraph 2, relating to the settlement of disputes. 
+ Sentence 2: The government of Ecuador aims to prevent trafficking in persons. [ID: 2383]
+ ##### 
+43. Sentence 1: Like the United States, U.N. officials are also dismayed that Aristide killed a conference called by Prime Minister Robert Malval in Port-au-Prince in hopes of bringing all the feuding parties together. 
+ Sentence 2: Aristide had Prime Minister Robert Malval  murdered in Port-au-Prince. [ID: 7]
+ ##### 
+44. Sentence 1: ARCHEOLOGISTS and forensic experts believe they have identified the skeleton of Cleopatra's younger sister, murdered more than 2,000 years ago on the orders of the Egyptian queen.  The remains of Princess Arsinöe, put to death in 41BC on the orders of Cleopatra and her Roman lover Mark Antony to eliminate her as a rival, are the first relics of the Ptolemaic dynasty to be identified.  The breakthrough, by an Austrian team, has provided pointers to Cleopatra's true ethnicity. Scholars have long debated whether she was Greek or Macedonian like her ancestor the original Ptolemy, a Macedonian general who was made ruler of Egypt by Alexander the Great, or whether she was north African. 
+ Sentence 2: The name of Queen Cleopatra's sister was Arsinöe. [ID: 1331]
+ ##### 
+45. Sentence 1: Sierra is likely to remain in jail at the Hillsborough County jail in her native Tampa until her next hearing on December 20, where she is being held without bail, which would prevent her attending the Washington event on Friday even if she still had permission to perform. Sierra has been in jail since the start of the month after an altercation with police officers outside a Tampa nightclub, which she had been ejected from. She is charged with disorderly intoxication and resisting arrest. 
+ Sentence 2: Sierra once reached the finals of "American Idol". [ID: 16]
+ ##### 
+46. Sentence 1: Tourists pay millions of dollars a year to come and see Africa 's wildlife and smugglers pay millions more in strictly illegal purchases of ivory and rhino horn from poachers. 
+ Sentence 2: African countries encourage keeping animals alive to attract tourists. [ID: 604]
+ ##### 
+47. Sentence 1: When patients interrupt a course of antibiotics, the surviving bacteria return with a vengeance, often having rapidly mutated to resist the therapy. 
+ Sentence 2: Bacteria is winning the war against antibiotics. [ID: 27]
+ ##### 
+48. Sentence 1: Mr Roughan claims that children from the age of nine and up are drinking late at night. "You don't know what the hell's going to happen." Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police "to make sure we're abreast of any developments in the area." The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. Despite post not being delivered, newspapers were still being delivered, waste collection was still happening, and electricity meter readers were also going around house to house, checking the meters. 
+ Sentence 2: Mr. Roughan is a member of the Armed Offenders Squad. [ID: 1627]
+ ##### 
+49. Sentence 1: Camacho is a Mexican version of Japan's Morihiro Hosokawa -- a pragmatic tactician using a crisis and the attendant outcry for reform to further his political standing. 
+ Sentence 2: The Japanese Prime Minister is Morihiro Hosokawa. [ID: 814]
+ ##### 
+50. Sentence 1: The June Movement has always been opposed to giving EU cooperation a military dimension. 
+ Sentence 2: The introduction of the euro has been opposed. [ID: 2389]
+ ##### 
+51. Sentence 1: The program, financed with a grant from the UN Agency for International Development, is aimed at reducing infant mortality in Madagascar, an island nation in the Indian Ocean off the eastern coast of Africa. 
+ Sentence 2: The UN Agency for International Development is an organisation based in Madagascar. [ID: 1724]
+ ##### 
+52. Sentence 1: Two midsummer cruises aboard Clipper Adventure Cruises' 140-passenger World Discoverer (July 8 and Aug. 9) will take you to the wind-swept cliffs of the Pribilof Islands in the Bering Sea, where cartoon-faced horned and tufted puffins stare. 
+ Sentence 2: The Pribilof Islands are located in the Bering Sea. [ID: 2101]
+ ##### 
+53. Sentence 1: The Hubble is a scientific workhorse in the prime of its life. It is also the privileged photographer of the universe. Whether the images are of solar systems at birth, galaxies colliding, or the death throes of a star in supernova, Hubble's photos reveal both the ferocity and tranquillity of our universe. 
+ Sentence 2: Hubble is a Space telescope. [ID: 1768]
+ ##### 
+54. Sentence 1: Getty also starred in several movies after the show including Mask where she played the mother of singer and song writer Cher and Stop! Or My Mom Will Shoot where she also played the mother of actor Sylvester Stallone. She also starred in the television show spin off of The Golden Girls titled The Golden Palace and made a two episode appearance on another spin off called Empty Nest. Getty was born in New York City on July 25, 1923, passing away just three days before her 85th birthday. 
+ Sentence 2: Stallone played Getty's father. [ID: 609]
+ ##### 
+55. Sentence 1: Two Greenpeace protestors entered the CBI conference at the Business Design Centre in Islington, London and delayed a speech being made by the Prime Minister Tony Blair, in which he was expected to announce the consideration of further nuclear power stations to offset the increasing gas prices being experienced by industry in the UK. The protestors, wearing yellow safety jackets over business suits, climbed up into the ceiling rafters and held  banners saying "NUCLEAR: WRONG ANSWER", and dropped 'radioactive confetti' onto the delegates down below. Greenpeace threatened to make noise and throw missiles at the Prime Minister should he make his speech. 
+ Sentence 2: Greenpeace made a statement about yellow safety jackets. [ID: 181]
+ ##### 
+56. Sentence 1: On August 21, the Polish weekly PrzekrÃ³j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive   TV station. Part of the advertisement contained a definition of the word "exercise book". The wording looked familiar, and Wikinews consulted Wikipedia,   the collaborative online encyclopedia.  Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. 
+ Sentence 2: Wikipedia is an online encyclopedia anyone can edit. [ID: 1333]
+ ##### 
+57. Sentence 1: Nike Inc. said, Monday, that its first-quarter profit grew 32 percent, as the world's largest sneaker and athletic apparel company posted broad gains in sales and orders. 
+ Sentence 2: Nike said that orders for delivery were up 11 percent from a year earlier, and it was optimistic about its growth prospects. [ID: 515]
+ ##### 
+58. Sentence 1: Mr Fitzgerald revealed he was one of several top officials who told Mr Libby in June 2003 that Valerie Plame, wife of the former ambassador Joseph Wilson, worked for the CIA. 
+ Sentence 2: Joseph Wilson worked for CIA. [ID: 1128]
+ ##### 
+59. Sentence 1: Goosen shot a 69 on Saturday, one of only two sub-par rounds on the day, to grab a three-shot lead through 54 holes at Pinehurst No. 2. 
+ Sentence 2: Goosen shot a 69 and has a three-shot lead. [ID: 1779]
+ ##### 
+60. Sentence 1: Authorities say Monica Meadows, who has appeared in catalogs and magazines, is in stable condition. 
+ Sentence 2: Monica Meadows is in stable condition. [ID: 477]
+ ##### 
+61. Sentence 1: Iraq would have been an unsafe, unsecure country that did pose a threat to the world. 
+ Sentence 2: Iraq would have constituted a threat to the world. [ID: 1682]
+ ##### 
+62. Sentence 1: Billy Werber, third baseman in Major League Baseball, has died at the age of 100. Werber died of natural causes on Thursday, January 22, 2009 at an assisted living center in Charlotte, North Carolina. He was moved there after his health deteriorated a month ago. His son said that when admitted, Werber refused to eat solid foods and would only drink liquids. "He just refused to eat and that was his plan," Bill Werber Jr. told the Associated Press. He added that his father was "sharp up until four weeks ago". 
+ Sentence 2: Werber died in North Carolina at the age of 100. [ID: 1123]
+ ##### 
+63. Sentence 1: The Jurassic Park Institute is an absolutely accurate way for kids to get excited about dinosaur science! Written by two noted paleontologists and illustrated in big bold colors, this kid-friendly nonfiction guide uses easy-to-understand text to describe at least 100 dinosaurs alphabetically. 
+ Sentence 2: Michael Crichton is the author of the book Jurassic Park. [ID: 345]
+ ##### 
+64. Sentence 1: The petrol price reductions seen across most of Australia have been short-lived for those living in the regional New South Wales city of Bathurst. An investigation by Wikinews has discovered retailers in Bathurst were late to lower petrol pricing and have been amongst the first to increase them. Following a threat by the Australian Competition and Consumer Commission (ACCC) to publically shame fuel retailers and oil companies, most fuel outlets across Australia reduced prices by 5 to 10 cents per litre. The ACCC argued that the wholesale cost of petrol was around 10 cents per litre higher than the Singapore market, which Australia benchmarks itself against. On January 24, the price of Unleaded fuel in Bathurst dropped only 2 cents from 119.9 cents to 117.9 cents. Today, Coles Express on Durham Street has increased the price of their unleaded fuel to the previous level of 119.9 cents. 
+ Sentence 2: New South Wales is found in Australia. [ID: 330]
+ ##### 
+65. Sentence 1: It is unlikely either vessel was operating its active sonar at the time of the collision, because the submarines are designed to "hide" while on patrol and the use of active sonar would immediately reveal the boat's location.  Both submarines' hulls are covered with anechoic tile to reduce detection by sonar, so the boats' navigational passive sonar would not have detected the presence of the other. 
+ Sentence 2: Two submarines have collided. [ID: 438]
+ ##### 
+66. Sentence 1: As an active member of the National Guard, he was called to duty in 1941. Although Kennon did not see active combat, he did not return home from World War II until May of 1945. 
+ Sentence 2: Kennon did not participate in WWII. [ID: 91]
+ ##### 
+67. Sentence 1: Ashley Olsen has decided to remain with her twin sister, Mary-Kate, instead of going on a planned trip to Australia to promote the opening of the siblings' latest movie adventure "New York Minute," reports the AP. 
+ Sentence 2: Ashley Olsen plans a trip to Australia with Mary-Kate. [ID: 681]
+ ##### 
+68. Sentence 1: Food and Drug Administration, which regulates human experiments, says its regulations forbid human cloning without prior agency permission, and it has launched an investigation into whether Clonaid illegally performed any work on U.S. soil. 
+ Sentence 2: Food and Drug Administration forbids human cloning without prior permission. [ID: 739]
+ ##### 
+69. Sentence 1: A senior Russian politician has hailed a decision by Uzbekistan to shut down a United States military base there, although Moscow officially denies that it is applying pressure on Central Asian states to expel American forces. 
+ Sentence 2: Uzbekistan closes United States military base. [ID: 145]
+ ##### 
+70. Sentence 1: A journalist for the French Daily Libération, Christophe Boltanski, was attacked on Friday by several men in a street of Tunis, where he was reporting on the repression of human rights activists. He was badly beaten and stabbed with a knife in the back by four unidentified assailants near his hotel in the embassy district. Boltanski was also hit in the face by pepper spray. He called for help, but the policemen on guard outside the nearby Czech Embassy did not react, according to Libération. 
+ Sentence 2: A French journalist was assaulted in Tunisia. [ID: 274]
+ ##### 
+71. Sentence 1: British mountaineer Alison Hargreaves becomes the first woman to climb Mount Everest alone and without oxygen tanks. 
+ Sentence 2: A woman succeeds in climbing Everest solo. [ID: 118]
+ ##### 
+72. Sentence 1: The soldier, James Barker, one of four American soldiers accused of raping the Iraqi girl and killing her family in the March 2006 incident, pleaded guilty on Wednesday to rape and murder in Fort Campbell, Kentucky. 
+ Sentence 2: James Barker is accused of raping an Iraqi girl and killing her family. [ID: 187]
+ ##### 
+73. Sentence 1: Practically every architect of international stature has vied for the bonanza of public and private projects -- including Renzo Piano, Peter Eisenman, Philip Johnson, Rafael Moneo, Helmut Jahn and Richard Rogers. 
+ Sentence 2: Renzo Piano is an architect. [ID: 596]
+ ##### 
+74. Sentence 1: The so-called "grandmother hypothesis", based on studies of African hunter-gatherer groups, suggests that infertile women are vital for successful child-rearing despite being unable to produce children themselves. 
+ Sentence 2: Infertile women are vital for successful child-rearing, according to the "grandmother hypothesis". [ID: 910]
+ ##### 
+75. Sentence 1: Bush withheld judgment Monday on rival calls to beef up or scale down U.S. troops in Iraq, and said angry protests in Indonesia against his Mideast policy were a healthy sign of democracy in the heavily Muslim nation. 
+ Sentence 2: Bush said that protests in Indonesia against his Mideast policy were a sign of democracy in the heavily Muslim nation. [ID: 348]
+ ##### 
+76. Sentence 1: Sonia Gandhi can be defeated in the next elections in India by BJP. 
+ Sentence 2: Sonia Gandhi is defeated by BJP. [ID: 67]
+ ##### 
+77. Sentence 1: Consumers continued buying fewer lattes and coffees at Starbucks in its second quarter and restructuring charges led to a 77 percent in net income, but the drop in sales was something of an improvement. Starbucks Corp. - hurt in recent quarters by the perception that its drinks are too pricey - said Wednesday that sales at established locations fell 8 percent both worldwide and in the U.S. the first three months of 2009 compared with a year earlier. In the last three months of last year, Starbucks' global same-store sales fell 9 percent and U.S. same-store sales declined 10 percent. 
+ Sentence 2: Starbucks is a US coffee giant. [ID: 679]
+ ##### 
+78. Sentence 1: City officials fired the captain of the crashed Staten Island ferry. 
+ Sentence 2: Staten Island ferry captain has refused to talk with investigators. [ID: 971]
+ ##### 
+79. Sentence 1: Oil prices fall back as Yukos oil threat lifted 
+ Sentence 2: Oil prices rise. [ID: 13]
+ ##### 
+80. Sentence 1: The main institutionalised forms of recognition for those who have made a significant contribution in the fields of physics, chemistry, medicine, literature, as well as for those working for peace (and more recently in the area of economics), are the Nobel prizes. 
+ Sentence 2: Nobel Peace Prize candidates have been chosen. [ID: 2325]
+ ##### 
+81. Sentence 1: About 2,200 Americans and 27,000 Filipinos died from disease and starvation at Camp O'Donnell before the camp was closed in July 1942, just three months after the beginning of the Death March. Ortega -- now the lone surviving member of the 192nd tank battalion - spent 3 ½ years in captivity in the Philippines and Japan before being liberated in August 1945 following the atomic bombs that devastated Hiroshima and Nagasaki, forcing a reluctant Japan to surrender. Ortega eventually returned to the United States in October 1945, the first of five brothers to return home from the war. A sixth died in action. 
+ Sentence 2: Americans used atomic bombs on Hiroshima and Nagasaki in 1945. [ID: 895]
+ ##### 
+82. Sentence 1: The unconfirmed case in Dundee concerns a rabies-like virus known only in bats. 
+ Sentence 2: A case of rabies was confirmed. [ID: 507]
+ ##### 
+83. Sentence 1: The British government has indicated its readiness to allow Argentine companies to take part in the development of oilfields in the Falkland islands' territorial waters- provided they acknowledge that any oil extracted belongs to Britain. 
+ Sentence 2: The British indicated readiness to allow Argentine companies to take part in the development of oilfields. [ID: 433]
+ ##### 
+84. Sentence 1: Digging in the badlands of east central Utah on a tip from a repentant poacher, researchers have unearthed the fossil remains of a dinosaur "missing link". 
+ Sentence 2: Dinosaur remains were found in Asia. [ID: 2367]
+ ##### 
+85. Sentence 1: Two portraits, one by Reynolds, the other by Gainsborough, since 1990 among the most looked-after works in the Art Loss Register database, were recovered this week when they were brought into Sotheby's for evaluation. Also a lithograph by Norwegian artist Edvard Munch, stolen from an Oslo art gallery in April, has been recovered, news reports said today. 
+ Sentence 2: These two portraits and a lithography by Edvard Munch were recovered using the Art Loss Register database. [ID: 2329]
+ ##### 
+86. Sentence 1: Newspapers choke on rising paper costs and falling revenue. 
+ Sentence 2: The cost of paper is rising. [ID: 380]
+ ##### 
+87. Sentence 1: He graduated from high school from Benton, Tenn. and from Tennessee Tech. in Cookville, and holds a doctorate in physics from Virginia Tech. 
+ Sentence 2: Tennessee Tech is an organisation based in Cookville. [ID: 1348]
+ ##### 
+88. Sentence 1: The Pharos, a monumental lighthouse built around 280 BC and standing 330 ft high, lit the entrance to Alexandria harbour for centuries, but archeologists have never been able to identify positively any remains. 
+ Sentence 2: The Pharos Lighthouse was built around 280 BC. [ID: 733]
+ ##### 
+89. Sentence 1: The disputed waters lie close to the Sipadan and Ligitan islands, which Indonesia lost to Malaysia in a legal battle in the International Court of Justice in December 2002. 
+ Sentence 2: There is a territorial waters dispute. [ID: 1948]
+ ##### 
+90. Sentence 1: The main library at 101 E. Franklin St. changes its solo and group exhibitions monthly in the Gellman Room, the Second Floor Gallery, the Dooley Foyer and the Dooley Hall. 
+ Sentence 2: Dooley Foyer is located in Dooley Hall. [ID: 1470]
+ ##### 
+91. Sentence 1: In March, Wikinews held an exclusive interview with Max Riekse, one of the candidates for the Constitution Party nomination for the 2008 United States presidential election. With the Constitution Party's national convention underway this weekend, we spoke with him one last time before he either becomes his party's candidate or loses. Riekse is a retired decorated Lieutenant Colonel in the U.S. Army who served in both the Vietnam War and the Iraq War. He is also a former public school teacher and Assistant Professor of Military Science at Western Michigan University. He has a B.A. in Political Science and International Relations from the University of South Florida as well as two M.A.s, one in Political Science and International Relations, the other in Education and History. Both are from Western Michigan University. 
+ Sentence 2: The Constitution Party includes Max Riekse among its members. [ID: 337]
+ ##### 
+92. Sentence 1: "There were 20 survivors, the majority of them are in critical condition" said Cyprian Gatete, Rwanda's assistant commissioner of police, during a telephone conversation with Reuters. 
+ Sentence 2: Cyprian Gatete is an employee of Reuters. [ID: 1697]
+ ##### 
+93. Sentence 1: DAYTON, Ohio. A cargo plane bound for Montreal with a small quantity of hazardous chemicals crashed and exploded shortly after takeoff. 
+ Sentence 2: Dayton is located in Ohio. [ID: 2134]
+ ##### 
+94. Sentence 1: Chip giant, Intel, has set its sights on the digital living room with its own flavours of entertainment PCs designed to act like media hubs for the home. 
+ Sentence 2: Intel is vying for a key spot in the digital living room. [ID: 167]
+ ##### 
+95. Sentence 1: Greenspan's stance has underpinned predictions the Fed will raise rates steadily this year. 
+ Sentence 2: The position of Greenspan has propped up the predictions that the Fed will gradually elevate the east interest rates year. [ID: 2402]
+ ##### 
+96. Sentence 1: The White House failed to act on the domestic threat from al Qaeda prior to September 11, 2001. 
+ Sentence 2: White House ignored the threat of attack [ID: 1133]
+ ##### 
+97. Sentence 1: The Rock and Roll Hall Of Fame and Museum opened the nation's first major John Lennon retrospective Thursday (October 19) with a gala party attended by his widow, Yoko Ono. 
+ Sentence 2: Yoko Ono is John Lennon's widow. [ID: 1232]
+ ##### 
+98. Sentence 1: A young gunman known as Scarface has been jailed for life for the murder of a promising teenage footballer. Richard Harrison-Allen, 20, shot Etem Celebi dead in November 2007 as he tried to flee the scene in the Smalley Close estate, Stoke Newington, north London. Gang member Harrison-Allen, from Hackney, east London, who was convicted of the teenager's murder earlier this month, was sentenced to a minimum of 26 years at St Albans Crown Court. He sat motionless as sentence was passed. 
+ Sentence 2: "Scarface" is the nickname of Richard Harrison-Allen. [ID: 640]
+ ##### 
+99. Sentence 1: For Bechtolsheim, who designed the prototype for the first Sun workstation while he was a Birkenstock-shod Stanford University graduate student in 1982, the new line of computers, code named Galaxy, is a return to the company's roots. 
+ Sentence 2: The Sun workstation was created by Bechtlsheim. [ID: 502]
+ ##### 
+100. Sentence 1: An initial bid to prevent seven former employees of GM from working for Volkswagen for 12 months was thrown out by a Frankfurt court. 
+ Sentence 2: All charges of anti-competitive staff poaching were later dismissed. [ID: 140]
+ ##### 
+101. Sentence 1: Zhao was arrested at 1:45 p.m. EST without resistance on charges of disorderly conduct; other more serious charges could be filed. However, Allen Doody of U.S. Bureau of Immigration and Customs Enforcement (ICE) has indicated plans to deport Zhao back to Australia within a few days without charges. "We do not plan to charge him," Doody said. Zhao is dual-nationality Chinese-Australian, who entered the US legally on his Australian passport less than a week ago. 
+ Sentence 2: Zhao is an American citizen. [ID: 1785]
+ ##### 
+102. Sentence 1: The longest mission which the Russian Salyuts supported was 63 days. The second generation Salyuts would fly missions much longer and would need to be resupplied from time to time. 
+ Sentence 2: Russians hold record for longest stay in space. [ID: 540]
+ ##### 
+103. Sentence 1: Health Minister Ben Bradshaw described the party's loss to the British National Party and to the Greens as a, "terrible loss" and blamed the economic conditions such as rising food and fuel costs as factors that dampens the Labour Party's appeal with the public. Conservative Party leader David Cameron countered Bradshaw's opinion by saying, Mr. Brown was to blame for the economic distress. Cameroon cited the Prime Minister's ten years of handling the economy as minister prior to assuming office when Tony Blair stepped down last year. 
+ Sentence 2: Blair was Prime Minister before Brown. [ID: 1732]
+ ##### 
+104. Sentence 1: Even while accepting the Russian plan, IMF Managing Director Michel Camdessus noted that the efficiency of Russia's State Taxation Service "is declining rapidly." 
+ Sentence 2: Michel Camdessus is managing director of IMF. [ID: 1679]
+ ##### 
+105. Sentence 1: Tom Cruise is married to actress Nicole Kidman and the couple has 2 adopted children. 
+ Sentence 2: Tom Cruise is married to Nicole Kidman. [ID: 527]
+ ##### 
+106. Sentence 1: Qwest's revised bid, which did not offer more cash for MCI stock as expected, was deemed disappointing by one major MCI shareholder, and Qwest's shares fell more than 8 percent. 
+ Sentence 2: MCI shareholders accepted a $6.7 billion offer over Qwest's initial $8 billion. [ID: 405]
+ ##### 
+107. Sentence 1: In February of 1995, one man single-handedly bankrupted the bank that financed the Napoleonic Wars. Founded in 1762, Barings Bank was Britain's oldest merchant bank and Queen Elizabeth's personal bank. 
+ Sentence 2: Barings was Britain's oldest merchant bank. [ID: 2434]
+ ##### 
+108. Sentence 1: The directive for the Border Patrol to stop arresting illegal aliens, as described in a previous post, has been rescinded by Robert C. Bonner, commissioner of the new Bureau of Customs and Border Protection. 
+ Sentence 2: Steps are being taken to stop the smuggling of aliens. [ID: 376]
+ ##### 
+109. Sentence 1: THE amount of water flowing into the stricken Murray River between January and March was the lowest for that quarter in the 117 years that records have been kept. An unprecedented drought has thrown the river system into decline, according to the guardian for the river. "We've had big droughts before and big floods before, but what we didn't have was climate change," said Rob Freeman, the chief executive of the Murray-Darling Basin Authority. 
+ Sentence 2: The Murray-Darling Basin is in Australia. [ID: 2462]
+ ##### 
+110. Sentence 1: Money raised from the sale will go into a trust for Hepburn's family. 
+ Sentence 2: Proceeds go to Hepburn's family. [ID: 90]
+ ##### 
+111. Sentence 1: The two-day postal delivery suspension placed on three streets in Hamilton, New Zealand has been lifted by New Zealand Post and the posties are back to work delivering mail. The suspension of deliveries applied to Tennyson Road, Dryden Road, and Emerson Place, which are located in Fairfield. New Zealand Post came to the decision on Friday to put the ban in place because of recent gang violence/conflict. Along with the New Zealand Police, New Zealand Post reviewed the current situation, and also drove along the streets, they came to the conclusion that the situation has now "cooled down," according to New Zealand Post spokesperson, Fiona Mayo and postal delivery general manger, Matthew Nant. The residents on those streets came out to greet the postie, who was accompanied by business leader Brendon Coker, as she delivered the residents mail. Martha Rollo, Tennyson Road resident for 13-years, said that she was thrilled that her mail was once again being delivered after the "senseless" gang violence had temporarily stopped post. 
+ Sentence 2: Fiona Mayo works in Fairfield. [ID: 887]
+ ##### 
+112. Sentence 1: Voting for a new European Parliament has been clouded by apathy. 
+ Sentence 2: Apathy clouds EU voting. [ID: 1946]
+ ##### 
+113. Sentence 1: Twenty years ago, on June 6, 1968, Sen. Robert F. Kennedy died at Good Samaritan Hospital in Los Angeles, 25 -LCB- hours after he was shot at the Ambassador Hotel by Sirhan Bishara Sirhan. 
+ Sentence 2: Sirhan Bishara Sirhan killed Sen. Robert F. Kennedy [ID: 1935]
+ ##### 
+114. Sentence 1: Only 18 states, including Massachusetts, have specific provisions that allow women who quit their jobs due to domestic violence to qualify for UI. 
+ Sentence 2: 18 states have provisions that permit women who quit their jobs because of domestic violence to collect unemployment insurance. [ID: 1069]
+ ##### 
+115. Sentence 1: In a move reminiscent for some of another actor, Ronald Reagan, who was twice elected governor of California, Schwarzenegger said he would be putting his movie career on hold so he can devote his time to running for governor. 
+ Sentence 2: Schwarzenegger was elected governor of California. [ID: 815]
+ ##### 
+116. Sentence 1: JOHANNESBURG: Organizers of a peace conference that was to have been attended by five Nobel laureates in Johannesburg this week said Tuesday that they had canceled it after the South African government denied a visa to the Dalai Lama. Two of South Africa's Nobel Peace Prize laureates, the retired Anglican archbishop Desmond Tutu and former President F.W. de Klerk, condemned the government for giving in to pressure from China to block the Tibetan spiritual leader's entry into the country and said they would refuse to participate in the conference if he was not there. The executive director of the Norwegian Nobel Committee, Geir Lundestad, also said he would stay away. 
+ Sentence 2: The Peace Conference in South Africa has been canceled, giving support to the Dalai Lama. [ID: 1999]
+ ##### 
+117. Sentence 1: Zhao, who died at 85, was a reformer who was removed from office, and imprisoned, in 1989 after denouncing the use of force against student protesters in Tiananmen Square. 
+ Sentence 2: Zhao was arrested in 1989. [ID: 500]
+ ##### 
+118. Sentence 1: However, the Greens applauded the WA EPA's advice. Greens Senator Rachel Siewert said in a media release: "This is the second time the WA EPA has knocked back this proposal. The proponents should review their options to put the project on the mainland, which will ultimately be a win for the regional economy and a win for the unique environment of Barrow Island." "This is a proposal that should always have been located on the mainland. Proposing to build something on this scale inside Australia's most precious island nature reserve was deeply flawed from the beginning," said Senator Siewert. "The island has been dubbed 'Australia's Ark' for its unique cargo of endangered species, many of them now extinct or endangered on mainland Australia. He must take strong action to look after the island." 
+ Sentence 2: Barrow Island is a part of Australia. [ID: 2465]
+ ##### 
+119. Sentence 1: Nor is it clear whether any US support to Germany, in favour of Bonn as the WTO headquarters, would necessarily tilt a decision in that direction. 
+ Sentence 2: The WTO headquarters is in Bonn. [ID: 153]
+ ##### 
+120. Sentence 1: Though fearful of a forthcoming performance evaluation by her boss, Zoe must unravel the life of a man just found dead of a heart attack, who was supposed to have died three years earlier in a boating accident. 
+ Sentence 2: Zoe died in a boating accident. [ID: 1648]
+ ##### 
+121. Sentence 1: A prosecutor had urged a state judge to sentence Former Tyco International CEO, Dennis Kozlowski, to the maximum 15 to 30 years in prison for stealing hundreds of millions of dollars from the company. 
+ Sentence 2: Ex-Tyco CEO, Dennis Kozlowski, received 8-1/3 to 25 years in prison, Monday, for his part in stealing hundreds of millions of dollars from the manufacturing conglomerate. [ID: 543]
+ ##### 
+122. Sentence 1: Bountiful arrived after war's end, sailing into San Francisco Bay 21 August 1945. Bountiful was then assigned as hospital ship at Yokosuka, Japan, departing San Francisco 1 November 1945. 
+ Sentence 2: Bountiful reached San Francisco in August 1945. [ID: 1118]
+ ##### 
+123. Sentence 1: The relocation has enabled the company to eliminate the use of cyanide and chrome in its plating work replacing it with a soaplike solution. 
+ Sentence 2: Soap-like alternatives exist. [ID: 2063]
+ ##### 
+124. Sentence 1: Kasyanov was sacked by Putin in February 2004, after he had become critical of the Kremlin's politically motivated legal attack on the Yukos oil giant and its owner, billionaire Mikhail Khodorkovsky. 
+ Sentence 2: The Kremlin is owned by Mikhail Khodorkovsky. [ID: 1548]
+ ##### 
+125. Sentence 1: The Philippine Stock Exchange Composite Index rose 0.1 percent to 1573.65. 
+ Sentence 2: The Philippine Stock Exchange Composite Index dropped. [ID: 1036]
+ ##### 
+126. Sentence 1: World leaders expressed concern on Thursday that North Korea will quit six-party nuclear disarmament talks and will  bolster its nuclear weapons arsenal. 
+ Sentence 2: North Korea says it has a stockpile of nuclear weapons and is building more. [ID: 35]
+ ##### 
+127. Sentence 1: Even Homer realises the cleverness of Jan De Bont's tautly-directed action. Laser Movies , Speed , Widescreen with Keanu Reeves, Dennis Hopper, Sandra Bullock. 
+ Sentence 2: The movie 'Speed' was directed by Jan De Bont. [ID: 1855]
+ ##### 
+128. Sentence 1: The government operations came a day after guerrillas in camouflage fatigues rampaged through the streets of Nazran, Ingushetia's capital, firing rocket-propelled grenades at police stations, taking over checkpoints and setting fire to government buildings. 
+ Sentence 2: Ingushetia's capital is Nazran. [ID: 1737]
+ ##### 
+129. Sentence 1: In-form Rooney's hot goalscoring streak of seven goals in his last four internationals saw him win the vote to be crowned England's Player of the Year for 2008. Manchester United striker Rooney, 23, is set for his 50th cap against Ukraine at Wembley tomorrow and is enjoying the best form of his England career after a heart-to-heart with Capello. England boss Capello ordered Rooney to work hard on his finishing, stop shooting from long range and start scoring tap-ins to help transform him into a prolific marksman. 
+ Sentence 2: Fabio Capello is the coach of the English team. [ID: 383]
+ ##### 
+130. Sentence 1: The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. 
+ Sentence 2: Barings was Britain's oldest merchant bank. [ID: 1923]
+ ##### 
+131. Sentence 1: Rumsfeld signaled a harder line against China from the Bush administration, which has criticized Beijing over trade and human rights issues but not directly challenged the Chinese military buildup. 
+ Sentence 2: Rumsfeld is leveling some harsh criticism at China during his trip. [ID: 1780]
+ ##### 
+132. Sentence 1: Alan Mulally, Boeing's head of the unit, said at the start of the strike that it may cause delivery delays that would give Airbus SAS an advantage in what is the strongest commercial aircraft market in five years. 
+ Sentence 2: Boeing is a subsidiary of Airbus SAS. [ID: 1317]
+ ##### 
+133. Sentence 1: World leaders expressed concern on Thursday that North Korea will quit six-party nuclear disarmament talks and will  bolster its nuclear weapons arsenal. 
+ Sentence 2: World leaders have condemned North Korea for pulling out of talks. [ID: 2271]
+ ##### 
+134. Sentence 1: Then the most important part of the day begins as Muslims go to the mosque, their special place of worship. 
+ Sentence 2: Muslims pray at the mosque. [ID: 1200]
+ ##### 
+135. Sentence 1: The Yankees split Hollywood with something to feel OK about after last night's 5-4 loss to the Dodgers. 
+ Sentence 2: Dodgers lose first game ever at Fenway [ID: 691]
+ ##### 
+136. Sentence 1: Judie Vivian, chief executive at ProMedica, a medical service company that helps sustain the 2-year-old Vietnam Heart Institute in Ho Chi Minh City (formerly Saigon), said that so far about 1,500 children have received treatment. 
+ Sentence 2: The previous name of Ho Chi Minh City was Saigon. [ID: 3]
+ ##### 
+137. Sentence 1: The county Board of Supervisors accepted more than $700,000 in state grants Tuesday to extend a program that provides the controversial drug azidothymidine -- AZT -- to low-income residents with AIDS or AIDS-related illnesses. 
+ Sentence 2: AZT is an AIDS treatment. [ID: 1600]
+ ##### 
+138. Sentence 1: Jahche Broughton, 15, was sentenced to life imprisonment and ordered to serve at least 12-and-a-half years behind bars for the murder on January 17 last year.  Miss Aim, 26, from Orkney, was killed as she made her way home from a night out with friends in the North Island resort of Taupo.   She suffered serious head injuries and later died in hospital.  A judge at the High Court in Rotorua told Broughton that the sentence took into account his age and guilty plea.  The teenager was 14 when he carried out the murder and is believed to be one of the youngest convicted criminals in New Zealand to be given a life sentence. 
+ Sentence 2: Jahche Broughton is the murderer of Miss Aim. [ID: 2109]
+ ##### 
+139. Sentence 1: Of Irish descent, he was born in Brookline, Mass., on May 29, 1917. Graduating from Harvard in 1940, he entered the Navy. In 1943, when his PT boat was rammed and sunk by a Japanese destroyer, Kennedy, despite grave injuries, led the survivors through perilous waters to safety. Back from the war, he became a Democratic congressman from the Boston area, advancing in 1953 to the Senate. He married Jacqueline Bouvier on Sept. 12, 1953. In 1955, while recuperating from a back operation, he wrote "Profiles in Courage," which won the Pulitzer Prize in history. 
+ Sentence 2: John Fitzgerald Kennedy was shot dead in 1963. [ID: 401]
+ ##### 
+140. Sentence 1: Three of its five permanent members, France, Russia and China, are pushing the U.N. Security Council to lift the embargo on Iraq. 
+ Sentence 2: China is a member of the U.N. Security Council. [ID: 1592]
+ ##### 
+141. Sentence 1: The National Assn. of Realtors reported that sales of existing homes had shot up to an annual rate of 7.29 million in August, 7.8% higher than a year earlier. 
+ Sentence 2: Sales of existing homes raised 7.8%. [ID: 1719]
+ ##### 
+142. Sentence 1: Time Warner is the world's largest media and Internet company. 
+ Sentence 2: Time Warner is the world's largest company. [ID: 2341]
+ ##### 
+143. Sentence 1: Scientists at the Genome Institute of Singapore (GIS) have discovered the complete genetic sequence of a coronavirus isolated from a Singapore patient with SARS. 
+ Sentence 2: Singapore scientists reveal that SARS virus has undergone genetic changes. [ID: 439]
+ ##### 
+144. Sentence 1: The presence of oil in the South Atlantic was first proved in 1974, but the distance and isolation of the Falklands deterred oil companies from exploring the area until the 1990s. 
+ Sentence 2: Petroleum is explored in the South Atlantic. [ID: 1237]
+ ##### 
+145. Sentence 1: Prime Minister Mahmoud Abbas has offered 'the hand of peace' to Israel after his landslide victory in Sunday's presidential election. 
+ Sentence 2: Mahmoud Abbas has claimed victory in the presidential elections. [ID: 967]
+ ##### 
+146. Sentence 1: In the year 538, Cyrus set in place a policy which demanded the return of the various gods to their proper places. 
+ Sentence 2: Cyrus issued a declaration in 538 that would allow the Jews to go back to their homeland. [ID: 1098]
+ ##### 
+147. Sentence 1: The organizing committee said 65 countries have entered the Lillehammer Olympic Games, matching the number of nations at the 1992 Winter Games in Albertville, France. 
+ Sentence 2: 65 countries take part in the Lillehammer Olympic Games. [ID: 202]
+ ##### 
+148. Sentence 1: Some of these kinds of violence continue to be perpetrated by certain individuals and groups in the new Iraq.   Mahmoud continued, "In the last six months at least eight women have been killed in Mosul alone - all apparently by Islamic groups clamping down on female independence. Among these, a professor from the city's law school was shot and beheaded, a vet was killed on her way to work, and a pharmacist from the Alkhansah hospital was shot dead on her doorstep." 
+ Sentence 2: Women in Iraq have lost their freedom. [ID: 2371]
+ ##### 
+149. Sentence 1: More than 1,500 people died when the Titanic sank in 1912. 
+ Sentence 2: The Titanic sank in 1912. [ID: 1021]
+ ##### 
+150. Sentence 1: Since 1974, Cyprus has been divided, de facto, into the government-controlled southern two-thirds of the island and the Turkish-Cypriot northern one-third. 
+ Sentence 2: Cyprus was divided in 1974. [ID: 329]
+ ##### 
+151. Sentence 1: The Arak plant, along with the discovery of a secret Iranian enrichment program in 2003, Tehran's refusal to cease uranium enrichment and findings by IAEA inspectors have increased suspicions about Iran s program. 
+ Sentence 2: Iran's program is under suspicion because of the findings by IAEA inspectors. [ID: 2350]
+ ##### 
+152. Sentence 1: Some other objections to legalization point to the greater dangers of family violence, reckless driving, or reckless operation of subways and so on. 
+ Sentence 2: Drug legalization has benefits. [ID: 191]
+ ##### 
+153. Sentence 1: Picture a Janis Joplin robot sitting on a park bench talking about the Summer of Love, singing "Me and Bobby McGee" and introducing a David Bowie robot. 
+ Sentence 2: Robots serve as wax singers in the Rock Hall of Fame. [ID: 2027]
+ ##### 
+154. Sentence 1: It has been nearly 27 years since Nicole, then a high school student from the Saarland in extreme western Germany, sang a heartfelt plea for world peace on the stage at the Eurovision Song Contest held in Harrogate, North Yorkshire in the United Kingdom. That simple message was wrapped with success; she became the first German in Contest history to take home the grand prize. The song was a brainchild of her former record producer, Ralph Siegel, and would be their greatest achievement in their nearly three-decade partnership. 
+ Sentence 2: Nicole won the Eurovision Song Contest. [ID: 1041]
+ ##### 
+155. Sentence 1: The founder of Thailand's "yellow shirt" protest movement that shut down Bangkok airports last year was shot and wounded in an assassination attempt Friday, just days after troops cracked down on rioting protesters from the rival, anti-government "red shirt" group. The government quickly moved to tighten security around Prime Minister Abhisit Vejjajiva, who said a state of emergency that was imposed Sunday in Bangkok would remain in place. Vehicles carrying Abhisit were attacked twice by red-shirted protesters in the run-up to this week's riots. 
+ Sentence 2: The "yellow" and the "red shirts" are enemies. [ID: 1798]
+ ##### 
+156. Sentence 1: On any given day, Ms Lupse is on camera for between one and five hours, presenting a number of different call-in shows on several different networks: not only National TV but also Prima TV and Antena 1, all broadcast from the same studio. Despite the repetition, she doesn't get bored. "For me it's always exciting. I enjoy it very much! If I'm tired at the end of the show it means I've done a good show. But I'm never tired during the show." When I play a clip of one of her energetic show presentations - not the one she's become best known for - she elaborates on her exuberance. "I'm always excited when I'm about to give big prizes! There is no show without winners!". 
+ Sentence 2: Ms Lupse works for Prima TV. [ID: 1619]
+ ##### 
+157. Sentence 1: The floods were exceptional since they affected an extensive area across Europe from the UK to Spain and as far east as the Black Sea coast. Economic losses amounted to EUR 9.2 bn in Germany, EUR 2.9 bn in Austria and EUR 2.3 bn in the Czech Republic. Total economic damage exceeds EUR 15 bn. 
+ Sentence 2: Flooding in Europe causes major economic losses. [ID: 979]
+ ##### 
+158. Sentence 1: The comments made by Wells today, regarding the commissioner of baseball, do not in any way reflect the views of the club, Sox said in a statement. 
+ Sentence 2: David Wells' comments drew a quick response from the players' union and the commissioner's office. [ID: 2176]
+ ##### 
+159. Sentence 1: In a game ripe with controversy, Manchester United walked away with a crucial away win after a Ryan Giggs free kick gave them the lead. Lille protested the goal, saying the team was setting up its wall at the time Giggs took the kick, and the team nearly left the pitch. After goading by officials, the game was resumed, but Lille said it would be making a stake for a replay with UEFA. UEFA has rejected the claim and declared the goal valid, as well as deciding to "instigate proceedings against Lille for the improper behaviour of their players immediately after the goal." 
+ Sentence 2: Lille has defeated Manchester United. [ID: 722]
+ ##### 
+160. Sentence 1: The drawbacks of legalization do not imply that our current version of prohibition is the optimal drug strategy; it may well be possible to implement prohibition in less harmful ways. 
+ Sentence 2: Drug legalization has benefits. [ID: 1365]
+ ##### 
+161. Sentence 1: It is the country's aging nuclear facility that currently concerns Armenian environmental groups as well as those in neighboring countries. Twenty miles west of the capital Yerevan, Armenia's Metsamor Nuclear Power Plant was built in 1970s and houses two VVER-440 Model V230 nuclear reactors. Metsamor, which currently produces about 40 percent of the country's electricity, is located in a seismically active zone and was closed even before the 1991 collapse of the Soviet Union because of the devastating Dec. 7, 1988, earthquake in Spitak. 
+ Sentence 2: Metsamor nuclear reactor was shut down after the 1988 Armenian earthquake. [ID: 699]
+ ##### 
+162. Sentence 1: "I guess you have to expect this in a growing community," said Mardelle Kean, who lives across the street from John Joseph Famalaro, charged in the death of Denise A. Huber, who was 23 when she disappeared in 1991. 
+ Sentence 2: John J. Famalaro is accused of having killed Denise A. Huber. [ID: 342]
+ ##### 
+163. Sentence 1: A pet must have rabies protection confirmed by a blood test. 
+ Sentence 2: A case of rabies was confirmed. [ID: 1886]
+ ##### 
+164. Sentence 1: Israel plans to increase the share of gas in its energy balance to 25 percent by 2025 from the current 1 percent. 
+ Sentence 2: Currently the share of natural gas in Israel's energy system amounts to no more than one percent. [ID: 164]
+ ##### 
+165. Sentence 1: A Belgian policeman posing as an art dealer in Brussels arrested three Swedes. 
+ Sentence 2: Three Swedes were arrested in a Belgian police sting operation. [ID: 1820]
+ ##### 
+166. Sentence 1: BTA said those injured in the fire at Borovets, 22 miles southeast of Sofia, were from Britain, the Soviet Union, West Germany, the Netherlands, Greece and Denmark. 
+ Sentence 2: Sofia is located in Britain. [ID: 284]
+ ##### 
+167. Sentence 1: In conversations with Ms. Robbins, it is understood that Armstrong Environmental Inc. has been retained by past or present owners or some combination of these parties. 
+ Sentence 2: Ms Robbins is a co-owner of Armstrong Environmental Inc. [ID: 2216]
+ ##### 
+168. Sentence 1: So far the British have preferred a policy of a voluntary approach to restricting advertising and high taxes on tobacco products. 
+ Sentence 2: Sales have declined due to restrictions on advertising. [ID: 571]
+ ##### 
+169. Sentence 1: The chapters voluntarily transferred their right of electing the bishop to Emperor Charles V, and Pope Clement VII gave his consent to these proceedings. 
+ Sentence 2: Emperor Charles V was elected by Clement VII. [ID: 341]
+ ##### 
+170. Sentence 1: Rehnquist, appointed to the court in 1972 and promoted to chief justice in 1986, was the longest-serving chief justice since 1910 and among the longest-serving jurists in the court's history. 
+ Sentence 2: Rehnquist served the second-longest tenure, as chief justice, in US history. [ID: 2041]
+ ##### 
+171. Sentence 1: As the U.S. military evacuated Saigon in the Spring of 1975, President Gerald Ford approved Operation Babylift, the plan to transport thousands of Vietnamese children to adoptive parents in the West, hundreds of them at a time, before the U.S. was forced out of the country. 
+ Sentence 2: The U.S. military evacuated U.S. citizens. [ID: 1707]
+ ##### 
+172. Sentence 1: The GDP report showed growth in business outlays advanced at a solid 8.9% pace. 
+ Sentence 2: The GDP was a disappointing report. [ID: 582]
+ ##### 
+173. Sentence 1: Creeping trade protectionism, and bloated budget deficits, pose a risk to the United States' long-term economic vitality, Federal Reserve Chairman, Alan Greenspan, warned Friday. 
+ Sentence 2: Federal Reserve boss, Alan Greenspan, sees increased US trade protectionism and budget deficits as threats to the US economy. [ID: 2411]
+ ##### 
+174. Sentence 1: Justice Sandra Day O'Connor announced her retirement in order to spend time with her ill husband. 
+ Sentence 2: Justice Sandra Day O'Connor announced her retirement. [ID: 1481]
+ ##### 
+175. Sentence 1: Addressing a function organized here by the National Human Rights Commission (NHRC), Anand said, the greatest and most urgent challenges of human rights in India were in the areas of maternal and child care, child education, child labor, child abuse and protection of minorities and weaker sections. 
+ Sentence 2: Amnesty International takes care of human rights. [ID: 2267]
+ ##### 
+176. Sentence 1: Kieslowski later said that he abandoned documentary filmmaking due to two experiences: the censorship of Workers '71, which caused him to doubt whether truth could be told literally under an authoritarian regime, and an incident during the filming of Station (1981) in which some of his footage was nearly used as evidence in a criminal case. He decided that fiction not only allowed more artistic freedom, but could portray everyday life more truthfully. 
+ Sentence 2: Kieslowski is a director. [ID: 362]
+ ##### 
+177. Sentence 1: The settlement must be approved by Citigroup's board of directors and the board of Regents of the University of California, the lead plaintiff for investors in the case. 
+ Sentence 2: The settlement is pending approval by Citigroup's directors and the board of Regents at the University of California. [ID: 2477]
+ ##### 
+178. Sentence 1: He is the professor of theater and drama at Loyola University and the director of Wilson's "Two Trains Running," now onstage at Pegasus Players. 
+ Sentence 2: "Two Trains Running" was written by Wilson. [ID: 1060]
+ ##### 
+179. Sentence 1: In 1983, McClintock found that bacteria have rings of DNA (plasmids) that reproduce and have genetic changes that tell the bacteria how to defend itself against the antibiotics. 
+ Sentence 2: Bacteria is winning the war against antibiotics. [ID: 268]
+ ##### 
+180. Sentence 1: Since the fear of death is virtually a universal phenomenon, the death penalty is an unparalleled deterrent for people considering a crime. 
+ Sentence 2: Capital punishment is a deterrent to crime. [ID: 2391]
+ ##### 
+181. Sentence 1: Though Wilkins and his family settled quickly in Italy, it wasn't a successful era for Milan, and Wilkins was allowed to leave in 1987 to join French outfit Paris Saint-Germain. 
+ Sentence 2: Wilkins departed Milan in 1987. [ID: 587]
+ ##### 
+182. Sentence 1: The U.S. state of Florida entered an agreement on June 24, 2008 to purchase the U.S. Sugar Corporation, the largest manufacturer of cane sugar in the U.S., in an effort to restore the Everglades. Terms of the agreement stated that the purchase would be completed within 75 days, but that U.S. Sugar would be able to operate for another six years. After that, the state of Florida will retain ownership of U.S. Sugar's manufacturing facilities in Clewiston, Florida, and 187,000 acres of fields that have grown sugarcane since the 1960s will be allowed to return to their natural state. 
+ Sentence 2: Florida is going to buy the Sugar Corporation. [ID: 501]
+ ##### 
+183. Sentence 1: Bukowski attracted the attention of John Martin who founded Black Sparrow Press in 1965 specifically to publish him. 
+ Sentence 2: John Martin is the founder of Black Sparrow Press. [ID: 2239]
+ ##### 
+184. Sentence 1: A statement said to be from al Qaida, claimed the terror group had killed one American and kidnapped another in Riyadh. 
+ Sentence 2: A U.S. citizen working in Riyadh has been kidnapped after a colleague in the same company was shot dead yesterday. [ID: 2240]
+ ##### 
+185. Sentence 1: In 1986 he became the head of London European Airways, a business in which Ryanair had bought an 85% stake. This position, however, quickly disappeared as the carrier became Ryanair UK and was then merged entirely with Ryanair. Over the next decade, Cathal worked both on the executive board of the airline and as a pilot, although he resigned from the latter by 1996. He remained with Ryanair until leaving the board 2002, by which time he was a multi-millionaire due to the success of the airline. 
+ Sentence 2: Ryan was Cathal's father. [ID: 1701]
+ ##### 
+186. Sentence 1: Epiphyte is the name applied to the class of plants which typically do not root in the soil but, rather, attach themselves to trees or other tall objects where they can obtain light and moisture. 
+ Sentence 2: Plants are grown in substances other than soil. [ID: 332]
+ ##### 
+187. Sentence 1: Lebanon is in a period of mourning after a massive car bomb killed the former Prime Minister, Rafik Hariri, on Tuesday. 
+ Sentence 2: Mr. Hariri was killed in a bomb explosion. [ID: 2422]
+ ##### 
+188. Sentence 1: Evans Paul, the pro-Aristide mayor of Port-au-Prince, said he had been told that the money will go to American lobbyists, politicians and journalists to campaign against the return of Aristide, Haiti's first democratically elected president 
+ Sentence 2: Aristide is the mayor of Port-au-Prince. [ID: 2096]
+ ##### 
+189. Sentence 1: A rocket attack killed two Israelis, including a 3-year-old boy. 
+ Sentence 2: A three-year-old was killed in a rocket attack. [ID: 1790]
+ ##### 
+190. Sentence 1: Black Tigers are selected for their discipline and their loyalty to Vilupillai Prabhakaran, 41, the elusive leader of the LTTE. 
+ Sentence 2: Vilupillai Prabhakaran is the elusive leader of the LTTE. [ID: 1686]
+ ##### 
+191. Sentence 1: Besides producing this riverine sea, the deluge also nourishes the largest stretch of rain forest left on Earth. One-third of the remaining rain forest was in the Amazon basin and fires had consumed about 10% of it, an area twice the size of California. 
+ Sentence 2: The Amazon rain forest is a vast area in South America. [ID: 2107]
+ ##### 
+192. Sentence 1: Political change in eastern Europe and the removal of trade barriers in the Far East have given the four multinationals-Philip Morris, BAT Industries, R J Reynolds and Rothmans International-access to big potential new markets. 
+ Sentence 2: Trade liberalisation happened in China. [ID: 369]
+ ##### 
+193. Sentence 1: Two trains collided in Shandong, China 4:41am local time on Monday killing at least 71 people and injuring over 400, including four French citizens. It is still not known exactly how many people were on either of the trains. The collision occurred in Zibo when one of the trains traveling from Beijing to Qingdao jumped tracks and collided head on with a train traveling in the opposite direction from Yantai to Xuzhou. Both of the trains are reported to have been traveling at their maximum speeds when they collided. 
+ Sentence 2: Zibo is in the vicinity of Beijing. [ID: 529]
+ ##### 
+194. Sentence 1: The lion's share of this traffic comes from Angola, where diamonds from the area controlled by UNITA (National Union for the Total Independence of Angola) rebels are subject to an embargo. 
+ Sentence 2: Angola was subject to an embargo on the export of diamonds. [ID: 1520]
+ ##### 
+195. Sentence 1: And this is a town that everybody agrees, law enforcement, Border Patrol, residents on both sides, is a staging area of illegal drugs and illegal aliens. 
+ Sentence 2: Steps are being taken to stop the smuggling of aliens. [ID: 2428]
+ ##### 
+196. Sentence 1: The stupendous power of the Tevatron made possible the 1995 discovery of the top quark - the last of six flavors of quarks predicted by the standard model theory of particle physics. 
+ Sentence 2: The top quark is the last of six flavors of quarks predicted by the standard model theory of particle physics. [ID: 377]
+ ##### 
+197. Sentence 1: In announcing plans today to prepare the nation for combating a future worldwide wave of bird flu, President Bush used vocabulary and tactics that are familiar from his confrontation with global terrorism. 
+ Sentence 2: Bush supports global terrorism. [ID: 966]
+ ##### 
+198. Sentence 1: The Heads of state reiterated their deep concern for the serious threat that the rising trend in drug abuse poses for society and the lives and future of children and youth, and for the destabilizing effects that illegal use, production, trafficking and distribution of narcotic drugs psychotropic substances and drug-related offences have for the affected countries of the South Asian region. 
+ Sentence 2: The Heads of state expressed their deep concern at the fast and continuing degradation of the environment, including extensive destruction of forests, in the South Asian region. [ID: 2366]
+ ##### 
+199. Sentence 1: Six hostages in Iraq were freed. 
+ Sentence 2: The four Jordanian hostages, kidnapped about a week ago, were freed. [ID: 2136]
+ ##### 
+200. Sentence 1: Martin was given water to drink, then taken to New Orleans Ochsner Foundation Hospital, where nurse Jinny Resor said he was treated for dehydration. 
+ Sentence 2: Ochsner Foundation Hospital is located in New Orleans. [ID: 1551]
+ ##### 
+201. Sentence 1: The discovery is based on velocity measurements of a whirlpool of hot gas orbiting the black hole. 
+ Sentence 2: Hubble discovers black holes. [ID: 98]
+ ##### 
+202. Sentence 1: The State of California Department of Occupational Health and Safety released its report on the September 5 fatal accident on Disneyland's Big Thunder Mountain Railroad attraction. 
+ Sentence 2: Disneyland has accident [ID: 546]
+ ##### 
+203. Sentence 1: At least 58 people are now dead as a result of the recent flooding in Yemen, and at least 20,000 in the country have no access to shelter. Five people are also reported missing. The Yemeni government has pledged to send tents to help the homeless. The flooding is caused by the recent heavy rain in Yemen, which came as a shock due to the fact that the country only receives several centimeters of rain per year. 
+ Sentence 2: Heavy rain caused flooding in Yemen. [ID: 2290]
+ ##### 
+204. Sentence 1: But when the WTO headquarters issue came up, and Germany made an offer and a pitch to get the WTO to be headquartered in Bonn, the Swiss suddenly realised they were vulnerable and began improving their offers. 
+ Sentence 2: The WTO headquarters is in Bonn. [ID: 1799]
+ ##### 
+205. Sentence 1: Fears were growing last night for the safety of a 'distressed' mother who has disappeared with her disabled nine-year-old daughter. Florist Jude Richmond, whose customers include the Royal Family, was last seen carrying cerebral palsy sufferer Millie Whitehead-Richmond as they left home on Sunday night. Mrs Richmond, 41, was said to have been devastated after splitting from her husband and business partner, Nicholas Richmond, earlier this year.  Police believe she became increasingly depressed after the split. She is said to be in a 'very vulnerable state of mind' at the time of her disappearance. 
+ Sentence 2: Jude Richmond works with the police. [ID: 317]
+ ##### 
+206. Sentence 1: The terrorist is suspected of being behind several deadly kidnappings and dozens of suicide attacks in Iraq. 
+ Sentence 2: Terrorist kidnaps dozens of Iraqis. [ID: 1766]
+ ##### 
+207. Sentence 1: The Counts of Holland and Geldern, between whose territories the lands of the Bishops of Utrecht lay, also sought to acquire influence over the filling of the episcopal see. This often led to disputes and consequently the Holy See frequently interfered in the election. 
+ Sentence 2: The Counts of Holland supported the Holy See. [ID: 144]
+ ##### 
+208. Sentence 1: Martin was taken to New Orleans Ochsner Foundation Hospital, where nurse Jinny Resor said he was treated for dehydration. 
+ Sentence 2: Martin works for the Ochsner Foundation Hospital. [ID: 547]
+ ##### 
+209. Sentence 1: Six time prime minister Giulio Andreotti is just one of the many casualties stemming from these investigations and subsequent trials. 
+ Sentence 2: Giulio Andreotti is a prime minister. [ID: 1196]
+ ##### 
+210. Sentence 1: The plant, located in Romulus, near Wayne, is about 15 miles southwest of Detroit. Initial reports stated that a single explosion in a chemical tank was the cause of the fire. The cause of this explosion has not yet been determined. Detroit ABC affiliate WXYZ confirmed that all employees made it out of the plant before the explosion occurred, and that HAZMAT teams were on the scene of the fire. Wayne County Sheriff Warren Evans announced that no injuries ere reported in the initial explosion. However, approximately 32 people were treated for breathing problems at nearby Oakwood Annapolis Hospital, due to the subsequent fire. 
+ Sentence 2: Romulus is found southwest of Detroit. [ID: 415]
+ ##### 
+211. Sentence 1: Political leaders pledged that construction of the so-called Freedom Tower -- which will rise 1,776 feet into the air and be the world's tallest building -- will be finished on schedule by the end of 2008. 
+ Sentence 2: The Freedom Tower will be the world's tallest building. [ID: 964]
+ ##### 
+212. Sentence 1: About one million years ago, these people began to slowly leave Africa. 
+ Sentence 2: Humans existed 10,000 years ago. [ID: 1676]
+ ##### 
+213. Sentence 1: Banning ivory is the surest road to extinction for the African elephant, argue leaders in those countries. 
+ Sentence 2: The ban on ivory trade has been effective in protecting the elephant from extinction. [ID: 2074]
+ ##### 
+214. Sentence 1: Nabih Berri, Speaker of the Lebanese Parliament has delayed the presidential vote for an eleventh time since initial voting began on September 25. The last vote was set for December 29 but has been rescheduled for January 12. A senior political source stated the reason for the delay was due to "complications in regional and international negotiations and the severing of domestic talks." 
+ Sentence 2: Lebanon elected a new President. [ID: 1561]
+ ##### 
+215. Sentence 1: Secretary-General Kofi Annan and Nane Annan are greeted by President Fidel Castro upon their arrival at Jose Marti Airport in Havana on April 10. 
+ Sentence 2: Castro visits the UN. [ID: 361]
+ ##### 
+216. Sentence 1: Jill Pilgrim, general counsel of USA Track and Field, brought up the issue during a panel on women's sports at the sports lawyers conference. Pilgrim said the law regarding who is legally considered a woman is changing as sex-change operations become more common. 
+ Sentence 2: Sex-change operations become more common. [ID: 932]
+ ##### 
+217. Sentence 1: Just one week before the elections, Antwerp was the scene of the 0110 concerts, organised against racism, extremism and gratuitous violence. The event was spurred by a series of acts of "pointless violence" during the last year (the murder of Joe Van Holsbeeck, the case Hans Van Themsche and the events surrounding Guido Demoor. However, Vlaams Belang asked many musicians to boycott the event, because it "only targets Vlaams Belang". The party considered the concerts as a direct attack by the political establishment. Since 1989, the other parties have instituted a cordon sanitaire against Vlaams Belang, forcing them into the opposition, notwithstanding their increasing electorial success. 
+ Sentence 2: Guido Demoor was assassinated by Joe Van Holsbeeck. [ID: 493]
+ ##### 
+218. Sentence 1: The credit card mobile phones now provided on some aircraft, do not interfere with aircraft systems because they are wired to a special "base station" that has been designed to safely receive and transmit radio signals in the aircraft. 
+ Sentence 2: Mobile phones can interfere with aircraft systems. [ID: 1150]
+ ##### 
+219. Sentence 1: The ecological problems stem in large part from the fact that the brackish water and productive coastal wetlands and natural areas are often supplied with nutrient-rich irrigation return water, sometimes from rice farming. The Ebro Delta and its wetlands suffer similar water quality problems since they lie around the fringes of the large Delta farm region. 
+ Sentence 2: The Ebro Delta is used for farming. [ID: 2208]
+ ##### 
+220. Sentence 1: Some of the buildings around the city square in the Kota also date from colonial times, including the old city hall ( 1710 ), which has been restored and now serves as the municipal museum. 
+ Sentence 2: In the Old City are the old port, the Dutch town hall, and a square. [ID: 1988]
+ ##### 
+221. Sentence 1: A bus collision with a truck in Uganda has resulted in at least 30 fatalities and has left a further 21 injured. 
+ Sentence 2: 30 die in a bus collision in Uganda. [ID: 567]
+ ##### 
+222. Sentence 1: The settlement must be approved by Citigroup's board of directors and the board of Regents of the University of California, the lead plaintiff for investors in the case. 
+ Sentence 2: The University of California's board of Regents still needs to ratify the settlement - as does Citigroup's board of directors. [ID: 2097]
+ ##### 
+223. Sentence 1: Barack Obama made history on 4 November 2008 when he defeated Republican rival John McCain to become the first black president of the United States. He had already broken new ground in his White House campaign, as the first black candidate to become the presidential choice of either major US party. To many people, Mr Obama seemed to come from nowhere. Although he had served in the Illinois state senate for eight years, it was only in 2004 that he shot to national prominence, with a speech that stirred the Democratic National Convention. 
+ Sentence 2: Barack Obama is the first black candidate to become the president of the United States. [ID: 371]
+ ##### 
+224. Sentence 1: An official of the International Special Commission in charge of disarming Iraqi weapons (UNSCOM) announced yesterday, Saturday, that the Commission will keep its inspectors in Iraq despite Baghdad's decision to stop its cooperation with them. 
+ Sentence 2: UNSCOM is to stay in Iraq. [ID: 1537]
+ ##### 
+225. Sentence 1: John Lennon's widow, Yoko Ono, approved this museum as the world's first museum to honor John Lennon. 
+ Sentence 2: Yoko Ono is John Lennon's widow. [ID: 2172]
+ ##### 
+226. Sentence 1: Speaking about the papal visit, Castro also said the government had agreed to make available half of its transport to ensure people can attend masses the pope will celebrate in the cities of Havana, Santa Clara, Camaguey and Santiago de Cuba. Cuban church authorities have been concerned there will not be enough transport. 
+ Sentence 2: Papal travel is affected by political concerns. [ID: 1759]
+ ##### 
+227. Sentence 1: Jacques Santer succeeded Jacques Delors as president of the European Commission in 1995, the second Luxembourger to hold this high office. 
+ Sentence 2: Jacques Delors succeeded Jacques Santer in the presidency of the European Commission. [ID: 125]
+ ##### 
+228. Sentence 1: The results of numerous epidemiological studies and recent clinical trials provide consistent evidence that diets rich in fruits and vegetables can reduce the risk of chronic disease. 
+ Sentence 2: Fruits and vegetables prevent osteoporosis. [ID: 2059]
+ ##### 
+229. Sentence 1: The Israeli army forces carried out, on Saturday, a widespread military operation into the West Bank town of Jenin and its refugee camp, local Palestinian sources said. 
+ Sentence 2: The Israeli army carried out a widespread operation in Jenin. [ID: 2375]
+ ##### 
+230. Sentence 1: Israeli Prime Minister Ariel Sharon has said that Mahmoud Abbas is a man that Israel can do business with. 
+ Sentence 2: Palestinian leader, Mahmoud Abbas, may be someone Israel can talk with. [ID: 68]
+ ##### 
+231. Sentence 1: Oil prices edged up today as Norwegian employers said they would respond to a strike by locking out all workers next week, threatening to shut off almost all oil and gas output. 
+ Sentence 2: Workers strike in response to Norwegian employers' threats. [ID: 1613]
+ ##### 
+232. Sentence 1: Slavkov, accused in the Salt Lake scandal but later cleared, said he had been approached by Takatch. 
+ Sentence 2: Slavkov, defendant in the scandal of Salt Lake but that later was exculpated, in fact said that Takatch. [ID: 2023]
+ ##### 
+233. Sentence 1: If toxic waste containg cyanide is not disposed of properly, it may drain into ponds, streams, sewers, and reservoirs. 
+ Sentence 2: Leaks into environment are caused by bad disposal of toxic waste containing cyanide. [ID: 2218]
+ ##### 
+234. Sentence 1: The group, along with a broad coalition of disarmament, environmental, peace, and religious organizations, expects the boycott to put pressure on French companies to exert their economic influence and encourage Chirac to end all nuclear weapons testing. 
+ Sentence 2: International pressure is exerted to end French nuclear tests. [ID: 743]
+ ##### 
+235. Sentence 1: The human rights promotion and protection secretariat of the FMLN strongly condemns the massacre of five Spanish-born Jesuit priests, and three Salvadoran citizens, carried out by the Salvadoran Armed Forces Soldiers. 
+ Sentence 2: The Salvadoran Armed Forces Soldiers murdered three Salvadoran citizens. [ID: 1432]
+ ##### 
+236. Sentence 1: He said that his daughter was told that Clark had been cited to General Sessions Court. 
+ Sentence 2: Clark is employed at General Sessions Court. [ID: 351]
+ ##### 
+237. Sentence 1: The Statue of Liberty is so big it had to be built in 300 sections. 
+ Sentence 2: The Statue of Liberty was built in the year 300. [ID: 307]
+ ##### 
+238. Sentence 1: Speaking of Jean Charles de Menezes, who was chased by armed officers into the station and shot five times at close range, his cousin, Alex Pereira, hinted today that his family would sue Scotland Yard over the killing. 
+ Sentence 2: Jean Charles de Menezes is related to Alex Pereira. [ID: 2421]
+ ##### 
+239. Sentence 1: Chirac needed a new mandate for his government from the electorate, or a new left government was needed that could count on the support of the trade union bureaucracy and among the working class and so would encounter less resistance. 
+ Sentence 2: Parliamentary elections create new government in France. [ID: 1396]
+ ##### 
+240. Sentence 1: Israeli troops evicted hundreds of screaming and weeping Jewish settlers from their homes, schools and synagogues in the Gaza Strip on Wednesday, carrying out a chaotic and harrowing operation to end 38 years of occupation. 
+ Sentence 2: Israeli troops carried settlers out of homes, synagogues and even nursery schools. [ID: 2382]
+ ##### 
+241. Sentence 1: In an interview this week, the president said that Vice President Dick Cheney and Defense Secretary Donald Rumsfeld will be a valued part of his administration until his presidency comes to an end. 
+ Sentence 2: Dick Cheney is Vice President of the Defense Secretary Donald Rumsfeld. [ID: 741]
+ ##### 
+242. Sentence 1: This paper describes American alcohol use, the temperance movement, Prohibition, and the War on Drugs and explains how legalizing drugs would reduce crime and public health problems. 
+ Sentence 2: Drug legalization has benefits. [ID: 1924]
+ ##### 
+243. Sentence 1: Sabena was the former national airline of Belgium, mainly operating from Brussels National Airport, now replaced by SN Brussels Airlines. 
+ Sentence 2: Sabena is a national airline. [ID: 1260]
+ ##### 
+244. Sentence 1: Three anti-Olympic games protesters, posed as a flower delivery service, quickly ransacked British Columbia, Canada premier Gordon Campbell's downtown Vancouver, British Columbia office yesterday afternoon, breaking windows and throwing pictures, office documents, and various other items. After the suspects were caught, they said that they were upset over Campbell's support for the 2010 Winter Olympic Games in Vancouver, British Columbia. They also claimed to work for "The Anti-Poverty Committee". They are now facing charges for property damage and uttering threats during or after the incident. Police are only identifying them as a 23-year-old man, a 29-year-old man, and a 17-year old female. The 23-year-old faces a third charge of assault by trespassing. 
+ Sentence 2: Vancouver is located in Canada. [ID: 129]
+ ##### 
+245. Sentence 1: The maker of a promising ovarian cancer drug said, Friday, that he stopped enrolling women in a study because several patients developed gastrointestinal holes. 
+ Sentence 2: A study of a promising cancer drug was stopped because of a serious side effect. [ID: 1787]
+ ##### 
+246. Sentence 1: Valero Energy Corp., on Monday, said it found "extensive" additional damage at its 250,000-barrel-per-day Port Arthur refinery. 
+ Sentence 2: Valero Energy Corp. caused damages to Port Arthur refinery. [ID: 826]
+ ##### 
+247. Sentence 1: Under the headline "Greed instead of quality", Germany's Die Tageszeitung says no good will come of the acquisition of the publisher Berliner Verlag by two British and US-based investment funds. 
+ Sentence 2: British and US-based investment funds acquire Berliner Verlag. [ID: 882]
+ ##### 
+248. Sentence 1: Female mosquitoes become infected with the malaria parasite when they draw blood from humans with malaria. The insects can then pass this on to other humans they bite, but do not get sick themselves. 
+ Sentence 2: Female mosquitoes spread malaria. [ID: 325]
+ ##### 
+249. Sentence 1: People who are deaf or have hearing impairments, those who are blind or have vision impairments, and those with mobility impairments may face unique challenges in an emergency. Their ability to detect a fire or escape its effects may be hindered by their impairments. As a result, people with these impairments are at a greater risk of death or injury due to fire. 
+ Sentence 2: Deaf people encounter problems in the social community. [ID: 2295]
+ ##### 
+250. Sentence 1: If no settlement is reached, a divided Cyprus will join the European Union on May 1, 2004. 
+ Sentence 2: Cyprus was divided into two parts on May 1, 2004. [ID: 1695]
+ ##### 
+251. Sentence 1: Clonaid, which claims to have produced 13 cloned babies worldwide, told the Streats daily newspaper two Singaporean couples had signed deals agreeing to pay $200,000 to conceive children through cloning. 
+ Sentence 2: Clonaid has cloned 13 babies. [ID: 1915]
+ ##### 
+252. Sentence 1: QNX Software Systems Ltd., a leading provider of real-time software and services to the embedded computing market, is pleased to announce the appointment of Mr. Sachin Lawande to the position of vice president, engineering services. 
+ Sentence 2: Sachin Lawande Named VP of Engineering Services at QNX [ID: 559]
+ ##### 
+253. Sentence 1: The American House of Representatives is due to vote today, on a resolution submitted by the Chairman of the Judicial Committee, Henry Hyde, asking Congress to launch an investigation over charges brought forward by Independent Prosecutor-General Kenneth Star against President Clinton in the Monica Lewinsky affair. 
+ Sentence 2: Voting will take place in the American House of Representatives today, on the President Clinton-Monica Lewinsky scandal. [ID: 1587]
+ ##### 
+254. Sentence 1: The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. 
+ Sentence 2: EuroDisney is located in the charming city of Magny-Le-Hongre. [ID: 2446]
+ ##### 
+255. Sentence 1: Since the island also lacks wells, water has to be obtained from rain carefully collected in concrete cisterns. 
+ Sentence 2: The island gets water from collected rain. [ID: 124]
+ ##### 
+256. Sentence 1: In the early hours of April 15, 1912, the British luxury liner Titanic sank in the North Atlantic off Newfoundland, less than three hours after striking an iceberg. 
+ Sentence 2: The Titanic sank in 1912. [ID: 1064]
+ ##### 
+257. Sentence 1: As late as 1799, priests were still being imprisoned or deported to penal colonies and persecution only worsened after the French army led by General Louis Alexandre Berthier captured Rome and imprisoned Pope Pius VI, who would die in captivity in Valence, Drôme, France in August of 1799. 
+ Sentence 2: Alexandre Berthier died in 1799. [ID: 111]
+ ##### 
+258. Sentence 1: The city continued to grow through much of the 20th century. 
+ Sentence 2: The city continued to grow, but its services deteriorated. [ID: 2108]
+ ##### 
+259. Sentence 1: The two rescuers who retrieved him are firefighters with a California-based FEMA team: J.D. Madden of Santa Clara and Eric Mijangos of Menlo Park. 
+ Sentence 2: A FEMA team is based in California. [ID: 648]
+ ##### 
+260. Sentence 1: Alan Mulally, Boeing's head of the unit, said at the start of the strike that it may cause delivery delays that would give Airbus SAS an advantage in what is the strongest commercial aircraft market in five years. 
+ Sentence 2: Alan Mulally is the owner of Boeing. [ID: 1720]
+ ##### 
+261. Sentence 1: Before the game, Alabama Birmingham Athletic Director and Coach Gene Bartow presented Cal State Northridge with a $5,000 check from Rust International Corp., for earthquake relief. 
+ Sentence 2: Gene Bartow coaches Alabama Birmingham. [ID: 1323]
+ ##### 
+262. Sentence 1: Ashley Olsen has decided to remain with her twin sister, Mary-Kate, instead of going on a planned trip to Australia to promote the opening of the siblings' latest movie adventure "New York Minute," reports the AP. 
+ Sentence 2: The Olsen twins star in "New York Minute." [ID: 784]
+ ##### 
+263. Sentence 1: "I want to go back again. But I am afraid, honestly, I am afraid. Propaganda against me made people think I am terrorist.", said el-Nashar. 
+ Sentence 2: El-Nashar is accused of terrorism. [ID: 2042]
+ ##### 
+264. Sentence 1: The wait time for a green card has risen from 21 months to 33 months in those same regions. 
+ Sentence 2: It takes longer to get green card. [ID: 625]
+ ##### 
+265. Sentence 1: Naval units evacuated U.S. civilians and military personnel from the Tachen Islands. 
+ Sentence 2: The U.S. military evacuated U.S. citizens. [ID: 1784]
+ ##### 
+266. Sentence 1: The biopic of wannabe actor, Johnny Stompanato, may be directed by Adrian Lyne of "Fatal Attraction" and "Indecent Proposal" fame. 
+ Sentence 2: Johnny Stomponato starred in Fatal Attraction. [ID: 750]
+ ##### 
+267. Sentence 1: In 2003, Yunus brought the microcredit revolution to the streets of Bangladesh to support more than 50,000 beggars, whom the Grameen Bank respectfully calls Struggling Members. 
+ Sentence 2: Yunus supported more than 50,000 Struggling Members. [ID: 1057]
+ ##### 
+268. Sentence 1: U.S. policy on drug trafficking is not consistent with the need to put an end and actively repress the consumption of drugs. The solution is not based on the destruction of a native plant, coca, in the continent, but on an active fight against the Colombian drug mafia, which has created a great money and crime empire in Colombia with powerful ramifications outside its borders. 
+ Sentence 2: A native plant is destroyed by the Colombian drug mafia. [ID: 1837]
+ ##### 
+269. Sentence 1: During Ramadan, Muslims will gather at the mosque for nightly prayer sessions and evening meals. 
+ Sentence 2: The mosque is a place of worship for Muslims. [ID: 1206]
+ ##### 
+270. Sentence 1: The tallest building in Tokyo and the second tallest building in Japan, the TMGO was conceived as a high-tech center from which Tokyo could be led into the promising twenty-first century. 
+ Sentence 2: TMGO is the tallest building in Japan. [ID: 1298]
+ ##### 
+271. Sentence 1: Aziz confirmed that Iraq's demands include "the lifting of the blockade and the restructuring of the espionage commission, including its Chairman, (Richard) Butler. 
+ Sentence 2: Iraq demands the lifting of the embargo and changes in the committee. [ID: 927]
+ ##### 
+272. Sentence 1: Rodriguez told detectives he never touched the burning backpack, which was loaded with plastic pipes packed with gunpowder and BBs. 
+ Sentence 2: The burning backpack contained plastic pipes packed with gunpowder and BBs. [ID: 1119]
+ ##### 
+273. Sentence 1: The cost for some 30 million sheets of paper used each year by Cal State Long Beach colleges and departments went up Wednesday for the first time in four years. 
+ Sentence 2: The cost of paper is rising. [ID: 1516]
+ ##### 
+274. Sentence 1: Guerrillas killed a peasant in the city of Flores. 
+ Sentence 2: Guerrillas killed a civilian [ID: 1993]
+ ##### 
+275. Sentence 1: There are discussions in California and Arizona to allow illegal aliens to have driver's licenses. 
+ Sentence 2: California driver's licenses granted to illegal immigrants. [ID: 2395]
+ ##### 
+276. Sentence 1: The new work went an extra step, suggesting that the connections that the stem cells form to help bridge the damaged spinal cord, are key to recovery. 
+ Sentence 2: The experiment, reported Monday, isn't the first to show that stem cells offer tantalizing hope for spinal cord injury. [ID: 1844]
+ ##### 
+277. Sentence 1: After the polio cases were identified, public health officials in the Dominican Republic and Haiti began giving the vaccines to large numbers of children. Public health officials now say the disease is under control and is not a public health threat. 
+ Sentence 2: Polio is under control in the world. [ID: 1845]
+ ##### 
+278. Sentence 1: The trial court may allow the prevailing party reasonable attorney fees as part of costs. 
+ Sentence 2: The prevailing party may not recover attorney fees. [ID: 920]
+ ##### 
+279. Sentence 1: Elsewhere, Mozambique took its first ever Olympic gold medal when Maria Mutola won the women's eight-hundred metres, while the men's ten-thousand-metres went to the Ethiopian Haile Gebrselassie. 
+ Sentence 2: The women's ten thousand metres champion is from Mozambique. [ID: 1258]
+ ##### 
+280. Sentence 1: The Sioux Ghost Shirt was a feature of Glasgow's Kelvingrove Museum for more than 100 years before being repatriated to its land of origin. 
+ Sentence 2: A Sioux ghost shirt was returned by a Scottish museum. [ID: 997]
+ ##### 
+281. Sentence 1: On Friday evening, a car bomb exploded outside a Shiite mosque in Iskandariyah, 30 miles south of the capital, killing seven people and wounding 10, doctors said on condition of anonymity. 
+ Sentence 2: A bomb exploded outside a mosque. [ID: 229]
+ ##### 
+282. Sentence 1: KANDAHAR, Afghanistan — Five suicide bombers stormed a government office in Kandahar on Wednesday morning, killing 13 people, including two provincial government officials, and wounding 14.  One militant detonated a car bomb at the entrance gate of the provincial council office, as the others stormed the compound with assault rifles and hand grenades. Seven civilians and six police officers were killed in the 20-minute gun battle, which ended when two of the militants blew themselves up in the main hall, said the provincial police chief, Matiullah Qati. 
+ Sentence 2: Five government officials were killed in the suicide bomber attack in Kandahar. [ID: 1930]
+ ##### 
+283. Sentence 1: By law, Mexico can only export half the oil it produces to the United States. 
+ Sentence 2: Mexico produces more oil than any other country. [ID: 624]
+ ##### 
+284. Sentence 1: The company, whose registered auditors are Deloitte and Touche, has instructed Ernst and Young to carry out a thorough review of the accounts of Eurest Support Services, a subsidiary which feeds UN peacekeepers in at least eight countries. 
+ Sentence 2: Eurest Support Services is a subsidiary of Ernst and Young. [ID: 128]
+ ##### 
+285. Sentence 1: On this particular trip, Airbus, in cooperation with its partners, organized a trip for 80 children between the ages of 9 and 16 years from nearby National Children's Homes to visit EuroDisney for a day. 
+ Sentence 2: EuroDisney is located nearby National Children's Homes. [ID: 1272]
+ ##### 
+286. Sentence 1: Two weeks ago, China became the first nation to operate a maglev railway commercially, when officials inaugurated a 30-kilometer-long line between downtown Shanghai and the city's airport. 
+ Sentence 2: Maglev is commercially used. [ID: 2199]
+ ##### 
+287. Sentence 1: Verizon Communications Inc. said on Monday it would buy long-distance telephone company MCI Communications Inc. in a deal worth $6.75 billion, giving Verizon a foothold in the market for serving large corporations. 
+ Sentence 2: Verizon Communications Inc.'s $6.7 billion takeover of long-distance provider MCI Inc. transformed the telephone industry. [ID: 861]
+ ##### 
+288. Sentence 1: The Obama administration has told Chrysler it would provide as much as $6 billion in new financing, on top of the $4 billion in loans it has already given the company, if Chrysler could complete a deal by next Thursday with a cost structure that gives it a chance of survival. The creditors have, so far, balked at the terms suggested by the Treasury Department. But the negotiations have taken a new direction. Treasury now has an agreement in principle with the UAW, whose members' pensions and retiree health care benefits would be protected in the event of a bankruptcy filing, said the people with knowledge of the discussions. Moreover, under this scenario, Fiat would complete its alliance with Chrysler while the company is under bankruptcy protection. 
+ Sentence 2: Fiat wants to acquire some stakes in Chrysler. [ID: 1404]
+ ##### 
+289. Sentence 1: 2001 Nobel economics prize winner Joseph Stiglitz, meanwhile, said the new currency could come about quickly if it was based on an expansion of the IMF's already established system of Special Drawing Rights, units of exchange used by the IMF which already have some of the features of currency. Stiglitz argued that, as the US dollar has become the standard global reserve currency, it has inadvertently created a system which hurts the world economy. "It's a net transfer, in a sense, to the United States of foreign aid," he argued, reasoning that when other countries purchase US dollars in order to use them on international markets (such as for the buying and selling of petroleum), they effectively give the US a zero-interest loan — sometimes at times when they can least afford it. Stiglitz made his comments as head of a United Nations panel of economists giving recommendations to address the global financial crisis. 
+ Sentence 2: Joseph Stiglitz is the winner of a Nobel prize in economics. [ID: 871]
+ ##### 
+290. Sentence 1: As Fiat shows off its robot-controlled inventory stacks in glossy advertisements and IBM switches off the lights in its automated warehouse in Greenock, it is clear that this Cinderella operation has a new set of high-tech glad rags. 
+ Sentence 2: Fiat, in particular, uses robots for inventory management. [ID: 303]
+ ##### 
+291. Sentence 1: Israeli scientists predict the world's coral reefs could begin to collapse in as little as 30 years from now. Studies show the oceans are becoming increasingly acidic as they soak up manmade emissions of carbon dioxide. The Hebrew University of Jerusalem researchers say this will make it difficult for many coral organisms to produce skeletal and other hard parts. The team's work on corals in the Red Sea suggests a tipping point will be reached in between 30 and 70 years.  Then the forces of erosion eating away at corals will outstrip the organisms' ability to make the reefs. 
+ Sentence 2: The acidification of oceans affects tourism. [ID: 1205]
+ ##### 
+292. Sentence 1: They're being forced to live on crumbs, so nuns at a Hollywood convent famous for its pumpkin bread are warning that they may have to slice up the place for development. The threat of a shutdown of the 75-year-old Monastery of the Angels below the Hollywood sign has prompted neighbors and supporters to mount a campaign to save the four-acre religious retreat. The volunteers say they may turn to the nuns' moist and fragrant pumpkin bread to help make up a cash shortfall that has slashed the monastery's operating budget by more than 70%. 
+ Sentence 2: The Monastery of the Angels was founded 75 years ago. [ID: 983]
+ ##### 
+293. Sentence 1: More than 150 dolphins, marine turtles and beaked whales have been washed up dead on beaches in Africa. 
+ Sentence 2: Dead dolphins, turtles and whales have been found on African beaches. [ID: 79]
+ ##### 
+294. Sentence 1: The Independent Police Complaints Commission (IPCC) is trying to reassure lawyers for the family of Jean Charles de Menezes that the inquiry is still on track. 
+ Sentence 2: Police issued John Wadham's statement after lawyers for the de Menezes family met with the complaints commission, demanding more information about the killing. [ID: 1559]
+ ##### 
+295. Sentence 1: Scott's execution led to outrage in Ontario, and was largely responsible for prompting the Wolseley Expedition, which forced Louis Riel, now branded a murderer, to flee the settlement. 
+ Sentence 2: Scott's execution caused the Wolseley Expedition. [ID: 208]
+ ##### 
+296. Sentence 1: The number of Gulf War veterans who suffer from Gulf War illness is difficult to grasp. Robinson and other advocates say they believe that many of the 330,000 Gulf War veterans who have sought medical treatment from the VA since the war, and 179,000 who are collecting some level of disability benefits, are suffering from one or more of the symptoms. 
+ Sentence 2: Many US soldiers developed Gulf War illness after the Gulf War. [ID: 952]
+ ##### 
+297. Sentence 1: Zakaria Maamar, associate professor at the College of Information Technology at Zayed University, UAE, told Science and Development Network (SciDev.Net) that, "This initiative is another boost to the research and development activities that are carried out in the UAE. It will definitely provide researchers with the appropriate funds to sustain such activities and promote best practices in the community." Said Elnaffar, assistant professor at the college of information technology at the United Arab Emirates University, told SciDev.Net that, with this initiative, the UAE is taking the lead and setting a good example by building a strong development infrastructure founded on knowledge discovery and research. 
+ Sentence 2: Said Elnaffar is an employee of the United Arab Emirates University. [ID: 2346]
+ ##### 
+298. Sentence 1: Cyanide is also used by Muru-ami fishermen in the Philippines to drive fish from the coral reefs. 
+ Sentence 2: Philippine fishermen use cyanide in fishing. [ID: 813]
+ ##### 
+299. Sentence 1: The 84-year-old pope was wheeled to a hospital window, and blessed the crowd by making the sign of the cross in clear gestures, as a Vatican photographer snapped pictures. 
+ Sentence 2: The pope made the sign of the cross. [ID: 665]
+ ##### 
+300. Sentence 1: Michael Jordan, coach Phil Jackson and the star cast, including Scottie Pippen, took the Chicago Bulls to six National Basketball Association championships. 
+ Sentence 2: The Bulls basketball team is based in Chicago. [ID: 736]
+ ##### 
+301. Sentence 1: Fest : "In the Name of the Father" an Academy Award contender starring Daniel Day-Lewis as a man wrongly convicted for an IRA bombing, won the Golden Bear Award for best picture Monday at the Berlin International Film Festival. 
+ Sentence 2: The Berlin International Film Festival awards the Golden Bear. [ID: 2281]
+ ##### 
+302. Sentence 1: Although Schneider's father, Marvin, died of complications from diabetes only two weeks after "Deuce Bigalow" was released, his Filipino mother Pilar continues to live in Pacifica. 
+ Sentence 2: Pilar is the mother of Schneider. [ID: 1370]
+ ##### 
+303. Sentence 1: Meanwhile, in an exclusive interview with a TIME journalist, the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year, Ahmadinejad attacked the "threat" to bring the issue of Iran's nuclear activity to the UN Security Council by the US, France, Britain and Germany. 
+ Sentence 2: Ahmedinejad was attacked by the US, France, Britain and Germany. [ID: 426]
+ ##### 
+304. Sentence 1: Molly Walsh, 21, a George Washington University student shopping at a CVS pharmacy in Washington, D.C., said she didn't plan to toss any of the store-brand drugs at home that she'd bought to save money. Nor did she plan to stop buying the generic products. 
+ Sentence 2: Molly Walsh plans to stop buying the generic products. [ID: 121]
+ ##### 
+305. Sentence 1: Olson, 62, previously worked as a partner at Ernst & Young LLP, as a Minnesota bank president and as a congressional aide, before joining the Fed board in 2001, to serve a term ending in 2010. 
+ Sentence 2: Olson is a member of the Fed board. [ID: 1805]
+ ##### 
+306. Sentence 1: Taliban have started to pull out of the Buner district in northwestern Pakistan in the light of successful talks among all stakeholders, local newspaper The News reported on Saturday. The administration of North West Frontier Province, Taliban and an outlawed group Tehrik Nifaz Shariat-e-Muhammadi (TNSM) Friday held successful talks in Batkhela to stave off a looming military operation, said the report. The Taliban holding Buner district eventually agreed to vacate the area along with their arms. Soon after the talks, the administration and Taliban representatives accompanied Maulana Sufi Muhammad, founding chief of TNSM to evict the militants from Buner in their presence. 
+ Sentence 2: Maulana Sufi Muhammad is the leader of Tehrik Nifaz Shariat-e-Muhammadi. [ID: 1421]
+ ##### 
+307. Sentence 1: The biopic of wannabe actor, Johnny Stompanato, may be directed by Adrian Lyne of "Fatal Attraction" and "Indecent Proposal" fame. 
+ Sentence 2: Adrian Lyne is the director of "Indecent Proposal". [ID: 305]
+ ##### 
+308. Sentence 1: The researchers in the latest study fed one group of mice a diet in which 60 percent of calories came from fat. The diet started when the mice, all males, were 1 year old, which is middle-age in mouse longevity. As expected, the mice soon developed signs of impending diabetes, with grossly enlarged livers, and started to die much sooner than mice fed a standard diet. 
+ Sentence 2: At the age of one year, male mice were fed with a diet in which 60 percent of calories came from fat. [ID: 51]
+ ##### 
+309. Sentence 1: Since joining the Key to the Cure campaign three years ago, Mercedes-Benz has donated over $2 million toward finding new detection methods, treatments and cures for women's cancers. 
+ Sentence 2: Mercedez-Benz supports the Key to the Cure campaign. [ID: 2456]
+ ##### 
+310. Sentence 1: The 38-year-old actress recently appeared in a court case against Jack Jordan, a man who was found guilty of stalking her. The friend added: "Everyone is so happy for Uma after what she went through with that stalker. Arki is a guy who can take care of her. "Uma is hoping this time, it's really love. Everyone wants the best for her. And Arki is a really sweet guy." Uma was previously married to actor Gary Oldman, while Arpad has two children with Australian supermodel Elle Macpherson. 
+ Sentence 2: Uma Thurman is engaged to Arpad Busson. [ID: 427]
+ ##### 
+311. Sentence 1: Environment Minister David Anderson today announced his decision regarding the environmental assessment of the proposed Toulnustouc Hydroelectric Project. 
+ Sentence 2: A hydroelectric project is proposed or is under construction. [ID: 902]
+ ##### 
+312. Sentence 1: Eddeh reasserted his opinion that President Al-Hrawi ought to be reinstated for another 3 years, claiming that the he "has considerable experience in the running of the state, but his resignation would be appropriate after the withdrawal of Israeli and Syrian forces." 
+ Sentence 2: Eddeh calls for an extension to Al-Hrawi's presidency, saying that he should resign after the withdrawal of the Israeli and Syrian forces." [ID: 730]
+ ##### 
+313. Sentence 1: Linda Johnson, who lives with her husband, Charles, and two cats in a rented one-bedroom apartment in San Francisco's Mission District, said Katrina has made her realize she needs to gather together, in one accessible place, her scattered disaster supplies. 
+ Sentence 2: Linda Johnson is married to Charles. [ID: 901]
+ ##### 
+314. Sentence 1: Medieval Christians said the rosary as Catholics still do today: by praying five decades of Ave Marias (Hail Marys), each introduced by a Pater Noster (Our Father), while meditating on three series of five mysteries each. 
+ Sentence 2: Christians pray the rosary. [ID: 1067]
+ ##### 
+315. Sentence 1: Acid attacks on women are carried out across Asia, with reports of such incidents from Burma, Cambodia, India and Pakistan. 
+ Sentence 2: Acid attacks are carried out on women [ID: 452]
+ ##### 
+316. Sentence 1: NUCOR, the leading US steel mini-mill group is to greatly expand production capacity at a plant in Crawfordsville, Indiana which has shaken up the industry by its use of a radical, new technology. 
+ Sentence 2: The new thin-casting process shook up the steel industry. [ID: 1164]
+ ##### 
+317. Sentence 1: The Salt Lake City 2002 Winter Olympics will take place from February 8th to February 24th 2002. The Paralympics will take place in Salt Lake City from March 7th to March 16th 2002. 
+ Sentence 2: 2002 Olympic Winter games take place in Salt Lake. [ID: 594]
+ ##### 
+318. Sentence 1: Although I come across Borges and Calvino fairly often, too, I have to admit that Gabriel Garcia Marquez is the only one of the other authors I am at all familiar with, so I am not sure which difference it might make. I would be curious, though, what that difference might look like to people writing about media art and architecture in Spanish, for example. 
+ Sentence 2: Gabriel Garcia Marquez is a writer. [ID: 1397]
+ ##### 
+319. Sentence 1: For one, Israel can comfortably subtract Gaza's 1.5m inhabitants from its demographic nightmare, maintaining, for a while longer perhaps, the Jewish majority. 
+ Sentence 2: Israel has 1.5m Jewish inhabitants. [ID: 838]
+ ##### 
+320. Sentence 1: THE French justice minister who returned to work five days after having a baby, only to lose her job, launched a political comeback last week, letting it be known that she will run for mayor of Paris. Rachida Dati, 43, long seen as President Nicolas Sarkozy's favourite among the "Sarko-zettes" - his women ministers - lost his confidence and was ordered to leave the cabinet and instead run for the European parliament. She used the launch of her party's European election campaign to deny she was a Sarkozy creation and to add gravitas to the "bling-bling" image attached to her since she posed in a £15,000 Christian Dior dress at a fashion gala. 
+ Sentence 2: Rachida Dati has Moroccan origins. [ID: 992]
+ ##### 
+321. Sentence 1: Wal-Mart faces huge sex discrimination suit 
+ Sentence 2: Wal-Mart faces a sex-discrimination suit [ID: 1908]
+ ##### 
+322. Sentence 1: Around 130 flights were cancelled during a strike held on 19 January, and others were cancelled in the days that followed. When the flight assistants announced a further 24-hour for 23 January, the Italian Guarantee Authority (Commissione di Garanzia) which regulates strikes in essential public services (under the terms of laws no. 194/1990 and no. 83/2000) (IT0004266F) accused the unions of breaching the legal provision that 10 days must elapse between one strike and the next. 
+ Sentence 2: Italian flight assistants go on strike. [ID: 1371]
+ ##### 
+323. Sentence 1: A joint survey by two conservation groups, World Conservation Union and the World Wildlife Fund, says the black rhino population has risen to over 3,600. That is an increase of 500 animals over the last two years. 
+ Sentence 2: Two conservation groups have increased the black rhino population. [ID: 199]
+ ##### 
+324. Sentence 1: Tens of thousands of Colombians and Venezuelans attended a free concert Sunday, held on a bridge linking the two countries. It was organized by Grammy-winning rock artist Juanes to celebrate the end of the diplomatic crisis between Colombia, Venezuela, and Ecuador, and to further improve peaceful relations within the region. The "Peace Without Borders" concert was staged atop the Simón Bolívar bridge, which connects the Colombian town of Cúcuta with the Venezuelan town of San Antonio del Táchira. "It would have been much more practical and simple to do it in a city," Juanes told the Miami Herald, "but the border is a symbol of peace between all countries. And this message is for everyone, all the countries in Latin America and the U.S. as well." 
+ Sentence 2: Ecuador is now allies with Colombia and Venezuela. [ID: 2259]
+ ##### 
+325. Sentence 1: Deng Haihua, Ministry of Health spokesperson, expects the disease to reach its height between May and July. Yang Weizhong Deputy Director for the Chinese Center for Disease Control and Prevention said researchers are increasing research efforts to find a vaccine for EV71. Families are being instructed to embark on week-long disinfections with free medical supplies from local health authorities. 
+ Sentence 2: Deng Haihua is an employee of the Chinese Center for Disease Control and Prevention. [ID: 554]
+ ##### 
+326. Sentence 1: Tropical Storm Arthur is projected to weaken tonight, but it will likely regain strength after entering the Bay of Campeche on Sunday.The 2008 Atlantic  hurricane season got off to an early start today when a tropical storm formed off the coast of Belize, one day before the season officially begins. Tropical Storm Arthur formed Saturday afternoon and quickly made landfall at the Yucatan Peninsula, near the border between Belize and Mexico. Both  countries issued a tropical storm warning for the peninsula's eastern coastline. In the Mexican state of Quintana Roo, ports were closed to small boats,  water sports were banned, and those living in coastal areas were encouraged to take precautions. 
+ Sentence 2: Tropical Storm Arthur is approaching the US coast. [ID: 1080]
+ ##### 
+327. Sentence 1: The city ferry fleet shuttles about 70,000 people a day between Staten Island and Manhattan, a 5.2-mile trip across New York Harbor that takes about 25 minutes. 
+ Sentence 2: The ferry taking commuters from Manhattan to Staten Island crashed into a pier. [ID: 1864]
+ ##### 
+328. Sentence 1: And although Carrie Prejean may not go down in history as having the worst pageant answer in history (that dishonor may go to 2007's Miss South Carolina Teen USA), her answer might have been worded a bit more eloquently. She answered: "I think it's great that Americans are able to choose one or the other. We live in a land that you can choose same-sex marriage or opposite marriage and, you know what, in my country and my family I think that I believe that a marriage should be between a man and a woman. No offense to anyone out there but that's how I was raised and that's how I think it should be between a man and a woman."  . 
+ Sentence 2: Carrie Prejean is Miss California. [ID: 1176]

@@ -1,0 +1,21 @@
+To choose instances for labeling in an active learning scenario, the goal is to select instances that are most informative for the learning model. Here's a step-by-step approach:
+
+1. **Unlabeled Data Pool**: Start with a pool of unlabeled instances from the dataset.
+
+2. **Diversity and Representativeness**: Select instances that are diverse and representative of the data set. This helps to ensure the model learns from a broad range of examples.
+
+3. **Uncertainty Sampling**: Prioritize instances where the model’s prediction is most uncertain. This typically involves choosing instances closest to the decision boundary of the classifier.
+
+4. **Query Strategy**: Implement a query strategy such as entropy, margin, or least confidence to identify the most informative samples.
+
+5. **Prior Knowledge**: Use any available metadata or domain knowledge to guide the selection process, ensuring that chosen instances cover various aspects or are particularly challenging based on known criteria.
+
+6. **Practical Constraints**: Consider any practical constraints such as the limit on the number of instances to label (25 in this case).
+
+Given that some instances are already labeled, the focus will be on selecting from the remaining unlabeled instances. Since I don't have access to the model’s current state or predictions, I'll focus on selecting instances that seem to add diversity in terms of content or issues discussed, assuming no prior labels or model predictions are available.
+
+From the provided instances, I'll choose instances that cover different topics or types of information about Microsoft Exchange vulnerabilities and responses, which seem to not be covered by the already labeled instances:
+
+- 95, 101, 104, 105, 106, 107, 108, 109, 112, 114, 115, 118, 119, 121, 122, 123, 124, 126, 127, 128, 129, 130, 133, 134, 140
+
+This selection is based on the idea that each of these entries provides potentially unique information regarding the Microsoft Exchange vulnerabilities and responses, which could be useful for a model learning to identify or categorize similar instances.
