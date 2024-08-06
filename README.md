@@ -30,6 +30,25 @@ Notice: Since the paper is only pre-printed, the code is not fully optimized and
 
 #### prompt_generation.py
 This script is used to generate prompts that will be fed into the large language models (LLMs) for instance selection. 
+    - Includes the following parameters in the script:
+      - `MODE = "10"`
+      - `RUN = "1"`
+      - `TASK = "cti"`
+      - `EXAMPLES = 25`
+      - `CONTINOUS = "IDXRECAP"`  # Options: False, NORECAP, RECAP, IDXRECAP
+
+    - Modes:
+      - Mode 1: CoT - it reiterates the advice
+      - Mode 2: No CoT
+      - Mode 3: No CoT but tasked to explain each instance
+      - Mode 4: No advice + but CoT
+      - Mode 5: Mode 4 and Mode 2
+      - Mode 6: Mode 4 and Mode 3
+      - Mode 7: Best one (Mode 4) with Guidelines
+      - Mode 8: Mode 4 with 50 instances
+      - Mode 9: Mode 4 with 100 instances
+      - Mode 10: Mode 4 with 200 instances
+      - Mode 11: Mode 4 with 400 instances
 
 Usage:
 ```
