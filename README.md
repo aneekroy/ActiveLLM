@@ -67,7 +67,7 @@ python model_training.py --task <task_name> --mode <mode_name> --run <run_number
 This script automates the execution of `model_training.py` with various parameters to facilitate extensive experimentation.
 
 Content:
-```python
+```
 # run model_training.py multiple times with different run parameters
 import subprocess
 
@@ -89,9 +89,6 @@ for task in TASK:
 
 To run the scripts, ensure you have all necessary dependencies installed. You can install the required packages using:
 
-```bash
-pip install -r requirements.txt
-```
 
 ## Citation
 
@@ -108,11 +105,6 @@ If you use this code in your research, please cite our paper:
       url={https://arxiv.org/abs/2405.10808}, 
 }
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or issues, please contact [Markus Bayer](mailto:markus.bayer@example.com) or [Christian Reuter](mailto:christian.reuter@example.com).
+For any questions or issues, please contact [Markus Bayer](mailto:markus.bayer@example.com).
