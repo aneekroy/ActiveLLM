@@ -85,11 +85,6 @@ for task in TASK:
                 subprocess.call(["python", "model_training.py", "--task", task, "--mode", mode, "--run", run, "--modelclass", MODELCLASS, "--activelearning", activelearning, "--warmstart", WARMSTART])
 ```
 
-## Getting Started
-
-To run the scripts, ensure you have all necessary dependencies installed. You can install the required packages using:
-
-
 ## Citation
 
 If you use this code in your research, please cite our paper:
