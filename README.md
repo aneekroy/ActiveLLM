@@ -56,6 +56,7 @@ python prompt_generation.py
 ```
 
 Results:
+
 The results have to be retrieved from the chat models and saved in `answers/<dataset_name>/<chat_model_name>/answer_<#run>.txt` and the manually extracted label list in
  `/<dataset_name>/<chat_model_name>/list_<#run>.txt` - see the existing files for reference
 
@@ -75,12 +76,12 @@ Content:
 # run model_training.py multiple times with different run parameters
 import subprocess
 
-TASK = ["sst2_25_cont_index_recap_1", "sst2_25_cont_index_recap_2", "sst2_25_cont_index_recap_3", "sst2_25_cont_index_recap_4", "sst2_25_cont_index_recap_5", "sst2_25_cont_index_recap_6", "sst2_25_cont_index_recap_7", "sst2_25_cont_index_recap_8", "sst2_25_cont_index_recap_9", "sst2_25_cont_index_recap_10", "sst2_25_cont_index_recap_11", "sst2_25_cont_index_recap_12"] 
-MODES = ["smalltext_warmstart"]
+TASK = ["sst2"] 
+MODES = ["10"]
 RUNS = ["1"]
 MODELCLASS = "default"
-ACTIVELEARNING = ["PredictionEntropy"]
-WARMSTART = "True"
+ACTIVELEARNING = ["None"]
+WARMSTART = "False"
 
 for task in TASK:
     for mode in MODES:
