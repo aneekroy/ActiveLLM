@@ -8,7 +8,7 @@ We demonstrate that ActiveLLM significantly enhances the classification performa
 
 This repository contains the experimental code and results (including prompts and answers) used for the ActiveLLM experiments as described in the paper by Markus Bayer and Christian Reuter.
 
-Notice: Since the paper is only pre-printed, the code is not fully optimized and may contain some bugs.
+Notice: Since the paper is only pre-printed, the code is not fully optimized, where some manual steps have to be performed, and the scripts may contain some bugs.
 
 ### Directory Structure
 
@@ -54,6 +54,10 @@ Usage:
 ```
 python prompt_generation.py
 ```
+
+Results:
+The results have to be retrieved from the chat models and saved in `answers/<dataset_name>/<chat_model_name>/answer_<#run>.txt` and the manually extracted label list in
+ `/<dataset_name>/<chat_model_name>/list_<#run>.txt` - see the existing files for reference
 
 #### model_training.py
 This script trains a BERT model based on the instances selected by the LLM. The model is trained in a few-shot learning setup to evaluate the performance enhancement brought by ActiveLLM.
