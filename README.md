@@ -4,6 +4,10 @@ Active learning is designed to minimize annotation efforts by prioritizing insta
 
 We demonstrate that ActiveLLM significantly enhances the classification performance of BERT classifiers in few-shot scenarios, outperforming both traditional active learning methods and the few-shot learning method SetFit. Additionally, ActiveLLM can be extended to non-few-shot scenarios, allowing for iterative selections. In this way, ActiveLLM can even help other active learning strategies to overcome their cold start problem. Our results suggest that ActiveLLM offers a promising solution for improving model performance across various learning setups.
 
+## Contact and Support
+
+If you have any questions, need access to datasets or the complete research data, or if you encounter any bugs, please feel free to contact me!
+
 ## Repository Overview
 
 This repository contains the experimental code and results (including prompts and answers) used for the ActiveLLM experiments as described in the paper by Markus Bayer and Christian Reuter.
