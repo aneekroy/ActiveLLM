@@ -1,11 +1,11 @@
 # run model_training.py multiple times with different run parameters
 import subprocess
 
-TASK = ["rte"]
+TASK = ["gsm8k_main"]
 MODES = ["llama_3_100"]
 RUNS = ["1"]
 MODELCLASS = "default"
-ACTIVELEARNING = ["None"]
+ACTIVELEARNING = ["random_filtering"]
 WARMSTART = ""
 
 # TASK = ["sst2_25_cont_index_recap_2"] # continous sampling naming: sst2_25_cont_index_recap_4 -> 25 samples, start with 4th iteration (after 100 instances)

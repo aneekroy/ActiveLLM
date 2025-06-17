@@ -449,6 +449,12 @@ def read_dataset(shuffled=False):
                             "label": "label",
                         }
                     )
+            elif TASK == "gsm8k_main":
+                dataset = load_dataset("gsm8k", "main")
+                df_train = dataset["train"].to_pandas()
+                df_train = df_train.rename(
+                    columns={"question": "text", "answer": "label"}
+                )
             else:
                 dataset = load_dataset("SetFit/" + TASK)
                 # convert to pandas dataframe
