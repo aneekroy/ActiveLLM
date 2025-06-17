@@ -9,6 +9,7 @@ from small_text_modelclass import SmallTextModelClass
 import os
 import logging
 import datetime
+import random
 
 os.environ["WANDB_DISABLED"] = "true"
 dir = os.path.dirname(os.path.abspath(__file__))
@@ -114,12 +115,27 @@ logging.basicConfig(
 
 def read_dataset(shuffled=False):
     if shuffled == False:
-        df_train = pd.read_csv("data/" + TASK + "/df_train_full.csv")
+        df_train_path = os.path.join("data", TASK, "df_train_full.csv")
     else:
         print("Reading shuffled dataset")
-        df_train = pd.read_csv(
-            "data/" + TASK + "/df_train_full_shuffled_" + str(shuffled) + ".csv"
+        df_train_path = os.path.join(
+            "data",
+            TASK,
+            "df_train_full_shuffled_" + str(shuffled) + ".csv",
         )
+
+    if os.path.isfile(df_train_path):
+        df_train = pd.read_csv(df_train_path)
+    elif TASK == "gsm8k_main":
+        dataset = load_dataset("gsm8k", "main")
+        df_train = dataset["train"].to_pandas()
+        df_train = df_train.rename(columns={"question": "text", "answer": "label"})
+        df_train["index"] = df_train.index
+        df_train = df_train.sample(frac=1).reset_index(drop=True)
+        os.makedirs(os.path.dirname(df_train_path), exist_ok=True)
+        df_train.to_csv(df_train_path, index=False)
+    else:
+        raise FileNotFoundError(f"Dataset file {df_train_path} not found")
 
     # load test data
     if (
@@ -138,6 +154,9 @@ def read_dataset(shuffled=False):
         df_test = load_dataset(
             "SetFit/" + "_".join(TASK.split("_")[:-1]), split="test"
         ).to_pandas()
+    elif TASK == "gsm8k_main":
+        df_test = load_dataset("gsm8k", "main", split="test").to_pandas()
+        df_test = df_test.rename(columns={"question": "text", "answer": "label"})
     else:
         if "sst2" in TASK:
             df_test = load_dataset(
@@ -175,6 +194,8 @@ def read_dataset(shuffled=False):
 # read active learning instances
 if MODE == "baseline":
     actively_learned_instances = list(range(0, EXAMPLES * CONT_ITER))
+elif ACTIVELEARNING == "random_filtering":
+    actively_learned_instances = []
 else:
 
     # if it is smalltext evaluation
@@ -227,6 +248,11 @@ else:
 
 
 df_train, df_test = read_dataset(shuffled=RUN)
+
+if ACTIVELEARNING == "random_filtering":
+    actively_learned_instances = random.sample(
+        range(len(df_train)), EXAMPLES * CONT_ITER
+    )
 
 if (
     TASK == "qqp"
